@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+
+# Temporary files
+*.tmp
+*.log
+sample_data.txt
+
+# Keep the master CSV for direct download, but ignore intermediate files
+sources/ieee_oui.csv
+sources/wireshark_manuf.txt
+sources/nmap_prefixes.txt
+
+# Keep all output files - these are what users want!
+# output/ folder will be committed
