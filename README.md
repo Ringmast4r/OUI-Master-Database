@@ -1,34 +1,41 @@
-# OUI Master Database 🌐
+# OUI Master Database
 
-**The most comprehensive MAC address manufacturer lookup database - 49,059+ vendors from IEEE, Nmap, and Wireshark**
+**The most comprehensive MAC address manufacturer lookup database - 85,905+ vendors from IEEE, Nmap, and Wireshark**
 
 One master list to rule them all.
 
-[![OUI Count](https://img.shields.io/badge/OUIs-49%2C059-blue)](output/master_oui.csv)
-[![Database Size](https://img.shields.io/badge/Size-3.53%20MB-green)](output/master_oui.csv)
-[![License](https://img.shields.io/badge/License-Public%20Domain-yellow)](#license)
+[![OUI Count](https://img.shields.io/badge/OUIs-85%2C905-blue)](LISTS/master_oui.csv)
+[![Formats](https://img.shields.io/badge/Formats-8-green)](#-available-formats)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](#license)
 [![Updates](https://img.shields.io/badge/Updates-Monthly-orange)](#update-schedule)
 
 ---
 
-## 🚀 Quick Download
+## Quick Download
 
-**Just want the data? Download the master CSV directly:**
+**Just want the data? Download directly:**
 
-📥 **[Download master_oui.csv (3.53 MB)](output/master_oui.csv)** - Right-click → Save As
+| Format | Size | Best For | Download |
+|--------|------|----------|----------|
+| **TXT** | 2.5 MB | grep/awk, legacy tools | [master_oui.txt](LISTS/master_oui.txt) |
+| **CSV** | 8.4 MB | Spreadsheets, full data | [master_oui.csv](LISTS/master_oui.csv) |
+| **TSV** | 4.9 MB | Excel/Sheets import | [master_oui.tsv](LISTS/master_oui.tsv) |
+| **JSON** | 17 MB | APIs, human-readable | [master_oui.json](LISTS/master_oui.json) |
+| **JSON (compact)** | 12 MB | Scripts, fast loading | [master_oui.min.json](LISTS/master_oui.min.json) |
+| **XML** | 16 MB | Enterprise/Java apps | [master_oui.xml](LISTS/master_oui.xml) |
+| **SQLite** | 16 MB | Ready-to-query database | [master_oui.db](LISTS/master_oui.db) |
+| **SQL** | 11 MB | Database import script | [import-to-d1.sql](LISTS/import-to-d1.sql) |
 
-Or use raw GitHub URL:
+**Raw GitHub URLs:**
 ```
-https://raw.githubusercontent.com/Ringmast4r/OUI-Master-Database/main/output/master_oui.csv
+https://raw.githubusercontent.com/Ringmast4r/OUI-Master-Database/main/LISTS/master_oui.csv
+https://raw.githubusercontent.com/Ringmast4r/OUI-Master-Database/main/LISTS/master_oui.json
+https://raw.githubusercontent.com/Ringmast4r/OUI-Master-Database/main/LISTS/master_oui.txt
 ```
-
-**Alternative formats:**
-- [master_oui.json](output/master_oui.json) - JSON format (8.49 MB)
-- [import-to-d1.sql](output/import-to-d1.sql) - SQL format (4.71 MB)
 
 ---
 
-## 📖 What is an OUI?
+## What is an OUI?
 
 **OUI = Organizationally Unique Identifier**
 
@@ -44,50 +51,112 @@ Manufacturer: Hewlett Packard
 ```
 
 ### Why This Matters:
-- 🔍 **Device Identification:** Know if a WiFi network is from Apple, Samsung, Cisco, etc.
-- 🛡️ **Security Analysis:** Identify rogue devices on your network
-- 🗺️ **Network Mapping:** Categorize devices by manufacturer
-- 📡 **Wardriving:** Identify access points and their vendors
-- 🏠 **IoT Discovery:** Find all smart home devices
+- **Device Identification:** Know if a WiFi network is from Apple, Samsung, Cisco, etc.
+- **Security Analysis:** Identify rogue devices on your network
+- **Network Mapping:** Categorize devices by manufacturer
+- **Wardriving:** Identify access points and their vendors
+- **IoT Discovery:** Find all smart home devices
 
 ---
 
-## 📊 Database Sources
+## Database Sources
 
-This project combines **3 major OUI databases** into one master list:
+This project combines **all IEEE registries** plus community databases:
 
-| Source | Entries | Update Frequency |
-|--------|---------|------------------|
-| **IEEE Registration Authority** | 25,103 | Monthly (~500-1000 new OUIs) |
-| **Nmap MAC Prefixes** | 49,058 | Monthly (maintained by Nmap team) |
-| **Wireshark Manufacturer DB** | ~30,000+ | Weekly (Wireshark team) |
+### IEEE Official Registries
+| Registry | Entries | Description |
+|----------|---------|-------------|
+| **MA-L** (Large) | 38,545 | Traditional 24-bit OUI (~16M addresses each) |
+| **MA-M** (Medium) | 6,154 | 28-bit blocks (~1M addresses each) |
+| **MA-S** (Small) | 6,807 | 36-bit blocks (~4K addresses each) |
+| **IAB** (Individual) | 4,575 | Individual Address Blocks (legacy) |
+| **CID** (Company ID) | 208 | Company identifiers |
+| **IEEE Total** | **56,289** | |
 
-**Total Unique OUIs:** **49,059** (after deduplication)
-**Merged Entries:** 25,099 (verified from multiple sources)
+### Community Sources
+| Source | Entries | Description |
+|--------|---------|-------------|
+| **Wireshark** | 55,825 | Cross-validated with short names |
+| **Nmap** | 49,058 | Community-discovered vendors |
+
+### Final Results
+| Metric | Count |
+|--------|-------|
+| **Total Unique OUIs** | **85,905** |
+| **Merged Entries** | 75,267 (verified from multiple sources) |
 
 ---
 
-## 📋 CSV Format
+## Available Formats
 
+### 1. TXT - Simple Format
+```
+# Format: OUI<tab>Manufacturer
+286FB9	Nokia Shanghai Bell Co., Ltd.
+08EA44	Extreme Networks Headquarters
+```
+Best for: `grep`, `awk`, legacy tools, minimal footprint
+
+### 2. CSV - Full Data
 ```csv
 oui,manufacturer,registry,short_name,device_type,address,sources
-3C:D9:2B,"Hewlett Packard",MA-L,,,"11445 Compaq Center Drive Houston US 77070",IEEE+Nmap
-00:1A:2B,"Apple Inc",MA-L,Apple,Phone,"1 Infinite Loop Cupertino CA 95014",IEEE+Nmap+Wireshark
-00:50:BA,"D-Link Corporation",MA-L,D-Link,Router,"2F, NO. 233L-2, PAO-CHIAO RD. TAIPEI TW",IEEE+Nmap
+28:6F:B9,"Nokia Shanghai Bell Co., Ltd.",MA-L,NokiaShangha,,"Shanghai CN",IEEE+Wireshark+Nmap
+```
+Best for: Spreadsheets, databases, full address data
+
+### 3. TSV - Tab-Separated
+```
+OUI	Manufacturer	Registry	Short_Name	Sources
+28:6F:B9	Nokia Shanghai Bell Co., Ltd.	MA-L	NokiaShangha	IEEE+Wireshark+Nmap
+```
+Best for: Excel/Google Sheets (no CSV quoting issues)
+
+### 4. JSON - Pretty Printed
+```json
+{
+  "28:6F:B9": {
+    "manufacturer": "Nokia Shanghai Bell Co., Ltd.",
+    "registry": "MA-L",
+    "short_name": "NokiaShangha",
+    "sources": ["IEEE", "Wireshark", "Nmap"]
+  }
+}
+```
+Best for: APIs, human-readable config files
+
+### 5. JSON (Compact) - Single Line
+Same as JSON but minified for faster loading in scripts.
+
+### 6. XML - Enterprise Format
+```xml
+<oui_database>
+  <entry>
+    <oui>28:6F:B9</oui>
+    <manufacturer>Nokia Shanghai Bell Co., Ltd.</manufacturer>
+    <registry>MA-L</registry>
+    <sources>IEEE,Wireshark,Nmap</sources>
+  </entry>
+</oui_database>
+```
+Best for: Java applications, enterprise systems, XSLT transforms
+
+### 7. SQLite - Ready to Query
+Pre-built database file with indexes. Just download and query:
+```bash
+sqlite3 LISTS/master_oui.db "SELECT * FROM oui_registry WHERE oui = '28:6F:B9'"
+sqlite3 LISTS/master_oui.db "SELECT * FROM oui_registry WHERE manufacturer LIKE '%Apple%'"
 ```
 
-**Columns:**
-- `oui` - MAC prefix in XX:XX:XX format
-- `manufacturer` - Full vendor name
-- `registry` - MA-L (24-bit), MA-M (28-bit), MA-S (36-bit)
-- `short_name` - Abbreviated name (if available)
-- `device_type` - Router/Switch/AP/Phone/Printer (if available)
-- `address` - Company address
-- `sources` - Which database(s) it came from (IEEE/Nmap/Wireshark)
+### 8. SQL - Import Script
+```sql
+CREATE TABLE oui_registry (...);
+INSERT INTO oui_registry VALUES ...;
+```
+Best for: PostgreSQL, MySQL, Cloudflare D1, custom databases
 
 ---
 
-## 🛠️ Generate Fresh Database
+## Generate Fresh Database
 
 ### Requirements:
 - Node.js 14+
@@ -98,74 +167,71 @@ oui,manufacturer,registry,short_name,device_type,address,sources
 ```bash
 git clone https://github.com/Ringmast4r/OUI-Master-Database.git
 cd OUI-Master-Database
+npm install
 ```
 
 ### Step 2: Download Latest Sources
 ```bash
 bash download-sources.sh
 ```
-Downloads from IEEE, Wireshark, and Nmap (~10 MB total).
+Downloads from IEEE (all 5 registries), Wireshark, and Nmap.
 
 ### Step 3: Merge into Master Database
 ```bash
 node merge-oui-databases.js
 ```
 
-### Step 4: Use the Master Database
-```bash
-# CSV format (spreadsheets/databases)
-cat output/master_oui.csv
-
-# JSON format (APIs/applications)
-cat output/master_oui.json
-
-# SQL format (Cloudflare D1/SQLite/PostgreSQL)
-cat output/import-to-d1.sql
-```
-
 **Windows users:** Just double-click **`update-database.bat`**
 
 ---
 
-## 💻 Usage Examples
+## Usage Examples
 
-### 1. Command Line Lookup
+### 1. Command Line Lookup (TXT format)
 ```bash
-# Look up manufacturer from MAC address
-MAC="3C:D9:2B:12:34:56"
-OUI="${MAC:0:8}"
-grep "^$OUI," output/master_oui.csv
+# Simple grep lookup
+grep "3CD92B" LISTS/master_oui.txt
 
 # Find all Apple devices
-grep -i "apple" output/master_oui.csv
+grep -i "apple" LISTS/master_oui.txt | head -20
 
-# Count total manufacturers
-wc -l output/master_oui.csv
+# Count entries
+wc -l LISTS/master_oui.txt
 ```
 
-### 2. Python Script
+### 2. SQLite Direct Query
+```bash
+# Lookup by OUI
+sqlite3 LISTS/master_oui.db "SELECT manufacturer FROM oui_registry WHERE oui = '3C:D9:2B'"
+
+# Find all Cisco devices
+sqlite3 LISTS/master_oui.db "SELECT oui, manufacturer FROM oui_registry WHERE manufacturer LIKE '%Cisco%'"
+
+# Count by registry type
+sqlite3 LISTS/master_oui.db "SELECT registry, COUNT(*) FROM oui_registry GROUP BY registry"
+```
+
+### 3. Python Script
 ```python
-import csv
+import json
 
 # Load OUI database
-oui_db = {}
-with open('output/master_oui.csv') as f:
-    reader = csv.DictReader(f)
-    for row in reader:
-        oui_db[row['oui']] = row['manufacturer']
+with open('LISTS/master_oui.min.json') as f:
+    oui_db = json.load(f)
 
 # Lookup function
 def identify_device(mac):
     oui = mac[:8].upper()
-    return oui_db.get(oui, 'Unknown')
+    entry = oui_db.get(oui, {})
+    return entry.get('manufacturer', 'Unknown')
 
 print(identify_device('3C:D9:2B:12:34:56'))
 # Output: Hewlett Packard
 ```
 
-### 3. JavaScript / Node.js
+### 4. JavaScript / Node.js
 ```javascript
-const ouiDB = require('./output/master_oui.json');
+const ouiDB = require('./LISTS/master_oui.json');
 
 function lookupManufacturer(mac) {
     const oui = mac.substring(0, 8).toUpperCase();
@@ -176,30 +242,30 @@ console.log(lookupManufacturer('3C:D9:2B:12:34:56'));
 // { manufacturer: 'Hewlett Packard', registry: 'MA-L', sources: ['IEEE', 'Nmap'] }
 ```
 
-### 4. SQL Database Import
+### 5. SQL Database Import
 ```bash
 # SQLite
-sqlite3 mydb.sqlite < output/import-to-d1.sql
+sqlite3 mydb.sqlite < LISTS/import-to-d1.sql
 
 # PostgreSQL
-psql mydb < output/import-to-d1.sql
+psql mydb < LISTS/import-to-d1.sql
 
 # Cloudflare D1
-npx wrangler d1 execute wardrive-db --remote --file=output/import-to-d1.sql
+npx wrangler d1 execute my-db --remote --file=LISTS/import-to-d1.sql
 ```
 
-### 5. Direct URL Access (curl/wget)
+### 6. curl/wget Direct Access
 ```bash
-# Download latest master CSV
-curl -O https://raw.githubusercontent.com/Ringmast4r/OUI-Master-Database/main/output/master_oui.csv
+# Download latest
+curl -O https://raw.githubusercontent.com/Ringmast4r/OUI-Master-Database/main/LISTS/master_oui.txt
 
-# Use in scripts
-curl -s https://raw.githubusercontent.com/Ringmast4r/OUI-Master-Database/main/output/master_oui.csv | grep "3C:D9:2B"
+# Lookup in one command
+curl -s https://raw.githubusercontent.com/Ringmast4r/OUI-Master-Database/main/LISTS/master_oui.txt | grep "3CD92B"
 ```
 
 ---
 
-## 🔄 Update Schedule
+## Update Schedule
 
 **Recommended:** Run monthly to stay current with new OUI assignments.
 
@@ -209,59 +275,45 @@ curl -s https://raw.githubusercontent.com/Ringmast4r/OUI-Master-Database/main/ou
 0 0 1 * * cd /path/to/OUI-Master-Database && bash download-sources.sh && node merge-oui-databases.js
 ```
 
-### Manual Update
-```bash
-cd OUI-Master-Database
-bash download-sources.sh
-node merge-oui-databases.js
-```
-
 **IEEE assigns ~500-1000 new OUIs per month**, so monthly updates recommended.
 
 ---
 
-## 📈 Database Statistics
-
-```
-Total Unique OUIs:     49,059 manufacturers
-IEEE Official:         25,103 entries
-Nmap Database:         49,058 entries
-Wireshark Database:    0 entries (download issue - will fix)
-Merged Entries:        25,099 (same OUI from multiple sources)
-
-Output Files:
-  master_oui.csv       3.53 MB
-  master_oui.json      8.49 MB
-  import-to-d1.sql     4.71 MB
-```
-
----
-
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 OUI-Master-Database/
 ├── README.md                    # This file
 ├── QUICK-START.md              # Quick start guide
-├── download-sources.sh          # Download all 3 databases
-├── merge-oui-databases.js       # Merge into single master list
-├── update-database.bat          # Windows double-click updater
+├── download-sources.sh          # Download all databases
+├── merge-oui-databases.js       # Merge into master list
+├── update-database.bat          # Windows updater
+├── package.json                 # Node.js dependencies
 │
-├── sources/                     # Raw downloaded databases (not committed)
-│   ├── ieee_oui.csv            # Official IEEE data
+├── sources/                     # Raw downloaded databases (gitignored)
+│   ├── ieee_mal.csv            # IEEE MA-L (Large)
+│   ├── ieee_mam.csv            # IEEE MA-M (Medium)
+│   ├── ieee_mas.csv            # IEEE MA-S (Small)
+│   ├── ieee_iab.csv            # IEEE IAB
+│   ├── ieee_cid.csv            # IEEE CID
 │   ├── wireshark_manuf.txt     # Wireshark database
 │   └── nmap_prefixes.txt       # Nmap database
 │
-└── output/                      # Generated master files (committed!)
-    ├── master_oui.csv          # ⭐ MASTER CSV (49,059 OUIs)
-    ├── master_oui.json         # ⭐ MASTER JSON (49,059 OUIs)
-    ├── import-to-d1.sql        # ⭐ SQL for database import
+└── LISTS/                       # Generated master files
+    ├── master_oui.txt          # Simple format (2.5 MB)
+    ├── master_oui.csv          # Full CSV (8.4 MB)
+    ├── master_oui.tsv          # Tab-separated (4.9 MB)
+    ├── master_oui.json         # Pretty JSON (17 MB)
+    ├── master_oui.min.json     # Compact JSON (12 MB)
+    ├── master_oui.xml          # XML format (16 MB)
+    ├── master_oui.db           # SQLite database (16 MB)
+    ├── import-to-d1.sql        # SQL import script (11 MB)
     └── stats.txt               # Merge statistics
 ```
 
 ---
 
-## 🎯 Use Cases
+## Use Cases
 
 ### Network Security
 - Identify unauthorized devices on your network
@@ -285,33 +337,30 @@ OUI-Master-Database/
 
 ---
 
-## 🌐 Data Sources & Credits
+## Data Sources & Credits
 
-### 1. IEEE Registration Authority (Official)
+### IEEE Registration Authority (Official)
 - **Source:** https://standards-oui.ieee.org/
-- **Mirror:** https://github.com/TakahikoKawasaki/nv-oui
 - **License:** Public domain
-- **Entries:** 25,103 official OUI assignments
+- **Registries:** MA-L, MA-M, MA-S, IAB, CID
 
-### 2. Nmap MAC Prefixes
+### Nmap MAC Prefixes
 - **Source:** https://github.com/nmap/nmap/raw/master/nmap-mac-prefixes
 - **License:** Modified GPLv2
-- **Entries:** 49,058 with device type hints
 - **Maintained by:** Nmap Project
 
-### 3. Wireshark Manufacturer Database
-- **Source:** https://gitlab.com/wireshark/wireshark/-/raw/master/manuf
+### Wireshark Manufacturer Database
+- **Source:** https://www.wireshark.org/download/automated/data/manuf.gz
 - **License:** GPLv2
-- **Entries:** ~30,000+ (includes private/custom OUIs)
 - **Maintained by:** Wireshark Team
 
 ---
 
-## 📝 License
+## License
 
 - **IEEE Data:** Public domain (official registry)
-- **Wireshark Data:** GPLv2 (https://gitlab.com/wireshark/wireshark/-/blob/master/manuf)
-- **Nmap Data:** Modified GPLv2 (https://github.com/nmap/nmap)
+- **Wireshark Data:** GPLv2
+- **Nmap Data:** Modified GPLv2
 - **This Project:** MIT License
 
 **You are free to:**
@@ -321,14 +370,9 @@ OUI-Master-Database/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Want to add more OUI sources or improve the scripts? PRs welcome!
-
-**Potential additional sources:**
-- DeepMAC (https://github.com/hdm/mac-ages)
-- MAC Vendor Lookup API
-- Custom enterprise OUI assignments
 
 **How to contribute:**
 1. Fork the repository
@@ -337,40 +381,28 @@ Want to add more OUI sources or improve the scripts? PRs welcome!
 
 ---
 
-## ⭐ Star This Project
-
-If you find this useful, please star the repository!
-
----
-
-## 📞 Support
+## Support
 
 - **Issues:** https://github.com/Ringmast4r/OUI-Master-Database/issues
 - **Pull Requests:** https://github.com/Ringmast4r/OUI-Master-Database/pulls
 
 ---
 
-## 🔗 Related Projects
+## Related Projects
 
-- **WiFi Mothership:** https://wifimothership.com/ - Global wardriving network (uses this database!)
+- **WiFi Mothership:** https://wifimothership.com/ - Global wardriving network
 - **Wireshark:** https://www.wireshark.org/
 - **Nmap:** https://nmap.org/
 
 ---
 
-**Last Updated:** 2025-11-07
-**Total OUIs:** 49,059+
-**Next Update:** 2025-12-01 (monthly)
+**Last Updated:** 2025-12-11
+**Total OUIs:** 85,905+
+**Formats Available:** 8
 **Maintained by:** [@Ringmast4r](https://github.com/Ringmast4r)
 
 ---
 
-## 📊 Quick Stats Badge
-
-![OUI Count](https://img.shields.io/badge/OUIs-49%2C059-blue)
-![Database Size](https://img.shields.io/badge/Size-3.53%20MB-green)
+![OUI Count](https://img.shields.io/badge/OUIs-85%2C905-blue)
+![Formats](https://img.shields.io/badge/Formats-8-green)
 ![Updates](https://img.shields.io/badge/Updates-Monthly-orange)
-
----
-
-**Download now:** [master_oui.csv](output/master_oui.csv) | [master_oui.json](output/master_oui.json) | [import-to-d1.sql](output/import-to-d1.sql)

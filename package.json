@@ -1,0 +1,24 @@
+{
+  "name": "oui-master-database",
+  "version": "1.0.0",
+  "description": "**The most comprehensive MAC address manufacturer lookup database - 49,059+ vendors from IEEE, Nmap, and Wireshark**",
+  "main": "merge-oui-databases.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ringmast4r/OUI-Master-Database.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ringmast4r/OUI-Master-Database/issues"
+  },
+  "homepage": "https://github.com/Ringmast4r/OUI-Master-Database#readme",
+  "dependencies": {
+    "better-sqlite3": "^12.5.0"
+  }
+}
