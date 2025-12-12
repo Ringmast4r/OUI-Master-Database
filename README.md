@@ -12,6 +12,8 @@ One master list to rule them all.
 [![Formats](https://img.shields.io/badge/Formats-8-green)](#-available-formats)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](#license)
 [![Updates](https://img.shields.io/badge/Updates-Monthly-orange)](#update-schedule)
+![Repo Size](https://img.shields.io/github/repo-size/Ringmast4r/OUI-Master-Database)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Ringmast4r.OUI-Master-Database)
 
 ---
 
