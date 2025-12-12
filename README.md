@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="OUI Master Database.png" alt="OUI Master Database Logo" width="300">
+</p>
+
 # OUI Master Database
 
 **The most comprehensive MAC address manufacturer lookup database - 85,905+ vendors from IEEE, Nmap, and Wireshark**
