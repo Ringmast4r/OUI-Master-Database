@@ -1,14 +1,12 @@
-# 🚀 Quick Start - OUI Master Database
+# Quick Start - OUI Master Database
 
 ## What You Have
 
-**A single master OUI database with 49,059 manufacturers!**
-
-📁 **Location:** `C:\Users\Squir\Desktop\OUI-Master-Database`
+**A single master OUI database with 85,905 manufacturers!**
 
 ---
 
-## 📊 What Are OUIs?
+## What Are OUIs?
 
 **OUI = Organizationally Unique Identifier**
 
@@ -30,25 +28,42 @@ Manufacturer: Hewlett Packard
 
 ---
 
-## 📈 Database Stats
+## Database Stats
 
 ```
-Total Unique OUIs:  49,059 manufacturers
-IEEE Official:      25,103 entries
-Nmap Database:      49,058 entries
-Wireshark:          0 entries (download issue)
-Merged Entries:     25,099 (same OUI from multiple sources)
+IEEE Registries Processed:
+  MA-L (Large/OUI):   38,545 entries
+  MA-M (Medium):      6,154 entries
+  MA-S (Small):       6,807 entries
+  IAB (Individual):   4,575 entries
+  CID (Company ID):   208 entries
+  IEEE Total:         56,289 entries
 
-Files Generated:
-  master_oui.csv      3.53 MB  ← Use this for databases/spreadsheets
-  master_oui.json     8.49 MB  ← Use this for applications/APIs
-  import-to-d1.sql    4.71 MB  ← Use this for Cloudflare D1/SQLite
-  stats.txt           Stats summary
+Community Sources:
+  Wireshark:          55,825 entries
+  Nmap:               49,058 entries
+
+Historical Data:
+  Mac-Tracker:        56,401 registration dates
+
+Results:
+  Unique OUIs:        85,905 entries
+  Merged Entries:     75,267 (same OUI from multiple sources)
+
+Output Files:
+  master_oui.txt      2.43 MB  (simple grep/awk format)
+  master_oui.csv      8.94 MB  (full data with addresses)
+  master_oui.tsv      5.46 MB  (Excel/Sheets import)
+  master_oui.json     19.08 MB (pretty-printed)
+  master_oui.min.json 14.07 MB (compact for scripts)
+  master_oui.xml      18.63 MB (enterprise/Java)
+  master_oui.db       18.02 MB (SQLite ready-to-query)
+  import-to-d1.sql    11.21 MB (SQL import script)
 ```
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 OUI-Master-Database/
@@ -58,106 +73,112 @@ OUI-Master-Database/
 ├── merge-oui-databases.js   ← Merge into master list
 │
 ├── sources/                 ← Raw downloaded databases
-│   ├── ieee_oui.csv         (25,104 lines - IEEE official)
-│   ├── nmap_prefixes.txt    (49,064 lines - Nmap database)
-│   └── wireshark_manuf.txt  (88 lines - Wireshark)
+│   ├── ieee_mal.csv         (MA-L registry)
+│   ├── ieee_mam.csv         (MA-M registry)
+│   ├── ieee_mas.csv         (MA-S registry)
+│   ├── ieee_iab.csv         (IAB registry)
+│   ├── ieee_cid.csv         (CID registry)
+│   ├── nmap_prefixes.txt    (Nmap database)
+│   ├── wireshark_manuf.txt  (Wireshark database)
+│   └── mac_tracker_history.json (Registration dates)
 │
-└── output/                  ← Your master databases!
-    ├── master_oui.csv       ← MASTER CSV (49,059 OUIs)
-    ├── master_oui.json      ← MASTER JSON (49,059 OUIs)
-    ├── import-to-d1.sql     ← SQL for database import
+└── LISTS/                   ← Your master databases!
+    ├── master_oui.txt       ← Simple format (85,905 OUIs)
+    ├── master_oui.csv       ← Full CSV with addresses
+    ├── master_oui.tsv       ← Tab-separated
+    ├── master_oui.json      ← Pretty JSON
+    ├── master_oui.min.json  ← Compact JSON
+    ├── master_oui.xml       ← XML format
+    ├── master_oui.db        ← SQLite database
+    ├── import-to-d1.sql     ← SQL import script
     └── stats.txt            ← Merge statistics
 ```
 
 ---
 
-## 🎯 How to Use
+## How to Use
 
 ### 1. View the Master Database
 
+**Simple TXT Format:**
+```bash
+grep "Apple" LISTS/master_oui.txt
+```
+
 **CSV Format:**
 ```bash
-cd C:\Users\Squir\Desktop\OUI-Master-Database
-cat output/master_oui.csv | head -20
+grep -i "apple" LISTS/master_oui.csv
+grep -i "cisco" LISTS/master_oui.csv
 ```
 
-**JSON Format:**
+**SQLite Direct Query:**
 ```bash
-cat output/master_oui.json | head -50
-```
-
-**Search for a manufacturer:**
-```bash
-grep -i "apple" output/master_oui.csv
-grep -i "cisco" output/master_oui.csv
-grep -i "samsung" output/master_oui.csv
+sqlite3 LISTS/master_oui.db "SELECT * FROM oui_registry WHERE manufacturer LIKE '%Apple%'"
 ```
 
 ### 2. Look Up a MAC Address
 
 ```bash
 # Example MAC: 3C:D9:2B:12:34:56
-OUI="3C:D9:2B"
-grep "^$OUI," output/master_oui.csv
+grep "3CD92B" LISTS/master_oui.txt
 
-# Result:
-# 3C:D9:2B,"Hewlett Packard",MA-L,,,"11445 Compaq Center Drive",IEEE+Nmap
+# Or with SQLite:
+sqlite3 LISTS/master_oui.db "SELECT * FROM oui_registry WHERE oui = '3C:D9:2B'"
 ```
 
 ### 3. Import to Database
 
-**Cloudflare D1:**
-```bash
-cd cloudflare
-npx wrangler d1 execute wardrive-db --remote --file=../OUI-Master-Database/output/import-to-d1.sql
-```
-
 **SQLite:**
 ```bash
-sqlite3 mydb.sqlite < output/import-to-d1.sql
+sqlite3 mydb.sqlite < LISTS/import-to-d1.sql
 ```
 
 **PostgreSQL:**
 ```bash
-psql mydb < output/import-to-d1.sql
+psql mydb < LISTS/import-to-d1.sql
+```
+
+**Cloudflare D1:**
+```bash
+npx wrangler d1 execute my-db --remote --file=LISTS/import-to-d1.sql
 ```
 
 ### 4. Update with Fresh Data
 
 Run monthly to get new OUI assignments:
 ```bash
-cd C:\Users\Squir\Desktop\OUI-Master-Database
 bash download-sources.sh
 node merge-oui-databases.js
 ```
 
 ---
 
-## 📋 CSV Format
+## CSV Format
 
 ```csv
-oui,manufacturer,registry,short_name,device_type,address,sources
-3C:D9:2B,"Hewlett Packard",MA-L,,,"11445 Compaq Center Drive...",IEEE+Nmap
-00:1A:2B,"Apple Inc",MA-L,Apple,Phone,"1 Infinite Loop...",IEEE+Nmap+Wireshark
+oui,manufacturer,registry,short_name,device_type,address,sources,registered_date
+3C:D9:2B,"Hewlett Packard",MA-L,,,"11445 Compaq Center Drive...",IEEE+Nmap,2012-05-15
+00:1A:2B,"Apple Inc",MA-L,Apple,,"1 Infinite Loop...",IEEE+Nmap+Wireshark,2008-03-20
 ```
 
 **Columns:**
 - `oui` - MAC prefix (XX:XX:XX)
 - `manufacturer` - Full vendor name
-- `registry` - MA-L (24-bit), MA-M (28-bit), MA-S (36-bit)
+- `registry` - MA-L (24-bit), MA-M (28-bit), MA-S (36-bit), IAB, CID
 - `short_name` - Abbreviated name (if available)
 - `device_type` - Router/Switch/AP/Phone/etc (if available)
 - `address` - Company address
 - `sources` - Which databases it came from (IEEE+Nmap+Wireshark)
+- `registered_date` - When the OUI was first registered (if available)
 
 ---
 
-## 🔄 Update Process
+## Update Process
 
 **Automated monthly update:**
 1. Download latest databases: `bash download-sources.sh`
 2. Merge into master: `node merge-oui-databases.js`
-3. Review stats: `cat output/stats.txt`
+3. Review stats: `cat LISTS/stats.txt`
 4. Re-import to production database
 
 **Sources update frequency:**
@@ -167,26 +188,25 @@ oui,manufacturer,registry,short_name,device_type,address,sources
 
 ---
 
-## 🎓 Example Uses
+## Example Uses
 
 ### Find all Apple devices
 ```bash
-grep -i "apple" output/master_oui.csv | wc -l
-# Result: Shows how many OUI prefixes Apple owns
+grep -i "apple" LISTS/master_oui.txt | wc -l
 ```
 
 ### Count manufacturers
 ```bash
-wc -l < output/master_oui.csv
-# Result: 49,060 (including header)
+wc -l < LISTS/master_oui.txt
+# Result: 85,905
 ```
 
 ### Export to Excel
-Open `output/master_oui.csv` in Excel/Google Sheets
+Open `LISTS/master_oui.tsv` in Excel/Google Sheets (TSV avoids CSV quoting issues)
 
 ### API Integration
 ```javascript
-const ouiDB = require('./output/master_oui.json');
+const ouiDB = require('./LISTS/master_oui.json');
 
 function lookupMAC(mac) {
   const oui = mac.substring(0, 8).toUpperCase();
@@ -194,41 +214,41 @@ function lookupMAC(mac) {
 }
 
 console.log(lookupMAC('3C:D9:2B:12:34:56'));
-// { manufacturer: 'Hewlett Packard', registry: 'MA-L', ... }
+// { manufacturer: 'Hewlett Packard', registry: 'MA-L', registered_date: '2012-05-15', ... }
 ```
 
 ---
 
-## 🌐 Sources
+## Sources
 
 1. **IEEE Registration Authority** (Official)
    - https://standards-oui.ieee.org/
-   - Mirror: https://github.com/TakahikoKawasaki/nv-oui
-   - 25,103 official manufacturer assignments
+   - All 5 registries: MA-L, MA-M, MA-S, IAB, CID
+   - 56,289 official manufacturer assignments
 
 2. **Nmap MAC Prefixes**
    - https://github.com/nmap/nmap/raw/master/nmap-mac-prefixes
    - 49,058 entries with device type hints
 
-3. **Wireshark Manufacturer Database** (not downloaded yet)
-   - https://gitlab.com/wireshark/wireshark/-/raw/master/manuf
-   - ~30,000+ entries including custom/private OUIs
+3. **Wireshark Manufacturer Database**
+   - https://www.wireshark.org/download/automated/data/manuf.gz
+   - 55,825 entries with short names
+
+4. **HDM Mac-Tracker** (Historical Data)
+   - https://github.com/hdm/mac-tracker
+   - 56,401 registration dates for OUI age estimation
 
 ---
 
-## ✅ What's Next?
+## What's Next?
 
-1. ✅ **You have the master database** (49,059 OUIs)
-2. ✅ **It's ready to use** (CSV, JSON, SQL formats)
-3. ✅ **It can be updated** (run scripts monthly)
-
-**For WiFi Mothership:**
-- Import `output/import-to-d1.sql` to production
-- Replaces the current 25,100 OUIs with 49,059 OUIs
-- Almost double the coverage!
+1. **You have the master database** (85,905 OUIs)
+2. **It's ready to use** (8 formats: TXT, CSV, TSV, JSON, XML, SQLite, SQL)
+3. **It can be updated** (run scripts monthly)
+4. **Registration dates included** (for device age estimation)
 
 ---
 
-**Created:** 2025-11-07
-**Location:** `C:\Users\Squir\Desktop\OUI-Master-Database`
-**Size:** 16.7 MB (all files)
+**Last Updated:** 2025-12-11
+**Total OUIs:** 85,905
+**Formats:** 8
