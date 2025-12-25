@@ -333,6 +333,75 @@ curl -s https://raw.githubusercontent.com/Ringmast4r/OUI-Master-Database/main/LI
 
 ---
 
+## CLI Tool
+
+**Cross-platform offline command-line lookup with network scanning!**
+
+Works on **Windows, Linux, and macOS** - just needs Node.js.
+
+### Quick Start
+```bash
+cd "CLI TOOL"
+
+# Windows - double-click oui-lookup.bat or:
+node oui-lookup.js --interactive
+
+# Linux/macOS:
+node oui-lookup.js --interactive
+```
+
+### Features
+| Command | Description |
+|---------|-------------|
+| `--wifi` | Scan nearby WiFi networks |
+| `--bluetooth` | Scan Bluetooth devices |
+| `--arp` | Show ARP table with vendors |
+| `--search <term>` | Search by manufacturer |
+| `--stats` | Database statistics |
+| `--interactive` | Continuous lookup mode |
+
+### Command Line Usage
+```bash
+# Look up a MAC address
+node oui-lookup.js 00:00:0C:12:34:56
+
+# Search by manufacturer
+node oui-lookup.js --search cisco
+
+# Scan WiFi networks (triggers real scan)
+node oui-lookup.js --wifi
+
+# Scan Bluetooth devices
+node oui-lookup.js --bluetooth
+
+# Show local network devices (ARP table)
+node oui-lookup.js --arp
+```
+
+### Platform Support
+| Feature | Windows | Linux | macOS |
+|---------|---------|-------|-------|
+| WiFi Scan | `netsh wlan` | `nmcli` | `airport` |
+| Bluetooth | PowerShell | `bluetoothctl` | `system_profiler` |
+| ARP Table | `arp -a` | `arp -a` | `arp -a` |
+
+### Example Output
+```
+------------------------------------------------------------
+MAC Address:    00:00:0C:12:34:56
+OUI:            00:00:0C
+Manufacturer:   Cisco Systems, Inc
+Short Name:     Cisco
+Device Type:    Router
+Country:        US
+Address:        170 WEST TASMAN DRIVE SAN JOSE CA US 95134
+Registry:       MA-L
+Registered:     1998-04-22
+Sources:        IEEE, Wireshark, Nmap
+```
+
+---
+
 ## Project Structure
 
 ```
@@ -344,6 +413,11 @@ OUI-Master-Database/
 ├── merge-oui-databases.js       # Merge into master list
 ├── update-database.bat          # Windows updater
 ├── package.json                 # Node.js dependencies
+│
+├── CLI TOOL/                    # Cross-platform CLI lookup tool
+│   ├── oui-lookup.js           # Main CLI script (Windows/Linux/macOS)
+│   ├── oui-lookup.bat          # Windows launcher
+│   └── README.md               # CLI documentation
 │
 ├── sources/                     # Raw downloaded databases (gitignored)
 │   ├── ieee_mal.csv            # IEEE MA-L (Large)

@@ -1,0 +1,487 @@
+#!/usr/bin/env python3
+"""
+╔══════════════════════════════════════════════════════════════════╗
+║              OUI Master Database - Linux CLI Tool                 ║
+║         github.com/Ringmast4r/OUI-Master-Database                ║
+╚══════════════════════════════════════════════════════════════════╝
+
+INSTALL (one command):
+  sudo curl -sL https://raw.githubusercontent.com/Ringmast4r/OUI-Master-Database/main/CLI%20TOOL/oui -o /usr/local/bin/oui && sudo chmod +x /usr/local/bin/oui
+
+USAGE:
+  oui 00:00:0C:12:34:56     Look up a MAC address
+  oui --search cisco        Search by manufacturer
+  oui --wifi                Scan WiFi networks
+  oui --arp                 Show ARP table
+  oui --interactive         Interactive mode (stays open)
+  oui --update              Update database to latest
+  oui --stats               Database statistics
+"""
+
+import os
+import sys
+import json
+import re
+import subprocess
+from pathlib import Path
+from datetime import datetime
+
+# Fix Windows console encoding
+if sys.platform == 'win32':
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+
+VERSION = "2.1.0"
+
+# ═══════════════════════════════════════════════════════════════
+# ANSI COLORS
+# ═══════════════════════════════════════════════════════════════
+class C:
+    RST = '\033[0m'
+    BLD = '\033[1m'
+    DIM = '\033[2m'
+    RED = '\033[91m'
+    GRN = '\033[92m'
+    YLW = '\033[93m'
+    BLU = '\033[94m'
+    MAG = '\033[95m'
+    CYN = '\033[96m'
+    WHT = '\033[97m'
+
+    # Box drawing
+    TL = '╔'; TR = '╗'; BL = '╚'; BR = '╝'
+    H = '═'; V = '║'; HR = '─'
+
+# ═══════════════════════════════════════════════════════════════
+# DATABASE MANAGEMENT
+# ═══════════════════════════════════════════════════════════════
+DB_DIR = Path.home() / '.oui-database'
+DB_FILE = DB_DIR / 'master_oui.json'
+DB_META = DB_DIR / 'metadata.json'
+DB_URL = 'https://raw.githubusercontent.com/Ringmast4r/OUI-Master-Database/main/LISTS/master_oui.min.json'
+STATS_URL = 'https://raw.githubusercontent.com/Ringmast4r/OUI-Master-Database/main/LISTS/stats.txt'
+
+_db_cache = None
+
+def fetch_url(url, output_path=None):
+    """Fetch URL using curl, wget, or urllib"""
+    # Try curl
+    try:
+        cmd = ['curl', '-sL', '--connect-timeout', '10', url]
+        if output_path:
+            cmd.extend(['-o', str(output_path)])
+        result = subprocess.run(cmd, capture_output=True, text=not output_path, timeout=60)
+        if result.returncode == 0:
+            return result.stdout if not output_path else True
+    except: pass
+
+    # Try wget
+    try:
+        if output_path:
+            result = subprocess.run(['wget', '-q', '--timeout=10', url, '-O', str(output_path)],
+                                   capture_output=True, timeout=60)
+        else:
+            result = subprocess.run(['wget', '-q', '--timeout=10', '-O', '-', url],
+                                   capture_output=True, text=True, timeout=60)
+        if result.returncode == 0:
+            return result.stdout if not output_path else True
+    except: pass
+
+    # Try Python urllib
+    try:
+        import urllib.request
+        if output_path:
+            urllib.request.urlretrieve(url, output_path)
+            return True
+        else:
+            with urllib.request.urlopen(url, timeout=10) as resp:
+                return resp.read().decode('utf-8')
+    except: pass
+
+    return None
+
+def download_database(force=False):
+    """Download/update the OUI database"""
+    DB_DIR.mkdir(parents=True, exist_ok=True)
+
+    print(f"{C.CYN}Downloading OUI database...{C.RST}")
+
+    if fetch_url(DB_URL, DB_FILE):
+        if DB_FILE.exists() and DB_FILE.stat().st_size > 1000:
+            # Save metadata
+            meta = {
+                'updated': datetime.now().isoformat(),
+                'version': VERSION,
+                'entries': 0
+            }
+            try:
+                with open(DB_FILE, encoding='utf-8') as f:
+                    meta['entries'] = len(json.load(f))
+            except: pass
+
+            with open(DB_META, 'w') as f:
+                json.dump(meta, f)
+
+            print(f"{C.GRN}✓ Database updated! ({meta['entries']:,} OUIs){C.RST}")
+            return True
+
+    print(f"{C.RED}✗ Failed to download database{C.RST}")
+    return False
+
+def check_for_updates():
+    """Check if updates are available"""
+    if not DB_META.exists():
+        return True
+
+    try:
+        with open(DB_META) as f:
+            meta = json.load(f)
+
+        last_update = datetime.fromisoformat(meta.get('updated', '2000-01-01'))
+        days_old = (datetime.now() - last_update).days
+
+        if days_old > 30:
+            print(f"{C.YLW}Database is {days_old} days old. Run 'oui --update' to refresh.{C.RST}")
+            return True
+    except:
+        pass
+    return False
+
+def load_database(silent=False):
+    """Load the OUI database"""
+    global _db_cache
+    if _db_cache:
+        return _db_cache
+
+    if not DB_FILE.exists():
+        print(f"{C.YLW}First run - downloading database...{C.RST}")
+        if not download_database():
+            print(f"{C.RED}Failed to download. Check your internet connection.{C.RST}")
+            sys.exit(1)
+
+    try:
+        with open(DB_FILE, encoding='utf-8') as f:
+            _db_cache = json.load(f)
+        return _db_cache
+    except Exception as e:
+        print(f"{C.RED}Error loading database: {e}{C.RST}")
+        sys.exit(1)
+
+# ═══════════════════════════════════════════════════════════════
+# MAC ADDRESS FUNCTIONS
+# ═══════════════════════════════════════════════════════════════
+def normalize_mac(mac):
+    """Convert any MAC format to XX:XX:XX"""
+    cleaned = re.sub(r'[^0-9a-fA-F]', '', mac).upper()
+    if len(cleaned) >= 6:
+        return f"{cleaned[0:2]}:{cleaned[2:4]}:{cleaned[4:6]}"
+    return None
+
+def lookup(db, mac):
+    """Look up a MAC address"""
+    oui = normalize_mac(mac)
+    if not oui:
+        return {'error': True, 'oui': mac, 'manufacturer': 'Invalid MAC'}
+
+    entry = db.get(oui, {})
+    return {'oui': oui, 'mac': mac, **entry} if entry else {'oui': oui, 'mac': mac, 'manufacturer': 'Unknown'}
+
+def search(db, term):
+    """Search by manufacturer"""
+    term = term.lower()
+    return [{'oui': k, **v} for k, v in db.items()
+            if term in (v.get('manufacturer') or '').lower()
+            or term in (v.get('short_name') or '').lower()]
+
+# ═══════════════════════════════════════════════════════════════
+# DISPLAY FUNCTIONS
+# ═══════════════════════════════════════════════════════════════
+def box(title):
+    """Print a header"""
+    print(f"{C.BLD}{C.CYN}{title}{C.RST}")
+    print(f"{C.DIM}{'=' * len(title)}{C.RST}")
+
+def show(result):
+    """Display lookup result"""
+    if result.get('manufacturer') in ('Unknown', 'Invalid MAC'):
+        print(f"{C.YLW}MAC:{C.RST} {result.get('mac', result['oui'])}")
+        print(f"{C.YLW}OUI:{C.RST} {result['oui']}")
+        print(f"{C.RED}Manufacturer: {result['manufacturer']}{C.RST}")
+        return
+
+    print(f"{C.CYN}{'-' * 60}{C.RST}")
+    print(f"{C.BLD}{C.GRN}MAC Address:{C.RST}    {result.get('mac', result['oui'])}")
+    print(f"{C.BLD}{C.GRN}OUI:{C.RST}            {result['oui']}")
+    print(f"{C.BLD}{C.GRN}Manufacturer:{C.RST}   {C.BLD}{result['manufacturer']}{C.RST}")
+
+    fields = [
+        ('short_name', 'Short Name'),
+        ('device_type', 'Device Type', C.MAG),
+        ('country', 'Country'),
+        ('address', 'Address'),
+        ('registry', 'Registry'),
+        ('registered_date', 'Registered'),
+    ]
+
+    for item in fields:
+        key, label = item[0], item[1]
+        color = item[2] if len(item) > 2 else ''
+        if result.get(key):
+            val = f"{color}{result[key]}{C.RST}" if color else result[key]
+            print(f"{C.GRN}{label}:{C.RST}".ljust(22) + val)
+
+    if result.get('sources'):
+        src = result['sources']
+        print(f"{C.GRN}Sources:{C.RST}        {', '.join(src) if isinstance(src, list) else src}")
+
+# ═══════════════════════════════════════════════════════════════
+# NETWORK SCANNING
+# ═══════════════════════════════════════════════════════════════
+def scan_wifi(db):
+    """Scan WiFi networks"""
+    print(f"\n{C.BLD}{C.BLU}Scanning WiFi...{C.RST}\n")
+
+    try:
+        # nmcli for Linux
+        r = subprocess.run(['nmcli', '-t', '-f', 'SSID,BSSID,SIGNAL', 'dev', 'wifi', 'list', '--rescan', 'yes'],
+                          capture_output=True, text=True, timeout=30)
+        if r.returncode == 0 and r.stdout.strip():
+            seen = set()
+            for line in r.stdout.strip().split('\n'):
+                parts = line.replace('\\:', '§').split(':')
+                if len(parts) >= 8:
+                    ssid = parts[0].replace('§', ':')
+                    bssid = ':'.join(parts[1:7]).replace('§', ':')
+                    signal = parts[7] if len(parts) > 7 else ''
+
+                    if bssid in seen: continue
+                    seen.add(bssid)
+
+                    print(f"{C.CYN}{'-' * 50}{C.RST}")
+                    print(f"{C.BLD}SSID:{C.RST}   {ssid or '(Hidden)'}")
+                    print(f"{C.BLD}BSSID:{C.RST}  {bssid}")
+                    if signal:
+                        sig = int(signal) if signal.isdigit() else 50
+                        print(f"{C.BLD}Signal:{C.RST} {'█' * (sig//20)}{'░' * (5-sig//20)} {signal}%")
+
+                    r = lookup(db, bssid)
+                    mfr = r.get('manufacturer', 'Unknown')
+                    print(f"{C.BLD}{C.GRN if mfr != 'Unknown' else C.YLW}Vendor:{C.RST} {mfr}")
+                    if r.get('device_type'):
+                        print(f"{C.BLD}{C.MAG}Type:{C.RST}   {r['device_type']}")
+            return
+    except FileNotFoundError:
+        print(f"{C.YLW}nmcli not found. Try: sudo apt install network-manager{C.RST}")
+    except Exception as e:
+        print(f"{C.RED}Error: {e}{C.RST}")
+
+def scan_arp(db):
+    """Show ARP table"""
+    print(f"\n{C.BLD}{C.BLU}Reading ARP table...{C.RST}\n")
+
+    try:
+        r = subprocess.run(['arp', '-a'], capture_output=True, text=True)
+
+        entries = []
+        for line in r.stdout.split('\n'):
+            # Skip headers and empty lines
+            if not line.strip() or 'Interface' in line or 'Internet' in line:
+                continue
+
+            # Match IP and MAC (Windows uses hyphens)
+            mac = re.search(r'([0-9a-fA-F]{2}[\-:]){5}[0-9a-fA-F]{2}', line)
+            ip = re.search(r'(\d+\.\d+\.\d+\.\d+)', line)
+
+            if mac and ip:
+                m = mac.group().lower().replace('-', ':')
+                # Skip broadcast/multicast
+                if m.startswith('ff:ff:ff') or m.startswith('01:00:5e'):
+                    continue
+                entries.append((ip.group(), m))
+
+        if not entries:
+            print(f"{C.YLW}No ARP entries found{C.RST}")
+            return
+
+        print(f"{C.GRN}Found {len(entries)} devices:{C.RST}\n")
+        print(f"{C.BLD}{'IP':<16} {'MAC':<18} Manufacturer{C.RST}")
+        print(f"{C.DIM}{'-' * 65}{C.RST}")
+
+        for ip, mac in entries:
+            result = lookup(db, mac)
+            mfr = result.get('manufacturer', 'Unknown')[:28]
+            color = C.GRN if mfr != 'Unknown' else C.YLW
+            print(f"{ip:<16} {mac:<18} {color}{mfr}{C.RST}")
+
+    except Exception as e:
+        print(f"{C.RED}Error: {e}{C.RST}")
+
+def show_stats(db):
+    """Show database statistics"""
+    types, countries, registries = {}, {}, {}
+    dated = 0
+
+    for e in db.values():
+        t = e.get('device_type') or 'Unknown'
+        types[t] = types.get(t, 0) + 1
+        if e.get('country'):
+            countries[e['country']] = countries.get(e['country'], 0) + 1
+        if e.get('registry'):
+            registries[e['registry']] = registries.get(e['registry'], 0) + 1
+        if e.get('registered_date'):
+            dated += 1
+
+    box("OUI Database Statistics")
+    print(f"\n{C.BLD}Total OUIs:{C.RST} {len(db):,}")
+    print(f"{C.BLD}With Dates:{C.RST} {dated:,}")
+
+    print(f"\n{C.BLD}{C.GRN}Device Types:{C.RST}")
+    for t, c in sorted(types.items(), key=lambda x: -x[1])[:8]:
+        print(f"  {t:<18} {c:>6,}")
+
+    print(f"\n{C.BLD}{C.BLU}Countries:{C.RST}")
+    for co, c in sorted(countries.items(), key=lambda x: -x[1])[:8]:
+        print(f"  {co:<5} {c:>6,}")
+
+# ═══════════════════════════════════════════════════════════════
+# INTERACTIVE MODE
+# ═══════════════════════════════════════════════════════════════
+def interactive(db):
+    """Interactive mode - stays open for continuous lookups"""
+    box("OUI Master Database - Interactive Mode")
+    print(f"""
+{C.DIM}Commands:{C.RST} MAC address, manufacturer name, or:
+  {C.YLW}bluetooth{C.RST}  - Scan Bluetooth devices
+  {C.YLW}wifi{C.RST}       - Scan WiFi networks
+  {C.YLW}arp{C.RST}        - Show ARP table
+  {C.YLW}stats{C.RST}      - Database statistics
+  {C.YLW}quit{C.RST}       - Exit
+""")
+
+    while True:
+        try:
+            inp = input(f"{C.BLD}{C.GRN}oui>{C.RST} ").strip()
+        except (EOFError, KeyboardInterrupt):
+            print(f"\n{C.DIM}Goodbye!{C.RST}")
+            break
+
+        if not inp: continue
+        cmd = inp.lower()
+
+        if cmd in ('q', 'quit', 'exit'):
+            print(f"{C.DIM}Goodbye!{C.RST}")
+            break
+        elif cmd == 'wifi':
+            scan_wifi(db)
+        elif cmd == 'arp':
+            scan_arp(db)
+        elif cmd == 'stats':
+            show_stats(db)
+        elif cmd == 'update':
+            download_database(force=True)
+            global _db_cache
+            _db_cache = None
+            db = load_database()
+        elif re.match(r'^[0-9a-f:\-\.]{6,17}$', inp, re.I):
+            show(lookup(db, inp))
+        else:
+            results = search(db, inp)
+            if not results:
+                print(f"{C.YLW}No matches for '{inp}'{C.RST}")
+            else:
+                n = len(results)
+                print(f"{C.GRN}Found {n} match{'es' if n != 1 else ''}{' (showing 15)' if n > 15 else ''}:{C.RST}")
+                for r in results[:15]:
+                    t = f" {C.DIM}({r['device_type']}){C.RST}" if r.get('device_type') else ''
+                    print(f"  {C.CYN}{r['oui']}{C.RST}  {r['manufacturer']}{t}")
+        print()
+
+# ═══════════════════════════════════════════════════════════════
+# MAIN
+# ═══════════════════════════════════════════════════════════════
+def banner():
+    title = f"OUI Master Database v{VERSION}"
+    url = "github.com/Ringmast4r/OUI-Master-Database"
+    print()
+    print(f"{C.BLD}{C.CYN}{title}{C.RST}")
+    print(f"{C.DIM}{url}{C.RST}")
+    print()
+
+def usage():
+    banner()
+    print(f"""
+{C.BLD}USAGE:{C.RST}
+  oui <mac-address>         Look up MAC address
+  oui -s, --search <term>   Search manufacturer
+  oui -i, --interactive     Interactive mode (stays open)
+  oui -w, --wifi            Scan WiFi networks
+  oui -a, --arp             Show ARP table
+  oui -u, --update          Update database
+  oui --stats               Database statistics
+  oui -v, --version         Show version
+  oui -h, --help            Show this help
+
+{C.BLD}EXAMPLES:{C.RST}
+  oui 00:00:0C:12:34:56
+  oui AA-BB-CC-DD-EE-FF
+  oui AABBCCDDEEFF
+  oui --search cisco
+  oui --search "apple"
+  oui --interactive
+
+{C.BLD}INSTALL:{C.RST}
+  sudo curl -sL https://bit.ly/oui-tool -o /usr/local/bin/oui
+  sudo chmod +x /usr/local/bin/oui
+
+{C.BLD}UPDATE:{C.RST}
+  oui --update
+""")
+
+def main():
+    args = sys.argv[1:]
+
+    if not args:
+        usage()
+        return
+
+    arg = args[0].lower()
+
+    if arg in ('-h', '--help', 'help'):
+        usage()
+    elif arg in ('-v', '--version', 'version'):
+        print(f"OUI Master Database CLI v{VERSION}")
+    elif arg in ('-u', '--update', 'update'):
+        download_database(force=True)
+    elif arg in ('-i', '--interactive', 'interactive'):
+        print(f"{C.DIM}Loading OUI database...{C.RST}")
+        db = load_database()
+        print(f"{C.GRN}Loaded {len(db):,} OUI entries{C.RST}\n")
+        check_for_updates()
+        interactive(db)
+    elif arg in ('-w', '--wifi', 'wifi'):
+        db = load_database()
+        scan_wifi(db)
+    elif arg in ('-a', '--arp', 'arp'):
+        db = load_database()
+        scan_arp(db)
+    elif arg == '--stats':
+        db = load_database()
+        show_stats(db)
+    elif arg in ('-s', '--search') and len(args) > 1:
+        db = load_database()
+        print(f"{C.DIM}Loaded {len(db):,} OUIs{C.RST}\n")
+        results = search(db, args[1])
+        if not results:
+            print(f"{C.YLW}No matches for '{args[1]}'{C.RST}")
+        else:
+            print(f"{C.GRN}Found {len(results)} matches:{C.RST}\n")
+            for r in results:
+                t = f" {C.DIM}({r['device_type']}){C.RST}" if r.get('device_type') else ''
+                print(f"  {C.CYN}{r['oui']}{C.RST}  {r['manufacturer']}{t}")
+    else:
+        # Treat as MAC address
+        db = load_database()
+        print(f"{C.DIM}Loaded {len(db):,} OUIs{C.RST}\n")
+        show(lookup(db, args[0]))
+
+if __name__ == '__main__':
+    main()
