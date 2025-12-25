@@ -1,0 +1,58 @@
+name: Update OUI Database
+
+on:
+  # Run on the 1st of every month at midnight UTC
+  schedule:
+    - cron: '0 0 1 * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Download latest OUI sources
+        run: bash download-sources.sh
+
+      - name: Merge databases
+        run: node merge-oui-databases.js
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet LISTS/; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add LISTS/
+          git commit -m "Auto-update OUI database $(date +'%Y-%m-%d')"
+          git push
+
+      - name: Summary
+        run: |
+          echo "## OUI Database Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          cat LISTS/stats.txt >> $GITHUB_STEP_SUMMARY
