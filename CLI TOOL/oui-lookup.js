@@ -600,8 +600,8 @@ function interactiveMode() {
             const lower = trimmed.toLowerCase();
             if (['quit', 'exit', 'q'].includes(lower)) { console.log('Goodbye!'); rl.close(); return; }
 
-            if (lower === 'bluetooth' || lower === 'bt') scanBluetooth();
-            else if (lower === 'wifi') scanWiFi();
+            if (lower === 'bt' || lower.startsWith('blu')) scanBluetooth();
+            else if (lower === 'wifi' || lower === 'wi' || lower === 'wf') scanWiFi();
             else if (lower === 'arp') showARP();
             else if (lower === 'stats') showStats();
             else if (/^[0-9a-f:\-.]{6,17}$/i.test(trimmed)) displayResult(lookupMAC(trimmed));
