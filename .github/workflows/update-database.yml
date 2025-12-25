@@ -33,10 +33,39 @@ jobs:
       - name: Merge databases
         run: node merge-oui-databases.js
 
+      - name: Update counts in documentation
+        run: |
+          # Extract new OUI count from stats.txt
+          NEW_COUNT=$(grep "Unique OUIs:" LISTS/stats.txt | grep -oE '[0-9,]+' | tr -d ',')
+          NEW_COUNT_FORMATTED=$(printf "%'d" $NEW_COUNT)
+
+          echo "New OUI count: $NEW_COUNT_FORMATTED"
+
+          # Update README.md badge and text
+          sed -i "s/OUIs-[0-9%2C]*-blue/OUIs-${NEW_COUNT}%2C$(echo $NEW_COUNT | tail -c 4)-blue/g" README.md
+          sed -i "s/[0-9]\{2,\},[0-9]\{3\}+ vendors/${NEW_COUNT_FORMATTED}+ vendors/g" README.md
+          sed -i "s/Total OUIs:** [0-9,]*/Total OUIs:** ${NEW_COUNT_FORMATTED}/g" README.md
+          sed -i "s/Total OUIs: [0-9,]*/Total OUIs: ${NEW_COUNT_FORMATTED}/g" README.md
+          sed -i "s/Unique OUIs:** \*\*[0-9,]*/Unique OUIs:** **${NEW_COUNT_FORMATTED}/g" README.md
+
+          # Update QUICK-START.md
+          sed -i "s/[0-9]\{2,\},[0-9]\{3\} manufacturers/${NEW_COUNT_FORMATTED} manufacturers/g" QUICK-START.md
+          sed -i "s/[0-9]\{2,\},[0-9]\{3\} unique OUIs/${NEW_COUNT_FORMATTED} unique OUIs/g" QUICK-START.md
+          sed -i "s/Total OUIs: [0-9,]*/Total OUIs: ${NEW_COUNT_FORMATTED}/g" QUICK-START.md
+          sed -i "s/Unique OUIs:        [0-9,]*/Unique OUIs:        ${NEW_COUNT_FORMATTED}/g" QUICK-START.md
+
+          # Update package.json description
+          sed -i "s/[0-9]\{2,\},[0-9]\{3\}+ vendors/${NEW_COUNT_FORMATTED}+ vendors/g" package.json
+
+          # Update last updated date
+          TODAY=$(date +'%Y-%m-%d')
+          sed -i "s/Last Updated:.*/Last Updated:** $TODAY/g" README.md
+          sed -i "s/Last Updated:.*/Last Updated:** $TODAY/g" QUICK-START.md
+
       - name: Check for changes
         id: changes
         run: |
-          if git diff --quiet LISTS/; then
+          if git diff --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -47,8 +76,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add LISTS/
-          git commit -m "Auto-update OUI database $(date +'%Y-%m-%d')"
+          git add LISTS/ README.md QUICK-START.md package.json
+          git commit -m "Auto-update OUI database $(date +'%Y-%m-%d') - $NEW_COUNT OUIs"
           git push
 
       - name: Summary
