@@ -48,6 +48,57 @@ node oui-lookup.js --help            # Show help
 - **File Processing**: Extract and look up all MAC addresses from any text file
 - **Interactive Mode**: Continuous lookup session with all features
 
+## Installation
+
+### Windows
+```powershell
+# 1. Install Node.js from https://nodejs.org/
+# 2. Clone or download the repo
+git clone https://github.com/Ringmast4r/OUI-Master-Database.git
+cd OUI-Master-Database/CLI\ TOOL
+
+# 3. Run it
+node oui-lookup.js --interactive
+# Or double-click oui-lookup.bat
+```
+
+### Linux (Ubuntu/Debian)
+```bash
+# 1. Install Node.js
+sudo apt update && sudo apt install nodejs npm
+
+# 2. Clone the repo
+git clone https://github.com/Ringmast4r/OUI-Master-Database.git
+cd OUI-Master-Database/CLI\ TOOL
+
+# 3. Run it
+node oui-lookup.js --interactive
+
+# For WiFi scanning, ensure you have:
+sudo apt install network-manager   # for nmcli
+# or
+sudo apt install wireless-tools    # for iwlist
+
+# For Bluetooth scanning:
+sudo apt install bluez             # for bluetoothctl
+```
+
+### macOS
+```bash
+# 1. Install Node.js via Homebrew
+brew install node
+
+# 2. Clone the repo
+git clone https://github.com/Ringmast4r/OUI-Master-Database.git
+cd OUI-Master-Database/CLI\ TOOL
+
+# 3. Run it
+node oui-lookup.js --interactive
+
+# WiFi scanning uses built-in airport command
+# Bluetooth uses built-in system_profiler
+```
+
 ## Requirements
 
 - Node.js 14+
