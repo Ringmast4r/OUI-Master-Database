@@ -2,7 +2,9 @@
 
 ## What You Have
 
-**A single master OUI database with 85,905 manufacturers!**
+**A single master OUI database with 86,098 manufacturers + device type classification!**
+
+**Try the live demo:** [OUI Lookup Tool](https://ringmast4r.github.io/OUI-Master-Database/)
 
 ---
 
@@ -13,17 +15,20 @@
 The first 3 bytes (6 hex characters) of a MAC address that identifies the device manufacturer.
 
 ```
-MAC Address:  3C:D9:2B:12:34:56
+MAC Address:  00:00:0C:12:34:56
               └─OUI─┘ └─Device─┘
 
-OUI:          3C:D9:2B
-Manufacturer: Hewlett Packard
+OUI:          00:00:0C
+Manufacturer: Cisco Systems, Inc
+Device Type:  Router
+Country:      US
+Registered:   1998-04-22
 ```
 
 **Why this matters:**
 - Identify device manufacturers from MAC addresses
+- Classify devices by type (Router, Phone, Camera, IoT, etc.)
 - Detect rogue devices on networks
-- Classify WiFi access points by vendor
 - Security analysis and network mapping
 
 ---
@@ -32,34 +37,60 @@ Manufacturer: Hewlett Packard
 
 ```
 IEEE Registries Processed:
-  MA-L (Large/OUI):   38,545 entries
-  MA-M (Medium):      6,154 entries
-  MA-S (Small):       6,807 entries
+  MA-L (Large/OUI):   38,630 entries
+  MA-M (Medium):      6,189 entries
+  MA-S (Small):       6,827 entries
   IAB (Individual):   4,575 entries
-  CID (Company ID):   208 entries
-  IEEE Total:         56,289 entries
+  CID (Company ID):   209 entries
+  IEEE Total:         56,430 entries
 
 Community Sources:
-  Wireshark:          55,825 entries
+  Wireshark:          55,963 entries
   Nmap:               49,058 entries
 
 Historical Data:
-  Mac-Tracker:        56,401 registration dates
+  Mac-Tracker:        56,543 registration dates
 
 Results:
-  Unique OUIs:        85,905 entries
-  Merged Entries:     75,267 (same OUI from multiple sources)
+  Unique OUIs:        86,098 entries
+  Merged Entries:     75,353 (same OUI from multiple sources)
 
 Output Files:
   master_oui.txt      2.43 MB  (simple grep/awk format)
-  master_oui.csv      8.94 MB  (full data with addresses)
-  master_oui.tsv      5.46 MB  (Excel/Sheets import)
-  master_oui.json     19.08 MB (pretty-printed)
-  master_oui.min.json 14.07 MB (compact for scripts)
-  master_oui.xml      18.63 MB (enterprise/Java)
-  master_oui.db       18.02 MB (SQLite ready-to-query)
-  import-to-d1.sql    11.21 MB (SQL import script)
+  master_oui.csv      9.05 MB  (full data with addresses)
+  master_oui.tsv      5.47 MB  (Excel/Sheets import)
+  master_oui.json     25.52 MB (pretty-printed)
+  master_oui.min.json 19.52 MB (compact for scripts)
+  master_oui.xml      18.67 MB (enterprise/Java)
+  master_oui.db       18.08 MB (SQLite ready-to-query)
+  import-to-d1.sql    11.30 MB (SQL import script)
 ```
+
+---
+
+## Data Fields
+
+Each OUI entry now includes:
+
+| Field | Description | Example |
+|-------|-------------|---------|
+| OUI | MAC prefix | `00:00:0C` |
+| Manufacturer | Full company name | `Cisco Systems, Inc` |
+| Short Name | Abbreviated name | `Cisco` |
+| Registry | IEEE assignment type | `MA-L` |
+| **Device Type** | Category | `Router`, `Phone`, `Camera` |
+| **Address** | Company address | `170 WEST TASMAN DRIVE...` |
+| **Country** | Country code | `US`, `CN`, `DE` |
+| Registered Date | First assigned | `1998-04-22` |
+| Sources | Verification | `IEEE+Wireshark+Nmap` |
+
+### Device Type Categories
+
+- **Networking:** Router, Switch, Access Point, Modem
+- **Consumer:** Phone, Computer, Tablet, TV, Gaming, Wearable
+- **Smart Home:** IoT, Smart Home, Camera, Thermostat, Appliance
+- **Enterprise:** Server, Storage, Industrial, VoIP
+- **Other:** Medical, Automotive, Printer, Audio, Media Player
 
 ---
 
@@ -67,10 +98,12 @@ Output Files:
 
 ```
 OUI-Master-Database/
-├── README.md                 ← Full documentation (read this!)
-├── QUICK-START.md           ← This file
+├── index.html               ← Web lookup interface
+├── README.md                ← Full documentation
+├── QUICK-START.md          ← This file
 ├── download-sources.sh      ← Download fresh databases
 ├── merge-oui-databases.js   ← Merge into master list
+├── update-database.bat      ← Windows updater
 │
 ├── sources/                 ← Raw downloaded databases
 │   ├── ieee_mal.csv         (MA-L registry)
@@ -83,8 +116,8 @@ OUI-Master-Database/
 │   └── mac_tracker_history.json (Registration dates)
 │
 └── LISTS/                   ← Your master databases!
-    ├── master_oui.txt       ← Simple format (85,905 OUIs)
-    ├── master_oui.csv       ← Full CSV with addresses
+    ├── master_oui.txt       ← Simple format (86,098 OUIs)
+    ├── master_oui.csv       ← Full CSV with all fields
     ├── master_oui.tsv       ← Tab-separated
     ├── master_oui.json      ← Pretty JSON
     ├── master_oui.min.json  ← Compact JSON
@@ -98,113 +131,42 @@ OUI-Master-Database/
 
 ## How to Use
 
-### 1. View the Master Database
+### 1. Web Lookup (Easiest)
+
+Open `index.html` in a browser or visit the GitHub Pages site.
+
+### 2. Command Line
 
 **Simple TXT Format:**
 ```bash
 grep "Apple" LISTS/master_oui.txt
+grep "00000C" LISTS/master_oui.txt
 ```
 
-**CSV Format:**
+**SQLite Query:**
 ```bash
-grep -i "apple" LISTS/master_oui.csv
-grep -i "cisco" LISTS/master_oui.csv
+# Find all routers
+sqlite3 LISTS/master_oui.db "SELECT oui, manufacturer FROM oui_registry WHERE device_type = 'Router'"
+
+# Find by country
+sqlite3 LISTS/master_oui.db "SELECT oui, manufacturer FROM oui_registry WHERE country = 'US' LIMIT 10"
+
+# Count by device type
+sqlite3 LISTS/master_oui.db "SELECT device_type, COUNT(*) FROM oui_registry GROUP BY device_type ORDER BY COUNT(*) DESC"
 ```
 
-**SQLite Direct Query:**
-```bash
-sqlite3 LISTS/master_oui.db "SELECT * FROM oui_registry WHERE manufacturer LIKE '%Apple%'"
-```
-
-### 2. Look Up a MAC Address
+### 3. Look Up a MAC Address
 
 ```bash
-# Example MAC: 3C:D9:2B:12:34:56
-grep "3CD92B" LISTS/master_oui.txt
+# Example MAC: 00:00:0C:12:34:56
+grep "00000C" LISTS/master_oui.txt
 
 # Or with SQLite:
-sqlite3 LISTS/master_oui.db "SELECT * FROM oui_registry WHERE oui = '3C:D9:2B'"
+sqlite3 LISTS/master_oui.db "SELECT * FROM oui_registry WHERE oui = '00:00:0C'"
 ```
 
-### 3. Import to Database
+### 4. API Integration
 
-**SQLite:**
-```bash
-sqlite3 mydb.sqlite < LISTS/import-to-d1.sql
-```
-
-**PostgreSQL:**
-```bash
-psql mydb < LISTS/import-to-d1.sql
-```
-
-**Cloudflare D1:**
-```bash
-npx wrangler d1 execute my-db --remote --file=LISTS/import-to-d1.sql
-```
-
-### 4. Update with Fresh Data
-
-Run monthly to get new OUI assignments:
-```bash
-bash download-sources.sh
-node merge-oui-databases.js
-```
-
----
-
-## CSV Format
-
-```csv
-oui,manufacturer,registry,short_name,device_type,address,sources,registered_date
-3C:D9:2B,"Hewlett Packard",MA-L,,,"11445 Compaq Center Drive...",IEEE+Nmap,2012-05-15
-00:1A:2B,"Apple Inc",MA-L,Apple,,"1 Infinite Loop...",IEEE+Nmap+Wireshark,2008-03-20
-```
-
-**Columns:**
-- `oui` - MAC prefix (XX:XX:XX)
-- `manufacturer` - Full vendor name
-- `registry` - MA-L (24-bit), MA-M (28-bit), MA-S (36-bit), IAB, CID
-- `short_name` - Abbreviated name (if available)
-- `device_type` - Router/Switch/AP/Phone/etc (if available)
-- `address` - Company address
-- `sources` - Which databases it came from (IEEE+Nmap+Wireshark)
-- `registered_date` - When the OUI was first registered (if available)
-
----
-
-## Update Process
-
-**Automated monthly update:**
-1. Download latest databases: `bash download-sources.sh`
-2. Merge into master: `node merge-oui-databases.js`
-3. Review stats: `cat LISTS/stats.txt`
-4. Re-import to production database
-
-**Sources update frequency:**
-- IEEE: ~500-1000 new OUIs per month
-- Nmap: Updated monthly
-- Wireshark: Updated weekly
-
----
-
-## Example Uses
-
-### Find all Apple devices
-```bash
-grep -i "apple" LISTS/master_oui.txt | wc -l
-```
-
-### Count manufacturers
-```bash
-wc -l < LISTS/master_oui.txt
-# Result: 85,905
-```
-
-### Export to Excel
-Open `LISTS/master_oui.tsv` in Excel/Google Sheets (TSV avoids CSV quoting issues)
-
-### API Integration
 ```javascript
 const ouiDB = require('./LISTS/master_oui.json');
 
@@ -213,8 +175,57 @@ function lookupMAC(mac) {
   return ouiDB[oui] || { manufacturer: 'Unknown' };
 }
 
-console.log(lookupMAC('3C:D9:2B:12:34:56'));
-// { manufacturer: 'Hewlett Packard', registry: 'MA-L', registered_date: '2012-05-15', ... }
+console.log(lookupMAC('00:00:0C:12:34:56'));
+// {
+//   manufacturer: 'Cisco Systems, Inc',
+//   device_type: 'Router',
+//   country: 'US',
+//   registered_date: '1998-04-22',
+//   sources: ['IEEE', 'Wireshark', 'Nmap']
+// }
+```
+
+### 5. Python
+
+```python
+import json
+
+with open('LISTS/master_oui.min.json') as f:
+    oui_db = json.load(f)
+
+def lookup(mac):
+    oui = mac[:8].upper()
+    return oui_db.get(oui, {'manufacturer': 'Unknown'})
+
+result = lookup('00:00:0C:12:34:56')
+print(f"Manufacturer: {result['manufacturer']}")
+print(f"Device Type: {result.get('device_type', 'Unknown')}")
+print(f"Country: {result.get('country', 'Unknown')}")
+```
+
+---
+
+## Update with Fresh Data
+
+Run monthly to get new OUI assignments:
+
+```bash
+# Download latest sources
+bash download-sources.sh
+
+# Regenerate database
+node merge-oui-databases.js
+```
+
+**Windows users:** Just double-click `update-database.bat`
+
+---
+
+## CSV Format
+
+```csv
+oui,manufacturer,registry,short_name,device_type,registered_date,address,sources
+00:00:0C,"Cisco Systems, Inc",MA-L,Cisco,Router,1998-04-22,"170 WEST TASMAN DRIVE SAN JOSE CA US 95134",IEEE+Wireshark+Nmap
 ```
 
 ---
@@ -224,31 +235,31 @@ console.log(lookupMAC('3C:D9:2B:12:34:56'));
 1. **IEEE Registration Authority** (Official)
    - https://standards-oui.ieee.org/
    - All 5 registries: MA-L, MA-M, MA-S, IAB, CID
-   - 56,289 official manufacturer assignments
 
 2. **Nmap MAC Prefixes**
    - https://github.com/nmap/nmap/raw/master/nmap-mac-prefixes
-   - 49,058 entries with device type hints
 
 3. **Wireshark Manufacturer Database**
    - https://www.wireshark.org/download/automated/data/manuf.gz
-   - 55,825 entries with short names
 
 4. **HDM Mac-Tracker** (Historical Data)
    - https://github.com/hdm/mac-tracker
-   - 56,401 registration dates for OUI age estimation
 
 ---
 
-## What's Next?
+## What's Included
 
-1. **You have the master database** (85,905 OUIs)
-2. **It's ready to use** (8 formats: TXT, CSV, TSV, JSON, XML, SQLite, SQL)
-3. **It can be updated** (run scripts monthly)
-4. **Registration dates included** (for device age estimation)
+- **86,098 unique OUIs** (most comprehensive available)
+- **Device type classification** (20+ categories)
+- **Country codes** (40+ countries)
+- **Registration dates** (historical data)
+- **8 output formats** (TXT, CSV, TSV, JSON, XML, SQLite, SQL)
+- **Web lookup interface** (works offline after loading)
+- **5 theme options** (Dark Night, Sin City, Kill Bill, Grindhouse, From Dusk Till Dawn)
 
 ---
 
-**Last Updated:** 2025-12-11
-**Total OUIs:** 85,905
+**Last Updated:** 2025-12-25
+**Total OUIs:** 86,098
+**Device Types:** 20+ categories
 **Formats:** 8

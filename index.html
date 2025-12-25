@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark-night">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OUI Master Database - MAC Address Lookup</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    /* ============================================
+       THEME: DARK NIGHT (Default)
+       Pure grayscale, minimal
+    ============================================ */
+    [data-theme="dark-night"] {
+      --bg-primary: #0a0a0a;
+      --bg-card: #171717;
+      --bg-elevated: #262626;
+      --border: #262626;
+      --border-hover: #525252;
+      --text-primary: #d4d4d4;
+      --text-secondary: #a3a3a3;
+      --text-muted: #737373;
+      --text-emphasis: #FFFFFF;
+      --accent: #737373;
+      --accent-hover: #a3a3a3;
+      --tag-ieee: #262626;
+      --tag-ieee-text: #d4d4d4;
+      --tag-wireshark: #262626;
+      --tag-wireshark-text: #a3a3a3;
+      --tag-nmap: #262626;
+      --tag-nmap-text: #a3a3a3;
+      --oui-color: #FFFFFF;
+    }
+
+    /* ============================================
+       THEME: SIN CITY
+       High contrast white/black (light theme)
+    ============================================ */
+    [data-theme="sin-city"] {
+      --bg-primary: #FFFFFF;
+      --bg-card: #F9F9F9;
+      --bg-elevated: #F0F0F0;
+      --border: #DDDDDD;
+      --border-hover: #000000;
+      --text-primary: #000000;
+      --text-secondary: #333333;
+      --text-muted: #666666;
+      --text-emphasis: #000000;
+      --accent: #000000;
+      --accent-hover: #333333;
+      --tag-ieee: #000000;
+      --tag-ieee-text: #FFFFFF;
+      --tag-wireshark: #333333;
+      --tag-wireshark-text: #FFFFFF;
+      --tag-nmap: #666666;
+      --tag-nmap-text: #FFFFFF;
+      --oui-color: #000000;
+    }
+
+    /* ============================================
+       THEME: KILL BILL
+       Black + Yellow dominant
+    ============================================ */
+    [data-theme="kill-bill"] {
+      --bg-primary: #0D0D0D;
+      --bg-card: #1A1A1A;
+      --bg-elevated: #2D2D2D;
+      --border: #3D3D3D;
+      --border-hover: #FFD700;
+      --text-primary: #F5F5F5;
+      --text-secondary: #888888;
+      --text-muted: #4A4A4A;
+      --text-emphasis: #FFFFFF;
+      --accent: #FFD700;
+      --accent-hover: #FFEA00;
+      --tag-ieee: #FFD700;
+      --tag-ieee-text: #000000;
+      --tag-wireshark: #2D2D2D;
+      --tag-wireshark-text: #FFD700;
+      --tag-nmap: #2D2D2D;
+      --tag-nmap-text: #FFC000;
+      --oui-color: #FFD700;
+    }
+
+    /* ============================================
+       THEME: GRINDHOUSE
+       Black + Red/Yellow punches
+    ============================================ */
+    [data-theme="grindhouse"] {
+      --bg-primary: #0D0D0D;
+      --bg-card: #1A1A1A;
+      --bg-elevated: #2D2D2D;
+      --border: #3D3D3D;
+      --border-hover: #DC0000;
+      --text-primary: #F5F5F5;
+      --text-secondary: #888888;
+      --text-muted: #4A4A4A;
+      --text-emphasis: #FFFFFF;
+      --accent: #DC0000;
+      --accent-hover: #FF2222;
+      --tag-ieee: #DC0000;
+      --tag-ieee-text: #FFFFFF;
+      --tag-wireshark: #FFD700;
+      --tag-wireshark-text: #000000;
+      --tag-nmap: #FF1493;
+      --tag-nmap-text: #FFFFFF;
+      --oui-color: #DC0000;
+    }
+
+    /* ============================================
+       THEME: FROM DUSK TILL DAWN
+       Crimson/Red based
+    ============================================ */
+    [data-theme="dusk-till-dawn"] {
+      --bg-primary: #8B0000;
+      --bg-card: #660000;
+      --bg-elevated: #7A0000;
+      --border: #000000;
+      --border-hover: #CC0000;
+      --text-primary: #000000;
+      --text-secondary: #1A0000;
+      --text-muted: #330000;
+      --text-emphasis: #000000;
+      --accent: #000000;
+      --accent-hover: #CC0000;
+      --tag-ieee: #000000;
+      --tag-ieee-text: #F5E6E6;
+      --tag-wireshark: #CC0000;
+      --tag-wireshark-text: #F5E6E6;
+      --tag-nmap: #A50000;
+      --tag-nmap-text: #F5E6E6;
+      --oui-color: #000000;
+    }
+
+    /* ============================================
+       BASE STYLES
+    ============================================ */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      min-height: 100vh;
+      padding: 20px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      color: var(--accent);
+      font-size: 2rem;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+    }
+
+    /* Theme Switcher */
+    .theme-switcher {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 100;
+    }
+
+    .theme-select {
+      background: var(--bg-card);
+      border: 2px solid var(--border);
+      color: var(--text-primary);
+      padding: 10px 16px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .theme-select:hover {
+      border-color: var(--accent);
+    }
+
+    .theme-select:focus {
+      border-color: var(--accent);
+    }
+
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 15px;
+      flex-wrap: wrap;
+    }
+
+    .stat {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 10px 16px;
+      text-align: center;
+      transition: border-color 0.2s, background 0.3s;
+    }
+
+    .stat:hover {
+      border-color: var(--accent);
+    }
+
+    .stat-value {
+      color: var(--accent);
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+
+    .stat-label {
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      margin-top: 2px;
+    }
+
+    .search-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: background 0.3s, border-color 0.3s;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 14px 16px;
+      font-size: 1.1rem;
+      background: var(--bg-primary);
+      border: 2px solid var(--border);
+      border-radius: 6px;
+      color: var(--text-primary);
+      outline: none;
+      transition: border-color 0.2s, background 0.3s;
+    }
+
+    .search-input:focus {
+      border-color: var(--accent);
+    }
+
+    .search-input::placeholder {
+      color: var(--text-muted);
+    }
+
+    .search-hint {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-top: 10px;
+    }
+
+    .search-hint code {
+      background: var(--bg-elevated);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+      color: var(--text-secondary);
+    }
+
+    .results {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: background 0.3s, border-color 0.3s;
+    }
+
+    .results-header {
+      background: var(--bg-elevated);
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      font-weight: 500;
+      color: var(--text-emphasis);
+    }
+
+    .results-list {
+      max-height: 500px;
+      overflow-y: auto;
+    }
+
+    .result-item {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--bg-elevated);
+      display: grid;
+      grid-template-columns: 120px 1fr;
+      gap: 12px;
+      align-items: start;
+      transition: background 0.2s;
+    }
+
+    .result-item:last-child {
+      border-bottom: none;
+    }
+
+    .result-item:hover {
+      background: var(--bg-elevated);
+    }
+
+    .result-oui {
+      font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+      color: var(--oui-color);
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .result-info {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .result-manufacturer {
+      color: var(--text-primary);
+      font-weight: 500;
+    }
+
+    .result-meta {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .result-tag {
+      background: var(--bg-elevated);
+      padding: 2px 8px;
+      border-radius: 4px;
+      color: var(--text-secondary);
+    }
+
+    .result-tag.ieee {
+      background: var(--tag-ieee);
+      color: var(--tag-ieee-text);
+    }
+
+    .result-tag.wireshark {
+      background: var(--tag-wireshark);
+      color: var(--tag-wireshark-text);
+    }
+
+    .result-tag.nmap {
+      background: var(--tag-nmap);
+      color: var(--tag-nmap-text);
+    }
+
+    .result-address {
+      color: var(--text-secondary);
+      font-size: 0.85rem;
+      margin-top: 4px;
+      line-height: 1.4;
+    }
+
+    .result-details {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 8px;
+      margin-top: 8px;
+      padding: 10px;
+      background: var(--bg-elevated);
+      border-radius: 4px;
+      font-size: 0.8rem;
+    }
+
+    .detail-item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .detail-label {
+      color: var(--text-muted);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+    }
+
+    .detail-value {
+      color: var(--text-primary);
+      font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+    }
+
+    .detail-value.device-type {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .no-results {
+      padding: 40px;
+      text-align: center;
+      color: var(--text-muted);
+    }
+
+    .loading {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .loading-spinner {
+      width: 40px;
+      height: 40px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 16px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .error {
+      background: #3d1f1f;
+      border: 1px solid #f85149;
+      color: #ffa198;
+      padding: 16px;
+      border-radius: 6px;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+      color: var(--accent-hover);
+    }
+
+    @media (max-width: 600px) {
+      .result-item {
+        grid-template-columns: 1fr;
+        gap: 6px;
+      }
+
+      .stats {
+        gap: 10px;
+      }
+
+      .stat {
+        padding: 8px 12px;
+      }
+
+      .theme-switcher {
+        position: static;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="theme-switcher">
+    <select class="theme-select" id="theme-select">
+      <option value="dark-night">Dark Night</option>
+      <option value="sin-city">Sin City</option>
+      <option value="kill-bill">Kill Bill</option>
+      <option value="grindhouse">Grindhouse</option>
+      <option value="dusk-till-dawn">From Dusk Till Dawn</option>
+    </select>
+  </div>
+
+  <div class="container">
+    <header>
+      <h1>OUI Master Database</h1>
+      <p class="subtitle">MAC Address Manufacturer Lookup</p>
+      <div class="stats" id="stats">
+        <div class="stat">
+          <div class="stat-value" id="stat-total">-</div>
+          <div class="stat-label">Total OUIs</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="stat-ieee">-</div>
+          <div class="stat-label">IEEE</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="stat-wireshark">-</div>
+          <div class="stat-label">Wireshark</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="stat-nmap">-</div>
+          <div class="stat-label">Nmap</div>
+        </div>
+      </div>
+    </header>
+
+    <div class="search-box">
+      <input
+        type="text"
+        class="search-input"
+        id="search"
+        placeholder="Search MAC address or manufacturer..."
+        autocomplete="off"
+        spellcheck="false"
+      >
+      <p class="search-hint">
+        Try: <code>3C:D9:2B</code> or <code>Apple</code> or <code>AA:BB:CC:DD:EE:FF</code>
+      </p>
+    </div>
+
+    <div class="results" id="results">
+      <div class="loading" id="loading">
+        <div class="loading-spinner"></div>
+        <div>Loading OUI database...</div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        <a href="https://github.com/Ringmast4r/OUI-Master-Database">GitHub Repository</a> |
+        Data from IEEE, Wireshark, Nmap
+      </p>
+      <p style="margin-top: 8px;">
+        Download:
+        <a href="LISTS/master_oui.csv">CSV</a> |
+        <a href="LISTS/master_oui.json">JSON</a> |
+        <a href="LISTS/master_oui.txt">TXT</a>
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    let ouiDB = null;
+    let ouiList = [];
+
+    const searchInput = document.getElementById('search');
+    const resultsContainer = document.getElementById('results');
+    const themeSelect = document.getElementById('theme-select');
+
+    // Theme switcher
+    function setTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem('oui-theme', theme);
+    }
+
+    // Load saved theme
+    const savedTheme = localStorage.getItem('oui-theme') || 'dark-night';
+    setTheme(savedTheme);
+    themeSelect.value = savedTheme;
+
+    themeSelect.addEventListener('change', (e) => {
+      setTheme(e.target.value);
+    });
+
+    // Load the database
+    async function loadDatabase() {
+      try {
+        const response = await fetch('LISTS/master_oui.min.json');
+        if (!response.ok) throw new Error('Failed to load database');
+
+        ouiDB = await response.json();
+        ouiList = Object.entries(ouiDB).map(([oui, data]) => ({
+          oui,
+          ...data
+        }));
+
+        // Calculate stats
+        let ieee = 0, wireshark = 0, nmap = 0;
+        ouiList.forEach(entry => {
+          if (entry.sources.includes('IEEE')) ieee++;
+          if (entry.sources.includes('Wireshark')) wireshark++;
+          if (entry.sources.includes('Nmap')) nmap++;
+        });
+
+        document.getElementById('stat-total').textContent = ouiList.length.toLocaleString();
+        document.getElementById('stat-ieee').textContent = ieee.toLocaleString();
+        document.getElementById('stat-wireshark').textContent = wireshark.toLocaleString();
+        document.getElementById('stat-nmap').textContent = nmap.toLocaleString();
+
+        showResults([]);
+        searchInput.focus();
+
+      } catch (err) {
+        resultsContainer.innerHTML = `
+          <div class="error">
+            Failed to load OUI database.<br>
+            <small>${err.message}</small>
+          </div>
+        `;
+      }
+    }
+
+    // Normalize MAC/OUI for comparison
+    function normalizeMAC(input) {
+      return input.toUpperCase().replace(/[^A-F0-9]/g, '').substring(0, 6);
+    }
+
+    // Search the database
+    function search(query) {
+      if (!ouiDB || !query.trim()) {
+        showResults([]);
+        return;
+      }
+
+      query = query.trim();
+      const normalized = normalizeMAC(query);
+
+      // Check if it looks like a MAC address
+      const isMACSearch = /^[A-Fa-f0-9:.\-]{6,}$/.test(query.replace(/\s/g, ''));
+
+      let results = [];
+
+      if (isMACSearch && normalized.length >= 6) {
+        // Exact OUI lookup
+        const ouiKey = `${normalized.substr(0,2)}:${normalized.substr(2,2)}:${normalized.substr(4,2)}`;
+        if (ouiDB[ouiKey]) {
+          results = [{ oui: ouiKey, ...ouiDB[ouiKey] }];
+        }
+      } else {
+        // Manufacturer search
+        const lowerQuery = query.toLowerCase();
+        results = ouiList.filter(entry =>
+          entry.manufacturer.toLowerCase().includes(lowerQuery) ||
+          (entry.short_name && entry.short_name.toLowerCase().includes(lowerQuery))
+        ).slice(0, 100); // Limit to 100 results
+      }
+
+      showResults(results);
+    }
+
+    // Display results
+    function showResults(results) {
+      if (!ouiDB) return;
+
+      if (results.length === 0) {
+        const query = searchInput.value.trim();
+        if (query) {
+          resultsContainer.innerHTML = `
+            <div class="results-header">No results found</div>
+            <div class="no-results">
+              No matching OUI found for "${escapeHtml(query)}"
+            </div>
+          `;
+        } else {
+          resultsContainer.innerHTML = `
+            <div class="results-header">Ready to search</div>
+            <div class="no-results">
+              Enter a MAC address or manufacturer name above
+            </div>
+          `;
+        }
+        return;
+      }
+
+      const header = `<div class="results-header">${results.length}${results.length === 100 ? '+' : ''} result${results.length !== 1 ? 's' : ''}</div>`;
+
+      const items = results.map(entry => {
+        const sources = entry.sources.map(s =>
+          `<span class="result-tag ${s.toLowerCase()}">${s}</span>`
+        ).join('');
+
+        // Format address if available
+        const address = entry.address ?
+          `<div class="result-address">${escapeHtml(entry.address)}</div>` : '';
+
+        // Calculate block details based on registry type
+        const ouiHex = entry.oui.replace(/:/g, '').toLowerCase();
+        let blockSize = '', startAddr = '', endAddr = '', blockDesc = '';
+
+        if (entry.registry === 'MA-L') {
+          blockSize = '16,777,215';
+          blockDesc = 'Large (~16.7M addresses)';
+          startAddr = ouiHex + '000000';
+          endAddr = ouiHex + 'ffffff';
+        } else if (entry.registry === 'MA-M') {
+          blockSize = '1,048,575';
+          blockDesc = 'Medium (~1M addresses)';
+          startAddr = ouiHex + '00000';
+          endAddr = ouiHex + 'fffff';
+        } else if (entry.registry === 'MA-S' || entry.registry === 'IAB') {
+          blockSize = '4,095';
+          blockDesc = 'Small (~4K addresses)';
+          startAddr = ouiHex + '000';
+          endAddr = ouiHex + 'fff';
+        } else if (entry.registry === 'CID') {
+          blockSize = 'N/A';
+          blockDesc = 'Company ID';
+          startAddr = 'N/A';
+          endAddr = 'N/A';
+        }
+
+        // Check if private/randomized MAC (bit 1 of first octet set)
+        const firstByte = parseInt(ouiHex.substring(0, 2), 16);
+        const isPrivate = (firstByte & 0x02) !== 0;
+
+        return `
+          <div class="result-item">
+            <div class="result-oui">${entry.oui}</div>
+            <div class="result-info">
+              <div class="result-manufacturer">${escapeHtml(entry.manufacturer)}</div>
+              ${address}
+              <div class="result-meta">
+                <span class="result-tag">${entry.registry}</span>
+                ${sources}
+              </div>
+              <div class="result-details">
+                ${entry.device_type ? `
+                <div class="detail-item">
+                  <span class="detail-label">Device Type</span>
+                  <span class="detail-value device-type">${entry.device_type}</span>
+                </div>
+                ` : ''}
+                <div class="detail-item">
+                  <span class="detail-label">Block Type</span>
+                  <span class="detail-value">${blockDesc}</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Block Size</span>
+                  <span class="detail-value">${blockSize}</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Start Address</span>
+                  <span class="detail-value">${startAddr}</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">End Address</span>
+                  <span class="detail-value">${endAddr}</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Is Private?</span>
+                  <span class="detail-value">${isPrivate ? 'Yes' : 'No'}</span>
+                </div>
+                ${entry.country ? `
+                <div class="detail-item">
+                  <span class="detail-label">Country</span>
+                  <span class="detail-value">${entry.country}</span>
+                </div>
+                ` : ''}
+                ${entry.registered_date ? `
+                <div class="detail-item">
+                  <span class="detail-label">Registered</span>
+                  <span class="detail-value">${entry.registered_date}</span>
+                </div>
+                ` : ''}
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      resultsContainer.innerHTML = header + `<div class="results-list">${items}</div>`;
+    }
+
+    function escapeHtml(str) {
+      const div = document.createElement('div');
+      div.textContent = str;
+      return div.innerHTML;
+    }
+
+    // Debounce search
+    let searchTimeout;
+    searchInput.addEventListener('input', (e) => {
+      clearTimeout(searchTimeout);
+      searchTimeout = setTimeout(() => search(e.target.value), 150);
+    });
+
+    // Load on page load
+    loadDatabase();
+  </script>
+</body>
+</html>

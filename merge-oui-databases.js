@@ -18,6 +18,154 @@ console.log('======================\n');
 // Master database (Map for deduplication)
 const masterDB = new Map();
 
+// Device type classification based on manufacturer patterns
+const DEVICE_TYPE_PATTERNS = {
+  // Networking Equipment
+  'Router': [
+    /cisco/i, /juniper/i, /mikrotik/i, /netgear/i, /tp-link/i, /tplink/i,
+    /linksys/i, /asus.*router/i, /dlink/i, /d-link/i, /zyxel/i, /ubiquiti/i,
+    /aruba/i, /ruckus/i, /fortinet/i, /fortigate/i, /palo alto/i, /sonicwall/i,
+    /watchguard/i, /barracuda/i, /peplink/i, /draytek/i, /edgerouter/i
+  ],
+  'Switch': [
+    /switch/i, /arista/i, /brocade/i, /extreme networks/i, /allied telesis/i,
+    /3com/i, /enterasys/i, /foundry/i, /mellanox/i
+  ],
+  'Access Point': [
+    /access point/i, /wireless.*ap/i, /wifi.*ap/i, /unifi/i, /engenius/i,
+    /cambium/i, /meraki/i, /mist/i, /aerohive/i, /xirrus/i, /mojo/i
+  ],
+
+  // Consumer Electronics
+  'Phone': [
+    /apple/i, /samsung.*electro/i, /huawei/i, /xiaomi/i, /oppo/i, /vivo/i,
+    /oneplus/i, /realme/i, /motorola/i, /nokia.*mobile/i, /sony.*mobile/i,
+    /lg electronics/i, /zte/i, /tcl/i, /honor/i, /google.*pixel/i, /fairphone/i
+  ],
+  'Computer': [
+    /dell/i, /hewlett.*packard/i, /hp inc/i, /lenovo/i, /acer/i, /asus(?!.*router)/i,
+    /msi/i, /gigabyte/i, /intel.*corp/i, /amd/i, /nvidia/i, /microsoft.*corp/i,
+    /razer/i, /alienware/i, /thinkpad/i, /surface/i
+  ],
+  'Laptop': [
+    /laptop/i, /notebook/i, /chromebook/i
+  ],
+  'Tablet': [
+    /tablet/i, /ipad/i, /galaxy.*tab/i
+  ],
+  'TV': [
+    /television/i, /\btv\b/i, /vizio/i, /hisense/i, /tcl.*electron/i, /roku/i,
+    /lg.*display/i, /sharp.*corp/i, /philips.*consumer/i, /toshiba.*visual/i
+  ],
+  'Gaming': [
+    /sony.*interactive/i, /playstation/i, /nintendo/i, /xbox/i, /valve/i,
+    /steam/i, /corsair/i, /logitech.*gaming/i, /hyperx/i, /steelseries/i
+  ],
+  'Wearable': [
+    /fitbit/i, /garmin/i, /polar/i, /suunto/i, /whoop/i, /oura/i,
+    /smartwatch/i, /wearable/i
+  ],
+
+  // IoT & Smart Home
+  'IoT': [
+    /espressif/i, /raspberry.*pi/i, /arduino/i, /particle/i, /seeed/i,
+    /adafruit/i, /sparkfun/i, /nordic.*semi/i, /silicon.*labs/i,
+    /texas.*instruments/i, /microchip/i, /stmicro/i, /nxp/i, /qualcomm/i
+  ],
+  'Smart Home': [
+    /nest/i, /ring/i, /ecobee/i, /hue/i, /sonos/i, /wemo/i, /smartthings/i,
+    /tuya/i, /shelly/i, /tasmota/i, /home.*assistant/i, /z-wave/i, /zigbee/i,
+    /amazon.*devices/i, /echo/i, /alexa/i, /google.*home/i, /lifx/i, /nanoleaf/i
+  ],
+  'Camera': [
+    /camera/i, /hikvision/i, /dahua/i, /axis.*comm/i, /vivotek/i, /uniview/i,
+    /hanwha/i, /bosch.*security/i, /flir/i, /amcrest/i, /reolink/i, /wyze/i,
+    /eufy/i, /arlo/i, /blink/i, /gopro/i, /canon/i, /nikon/i, /sony.*imaging/i
+  ],
+  'Thermostat': [
+    /thermostat/i, /hvac/i, /honeywell.*home/i, /emerson.*climate/i, /carrier/i,
+    /trane/i, /lennox/i
+  ],
+  'Appliance': [
+    /whirlpool/i, /electrolux/i, /bosch.*home/i, /siemens.*home/i, /miele/i,
+    /lg.*appliance/i, /samsung.*home/i, /ge.*appliance/i, /haier/i, /midea/i,
+    /dyson/i, /irobot/i, /roomba/i, /roborock/i, /ecovacs/i
+  ],
+
+  // Industrial & Enterprise
+  'Industrial': [
+    /siemens.*ag/i, /rockwell/i, /schneider.*electric/i, /abb/i, /honeywell/i,
+    /emerson.*electric/i, /yokogawa/i, /omron/i, /fanuc/i, /kuka/i, /beckhoff/i,
+    /phoenix.*contact/i, /wago/i, /advantech/i, /moxa/i
+  ],
+  'Server': [
+    /supermicro/i, /hpe.*proliant/i, /ibm.*system/i, /oracle.*server/i,
+    /fujitsu.*server/i, /inspur/i, /huawei.*server/i, /quanta/i
+  ],
+  'Storage': [
+    /netapp/i, /emc/i, /pure.*storage/i, /hitachi.*vantara/i, /western.*digital/i,
+    /seagate/i, /synology/i, /qnap/i, /buffalo/i, /drobo/i
+  ],
+
+  // Communication
+  'VoIP': [
+    /polycom/i, /cisco.*phone/i, /avaya/i, /mitel/i, /yealink/i, /grandstream/i,
+    /snom/i, /fanvil/i, /sangoma/i, /alcatel.*lucent/i, /genesys/i
+  ],
+  'Modem': [
+    /modem/i, /cable.*modem/i, /arris/i, /motorola.*cable/i, /technicolor/i,
+    /sagemcom/i, /zte.*access/i, /huawei.*access/i
+  ],
+
+  // Medical & Healthcare
+  'Medical': [
+    /medical/i, /philips.*healthcare/i, /ge.*healthcare/i, /siemens.*health/i,
+    /medtronic/i, /baxter/i, /abbott/i, /draeger/i, /hill-rom/i, /stryker/i,
+    /fresenius/i, /dexcom/i, /masimo/i
+  ],
+
+  // Automotive
+  'Automotive': [
+    /tesla/i, /bmw/i, /mercedes.*benz/i, /volkswagen/i, /audi/i, /ford.*motor/i,
+    /general.*motors/i, /toyota/i, /honda.*motor/i, /nissan/i, /hyundai.*motor/i,
+    /continental.*auto/i, /bosch.*auto/i, /denso/i, /harman/i, /delphi/i, /aptiv/i
+  ],
+
+  // Printers
+  'Printer': [
+    /printer/i, /canon.*print/i, /epson/i, /brother/i, /lexmark/i, /xerox/i,
+    /ricoh/i, /kyocera/i, /konica.*minolta/i, /zebra.*tech/i
+  ],
+
+  // Audio/Video
+  'Audio': [
+    /audio/i, /bose/i, /harman.*kardon/i, /jbl/i, /bang.*olufsen/i, /sonos/i,
+    /sennheiser/i, /audio-technica/i, /shure/i, /yamaha.*audio/i, /denon/i,
+    /marantz/i, /spotify/i
+  ],
+  'Media Player': [
+    /amazon.*fire/i, /apple.*tv/i, /chromecast/i, /nvidia.*shield/i,
+    /roku.*player/i, /streaming/i, /plex/i, /kodi/i
+  ]
+};
+
+// Function to classify device type
+function classifyDeviceType(manufacturer, shortName) {
+  if (!manufacturer) return null;
+
+  const searchStr = `${manufacturer} ${shortName || ''}`.toLowerCase();
+
+  for (const [deviceType, patterns] of Object.entries(DEVICE_TYPE_PATTERNS)) {
+    for (const pattern of patterns) {
+      if (pattern.test(searchStr)) {
+        return deviceType;
+      }
+    }
+  }
+
+  return null;
+}
+
 // Statistics
 const stats = {
   ieee_mal: 0,
@@ -141,6 +289,10 @@ function parseIEEECSV(filePath, registryType, statKey) {
         if (!existing.sources.includes('IEEE')) {
           existing.sources.push('IEEE');
         }
+        // Update device type if not set
+        if (!existing.device_type) {
+          existing.device_type = classifyDeviceType(orgName, null);
+        }
         stats.merged++;
       } else {
         masterDB.set(ouiKey, {
@@ -148,7 +300,7 @@ function parseIEEECSV(filePath, registryType, statKey) {
           manufacturer: orgName,
           registry: registry,
           short_name: null,
-          device_type: null,
+          device_type: classifyDeviceType(orgName, null),
           address: orgAddress,
           registered_date: macTrackerHistory[ouiKey] || null,
           sources: ['IEEE']
@@ -239,6 +391,10 @@ for (const line of wiresharkLines) {
       const existing = masterDB.get(oui);
       existing.short_name = existing.short_name || shortName;
       if (longName) existing.manufacturer = longName;  // Prefer longer name
+      // Update device type if not set
+      if (!existing.device_type) {
+        existing.device_type = classifyDeviceType(manufacturer, shortName);
+      }
       existing.sources.push('Wireshark');
       stats.merged++;
     } else {
@@ -248,7 +404,7 @@ for (const line of wiresharkLines) {
         manufacturer,
         registry: 'MA-L',
         short_name: shortName,
-        device_type: null,
+        device_type: classifyDeviceType(manufacturer, shortName),
         address: null,
         registered_date: macTrackerHistory[oui] || null,
         sources: ['Wireshark']
@@ -291,6 +447,10 @@ for (const line of nmapLines) {
     if (masterDB.has(prefix)) {
       // Merge with existing entry
       const existing = masterDB.get(prefix);
+      // Update device type if not set
+      if (!existing.device_type) {
+        existing.device_type = classifyDeviceType(manufacturer, null);
+      }
       existing.sources.push('Nmap');
       stats.merged++;
     } else {
@@ -300,7 +460,7 @@ for (const line of nmapLines) {
         manufacturer,
         registry: 'MA-L',
         short_name: null,
-        device_type: null,
+        device_type: classifyDeviceType(manufacturer, null),
         address: null,
         registered_date: macTrackerHistory[prefix] || null,
         sources: ['Nmap']
@@ -335,15 +495,119 @@ for (const [oui, entry] of masterDB) {
 fs.writeFileSync(path.join(OUTPUT_DIR, 'master_oui.csv'), csvLines.join('\n'));
 console.log(`✅ CSV: ${OUTPUT_DIR}/master_oui.csv (${stats.unique} entries)`);
 
+// Helper: Extract country code from address
+function extractCountryCode(address) {
+  if (!address) return null;
+
+  // Common country codes at end of IEEE addresses
+  const countryPatterns = [
+    /\b(US|USA)\s*\d{0,5}\s*$/i,
+    /\b(CN|CHN|China)\s*\d{0,6}\s*$/i,
+    /\b(TW|TWN|Taiwan)\s*\d{0,6}\s*$/i,
+    /\b(KR|KOR|Korea)\s*\d{0,6}\s*$/i,
+    /\b(JP|JPN|Japan)\s*\d{0,6}\s*$/i,
+    /\b(DE|DEU|Germany)\s*\d{0,6}\s*$/i,
+    /\b(GB|GBR|UK)\s*\d{0,6}\s*$/i,
+    /\b(FR|FRA|France)\s*\d{0,6}\s*$/i,
+    /\b(IT|ITA|Italy)\s*\d{0,6}\s*$/i,
+    /\b(NL|NLD|Netherlands)\s*\d{0,6}\s*$/i,
+    /\b(SE|SWE|Sweden)\s*\d{0,6}\s*$/i,
+    /\b(FI|FIN|Finland)\s*\d{0,6}\s*$/i,
+    /\b(IN|IND|India)\s*\d{0,6}\s*$/i,
+    /\b(AU|AUS|Australia)\s*\d{0,6}\s*$/i,
+    /\b(CA|CAN|Canada)\s*\d{0,6}\s*$/i,
+    /\b(IL|ISR|Israel)\s*\d{0,6}\s*$/i,
+    /\b(SG|SGP|Singapore)\s*\d{0,6}\s*$/i,
+    /\b(HK|HKG|Hong Kong)\s*\d{0,6}\s*$/i,
+    /\b(VN|VNM|Vietnam)\s*\d{0,6}\s*$/i,
+    /\b(BR|BRA|Brazil)\s*\d{0,6}\s*$/i,
+    /\b(MX|MEX|Mexico)\s*\d{0,6}\s*$/i,
+    /\b(RU|RUS|Russia)\s*\d{0,6}\s*$/i,
+    /\b(PL|POL|Poland)\s*\d{0,6}\s*$/i,
+    /\b(CZ|CZE|Czech)\s*\d{0,6}\s*$/i,
+    /\b(CH|CHE|Switzerland)\s*\d{0,6}\s*$/i,
+    /\b(AT|AUT|Austria)\s*\d{0,6}\s*$/i,
+    /\b(BE|BEL|Belgium)\s*\d{0,6}\s*$/i,
+    /\b(DK|DNK|Denmark)\s*\d{0,6}\s*$/i,
+    /\b(NO|NOR|Norway)\s*\d{0,6}\s*$/i,
+    /\b(IE|IRL|Ireland)\s*\d{0,6}\s*$/i,
+    /\b(ES|ESP|Spain)\s*\d{0,6}\s*$/i,
+    /\b(PT|PRT|Portugal)\s*\d{0,6}\s*$/i,
+    /\b(MY|MYS|Malaysia)\s*\d{0,6}\s*$/i,
+    /\b(TH|THA|Thailand)\s*\d{0,6}\s*$/i,
+    /\b(PH|PHL|Philippines)\s*\d{0,6}\s*$/i,
+    /\b(ID|IDN|Indonesia)\s*\d{0,6}\s*$/i,
+    /\b(ZA|ZAF|South Africa)\s*\d{0,6}\s*$/i,
+    /\b(AE|ARE|UAE)\s*\d{0,6}\s*$/i,
+    /\b(SA|SAU|Saudi)\s*\d{0,6}\s*$/i,
+    /\b(NZ|NZL|New Zealand)\s*\d{0,6}\s*$/i,
+  ];
+
+  // Normalize country codes
+  const countryMap = {
+    'usa': 'US', 'china': 'CN', 'chn': 'CN', 'taiwan': 'TW', 'twn': 'TW',
+    'korea': 'KR', 'kor': 'KR', 'japan': 'JP', 'jpn': 'JP',
+    'germany': 'DE', 'deu': 'DE', 'uk': 'GB', 'gbr': 'GB',
+    'france': 'FR', 'fra': 'FR', 'italy': 'IT', 'ita': 'IT',
+    'netherlands': 'NL', 'nld': 'NL', 'sweden': 'SE', 'swe': 'SE',
+    'finland': 'FI', 'fin': 'FI', 'india': 'IN', 'ind': 'IN',
+    'australia': 'AU', 'aus': 'AU', 'canada': 'CA', 'can': 'CA',
+    'israel': 'IL', 'isr': 'IL', 'singapore': 'SG', 'sgp': 'SG',
+    'hong kong': 'HK', 'hkg': 'HK', 'vietnam': 'VN', 'vnm': 'VN',
+    'brazil': 'BR', 'bra': 'BR', 'mexico': 'MX', 'mex': 'MX',
+    'russia': 'RU', 'rus': 'RU', 'poland': 'PL', 'pol': 'PL',
+    'czech': 'CZ', 'cze': 'CZ', 'switzerland': 'CH', 'che': 'CH',
+    'austria': 'AT', 'aut': 'AT', 'belgium': 'BE', 'bel': 'BE',
+    'denmark': 'DK', 'dnk': 'DK', 'norway': 'NO', 'nor': 'NO',
+    'ireland': 'IE', 'irl': 'IE', 'spain': 'ES', 'esp': 'ES',
+    'portugal': 'PT', 'prt': 'PT', 'malaysia': 'MY', 'mys': 'MY',
+    'thailand': 'TH', 'tha': 'TH', 'philippines': 'PH', 'phl': 'PH',
+    'indonesia': 'ID', 'idn': 'ID', 'south africa': 'ZA', 'zaf': 'ZA',
+    'uae': 'AE', 'are': 'AE', 'saudi': 'SA', 'sau': 'SA',
+    'new zealand': 'NZ', 'nzl': 'NZ'
+  };
+
+  for (const pattern of countryPatterns) {
+    const match = address.match(pattern);
+    if (match) {
+      let code = match[1].toUpperCase();
+      if (code.length > 2) {
+        code = countryMap[code.toLowerCase()] || code.substring(0, 2);
+      }
+      return code;
+    }
+  }
+
+  // Try to find 2-letter country code before postal code (common IEEE format)
+  const simpleMatch = address.match(/\s([A-Z]{2})\s+\d{4,6}\s*$/);
+  if (simpleMatch) return simpleMatch[1];
+
+  // Look for country code anywhere near end with postal code
+  const usMatch = address.match(/\bUS\b\s*\d{5}/i);
+  if (usMatch) return 'US';
+
+  const cnMatch = address.match(/\bCN\b\s*\d{5,6}/i);
+  if (cnMatch) return 'CN';
+
+  // Look for standalone country code at end
+  const endMatch = address.match(/\s([A-Z]{2})\s*$/);
+  if (endMatch) return endMatch[1];
+
+  return null;
+}
+
 // 4.2: JSON Output (compact lookup format)
 const jsonDB = {};
 for (const [oui, entry] of masterDB) {
+  const countryCode = extractCountryCode(entry.address);
   jsonDB[oui] = {
     manufacturer: entry.manufacturer,
     registry: entry.registry,
     short_name: entry.short_name,
     device_type: entry.device_type,
     registered_date: entry.registered_date,
+    address: entry.address || null,
+    country: countryCode,
     sources: entry.sources
   };
 }

@@ -1,7 +1,7 @@
 {
   "name": "oui-master-database",
-  "version": "1.0.0",
-  "description": "**The most comprehensive MAC address manufacturer lookup database - 49,059+ vendors from IEEE, Nmap, and Wireshark**",
+  "version": "2.0.0",
+  "description": "The most comprehensive MAC address manufacturer lookup database - 86,098+ vendors with device type classification, country codes, and registration dates from IEEE, Nmap, Wireshark, and HDM Mac-Tracker",
   "main": "merge-oui-databases.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -4,7 +4,7 @@ REM Downloads latest OUI databases and merges them
 
 echo.
 echo ====================================
-echo    OUI Database Updater
+echo    OUI Database Updater v2.0
 echo ====================================
 echo.
 
@@ -17,7 +17,26 @@ if errorlevel 1 (
     exit /b 1
 )
 
-echo [Step 1/2] Downloading latest OUI databases...
+REM Check if bash is available (Git Bash)
+bash --version >nul 2>&1
+if errorlevel 1 (
+    echo ERROR: Bash is not available!
+    echo Please install Git for Windows from https://git-scm.com/
+    pause
+    exit /b 1
+)
+
+echo [Step 1/3] Installing dependencies...
+echo.
+call npm install
+if errorlevel 1 (
+    echo ERROR: npm install failed!
+    pause
+    exit /b 1
+)
+
+echo.
+echo [Step 2/3] Downloading latest OUI databases...
 echo.
 bash download-sources.sh
 if errorlevel 1 (
@@ -27,7 +46,7 @@ if errorlevel 1 (
 )
 
 echo.
-echo [Step 2/2] Merging databases into master list...
+echo [Step 3/3] Merging databases into master list...
 echo.
 node merge-oui-databases.js
 if errorlevel 1 (
@@ -42,8 +61,9 @@ echo    Update Complete!
 echo ====================================
 echo.
 echo Master database updated successfully!
-echo Location: output\master_oui.csv
+echo Location: LISTS\master_oui.csv
 echo.
-type output\stats.txt
+echo Statistics:
+type LISTS\stats.txt
 echo.
 pause
