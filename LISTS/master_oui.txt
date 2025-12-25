@@ -1,5 +1,5 @@
 # OUI Master Database - Simple Format
-# Generated: 2025-12-25T21:14:18.241Z
+# Generated: 2025-12-25T21:37:40.005Z
 # Total Entries: 86098
 # Format: OUI<tab>Manufacturer
 #
