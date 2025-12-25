@@ -63,40 +63,83 @@ node oui-lookup.js --interactive
 ```
 
 ### Linux (Ubuntu/Debian)
+
+**Step 1: Open Terminal**
+- Press `Ctrl + Alt + T` or find Terminal in your applications
+
+**Step 2: Install Node.js and dependencies**
 ```bash
-# 1. Install Node.js
-sudo apt update && sudo apt install nodejs npm
+sudo apt update
+sudo apt install nodejs npm git
+```
 
-# 2. Clone the repo
+**Step 3: (Optional) Install WiFi/Bluetooth tools**
+```bash
+sudo apt install network-manager bluez
+```
+
+**Step 4: Download the OUI Database**
+```bash
+cd ~/Desktop
 git clone https://github.com/Ringmast4r/OUI-Master-Database.git
-cd OUI-Master-Database/CLI\ TOOL
+```
 
-# 3. Run it
+**Step 5: Run the tool**
+```bash
+cd ~/Desktop/OUI-Master-Database/CLI\ TOOL
 node oui-lookup.js --interactive
+```
 
-# For WiFi scanning, ensure you have:
-sudo apt install network-manager   # for nmcli
-# or
-sudo apt install wireless-tools    # for iwlist
+**That's it!** You're now in interactive mode. Type a MAC address, manufacturer name, or:
+- `wifi` - Scan nearby WiFi networks
+- `bluetooth` - Scan Bluetooth devices
+- `arp` - Show network devices
+- `quit` - Exit
 
-# For Bluetooth scanning:
-sudo apt install bluez             # for bluetoothctl
+**Quick one-liner (after setup):**
+```bash
+cd ~/Desktop/OUI-Master-Database/CLI\ TOOL && node oui-lookup.js --interactive
 ```
 
 ### macOS
+
+**Step 1: Open Terminal**
+- Press `Cmd + Space` to open Spotlight
+- Type `Terminal` and press Enter
+
+**Step 2: Install Homebrew (if you don't have it)**
 ```bash
-# 1. Install Node.js via Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+Follow the prompts. When done, close and reopen Terminal.
+
+**Step 3: Install Node.js**
+```bash
 brew install node
+```
 
-# 2. Clone the repo
+**Step 4: Download the OUI Database**
+```bash
+cd ~/Desktop
 git clone https://github.com/Ringmast4r/OUI-Master-Database.git
-cd OUI-Master-Database/CLI\ TOOL
+```
+This creates a folder called `OUI-Master-Database` on your Desktop.
 
-# 3. Run it
+**Step 5: Run the tool**
+```bash
+cd ~/Desktop/OUI-Master-Database/CLI\ TOOL
 node oui-lookup.js --interactive
+```
 
-# WiFi scanning uses built-in airport command
-# Bluetooth uses built-in system_profiler
+**That's it!** You're now in interactive mode. Type a MAC address, manufacturer name, or:
+- `wifi` - Scan nearby WiFi networks
+- `bluetooth` - Scan Bluetooth devices
+- `arp` - Show network devices
+- `quit` - Exit
+
+**Quick one-liner (after setup):**
+```bash
+cd ~/Desktop/OUI-Master-Database/CLI\ TOOL && node oui-lookup.js --interactive
 ```
 
 ## Requirements
