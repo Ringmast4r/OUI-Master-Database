@@ -156,10 +156,24 @@
       margin-bottom: 30px;
     }
 
+    .header-title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 8px;
+    }
+
+    .header-logo {
+      width: 60px;
+      height: 60px;
+      border-radius: 8px;
+    }
+
     h1 {
       color: var(--accent);
       font-size: 2rem;
-      margin-bottom: 8px;
+      margin-bottom: 0;
     }
 
     .subtitle {
@@ -485,12 +499,15 @@
 
   <div class="container">
     <header>
-      <h1>OUI Master Database</h1>
+      <div class="header-title">
+        <img src="OUI Master Database.png" alt="OUI Master Database Logo" class="header-logo">
+        <h1>OUI Master Database</h1>
+      </div>
       <p class="subtitle">MAC Address Manufacturer Lookup</p>
       <div class="stats" id="stats">
         <div class="stat">
           <div class="stat-value" id="stat-total">-</div>
-          <div class="stat-label">Total OUIs</div>
+          <div class="stat-label">Total Unique OUIs</div>
         </div>
         <div class="stat">
           <div class="stat-value" id="stat-ieee">-</div>
