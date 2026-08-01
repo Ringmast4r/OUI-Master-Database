@@ -2,35 +2,35 @@ OUI Database Merge Statistics
 ==============================
 
 IEEE Registries Processed:
-  MA-L (Large/OUI):   39,481 entries
-  MA-M (Medium):      6,417 entries
-  MA-S (Small):       7,026 entries
+  MA-L (Large/OUI):   39,885 entries
+  MA-M (Medium):      6,521 entries
+  MA-S (Small):       7,116 entries
   IAB (Individual):   4,575 entries
-  CID (Company ID):   213 entries
+  CID (Company ID):   216 entries
   ─────────────────────────────────
-  IEEE Total:         57,712 entries
+  IEEE Total:         58,313 entries
 
 Community Sources:
-  Wireshark:          57,255 entries
+  Wireshark:          57,778 entries
   Nmap:               52,085 entries
 
 Historical Data:
-  Mac-Tracker:        57,828 registration dates
+  Mac-Tracker:        58,431 registration dates
 
 Results:
-  Unique OUIs:        88,873 entries
-  Merged Entries:     78,179 (same OUI from multiple sources)
+  Unique OUIs:        89,652 entries
+  Merged Entries:     78,524 (same OUI from multiple sources)
 
 Output Files:
-  master_oui.txt      2.51 MB  (simple grep/awk format)
-  master_oui.csv      9.32 MB  (full data with addresses)
-  master_oui.tsv      5.63 MB  (Excel/Sheets import)
-  master_oui.json     26.33 MB  (pretty-printed)
-  master_oui.min.json 20.13 MB  (compact for scripts)
-  master_oui.xml      19.23 MB  (enterprise/Java)
-  master_oui.db       18.63 MB  (SQLite ready-to-query)
-  import-to-d1.sql    11.64 MB  (SQL import script)
-  kismet_manuf.txt    1.22 MB  (Kismet IDS format)
-  kismet_manuf.txt.gz 0.37 MB  (Kismet gzipped)
+  master_oui.txt      2.54 MB  (simple grep/awk format)
+  master_oui.csv      9.42 MB  (full data with addresses)
+  master_oui.tsv      5.68 MB  (Excel/Sheets import)
+  master_oui.json     26.57 MB  (pretty-printed)
+  master_oui.min.json 20.32 MB  (compact for scripts)
+  master_oui.xml      19.40 MB  (enterprise/Java)
+  master_oui.db       18.86 MB  (SQLite ready-to-query)
+  import-to-d1.sql    11.76 MB  (SQL import script)
+  kismet_manuf.txt    1.24 MB  (Kismet IDS format)
+  kismet_manuf.txt.gz 0.38 MB  (Kismet gzipped)
 
-Generated: 2026-06-01T03:39:27.537Z
+Generated: 2026-08-01T02:27:20.240Z
