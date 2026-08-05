@@ -5,12 +5,15 @@ set -e  # Exit on error
 set -o pipefail
 
 # --fail          : a 4xx/5xx must not land on disk as if it were data
-# --retry*        : IEEE regularly refuses connections at the top of the hour,
-#                   which is exactly when the scheduled run fires. This is what
-#                   killed the 2026-07-01 build - curl exit 7, whole run lost.
+# --retry*        : standards-oui.ieee.org intermittently refuses connections
+#                   from cloud/CI address ranges - not an outage, the same URL
+#                   answers 200 from a residential IP at the same moment. It is
+#                   what killed 2026-07-01 and 2026-08-05 (curl exit 7 on every
+#                   attempt). These blocks outlast a short backoff, so retry
+#                   across ~25 minutes rather than ~3.
 # --connect-timeout / --max-time : never hang a runner forever
 # (each call already passes --progress-bar of its own)
-CURL_OPTS="-L --fail --retry 6 --retry-delay 20 --retry-all-errors --connect-timeout 30 --max-time 900"
+CURL_OPTS="-L --fail --retry 20 --retry-delay 30 --retry-max-time 1500 --retry-all-errors --connect-timeout 20 --max-time 600"
 
 SOURCES_DIR="sources"
 mkdir -p "$SOURCES_DIR"
