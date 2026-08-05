@@ -19,7 +19,19 @@ concurrency:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
+    # Self-hosted runner "OUI Masterdatabase Action sync".
+    #
+    # standards-oui.ieee.org intermittently refuses connections from GitHub's
+    # hosted runner ranges. It is not an outage - during the 2026-08-05 failure
+    # the same URL returned HTTP 200 and a 3,809,980 byte body to a residential
+    # IP while every attempt from ubuntu-latest failed to connect. That block
+    # killed 2026-07-01 as well, and no retry policy can talk its way past an
+    # IP-level refusal, so the fetch runs from a network IEEE will serve.
+    #
+    # This workflow has no pull_request trigger, so forks cannot schedule work
+    # onto this runner - the usual hazard of a self-hosted runner on a public
+    # repository does not apply here. Keep it that way.
+    runs-on: [self-hosted, oui-sync]
 
     permissions:
       contents: write
