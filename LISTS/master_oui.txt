@@ -1,5 +1,5 @@
 # OUI Master Database - Simple Format
-# Generated: 2026-08-05T09:31:38.581Z
+# Generated: 2026-08-05T09:34:49.277Z
 # Total Entries: 89704
 # Format: OUI<tab>Manufacturer
 # Prefixes follow Wireshark manuf notation - a /28 or /36 suffix marks a

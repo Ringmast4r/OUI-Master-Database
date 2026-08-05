@@ -1,5 +1,5 @@
 -- Master OUI Database Import
--- Generated: 2026-08-05T09:31:38.219Z
+-- Generated: 2026-08-05T09:34:49.043Z
 -- Total Entries: 89704
 
 CREATE TABLE IF NOT EXISTS oui_registry (

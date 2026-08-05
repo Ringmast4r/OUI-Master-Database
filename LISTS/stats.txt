@@ -33,4 +33,4 @@ Output Files:
   kismet_manuf.txt    3.08 MB  (Kismet IDS format)
   kismet_manuf.txt.gz 0.69 MB  (Kismet gzipped)
 
-Generated: 2026-08-05T09:31:44.036Z
+Generated: 2026-08-05T09:34:52.907Z
