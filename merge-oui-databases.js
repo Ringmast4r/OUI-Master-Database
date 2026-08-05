@@ -233,12 +233,18 @@ if (fs.existsSync(macTrackerPath)) {
 // Helper: Parse IEEE CSV format
 // =====================
 function parseIEEECSV(filePath, registryType, statKey) {
+  // Fail loudly. Skipping a missing registry used to produce a silently
+  // incomplete build that the workflow would still commit and publish.
   if (!fs.existsSync(filePath)) {
-    console.log(`⚠️  ${registryType}: File not found, skipping...`);
-    return;
+    throw new Error(`${registryType}: source file missing at ${filePath} - refusing to build a partial database`);
   }
 
   const csvContent = fs.readFileSync(filePath, 'utf8');
+
+  // A captive portal or IEEE error page returns HTTP 200 with HTML in it.
+  if (/^\s*<(?:!doctype|html)/i.test(csvContent)) {
+    throw new Error(`${registryType}: ${filePath} contains HTML, not CSV - the download was an error page`);
+  }
   const lines = csvContent.split('\n');
 
   for (let i = 1; i < lines.length; i++) {  // Skip header
@@ -664,18 +670,53 @@ for (let i = 0; i < ouiArray.length; i += BATCH_SIZE) {
 fs.writeFileSync(path.join(OUTPUT_DIR, 'import-to-d1.sql'), sqlLines.join('\n'));
 console.log(`✅ SQL: ${OUTPUT_DIR}/import-to-d1.sql (${Math.ceil(ouiArray.length / BATCH_SIZE)} batches)`);
 
-// 4.4: TXT Output (Nmap-style simple format: AABBCC<tab>Vendor Name)
+// Helper: render any stored key as Wireshark/Kismet prefix notation.
+//
+// The master DB holds the same conceptual block under several spellings
+// depending on which source supplied it (IEEE "00:1B:C5:00:0", Wireshark
+// "00:1B:C5:00:00/36", Nmap "001BC5000"). Everything below normalizes to the
+// upstream Wireshark `manuf` form so a 28/36-bit assignment stays distinct
+// from its parent 24-bit OUI instead of collapsing onto it:
+//
+//   24-bit  -> 28:6F:B9              (3 octets, no suffix)
+//   28-bit  -> 00:55:DA:00/28        (4 octets)
+//   36-bit  -> 00:1B:C5:00:00/36     (5 octets)
+function toPrefixNotation(ouiKey) {
+  let bits = 0;
+  let s = String(ouiKey);
+
+  const suffix = s.match(/\/(\d+)$/);
+  if (suffix) {
+    bits = parseInt(suffix[1], 10);
+    s = s.replace(/\/\d+$/, '');
+  }
+
+  s = s.replace(/[^0-9A-Fa-f]/g, '').toUpperCase();
+  if (!bits) bits = s.length * 4;          // 6 hex -> 24, 7 -> 28, 9 -> 36
+  if (!s || !bits) return null;
+
+  s = s.slice(0, Math.ceil(bits / 4));
+  const octets = Math.ceil(bits / 8);
+  const hex = (s + '0'.repeat(octets * 2)).slice(0, octets * 2);
+  const dotted = hex.match(/../g).join(':');
+
+  return bits === 24 ? dotted : `${dotted}/${bits}`;
+}
+
+// 4.4: TXT Output (Wireshark manuf-style: PREFIX<tab>Vendor Name)
 const txtLines = [
   '# OUI Master Database - Simple Format',
   '# Generated: ' + new Date().toISOString(),
   '# Total Entries: ' + stats.unique,
   '# Format: OUI<tab>Manufacturer',
+  '# Prefixes follow Wireshark manuf notation - a /28 or /36 suffix marks a',
+  '# 28-bit (MA-M) or 36-bit (MA-S/IAB) block. Bare prefixes are 24-bit MA-L.',
   '#'
 ];
 for (const [oui, entry] of masterDB) {
-  // Convert XX:XX:XX to XXXXXX for compatibility with grep/awk tools
-  const ouiCompact = entry.oui.replace(/:/g, '').substring(0, 6);
-  txtLines.push(`${ouiCompact}\t${entry.manufacturer}`);
+  const prefix = toPrefixNotation(entry.oui);
+  if (!prefix) continue;
+  txtLines.push(`${prefix}\t${entry.manufacturer}`);
 }
 fs.writeFileSync(path.join(OUTPUT_DIR, 'master_oui.txt'), txtLines.join('\n'));
 console.log(`✅ TXT: ${OUTPUT_DIR}/master_oui.txt (${stats.unique} entries)`);
@@ -754,10 +795,12 @@ console.log(`✅ SQLite: ${OUTPUT_DIR}/master_oui.db (${stats.unique} entries)`)
 const zlib = require('zlib');
 const kismetEntries = [];
 for (const [oui, entry] of masterDB) {
-  // Only include standard MA-L OUIs (XX:XX:XX format, 8 chars with colons)
-  if (entry.oui.length === 8 && entry.oui.split(':').length === 3) {
-    kismetEntries.push(`${entry.oui}	${entry.manufacturer}`);
-  }
+  // Kismet reads Wireshark manuf notation, so MA-M/MA-S/IAB blocks belong here
+  // too - previously only 24-bit MA-L survived and ~49,500 assignments were
+  // dropped from this export entirely.
+  const prefix = toPrefixNotation(entry.oui);
+  if (!prefix) continue;
+  kismetEntries.push(`${prefix}\t${entry.manufacturer}`);
 }
 // Sort by OUI for Kismet binary search
 kismetEntries.sort();

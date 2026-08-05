@@ -2,6 +2,15 @@
 # Download all OUI databases from multiple sources
 
 set -e  # Exit on error
+set -o pipefail
+
+# --fail          : a 4xx/5xx must not land on disk as if it were data
+# --retry*        : IEEE regularly refuses connections at the top of the hour,
+#                   which is exactly when the scheduled run fires. This is what
+#                   killed the 2026-07-01 build - curl exit 7, whole run lost.
+# --connect-timeout / --max-time : never hang a runner forever
+# (each call already passes --progress-bar of its own)
+CURL_OPTS="-L --fail --retry 6 --retry-delay 20 --retry-all-errors --connect-timeout 30 --max-time 900"
 
 SOURCES_DIR="sources"
 mkdir -p "$SOURCES_DIR"
@@ -12,7 +21,7 @@ echo ""
 
 # 1. IEEE MA-L (Large - Traditional OUI, 24-bit)
 echo "📥 [1/7] Downloading IEEE MA-L (OUI) database..."
-curl -L -o "$SOURCES_DIR/ieee_mal.csv" \
+curl ${CURL_OPTS} -o "$SOURCES_DIR/ieee_mal.csv" \
     "https://standards-oui.ieee.org/oui/oui.csv" \
     --progress-bar
 echo "✅ IEEE MA-L: $(wc -l < "$SOURCES_DIR/ieee_mal.csv") lines downloaded"
@@ -20,7 +29,7 @@ echo ""
 
 # 2. IEEE MA-M (Medium - 28-bit)
 echo "📥 [2/7] Downloading IEEE MA-M database..."
-curl -L -o "$SOURCES_DIR/ieee_mam.csv" \
+curl ${CURL_OPTS} -o "$SOURCES_DIR/ieee_mam.csv" \
     "https://standards-oui.ieee.org/oui28/mam.csv" \
     --progress-bar
 echo "✅ IEEE MA-M: $(wc -l < "$SOURCES_DIR/ieee_mam.csv") lines downloaded"
@@ -28,7 +37,7 @@ echo ""
 
 # 3. IEEE MA-S (Small - 36-bit, formerly OUI-36)
 echo "📥 [3/7] Downloading IEEE MA-S database..."
-curl -L -o "$SOURCES_DIR/ieee_mas.csv" \
+curl ${CURL_OPTS} -o "$SOURCES_DIR/ieee_mas.csv" \
     "https://standards-oui.ieee.org/oui36/oui36.csv" \
     --progress-bar
 echo "✅ IEEE MA-S: $(wc -l < "$SOURCES_DIR/ieee_mas.csv") lines downloaded"
@@ -36,7 +45,7 @@ echo ""
 
 # 4. IEEE IAB (Individual Address Blocks - legacy)
 echo "📥 [4/7] Downloading IEEE IAB database..."
-curl -L -o "$SOURCES_DIR/ieee_iab.csv" \
+curl ${CURL_OPTS} -o "$SOURCES_DIR/ieee_iab.csv" \
     "https://standards-oui.ieee.org/iab/iab.csv" \
     --progress-bar
 echo "✅ IEEE IAB: $(wc -l < "$SOURCES_DIR/ieee_iab.csv") lines downloaded"
@@ -44,7 +53,7 @@ echo ""
 
 # 5. IEEE CID (Company ID - no MAC addresses, for reference)
 echo "📥 [5/7] Downloading IEEE CID database..."
-curl -L -o "$SOURCES_DIR/ieee_cid.csv" \
+curl ${CURL_OPTS} -o "$SOURCES_DIR/ieee_cid.csv" \
     "https://standards-oui.ieee.org/cid/cid.csv" \
     --progress-bar
 echo "✅ IEEE CID: $(wc -l < "$SOURCES_DIR/ieee_cid.csv") lines downloaded"
@@ -52,7 +61,7 @@ echo ""
 
 # 6. Wireshark Manufacturer Database (now distributed as gzip)
 echo "📥 [6/7] Downloading Wireshark manufacturer database..."
-curl -L -o "$SOURCES_DIR/wireshark_manuf.gz" \
+curl ${CURL_OPTS} -o "$SOURCES_DIR/wireshark_manuf.gz" \
     "https://www.wireshark.org/download/automated/data/manuf.gz" \
     --progress-bar
 gunzip -f "$SOURCES_DIR/wireshark_manuf.gz"
@@ -62,7 +71,7 @@ echo ""
 
 # 7. Nmap MAC Prefixes
 echo "📥 [7/8] Downloading Nmap MAC prefixes..."
-curl -L -o "$SOURCES_DIR/nmap_prefixes.txt" \
+curl ${CURL_OPTS} -o "$SOURCES_DIR/nmap_prefixes.txt" \
     "https://raw.githubusercontent.com/nmap/nmap/master/nmap-mac-prefixes" \
     --progress-bar
 echo "✅ Nmap: $(wc -l < "$SOURCES_DIR/nmap_prefixes.txt") lines downloaded"
@@ -70,7 +79,7 @@ echo ""
 
 # 8. HDM Mac-Tracker Historical Data (registration dates)
 echo "📥 [8/8] Downloading HDM mac-tracker historical data..."
-curl -L -o "$SOURCES_DIR/mac_tracker_history.json" \
+curl ${CURL_OPTS} -o "$SOURCES_DIR/mac_tracker_history.json" \
     "https://raw.githubusercontent.com/hdm/mac-tracker/main/data/macs.json" \
     --progress-bar
 echo "✅ Mac-Tracker: Historical registration dates downloaded"

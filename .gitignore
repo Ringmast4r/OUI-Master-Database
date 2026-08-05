@@ -6,10 +6,10 @@ node_modules/
 *.log
 sample_data.txt
 
-# Keep the master CSV for direct download, but ignore intermediate files
-sources/ieee_oui.csv
-sources/wireshark_manuf.txt
-sources/nmap_prefixes.txt
+# Keep the master lists for direct download, but ignore the raw downloads that
+# download-sources.sh refetches on every run. The filenames here used to be
+# stale, which left ieee_mal.csv and friends untracked-but-not-ignored.
+sources/
 
 # Keep all output files - these are what users want!
 # output/ folder will be committed

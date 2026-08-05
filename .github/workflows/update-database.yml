@@ -1,12 +1,21 @@
 name: Update OUI Database
 
 on:
-  # Run on the 1st of every month at midnight UTC
+  # Three times a month - the 1st, 11th and 21st at 03:00 UTC.
+  # IEEE publishes new assignments daily (~364/month), so a monthly cadence
+  # left the published lists up to 31 days stale; this caps it at ~10 days.
+  # 03:00 rather than 00:00 keeps us off the midnight cron stampede, and off
+  # the top-of-hour window where standards-oui.ieee.org most often refuses
+  # connections.
   schedule:
-    - cron: '0 0 1 * *'
+    - cron: '0 3 1,11,21 * *'
 
   # Allow manual trigger
   workflow_dispatch:
+
+concurrency:
+  group: update-oui-database
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -17,21 +26,99 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Install dependencies
         run: npm install
+
+      - name: Record current counts
+        id: before
+        run: |
+          if [ -f LISTS/stats.txt ]; then
+            PREV=$(grep "Unique OUIs:" LISTS/stats.txt | grep -oE '[0-9,]+' | tr -d ',')
+          else
+            PREV=0
+          fi
+          echo "prev=$PREV" >> $GITHUB_OUTPUT
+          echo "Previous published count: $PREV"
 
       - name: Download latest OUI sources
         run: bash download-sources.sh
 
       - name: Merge databases
         run: node merge-oui-databases.js
+
+      - name: Validate build before publishing
+        env:
+          PREV: ${{ steps.before.outputs.prev }}
+        run: |
+          set -euo pipefail
+
+          NEW=$(grep "Unique OUIs:" LISTS/stats.txt | grep -oE '[0-9,]+' | tr -d ',')
+
+          if ! [ "$NEW" -gt 0 ] 2>/dev/null; then
+            echo "::error::Could not read a positive OUI count from LISTS/stats.txt"
+            exit 1
+          fi
+
+          # A truncated download, or an IEEE error page served with HTTP 200,
+          # shows up here as a sudden collapse in entries. Publishing that would
+          # replace working data for everyone pulling the lists, so refuse.
+          if [ "$PREV" -gt 0 ]; then
+            FLOOR=$(( PREV * 98 / 100 ))
+            if [ "$NEW" -lt "$FLOOR" ]; then
+              echo "::error::OUI count collapsed: $PREV -> $NEW (floor $FLOOR). Refusing to publish."
+              exit 1
+            fi
+            echo "Count check OK: $PREV -> $NEW (floor $FLOOR)"
+          fi
+
+          # Every advertised format must exist and be non-trivial.
+          for f in master_oui.txt master_oui.csv master_oui.tsv master_oui.json \
+                   master_oui.min.json master_oui.xml master_oui.db \
+                   import-to-d1.sql kismet_manuf.txt kismet_manuf.txt.gz; do
+            if [ ! -s "LISTS/$f" ]; then
+              echo "::error::LISTS/$f is missing or empty"
+              exit 1
+            fi
+            SIZE=$(stat -c%s "LISTS/$f")
+            if [ "$SIZE" -lt 100000 ]; then
+              echo "::error::LISTS/$f is suspiciously small (${SIZE} bytes)"
+              exit 1
+            fi
+          done
+
+          # Row counts in the flat exports must line up with the reported total.
+          # grep -c '' rather than wc -l: these files are written without a
+          # trailing newline, which makes wc undercount the last row.
+          CSV_ROWS=$(( $(grep -c '' LISTS/master_oui.csv) - 1 ))
+          TXT_ROWS=$(grep -vc '^#' LISTS/master_oui.txt)
+          if [ "$CSV_ROWS" -ne "$NEW" ] || [ "$TXT_ROWS" -ne "$NEW" ]; then
+            echo "::error::Row mismatch - stats=$NEW csv=$CSV_ROWS txt=$TXT_ROWS"
+            exit 1
+          fi
+
+          # Sub-24-bit assignments must survive into the flat exports. They were
+          # previously flattened onto their parent OUI (master_oui.txt) or
+          # dropped outright (kismet_manuf.txt).
+          # Anchor at line start: the prefix is followed by a tab and the vendor
+          # name, and some vendor names themselves contain "/28".
+          for f in master_oui.txt kismet_manuf.txt; do
+            N28=$(grep -cE '^[0-9A-Fa-f:]+/28[[:space:]]' "LISTS/$f" || true)
+            N36=$(grep -cE '^[0-9A-Fa-f:]+/36[[:space:]]' "LISTS/$f" || true)
+            if [ "$N28" -lt 1000 ] || [ "$N36" -lt 1000 ]; then
+              echo "::error::LISTS/$f lost its prefixed blocks (/28=$N28 /36=$N36)"
+              exit 1
+            fi
+            echo "$f: /28=$N28 /36=$N36"
+          done
+
+          echo "Build validated: $NEW entries"
 
       - name: Regenerate README data blocks (charts, tables, badges)
         run: node scripts/update-readme.js
@@ -53,6 +140,16 @@ jobs:
 
           # package.json
           sed -i -E "s/[0-9]{2,3},?[0-9]{3}\+ vendors/${NEW_COUNT_FORMATTED}+ vendors/g" package.json
+
+      - name: Sync repository description
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          NEW_COUNT=$(grep "Unique OUIs:" LISTS/stats.txt | grep -oE '[0-9,]+' | tr -d ',')
+          NEW_COUNT_FORMATTED=$(printf "%'d" $NEW_COUNT)
+          gh repo edit "$GITHUB_REPOSITORY" --description \
+            "The most comprehensive MAC address manufacturer lookup database - ${NEW_COUNT_FORMATTED}+ vendors from IEEE, Nmap, Wireshark, and HDM Mac-Tracker. One master list to rule them all."
 
       - name: Check for changes
         id: changes
