@@ -2,35 +2,35 @@ OUI Database Merge Statistics
 ==============================
 
 IEEE Registries Processed:
-  MA-L (Large/OUI):   39,885 entries
-  MA-M (Medium):      6,521 entries
-  MA-S (Small):       7,116 entries
+  MA-L (Large/OUI):   39,898 entries
+  MA-M (Medium):      6,528 entries
+  MA-S (Small):       7,119 entries
   IAB (Individual):   4,575 entries
-  CID (Company ID):   216 entries
+  CID (Company ID):   218 entries
   ─────────────────────────────────
-  IEEE Total:         58,313 entries
+  IEEE Total:         58,338 entries
 
 Community Sources:
-  Wireshark:          57,778 entries
+  Wireshark:          57,877 entries
   Nmap:               52,085 entries
 
 Historical Data:
-  Mac-Tracker:        58,431 registration dates
+  Mac-Tracker:        58,457 registration dates
 
 Results:
-  Unique OUIs:        89,652 entries
-  Merged Entries:     78,524 (same OUI from multiple sources)
+  Unique OUIs:        89,704 entries
+  Merged Entries:     78,596 (same OUI from multiple sources)
 
 Output Files:
-  master_oui.txt      2.54 MB  (simple grep/awk format)
+  master_oui.txt      3.08 MB  (simple grep/awk format)
   master_oui.csv      9.42 MB  (full data with addresses)
-  master_oui.tsv      5.68 MB  (Excel/Sheets import)
-  master_oui.json     26.57 MB  (pretty-printed)
-  master_oui.min.json 20.32 MB  (compact for scripts)
-  master_oui.xml      19.40 MB  (enterprise/Java)
-  master_oui.db       18.86 MB  (SQLite ready-to-query)
-  import-to-d1.sql    11.76 MB  (SQL import script)
-  kismet_manuf.txt    1.24 MB  (Kismet IDS format)
-  kismet_manuf.txt.gz 0.38 MB  (Kismet gzipped)
+  master_oui.tsv      5.69 MB  (Excel/Sheets import)
+  master_oui.json     26.59 MB  (pretty-printed)
+  master_oui.min.json 20.33 MB  (compact for scripts)
+  master_oui.xml      19.42 MB  (enterprise/Java)
+  master_oui.db       18.89 MB  (SQLite ready-to-query)
+  import-to-d1.sql    11.77 MB  (SQL import script)
+  kismet_manuf.txt    3.08 MB  (Kismet IDS format)
+  kismet_manuf.txt.gz 0.69 MB  (Kismet gzipped)
 
-Generated: 2026-08-01T02:27:20.240Z
+Generated: 2026-08-05T09:31:44.036Z
