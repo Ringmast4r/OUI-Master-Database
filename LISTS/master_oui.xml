@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- OUI Master Database -->
-<!-- Generated: 2026-08-05T09:34:50.105Z -->
-<!-- Total Entries: 89704 -->
+<!-- Generated: 2026-08-11T04:20:52.480Z -->
+<!-- Total Entries: 89759 -->
 <oui_database>
   <entry>
     <oui>28:6F:B9</oui>
@@ -11122,14 +11122,6 @@
     <manufacturer>Intel Corporate</manufacturer>
     <registry>MA-L</registry>
     <short_name>Intel</short_name>
-    <registered_date>2019-11-12</registered_date>
-    <sources>IEEE,Wireshark,Nmap</sources>
-  </entry>
-  <entry>
-    <oui>3C:DA:6D</oui>
-    <manufacturer>Tiandy Technologies CO.,LTD</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>TiandyTechno</short_name>
     <registered_date>2019-11-12</registered_date>
     <sources>IEEE,Wireshark,Nmap</sources>
   </entry>
@@ -33880,14 +33872,6 @@
     <manufacturer>Luxcom Technologies Inc.</manufacturer>
     <registry>MA-L</registry>
     <short_name>LuxcomTechno</short_name>
-    <registered_date>2010-02-25</registered_date>
-    <sources>IEEE,Wireshark,Nmap</sources>
-  </entry>
-  <entry>
-    <oui>24:A9:37</oui>
-    <manufacturer>PURE Storage</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>PUREStorage</short_name>
     <registered_date>2010-02-25</registered_date>
     <sources>IEEE,Wireshark,Nmap</sources>
   </entry>
@@ -64066,14 +64050,6 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>6C:D5:52</oui>
-    <manufacturer>Shenzhen Bilian Electronic Co.，Ltd</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>BilianElectr</short_name>
-    <registered_date>2025-12-15</registered_date>
-    <sources>IEEE,Wireshark,Nmap</sources>
-  </entry>
-  <entry>
     <oui>CC:64:1A</oui>
     <manufacturer>Shenzhen Bilian Electronic Co.，Ltd</manufacturer>
     <registry>MA-L</registry>
@@ -64090,6 +64066,14 @@
     <sources>IEEE,Wireshark,Nmap</sources>
   </entry>
   <entry>
+    <oui>6C:D5:52</oui>
+    <manufacturer>Shenzhen Bilian Electronic Co.，Ltd</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>BilianElectr</short_name>
+    <registered_date>2025-12-15</registered_date>
+    <sources>IEEE,Wireshark,Nmap</sources>
+  </entry>
+  <entry>
     <oui>10:A4:BE</oui>
     <manufacturer>Shenzhen Bilian Electronic Co.，Ltd</manufacturer>
     <registry>MA-L</registry>
@@ -64098,11 +64082,11 @@
     <sources>IEEE,Wireshark,Nmap</sources>
   </entry>
   <entry>
-    <oui>CC:C2:53</oui>
-    <manufacturer>zte corporation</manufacturer>
+    <oui>F0:FA:BA</oui>
+    <manufacturer>NVIDIA Corporation</manufacturer>
     <registry>MA-L</registry>
-    <short_name>zte</short_name>
-    <registered_date>2026-07-24</registered_date>
+    <short_name>NVIDIA</short_name>
+    <registered_date>2026-07-22</registered_date>
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
@@ -64122,18 +64106,18 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
+    <oui>CC:C2:53</oui>
+    <manufacturer>zte corporation</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>zte</short_name>
+    <registered_date>2026-07-24</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
     <oui>64:42:C2</oui>
     <manufacturer>Mellanox Technologies, Inc.</manufacturer>
     <registry>MA-L</registry>
     <short_name>MellanoxTech</short_name>
-    <registered_date>2026-07-28</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
-    <oui>84:00:EC</oui>
-    <manufacturer>Shelly Europe LTD</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>ShellyEurope</short_name>
     <registered_date>2026-07-28</registered_date>
     <sources>IEEE,Wireshark</sources>
   </entry>
@@ -64146,14 +64130,6 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>F0:FA:BA</oui>
-    <manufacturer>NVIDIA Corporation</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>NVIDIA</short_name>
-    <registered_date>2026-07-22</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
     <oui>88:C3:B2</oui>
     <manufacturer>Rotek Llc</manufacturer>
     <registry>MA-L</registry>
@@ -64162,10 +64138,10 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>60:F6:20</oui>
-    <manufacturer>Sonos Inc.</manufacturer>
+    <oui>84:00:EC</oui>
+    <manufacturer>Shelly Europe LTD</manufacturer>
     <registry>MA-L</registry>
-    <short_name>Sonos</short_name>
+    <short_name>ShellyEurope</short_name>
     <registered_date>2026-07-28</registered_date>
     <sources>IEEE,Wireshark</sources>
   </entry>
@@ -64202,14 +64178,6 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>18:B8:3D</oui>
-    <manufacturer>Samsung Electronics Co.,Ltd</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>SamsungElect</short_name>
-    <registered_date>2026-07-29</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
     <oui>D4:2C:A6</oui>
     <manufacturer>Samsung Electronics Co.,Ltd</manufacturer>
     <registry>MA-L</registry>
@@ -64226,6 +64194,14 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
+    <oui>64:56:B5</oui>
+    <manufacturer>Samsung Electronics Co.,Ltd</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>SamsungElect</short_name>
+    <registered_date>2026-07-29</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
     <oui>98:C5:B3</oui>
     <manufacturer>New H3C Technologies Co., Ltd</manufacturer>
     <registry>MA-L</registry>
@@ -64234,7 +64210,7 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>64:56:B5</oui>
+    <oui>18:B8:3D</oui>
     <manufacturer>Samsung Electronics Co.,Ltd</manufacturer>
     <registry>MA-L</registry>
     <short_name>SamsungElect</short_name>
@@ -64266,17 +64242,72 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
+    <oui>60:F6:20</oui>
+    <manufacturer>Sonos Inc.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>Sonos</short_name>
+    <registered_date>2026-07-28</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>DC:EB:5D</oui>
+    <manufacturer>Shandong Sinochip Semiconductors Co.,Ltd.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>ShandongSino</short_name>
+    <registered_date>2026-08-06</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
     <oui>B0:82:AB</oui>
     <manufacturer>Guangdong Welland Technology Co.,Ltd</manufacturer>
     <registry>MA-L</registry>
+    <short_name>WellandTechn</short_name>
     <registered_date>2026-08-04</registered_date>
-    <sources>IEEE</sources>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>3C:DA:6D</oui>
+    <manufacturer>Tiandy Technologies Co.,LTD</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>TiandyTechno</short_name>
+    <registered_date>2019-11-12</registered_date>
+    <sources>IEEE,Wireshark,Nmap</sources>
   </entry>
   <entry>
     <oui>AC:40:B5</oui>
     <manufacturer>Lumiva Inc.</manufacturer>
     <registry>MA-L</registry>
+    <short_name>Lumiva</short_name>
     <registered_date>2026-08-04</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>24:A9:37</oui>
+    <manufacturer>Everpure, Inc.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>Everpure</short_name>
+    <registered_date>2010-02-25</registered_date>
+    <sources>IEEE,Wireshark,Nmap</sources>
+  </entry>
+  <entry>
+    <oui>D8:76:02</oui>
+    <manufacturer>Nxj Inc.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>Nxj</short_name>
+    <registered_date>2026-08-08</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>34:03:3D</oui>
+    <manufacturer>HP Inc.</manufacturer>
+    <registry>MA-L</registry>
+    <registered_date>2026-08-10</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
+    <oui>30:BB:28</oui>
+    <manufacturer>IEEE Registration Authority</manufacturer>
+    <registry>MA-L</registry>
     <sources>IEEE</sources>
   </entry>
   <entry>
@@ -127273,11 +127304,11 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>F0:EA:E1</oui>
-    <manufacturer>Nanjing RISC-V Institute Co., Ltd.</manufacturer>
+    <oui>EC:A8:54</oui>
+    <manufacturer>EFOCE Technology Co., Ltd.</manufacturer>
     <registry>MA-L</registry>
-    <short_name>NanjingRISCV</short_name>
-    <registered_date>2026-07-24</registered_date>
+    <short_name>EFOCETechnol</short_name>
+    <registered_date>2026-07-23</registered_date>
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
@@ -127286,14 +127317,6 @@
     <registry>MA-L</registry>
     <short_name>TechnologieO</short_name>
     <registered_date>2026-07-22</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
-    <oui>EC:A8:54</oui>
-    <manufacturer>EFOCE Technology Co., Ltd.</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>EFOCETechnol</short_name>
-    <registered_date>2026-07-23</registered_date>
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
@@ -127321,22 +127344,6 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>CC:7E:1F</oui>
-    <manufacturer>Espressif Inc.</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>Espressif</short_name>
-    <registered_date>2026-07-27</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
-    <oui>38:C9:B1</oui>
-    <manufacturer>zte corporation</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>zte</short_name>
-    <registered_date>2026-07-24</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
     <oui>44:DB:BE</oui>
     <manufacturer>Huawei Technologies Co.,Ltd</manufacturer>
     <registry>MA-L</registry>
@@ -127353,19 +127360,19 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>CC:98:EF</oui>
-    <manufacturer>Guangdong Oppo Mobile Telecommunications Corp.,Ltd</manufacturer>
+    <oui>F0:EA:E1</oui>
+    <manufacturer>Nanjing RISC-V Institute Co., Ltd.</manufacturer>
     <registry>MA-L</registry>
-    <short_name>OppoMobileTe</short_name>
-    <registered_date>2026-07-28</registered_date>
+    <short_name>NanjingRISCV</short_name>
+    <registered_date>2026-07-24</registered_date>
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>60:F9:1C</oui>
-    <manufacturer>China Dragon Technology Limited</manufacturer>
+    <oui>38:C9:B1</oui>
+    <manufacturer>zte corporation</manufacturer>
     <registry>MA-L</registry>
-    <short_name>ChinaDragonT</short_name>
-    <registered_date>2026-07-28</registered_date>
+    <short_name>zte</short_name>
+    <registered_date>2026-07-24</registered_date>
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
@@ -127383,6 +127390,37 @@
     <short_name>Cisco</short_name>
     <registered_date>2026-07-20</registered_date>
     <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>CC:7E:1F</oui>
+    <manufacturer>Espressif Inc.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>Espressif</short_name>
+    <registered_date>2026-07-27</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>60:F9:1C</oui>
+    <manufacturer>China Dragon Technology Limited</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>ChinaDragonT</short_name>
+    <registered_date>2026-07-28</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>CC:98:EF</oui>
+    <manufacturer>Guangdong Oppo Mobile Telecommunications Corp.,Ltd</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>OppoMobileTe</short_name>
+    <registered_date>2026-07-28</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>B4:DF:43</oui>
+    <manufacturer>IEEE Registration Authority</manufacturer>
+    <registry>MA-L</registry>
+    <registered_date>2026-07-29</registered_date>
+    <sources>IEEE</sources>
   </entry>
   <entry>
     <oui>F4:66:39</oui>
@@ -127407,13 +127445,6 @@
     <short_name>Cisco</short_name>
     <registered_date>2026-07-29</registered_date>
     <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
-    <oui>B4:DF:43</oui>
-    <manufacturer>IEEE Registration Authority</manufacturer>
-    <registry>MA-L</registry>
-    <registered_date>2026-07-29</registered_date>
-    <sources>IEEE</sources>
   </entry>
   <entry>
     <oui>C0:61:94</oui>
@@ -127443,8 +127474,17 @@
     <oui>CC:AA:00</oui>
     <manufacturer>Microsoft Corporation</manufacturer>
     <registry>MA-L</registry>
+    <short_name>Microsoft</short_name>
     <registered_date>2026-08-03</registered_date>
-    <sources>IEEE</sources>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>D0:79:2F</oui>
+    <manufacturer>New H3C Intelligence Terminal Co., Ltd.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>NewH3CIntell</short_name>
+    <registered_date>2026-08-06</registered_date>
+    <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
     <oui>6C:87:20</oui>
@@ -190555,22 +190595,6 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>84:FC:14</oui>
-    <manufacturer>Shenzhen Bilian Electronic Co.，Ltd</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>BilianElectr</short_name>
-    <registered_date>2025-10-16</registered_date>
-    <sources>IEEE,Wireshark,Nmap</sources>
-  </entry>
-  <entry>
-    <oui>14:0A:02</oui>
-    <manufacturer>Shenzhen Bilian Electronic Co.，Ltd</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>BilianElectr</short_name>
-    <registered_date>2026-02-28</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
     <oui>FC:37:6D</oui>
     <manufacturer>Shenzhen Bilian Electronic Co.，Ltd</manufacturer>
     <registry>MA-L</registry>
@@ -190611,14 +190635,6 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>14:6B:9C</oui>
-    <manufacturer>Shenzhen Bilian Electronic Co.，Ltd</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>BilianElectr</short_name>
-    <registered_date>2017-12-02</registered_date>
-    <sources>IEEE,Wireshark,Nmap</sources>
-  </entry>
-  <entry>
     <oui>74:EE:2A</oui>
     <manufacturer>Shenzhen Bilian Electronic Co.，Ltd</manufacturer>
     <registry>MA-L</registry>
@@ -190651,6 +190667,14 @@
     <sources>IEEE,Wireshark,Nmap</sources>
   </entry>
   <entry>
+    <oui>C4:3C:B0</oui>
+    <manufacturer>Shenzhen Bilian Electronic Co.，Ltd</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>BilianElectr</short_name>
+    <registered_date>2022-04-02</registered_date>
+    <sources>IEEE,Wireshark,Nmap</sources>
+  </entry>
+  <entry>
     <oui>C4:3A:A5</oui>
     <manufacturer>AzureWave Technology Inc.</manufacturer>
     <registry>MA-L</registry>
@@ -190667,11 +190691,27 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>C4:3C:B0</oui>
+    <oui>84:FC:14</oui>
     <manufacturer>Shenzhen Bilian Electronic Co.，Ltd</manufacturer>
     <registry>MA-L</registry>
     <short_name>BilianElectr</short_name>
-    <registered_date>2022-04-02</registered_date>
+    <registered_date>2025-10-16</registered_date>
+    <sources>IEEE,Wireshark,Nmap</sources>
+  </entry>
+  <entry>
+    <oui>14:0A:02</oui>
+    <manufacturer>Shenzhen Bilian Electronic Co.，Ltd</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>BilianElectr</short_name>
+    <registered_date>2026-02-28</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>14:6B:9C</oui>
+    <manufacturer>Shenzhen Bilian Electronic Co.，Ltd</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>BilianElectr</short_name>
+    <registered_date>2017-12-02</registered_date>
     <sources>IEEE,Wireshark,Nmap</sources>
   </entry>
   <entry>
@@ -190683,22 +190723,6 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>F0:DB:30</oui>
-    <manufacturer>Verge.io</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>Vergeio</short_name>
-    <registered_date>2011-04-08</registered_date>
-    <sources>IEEE,Wireshark,Nmap</sources>
-  </entry>
-  <entry>
-    <oui>CC:21:9D</oui>
-    <manufacturer>Shenzhen Wangliantong Intelligent Technology Co.,Lte</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>Wangliantong</short_name>
-    <registered_date>2026-07-23</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
     <oui>50:7C:90</oui>
     <manufacturer>Huami (Shenzhen) Information Technology Co., Ltd</manufacturer>
     <registry>MA-L</registry>
@@ -190707,11 +190731,11 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>AC:F8:96</oui>
-    <manufacturer>eero inc.</manufacturer>
+    <oui>CC:21:9D</oui>
+    <manufacturer>Shenzhen Wangliantong Intelligent Technology Co.,Lte</manufacturer>
     <registry>MA-L</registry>
-    <short_name>eero</short_name>
-    <registered_date>2026-07-27</registered_date>
+    <short_name>Wangliantong</short_name>
+    <registered_date>2026-07-23</registered_date>
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
@@ -190739,20 +190763,12 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>F0:EC:80</oui>
-    <manufacturer>Zero Boundary Singularity Technology(Shenzhen)</manufacturer>
+    <oui>F0:DB:30</oui>
+    <manufacturer>Verge.io</manufacturer>
     <registry>MA-L</registry>
-    <short_name>ZeroBoundary</short_name>
-    <registered_date>2026-07-30</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
-    <oui>18:B4:FE</oui>
-    <manufacturer>Tozed Kangwei Tech Co., Ltd</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>TozedKangwei</short_name>
-    <registered_date>2026-07-30</registered_date>
-    <sources>IEEE,Wireshark</sources>
+    <short_name>Vergeio</short_name>
+    <registered_date>2011-04-08</registered_date>
+    <sources>IEEE,Wireshark,Nmap</sources>
   </entry>
   <entry>
     <oui>D4:E1:3C</oui>
@@ -190760,6 +190776,14 @@
     <registry>MA-L</registry>
     <short_name>MellanoxTech</short_name>
     <registered_date>2026-07-28</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>AC:F8:96</oui>
+    <manufacturer>eero inc.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>eero</short_name>
+    <registered_date>2026-07-27</registered_date>
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
@@ -190795,42 +190819,6 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>64:C7:F1</oui>
-    <manufacturer>Premier-D LLC</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>PremierD</short_name>
-    <registered_date>2026-07-30</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
-    <oui>74:5E:B4</oui>
-    <manufacturer>YOKOWO CO., LTD.</manufacturer>
-    <registry>MA-L</registry>
-    <registered_date>2026-08-04</registered_date>
-    <sources>IEEE</sources>
-  </entry>
-  <entry>
-    <oui>F4:08:55</oui>
-    <manufacturer>Qingdao Haier Technology Co.Ltd</manufacturer>
-    <registry>MA-L</registry>
-    <registered_date>2026-08-04</registered_date>
-    <sources>IEEE</sources>
-  </entry>
-  <entry>
-    <oui>64:D6:08</oui>
-    <manufacturer>Shenzhen Ailyworld Technology Co.,Ltd.</manufacturer>
-    <registry>MA-L</registry>
-    <registered_date>2026-08-04</registered_date>
-    <sources>IEEE</sources>
-  </entry>
-  <entry>
-    <oui>D0:EB:1A</oui>
-    <manufacturer>Siemens AG</manufacturer>
-    <registry>MA-L</registry>
-    <registered_date>2026-08-04</registered_date>
-    <sources>IEEE</sources>
-  </entry>
-  <entry>
     <oui>40:2A:6C</oui>
     <manufacturer>Zhejiang Hyxi Technology Co.,Ltd.</manufacturer>
     <registry>MA-L</registry>
@@ -190847,11 +190835,27 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>7C:4D:4A</oui>
-    <manufacturer>Zhiyue Xingchen(shanghai) Intelligent Terminal Co.,Ltd.</manufacturer>
+    <oui>F0:EC:80</oui>
+    <manufacturer>Zero Boundary Singularity Technology(Shenzhen)</manufacturer>
     <registry>MA-L</registry>
-    <short_name>ZhiyueXingch</short_name>
-    <registered_date>2026-08-01</registered_date>
+    <short_name>ZeroBoundary</short_name>
+    <registered_date>2026-07-30</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>18:B4:FE</oui>
+    <manufacturer>Tozed Kangwei Tech Co., Ltd</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>TozedKangwei</short_name>
+    <registered_date>2026-07-30</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>E8:15:FE</oui>
+    <manufacturer>New H3C Technologies Co., Ltd</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>NewH3CTechno</short_name>
+    <registered_date>2026-07-31</registered_date>
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
@@ -190863,19 +190867,19 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
+    <oui>7C:4D:4A</oui>
+    <manufacturer>Zhiyue Xingchen(shanghai) Intelligent Terminal Co.,Ltd.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>ZhiyueXingch</short_name>
+    <registered_date>2026-08-01</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
     <oui>E4:63:FE</oui>
     <manufacturer>Fujian Star-Net Communication Co.,Ltd</manufacturer>
     <registry>MA-L</registry>
     <short_name>FujianStarNe</short_name>
     <registered_date>2026-08-01</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
-    <oui>E8:15:FE</oui>
-    <manufacturer>New H3C Technologies Co., Ltd</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>NewH3CTechno</short_name>
-    <registered_date>2026-07-31</registered_date>
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
@@ -190896,10 +190900,67 @@
   </entry>
   <entry>
     <oui>B4:6F:78</oui>
-    <manufacturer>ACCTON TECHNOLOGY CORPORATION</manufacturer>
+    <manufacturer>Accton Technology Corporation</manufacturer>
     <registry>MA-L</registry>
+    <short_name>AcctonTechno</short_name>
     <registered_date>2026-08-03</registered_date>
-    <sources>IEEE</sources>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>64:C7:F1</oui>
+    <manufacturer>Premier-D LLC</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>PremierD</short_name>
+    <registered_date>2026-07-30</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>74:5E:B4</oui>
+    <manufacturer>Yokowo Co., Ltd.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>Yokowo</short_name>
+    <registered_date>2026-08-04</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>F4:08:55</oui>
+    <manufacturer>Qingdao Haier Technology Co.Ltd</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>QingdaoHaier</short_name>
+    <registered_date>2026-08-04</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>64:D6:08</oui>
+    <manufacturer>Shenzhen Ailyworld Technology Co.,Ltd.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>AilyworldTec</short_name>
+    <registered_date>2026-08-04</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>D0:EB:1A</oui>
+    <manufacturer>Siemens AG</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>Siemens</short_name>
+    <registered_date>2026-08-04</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>F0:F9:5D</oui>
+    <manufacturer>Aditya Infotech Ltd.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>AdityaInfote</short_name>
+    <registered_date>2026-08-07</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>EC:33:CC</oui>
+    <manufacturer>Hewlett Packard Enterprise</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>HewlettPacka</short_name>
+    <registered_date>2026-08-08</registered_date>
+    <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
     <oui>B0:0C:9D</oui>
@@ -254860,14 +254921,6 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>F4:B4:9E</oui>
-    <manufacturer>eero inc.</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>eero</short_name>
-    <registered_date>2026-07-20</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
     <oui>2C:C3:E6</oui>
     <manufacturer>Shenzhen Bilian Electronic Co.，Ltd</manufacturer>
     <registry>MA-L</registry>
@@ -254890,6 +254943,14 @@
     <short_name>BilianElectr</short_name>
     <registered_date>2023-10-28</registered_date>
     <sources>IEEE,Wireshark,Nmap</sources>
+  </entry>
+  <entry>
+    <oui>F4:B4:9E</oui>
+    <manufacturer>eero inc.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>eero</short_name>
+    <registered_date>2026-07-20</registered_date>
+    <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
     <oui>44:01:BB</oui>
@@ -254932,14 +254993,6 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>14:76:49</oui>
-    <manufacturer>Hewlett Packard Enterprise</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>HewlettPacka</short_name>
-    <registered_date>2026-07-22</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
     <oui>34:A8:A0</oui>
     <manufacturer>Huawei Technologies Co.,Ltd</manufacturer>
     <registry>MA-L</registry>
@@ -254972,6 +255025,22 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
+    <oui>14:76:49</oui>
+    <manufacturer>Hewlett Packard Enterprise</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>HewlettPacka</short_name>
+    <registered_date>2026-07-22</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>D0:06:74</oui>
+    <manufacturer>Siemens Industrial Automation Products Ltd., Chengdu</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>SiemensIndus</short_name>
+    <registered_date>2026-07-24</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
     <oui>94:82:B2</oui>
     <manufacturer>GL Intelligence</manufacturer>
     <registry>MA-L</registry>
@@ -254987,14 +255056,6 @@
     <sources>IEEE</sources>
   </entry>
   <entry>
-    <oui>D0:06:74</oui>
-    <manufacturer>Siemens Industrial Automation Products Ltd., Chengdu</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>SiemensIndus</short_name>
-    <registered_date>2026-07-24</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
     <oui>80:7D:F9</oui>
     <manufacturer>Mellanox Technologies, Inc.</manufacturer>
     <registry>MA-L</registry>
@@ -255008,6 +255069,14 @@
     <registry>MA-L</registry>
     <short_name>MellanoxTech</short_name>
     <registered_date>2026-07-28</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>5C:0A:11</oui>
+    <manufacturer>Dongguan Liesheng Electronic Co., Ltd.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>DongguanLies</short_name>
+    <registered_date>2026-07-29</registered_date>
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
@@ -255035,19 +255104,19 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
+    <oui>B0:61:EB</oui>
+    <manufacturer>Silicon Laboratories</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>SiliconLabor</short_name>
+    <registered_date>2026-07-29</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
     <oui>68:1C:52</oui>
     <manufacturer>Cisco Systems, Inc</manufacturer>
     <registry>MA-L</registry>
     <short_name>Cisco</short_name>
     <registered_date>2026-07-29</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
-    <oui>80:4D:CB</oui>
-    <manufacturer>Huawei Device Co., Ltd.</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>HuaweiDevice</short_name>
-    <registered_date>2026-07-31</registered_date>
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
@@ -255083,11 +255152,11 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>5C:0A:11</oui>
-    <manufacturer>Dongguan Liesheng Electronic Co., Ltd.</manufacturer>
+    <oui>80:4D:CB</oui>
+    <manufacturer>Huawei Device Co., Ltd.</manufacturer>
     <registry>MA-L</registry>
-    <short_name>DongguanLies</short_name>
-    <registered_date>2026-07-29</registered_date>
+    <short_name>HuaweiDevice</short_name>
+    <registered_date>2026-07-31</registered_date>
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
@@ -255107,14 +255176,6 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>B0:61:EB</oui>
-    <manufacturer>Silicon Laboratories</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>SiliconLabor</short_name>
-    <registered_date>2026-07-29</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
     <oui>D0:DA:24</oui>
     <manufacturer>IEEE Registration Authority</manufacturer>
     <registry>MA-L</registry>
@@ -255130,19 +255191,44 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>B8:82:68</oui>
-    <manufacturer>SHENZHEN HOPESTAR TECHNOLOGY CO.,LTD.</manufacturer>
+    <oui>E8:4E:BA</oui>
+    <manufacturer>Google, Inc.</manufacturer>
     <registry>MA-L</registry>
-    <registered_date>2026-08-04</registered_date>
-    <sources>IEEE</sources>
+    <short_name>Google</short_name>
+    <registered_date>2026-08-07</registered_date>
+    <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>00:1D:66</oui>
-    <manufacturer>Hyundai Telecom</manufacturer>
+    <oui>70:32:0C</oui>
+    <manufacturer>Ruckus Wireless</manufacturer>
     <registry>MA-L</registry>
-    <short_name>HyundaiTelec</short_name>
-    <registered_date>2007-08-18</registered_date>
-    <sources>IEEE,Wireshark,Nmap</sources>
+    <short_name>RuckusWirele</short_name>
+    <registered_date>2026-08-07</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>D0:9A:AF</oui>
+    <manufacturer>Espressif Systems (Singapore) Pte. Ltd</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>EspressifPte</short_name>
+    <registered_date>2026-08-06</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>34:B4:F0</oui>
+    <manufacturer>Hasselblad (Shenzhen) Trading CompanyLimited</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>HasselbladTr</short_name>
+    <registered_date>2026-08-05</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>B8:82:68</oui>
+    <manufacturer>Shenzhen Hopestar Technology Co.,Ltd.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>HopestarTech</short_name>
+    <registered_date>2026-08-04</registered_date>
+    <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
     <oui>80:C3:BA</oui>
@@ -255153,10 +255239,41 @@
     <sources>IEEE,Wireshark,Nmap</sources>
   </entry>
   <entry>
-    <oui>34:B4:F0</oui>
-    <manufacturer>Hasselblad (Shenzhen) Trading CompanyLimited</manufacturer>
+    <oui>00:1D:66</oui>
+    <manufacturer>HYUNDAI HT Co., Ltd.</manufacturer>
     <registry>MA-L</registry>
-    <registered_date>2026-08-05</registered_date>
+    <short_name>HYUNDAIHT</short_name>
+    <registered_date>2007-08-18</registered_date>
+    <sources>IEEE,Wireshark,Nmap</sources>
+  </entry>
+  <entry>
+    <oui>6C:3D:7D</oui>
+    <manufacturer>Vantiva USA LLC</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>VantivaUSA</short_name>
+    <registered_date>2026-08-08</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>24:A0:2D</oui>
+    <manufacturer>shenzhen worldelite electronics co., LTD</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>worldeliteel</short_name>
+    <registered_date>2026-08-08</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>94:B5:AD</oui>
+    <manufacturer>ERM Electronic Systems LTD</manufacturer>
+    <registry>MA-L</registry>
+    <registered_date>2026-08-10</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
+    <oui>88:64:A8</oui>
+    <manufacturer>TeraNXT Global India Pvt Ltd.</manufacturer>
+    <registry>MA-L</registry>
+    <registered_date>2026-08-10</registered_date>
     <sources>IEEE</sources>
   </entry>
   <entry>
@@ -318403,6 +318520,22 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
+    <oui>54:EF:33</oui>
+    <manufacturer>Shenzhen Bilian Electronic Co.，Ltd</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>BilianElectr</short_name>
+    <registered_date>2021-06-12</registered_date>
+    <sources>IEEE,Wireshark,Nmap</sources>
+  </entry>
+  <entry>
+    <oui>30:7B:C9</oui>
+    <manufacturer>Shenzhen Bilian Electronic Co.，Ltd</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>BilianElectr</short_name>
+    <registered_date>2021-08-28</registered_date>
+    <sources>IEEE,Wireshark,Nmap</sources>
+  </entry>
+  <entry>
     <oui>B4:6D:C2</oui>
     <manufacturer>Shenzhen Bilian Electronic Co.，Ltd</manufacturer>
     <registry>MA-L</registry>
@@ -318448,22 +318581,6 @@
     <registry>MA-L</registry>
     <short_name>BilianElectr</short_name>
     <registered_date>2017-04-04</registered_date>
-    <sources>IEEE,Wireshark,Nmap</sources>
-  </entry>
-  <entry>
-    <oui>54:EF:33</oui>
-    <manufacturer>Shenzhen Bilian Electronic Co.，Ltd</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>BilianElectr</short_name>
-    <registered_date>2021-06-12</registered_date>
-    <sources>IEEE,Wireshark,Nmap</sources>
-  </entry>
-  <entry>
-    <oui>30:7B:C9</oui>
-    <manufacturer>Shenzhen Bilian Electronic Co.，Ltd</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>BilianElectr</short_name>
-    <registered_date>2021-08-28</registered_date>
     <sources>IEEE,Wireshark,Nmap</sources>
   </entry>
   <entry>
@@ -318547,6 +318664,30 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
+    <oui>84:3C:FC</oui>
+    <manufacturer>Huawei Technologies Co.,Ltd</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>HuaweiTechno</short_name>
+    <registered_date>2026-07-24</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>78:49:D7</oui>
+    <manufacturer>Samsung Electronics Co.,Ltd</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>SamsungElect</short_name>
+    <registered_date>2026-07-29</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>90:F8:0C</oui>
+    <manufacturer>Samsung Electronics Co.,Ltd</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>SamsungElect</short_name>
+    <registered_date>2026-07-29</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
     <oui>80:53:E0</oui>
     <manufacturer>Espressif Inc.</manufacturer>
     <registry>MA-L</registry>
@@ -318579,11 +318720,11 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>84:3C:FC</oui>
-    <manufacturer>Huawei Technologies Co.,Ltd</manufacturer>
+    <oui>3C:75:DE</oui>
+    <manufacturer>Guangdong Oppo Mobile Telecommunications Corp.,Ltd</manufacturer>
     <registry>MA-L</registry>
-    <short_name>HuaweiTechno</short_name>
-    <registered_date>2026-07-24</registered_date>
+    <short_name>OppoMobileTe</short_name>
+    <registered_date>2026-07-28</registered_date>
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
@@ -318600,30 +318741,6 @@
     <registry>MA-L</registry>
     <short_name>HuaweiTechno</short_name>
     <registered_date>2026-07-24</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
-    <oui>3C:75:DE</oui>
-    <manufacturer>Guangdong Oppo Mobile Telecommunications Corp.,Ltd</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>OppoMobileTe</short_name>
-    <registered_date>2026-07-28</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
-    <oui>78:49:D7</oui>
-    <manufacturer>Samsung Electronics Co.,Ltd</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>SamsungElect</short_name>
-    <registered_date>2026-07-29</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
-    <oui>90:F8:0C</oui>
-    <manufacturer>Samsung Electronics Co.,Ltd</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>SamsungElect</short_name>
-    <registered_date>2026-07-29</registered_date>
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
@@ -318651,22 +318768,6 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
-    <oui>48:82:DF</oui>
-    <manufacturer>Huawei Device Co., Ltd.</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>HuaweiDevice</short_name>
-    <registered_date>2026-07-31</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
-    <oui>4C:3C:E2</oui>
-    <manufacturer>Huawei Device Co., Ltd.</manufacturer>
-    <registry>MA-L</registry>
-    <short_name>HuaweiDevice</short_name>
-    <registered_date>2026-07-31</registered_date>
-    <sources>IEEE,Wireshark</sources>
-  </entry>
-  <entry>
     <oui>08:76:83</oui>
     <manufacturer>AltoBeam Inc.</manufacturer>
     <registry>MA-L</registry>
@@ -318683,6 +318784,22 @@
     <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
+    <oui>48:82:DF</oui>
+    <manufacturer>Huawei Device Co., Ltd.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>HuaweiDevice</short_name>
+    <registered_date>2026-07-31</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>4C:3C:E2</oui>
+    <manufacturer>Huawei Device Co., Ltd.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>HuaweiDevice</short_name>
+    <registered_date>2026-07-31</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
     <oui>F8:31:25</oui>
     <manufacturer>Xiamen uink Technology Co., Ltd</manufacturer>
     <registry>MA-L</registry>
@@ -318692,17 +318809,19 @@
   </entry>
   <entry>
     <oui>90:D5:29</oui>
-    <manufacturer>ACCTON TECHNOLOGY CORPORATION</manufacturer>
+    <manufacturer>Accton Technology Corporation</manufacturer>
     <registry>MA-L</registry>
+    <short_name>AcctonTechno</short_name>
     <registered_date>2026-08-03</registered_date>
-    <sources>IEEE</sources>
+    <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
     <oui>90:91:6E</oui>
     <manufacturer>nFore Technology Co., Ltd.</manufacturer>
     <registry>MA-L</registry>
+    <short_name>nForeTechnol</short_name>
     <registered_date>2026-08-04</registered_date>
-    <sources>IEEE</sources>
+    <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
     <oui>00:9C:57</oui>
@@ -318716,8 +318835,41 @@
     <oui>5C:50:D3</oui>
     <manufacturer>Knit Sound Company</manufacturer>
     <registry>MA-L</registry>
+    <short_name>KnitSound</short_name>
     <registered_date>2026-08-05</registered_date>
-    <sources>IEEE</sources>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>AC:04:E6</oui>
+    <manufacturer>NTX Electronics YangZhou co.,LTD</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>NTXElectroni</short_name>
+    <registered_date>2026-08-06</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>94:1D:D4</oui>
+    <manufacturer>Google, Inc.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>Google</short_name>
+    <registered_date>2026-08-07</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>7C:6E:47</oui>
+    <manufacturer>Huizhou Guangshijia Communication Technology Co., Ltd.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>HuizhouGuang</short_name>
+    <registered_date>2026-08-08</registered_date>
+    <sources>IEEE,Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>14:E6:02</oui>
+    <manufacturer>Shenzhen EMTEK Storage Technology Co.,Ltd</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>EMTEKStorage</short_name>
+    <registered_date>2026-08-08</registered_date>
+    <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
     <oui>C8:5C:E2:7</oui>
@@ -328002,6 +328154,27 @@
     <sources>IEEE</sources>
   </entry>
   <entry>
+    <oui>D0:DA:24:0</oui>
+    <manufacturer>Beijing Deeprift Technologies Co., Ltd.</manufacturer>
+    <registry>MA-M</registry>
+    <registered_date>2026-08-06</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
+    <oui>38:B1:4E:E</oui>
+    <manufacturer>Zoho Business Services LLP - ZBS Nagpur</manufacturer>
+    <registry>MA-M</registry>
+    <registered_date>2026-03-10</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
+    <oui>D0:DA:24:3</oui>
+    <manufacturer>Hangzhou Arcvideo Technology Co., Ltd.</manufacturer>
+    <registry>MA-M</registry>
+    <registered_date>2026-08-07</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
     <oui>D0:DA:24:C</oui>
     <manufacturer>Alloop（Hong kong）Limited</manufacturer>
     <registry>MA-M</registry>
@@ -336654,6 +336827,13 @@
     <sources>IEEE</sources>
   </entry>
   <entry>
+    <oui>B4:DF:43:B</oui>
+    <manufacturer>HUATEN INTERNATIONAL TECHNOLOGY LIMITED</manufacturer>
+    <registry>MA-M</registry>
+    <registered_date>2026-07-30</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
     <oui>B4:DF:43:4</oui>
     <manufacturer>Shenzhen Huizhen Fishery Co., Ltd.</manufacturer>
     <registry>MA-M</registry>
@@ -336661,10 +336841,10 @@
     <sources>IEEE</sources>
   </entry>
   <entry>
-    <oui>B4:DF:43:B</oui>
-    <manufacturer>HUATEN INTERNATIONAL TECHNOLOGY LIMITED</manufacturer>
+    <oui>F4:3A:FA:2</oui>
+    <manufacturer>Ruijie Networks Co.,LTD</manufacturer>
     <registry>MA-M</registry>
-    <registered_date>2026-07-30</registered_date>
+    <registered_date>2024-08-17</registered_date>
     <sources>IEEE</sources>
   </entry>
   <entry>
@@ -336679,13 +336859,6 @@
     <manufacturer>RDP Innovation</manufacturer>
     <registry>MA-M</registry>
     <registered_date>2026-07-30</registered_date>
-    <sources>IEEE</sources>
-  </entry>
-  <entry>
-    <oui>F4:3A:FA:2</oui>
-    <manufacturer>Ruijie Networks Co.,LTD</manufacturer>
-    <registry>MA-M</registry>
-    <registered_date>2024-08-17</registered_date>
     <sources>IEEE</sources>
   </entry>
   <entry>
@@ -346076,6 +346249,13 @@
     <sources>IEEE</sources>
   </entry>
   <entry>
+    <oui>D0:DA:24:E</oui>
+    <manufacturer>Security Point LLP</manufacturer>
+    <registry>MA-M</registry>
+    <registered_date>2026-08-10</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
     <oui>D0:14:11:1</oui>
     <manufacturer>P.B. Elettronica srl</manufacturer>
     <registry>MA-M</registry>
@@ -355099,6 +355279,13 @@
     <sources>IEEE</sources>
   </entry>
   <entry>
+    <oui>7C:E4:A1:7</oui>
+    <manufacturer>Keenfinity S.A.</manufacturer>
+    <registry>MA-M</registry>
+    <registered_date>2026-07-23</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
     <oui>7C:E4:A1:B</oui>
     <manufacturer>Cummins Inc</manufacturer>
     <registry>MA-M</registry>
@@ -355113,24 +355300,10 @@
     <sources>IEEE</sources>
   </entry>
   <entry>
-    <oui>7C:E4:A1:7</oui>
-    <manufacturer>Keenfinity S.A.</manufacturer>
-    <registry>MA-M</registry>
-    <registered_date>2026-07-23</registered_date>
-    <sources>IEEE</sources>
-  </entry>
-  <entry>
     <oui>7C:E4:A1:0</oui>
     <manufacturer>ALTOS COMPUTING (INDIA) PRIVATE LIMITED</manufacturer>
     <registry>MA-M</registry>
     <registered_date>2026-07-27</registered_date>
-    <sources>IEEE</sources>
-  </entry>
-  <entry>
-    <oui>D0:DA:24:8</oui>
-    <manufacturer>Shanghai Yunsilicon Technology Co., Ltd.</manufacturer>
-    <registry>MA-M</registry>
-    <registered_date>2026-08-01</registered_date>
     <sources>IEEE</sources>
   </entry>
   <entry>
@@ -355141,6 +355314,20 @@
     <sources>IEEE</sources>
   </entry>
   <entry>
+    <oui>D0:DA:24:6</oui>
+    <manufacturer>AHEESA DIGITAL INNOVATIONS PRIVATE LIMITED</manufacturer>
+    <registry>MA-M</registry>
+    <registered_date>2026-08-04</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
+    <oui>D0:DA:24:8</oui>
+    <manufacturer>Shanghai Yunsilicon Technology Co., Ltd.</manufacturer>
+    <registry>MA-M</registry>
+    <registered_date>2026-08-01</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
     <oui>D0:DA:24:7</oui>
     <manufacturer>CANLAB CO., LTD.</manufacturer>
     <registry>MA-M</registry>
@@ -355148,10 +355335,23 @@
     <sources>IEEE</sources>
   </entry>
   <entry>
-    <oui>D0:DA:24:6</oui>
-    <manufacturer>AHEESA DIGITAL INNOVATIONS PRIVATE LIMITED</manufacturer>
+    <oui>D0:DA:24:2</oui>
+    <manufacturer>acemetro electronics india private limited</manufacturer>
     <registry>MA-M</registry>
-    <registered_date>2026-08-04</registered_date>
+    <registered_date>2026-08-07</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
+    <oui>D0:DA:24:A</oui>
+    <manufacturer>Shenzhen Beilai Technology Co.,Ltd</manufacturer>
+    <registry>MA-M</registry>
+    <registered_date>2026-08-07</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
+    <oui>30:BB:28:C</oui>
+    <manufacturer>TAIRA(Lasersan Advanced Teknoloji Sistemleri A.Ş.)</manufacturer>
+    <registry>MA-M</registry>
     <sources>IEEE</sources>
   </entry>
   <entry>
@@ -364353,22 +364553,15 @@
     <sources>IEEE</sources>
   </entry>
   <entry>
-    <oui>84:E0:F4:9</oui>
-    <manufacturer>SHENZHEN HCN.ELECTRONICS CO.,LTD.</manufacturer>
+    <oui>D0:DA:24:1</oui>
+    <manufacturer>WITSTEK HONGKONG LIMITED</manufacturer>
     <registry>MA-M</registry>
-    <registered_date>2016-05-29</registered_date>
+    <registered_date>2026-07-31</registered_date>
     <sources>IEEE</sources>
   </entry>
   <entry>
     <oui>B4:DF:43:8</oui>
     <manufacturer>Qizhi Innovation (shenzhen) Conmmunication Technology Co., Ltd</manufacturer>
-    <registry>MA-M</registry>
-    <registered_date>2026-07-30</registered_date>
-    <sources>IEEE</sources>
-  </entry>
-  <entry>
-    <oui>B4:DF:43:1</oui>
-    <manufacturer>UTA WIRELESS S.R.L.</manufacturer>
     <registry>MA-M</registry>
     <registered_date>2026-07-30</registered_date>
     <sources>IEEE</sources>
@@ -364381,15 +364574,22 @@
     <sources>IEEE</sources>
   </entry>
   <entry>
-    <oui>D0:DA:24:1</oui>
-    <manufacturer>WITSTEK HONGKONG LIMITED</manufacturer>
+    <oui>84:E0:F4:9</oui>
+    <manufacturer>SHENZHEN HCN.ELECTRONICS CO.,LTD.</manufacturer>
     <registry>MA-M</registry>
-    <registered_date>2026-07-31</registered_date>
+    <registered_date>2016-05-29</registered_date>
     <sources>IEEE</sources>
   </entry>
   <entry>
     <oui>B4:DF:43:2</oui>
     <manufacturer>Wenzel Associates</manufacturer>
+    <registry>MA-M</registry>
+    <registered_date>2026-07-30</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
+    <oui>B4:DF:43:1</oui>
+    <manufacturer>UTA WIRELESS S.R.L.</manufacturer>
     <registry>MA-M</registry>
     <registered_date>2026-07-30</registered_date>
     <sources>IEEE</sources>
@@ -374304,6 +374504,27 @@
     <manufacturer>NATIXON Sp. z o.o.</manufacturer>
     <registry>MA-S</registry>
     <registered_date>2026-07-24</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
+    <oui>8C:1F:64:D8:4</oui>
+    <manufacturer>OES Inc.</manufacturer>
+    <registry>MA-S</registry>
+    <registered_date>2026-08-06</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
+    <oui>8C:1F:64:EC:D</oui>
+    <manufacturer>Beijing BITMC Technology co.Ltd</manufacturer>
+    <registry>MA-S</registry>
+    <registered_date>2026-08-06</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
+    <oui>8C:1F:64:76:D</oui>
+    <manufacturer>uHoo Pte. Ltd.</manufacturer>
+    <registry>MA-S</registry>
+    <registered_date>2026-08-07</registered_date>
     <sources>IEEE</sources>
   </entry>
   <entry>
@@ -384310,6 +384531,13 @@
     <sources>IEEE</sources>
   </entry>
   <entry>
+    <oui>8C:1F:64:34:3</oui>
+    <manufacturer>Syscom Instruments SA</manufacturer>
+    <registry>MA-S</registry>
+    <registered_date>2026-07-22</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
     <oui>8C:1F:64:CB:4</oui>
     <manufacturer>Wi4B s.r.l.</manufacturer>
     <registry>MA-S</registry>
@@ -384321,13 +384549,6 @@
     <manufacturer>GIB Korea Co.,Ltd.</manufacturer>
     <registry>MA-S</registry>
     <registered_date>2026-07-21</registered_date>
-    <sources>IEEE</sources>
-  </entry>
-  <entry>
-    <oui>8C:1F:64:34:3</oui>
-    <manufacturer>Syscom Instruments SA</manufacturer>
-    <registry>MA-S</registry>
-    <registered_date>2026-07-22</registered_date>
     <sources>IEEE</sources>
   </entry>
   <entry>
@@ -384349,6 +384570,13 @@
     <manufacturer>Potter Electric Signal Company</manufacturer>
     <registry>MA-S</registry>
     <registered_date>2026-07-31</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
+    <oui>8C:1F:64:7F:A</oui>
+    <manufacturer>Hiwin Mikrosystem Corp.</manufacturer>
+    <registry>MA-S</registry>
+    <registered_date>2026-08-07</registered_date>
     <sources>IEEE</sources>
   </entry>
   <entry>
@@ -394397,17 +394625,17 @@
     <sources>IEEE</sources>
   </entry>
   <entry>
-    <oui>8C:1F:64:21:8</oui>
-    <manufacturer>Symphony Interactive Inc</manufacturer>
-    <registry>MA-S</registry>
-    <registered_date>2026-07-28</registered_date>
-    <sources>IEEE</sources>
-  </entry>
-  <entry>
     <oui>8C:1F:64:20:F</oui>
     <manufacturer>DAVE SRL</manufacturer>
     <registry>MA-S</registry>
     <registered_date>2026-07-27</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
+    <oui>8C:1F:64:21:8</oui>
+    <manufacturer>Symphony Interactive Inc</manufacturer>
+    <registry>MA-S</registry>
+    <registered_date>2026-07-28</registered_date>
     <sources>IEEE</sources>
   </entry>
   <entry>
@@ -404316,13 +404544,6 @@
     <sources>IEEE</sources>
   </entry>
   <entry>
-    <oui>8C:1F:64:1A:4</oui>
-    <manufacturer>Beijing Qinghong Chuangzhi Technology Co.,Ltd.</manufacturer>
-    <registry>MA-S</registry>
-    <registered_date>2026-07-24</registered_date>
-    <sources>IEEE</sources>
-  </entry>
-  <entry>
     <oui>8C:1F:64:EE:C</oui>
     <manufacturer>Lumenir Inc.</manufacturer>
     <registry>MA-S</registry>
@@ -404330,10 +404551,10 @@
     <sources>IEEE</sources>
   </entry>
   <entry>
-    <oui>8C:1F:64:B0:7</oui>
-    <manufacturer>AeroVironment</manufacturer>
+    <oui>8C:1F:64:1A:4</oui>
+    <manufacturer>Beijing Qinghong Chuangzhi Technology Co.,Ltd.</manufacturer>
     <registry>MA-S</registry>
-    <registered_date>2026-07-28</registered_date>
+    <registered_date>2026-07-24</registered_date>
     <sources>IEEE</sources>
   </entry>
   <entry>
@@ -404344,10 +404565,31 @@
     <sources>IEEE</sources>
   </entry>
   <entry>
+    <oui>8C:1F:64:B0:7</oui>
+    <manufacturer>AeroVironment</manufacturer>
+    <registry>MA-S</registry>
+    <registered_date>2026-07-28</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
     <oui>8C:1F:64:B2:E</oui>
     <manufacturer>Grossenbacher Systeme AG</manufacturer>
     <registry>MA-S</registry>
     <registered_date>2026-08-03</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
+    <oui>8C:1F:64:56:2</oui>
+    <manufacturer>WOLF Advanced Technology</manufacturer>
+    <registry>MA-S</registry>
+    <registered_date>2026-08-06</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
+    <oui>8C:1F:64:F0:1</oui>
+    <manufacturer>OmniBuds Ltd</manufacturer>
+    <registry>MA-S</registry>
+    <registered_date>2026-08-10</registered_date>
     <sources>IEEE</sources>
   </entry>
   <entry>
@@ -414246,6 +414488,20 @@
     <manufacturer>Cardinal Scales Manufacturing Co</manufacturer>
     <registry>MA-S</registry>
     <registered_date>2026-08-05</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
+    <oui>8C:1F:64:2A:D</oui>
+    <manufacturer>Sugihara Software and Electron Industry</manufacturer>
+    <registry>MA-S</registry>
+    <registered_date>2026-08-07</registered_date>
+    <sources>IEEE</sources>
+  </entry>
+  <entry>
+    <oui>8C:1F:64:16:8</oui>
+    <manufacturer>JAPAN ID Co., Ltd.</manufacturer>
+    <registry>MA-S</registry>
+    <registered_date>2026-08-07</registered_date>
     <sources>IEEE</sources>
   </entry>
   <entry>
@@ -446621,8 +446877,9 @@
     <oui>7A:B2:30</oui>
     <manufacturer>European Telecommunications Standards Institute</manufacturer>
     <registry>CID</registry>
+    <short_name>EuropeanTele</short_name>
     <registered_date>2026-08-04</registered_date>
-    <sources>IEEE</sources>
+    <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
     <oui>CA:C2:76</oui>
@@ -447356,8 +447613,9 @@
     <oui>6A:61:EE</oui>
     <manufacturer>Nanjing Etlchips Microelectronics Technology Co., LTD</manufacturer>
     <registry>CID</registry>
+    <short_name>NanjingEtlch</short_name>
     <registered_date>2026-08-04</registered_date>
-    <sources>IEEE</sources>
+    <sources>IEEE,Wireshark</sources>
   </entry>
   <entry>
     <oui>DA:C4:51</oui>
@@ -489324,9 +489582,9 @@
   </entry>
   <entry>
     <oui>38:B1:4E:E0/28</oui>
-    <manufacturer>Knit Sound Company</manufacturer>
+    <manufacturer>Zoho Business Services LLP - ZBS Nagpur,</manufacturer>
     <registry>MA-L</registry>
-    <short_name>KnitSound</short_name>
+    <short_name>ZohoBusiness</short_name>
     <sources>Wireshark</sources>
   </entry>
   <entry>
@@ -537091,6 +537349,13 @@
     <sources>Wireshark</sources>
   </entry>
   <entry>
+    <oui>8C:1F:64:0E:20/36</oui>
+    <manufacturer>Cardinal Scales Manufacturing Co</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>CardinalScal</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
     <oui>8C:1F:64:0E:30/36</oui>
     <manufacturer>JISEONGENG Co,.LTD</manufacturer>
     <registry>MA-L</registry>
@@ -537690,6 +537955,13 @@
     <manufacturer>Hikari Alphax Inc.</manufacturer>
     <registry>MA-L</registry>
     <short_name>HikariAlphax</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>8C:1F:64:16:80/36</oui>
+    <manufacturer>JAPAN ID Co., Ltd.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>JAPANID</short_name>
     <sources>Wireshark</sources>
   </entry>
   <entry>
@@ -539275,6 +539547,13 @@
     <sources>Wireshark</sources>
   </entry>
   <entry>
+    <oui>8C:1F:64:2A:D0/36</oui>
+    <manufacturer>Sugihara Software and Electron Industry</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>SugiharaSoft</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
     <oui>8C:1F:64:2A:F0/36</oui>
     <manufacturer>A-Best Co.,Lid.</manufacturer>
     <registry>MA-L</registry>
@@ -540035,6 +540314,13 @@
     <manufacturer>Denso Manufacturing Tennessee</manufacturer>
     <registry>MA-L</registry>
     <short_name>DensoManufac</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>8C:1F:64:35:90/36</oui>
+    <manufacturer>Dongguan Ritian Communication Technology Co., Ltd.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>DongguanRiti</short_name>
     <sources>Wireshark</sources>
   </entry>
   <entry>
@@ -542604,6 +542890,13 @@
     <manufacturer>Deep Detection / ESB01736990</manufacturer>
     <registry>MA-L</registry>
     <short_name>DeepDetectio</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>8C:1F:64:56:20/36</oui>
+    <manufacturer>WOLF Advanced Technology</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>WOLFAdvanced</short_name>
     <sources>Wireshark</sources>
   </entry>
   <entry>
@@ -545183,6 +545476,13 @@
     <sources>Wireshark</sources>
   </entry>
   <entry>
+    <oui>8C:1F:64:76:D0/36</oui>
+    <manufacturer>uHoo Pte. Ltd.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>uHooPte</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
     <oui>8C:1F:64:76:E0/36</oui>
     <manufacturer>develogic GmbH</manufacturer>
     <registry>MA-L</registry>
@@ -545887,6 +546187,13 @@
     <manufacturer>Copelion International Inc</manufacturer>
     <registry>MA-L</registry>
     <short_name>CopelionInte</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>8C:1F:64:7F:A0/36</oui>
+    <manufacturer>Hiwin Mikrosystem Corp.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>HiwinMikrosy</short_name>
     <sources>Wireshark</sources>
   </entry>
   <entry>
@@ -549782,6 +550089,13 @@
     <sources>Wireshark</sources>
   </entry>
   <entry>
+    <oui>8C:1F:64:B2:E0/36</oui>
+    <manufacturer>Grossenbacher Systeme AG</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>Grossenbache</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
     <oui>8C:1F:64:B2:F0/36</oui>
     <manufacturer>Mtechnology - Gamma Commerciale Srl</manufacturer>
     <registry>MA-L</registry>
@@ -552736,6 +553050,13 @@
     <sources>Wireshark</sources>
   </entry>
   <entry>
+    <oui>8C:1F:64:D8:40/36</oui>
+    <manufacturer>OES Inc.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>OES</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
     <oui>8C:1F:64:D8:70/36</oui>
     <manufacturer>Experio Tech Private Limited</manufacturer>
     <registry>MA-L</registry>
@@ -554273,6 +554594,13 @@
     <manufacturer>Baldwin Jimek AB</manufacturer>
     <registry>MA-L</registry>
     <short_name>BaldwinJimek</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>8C:1F:64:EC:D0/36</oui>
+    <manufacturer>Beijing BITMC Technology co.Ltd</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>BITMCTechnol</short_name>
     <sources>Wireshark</sources>
   </entry>
   <entry>
@@ -568934,6 +569262,13 @@
     <sources>Wireshark</sources>
   </entry>
   <entry>
+    <oui>D0:DA:24:00/28</oui>
+    <manufacturer>Beijing Deeprift Technologies Co., Ltd.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>DeepriftTech</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
     <oui>D0:DA:24:10/28</oui>
     <manufacturer>Witstek Hongkong Limited</manufacturer>
     <registry>MA-L</registry>
@@ -568941,10 +569276,87 @@
     <sources>Wireshark</sources>
   </entry>
   <entry>
+    <oui>D0:DA:24:20/28</oui>
+    <manufacturer>acemetro electronics india private limited</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>acemetroelec</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>D0:DA:24:30/28</oui>
+    <manufacturer>Hangzhou Arcvideo Technology Co., Ltd.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>ArcvideoTech</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>D0:DA:24:40/28</oui>
+    <manufacturer>National Security Technology JSC</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>NationalSecu</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>D0:DA:24:50/28</oui>
+    <manufacturer>Shenzhen Zhangyue Technology Co.,Ltd</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>ZhangyueTech</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>D0:DA:24:60/28</oui>
+    <manufacturer>Aheesa Digital Innovations Private Limited</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>AheesaDigita</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>D0:DA:24:70/28</oui>
+    <manufacturer>Canlab Co., Ltd.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>Canlab</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
     <oui>D0:DA:24:80/28</oui>
     <manufacturer>Shanghai Yunsilicon Technology Co., Ltd.</manufacturer>
     <registry>MA-L</registry>
     <short_name>YunsiliconTe</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>D0:DA:24:90/28</oui>
+    <manufacturer>Teradyne Robotics A/S</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>TeradyneRobo</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>D0:DA:24:A0/28</oui>
+    <manufacturer>Shenzhen Beilai Technology Co.,Ltd</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>BeilaiTechno</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>D0:DA:24:B0/28</oui>
+    <manufacturer>Cjms Llc</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>Cjms</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>D0:DA:24:C0/28</oui>
+    <manufacturer>Alloop（Hong kong）Limited</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>AlloopLimite</short_name>
+    <sources>Wireshark</sources>
+  </entry>
+  <entry>
+    <oui>D0:DA:24:D0/28</oui>
+    <manufacturer>AmenTech Inc.</manufacturer>
+    <registry>MA-L</registry>
+    <short_name>AmenTech</short_name>
     <sources>Wireshark</sources>
   </entry>
   <entry>
