@@ -1,12 +1,12 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1E40AF&height=220&section=header&text=OUI%20MASTER%20DATABASE&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=89,759%20vendors%20%7C%2010%20formats%20%7C%204%20authoritative%20sources&descSize=18&descAlignY=58"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1E40AF&height=220&section=header&text=OUI%20MASTER%20DATABASE&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=89,890%20vendors%20%7C%2010%20formats%20%7C%204%20authoritative%20sources&descSize=18&descAlignY=58"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=1E40AF&center=true&vCenter=true&multiline=true&repeat=true&width=950&height=80&lines=One+master+list+to+rule+them+all.;IEEE+%2B+Wireshark+%2B+Nmap+%2B+HDM+Mac-Tracker;89%2C759+OUIs+%E2%80%94+monthly+auto-update)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=1E40AF&center=true&vCenter=true&multiline=true&repeat=true&width=950&height=80&lines=One+master+list+to+rule+them+all.;IEEE+%2B+Wireshark+%2B+Nmap+%2B+HDM+Mac-Tracker;89%2C890+OUIs+%E2%80%94+monthly+auto-update)](https://git.io/typing-svg)
 
 <br>
 
-[![OUIs](https://img.shields.io/badge/OUIs-89%2C759-1E40AF?style=for-the-badge&logo=ethernet&logoColor=white)](LISTS/master_oui.csv)
+[![OUIs](https://img.shields.io/badge/OUIs-89%2C890-1E40AF?style=for-the-badge&logo=ethernet&logoColor=white)](LISTS/master_oui.csv)
 [![Formats](https://img.shields.io/badge/Formats-10-3B82F6?style=for-the-badge&logo=files&logoColor=white)](#ls-lists)
 [![Updates](https://img.shields.io/badge/Updates-Monthly_Auto-60A5FA?style=for-the-badge&logo=githubactions&logoColor=white)](#update_schedule)
 [![License](https://img.shields.io/badge/License-MIT-93C5FD?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](#license)
@@ -30,7 +30,7 @@ ringmast4r@github:~$ cat oui-master-db.txt
 
   PURPOSE:        MAC address vendor lookup, the comprehensive way
   SCOPE:          Every IEEE registry + Wireshark + Nmap + HDM Mac-Tracker
-  COVERAGE:       89,759 unique OUIs, 78,625 cross-validated entries
+  COVERAGE:       89,890 unique OUIs, 78,655 cross-validated entries
   FORMATS:        TXT, CSV, TSV, JSON, JSON-min, XML, SQLite, SQL, Kismet, Kismet.gz
   UPDATES:        First of every month via GitHub Actions
   USE CASES:      Wardriving | Network forensics | IoT discovery | Threat intel
@@ -51,12 +51,12 @@ ringmast4r@github:~$ cat oui-master-db.txt
 <!-- AUTO:STATS_TABLE -->
 | METRIC | COUNT | NOTES |
 |:------:|:-----:|:-----:|
-| **Total Unique OUIs** | `89,759` | Deduplicated across 4 sources |
-| **Cross-Validated** | `78,625` | Same OUI from multiple sources |
-| **IEEE Registry Total** | `58,371` | MA-L + MA-M + MA-S + IAB + CID |
+| **Total Unique OUIs** | `89,890` | Deduplicated across 4 sources |
+| **Cross-Validated** | `78,655` | Same OUI from multiple sources |
+| **IEEE Registry Total** | `58,479` | MA-L + MA-M + MA-S + IAB + CID |
 | **Device Categories** | `24` | Auto-classified |
 | **File Formats** | `10` | TXT to SQLite |
-| **Monthly New OUIs** | `~353` | IEEE assignments |
+| **Monthly New OUIs** | `~355` | IEEE assignments |
 <!-- /AUTO:STATS_TABLE -->
 
 </div>
@@ -72,13 +72,13 @@ ringmast4r@github:~$ cat oui-master-db.txt
 %%{init: {'theme':'dark', 'themeVariables': {'xyChart': {'backgroundColor':'#00000000','plotColorPalette':'#1E40AF','titleColor':'#1E40AF','xAxisLabelColor':'#ffffff','yAxisLabelColor':'#ffffff'}}}}%%
 xychart-beta
     title "OUI Count Growth (Last 6 Auto-Updates)"
-    x-axis ["2026-04-01", "2026-05-01", "2026-06-01", "2026-08-01", "2026-08-05", "2026-08-11"]
-    y-axis "Total OUIs" 88100 --> 89900
-    bar [88212, 88577, 88873, 89652, 89704, 89759]
-    line [88212, 88577, 88873, 89652, 89704, 89759]
+    x-axis ["2026-05-01", "2026-06-01", "2026-08-01", "2026-08-05", "2026-08-11", "2026-08-21"]
+    y-axis "Total OUIs" 88400 --> 90000
+    bar [88577, 88873, 89652, 89704, 89759, 89890]
+    line [88577, 88873, 89652, 89704, 89759, 89890]
 ```
 
-**+1,547 OUIs in ~19 weeks** · IEEE assigns roughly **353 new vendors/month** · Next refresh: **first of next month**
+**+1,313 OUIs in ~16 weeks** · IEEE assigns roughly **355 new vendors/month** · Next refresh: **first of next month**
 <!-- /AUTO:GROWTH_CHART -->
 
 </div>
@@ -95,10 +95,10 @@ xychart-beta
 pie showData
     title Where Each OUI Comes From
     "All 3 (IEEE+Wireshark+Nmap)" : 38512
-    "IEEE only" : 18258
-    "Wireshark only" : 18232
+    "IEEE only" : 18336
+    "Wireshark only" : 18255
     "Nmap only" : 13159
-    "IEEE+Wireshark" : 1184
+    "IEEE+Wireshark" : 1214
     "IEEE+Nmap" : 414
 ```
 
@@ -113,10 +113,10 @@ fill gaps that *no individual database* would catch on its own. That's the point
 <!-- AUTO:SOURCE_ROSTER -->
 | SOURCE | ENTRIES | LICENSE | URL |
 |:-------|:-------:|:-------:|:----|
-| ![IEEE](https://img.shields.io/badge/IEEE-Official-1E40AF?style=flat-square) | `58,371` | Public Domain | [standards-oui.ieee.org](https://standards-oui.ieee.org/) |
-| ![Wireshark](https://img.shields.io/badge/Wireshark-Community-1679A7?style=flat-square&logo=wireshark&logoColor=white) | `57,928` | GPLv2 | [wireshark.org](https://www.wireshark.org/download/automated/data/manuf.gz) |
+| ![IEEE](https://img.shields.io/badge/IEEE-Official-1E40AF?style=flat-square) | `58,479` | Public Domain | [standards-oui.ieee.org](https://standards-oui.ieee.org/) |
+| ![Wireshark](https://img.shields.io/badge/Wireshark-Community-1679A7?style=flat-square&logo=wireshark&logoColor=white) | `57,981` | GPLv2 | [wireshark.org](https://www.wireshark.org/download/automated/data/manuf.gz) |
 | ![Nmap](https://img.shields.io/badge/Nmap-Community-7B68EE?style=flat-square&logo=nmap&logoColor=white) | `52,085` | GPLv2 (mod.) | [nmap-mac-prefixes](https://github.com/nmap/nmap/raw/master/nmap-mac-prefixes) |
-| ![HDM](https://img.shields.io/badge/HDM%20Mac--Tracker-Historical-FFD700?style=flat-square) | `58,487` | MIT | [hdm/mac-tracker](https://github.com/hdm/mac-tracker) |
+| ![HDM](https://img.shields.io/badge/HDM%20Mac--Tracker-Historical-FFD700?style=flat-square) | `58,584` | MIT | [hdm/mac-tracker](https://github.com/hdm/mac-tracker) |
 <!-- /AUTO:SOURCE_ROSTER -->
 
 ---
@@ -129,10 +129,10 @@ fill gaps that *no individual database* would catch on its own. That's the point
 ```mermaid
 %%{init: {'theme':'dark', 'themeVariables': {'pie1':'#1E40AF','pie2':'#3B82F6','pie3':'#60A5FA','pie4':'#93C5FD','pie5':'#FFD700','pieTitleTextSize':'18px','pieLegendTextSize':'14px'}}}%%
 pie showData
-    title IEEE Registry Distribution (58,371 entries)
-    "MA-L (Large, ~16M each)" : 39916
-    "MA-S (Small, ~4K each)" : 7127
-    "MA-M (Medium, ~1M each)" : 6535
+    title IEEE Registry Distribution (58,479 entries)
+    "MA-L (Large, ~16M each)" : 39982
+    "MA-S (Small, ~4K each)" : 7147
+    "MA-M (Medium, ~1M each)" : 6557
     "IAB (Individual Block)" : 4575
     "CID (Company ID)" : 218
 ```
@@ -141,9 +141,9 @@ pie showData
 <!-- AUTO:IEEE_TABLE -->
 | REGISTRY | ENTRIES | BLOCK SIZE | TYPICAL USE |
 |:--------:|:-------:|:----------:|:------------|
-| **MA-L** | `39,916` | 24-bit (~16M MACs) | Large-scale manufacturers |
-| **MA-S** | `7,127`  | 36-bit (~4K MACs) | IoT, niche hardware |
-| **MA-M** | `6,535`  | 28-bit (~1M MACs) | Mid-volume vendors |
+| **MA-L** | `39,982` | 24-bit (~16M MACs) | Large-scale manufacturers |
+| **MA-S** | `7,147`  | 36-bit (~4K MACs) | IoT, niche hardware |
+| **MA-M** | `6,557`  | 28-bit (~1M MACs) | Mid-volume vendors |
 | **IAB**  | `4,575`  | Individual | Legacy individual blocks |
 | **CID**  | `218`    | Company-only ID | Non-MAC company markers |
 <!-- /AUTO:IEEE_TABLE -->
@@ -156,8 +156,8 @@ pie showData
 
 <!-- AUTO:DEVICE_CAVEAT -->
 > ⚠ IEEE doesn't expose device category. Our classifier is a heuristic on company name +
-> known-vendor lookups, so **only 15,910 of 89,759 OUIs** (17.7%) get a category. The
-> remaining 73,849 stay `Unclassified` rather than guessed.
+> known-vendor lookups, so **only 15,946 of 89,890 OUIs** (17.7%) get a category. The
+> remaining 73,944 stay `Unclassified` rather than guessed.
 <!-- /AUTO:DEVICE_CAVEAT -->
 
 <div align="center">
@@ -166,19 +166,19 @@ pie showData
 ```mermaid
 %%{init: {'theme':'dark', 'themeVariables': {'pie1':'#1E40AF','pie2':'#3B82F6','pie3':'#60A5FA','pie4':'#93C5FD','pie5':'#FFD700','pie6':'#1E3A8A','pie7':'#00D4FF','pie8':'#9FEF00','pie9':'#FF00FF','pie10':'#8B5CF6','pie11':'#FF6B6B','pie12':'#00FF88','pieTitleTextSize':'16px','pieLegendTextSize':'12px'}}}%%
 pie showData
-    title Classified Device Types (15,910 of 89,759)
-    "Phone" : 6315
-    "Router" : 2349
-    "Computer" : 1636
-    "Smart Home" : 1371
-    "IoT" : 847
-    "Automotive" : 452
-    "Industrial" : 420
+    title Classified Device Types (15,946 of 89,890)
+    "Phone" : 6325
+    "Router" : 2353
+    "Computer" : 1637
+    "Smart Home" : 1372
+    "IoT" : 860
+    "Automotive" : 453
+    "Industrial" : 421
     "Switch" : 385
     "Storage" : 341
-    "Medical" : 321
+    "Medical" : 323
     "Camera" : 272
-    "Other (13 cats)" : 1201
+    "Other (13 cats)" : 1204
 ```
 <!-- /AUTO:DEVICE_PIE -->
 
@@ -190,18 +190,18 @@ pie showData
 <!-- AUTO:DEVICE_TABLE -->
 | CATEGORY | COUNT | CATEGORY | COUNT |
 |:---------|:-----:|:---------|:-----:|
-| Phone        | `6,315` | Media Player | `168` |
-| Router       | `2,349` | Gaming       | `167` |
-| Computer     | `1,636` | Appliance    | `145` |
-| Smart Home   | `1,371` | VoIP         | `143` |
-| IoT          | `847` | Printer      | `114` |
-| Automotive   | `452` | Access Point | `59` |
-| Industrial   | `420` | Server       | `58` |
+| Phone        | `6,325` | Media Player | `168` |
+| Router       | `2,353` | Gaming       | `168` |
+| Computer     | `1,637` | Appliance    | `145` |
+| Smart Home   | `1,372` | VoIP         | `143` |
+| IoT          | `860` | Printer      | `114` |
+| Automotive   | `453` | Server       | `59` |
+| Industrial   | `421` | Access Point | `59` |
 | Switch       | `385` | Wearable     | `52` |
 | Storage      | `341` | Audio        | `35` |
-| Medical      | `321` | Modem        | `27` |
+| Medical      | `323` | Modem        | `27` |
 | Camera       | `272` | Thermostat   | `23` |
-| TV           | `203` | Tablet       | `7` |
+| TV           | `204` | Tablet       | `7` |
 <!-- /AUTO:DEVICE_TABLE -->
 
 </details>
@@ -445,7 +445,7 @@ Issues and PRs welcome. Most-wanted contributions:
 ---
 
 <!-- AUTO:FOOTER -->
-**Last updated:** `2026-08-11` · **Total OUIs:** `89,759` · **Maintained by** [@Ringmast4r](https://github.com/Ringmast4r)
+**Last updated:** `2026-08-21` · **Total OUIs:** `89,890` · **Maintained by** [@Ringmast4r](https://github.com/Ringmast4r)
 <!-- /AUTO:FOOTER -->
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1E40AF,100:000000&height=120&section=footer"/>

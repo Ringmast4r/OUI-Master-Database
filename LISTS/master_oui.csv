@@ -8046,10 +8046,22 @@ DC:EB:5D,"Shandong Sinochip Semiconductors Co.,Ltd.",MA-L,ShandongSino,,2026-08-
 B0:82:AB,"Guangdong Welland Technology Co.,Ltd",MA-L,WellandTechn,,2026-08-04,"No. 7 Minke East Road, Minying Science & Technology Park, Shiqi Zhongshan Guangdong CN 528400 ",IEEE+Wireshark
 3C:DA:6D,"Tiandy Technologies Co.,LTD",MA-L,TiandyTechno,,2019-11-12,"NO.8,haitai huake rd2 (outside ring road),huayuan new technology industrial park Tianjin Tianjin CN 300384 ",IEEE+Wireshark+Nmap
 AC:40:B5,"Lumiva Inc.",MA-L,Lumiva,,2026-08-04,"20085 Stevens Creek Boulevard Cupertino CA US 95014",IEEE+Wireshark
+44:14:04,"eero inc.",MA-L,eero,,2026-08-11,"660 3rd Street  San Francisco CA US 94107",IEEE+Wireshark
 24:A9:37,"Everpure, Inc.",MA-L,Everpure,Storage,2010-02-25,"2555 Augustine Drive Santa Clara CA US 95054",IEEE+Wireshark+Nmap
 D8:76:02,"Nxj Inc.",MA-L,Nxj,,2026-08-08,"1111B S Governors Ave, Suite 54141 Dover DE US 19904 ",IEEE+Wireshark
-34:03:3D,"HP Inc.",MA-L,,Computer,2026-08-10,"10300 Energy Dr Spring TX US 77389",IEEE
-30:BB:28,"IEEE Registration Authority",MA-L,,,,"445 Hoes Lane Piscataway NJ US 08554",IEEE
+54:47:81,"Quectel Wireless Solutions Co.,Ltd.",MA-L,QuectelWirel,,2026-08-13,"Building 5, Shanghai Business Park Phase III (Area B), No.1016 Tianlin Road, Minhang District Shanghai  CN 200233 ",IEEE+Wireshark
+04:D6:34,"Nanjing RISC-V Institute Co., Ltd.",MA-L,NanjingRISCV,,2026-08-13,"Room 303, Building C, 18 Ningshuang Road Nanjing Jiangsu CN 210000 ",IEEE+Wireshark
+30:BB:28,"IEEE Registration Authority",MA-L,,,2026-08-11,"445 Hoes Lane Piscataway NJ US 08554",IEEE
+34:03:3D,"HP Inc.",MA-L,HP,Computer,2026-08-10,"10300 Energy Dr Spring TX US 77389",IEEE+Wireshark
+C4:58:78,"AltoBeam Inc.",MA-L,AltoBeam,,2026-08-15,"B808, Tsinghua Tongfang Hi-Tech Plaza, Haidian Beijing Beijing CN 100083 ",IEEE+Wireshark
+EC:83:06,"GooWi Wireless Technology Co., Limited",MA-L,GooWiWireles,,2026-08-15,"RM1601 East CreativeTech Plaza II, Tianan Digital Tech, Futian District  Shenzhen Guangdong CN 518000 ",IEEE+Wireshark
+C4:4B:31,"Cisco Systems, Inc",MA-L,Cisco,Router,2026-08-14,"80 West Tasman Drive San Jose  CA US 94568",IEEE+Wireshark
+50:44:72,"Motorola Mobility LLC, a Lenovo Company",MA-L,MotorolaMobi,Phone,2026-08-14,"222 West Merchandise Mart Plaza Chicago IL US 60654",IEEE+Wireshark
+F8:34:E5,"vivo Mobile Communication Co., Ltd.",MA-L,,Phone,2026-08-19,"No.1, vivo Road, Chang'an Dongguan Guangdong CN 523860 ",IEEE
+68:24:F9,"VIOLET AUDIO PTE. LTD.",MA-L,,Automotive,2026-08-19,"68 CIRCULAR ROAD, #02-01 SINGAPORE Singapore SG 049422 ",IEEE
+5C:A2:A2,"Texas Instruments",MA-L,,IoT,2026-08-20,"12500 TI Blvd Dallas TX US 75243",IEEE
+DC:30:52,"zte corporation",MA-L,,Phone,,"12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen  guangdong CN 518057 ",IEEE
+DC:9F:1F,"Aseko, spol. s r.o.",MA-L,,,,"Videnska 340 Vestec u Prahy  CZ 25250",IEEE
 00:74:9C,"Ruijie Networks Co.,LTD",MA-L,RuijieNetwor,,2016-05-26,"19# Building,Star-net Science Plaza,Juyuanzhou, 618 Jinshan Road Fuzhou Fujian CN 350002 ",IEEE+Wireshark+Nmap
 00:0F:EA,"Giga-Byte Technology Co.,Ltd.",MA-L,GigaByteTech,Computer,2004-04-03,"No.215,Nan-Ping Road,Ping-Jen City, Ping-Jen Taoyuan TW 324 ",IEEE+Wireshark+Nmap
 38:AD:2B,"Hitron Technologies. Inc",MA-L,HitronTechno,,2023-07-07,"No. 1-8, Lising 1st Rd. Hsinchu Science Park, Hsinchu, 300, Taiwan, R.O.C Hsin-chu Taiwan TW 300 ",IEEE+Wireshark+Nmap
@@ -15863,8 +15875,6 @@ DC:00:77,"Tp-Link Technologies Co.,Ltd.",MA-L,TpLinkTechno,Router,2015-11-17,"2-
 60:32:B1,"Tp-Link Technologies Co.,Ltd.",MA-L,TpLinkTechno,Router,2020-05-02,"2-7th floors of South Building and 3-11th floors of North Building, No. 396, Jucai Road, Changhe Street, Binjiang District Hangzhou City Zhejiang Province, CN 310000 ",IEEE+Wireshark+Nmap
 3C:6A:48,"Tp-Link Technologies Co.,Ltd.",MA-L,TpLinkTechno,Router,2022-09-30,"2-7th floors of South Building and 3-11th floors of North Building, No. 396, Jucai Road, Changhe Street, Binjiang District Hangzhou City Zhejiang Province, CN 310000 ",IEEE+Wireshark+Nmap
 48:7F:80,"FRITZ! Technology GmbH",MA-L,FRITZ!Techno,,2026-06-17,"Alt-Moabit 95 Berlin Berlin DE 10559",IEEE+Wireshark
-30:EB:5A,"Landis+Gyr S.A.",MA-L,LandisGyr,,2018-09-07,"78th km Old National Road Athens-Corinth  Corinth   GR 20100",IEEE+Wireshark+Nmap
-98:B1:77,"Landis+Gyr S.A.",MA-L,LandisGyr,,2021-04-23,"78th km Old National Road Athens-Corinth  Corinth   GR 20100",IEEE+Wireshark+Nmap
 E8:FE:BE,"Apple, Inc.",MA-L,Apple,Phone,2026-06-21,"1 Infinite Loop Cupertino CA US 95014",IEEE+Wireshark
 88:17:A8,"Apple, Inc.",MA-L,Apple,Phone,2026-06-21,"1 Infinite Loop Cupertino CA US 95014",IEEE+Wireshark
 74:D5:E8,"Apple, Inc.",MA-L,Apple,Phone,2026-06-21,"1 Infinite Loop Cupertino CA US 95014",IEEE+Wireshark
@@ -15952,11 +15962,24 @@ B4:DF:43,"IEEE Registration Authority",MA-L,,,2026-07-29,"445 Hoes Lane Piscataw
 F4:66:39,"GD Midea Air-Conditioning Equipment Co.,Ltd.",MA-L,GDMideaAirCo,Appliance,2026-07-30,"Midea Global Innovation Center,Beijiao Town,Shunde Foshan Guangdong CN 528311 ",IEEE+Wireshark
 44:55:2B,"Samsung Electronics Co.,Ltd",MA-L,SamsungElect,Phone,2026-07-29,"#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ",IEEE+Wireshark
 4C:7A:88,"Cisco Systems, Inc",MA-L,Cisco,Router,2026-07-29,"80 West Tasman Drive San Jose CA US 94568",IEEE+Wireshark
-C0:61:94,"Huawei Device Co., Ltd.",MA-L,HuaweiDevice,Phone,2026-07-31,"No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ",IEEE+Wireshark
-00:61:68,"Nokia",MA-L,Nokia,,2026-07-31,"600 March Road Kanata Ontario CA K2K 2E6",IEEE+Wireshark
-B0:FF:0D,"Hangzhou Hikvision Digital Technology Co.,Ltd.",MA-L,HikvisionDig,Camera,2026-08-01,"No.555 Qianmo Road  Hangzhou Zhejiang CN 310052",IEEE+Wireshark
-CC:AA:00,"Microsoft Corporation",MA-L,Microsoft,Computer,2026-08-03,"One Microsoft Way REDMOND WA US 98052",IEEE+Wireshark
 D0:79:2F,"New H3C Intelligence Terminal Co., Ltd.",MA-L,NewH3CIntell,,2026-08-06,"Room 406-100, 1 Yichuang Street, China-Singapore Guangzhou Knowledge City, Huangpu District, Guangzhou. Guangzhou  Guangdong CN 510030 ",IEEE+Wireshark
+B0:FF:0D,"Hangzhou Hikvision Digital Technology Co.,Ltd.",MA-L,HikvisionDig,Camera,2026-08-01,"No.555 Qianmo Road  Hangzhou Zhejiang CN 310052",IEEE+Wireshark
+C0:61:94,"Huawei Device Co., Ltd.",MA-L,HuaweiDevice,Phone,2026-07-31,"No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ",IEEE+Wireshark
+40:53:8C,"LG Electronics",MA-L,LGElectronic,Phone,2026-08-11,"222 LG-ro, JINWI-MYEON Pyeongtaek-si Gyeonggi-do KR 451-713 ",IEEE+Wireshark
+CC:AA:00,"Microsoft Corporation",MA-L,Microsoft,Computer,2026-08-03,"One Microsoft Way REDMOND WA US 98052",IEEE+Wireshark
+00:61:68,"Nokia",MA-L,Nokia,,2026-07-31,"600 March Road Kanata Ontario CA K2K 2E6",IEEE+Wireshark
+60:D1:5F,"Futurepath Technology(Shenzhen)Co.,Ltd.",MA-L,,,2026-08-18,"Building E, Zhongke Valley, Zhonghuan Avenue Shanxia Community, Pinghu Street, Longgang District Shenzhen Guangdong CN 518111 ",IEEE
+90:1D:FF,"ZOWEE TECHNOLOGY(HEYUAN)Co.,Ltd",MA-L,ZOWEETECHNOL,,2026-08-15,"Runye Precision Manufacturing Industrial Park, among the north of Xiangjing Road, the west of Xinpi Road and the south of Yangzi Road, located in the High-tech Zone, Heyuan City, Guangdong Province  Heyuan City Guangdong Province CN 518100 ",IEEE+Wireshark
+98:B1:77,"EYKON Solutions S.A.",MA-L,EYKONSolutio,,2021-04-23,"78th km Old National Road Athens-Corinth  Corinth   GR 20100",IEEE+Wireshark+Nmap
+30:EB:5A,"EYKON Solutions S.A.",MA-L,EYKONSolutio,,2018-09-07,"78th km Old National Road Athens-Corinth  Corinth   GR 20100",IEEE+Wireshark+Nmap
+CC:A8:23,"Silicon Laboratories",MA-L,,,2026-08-18,"400 West Cesar Chavez Austin TX US 78701",IEEE
+44:BE:23,"PEGATRON CORPORATION",MA-L,,,2026-08-18,"No. 76, Ligong St., Beitou, Taipei ,Taiwan  Taipei  TW 112 ",IEEE
+00:72:30,"Nordic Semiconductor ASA",MA-L,NordicSemico,IoT,2026-08-15,"Otto Nielsens veg 12 Trondheim  NO NO-7052",IEEE+Wireshark
+BC:6C:96,"SHEN ZHEN TENDA TECHNOLOGY CO.,LTD",MA-L,,,2026-08-19,"6-8 Floor, Tower E3, No. 1001, Zhongshanyuan Road, Nanshan District, Shenzhen,China Shenzhen  CN 518052 ",IEEE
+94:2A:D6,"Texas Instruments",MA-L,,IoT,2026-08-20,"12500 TI Blvd Dallas TX US 75243",IEEE
+E0:95:B3,"Texas Instruments",MA-L,,IoT,2026-08-20,"12500 TI Blvd Dallas TX US 75243",IEEE
+7C:79:D4,"Network Optix, Inc.",MA-L,,,2026-08-21,"975 Ygnacio Valley Rd Walnut Creek CA US 94596",IEEE
+AC:04:16,"zte corporation",MA-L,,Phone,,"12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen  guangdong CN 518057 ",IEEE
 6C:87:20,"New H3C Technologies Co., Ltd",MA-L,NewH3CTechno,,2023-07-15,"466 Changhe Road, Binjiang District Hangzhou Zhejiang CN 310052 ",IEEE+Wireshark+Nmap
 0C:8D:7A,"RADiflow",MA-L,RADiflow,,2023-07-14,"HaBarzel St 38 Tel-Aviv  IL 6971054",IEEE+Wireshark+Nmap
 FC:A9:F5,"Xiaomi Communications Co Ltd",MA-L,XiaomiCommun,Phone,2023-07-14,"#019, 9th Floor, Building 6, 33 Xi'erqi Middle Road Beijing Haidian District CN 100085 ",IEEE+Wireshark+Nmap
@@ -23900,8 +23923,31 @@ B4:6F:78,"Accton Technology Corporation",MA-L,AcctonTechno,,2026-08-03,"No.1, Cr
 F4:08:55,"Qingdao Haier Technology Co.Ltd",MA-L,QingdaoHaier,Appliance,2026-08-04,"Building C01,Haier Information Park,No.1 Haier Road Qingdao  CN 266101 ",IEEE+Wireshark
 64:D6:08,"Shenzhen Ailyworld Technology Co.,Ltd.",MA-L,AilyworldTec,,2026-08-04,"Room 2112, 21/F, South Tower, Tongye Mansion, No.7008 North Ring Boulevard, Meijing Community, Meilin Sub-district, Futian District, Shenzhen, Guangdong, China Shenzhen Guangdong CN 518101 ",IEEE+Wireshark
 D0:EB:1A,"Siemens AG",MA-L,Siemens,Industrial,2026-08-04,"Frauenauracher Str.80 Erlangen  DE 91056",IEEE+Wireshark
+20:74:DD,"eero inc.",MA-L,eero,,2026-08-11,"660 3rd Street  San Francisco CA US 94107",IEEE+Wireshark
 F0:F9:5D,"Aditya Infotech Ltd.",MA-L,AdityaInfote,,2026-08-07,"Khemka Square, A-12, Sector-4, Noida Uttar Pradesh IN 201301 ",IEEE+Wireshark
 EC:33:CC,"Hewlett Packard Enterprise",MA-L,HewlettPacka,Computer,2026-08-08,"6280 America Center Dr San Jose CA US 95002",IEEE+Wireshark
+44:22:BE,"rescuetrack GmbH",MA-L,rescuetrack,,2026-08-13,"Gerhard-Kindler-Str. 17 Reutlingen Baden-Wuerttemberg DE 72770",IEEE+Wireshark
+18:F0:55,"Nanjing Qinheng Microelectronics Co., Ltd.",MA-L,NanjingQinhe,,2026-08-15,"No.18, Ningshuang Road  Nanjing Jiangsu CN 210012 ",IEEE+Wireshark
+38:F2:5D,"Hangzhou Ezviz Software Co.,Ltd.",MA-L,EzvizSoftwar,,2026-08-15,"17th Floor, Building D, No.188 Qizhi East Stree, Xixing Subdistrict, Binjiang District Hangzhou Zhejiang CN 310051 ",IEEE+Wireshark
+08:98:EF,"Shenzhen Taichi Technology Limited",MA-L,,,2026-08-18,"A1710, Nanshan Cloud Technology Building, Vanke Cloud City, Liuxin Third Street, Xili Community, Xili Street, Nanshan District,  Shenzhen Guangdong Province CN 518000 ",IEEE
+FC:21:20,"Cisco Systems, Inc",MA-L,Cisco,Router,2026-08-14,"80 West Tasman Drive San Jose  CA US 94568",IEEE+Wireshark
+A4:2D:F1,"Motorola Mobility LLC, a Lenovo Company",MA-L,MotorolaMobi,Phone,2026-08-14,"222 West Merchandise Mart Plaza Chicago IL US 60654",IEEE+Wireshark
+54:08:F1,"SHENZHENLINGDECHUANGTECHNOLOGY CO.,LTD",MA-L,,,2026-08-19,"706, Building A, Ruziniu Building Bantian Street, Longgang District Shenzhen,China Shenzhen,China Guangdong CN 518129 ",IEEE
+38:85:BB,"Commodore International Corporation",MA-L,,,2026-08-18,"8 The Green, Ste A Dover DE US 19901 ",IEEE
+74:11:A0,"Nokia",MA-L,Nokia,,2026-08-15,"600 March Road Kanata Ontario CA K2K 2E6",IEEE+Wireshark
+40:E4:C6,"Nokia",MA-L,Nokia,,2026-08-15,"600 March Road Kanata Ontario CA K2K 2E6",IEEE+Wireshark
+9C:64:A1,"Silicon Laboratories",MA-L,,,2026-08-18,"400 West Cesar Chavez Austin TX US 78701",IEEE
+50:BA:84,"Cisco Systems, Inc",MA-L,Cisco,Router,2026-08-14,"80 West Tasman Drive San Jose  CA US 94568",IEEE+Wireshark
+B0:A5:B3,"Hewlett Packard Enterprise",MA-L,,Computer,2026-08-20,"6280 America Center Dr San Jose CA US 95002",IEEE
+50:EE:B5,"Texas Instruments",MA-L,,IoT,2026-08-20,"12500 TI Blvd Dallas TX US 75243",IEEE
+D8:F0:2F,"Texas Instruments",MA-L,,IoT,2026-08-20,"12500 TI Blvd Dallas TX US 75243",IEEE
+D8:1B:F4,"Texas Instruments",MA-L,,IoT,2026-08-20,"12500 TI Blvd Dallas TX US 75243",IEEE
+18:14:F4,"Texas Instruments",MA-L,,IoT,2026-08-20,"12500 TI Blvd Dallas TX US 75243",IEEE
+A0:E9:22,"Optiemus Electronics Limited",MA-L,,,2026-08-21,"A-7, Sector-65 Noida Gautam Buddha Nagar IN 201309 ",IEEE
+B0:D5:87,"silex technology, Inc.",MA-L,,,2026-08-21,"2-3-1 Hikaridai, Seika-cho, Souraku-gun Kyoto  JP 619-0237 ",IEEE
+48:21:B8,"Guangzhou V-Solution Telecommunication Technology Co.,Ltd.",MA-L,,,2026-08-21,"13/F, Building 1, No.13 Bohua 4th Road,  Huangpu District Guangzhou Guangdong CN 510663 ",IEEE
+44:7B:30,"Espressif Inc.",MA-L,,IoT,,"Vistra Corporate Services Centre, Wickhams Cay II Road Town Tortola VG VG1110 ",IEEE
+74:75:63,"Duke Manufacturing",MA-L,,Smart Home,,"601 DUKE DR, Sedalia, MO, 65301 SEDALIA MO US 65301 ",IEEE
 B0:0C:9D,"Quectel Wireless Solutions Co.,Ltd.",MA-L,QuectelWirel,,2023-07-14,"7th Floor, Hongye Building, No.1801 Hongmei Road, Xuhui District Shanghai  CN 200233 ",IEEE+Wireshark+Nmap
 F0:AB:1F,"zte corporation",MA-L,zte,Phone,2023-07-13,"12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen  guangdong CN 518057 ",IEEE+Wireshark+Nmap
 7C:B3:0A,"zte corporation",MA-L,zte,Phone,2023-07-13,"12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen  guangdong CN 518057 ",IEEE+Wireshark+Nmap
@@ -29944,7 +29990,6 @@ A0:6A:00,"Verilink Corporation",MA-L,Verilink,,2001-06-04,"127 Jetplex Circle Ma
 00:90:37,"Acucomm, Inc.",MA-L,Acucomm,,1998-04-22,"4633 OLD IRONSIDES - STE #310 SANTA CLARA CA US 95054",IEEE+Wireshark+Nmap
 00:90:78,"Mer Telemanagement Solutions, Ltd.",MA-L,MerTelemanag,,1998-04-22,"5 HATSOREF STR. HOLON  IL",IEEE+Wireshark+Nmap
 00:90:B8,"Rohde & Schwarz Gmbh & Co. Kg",MA-L,RohdeSchwarz,,1998-04-22,"POSTFACH: 80 14 69/ABT.: 3CK D-81614 MUNCHEN  DE",IEEE+Wireshark+Nmap
-00:90:5B,"Raymond And Lae Engineering",MA-L,RaymondAndLa,Smart Home,2000-09-08,"208 COMMERCE DR.,  UNIT #3C FORT COLLINS CO US 80524 ",IEEE+Wireshark+Nmap
 00:90:BC,"Telemann Co., Ltd.",MA-L,Telemann,,2000-09-08,"6F DONGSIN BLDG. SEOUL, 135-270  KR  ",IEEE+Wireshark+Nmap
 00:90:0A,"Proton Electronic Industrial Co., Ltd.",MA-L,ProtonElectr,,2000-09-08," PANCHIAO, Taipei County  TW  ",IEEE+Wireshark+Nmap
 00:90:D5,"Euphonix, Inc.",MA-L,Euphonix,,2000-09-08,"220 PORTAGE AVE. PALO ALTO CA US 94306",IEEE+Wireshark+Nmap
@@ -31950,8 +31995,14 @@ B8:82:68,"Shenzhen Hopestar Technology Co.,Ltd.",MA-L,HopestarTech,,2026-08-04,"
 00:1D:66,"HYUNDAI HT Co., Ltd.",MA-L,HYUNDAIHT,,2007-08-18,"Hyundai Telecom Bldg., 4273-12, Shingil-Dong, Youngdungpo-Gu, Seoul  KR 150-859 ",IEEE+Wireshark+Nmap
 6C:3D:7D,"Vantiva USA LLC",MA-L,VantivaUSA,,2026-08-08,"4855 Peachtree Industrial Blvd, Suite 200 Norcross GA US 30902 ",IEEE+Wireshark
 24:A0:2D,"shenzhen worldelite electronics co., LTD",MA-L,worldeliteel,,2026-08-08,"Office 5 F, Xiang Yu Industrial Park, Longsheng Road, Longgang Dist Shenzhen guangdong CN 518000 ",IEEE+Wireshark
-94:B5:AD,"ERM Electronic Systems LTD",MA-L,,,2026-08-10,"16 Hasar Moshe Shapira Rishon Le-Zion  IL 7570419",IEEE
-88:64:A8,"TeraNXT Global India Pvt Ltd.",MA-L,,,2026-08-10,"7A/61 W.E.A KAROL BAGH DELHI DELHI IN 110005",IEEE
+44:8C:EC,"Anhui Sunchip semiconductor technology Co;Ltd",MA-L,AnhuiSunchip,,2026-08-13,"No. 77 Jinguang Avenue, Economic and Technological Development Zone, Chizhou City Anhui Province CN 247100 ",IEEE+Wireshark
+34:7F:63,"Concept Pro Surveillance",MA-L,ConceptProSu,,2026-08-11,"54 Thomas Street, Lees,  Oldham Greater Manchester GB OL4 5BT ",IEEE+Wireshark
+88:64:A8,"TeraNXT Global India Pvt Ltd.",MA-L,TeraNXTGloba,,2026-08-10,"7A/61 W.E.A KAROL BAGH DELHI DELHI IN 110005",IEEE+Wireshark
+94:B5:AD,"ERM Electronic Systems LTD",MA-L,ERMElectroni,,2026-08-10,"16 Hasar Moshe Shapira Rishon Le-Zion  IL 7570419",IEEE+Wireshark
+00:90:5B,"Parameter LLC",MA-L,Parameter,Smart Home,2000-09-08,"208 COMMERCE DR.,  UNIT #3C FORT COLLINS CO US 80524 ",IEEE+Wireshark+Nmap
+04:EC:A9,"IEEE Registration Authority",MA-L,,,2026-08-19,"445 Hoes Lane Piscataway NJ US 08554",IEEE
+28:D5:55,"vivo Mobile Communication Co., Ltd.",MA-L,,Phone,2026-08-19,"No.1, vivo Road, Chang'an Dongguan Guangdong CN 523860 ",IEEE
+98:A3:3C,"Shenzhen Cultraview Digital Technology Co., Ltd",MA-L,,,2026-08-19,"F6,M6,Maqueling, High-tech park, Nanshan district Shenzhen Guangdong CN 518057 ",IEEE
 C8:5C:E2,"IEEE Registration Authority",MA-L,,,2023-07-19,"445 Hoes Lane Piscataway NJ US 08554",IEEE+Nmap
 DC:EE:14,"ADT Technology",MA-L,ADTTechnolog,,2023-07-19,"Room 325, 3rd Floor, Building F, Xinmao Science and Technology Park, Huayuan Industrial Zone Tianjin Tianjin CN 300384 ",IEEE+Wireshark+Nmap
 10:FF:E0,"Giga-Byte Technology Co.,Ltd.",MA-L,GigaByteTech,Computer,2023-07-20,"Pin-Jen City, Taoyuan, Taiwan, R.O.C. Pin-Jen Taoyuan TW 324 ",IEEE+Wireshark+Nmap
@@ -39815,7 +39866,6 @@ D8:C9:60,"Huawei Device Co., Ltd.",MA-L,HuaweiDevice,Phone,2026-06-23,"No.2 of X
 B4:A6:4A,"Espressif Inc.",MA-L,Espressif,IoT,2026-06-22,"Vistra Corporate Services Centre, Wickhams Cay II Road Town Tortola VG VG1110 ",IEEE+Wireshark
 D0:32:E7,"Tuya Smart Inc.",MA-L,TuyaSmart,Smart Home,2026-06-21,"160 Greentree Drive, Suite 101 Dover DE US 19904 ",IEEE+Wireshark
 48:90:F0,"Dell Inc.",MA-L,Dell,Computer,2026-06-24,"One Dell Way Round Rock  TX US 78682",IEEE+Wireshark
-6C:70:28,"Landis+Gyr S.A.",MA-L,LandisGyr,,2026-06-22,"78th km Old National Road Athens-Corinth Corinth  GR 20100",IEEE+Wireshark
 88:82:25,"Telink Micro LLC",MA-L,TelinkMicro,,2026-06-25,"2975 Scott Blvd #120 Santa Clara CA US 95054",IEEE+Wireshark
 70:24:6E,"Zhejiang Laibao Display Technology Co., Ltd.",MA-L,ZhejiangLaib,,2026-06-25,"No. 2366 Xiangyang West Road, Dongqian Street, Nanxun District, Huzhou City, Zhejiang Province Huzhou Zhejiang CN 313000 ",IEEE+Wireshark
 F4:54:24,"Extreme Networks, Inc.",MA-L,ExtremeNetwo,Switch,2023-07-15,"2121 RDU Center Drive Morrisville NC US 27560",IEEE+Wireshark+Nmap
@@ -39908,10 +39958,26 @@ F8:31:25,"Xiamen uink Technology Co., Ltd",MA-L,XiamenuinkTe,,2026-08-01,"Unit 4
 90:91:6E,"nFore Technology Co., Ltd.",MA-L,nForeTechnol,,2026-08-04,"5F, No.31, Ln. 258, Ruiguang Rd., Neihu Dist.,  Taipei city  TW 114 ",IEEE+Wireshark
 00:9C:57,"Hextronics",MA-L,Hextronics,,2026-07-31,"12194 SW 128th St Miami FL US 33186",IEEE+Wireshark
 5C:50:D3,"Knit Sound Company",MA-L,KnitSound,,2026-08-05,"496 Ada Dr SE Ste 201 Ada  US 49301",IEEE+Wireshark
-AC:04:E6,"NTX Electronics YangZhou co.,LTD",MA-L,NTXElectroni,,2026-08-06,"No.8,Wuzhou West Road,Economic and technological Development Zone,Yangzhou,Jiangsu Province,PRC,225009 Yangzhou Jiangsu CN 225009 ",IEEE+Wireshark
+FC:CA:40,"Sony Interactive Entertainment Inc.",MA-L,SonyInteract,Gaming,2026-08-11,"1-7-1 Konan Minato-ku Tokyo JP 108-0075",IEEE+Wireshark
 94:1D:D4,"Google, Inc.",MA-L,Google,,2026-08-07,"1600 Amphitheatre Parkway Mountain View CA US 94043",IEEE+Wireshark
-7C:6E:47,"Huizhou Guangshijia Communication Technology Co., Ltd.",MA-L,HuizhouGuang,,2026-08-08,"3rd Floor, Xingyuan Factory, Longchundu, East Side, Niutouzhou Section, Yongshi Avenue, Shiwan Town, Boluo County, Huizhou City  CN 516100 ",IEEE+Wireshark
 14:E6:02,"Shenzhen EMTEK Storage Technology Co.,Ltd",MA-L,EMTEKStorage,,2026-08-08,"#601, Block A, Building 11, No.1819 ShaHe West Road, Shenzhen Bay Eco-technology Park, Nanshan District Shenzhen Guangdong CN 518000 ",IEEE+Wireshark
+7C:6E:47,"Huizhou Guangshijia Communication Technology Co., Ltd.",MA-L,HuizhouGuang,,2026-08-08,"3rd Floor, Xingyuan Factory, Longchundu, East Side, Niutouzhou Section, Yongshi Avenue, Shiwan Town, Boluo County, Huizhou City  CN 516100 ",IEEE+Wireshark
+AC:04:E6,"NTX Electronics YangZhou co.,LTD",MA-L,NTXElectroni,,2026-08-06,"No.8,Wuzhou West Road,Economic and technological Development Zone,Yangzhou,Jiangsu Province,PRC,225009 Yangzhou Jiangsu CN 225009 ",IEEE+Wireshark
+74:51:8F,"Jiangsu Hetai Intelligent Control Technology Co., Ltd",MA-L,JiangsuHetai,,2026-08-13,"BUILDING 11, CHENG SHENG SCIENCE AND TECHNOLOGYPARK, NO.2 BOSIDENG AVENUE, GAOYOU CITY Gaoyou Jiangsu CN 225600 ",IEEE+Wireshark
+2C:1B:8E,"BYD Semiconductor Co，Ltd",MA-L,BYDSemicondu,,2026-08-15,"Byd Industrial Park, Yan 'an Road, Kuichong Town, Longgang District, Shenzhen City 深圳  CN 518000 ",IEEE+Wireshark
+F4:89:74,"Cisco Systems, Inc",MA-L,Cisco,Router,2026-08-14,"80 West Tasman Drive San Jose  CA US 94568",IEEE+Wireshark
+F4:4E:35,"Meta Platforms, Inc.",MA-L,MetaPlatform,,2026-08-14,"1601 Willow Rd Menlo Park CA US 94052",IEEE+Wireshark
+6C:70:28,"EYKON Solutions S.A.",MA-L,EYKONSolutio,,2026-06-22,"78th km Old National Road Athens-Corinth Corinth  GR 20100",IEEE+Wireshark
+FC:E3:3D,"Cloud Network Technology Singapore Pte. Ltd.",MA-L,CloudNetwork,,2026-08-15,"B22 Building,NO.51 Tongle Road, Shajing Town, Jiangnan District, Nanning, Guangxi Province, China Nanning Guangxi CN 530007 ",IEEE+Wireshark
+3C:FF:E4,"Siemens AG",MA-L,,Industrial,2026-08-18,"Werner-von-Siemens-Str. 50 Amberg  DE 92224",IEEE
+3C:87:CF,"Quanta Computer Inc.",MA-L,,Server,2026-08-18,"No. 211, Wenhua 2nd Rd., Guishan Dist. Taoyuan City Taiwan TW 33377 ",IEEE
+98:F3:64,"Yantai Dongfang Wisdom Elrctic Co.,Ltd.",MA-L,,,2026-08-19,"6 Jindu Road Yantai, Shandong Yantai Shandong CN 264000 ",IEEE
+28:E8:88,"Lingban Technology (Hangzhou) Co., Ltd",MA-L,,,2026-08-20," 101, Building 8, No.1288, Liangmu Road, Cangqian Street,Yuhang District Hangzhou  Zhejiang CN 311100 ",IEEE
+AC:9A:3F,"Texas Instruments",MA-L,,IoT,2026-08-20,"12500 TI Blvd Dallas TX US 75243",IEEE
+DC:55:B1,"Espressif Inc.",MA-L,,IoT,,"Vistra Corporate Services Centre, Wickhams Cay II Road Town Tortola VG VG1110 ",IEEE
+54:9D:EA,"Espressif Inc.",MA-L,,IoT,,"Vistra Corporate Services Centre, Wickhams Cay II Road Town Tortola VG VG1110 ",IEEE
+64:89:14,"Espressif Inc.",MA-L,,IoT,,"Vistra Corporate Services Centre, Wickhams Cay II Road Town Tortola VG VG1110 ",IEEE
+C8:B0:B2,"zte corporation",MA-L,,Phone,,"12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen  guangdong CN 518057 ",IEEE
 C8:5C:E2:7,"SYNERGY SYSTEMS AND SOLUTIONS",MA-M,,,2023-07-19,"A1526, GREEN FIELDS COLONY Faridabad HARYANA IN 121001 ",IEEE
 74:1A:E0:9,"Private",MA-M,,,2017-07-16,"",IEEE
 C8:5C:E2:A,"San Telequip (P) Ltd.",MA-M,,,2023-07-19,"504 505 Deron Heights, Baner Road, Baner Pune Maharashtra IN 411045 ",IEEE
@@ -41242,6 +41308,14 @@ D0:DA:24:0,"Beijing Deeprift Technologies Co., Ltd.",MA-M,,,2026-08-06,"Room 301
 38:B1:4E:E,"Zoho Business Services LLP - ZBS Nagpur",MA-M,,,2026-03-10,"2nd and 3rd floors, Plot no. C-9, Hingna Road, MIDC, Nagpur Maharashtra IN 440016 ",IEEE
 D0:DA:24:3,"Hangzhou Arcvideo Technology Co., Ltd.",MA-M,,,2026-08-07,"Danghong Building,No. 309 Zhongchuang Road, Changhe Street, Binjiang District HangZhou  CN 310000 ",IEEE
 D0:DA:24:C,"Alloop（Hong kong）Limited",MA-M,,,2026-08-05,"Suite 6503, 65/F, Central Plaza, 18 Harbour Road, Wan Chai, HK Hong Kong  HK 999077 ",IEEE
+30:BB:28:B,"JiangSu Shenzhou Semiconductor Technology Co.,Ltd",MA-M,,,2026-08-11,"No.19 West Shugang Road, Hanjiang District, Yangzhou,Jiangsu,China Yangzhou Jiangsu CN 225000 ",IEEE
+30:BB:28:8,"Kahf Software Limited",MA-M,,,2026-08-14,"3rd floor 86-90 Paul Street London  GB EC2A 4NE",IEEE
+30:BB:28:5,"WuHan Glory Road Precision Technology Co.,Ltd",MA-M,,,2026-08-15,"Room 01, 7th Floor, Unit T4, Building B12, Guanggu Innovation World, No. 88, Guanggu 6th Road, Donghu New Technology Development Zone Wuhan Hubei CN 430073 ",IEEE
+30:BB:28:E,"StarTop Era (Shanghai ) Intelligent Technology Co., Ltd.",MA-M,,,2026-08-18,"Room 804, Building B, International Business Center, No. 391 Guiping Road, Xuhui District, Shanghai, China Shanghai Shanghai CN 200233 ",IEEE
+04:EC:A9:A,"Leegiot Intelligent Technology Co., Ltd.",MA-M,,,2026-08-18,"Room 1M-C02, Building 1,No. 95, Lane 85, Cailun Road,Zhangjiang Town, Pudong New Area Shanghai  CN 201210 ",IEEE
+04:EC:A9:1,"Studds Accessories LTD",MA-M,,,2026-08-21,"918, Sector-68, IMT, Faridabad, Haryana, 121004 (INDIA) Faridabad Haryana IN 121004 ",IEEE
+04:EC:A9:8,"Guangzhou Xinhong Communication Technology Co.,Ltd",MA-M,,,2026-08-21,"Unit 1303, Building B2, Creative Building, No. 162 Science Avenue, Guangzhou Development Zone Guangzhou  CN 51000 ",IEEE
+04:EC:A9:7,"CORETEC Inc.",MA-M,,,,"500 Akahama Soja-shi Okayama JP 719-1121",IEEE
 B8:4C:87:3,"Shenzhen Link-all Technology Co., Ltd",MA-M,,,2023-07-15,"Floor 5th, Block 9th, Sunny Industrial Zone, Xili Town, Nanshan District, Shenzhen, China  Shenzhen Guangdong CN 518108 ",IEEE
 B8:4C:87:C,"SOND",MA-M,,,2023-07-13,"1295 Beacon St, Unit #899 Brookline  US 02446 ",IEEE
 B8:4C:87:B,"Beijing Yunji Technology Co., Ltd.",MA-M,,,2023-07-13,"Floor 7?Hailong Mansion?No.1 Zhongguancun Avenue,Haidian District,Beijing Beijing  CN 100080 ",IEEE
@@ -42482,6 +42556,7 @@ B4:DF:43:4,"Shenzhen Huizhen Fishery Co., Ltd.",MA-M,,,2026-07-29,"Room 2101, 21
 F4:3A:FA:2,"Ruijie Networks Co.,LTD",MA-M,,,2024-08-17,"Building 19,Juyuanzhou Industrial Park, No.618 Jinshan Avenue, Cangshan District Fuzhou  CN 35000 ",IEEE
 B4:DF:43:C,"Raven Resonance Inc.",MA-M,,,2026-07-29,"2261 Market St, Suite 10817 San Francisco CA US 94114 ",IEEE
 B4:DF:43:7,"RDP Innovation",MA-M,,,2026-07-30,"Mozhaisky Municipal District, Skolkovo Innovation Center, Bolshoy Boulevard, house 42, building 1 Moscow  RU 121205 ",IEEE
+30:BB:28:2,"ROOMIO LIMITED",MA-M,,,2026-08-14,"Meneou 11 Larnaca Kiti CY 7550",IEEE
 B8:4C:87:A,"Altronix , Corp",MA-M,,,2023-07-15,"140 58th St. Bldg A, Ste 2N Brooklyn NY US 11220 ",IEEE
 8C:C8:F4:7,"TableSafe",MA-M,,,2016-10-30,"12220 113th Ave NE, Suite 220 Kirkland WA US 98034 ",IEEE
 58:E8:76:0,"Zhuhai Raysharp Technology Co.,Ltd",MA-M,,,2016-05-07,"No.100 of Keji Liu Rd.6, Hi-Tech Zone Zhuhai Guangdong CN  519080 ",IEEE
@@ -43822,8 +43897,12 @@ CC:39:53:9,"MT-LINK TECHNOLOGIES CO",MA-M,,,2026-07-17,"OFFICE # 109 ELLAHI CENT
 B4:DF:43:9,"Epilady 2000",MA-M,,,2026-07-29,"HACHARASH 7 HAZOR HAGLILIT  IL 1035102",IEEE
 B4:DF:43:E,"Shanghai Wellsun New Energy Co.,Ltd.",MA-M,,,2026-07-31,"Room 307, 3rd Floor, Building 1, No. 155 Fengxiang Road, Baoshan District, Shanghai City, P.R.China Shanghai  CN 201999 ",IEEE
 B4:DF:43:A,"Huaqin Technology Co.,Ltd",MA-M,,,2026-07-31,"Pudong New Area Shanghai  CN 201203",IEEE
-D0:DA:24:9,"Teradyne Robotics A/S",MA-M,,,2026-08-04,"Ørbækvej 280 Odense Syddanmark DK 5220",IEEE
+30:BB:28:D,"IndiaVP Semiconductor Pvt Ltd",MA-M,,,2026-08-11,"Regd. Office. 35 (17), 3B 3rd Floor, 6th Main Road, Raja Annamalaipuram, Chennai - 600028 Chennai Tamil Nadu IN 600028 ",IEEE
+30:BB:28:4,"HUIZHOU HENGDU ELECTRONICS CO.,LTD.",MA-M,,,2026-08-13,"No. 8 Huitai Road, Huinan High-tech Industrial Park, Huiao Avenue, Huizhou City Huizhou Guangdong CN 516025 ",IEEE
 D0:DA:24:E,"Security Point LLP",MA-M,,,2026-08-10,"4 microdistrict, building 2, 11 Kostanay Kostanay KZ 110000 ",IEEE
+D0:DA:24:9,"Teradyne Robotics A/S",MA-M,,,2026-08-04,"Ørbækvej 280 Odense Syddanmark DK 5220",IEEE
+30:BB:28:9,"Shenzhen Shuangyunhe Technology Co.,Ltd.",MA-M,,,2026-08-15," 2-705, Building T2, Haigu Technology Building, Luozu Community Shenzhen Guangdong CN 518108 ",IEEE
+04:EC:A9:6,"SHANGHAI CHENZHU INSTRUMENT CO., LTD.",MA-M,,,,"Building 6, 201 Minyi Road, Songjiang District Shanghai  CN 201612 ",IEEE
 D0:14:11:1,"P.B. Elettronica srl",MA-M,,,2020-05-05,"Via Santorelli, 8 Grugliasco Torino IT 10095 ",IEEE
 B8:4C:87:6,"HORIBA Precision Instruments (Beijing) Co.,Ltd",MA-M,,,2023-07-11,"Building 1, No.3 Xixing Road, Houshayu Town, Shunyi District, Beijing, China Beijing Shunyi CN 101318 ",IEEE
 C0:22:F1:3,"Spectra Technologies India Private Limited",MA-M,,,2023-07-06,"8/33-C, FF, SF, Kirti Nagar Industrial Area, New Delhi New Delhi Delhi IN 110015 ",IEEE
@@ -45123,7 +45202,11 @@ D0:DA:24:8,"Shanghai Yunsilicon Technology Co., Ltd.",MA-M,,,2026-08-01," Rooms 
 D0:DA:24:7,"CANLAB CO., LTD.",MA-M,,,2026-08-04,"Room 206, Jiwon-dong, 125 Jisiksaneop-ro, Hayang-eup Gyeongsan-si Gyeongsangbuk-do KR 38408 ",IEEE
 D0:DA:24:2,"acemetro electronics india private limited",MA-M,,,2026-08-07,"no 2/36 sungavar street , chintadripet, mount road chennai tamilnadu IN 600002 ",IEEE
 D0:DA:24:A,"Shenzhen Beilai Technology Co.,Ltd",MA-M,,,2026-08-07,"2F,B2,Xinhongtian Building,Fuhai Tech Industrial Park,Bao'an,Shenzhen,China Shenzhen Guangdong CN 518100 ",IEEE
-30:BB:28:C,"TAIRA(Lasersan Advanced Teknoloji Sistemleri A.Ş.)",MA-M,,,,"Hilal Mah. 677 Sk. No:7 Çankaya / Ankara TÜRKİYE Ankara  TR 06550",IEEE
+30:BB:28:C,"TAIRA(Lasersan Advanced Teknoloji Sistemleri A.Ş.)",MA-M,,,2026-08-11,"Hilal Mah. 677 Sk. No:7 Çankaya / Ankara TÜRKİYE Ankara  TR 06550",IEEE
+30:BB:28:1,"FairPhone B.V.",MA-M,,Phone,2026-08-13,"VanDiemenstraat 200 Amsterdam  NL 1013 CP",IEEE
+30:BB:28:A,"Bull Creek Technologies",MA-M,,,2026-08-13,"3575 Far West Blvd #26051 AUSTIN TX US 78755",IEEE
+04:EC:A9:D,"SPECTRONITE",MA-M,,,2026-08-20,"400 Avenue Roumanille BIOT  FR 06410",IEEE
+04:EC:A9:4,"Shanghai Vic Lab Intelligent Technology Co.,Ltd.",MA-M,,,2026-08-20,"Room 603,Building 2, No. 391 Guiping Road, Xuhui District Shanghai  CN 200233 ",IEEE
 C8:5C:E2:0,"Fela Management AG",MA-M,,,2023-07-20,"Basadingerstrasse 18 Diessenhofen  CH 8253",IEEE
 B8:4C:87:E,"Private",MA-M,,,2023-07-20,"",IEEE
 B8:4C:87:1,"em-trak",MA-M,,,2023-07-07,"wireless house, westfield industrial estate Midsomer Norton Bath Somerset GB BA3 4BS ",IEEE
@@ -46447,6 +46530,11 @@ B4:DF:43:1,"UTA WIRELESS S.R.L.",MA-M,,,2026-07-30,"Via Privata Bastia Nr. 5 MIL
 D0:DA:24:5,"Shenzhen Zhangyue Technology Co.,Ltd",MA-M,,,2026-08-04,"Shenzhen Nanshan District Yuehai Street Weixin Software Science Park Building 8 9th Floor Room 903 Shenzhen Guangdong CN 518500",IEEE
 D0:DA:24:D,"AmenTech Inc.",MA-M,,,2026-08-04,"10513 Magnolia Ave Riverside CA US 92505",IEEE
 D0:DA:24:4,"National Security Technology JSC",MA-M,,,2026-08-04,"No 5. Nguyen Thi Due, Yen Hoa ward, Hanoi Hanoi Hanoi VN 70000 ",IEEE
+30:BB:28:0,"Digital Reach Pvt Ltd",MA-M,,,2026-08-11,"502, Venus Atlantis, Anandnagar Road, Prahlad Nagar Ahmedabad Gujarat IN 380015 ",IEEE
+30:BB:28:3,"Cellslink Intelligence Technology Co,Ltd",MA-M,,,2026-08-13,"3rd Floor, Building 1, No.3560, Waiqingsong Road,Baihe Town, Qingpu District,Shanghai Shanghai Shanghai CN 201701 ",IEEE
+30:BB:28:7,"MSGQ TECHNOLOGIES SERVICES PRIVATE LIMITED",MA-M,,,2026-08-14,"5th Floor, Grey Rock,10, 24th Main Rd, 1st Phase, J. P. Nagar BENGALURU KARNATAKA IN 560078 ",IEEE
+30:BB:28:6,"Sunwoda Mobility Energy Technology Co., Ltd.",MA-M,,,2026-08-13,"Tangjia South Rd No.18, Guangming District Shenzhen Guangdong CN 518000 ",IEEE
+04:EC:A9:C,"Broadcom Corporation",MA-M,,,,"6356 Crystal Springs Circle Discovery Bay CA US 94505",IEEE
 8C:1F:64:AF:A,"DATA ELECTRONIC DEVICES, INC",MA-S,,,2023-07-18,"32 NORTHWESTERN DR SALEM NH US 03079",IEEE
 8C:1F:64:9B:9,"QUERCUS TECHNOLOGIES, S.L.",MA-S,,,2023-07-20,"Av. Onze de Setembre 19 Reus Tarragona ES 43203",IEEE
 8C:1F:64:D0:F,"Mecco LLC",MA-S,,,2023-07-20,"290 Executive Drive Cranberry Township PA US 16066",IEEE
@@ -47863,6 +47951,11 @@ D0:DA:24:4,"National Security Technology JSC",MA-M,,,2026-08-04,"No 5. Nguyen Th
 8C:1F:64:D8:4,"OES Inc.",MA-S,,,2026-08-06,"4056 Blakie Road London ON CA N6L1P7",IEEE
 8C:1F:64:EC:D,"Beijing BITMC Technology co.Ltd",MA-S,,,2026-08-06,"Room 701, 7th Floor, Building 6, No. 8 Courtyard, Kegu 1st Street, Beijing Economic-Technological Development Area, Beijing Beijing Beijing CN 100000 ",IEEE
 8C:1F:64:76:D,"uHoo Pte. Ltd.",MA-S,,,2026-08-07,"160 Robinson Road, #14-04, Singapore Business Federation Centre Singapore  SG 068914 ",IEEE
+8C:1F:64:F8:F,"Dovideq Medical Systems BV",MA-S,,Medical,2026-08-14,"Hassinkweg 10 Hengelo  NL 7556 BV",IEEE
+8C:1F:64:2B:2,"Infosoft Digital Design and Services P L",MA-S,,,2026-08-14,"484, SECTOR-8 ,IMT MANESER,GURGAON MANESER GURGAON Haryana IN 122050 ",IEEE
+8C:1F:64:BF:9,"Hitachi energy India ltd",MA-S,,,2026-08-15,"#4A, 5 & 6, 2nd Phase, Peenya Industrial Estate Bangalore Karnataka  IN 560058 ",IEEE
+8C:1F:64:99:0,"Traxara Robotics",MA-S,,,2026-08-18,"1872 Notre-Dame west, Suite 100 Montreal Quebec CA H3J1M6 ",IEEE
+8C:1F:64:A4:D,"DEUTA-WERKE GmbH",MA-S,,,2026-08-21,"Paffrather Str. 140 Bergisch Gladbach North Rhine-Westphalia DE 51465",IEEE
 8C:1F:64:A9:8,"Jacobs Technology, Inc.",MA-S,,,2023-07-14,"7765 Old Telegraph Road Severn MD US 21144",IEEE
 8C:1F:64:4A:9,"Martec Marine S.p.a.",MA-S,,,2023-07-14,"Via dell'industria 1/3 Vignate Milano IT 20052",IEEE
 8C:1F:64:DE:5,"Gogo Business Aviation",MA-S,,,2023-07-07,"105 Edgeview Dr., Suite 300 Broomfield CO US 80021 ",IEEE
@@ -49299,6 +49392,13 @@ D0:DA:24:4,"National Security Technology JSC",MA-M,,,2026-08-04,"No 5. Nguyen Th
 8C:1F:64:8B:A,"Code Blue Corporation",MA-S,,,2026-07-28,"259 Hedcor Street Holland MI US 49423",IEEE
 8C:1F:64:CF:2,"Potter Electric Signal Company",MA-S,,,2026-07-31,"5757 Phantom Drive Hazelwood MO US 63042",IEEE
 8C:1F:64:7F:A,"Hiwin Mikrosystem Corp.",MA-S,,,2026-08-07,"NO 6 JINGKE CENTRAL RD  TAICHUNG CITY TAIWAN 40841 TAICHUNG  TW 40841",IEEE
+8C:1F:64:FE:F,"Kible",MA-S,,,2026-08-18,"150 RUE NICOLAS-LOUIS VAUQUELIN TOULOUSE  FR 31100",IEEE
+8C:1F:64:0E:4,"Modern Server Solutions LLP",MA-S,,,2026-08-13,"Saryarka district, Beibitshilik Street, building 14, Office 910 Astana  KZ 010000 ",IEEE
+8C:1F:64:F1:F,"Areta AI Inc.",MA-S,,,2026-08-18,"8 The Green Ste A Dover DE US 19901",IEEE
+8C:1F:64:05:E,"Pramac GmbH",MA-S,,,2026-08-21,"Marktstr. 185 Pfullingen  DE 72793",IEEE
+8C:1F:64:EF:C,"LonTen Technology（BeiJing）Co.,LTD.",MA-S,,,2026-08-21,"No. 211, 2nd Floor, Building 2, No. 10, Huiwan Road, Huirongguan Town, Changping District, Beijing Shenzhen  CN 102200 ",IEEE
+8C:1F:64:24:A,"Suzhou Nihone Electronic Technology Co.,Ltd.",MA-S,,,,"No. 185 Xiaoxiang Road, Huqiu District, Suzhou City  Suzhou City  Jiangsu CN 215000 ",IEEE
+8C:1F:64:93:4,"eumig industrie-TV GmbH.",MA-S,,TV,,"Gewerbeparkstrasse 9 Anif Salzburg AT 5081",IEEE
 8C:1F:64:E6:F,"Vision Systems Safety Tech",MA-S,,,2023-07-13,"5 Chemin de Chiradie Brignais  FR 69530",IEEE
 70:B3:D5:11:9,"YPP Corporation",MA-S,,,2015-08-30,"24 Geumchon-gu Seoul KR 153-802",IEEE
 70:B3:D5:15:9,"RCH SPA",MA-S,,,2019-11-09,"Via Cendon 39 Silea  IT 31057",IEEE
@@ -50736,6 +50836,8 @@ D0:DA:24:4,"National Security Technology JSC",MA-M,,,2026-08-04,"No 5. Nguyen Th
 8C:1F:64:FD:D,"Atik Cameras Unipessoal, Lda",MA-S,,Camera,2026-07-24,"Rua Horta de Bacelos N15 Santa Iria de Azoia Lisbon PT 2690-390",IEEE
 8C:1F:64:20:F,"DAVE SRL",MA-S,,,2026-07-27,"Via Talponedo 29a Porcia Pordenone IT 33080",IEEE
 8C:1F:64:21:8,"Symphony Interactive Inc",MA-S,,,2026-07-28,"33 Parkhill Dr Stouffville ON CA L4A2G1",IEEE
+8C:1F:64:D0:1,"Emerson Rosemount Analytical",MA-S,,,2026-08-14,"8200 Market Blvd. Chanhassen  US 55317-9687",IEEE
+8C:1F:64:63:7,"HwaCom Systems Inc.",MA-S,,,2026-08-18,"11Fl., No.108, Sec. 1, Hsin-Tai-Wu Rd., Hsi-Chih District New Taipei New Taipei TW 221 ",IEEE
 8C:1F:64:82:B,"Flow Power",MA-S,,,2023-07-14,"Suite 2, Level 3, 18 - 20 York St Sydney  AU 2000 ",IEEE
 8C:1F:64:5A:7,"RCH SPA",MA-S,,,2023-07-06,"Via Cendon 39 Silea  IT 31057",IEEE
 8C:1F:64:04:9,"NUANCES ORG",MA-S,,,2023-07-08,"92 AVENUE DE WAGRAM PARIS  FR 75017",IEEE
@@ -52158,6 +52260,10 @@ D0:DA:24:4,"National Security Technology JSC",MA-M,,,2026-08-04,"No 5. Nguyen Th
 8C:1F:64:B2:E,"Grossenbacher Systeme AG",MA-S,,,2026-08-03,"Spinnereistrasse 10 St. Gallen  CH 9008",IEEE
 8C:1F:64:56:2,"WOLF Advanced Technology",MA-S,,,2026-08-06,"175 Mostar Street, Suite 200 Stouffville Ontario CA L4A 0Y2 ",IEEE
 8C:1F:64:F0:1,"OmniBuds Ltd",MA-S,,,2026-08-10,"184 Cambridge Science Park Rd Cambridge  GB CB4 0GA",IEEE
+8C:1F:64:F8:9,"DIGITALWAN",MA-S,,,2026-08-19,"2845 Route de Banon Cavaillon  FR 84300",IEEE
+8C:1F:64:95:1,"MITSUBISHI ELECTRIC INDIA PVT. LTD.",MA-S,,,2026-08-20,"Plot No B-3, Talegaon Industrial Area, Phase-II, Badhalwadi MIDC, Talegoan,, Pune Maharashtra IN 410507 ",IEEE
+8C:1F:64:9F:7,"Wuxi Tongyuan Electrical Technology Co., Ltd.",MA-S,,,2026-08-21,"11-6-2002 Hongyi Road,Xinwu District, Wuxi Jiangsu CN 214000 ",IEEE
+8C:1F:64:A8:8,"ResIOT UBLSOFTWARE SRL",MA-S,,,2026-08-21,"Ripa di Porta Ticinese, 39 Milano Mi IT 20143 ",IEEE
 8C:1F:64:D6:3,"Mobileye",MA-S,,,2023-07-20,"13 Hartom st. Jerusalem  IL 91450",IEEE
 8C:1F:64:3C:8,"BTG Instruments AB",MA-S,,,2023-07-06,"Industrigatan 1-3 Saffle Varmland SE 66132",IEEE
 70:B3:D5:90:E,"Maytronics Ltd.",MA-S,,,2018-01-14,"Kibbutz Yizrael Kibbutz Yizrael  IL 1935000",IEEE
@@ -53571,9 +53677,11 @@ D0:DA:24:4,"National Security Technology JSC",MA-M,,,2026-08-04,"No 5. Nguyen Th
 8C:1F:64:EB:1,"OLZETEK",MA-S,,,2026-07-24,"Olzetek, 60 Techno 10-ro, Yuseong-gu Daejeon  KR 34027 ",IEEE
 8C:1F:64:F2:E,"EmTroniX Sàrl",MA-S,,,2026-07-31,"150, rue de Niederkorn Sanem  LU 4991 ",IEEE
 8C:1F:64:35:9,"Dongguan Ritian Communication Technology Co., Ltd.",MA-S,,,2026-08-05,"Room 202, Building H, Xinhoujie Innovation Industrial Park, Houjie Town, Dongguan, China 523960. Dongguan Guangdong CN 523960 ",IEEE
-8C:1F:64:0E:2,"Cardinal Scales Manufacturing Co",MA-S,,Smart Home,2026-08-05,"203 East Daugherty Street Webb City MO US 64870",IEEE
 8C:1F:64:2A:D,"Sugihara Software and Electron Industry",MA-S,,,2026-08-07,"313 Imai-cho ISESAKI  JP 3720823",IEEE
 8C:1F:64:16:8,"JAPAN ID Co., Ltd.",MA-S,,,2026-08-07,"Kashimada 1-1-2 Shin-Kawasaki Twin Tower WEST TOWER 16F Kawasaki-shi Saiwai-ku Kanagawa JP 212-0058",IEEE
+8C:1F:64:0E:2,"Cardinal Scales Manufacturing Co",MA-S,,Smart Home,2026-08-05,"203 East Daugherty Street Webb City MO US 64870",IEEE
+8C:1F:64:C2:1,"SPECIM, Spectral Imaging Oy Ltd",MA-S,,,2026-08-15,"Elektroniikkatie 13 Oulu  FI 90590",IEEE
+8C:1F:64:80:B,"SUNTAC Co., Ltd.",MA-S,,,2026-08-21,"4-12-17 Meiekiminami, Nakamura-ku, Nagoya-shi Aichi  JP 450-0003 ",IEEE
 40:D8:55:0D:7,"Avant Technologies",IAB,,,2013-04-15,"Road 156 Caguas West Ind. Park Caguas  PR 00726",IEEE
 00:50:C2:F7:1,"RF Code",IAB,,,2012-04-15,"9229 Waterford Centre Blvd #500 Austin TX US 78758",IEEE
 00:50:C2:9C:C,"Hirotech inc.",IAB,,,2008-11-09,"Shinyokohama I.O Bldg. #602, 1-3-10, Shinyokohama, Kohoku-ku Yokohama City Kanagawa JP 222-0033 ",IEEE
@@ -63755,6 +63863,7 @@ EA:BE:A7,"Sonos, Inc.",CID,Sonos,Smart Home,2017-11-26,"301 Coromar Dr Goleta CA
 28:36:38:C0/28,"Swisson AG",MA-L,Swisson,,,"",Wireshark
 28:36:38:D0/28,"APPEAK Technology System Co.Ltd.",MA-L,APPEAKTechno,,,"",Wireshark
 28:36:38:E0/28,"SCA Hygiene Products AB",MA-L,SCAHygienePr,,,"",Wireshark
+28:69:DA,"Moultrie Mobile",MA-L,MoultrieMobi,,2026-08-11,"",Wireshark
 28:B7:7C:00/28,"Shenzhen Eview Gps Technology",MA-L,EviewGpsTech,,,"",Wireshark
 28:B7:7C:10/28,"SolarEdge Technologies",MA-L,SolarEdgeTec,,,"",Wireshark
 28:B7:7C:20/28,"Zhuhai RongBang Electronic Technology Co., Ltd.",MA-L,ZhuhaiRongBa,,,"",Wireshark
@@ -64044,6 +64153,20 @@ EA:BE:A7,"Sonos, Inc.",CID,Sonos,Smart Home,2017-11-26,"301 Coromar Dr Goleta CA
 30:49:50:C0/28,"Anacove LLC",MA-L,Anacove,,,"",Wireshark
 30:49:50:D0/28,"Merlyn Mind, Inc.",MA-L,MerlynMind,,,"",Wireshark
 30:49:50:E0/28,"IoTmaxx GmbH",MA-L,IoTmaxx,,,"",Wireshark
+30:BB:28:00/28,"Digital Reach Pvt Ltd",MA-L,DigitalReach,,,"",Wireshark
+30:BB:28:10/28,"FairPhone B.V.",MA-L,FairPhone,Phone,,"",Wireshark
+30:BB:28:20/28,"Roomio Limited",MA-L,Roomio,,,"",Wireshark
+30:BB:28:30/28,"Cellslink Intelligence Technology Co,Ltd",MA-L,CellslinkInt,,,"",Wireshark
+30:BB:28:40/28,"Huizhou Hengdu Electronics Co.,Ltd.",MA-L,HuizhouHengd,,,"",Wireshark
+30:BB:28:50/28,"WuHan Glory Road Precision Technology Co.,Ltd",MA-L,GloryRoadPre,,,"",Wireshark
+30:BB:28:60/28,"Sunwoda Mobility Energy Technology Co., Ltd.",MA-L,SunwodaMobil,,,"",Wireshark
+30:BB:28:70/28,"Msgq Technologies Services Private Limited",MA-L,MsgqTechnolo,,,"",Wireshark
+30:BB:28:80/28,"Kahf Software Limited",MA-L,KahfSoftware,,,"",Wireshark
+30:BB:28:90/28,"Shenzhen Shuangyunhe Technology Co.,Ltd.",MA-L,ShuangyunheT,,,"",Wireshark
+30:BB:28:A0/28,"Bull Creek Technologies",MA-L,BullCreekTec,,,"",Wireshark
+30:BB:28:B0/28,"JiangSu Shenzhou Semiconductor Technology Co.,Ltd",MA-L,JiangSuShenz,,,"",Wireshark
+30:BB:28:C0/28,"TAIRA(Lasersan Advanced Teknoloji Sistemleri A.Ş.)",MA-L,TAIRA,,,"",Wireshark
+30:BB:28:D0/28,"IndiaVP Semiconductor Pvt Ltd",MA-L,IndiaVPSemic,,,"",Wireshark
 34:00:8A:00/28,"Angee Technologies Ltd.",MA-L,AngeeTechnol,,,"",Wireshark
 34:00:8A:10/28,"ZQAM Communications",MA-L,ZQAMCommunic,,,"",Wireshark
 34:00:8A:20/28,"RPE ""Monitor""",MA-L,RPEMonitor,,,"",Wireshark
@@ -71094,6 +71217,7 @@ EA:BE:A7,"Sonos, Inc.",CID,Sonos,Smart Home,2017-11-26,"301 Coromar Dr Goleta CA
 8C:1F:64:0E:10/36,"Riverloop Co., Ltd.",MA-L,Riverloop,,,"",Wireshark
 8C:1F:64:0E:20/36,"Cardinal Scales Manufacturing Co",MA-L,CardinalScal,Smart Home,,"",Wireshark
 8C:1F:64:0E:30/36,"JISEONGENG Co,.LTD",MA-L,JISEONGENG,,,"",Wireshark
+8C:1F:64:0E:40/36,"Modern Server Solutions LLP",MA-L,ModernServer,,,"",Wireshark
 8C:1F:64:0E:50/36,"Rugged Science",MA-L,RuggedScienc,,,"",Wireshark
 8C:1F:64:0E:60/36,"Cleanwatts Digital, S.A.",MA-L,CleanwattsDi,,,"",Wireshark
 8C:1F:64:0E:A0/36,"SmartSky Networks LLC",MA-L,SmartSkyNetw,,,"",Wireshark
@@ -71409,6 +71533,7 @@ EA:BE:A7,"Sonos, Inc.",CID,Sonos,Smart Home,2017-11-26,"301 Coromar Dr Goleta CA
 8C:1F:64:2A:D0/36,"Sugihara Software and Electron Industry",MA-L,SugiharaSoft,,,"",Wireshark
 8C:1F:64:2A:F0/36,"A-Best Co.,Lid.",MA-L,ABestLid,,,"",Wireshark
 8C:1F:64:2B:10/36,"U -Mei-Dah Int'L Enterprise Co.,Ltd.",MA-L,UMeiDahIntLE,,,"",Wireshark
+8C:1F:64:2B:20/36,"Infosoft Digital Design and Services P L",MA-L,InfosoftDigi,,,"",Wireshark
 8C:1F:64:2B:40/36,"Sonel S.A.",MA-L,Sonel,,,"",Wireshark
 8C:1F:64:2B:60/36,"Stercom Power Solutions GmbH",MA-L,StercomPower,,,"",Wireshark
 8C:1F:64:2B:80/36,"Veinland GmbH",MA-L,Veinland,,,"",Wireshark
@@ -73063,6 +73188,7 @@ EA:BE:A7,"Sonos, Inc.",CID,Sonos,Smart Home,2017-11-26,"301 Coromar Dr Goleta CA
 8C:1F:64:BF:60/36,"Panoramic Power",MA-L,PanoramicPow,,,"",Wireshark
 8C:1F:64:BF:70/36,"Intellicon Private Limited",MA-L,IntelliconPr,,,"",Wireshark
 8C:1F:64:BF:80/36,"Cdsi",MA-L,Cdsi,,,"",Wireshark
+8C:1F:64:BF:90/36,"Hitachi energy India ltd",MA-L,Hitachienerg,,,"",Wireshark
 8C:1F:64:BF:B0/36,"TechArgos",MA-L,TechArgos,,,"",Wireshark
 8C:1F:64:BF:C0/36,"ASiS Technologies Pte Ltd",MA-L,ASiSTechnolo,,,"",Wireshark
 8C:1F:64:BF:D0/36,"Innos Technologies",MA-L,InnosTechnol,,,"",Wireshark
@@ -73091,6 +73217,7 @@ EA:BE:A7,"Sonos, Inc.",CID,Sonos,Smart Home,2017-11-26,"301 Coromar Dr Goleta CA
 8C:1F:64:C1:C0/36,"Vektrex Electronics Systems, Inc.",MA-L,VektrexElect,,,"",Wireshark
 8C:1F:64:C1:E0/36,"Va Syd",MA-L,VaSyd,,,"",Wireshark
 8C:1F:64:C1:F0/36,"Esys Srl",MA-L,Esys,,,"",Wireshark
+8C:1F:64:C2:10/36,"SPECIM, Spectral Imaging Oy Ltd",MA-L,SPECIMSpectr,,,"",Wireshark
 8C:1F:64:C2:20/36,"Pulcro.io LLC",MA-L,Pulcroio,,,"",Wireshark
 8C:1F:64:C2:40/36,"Alifax S.r.l.",MA-L,Alifax,,,"",Wireshark
 8C:1F:64:C2:60/36,"Ironwood Electronics",MA-L,IronwoodElec,,,"",Wireshark
@@ -73246,6 +73373,7 @@ EA:BE:A7,"Sonos, Inc.",CID,Sonos,Smart Home,2017-11-26,"301 Coromar Dr Goleta CA
 8C:1F:64:CF:D0/36,"Smart-VOD Pty Ltd",MA-L,SmartVOD,,,"",Wireshark
 8C:1F:64:CF:E0/36,"Instrument Development Group (IDG) at Johns Hopkins University",MA-L,InstrumentDe,,,"",Wireshark
 8C:1F:64:D0:00/36,"POLAK CZ s.r.o.",MA-L,POLAKCZsro,,,"",Wireshark
+8C:1F:64:D0:10/36,"Emerson Rosemount Analytical",MA-L,EmersonRosem,,,"",Wireshark
 8C:1F:64:D0:20/36,"Flextronics International Kft",MA-L,FlextronicsI,,,"",Wireshark
 8C:1F:64:D0:70/36,"Talleres de Escoriaza SAU",MA-L,TalleresdeEs,,,"",Wireshark
 8C:1F:64:D0:80/36,"Power Electronics Espana, S.L.",MA-L,PowerElectro,,,"",Wireshark
@@ -73589,6 +73717,7 @@ EA:BE:A7,"Sonos, Inc.",CID,Sonos,Smart Home,2017-11-26,"301 Coromar Dr Goleta CA
 8C:1F:64:EF:B0/36,"Warecube,Inc",MA-L,Warecube,,,"",Wireshark
 8C:1F:64:EF:D0/36,"Novatera(Shenzhen)Technologies Co.,Ltd.",MA-L,NovateraTech,,,"",Wireshark
 8C:1F:64:EF:F0/36,"Automata GmbH & Co. KG",MA-L,Automata,,,"",Wireshark
+8C:1F:64:F0:10/36,"OmniBuds Ltd",MA-L,OmniBuds,,,"",Wireshark
 8C:1F:64:F0:30/36,"Faust ApS",MA-L,FaustApS,,,"",Wireshark
 8C:1F:64:F0:40/36,"IoTSecure, LLC",MA-L,IoTSecure,,,"",Wireshark
 8C:1F:64:F0:50/36,"Preston Industries dba PolyScience",MA-L,PrestonIndus,,,"",Wireshark
@@ -73684,6 +73813,7 @@ EA:BE:A7,"Sonos, Inc.",CID,Sonos,Smart Home,2017-11-26,"301 Coromar Dr Goleta CA
 8C:1F:64:F8:80/36,"LAMTEC Mess- und Regeltechnik für Feuerungen GmbH & Co. KG",MA-L,LAMTECMessun,,,"",Wireshark
 8C:1F:64:F8:C0/36,"Bk Lab",MA-L,BkLab,,,"",Wireshark
 8C:1F:64:F8:E0/36,"Chengdu Aplux Inteligence Technology Ltd.",MA-L,ApluxIntelig,,,"",Wireshark
+8C:1F:64:F8:F0/36,"Dovideq Medical Systems BV",MA-L,DovideqMedic,Medical,,"",Wireshark
 8C:1F:64:F9:00/36,"Enfabrica",MA-L,Enfabrica,,,"",Wireshark
 8C:1F:64:F9:10/36,"Consonance",MA-L,Consonance,,,"",Wireshark
 8C:1F:64:F9:20/36,"Vision Systems Safety Tech",MA-L,VisionSafety,,,"",Wireshark
@@ -75665,6 +75795,7 @@ D0:DA:24:A0/28,"Shenzhen Beilai Technology Co.,Ltd",MA-L,BeilaiTechno,,,"",Wires
 D0:DA:24:B0/28,"Cjms Llc",MA-L,Cjms,,,"",Wireshark
 D0:DA:24:C0/28,"Alloop（Hong kong）Limited",MA-L,AlloopLimite,,,"",Wireshark
 D0:DA:24:D0/28,"AmenTech Inc.",MA-L,AmenTech,,,"",Wireshark
+D0:DA:24:E0/28,"Security Point LLP",MA-L,SecurityPoin,,,"",Wireshark
 D4:20:00:00/28,"Wattsense",MA-L,Wattsense,,,"",Wireshark
 D4:20:00:10/28,"Zelus(HuangZhou) Technology Ltd.",MA-L,ZelusTechnol,,,"",Wireshark
 D4:20:00:20/28,"Shenzhen AI Develop & Manufacture Co.,LTD.",MA-L,AIDevelopMan,,,"",Wireshark

@@ -8046,10 +8046,22 @@ DC:EB:5D	Shandong Sinochip Semiconductors Co.,Ltd.	MA-L	ShandongSino	2026-08-06	
 B0:82:AB	Guangdong Welland Technology Co.,Ltd	MA-L	WellandTechn	2026-08-04	IEEE+Wireshark
 3C:DA:6D	Tiandy Technologies Co.,LTD	MA-L	TiandyTechno	2019-11-12	IEEE+Wireshark+Nmap
 AC:40:B5	Lumiva Inc.	MA-L	Lumiva	2026-08-04	IEEE+Wireshark
+44:14:04	eero inc.	MA-L	eero	2026-08-11	IEEE+Wireshark
 24:A9:37	Everpure, Inc.	MA-L	Everpure	2010-02-25	IEEE+Wireshark+Nmap
 D8:76:02	Nxj Inc.	MA-L	Nxj	2026-08-08	IEEE+Wireshark
-34:03:3D	HP Inc.	MA-L		2026-08-10	IEEE
-30:BB:28	IEEE Registration Authority	MA-L			IEEE
+54:47:81	Quectel Wireless Solutions Co.,Ltd.	MA-L	QuectelWirel	2026-08-13	IEEE+Wireshark
+04:D6:34	Nanjing RISC-V Institute Co., Ltd.	MA-L	NanjingRISCV	2026-08-13	IEEE+Wireshark
+30:BB:28	IEEE Registration Authority	MA-L		2026-08-11	IEEE
+34:03:3D	HP Inc.	MA-L	HP	2026-08-10	IEEE+Wireshark
+C4:58:78	AltoBeam Inc.	MA-L	AltoBeam	2026-08-15	IEEE+Wireshark
+EC:83:06	GooWi Wireless Technology Co., Limited	MA-L	GooWiWireles	2026-08-15	IEEE+Wireshark
+C4:4B:31	Cisco Systems, Inc	MA-L	Cisco	2026-08-14	IEEE+Wireshark
+50:44:72	Motorola Mobility LLC, a Lenovo Company	MA-L	MotorolaMobi	2026-08-14	IEEE+Wireshark
+F8:34:E5	vivo Mobile Communication Co., Ltd.	MA-L		2026-08-19	IEEE
+68:24:F9	VIOLET AUDIO PTE. LTD.	MA-L		2026-08-19	IEEE
+5C:A2:A2	Texas Instruments	MA-L		2026-08-20	IEEE
+DC:30:52	zte corporation	MA-L			IEEE
+DC:9F:1F	Aseko, spol. s r.o.	MA-L			IEEE
 00:74:9C	Ruijie Networks Co.,LTD	MA-L	RuijieNetwor	2016-05-26	IEEE+Wireshark+Nmap
 00:0F:EA	Giga-Byte Technology Co.,Ltd.	MA-L	GigaByteTech	2004-04-03	IEEE+Wireshark+Nmap
 38:AD:2B	Hitron Technologies. Inc	MA-L	HitronTechno	2023-07-07	IEEE+Wireshark+Nmap
@@ -15863,8 +15875,6 @@ DC:00:77	Tp-Link Technologies Co.,Ltd.	MA-L	TpLinkTechno	2015-11-17	IEEE+Wiresha
 60:32:B1	Tp-Link Technologies Co.,Ltd.	MA-L	TpLinkTechno	2020-05-02	IEEE+Wireshark+Nmap
 3C:6A:48	Tp-Link Technologies Co.,Ltd.	MA-L	TpLinkTechno	2022-09-30	IEEE+Wireshark+Nmap
 48:7F:80	FRITZ! Technology GmbH	MA-L	FRITZ!Techno	2026-06-17	IEEE+Wireshark
-30:EB:5A	Landis+Gyr S.A.	MA-L	LandisGyr	2018-09-07	IEEE+Wireshark+Nmap
-98:B1:77	Landis+Gyr S.A.	MA-L	LandisGyr	2021-04-23	IEEE+Wireshark+Nmap
 E8:FE:BE	Apple, Inc.	MA-L	Apple	2026-06-21	IEEE+Wireshark
 88:17:A8	Apple, Inc.	MA-L	Apple	2026-06-21	IEEE+Wireshark
 74:D5:E8	Apple, Inc.	MA-L	Apple	2026-06-21	IEEE+Wireshark
@@ -15952,11 +15962,24 @@ B4:DF:43	IEEE Registration Authority	MA-L		2026-07-29	IEEE
 F4:66:39	GD Midea Air-Conditioning Equipment Co.,Ltd.	MA-L	GDMideaAirCo	2026-07-30	IEEE+Wireshark
 44:55:2B	Samsung Electronics Co.,Ltd	MA-L	SamsungElect	2026-07-29	IEEE+Wireshark
 4C:7A:88	Cisco Systems, Inc	MA-L	Cisco	2026-07-29	IEEE+Wireshark
-C0:61:94	Huawei Device Co., Ltd.	MA-L	HuaweiDevice	2026-07-31	IEEE+Wireshark
-00:61:68	Nokia	MA-L	Nokia	2026-07-31	IEEE+Wireshark
-B0:FF:0D	Hangzhou Hikvision Digital Technology Co.,Ltd.	MA-L	HikvisionDig	2026-08-01	IEEE+Wireshark
-CC:AA:00	Microsoft Corporation	MA-L	Microsoft	2026-08-03	IEEE+Wireshark
 D0:79:2F	New H3C Intelligence Terminal Co., Ltd.	MA-L	NewH3CIntell	2026-08-06	IEEE+Wireshark
+B0:FF:0D	Hangzhou Hikvision Digital Technology Co.,Ltd.	MA-L	HikvisionDig	2026-08-01	IEEE+Wireshark
+C0:61:94	Huawei Device Co., Ltd.	MA-L	HuaweiDevice	2026-07-31	IEEE+Wireshark
+40:53:8C	LG Electronics	MA-L	LGElectronic	2026-08-11	IEEE+Wireshark
+CC:AA:00	Microsoft Corporation	MA-L	Microsoft	2026-08-03	IEEE+Wireshark
+00:61:68	Nokia	MA-L	Nokia	2026-07-31	IEEE+Wireshark
+60:D1:5F	Futurepath Technology(Shenzhen)Co.,Ltd.	MA-L		2026-08-18	IEEE
+90:1D:FF	ZOWEE TECHNOLOGY(HEYUAN)Co.,Ltd	MA-L	ZOWEETECHNOL	2026-08-15	IEEE+Wireshark
+98:B1:77	EYKON Solutions S.A.	MA-L	EYKONSolutio	2021-04-23	IEEE+Wireshark+Nmap
+30:EB:5A	EYKON Solutions S.A.	MA-L	EYKONSolutio	2018-09-07	IEEE+Wireshark+Nmap
+CC:A8:23	Silicon Laboratories	MA-L		2026-08-18	IEEE
+44:BE:23	PEGATRON CORPORATION	MA-L		2026-08-18	IEEE
+00:72:30	Nordic Semiconductor ASA	MA-L	NordicSemico	2026-08-15	IEEE+Wireshark
+BC:6C:96	SHEN ZHEN TENDA TECHNOLOGY CO.,LTD	MA-L		2026-08-19	IEEE
+94:2A:D6	Texas Instruments	MA-L		2026-08-20	IEEE
+E0:95:B3	Texas Instruments	MA-L		2026-08-20	IEEE
+7C:79:D4	Network Optix, Inc.	MA-L		2026-08-21	IEEE
+AC:04:16	zte corporation	MA-L			IEEE
 6C:87:20	New H3C Technologies Co., Ltd	MA-L	NewH3CTechno	2023-07-15	IEEE+Wireshark+Nmap
 0C:8D:7A	RADiflow	MA-L	RADiflow	2023-07-14	IEEE+Wireshark+Nmap
 FC:A9:F5	Xiaomi Communications Co Ltd	MA-L	XiaomiCommun	2023-07-14	IEEE+Wireshark+Nmap
@@ -23900,8 +23923,31 @@ B4:6F:78	Accton Technology Corporation	MA-L	AcctonTechno	2026-08-03	IEEE+Wiresha
 F4:08:55	Qingdao Haier Technology Co.Ltd	MA-L	QingdaoHaier	2026-08-04	IEEE+Wireshark
 64:D6:08	Shenzhen Ailyworld Technology Co.,Ltd.	MA-L	AilyworldTec	2026-08-04	IEEE+Wireshark
 D0:EB:1A	Siemens AG	MA-L	Siemens	2026-08-04	IEEE+Wireshark
+20:74:DD	eero inc.	MA-L	eero	2026-08-11	IEEE+Wireshark
 F0:F9:5D	Aditya Infotech Ltd.	MA-L	AdityaInfote	2026-08-07	IEEE+Wireshark
 EC:33:CC	Hewlett Packard Enterprise	MA-L	HewlettPacka	2026-08-08	IEEE+Wireshark
+44:22:BE	rescuetrack GmbH	MA-L	rescuetrack	2026-08-13	IEEE+Wireshark
+18:F0:55	Nanjing Qinheng Microelectronics Co., Ltd.	MA-L	NanjingQinhe	2026-08-15	IEEE+Wireshark
+38:F2:5D	Hangzhou Ezviz Software Co.,Ltd.	MA-L	EzvizSoftwar	2026-08-15	IEEE+Wireshark
+08:98:EF	Shenzhen Taichi Technology Limited	MA-L		2026-08-18	IEEE
+FC:21:20	Cisco Systems, Inc	MA-L	Cisco	2026-08-14	IEEE+Wireshark
+A4:2D:F1	Motorola Mobility LLC, a Lenovo Company	MA-L	MotorolaMobi	2026-08-14	IEEE+Wireshark
+54:08:F1	SHENZHENLINGDECHUANGTECHNOLOGY CO.,LTD	MA-L		2026-08-19	IEEE
+38:85:BB	Commodore International Corporation	MA-L		2026-08-18	IEEE
+74:11:A0	Nokia	MA-L	Nokia	2026-08-15	IEEE+Wireshark
+40:E4:C6	Nokia	MA-L	Nokia	2026-08-15	IEEE+Wireshark
+9C:64:A1	Silicon Laboratories	MA-L		2026-08-18	IEEE
+50:BA:84	Cisco Systems, Inc	MA-L	Cisco	2026-08-14	IEEE+Wireshark
+B0:A5:B3	Hewlett Packard Enterprise	MA-L		2026-08-20	IEEE
+50:EE:B5	Texas Instruments	MA-L		2026-08-20	IEEE
+D8:F0:2F	Texas Instruments	MA-L		2026-08-20	IEEE
+D8:1B:F4	Texas Instruments	MA-L		2026-08-20	IEEE
+18:14:F4	Texas Instruments	MA-L		2026-08-20	IEEE
+A0:E9:22	Optiemus Electronics Limited	MA-L		2026-08-21	IEEE
+B0:D5:87	silex technology, Inc.	MA-L		2026-08-21	IEEE
+48:21:B8	Guangzhou V-Solution Telecommunication Technology Co.,Ltd.	MA-L		2026-08-21	IEEE
+44:7B:30	Espressif Inc.	MA-L			IEEE
+74:75:63	Duke Manufacturing	MA-L			IEEE
 B0:0C:9D	Quectel Wireless Solutions Co.,Ltd.	MA-L	QuectelWirel	2023-07-14	IEEE+Wireshark+Nmap
 F0:AB:1F	zte corporation	MA-L	zte	2023-07-13	IEEE+Wireshark+Nmap
 7C:B3:0A	zte corporation	MA-L	zte	2023-07-13	IEEE+Wireshark+Nmap
@@ -29944,7 +29990,6 @@ A0:6A:00	Verilink Corporation	MA-L	Verilink	2001-06-04	IEEE+Wireshark+Nmap
 00:90:37	Acucomm, Inc.	MA-L	Acucomm	1998-04-22	IEEE+Wireshark+Nmap
 00:90:78	Mer Telemanagement Solutions, Ltd.	MA-L	MerTelemanag	1998-04-22	IEEE+Wireshark+Nmap
 00:90:B8	Rohde & Schwarz Gmbh & Co. Kg	MA-L	RohdeSchwarz	1998-04-22	IEEE+Wireshark+Nmap
-00:90:5B	Raymond And Lae Engineering	MA-L	RaymondAndLa	2000-09-08	IEEE+Wireshark+Nmap
 00:90:BC	Telemann Co., Ltd.	MA-L	Telemann	2000-09-08	IEEE+Wireshark+Nmap
 00:90:0A	Proton Electronic Industrial Co., Ltd.	MA-L	ProtonElectr	2000-09-08	IEEE+Wireshark+Nmap
 00:90:D5	Euphonix, Inc.	MA-L	Euphonix	2000-09-08	IEEE+Wireshark+Nmap
@@ -31950,8 +31995,14 @@ B8:82:68	Shenzhen Hopestar Technology Co.,Ltd.	MA-L	HopestarTech	2026-08-04	IEEE
 00:1D:66	HYUNDAI HT Co., Ltd.	MA-L	HYUNDAIHT	2007-08-18	IEEE+Wireshark+Nmap
 6C:3D:7D	Vantiva USA LLC	MA-L	VantivaUSA	2026-08-08	IEEE+Wireshark
 24:A0:2D	shenzhen worldelite electronics co., LTD	MA-L	worldeliteel	2026-08-08	IEEE+Wireshark
-94:B5:AD	ERM Electronic Systems LTD	MA-L		2026-08-10	IEEE
-88:64:A8	TeraNXT Global India Pvt Ltd.	MA-L		2026-08-10	IEEE
+44:8C:EC	Anhui Sunchip semiconductor technology Co;Ltd	MA-L	AnhuiSunchip	2026-08-13	IEEE+Wireshark
+34:7F:63	Concept Pro Surveillance	MA-L	ConceptProSu	2026-08-11	IEEE+Wireshark
+88:64:A8	TeraNXT Global India Pvt Ltd.	MA-L	TeraNXTGloba	2026-08-10	IEEE+Wireshark
+94:B5:AD	ERM Electronic Systems LTD	MA-L	ERMElectroni	2026-08-10	IEEE+Wireshark
+00:90:5B	Parameter LLC	MA-L	Parameter	2000-09-08	IEEE+Wireshark+Nmap
+04:EC:A9	IEEE Registration Authority	MA-L		2026-08-19	IEEE
+28:D5:55	vivo Mobile Communication Co., Ltd.	MA-L		2026-08-19	IEEE
+98:A3:3C	Shenzhen Cultraview Digital Technology Co., Ltd	MA-L		2026-08-19	IEEE
 C8:5C:E2	IEEE Registration Authority	MA-L		2023-07-19	IEEE+Nmap
 DC:EE:14	ADT Technology	MA-L	ADTTechnolog	2023-07-19	IEEE+Wireshark+Nmap
 10:FF:E0	Giga-Byte Technology Co.,Ltd.	MA-L	GigaByteTech	2023-07-20	IEEE+Wireshark+Nmap
@@ -39815,7 +39866,6 @@ D8:C9:60	Huawei Device Co., Ltd.	MA-L	HuaweiDevice	2026-06-23	IEEE+Wireshark
 B4:A6:4A	Espressif Inc.	MA-L	Espressif	2026-06-22	IEEE+Wireshark
 D0:32:E7	Tuya Smart Inc.	MA-L	TuyaSmart	2026-06-21	IEEE+Wireshark
 48:90:F0	Dell Inc.	MA-L	Dell	2026-06-24	IEEE+Wireshark
-6C:70:28	Landis+Gyr S.A.	MA-L	LandisGyr	2026-06-22	IEEE+Wireshark
 88:82:25	Telink Micro LLC	MA-L	TelinkMicro	2026-06-25	IEEE+Wireshark
 70:24:6E	Zhejiang Laibao Display Technology Co., Ltd.	MA-L	ZhejiangLaib	2026-06-25	IEEE+Wireshark
 F4:54:24	Extreme Networks, Inc.	MA-L	ExtremeNetwo	2023-07-15	IEEE+Wireshark+Nmap
@@ -39908,10 +39958,26 @@ F8:31:25	Xiamen uink Technology Co., Ltd	MA-L	XiamenuinkTe	2026-08-01	IEEE+Wires
 90:91:6E	nFore Technology Co., Ltd.	MA-L	nForeTechnol	2026-08-04	IEEE+Wireshark
 00:9C:57	Hextronics	MA-L	Hextronics	2026-07-31	IEEE+Wireshark
 5C:50:D3	Knit Sound Company	MA-L	KnitSound	2026-08-05	IEEE+Wireshark
-AC:04:E6	NTX Electronics YangZhou co.,LTD	MA-L	NTXElectroni	2026-08-06	IEEE+Wireshark
+FC:CA:40	Sony Interactive Entertainment Inc.	MA-L	SonyInteract	2026-08-11	IEEE+Wireshark
 94:1D:D4	Google, Inc.	MA-L	Google	2026-08-07	IEEE+Wireshark
-7C:6E:47	Huizhou Guangshijia Communication Technology Co., Ltd.	MA-L	HuizhouGuang	2026-08-08	IEEE+Wireshark
 14:E6:02	Shenzhen EMTEK Storage Technology Co.,Ltd	MA-L	EMTEKStorage	2026-08-08	IEEE+Wireshark
+7C:6E:47	Huizhou Guangshijia Communication Technology Co., Ltd.	MA-L	HuizhouGuang	2026-08-08	IEEE+Wireshark
+AC:04:E6	NTX Electronics YangZhou co.,LTD	MA-L	NTXElectroni	2026-08-06	IEEE+Wireshark
+74:51:8F	Jiangsu Hetai Intelligent Control Technology Co., Ltd	MA-L	JiangsuHetai	2026-08-13	IEEE+Wireshark
+2C:1B:8E	BYD Semiconductor Co，Ltd	MA-L	BYDSemicondu	2026-08-15	IEEE+Wireshark
+F4:89:74	Cisco Systems, Inc	MA-L	Cisco	2026-08-14	IEEE+Wireshark
+F4:4E:35	Meta Platforms, Inc.	MA-L	MetaPlatform	2026-08-14	IEEE+Wireshark
+6C:70:28	EYKON Solutions S.A.	MA-L	EYKONSolutio	2026-06-22	IEEE+Wireshark
+FC:E3:3D	Cloud Network Technology Singapore Pte. Ltd.	MA-L	CloudNetwork	2026-08-15	IEEE+Wireshark
+3C:FF:E4	Siemens AG	MA-L		2026-08-18	IEEE
+3C:87:CF	Quanta Computer Inc.	MA-L		2026-08-18	IEEE
+98:F3:64	Yantai Dongfang Wisdom Elrctic Co.,Ltd.	MA-L		2026-08-19	IEEE
+28:E8:88	Lingban Technology (Hangzhou) Co., Ltd	MA-L		2026-08-20	IEEE
+AC:9A:3F	Texas Instruments	MA-L		2026-08-20	IEEE
+DC:55:B1	Espressif Inc.	MA-L			IEEE
+54:9D:EA	Espressif Inc.	MA-L			IEEE
+64:89:14	Espressif Inc.	MA-L			IEEE
+C8:B0:B2	zte corporation	MA-L			IEEE
 C8:5C:E2:7	SYNERGY SYSTEMS AND SOLUTIONS	MA-M		2023-07-19	IEEE
 74:1A:E0:9	Private	MA-M		2017-07-16	IEEE
 C8:5C:E2:A	San Telequip (P) Ltd.	MA-M		2023-07-19	IEEE
@@ -41242,6 +41308,14 @@ D0:DA:24:0	Beijing Deeprift Technologies Co., Ltd.	MA-M		2026-08-06	IEEE
 38:B1:4E:E	Zoho Business Services LLP - ZBS Nagpur	MA-M		2026-03-10	IEEE
 D0:DA:24:3	Hangzhou Arcvideo Technology Co., Ltd.	MA-M		2026-08-07	IEEE
 D0:DA:24:C	Alloop（Hong kong）Limited	MA-M		2026-08-05	IEEE
+30:BB:28:B	JiangSu Shenzhou Semiconductor Technology Co.,Ltd	MA-M		2026-08-11	IEEE
+30:BB:28:8	Kahf Software Limited	MA-M		2026-08-14	IEEE
+30:BB:28:5	WuHan Glory Road Precision Technology Co.,Ltd	MA-M		2026-08-15	IEEE
+30:BB:28:E	StarTop Era (Shanghai ) Intelligent Technology Co., Ltd.	MA-M		2026-08-18	IEEE
+04:EC:A9:A	Leegiot Intelligent Technology Co., Ltd.	MA-M		2026-08-18	IEEE
+04:EC:A9:1	Studds Accessories LTD	MA-M		2026-08-21	IEEE
+04:EC:A9:8	Guangzhou Xinhong Communication Technology Co.,Ltd	MA-M		2026-08-21	IEEE
+04:EC:A9:7	CORETEC Inc.	MA-M			IEEE
 B8:4C:87:3	Shenzhen Link-all Technology Co., Ltd	MA-M		2023-07-15	IEEE
 B8:4C:87:C	SOND	MA-M		2023-07-13	IEEE
 B8:4C:87:B	Beijing Yunji Technology Co., Ltd.	MA-M		2023-07-13	IEEE
@@ -42482,6 +42556,7 @@ B4:DF:43:4	Shenzhen Huizhen Fishery Co., Ltd.	MA-M		2026-07-29	IEEE
 F4:3A:FA:2	Ruijie Networks Co.,LTD	MA-M		2024-08-17	IEEE
 B4:DF:43:C	Raven Resonance Inc.	MA-M		2026-07-29	IEEE
 B4:DF:43:7	RDP Innovation	MA-M		2026-07-30	IEEE
+30:BB:28:2	ROOMIO LIMITED	MA-M		2026-08-14	IEEE
 B8:4C:87:A	Altronix , Corp	MA-M		2023-07-15	IEEE
 8C:C8:F4:7	TableSafe	MA-M		2016-10-30	IEEE
 58:E8:76:0	Zhuhai Raysharp Technology Co.,Ltd	MA-M		2016-05-07	IEEE
@@ -43822,8 +43897,12 @@ CC:39:53:9	MT-LINK TECHNOLOGIES CO	MA-M		2026-07-17	IEEE
 B4:DF:43:9	Epilady 2000	MA-M		2026-07-29	IEEE
 B4:DF:43:E	Shanghai Wellsun New Energy Co.,Ltd.	MA-M		2026-07-31	IEEE
 B4:DF:43:A	Huaqin Technology Co.,Ltd	MA-M		2026-07-31	IEEE
-D0:DA:24:9	Teradyne Robotics A/S	MA-M		2026-08-04	IEEE
+30:BB:28:D	IndiaVP Semiconductor Pvt Ltd	MA-M		2026-08-11	IEEE
+30:BB:28:4	HUIZHOU HENGDU ELECTRONICS CO.,LTD.	MA-M		2026-08-13	IEEE
 D0:DA:24:E	Security Point LLP	MA-M		2026-08-10	IEEE
+D0:DA:24:9	Teradyne Robotics A/S	MA-M		2026-08-04	IEEE
+30:BB:28:9	Shenzhen Shuangyunhe Technology Co.,Ltd.	MA-M		2026-08-15	IEEE
+04:EC:A9:6	SHANGHAI CHENZHU INSTRUMENT CO., LTD.	MA-M			IEEE
 D0:14:11:1	P.B. Elettronica srl	MA-M		2020-05-05	IEEE
 B8:4C:87:6	HORIBA Precision Instruments (Beijing) Co.,Ltd	MA-M		2023-07-11	IEEE
 C0:22:F1:3	Spectra Technologies India Private Limited	MA-M		2023-07-06	IEEE
@@ -45123,7 +45202,11 @@ D0:DA:24:8	Shanghai Yunsilicon Technology Co., Ltd.	MA-M		2026-08-01	IEEE
 D0:DA:24:7	CANLAB CO., LTD.	MA-M		2026-08-04	IEEE
 D0:DA:24:2	acemetro electronics india private limited	MA-M		2026-08-07	IEEE
 D0:DA:24:A	Shenzhen Beilai Technology Co.,Ltd	MA-M		2026-08-07	IEEE
-30:BB:28:C	TAIRA(Lasersan Advanced Teknoloji Sistemleri A.Ş.)	MA-M			IEEE
+30:BB:28:C	TAIRA(Lasersan Advanced Teknoloji Sistemleri A.Ş.)	MA-M		2026-08-11	IEEE
+30:BB:28:1	FairPhone B.V.	MA-M		2026-08-13	IEEE
+30:BB:28:A	Bull Creek Technologies	MA-M		2026-08-13	IEEE
+04:EC:A9:D	SPECTRONITE	MA-M		2026-08-20	IEEE
+04:EC:A9:4	Shanghai Vic Lab Intelligent Technology Co.,Ltd.	MA-M		2026-08-20	IEEE
 C8:5C:E2:0	Fela Management AG	MA-M		2023-07-20	IEEE
 B8:4C:87:E	Private	MA-M		2023-07-20	IEEE
 B8:4C:87:1	em-trak	MA-M		2023-07-07	IEEE
@@ -46447,6 +46530,11 @@ B4:DF:43:1	UTA WIRELESS S.R.L.	MA-M		2026-07-30	IEEE
 D0:DA:24:5	Shenzhen Zhangyue Technology Co.,Ltd	MA-M		2026-08-04	IEEE
 D0:DA:24:D	AmenTech Inc.	MA-M		2026-08-04	IEEE
 D0:DA:24:4	National Security Technology JSC	MA-M		2026-08-04	IEEE
+30:BB:28:0	Digital Reach Pvt Ltd	MA-M		2026-08-11	IEEE
+30:BB:28:3	Cellslink Intelligence Technology Co,Ltd	MA-M		2026-08-13	IEEE
+30:BB:28:7	MSGQ TECHNOLOGIES SERVICES PRIVATE LIMITED	MA-M		2026-08-14	IEEE
+30:BB:28:6	Sunwoda Mobility Energy Technology Co., Ltd.	MA-M		2026-08-13	IEEE
+04:EC:A9:C	Broadcom Corporation	MA-M			IEEE
 8C:1F:64:AF:A	DATA ELECTRONIC DEVICES, INC	MA-S		2023-07-18	IEEE
 8C:1F:64:9B:9	QUERCUS TECHNOLOGIES, S.L.	MA-S		2023-07-20	IEEE
 8C:1F:64:D0:F	Mecco LLC	MA-S		2023-07-20	IEEE
@@ -47863,6 +47951,11 @@ D0:DA:24:4	National Security Technology JSC	MA-M		2026-08-04	IEEE
 8C:1F:64:D8:4	OES Inc.	MA-S		2026-08-06	IEEE
 8C:1F:64:EC:D	Beijing BITMC Technology co.Ltd	MA-S		2026-08-06	IEEE
 8C:1F:64:76:D	uHoo Pte. Ltd.	MA-S		2026-08-07	IEEE
+8C:1F:64:F8:F	Dovideq Medical Systems BV	MA-S		2026-08-14	IEEE
+8C:1F:64:2B:2	Infosoft Digital Design and Services P L	MA-S		2026-08-14	IEEE
+8C:1F:64:BF:9	Hitachi energy India ltd	MA-S		2026-08-15	IEEE
+8C:1F:64:99:0	Traxara Robotics	MA-S		2026-08-18	IEEE
+8C:1F:64:A4:D	DEUTA-WERKE GmbH	MA-S		2026-08-21	IEEE
 8C:1F:64:A9:8	Jacobs Technology, Inc.	MA-S		2023-07-14	IEEE
 8C:1F:64:4A:9	Martec Marine S.p.a.	MA-S		2023-07-14	IEEE
 8C:1F:64:DE:5	Gogo Business Aviation	MA-S		2023-07-07	IEEE
@@ -49299,6 +49392,13 @@ D0:DA:24:4	National Security Technology JSC	MA-M		2026-08-04	IEEE
 8C:1F:64:8B:A	Code Blue Corporation	MA-S		2026-07-28	IEEE
 8C:1F:64:CF:2	Potter Electric Signal Company	MA-S		2026-07-31	IEEE
 8C:1F:64:7F:A	Hiwin Mikrosystem Corp.	MA-S		2026-08-07	IEEE
+8C:1F:64:FE:F	Kible	MA-S		2026-08-18	IEEE
+8C:1F:64:0E:4	Modern Server Solutions LLP	MA-S		2026-08-13	IEEE
+8C:1F:64:F1:F	Areta AI Inc.	MA-S		2026-08-18	IEEE
+8C:1F:64:05:E	Pramac GmbH	MA-S		2026-08-21	IEEE
+8C:1F:64:EF:C	LonTen Technology（BeiJing）Co.,LTD.	MA-S		2026-08-21	IEEE
+8C:1F:64:24:A	Suzhou Nihone Electronic Technology Co.,Ltd.	MA-S			IEEE
+8C:1F:64:93:4	eumig industrie-TV GmbH.	MA-S			IEEE
 8C:1F:64:E6:F	Vision Systems Safety Tech	MA-S		2023-07-13	IEEE
 70:B3:D5:11:9	YPP Corporation	MA-S		2015-08-30	IEEE
 70:B3:D5:15:9	RCH SPA	MA-S		2019-11-09	IEEE
@@ -50736,6 +50836,8 @@ D0:DA:24:4	National Security Technology JSC	MA-M		2026-08-04	IEEE
 8C:1F:64:FD:D	Atik Cameras Unipessoal, Lda	MA-S		2026-07-24	IEEE
 8C:1F:64:20:F	DAVE SRL	MA-S		2026-07-27	IEEE
 8C:1F:64:21:8	Symphony Interactive Inc	MA-S		2026-07-28	IEEE
+8C:1F:64:D0:1	Emerson Rosemount Analytical	MA-S		2026-08-14	IEEE
+8C:1F:64:63:7	HwaCom Systems Inc.	MA-S		2026-08-18	IEEE
 8C:1F:64:82:B	Flow Power	MA-S		2023-07-14	IEEE
 8C:1F:64:5A:7	RCH SPA	MA-S		2023-07-06	IEEE
 8C:1F:64:04:9	NUANCES ORG	MA-S		2023-07-08	IEEE
@@ -52158,6 +52260,10 @@ D0:DA:24:4	National Security Technology JSC	MA-M		2026-08-04	IEEE
 8C:1F:64:B2:E	Grossenbacher Systeme AG	MA-S		2026-08-03	IEEE
 8C:1F:64:56:2	WOLF Advanced Technology	MA-S		2026-08-06	IEEE
 8C:1F:64:F0:1	OmniBuds Ltd	MA-S		2026-08-10	IEEE
+8C:1F:64:F8:9	DIGITALWAN	MA-S		2026-08-19	IEEE
+8C:1F:64:95:1	MITSUBISHI ELECTRIC INDIA PVT. LTD.	MA-S		2026-08-20	IEEE
+8C:1F:64:9F:7	Wuxi Tongyuan Electrical Technology Co., Ltd.	MA-S		2026-08-21	IEEE
+8C:1F:64:A8:8	ResIOT UBLSOFTWARE SRL	MA-S		2026-08-21	IEEE
 8C:1F:64:D6:3	Mobileye	MA-S		2023-07-20	IEEE
 8C:1F:64:3C:8	BTG Instruments AB	MA-S		2023-07-06	IEEE
 70:B3:D5:90:E	Maytronics Ltd.	MA-S		2018-01-14	IEEE
@@ -53571,9 +53677,11 @@ D0:DA:24:4	National Security Technology JSC	MA-M		2026-08-04	IEEE
 8C:1F:64:EB:1	OLZETEK	MA-S		2026-07-24	IEEE
 8C:1F:64:F2:E	EmTroniX Sàrl	MA-S		2026-07-31	IEEE
 8C:1F:64:35:9	Dongguan Ritian Communication Technology Co., Ltd.	MA-S		2026-08-05	IEEE
-8C:1F:64:0E:2	Cardinal Scales Manufacturing Co	MA-S		2026-08-05	IEEE
 8C:1F:64:2A:D	Sugihara Software and Electron Industry	MA-S		2026-08-07	IEEE
 8C:1F:64:16:8	JAPAN ID Co., Ltd.	MA-S		2026-08-07	IEEE
+8C:1F:64:0E:2	Cardinal Scales Manufacturing Co	MA-S		2026-08-05	IEEE
+8C:1F:64:C2:1	SPECIM, Spectral Imaging Oy Ltd	MA-S		2026-08-15	IEEE
+8C:1F:64:80:B	SUNTAC Co., Ltd.	MA-S		2026-08-21	IEEE
 40:D8:55:0D:7	Avant Technologies	IAB		2013-04-15	IEEE
 00:50:C2:F7:1	RF Code	IAB		2012-04-15	IEEE
 00:50:C2:9C:C	Hirotech inc.	IAB		2008-11-09	IEEE
@@ -63755,6 +63863,7 @@ EA:BE:A7	Sonos, Inc.	CID	Sonos	2017-11-26	IEEE+Wireshark
 28:36:38:C0/28	Swisson AG	MA-L	Swisson		Wireshark
 28:36:38:D0/28	APPEAK Technology System Co.Ltd.	MA-L	APPEAKTechno		Wireshark
 28:36:38:E0/28	SCA Hygiene Products AB	MA-L	SCAHygienePr		Wireshark
+28:69:DA	Moultrie Mobile	MA-L	MoultrieMobi	2026-08-11	Wireshark
 28:B7:7C:00/28	Shenzhen Eview Gps Technology	MA-L	EviewGpsTech		Wireshark
 28:B7:7C:10/28	SolarEdge Technologies	MA-L	SolarEdgeTec		Wireshark
 28:B7:7C:20/28	Zhuhai RongBang Electronic Technology Co., Ltd.	MA-L	ZhuhaiRongBa		Wireshark
@@ -64044,6 +64153,20 @@ EA:BE:A7	Sonos, Inc.	CID	Sonos	2017-11-26	IEEE+Wireshark
 30:49:50:C0/28	Anacove LLC	MA-L	Anacove		Wireshark
 30:49:50:D0/28	Merlyn Mind, Inc.	MA-L	MerlynMind		Wireshark
 30:49:50:E0/28	IoTmaxx GmbH	MA-L	IoTmaxx		Wireshark
+30:BB:28:00/28	Digital Reach Pvt Ltd	MA-L	DigitalReach		Wireshark
+30:BB:28:10/28	FairPhone B.V.	MA-L	FairPhone		Wireshark
+30:BB:28:20/28	Roomio Limited	MA-L	Roomio		Wireshark
+30:BB:28:30/28	Cellslink Intelligence Technology Co,Ltd	MA-L	CellslinkInt		Wireshark
+30:BB:28:40/28	Huizhou Hengdu Electronics Co.,Ltd.	MA-L	HuizhouHengd		Wireshark
+30:BB:28:50/28	WuHan Glory Road Precision Technology Co.,Ltd	MA-L	GloryRoadPre		Wireshark
+30:BB:28:60/28	Sunwoda Mobility Energy Technology Co., Ltd.	MA-L	SunwodaMobil		Wireshark
+30:BB:28:70/28	Msgq Technologies Services Private Limited	MA-L	MsgqTechnolo		Wireshark
+30:BB:28:80/28	Kahf Software Limited	MA-L	KahfSoftware		Wireshark
+30:BB:28:90/28	Shenzhen Shuangyunhe Technology Co.,Ltd.	MA-L	ShuangyunheT		Wireshark
+30:BB:28:A0/28	Bull Creek Technologies	MA-L	BullCreekTec		Wireshark
+30:BB:28:B0/28	JiangSu Shenzhou Semiconductor Technology Co.,Ltd	MA-L	JiangSuShenz		Wireshark
+30:BB:28:C0/28	TAIRA(Lasersan Advanced Teknoloji Sistemleri A.Ş.)	MA-L	TAIRA		Wireshark
+30:BB:28:D0/28	IndiaVP Semiconductor Pvt Ltd	MA-L	IndiaVPSemic		Wireshark
 34:00:8A:00/28	Angee Technologies Ltd.	MA-L	AngeeTechnol		Wireshark
 34:00:8A:10/28	ZQAM Communications	MA-L	ZQAMCommunic		Wireshark
 34:00:8A:20/28	RPE "Monitor"	MA-L	RPEMonitor		Wireshark
@@ -71094,6 +71217,7 @@ EA:BE:A7	Sonos, Inc.	CID	Sonos	2017-11-26	IEEE+Wireshark
 8C:1F:64:0E:10/36	Riverloop Co., Ltd.	MA-L	Riverloop		Wireshark
 8C:1F:64:0E:20/36	Cardinal Scales Manufacturing Co	MA-L	CardinalScal		Wireshark
 8C:1F:64:0E:30/36	JISEONGENG Co,.LTD	MA-L	JISEONGENG		Wireshark
+8C:1F:64:0E:40/36	Modern Server Solutions LLP	MA-L	ModernServer		Wireshark
 8C:1F:64:0E:50/36	Rugged Science	MA-L	RuggedScienc		Wireshark
 8C:1F:64:0E:60/36	Cleanwatts Digital, S.A.	MA-L	CleanwattsDi		Wireshark
 8C:1F:64:0E:A0/36	SmartSky Networks LLC	MA-L	SmartSkyNetw		Wireshark
@@ -71409,6 +71533,7 @@ EA:BE:A7	Sonos, Inc.	CID	Sonos	2017-11-26	IEEE+Wireshark
 8C:1F:64:2A:D0/36	Sugihara Software and Electron Industry	MA-L	SugiharaSoft		Wireshark
 8C:1F:64:2A:F0/36	A-Best Co.,Lid.	MA-L	ABestLid		Wireshark
 8C:1F:64:2B:10/36	U -Mei-Dah Int'L Enterprise Co.,Ltd.	MA-L	UMeiDahIntLE		Wireshark
+8C:1F:64:2B:20/36	Infosoft Digital Design and Services P L	MA-L	InfosoftDigi		Wireshark
 8C:1F:64:2B:40/36	Sonel S.A.	MA-L	Sonel		Wireshark
 8C:1F:64:2B:60/36	Stercom Power Solutions GmbH	MA-L	StercomPower		Wireshark
 8C:1F:64:2B:80/36	Veinland GmbH	MA-L	Veinland		Wireshark
@@ -73063,6 +73188,7 @@ EA:BE:A7	Sonos, Inc.	CID	Sonos	2017-11-26	IEEE+Wireshark
 8C:1F:64:BF:60/36	Panoramic Power	MA-L	PanoramicPow		Wireshark
 8C:1F:64:BF:70/36	Intellicon Private Limited	MA-L	IntelliconPr		Wireshark
 8C:1F:64:BF:80/36	Cdsi	MA-L	Cdsi		Wireshark
+8C:1F:64:BF:90/36	Hitachi energy India ltd	MA-L	Hitachienerg		Wireshark
 8C:1F:64:BF:B0/36	TechArgos	MA-L	TechArgos		Wireshark
 8C:1F:64:BF:C0/36	ASiS Technologies Pte Ltd	MA-L	ASiSTechnolo		Wireshark
 8C:1F:64:BF:D0/36	Innos Technologies	MA-L	InnosTechnol		Wireshark
@@ -73091,6 +73217,7 @@ EA:BE:A7	Sonos, Inc.	CID	Sonos	2017-11-26	IEEE+Wireshark
 8C:1F:64:C1:C0/36	Vektrex Electronics Systems, Inc.	MA-L	VektrexElect		Wireshark
 8C:1F:64:C1:E0/36	Va Syd	MA-L	VaSyd		Wireshark
 8C:1F:64:C1:F0/36	Esys Srl	MA-L	Esys		Wireshark
+8C:1F:64:C2:10/36	SPECIM, Spectral Imaging Oy Ltd	MA-L	SPECIMSpectr		Wireshark
 8C:1F:64:C2:20/36	Pulcro.io LLC	MA-L	Pulcroio		Wireshark
 8C:1F:64:C2:40/36	Alifax S.r.l.	MA-L	Alifax		Wireshark
 8C:1F:64:C2:60/36	Ironwood Electronics	MA-L	IronwoodElec		Wireshark
@@ -73246,6 +73373,7 @@ EA:BE:A7	Sonos, Inc.	CID	Sonos	2017-11-26	IEEE+Wireshark
 8C:1F:64:CF:D0/36	Smart-VOD Pty Ltd	MA-L	SmartVOD		Wireshark
 8C:1F:64:CF:E0/36	Instrument Development Group (IDG) at Johns Hopkins University	MA-L	InstrumentDe		Wireshark
 8C:1F:64:D0:00/36	POLAK CZ s.r.o.	MA-L	POLAKCZsro		Wireshark
+8C:1F:64:D0:10/36	Emerson Rosemount Analytical	MA-L	EmersonRosem		Wireshark
 8C:1F:64:D0:20/36	Flextronics International Kft	MA-L	FlextronicsI		Wireshark
 8C:1F:64:D0:70/36	Talleres de Escoriaza SAU	MA-L	TalleresdeEs		Wireshark
 8C:1F:64:D0:80/36	Power Electronics Espana, S.L.	MA-L	PowerElectro		Wireshark
@@ -73589,6 +73717,7 @@ EA:BE:A7	Sonos, Inc.	CID	Sonos	2017-11-26	IEEE+Wireshark
 8C:1F:64:EF:B0/36	Warecube,Inc	MA-L	Warecube		Wireshark
 8C:1F:64:EF:D0/36	Novatera(Shenzhen)Technologies Co.,Ltd.	MA-L	NovateraTech		Wireshark
 8C:1F:64:EF:F0/36	Automata GmbH & Co. KG	MA-L	Automata		Wireshark
+8C:1F:64:F0:10/36	OmniBuds Ltd	MA-L	OmniBuds		Wireshark
 8C:1F:64:F0:30/36	Faust ApS	MA-L	FaustApS		Wireshark
 8C:1F:64:F0:40/36	IoTSecure, LLC	MA-L	IoTSecure		Wireshark
 8C:1F:64:F0:50/36	Preston Industries dba PolyScience	MA-L	PrestonIndus		Wireshark
@@ -73684,6 +73813,7 @@ EA:BE:A7	Sonos, Inc.	CID	Sonos	2017-11-26	IEEE+Wireshark
 8C:1F:64:F8:80/36	LAMTEC Mess- und Regeltechnik für Feuerungen GmbH & Co. KG	MA-L	LAMTECMessun		Wireshark
 8C:1F:64:F8:C0/36	Bk Lab	MA-L	BkLab		Wireshark
 8C:1F:64:F8:E0/36	Chengdu Aplux Inteligence Technology Ltd.	MA-L	ApluxIntelig		Wireshark
+8C:1F:64:F8:F0/36	Dovideq Medical Systems BV	MA-L	DovideqMedic		Wireshark
 8C:1F:64:F9:00/36	Enfabrica	MA-L	Enfabrica		Wireshark
 8C:1F:64:F9:10/36	Consonance	MA-L	Consonance		Wireshark
 8C:1F:64:F9:20/36	Vision Systems Safety Tech	MA-L	VisionSafety		Wireshark
@@ -75665,6 +75795,7 @@ D0:DA:24:A0/28	Shenzhen Beilai Technology Co.,Ltd	MA-L	BeilaiTechno		Wireshark
 D0:DA:24:B0/28	Cjms Llc	MA-L	Cjms		Wireshark
 D0:DA:24:C0/28	Alloop（Hong kong）Limited	MA-L	AlloopLimite		Wireshark
 D0:DA:24:D0/28	AmenTech Inc.	MA-L	AmenTech		Wireshark
+D0:DA:24:E0/28	Security Point LLP	MA-L	SecurityPoin		Wireshark
 D4:20:00:00/28	Wattsense	MA-L	Wattsense		Wireshark
 D4:20:00:10/28	Zelus(HuangZhou) Technology Ltd.	MA-L	ZelusTechnol		Wireshark
 D4:20:00:20/28	Shenzhen AI Develop & Manufacture Co.,LTD.	MA-L	AIDevelopMan		Wireshark
