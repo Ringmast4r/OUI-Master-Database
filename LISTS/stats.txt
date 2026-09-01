@@ -2,35 +2,35 @@ OUI Database Merge Statistics
 ==============================
 
 IEEE Registries Processed:
-  MA-L (Large/OUI):   39,982 entries
-  MA-M (Medium):      6,557 entries
-  MA-S (Small):       7,147 entries
+  MA-L (Large/OUI):   40,044 entries
+  MA-M (Medium):      6,570 entries
+  MA-S (Small):       7,161 entries
   IAB (Individual):   4,575 entries
-  CID (Company ID):   218 entries
+  CID (Company ID):   219 entries
   ─────────────────────────────────
-  IEEE Total:         58,479 entries
+  IEEE Total:         58,569 entries
 
 Community Sources:
-  Wireshark:          57,981 entries
+  Wireshark:          58,107 entries
   Nmap:               52,085 entries
 
 Historical Data:
-  Mac-Tracker:        58,584 registration dates
+  Mac-Tracker:        58,673 registration dates
 
 Results:
-  Unique OUIs:        89,890 entries
-  Merged Entries:     78,655 (same OUI from multiple sources)
+  Unique OUIs:        90,028 entries
+  Merged Entries:     78,733 (same OUI from multiple sources)
 
 Output Files:
   master_oui.txt      3.09 MB  (simple grep/awk format)
-  master_oui.csv      9.45 MB  (full data with addresses)
-  master_oui.tsv      5.70 MB  (Excel/Sheets import)
-  master_oui.json     26.65 MB  (pretty-printed)
-  master_oui.min.json 20.38 MB  (compact for scripts)
-  master_oui.xml      19.46 MB  (enterprise/Java)
-  master_oui.db       18.93 MB  (SQLite ready-to-query)
-  import-to-d1.sql    11.79 MB  (SQL import script)
+  master_oui.csv      9.46 MB  (full data with addresses)
+  master_oui.tsv      5.71 MB  (Excel/Sheets import)
+  master_oui.json     26.69 MB  (pretty-printed)
+  master_oui.min.json 20.41 MB  (compact for scripts)
+  master_oui.xml      19.49 MB  (enterprise/Java)
+  master_oui.db       18.97 MB  (SQLite ready-to-query)
+  import-to-d1.sql    11.81 MB  (SQL import script)
   kismet_manuf.txt    3.09 MB  (Kismet IDS format)
   kismet_manuf.txt.gz 0.70 MB  (Kismet gzipped)
 
-Generated: 2026-08-21T03:51:16.212Z
+Generated: 2026-09-01T08:22:55.650Z

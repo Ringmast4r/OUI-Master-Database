@@ -52,7 +52,7 @@ Historical Data:
   Mac-Tracker:        56,543 registration dates
 
 Results:
-  Unique OUIs:        89890 entries
+  Unique OUIs:        90028 entries
   Merged Entries:     75,353 (same OUI from multiple sources)
 
 Output Files:
@@ -263,7 +263,7 @@ oui,manufacturer,registry,short_name,device_type,registered_date,address,sources
 
 ---
 
-**Last Updated:** 2026-08-21
+**Last Updated:** 2026-09-01
 **Total OUIs:** 86,098
 **Device Types:** 20+ categories
 **Formats:** 10
