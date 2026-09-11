@@ -2,35 +2,35 @@ OUI Database Merge Statistics
 ==============================
 
 IEEE Registries Processed:
-  MA-L (Large/OUI):   40,044 entries
-  MA-M (Medium):      6,570 entries
-  MA-S (Small):       7,161 entries
+  MA-L (Large/OUI):   40,127 entries
+  MA-M (Medium):      6,584 entries
+  MA-S (Small):       7,183 entries
   IAB (Individual):   4,575 entries
   CID (Company ID):   219 entries
   ─────────────────────────────────
-  IEEE Total:         58,569 entries
+  IEEE Total:         58,688 entries
 
 Community Sources:
-  Wireshark:          58,107 entries
+  Wireshark:          58,195 entries
   Nmap:               52,085 entries
 
 Historical Data:
-  Mac-Tracker:        58,673 registration dates
+  Mac-Tracker:        58,806 registration dates
 
 Results:
-  Unique OUIs:        90,028 entries
-  Merged Entries:     78,733 (same OUI from multiple sources)
+  Unique OUIs:        90,168 entries
+  Merged Entries:     78,800 (same OUI from multiple sources)
 
 Output Files:
-  master_oui.txt      3.09 MB  (simple grep/awk format)
-  master_oui.csv      9.46 MB  (full data with addresses)
-  master_oui.tsv      5.71 MB  (Excel/Sheets import)
-  master_oui.json     26.69 MB  (pretty-printed)
-  master_oui.min.json 20.41 MB  (compact for scripts)
-  master_oui.xml      19.49 MB  (enterprise/Java)
-  master_oui.db       18.97 MB  (SQLite ready-to-query)
-  import-to-d1.sql    11.81 MB  (SQL import script)
-  kismet_manuf.txt    3.09 MB  (Kismet IDS format)
+  master_oui.txt      3.10 MB  (simple grep/awk format)
+  master_oui.csv      9.48 MB  (full data with addresses)
+  master_oui.tsv      5.72 MB  (Excel/Sheets import)
+  master_oui.json     26.73 MB  (pretty-printed)
+  master_oui.min.json 20.45 MB  (compact for scripts)
+  master_oui.xml      19.52 MB  (enterprise/Java)
+  master_oui.db       19.02 MB  (SQLite ready-to-query)
+  import-to-d1.sql    11.84 MB  (SQL import script)
+  kismet_manuf.txt    3.10 MB  (Kismet IDS format)
   kismet_manuf.txt.gz 0.70 MB  (Kismet gzipped)
 
-Generated: 2026-09-01T08:22:55.650Z
+Generated: 2026-09-11T07:52:01.523Z
