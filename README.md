@@ -2,6 +2,10 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1E40AF&height=220&section=header&text=OUI%20MASTER%20DATABASE&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=90,168%20vendors%20%7C%2010%20formats%20%7C%204%20authoritative%20sources&descSize=18&descAlignY=58"/>
 
+`Cross-platform` [`JavaScript`](https://developer.mozilla.org/en-US/docs/Web/JavaScript) `Dataset` `Networking` - MAC address manufacturer lookup database combining IEEE, Nmap, Wireshark and HDM Mac-Tracker, with downloadable formats and a browser lookup.
+
+[Project website / live view](https://ringmast4r.github.io/OUI-Master-Database/)
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=1E40AF&center=true&vCenter=true&multiline=true&repeat=true&width=950&height=80&lines=One+master+list+to+rule+them+all.;IEEE+%2B+Wireshark+%2B+Nmap+%2B+HDM+Mac-Tracker;90%2C168+OUIs+%E2%80%94+monthly+auto-update)](https://git.io/typing-svg)
 
 <br>
