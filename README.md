@@ -58,7 +58,7 @@ ringmast4r@github:~$ cat oui-master-db.txt
 | **Total Unique OUIs** | `58,972` | Deduplicated across 4 sources |
 | **Cross-Validated** | `110,501` | Same OUI from multiple sources |
 | **IEEE Registry Total** | `58,877` | MA-L + MA-M + MA-S + IAB + CID |
-| **Device Categories** | `24` | Auto-classified |
+| **Device Categories** | `25` | Auto-classified |
 | **File Formats** | `10` | TXT to SQLite |
 | **Monthly New OUIs** | `~-19044` | IEEE assignments |
 <!-- /AUTO:STATS_TABLE -->
@@ -160,8 +160,8 @@ pie showData
 
 <!-- AUTO:DEVICE_CAVEAT -->
 > ⚠ IEEE doesn't expose device category. Our classifier is a heuristic on company name +
-> known-vendor lookups, so **only 14,608 of 58,972 OUIs** (24.8%) get a category. The
-> remaining 44,364 stay `Unclassified` rather than guessed.
+> known-vendor lookups, so **only 30,830 of 58,972 OUIs** (52.3%) get a category. The
+> remaining 28,142 stay `Unclassified` rather than guessed.
 <!-- /AUTO:DEVICE_CAVEAT -->
 
 <div align="center">
@@ -170,19 +170,19 @@ pie showData
 ```mermaid
 %%{init: {'theme':'dark', 'themeVariables': {'pie1':'#1E40AF','pie2':'#3B82F6','pie3':'#60A5FA','pie4':'#93C5FD','pie5':'#FFD700','pie6':'#1E3A8A','pie7':'#00D4FF','pie8':'#9FEF00','pie9':'#FF00FF','pie10':'#8B5CF6','pie11':'#FF6B6B','pie12':'#00FF88','pieTitleTextSize':'16px','pieLegendTextSize':'12px'}}}%%
 pie showData
-    title Classified Device Types (14,608 of 58,972)
-    "Phone" : 6371
-    "Router" : 2366
-    "Computer" : 1597
-    "IoT" : 874
-    "Smart Home" : 800
-    "Switch" : 370
-    "Storage" : 320
-    "Automotive" : 272
-    "Industrial" : 246
-    "Camera" : 229
-    "TV" : 169
-    "Other (13 cats)" : 994
+    title Classified Device Types (30,830 of 58,972)
+    "Phone" : 6665
+    "Industrial" : 3985
+    "Router" : 3781
+    "IoT" : 2242
+    "Access Point" : 2174
+    "Smart Home" : 2159
+    "Automotive" : 1191
+    "Laptop" : 1143
+    "Camera" : 1051
+    "Medical" : 857
+    "Audio" : 824
+    "Other (14 cats)" : 4758
 ```
 <!-- /AUTO:DEVICE_PIE -->
 
@@ -194,18 +194,19 @@ pie showData
 <!-- AUTO:DEVICE_TABLE -->
 | CATEGORY | COUNT | CATEGORY | COUNT |
 |:---------|:-----:|:---------|:-----:|
-| Phone        | `6,371` | Gaming       | `163` |
-| Router       | `2,366` | VoIP         | `141` |
-| Computer     | `1,597` | Appliance    | `135` |
-| IoT          | `874` | Printer      | `101` |
-| Smart Home   | `800` | Media Player | `82` |
-| Switch       | `370` | Access Point | `52` |
-| Storage      | `320` | Server       | `47` |
-| Automotive   | `272` | Wearable     | `42` |
-| Industrial   | `246` | Audio        | `29` |
-| Camera       | `229` | Modem        | `18` |
-| TV           | `169` | Thermostat   | `16` |
-| Medical      | `163` | Tablet       | `5` |
+| Phone        | `6,665` | Modem        | `599` |
+| Industrial   | `3,985` | Media Player | `496` |
+| Router       | `3,781` | Printer      | `455` |
+| IoT          | `2,242` | Switch       | `408` |
+| Access Point | `2,174` | VoIP         | `334` |
+| Smart Home   | `2,159` | Appliance    | `296` |
+| Automotive   | `1,191` | Gaming       | `249` |
+| Laptop       | `1,143` | Storage      | `206` |
+| Camera       | `1,051` | Server       | `153` |
+| Medical      | `857` | Wearable     | `141` |
+| Audio        | `824` | Tablet       | `52` |
+| TV           | `690` | Thermostat   | `33` |
+| Computer     | `646` |               |  |
 <!-- /AUTO:DEVICE_TABLE -->
 
 </details>

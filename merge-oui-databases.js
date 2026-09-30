@@ -532,12 +532,13 @@ function cleanName(name) {
   return (name || '').replace(/\s+/g, ' ').trim();
 }
 
-const canon = { raw: {}, norm: {}, aliases: [] };
+const canon = { raw: {}, norm: {}, aliases: [], types: {} };
 const canonPath = path.join('data', 'organizations.json');
 if (fs.existsSync(canonPath)) {
   const loaded = JSON.parse(fs.readFileSync(canonPath, 'utf8'));
   canon.raw = loaded.raw || {};
   canon.norm = loaded.norm || {};
+  canon.types = loaded.types || {};
   for (const [pattern, name] of loaded.aliases || []) {
     try {
       canon.aliases.push([new RegExp(pattern, 'i'), name]);
@@ -588,6 +589,8 @@ function resolveCanonical(name) {
   return majority.get(key) || name;
 }
 
+stats.type_curated = 0;
+stats.type_curated_changed = 0;
 for (const entry of masterDB.values()) {
   const name = cleanName(entry.manufacturer);
   entry.registrant_raw = entry.ieee_registrant || entry.manufacturer;
@@ -595,7 +598,16 @@ for (const entry of masterDB.values()) {
   const canonical = resolveCanonical(name);
   if (canonical !== entry.manufacturer) stats.canon_changed++;
   entry.manufacturer = canonical;
+  // The organization's curated type outranks the name-pattern guess. Everything the
+  // pattern guessed is kept where the database has no confident primary type.
+  const curated = canon.types[canonical];
+  if (curated && curated.type) {
+    stats.type_curated++;
+    if (entry.device_type !== curated.type) stats.type_curated_changed++;
+    entry.device_type = curated.type;
+  }
 }
+console.log(`✅ Device types: ${stats.type_curated} entries take the database's curated type (${stats.type_curated_changed} differ from the name-pattern guess)`);
 stats.canon_distinct_after = new Set([...masterDB.values()].map(e => e.manufacturer)).size;
 console.log(`✅ Vendor names: ${stats.canon_distinct_before} distinct -> ${stats.canon_distinct_after} (${stats.canon_changed} entries renamed; from database ${stats.canon_raw + stats.canon_alias + stats.canon_norm}, build majority ${stats.canon_build})\n`);
 
@@ -1039,6 +1051,9 @@ Registry Status (from IEEE listings + mac-tracker history):
   deregistered:       ${stats.status_deregistered.toLocaleString()} blocks IEEE has since deleted (deregistered_date)
   legacy:             ${stats.status_legacy.toLocaleString()} blocks only Wireshark/Nmap still carry
   lineage:            ${stats.lineage.toLocaleString()} blocks whose registrant changed (registrant_history)
+
+Device Types:
+  From database:      ${stats.type_curated.toLocaleString()} entries carry the organization's curated primary type (${stats.type_curated_changed.toLocaleString()} overrode the name-pattern guess)
 
 Vendor Names (canonical manufacturer, raw registry text kept in registrant_raw):
   Distinct before:    ${stats.canon_distinct_before.toLocaleString()} spellings

@@ -27,6 +27,9 @@ Registry Status (from IEEE listings + mac-tracker history):
   legacy:             4 blocks only Wireshark/Nmap still carry
   lineage:            7,088 blocks whose registrant changed (registrant_history)
 
+Device Types:
+  From database:      28,153 entries carry the organization's curated primary type (20,388 overrode the name-pattern guess)
+
 Vendor Names (canonical manufacturer, raw registry text kept in registrant_raw):
   Distinct before:    33,973 spellings
   Distinct after:     32,307 organizations
@@ -35,14 +38,14 @@ Vendor Names (canonical manufacturer, raw registry text kept in registrant_raw):
 
 Output Files:
   master_oui.txt      1.77 MB  (simple grep/awk format)
-  master_oui.csv      10.36 MB  (full data with addresses)
+  master_oui.csv      10.48 MB  (full data with addresses)
   master_oui.tsv      6.55 MB  (Excel/Sheets import)
-  master_oui.json     27.58 MB  (pretty-printed)
-  master_oui.min.json 21.72 MB  (compact for scripts)
+  master_oui.json     27.67 MB  (pretty-printed)
+  master_oui.min.json 21.82 MB  (compact for scripts)
   master_oui.xml      18.11 MB  (enterprise/Java)
-  master_oui.db       17.75 MB  (SQLite ready-to-query)
-  import-to-d1.sql    12.49 MB  (SQL import script)
+  master_oui.db       17.89 MB  (SQLite ready-to-query)
+  import-to-d1.sql    12.58 MB  (SQL import script)
   kismet_manuf.txt    1.77 MB  (Kismet IDS format)
   kismet_manuf.txt.gz 0.60 MB  (Kismet gzipped)
 
-Generated: 2026-09-30T02:36:03.854Z
+Generated: 2026-09-30T03:06:19.400Z
