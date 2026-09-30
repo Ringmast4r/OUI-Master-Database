@@ -1,5 +1,5 @@
 # OUI Master Database - Simple Format
-# Generated: 2026-09-30T03:06:17.772Z
+# Generated: 2026-09-30T16:42:05.542Z
 # Total Entries: 58972
 # Format: OUI<tab>Manufacturer
 # Prefixes follow Wireshark manuf notation - a /28 or /36 suffix marks a
@@ -5829,7 +5829,7 @@ A0:98:05	OpenVox Communication Co. Ltd.
 00:01:B4	Wayport, Inc.
 00:01:BA	IC-Net, Inc.
 00:01:B0	Fulltek Technology Co., Ltd.
-00:01:A9	BMW
+00:01:A9	BMW AG
 00:01:AA	Airspan Communications, Ltd.
 00:01:9E	ESS Technology
 00:02:11	Nature Worldwide Technology Corp.
@@ -8121,7 +8121,7 @@ AC:D4:00	Cisco
 38:56:B5	Peerbridge Health Inc
 0C:12:AD	HPE Aruba Networking
 6C:E2:10	Espressif
-00:1E:B8	Atlas Link Inc.
+00:1E:B8	ATLAS LINK INC.
 94:FA:57	Equalizer Technologies
 E0:C4:01	EM Microelectronic
 B0:96:48	Vantiva (Technicolor)
@@ -19613,7 +19613,7 @@ D4:22:4E	Alcatel Lucent
 F0:3A:4B	Bloombase, Inc.
 90:F1:B0	Hangzhou Anheng Info&Tech CO.,LTD
 90:DB:46	E-LEAD ELECTRONIC CO., LTD
-34:4F:5C	R&M Ag
+34:4F:5C	R&M AG
 7C:E4:AA	Private (undisclosed IEEE registrant)
 C4:29:1D	KLEMSAN ELEKTRIK ELEKTRONIK SAN.VE TIC.AS.
 FC:F8:B7	TRONTEQ Electronic
@@ -24122,7 +24122,7 @@ C8:EA:71	Espressif
 F0:B7:15	Huawei
 2C:F0:6A	Huawei
 A8:D6:01	Huawei
-BC:F9:F2	Cjsc "Stc "Teko"
+BC:F9:F2	CJSC "STC "TEKO"
 00:E1:F8	BK Technologies.com
 B4:56:F3	Westermo Network Technologies AB
 B0:0C:9D	Quectel
@@ -35846,7 +35846,7 @@ A0:E5:E9	enimai Inc
 C0:C6:87	Cisco SPVTG (Scientific Atlanta)
 C4:93:80	Speedytel technology
 00:7D:FA	Volkswagen
-E0:AE:B2	Bender GmbH & Co. KG
+E0:AE:B2	Bender GmbH & Co.KG
 F8:4A:7F	Innometriks Inc
 0C:9B:13	Shanghai Magic Mobile Telecommunication Co.Ltd.
 10:7B:EF	Zyxel
@@ -38686,7 +38686,7 @@ E8:0B:13	Akib Systems Taiwan, INC
 08:00:42	Macnica Inc.
 AA:00:03	Digital Equipment Corporation
 08:00:66	AGFA CORPORATION
-00:00:00	Officially Xerox, but 0:0:0:0:0:0 is more common
+00:00:00	Xerox
 F8:21:11	HMD Global (Nokia phones)
 EC:91:61	Foxconn (Hon Hai)
 08:00:8D	XYVISION INC.
@@ -42863,7 +42863,7 @@ C8:F1:0A:40/28	Wislink Vision (Hongkong) Technologies Co., Limited
 C8:F1:0A:30/28	CiDi Inc.
 C8:F1:0A:60/28	Nanjing Brome Communications Technology CO.,LTD
 C8:F1:0A:90/28	dss Co,. Ltd
-C8:F1:0A:80/28	Bwell Technology International Limited
+C8:F1:0A:80/28	BWELL TECHNOLOGY INTERNATIONAL LIMITED
 B8:4C:87:A0/28	Altronix Corporation
 8C:C8:F4:70/28	TableSafe
 58:E8:76:00/28	Zhuhai Raysharp Technology Co.,Ltd
@@ -46470,7 +46470,7 @@ A4:4F:29:D0/28	HALLIBURTON
 3C:39:E7:70/28	Sensor to Image GmbH
 D0:22:12:70/28	Cliptech Industria e Comercio Ltda
 D0:22:12:50/28	Shanghai Routech Co., Ltd
-D0:22:12:90/28	Uab "Salda"
+D0:22:12:90/28	UAB "SALDA"
 D0:22:12:B0/28	Schleifenbauer Holding BV
 E8:18:63:E0/28	Acopian Technical Company
 10:07:23:70/28	nanoTech Co., Ltd.
@@ -47343,7 +47343,7 @@ C8:F1:0A:20/28	E2 Invest
 70:B3:D5:71:90/36	2M Technology
 70:B3:D5:D3:30/36	VECTOR.CO.,LTD.
 70:B3:D5:6A:40/36	Acrodea, Inc.
-70:B3:D5:62:F0/36	BARCO
+70:B3:D5:62:F0/36	Barco
 70:B3:D5:9B:00/36	Clearly IP Inc
 70:B3:D5:9F:C0/36	Truecom Telesoft Private Limited
 70:B3:D5:35:60/36	BRS Sistemas Eletrônicos
@@ -47351,7 +47351,7 @@ C8:F1:0A:20/28	E2 Invest
 70:B3:D5:15:50/36	Sanwa New Tec Co.,Ltd
 70:B3:D5:A0:F0/36	OSAKI DATATECH CO., LTD.
 70:B3:D5:56:F0/36	Radikal d.o.o.
-70:B3:D5:F3:E0/36	Ооо "Ронекс"
+70:B3:D5:F3:E0/36	ООО "РОНЕКС"
 70:B3:D5:FC:E0/36	FX TECHNOLOGY LIMITED
 70:B3:D5:59:A0/36	Wagner Group GmbH
 70:B3:D5:C7:A0/36	ENTEC Electric & Electronic Co., LTD.

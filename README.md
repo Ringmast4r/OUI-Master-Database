@@ -160,8 +160,8 @@ pie showData
 
 <!-- AUTO:DEVICE_CAVEAT -->
 > ⚠ IEEE doesn't expose device category. Our classifier is a heuristic on company name +
-> known-vendor lookups, so **only 30,830 of 58,972 OUIs** (52.3%) get a category. The
-> remaining 28,142 stay `Unclassified` rather than guessed.
+> known-vendor lookups, so **only 30,863 of 58,972 OUIs** (52.3%) get a category. The
+> remaining 28,109 stay `Unclassified` rather than guessed.
 <!-- /AUTO:DEVICE_CAVEAT -->
 
 <div align="center">
@@ -170,19 +170,19 @@ pie showData
 ```mermaid
 %%{init: {'theme':'dark', 'themeVariables': {'pie1':'#1E40AF','pie2':'#3B82F6','pie3':'#60A5FA','pie4':'#93C5FD','pie5':'#FFD700','pie6':'#1E3A8A','pie7':'#00D4FF','pie8':'#9FEF00','pie9':'#FF00FF','pie10':'#8B5CF6','pie11':'#FF6B6B','pie12':'#00FF88','pieTitleTextSize':'16px','pieLegendTextSize':'12px'}}}%%
 pie showData
-    title Classified Device Types (30,830 of 58,972)
+    title Classified Device Types (30,863 of 58,972)
     "Phone" : 6665
-    "Industrial" : 3985
-    "Router" : 3781
-    "IoT" : 2242
-    "Access Point" : 2174
-    "Smart Home" : 2159
-    "Automotive" : 1191
-    "Laptop" : 1143
+    "Industrial" : 3989
+    "Router" : 3784
+    "IoT" : 2243
+    "Access Point" : 2181
+    "Smart Home" : 2163
+    "Automotive" : 1193
+    "Laptop" : 1144
     "Camera" : 1051
-    "Medical" : 857
-    "Audio" : 824
-    "Other (14 cats)" : 4758
+    "Medical" : 859
+    "Audio" : 827
+    "Other (14 cats)" : 4764
 ```
 <!-- /AUTO:DEVICE_PIE -->
 
@@ -195,17 +195,17 @@ pie showData
 | CATEGORY | COUNT | CATEGORY | COUNT |
 |:---------|:-----:|:---------|:-----:|
 | Phone        | `6,665` | Modem        | `599` |
-| Industrial   | `3,985` | Media Player | `496` |
-| Router       | `3,781` | Printer      | `455` |
-| IoT          | `2,242` | Switch       | `408` |
-| Access Point | `2,174` | VoIP         | `334` |
-| Smart Home   | `2,159` | Appliance    | `296` |
-| Automotive   | `1,191` | Gaming       | `249` |
-| Laptop       | `1,143` | Storage      | `206` |
+| Industrial   | `3,989` | Media Player | `498` |
+| Router       | `3,784` | Printer      | `456` |
+| IoT          | `2,243` | Switch       | `408` |
+| Access Point | `2,181` | VoIP         | `334` |
+| Smart Home   | `2,163` | Appliance    | `297` |
+| Automotive   | `1,193` | Gaming       | `251` |
+| Laptop       | `1,144` | Storage      | `206` |
 | Camera       | `1,051` | Server       | `153` |
-| Medical      | `857` | Wearable     | `141` |
-| Audio        | `824` | Tablet       | `52` |
-| TV           | `690` | Thermostat   | `33` |
+| Medical      | `859` | Wearable     | `142` |
+| Audio        | `827` | Tablet       | `52` |
+| TV           | `689` | Thermostat   | `33` |
 | Computer     | `646` |               |  |
 <!-- /AUTO:DEVICE_TABLE -->
 

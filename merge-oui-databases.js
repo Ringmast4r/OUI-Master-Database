@@ -251,6 +251,13 @@ if (fs.existsSync(macTrackerPath)) {
 // =====================
 // Helper: Parse IEEE CSV format
 // =====================
+// A CSV field as IEEE writes it: enclosing quotes removed, "" unescaped, inner quotes kept
+// (UAB "Teltonika Telematics" is the registrant's real name).
+function unquoteField(field) {
+  const f = field.trim();
+  return f.length >= 2 && f.startsWith('"') && f.endsWith('"') ? f.slice(1, -1).replace(/""/g, '"') : f;
+}
+
 function parseIEEECSV(filePath, registryType, statKey) {
   // Fail loudly. Skipping a missing registry used to produce a silently
   // incomplete build that the workflow would still commit and publish.
@@ -277,8 +284,8 @@ function parseIEEECSV(filePath, registryType, statKey) {
 
       const registry = matches[1].trim() || registryType;
       let assignment = matches[2].trim().replace(/"/g, '');
-      let orgName = matches[3].trim().replace(/"/g, '').replace(/""/g, '"');
-      const orgAddress = matches[4].trim().replace(/"/g, '').replace(/""/g, '"');
+      let orgName = unquoteField(matches[3]);
+      const orgAddress = unquoteField(matches[4]);
 
       if (!assignment || !orgName) continue;
 
@@ -306,7 +313,7 @@ function parseIEEECSV(filePath, registryType, statKey) {
       }
 
       // Clean up org name
-      orgName = orgName.replace(/,$/, '').replace(/\s+/g, ' ').trim();
+      orgName = orgName.replace(/\s+/g, ' ').trim().replace(/,$/, '');
 
       if (masterDB.has(ouiKey)) {
         // Merge with existing entry
@@ -554,7 +561,7 @@ if (fs.existsSync(canonPath)) {
 // Most common spelling per key within this build, for names the database lacks.
 const spellings = new Map();
 for (const entry of masterDB.values()) {
-  const name = cleanName(entry.manufacturer);
+  const name = cleanName(entry.ieee_registrant || entry.manufacturer);
   if (!name) continue;
   const key = normKey(name);
   if (!spellings.has(key)) spellings.set(key, new Map());
@@ -592,7 +599,7 @@ function resolveCanonical(name) {
 stats.type_curated = 0;
 stats.type_curated_changed = 0;
 for (const entry of masterDB.values()) {
-  const name = cleanName(entry.manufacturer);
+  const name = cleanName(entry.ieee_registrant || entry.manufacturer);
   entry.registrant_raw = entry.ieee_registrant || entry.manufacturer;
   if (!name) continue;
   const canonical = resolveCanonical(name);
@@ -650,14 +657,16 @@ for (const [key, t] of Object.entries(macTracker)) {
   if (!t.deregistered || masterDB.has(key) || !t.names.length) continue;
   const raw = t.names[t.names.length - 1];
   const bits = key.length === 8 ? 24 : key.length === 10 ? 28 : 36;
+  const resolved = resolveCanonical(raw);
+  const curatedType = canon.types[resolved] && canon.types[resolved].type;
   masterDB.set(key, {
     oui: key,
-    manufacturer: resolveCanonical(raw),
+    manufacturer: resolved,
     ieee_registrant: raw,
     registrant_raw: raw,
     registry: t.sourceFile === 'ieee-iab.csv' ? 'IAB' : REGISTRY_BY_BITS[bits],
     short_name: null,
-    device_type: classifyDeviceType(raw, null),
+    device_type: curatedType || classifyDeviceType(raw, null),
     address: null,
     registered_date: t.first,
     sources: ['mac-tracker'],

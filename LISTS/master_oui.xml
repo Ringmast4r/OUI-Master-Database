@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- OUI Master Database -->
-<!-- Generated: 2026-09-30T03:06:18.174Z -->
+<!-- Generated: 2026-09-30T16:42:06.050Z -->
 <!-- Total Entries: 58972 -->
 <oui_database>
   <entry>
@@ -6953,7 +6953,7 @@
   <entry>
     <oui>38:8A:21</oui>
     <manufacturer>Teltonika Telematics</manufacturer>
-    <registrant_raw>UAB Teltonika Telematics</registrant_raw>
+    <registrant_raw>UAB &quot;Teltonika Telematics&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>UABTeltonika</short_name>
@@ -9461,7 +9461,7 @@
   <entry>
     <oui>7C:D9:F4</oui>
     <manufacturer>Teltonika Telematics</manufacturer>
-    <registrant_raw>UAB Teltonika Telematics</registrant_raw>
+    <registrant_raw>UAB &quot;Teltonika Telematics&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>UABTeltonika</short_name>
@@ -11740,6 +11740,7 @@
   <entry>
     <oui>F4:E5:78</oui>
     <manufacturer>LLC Proizvodstvennaya Kompania TransService</manufacturer>
+    <registrant_raw>LLC Proizvodstvennaya Kompania &quot;TransService&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>LLCProizvods</short_name>
@@ -44505,6 +44506,7 @@
   <entry>
     <oui>00:1E:FC</oui>
     <manufacturer>JSC MASSA-K</manufacturer>
+    <registrant_raw>JSC &quot;MASSA-K&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>JscMassaK</short_name>
@@ -44577,6 +44579,7 @@
   <entry>
     <oui>00:1E:CB</oui>
     <manufacturer>RPC Energoautomatika Ltd</manufacturer>
+    <registrant_raw>&quot;RPC &quot;Energoautomatika&quot; Ltd</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <registrant_history>&quot;RPC &quot;Energoautomatika&quot; Ltd | 2Wire, Inc. | &quot;RPC &quot;Energoautomatika&quot; Ltd</registrant_history>
@@ -55696,8 +55699,7 @@
   </entry>
   <entry>
     <oui>00:01:A9</oui>
-    <manufacturer>BMW</manufacturer>
-    <registrant_raw>BMW AG</registrant_raw>
+    <manufacturer>BMW AG</manufacturer>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>Bmw</short_name>
@@ -77875,8 +77877,7 @@
   </entry>
   <entry>
     <oui>00:1E:B8</oui>
-    <manufacturer>Atlas Link Inc.</manufacturer>
-    <registrant_raw>ATLAS LINK INC.</registrant_raw>
+    <manufacturer>ATLAS LINK INC.</manufacturer>
     <registry>MA-L</registry>
     <status>current</status>
     <registrant_history>Fortis, Inc. | Aloys, Inc | ATLAS LINK INC.</registrant_history>
@@ -81114,6 +81115,7 @@
   <entry>
     <oui>C0:B3:C8</oui>
     <manufacturer>LLC NTC Rotek</manufacturer>
+    <registrant_raw>LLC &quot;NTC Rotek&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>LLCNTCRotek</short_name>
@@ -81624,6 +81626,7 @@
   <entry>
     <oui>58:F8:5C</oui>
     <manufacturer>LLC Proizvodstvennaya Kompania TransService</manufacturer>
+    <registrant_raw>LLC Proizvodstvennaya Kompania &quot;TransService&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>LLCProizvods</short_name>
@@ -97512,6 +97515,7 @@
   <entry>
     <oui>64:CB:5D</oui>
     <manufacturer>SIA TeleSet</manufacturer>
+    <registrant_raw>SIA &quot;TeleSet&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>SIATeleSet</short_name>
@@ -113786,6 +113790,7 @@
   <entry>
     <oui>C0:5E:6F</oui>
     <manufacturer>V. Stonkaus firma Kodinis Raktas</manufacturer>
+    <registrant_raw>V. Stonkaus firma &quot;Kodinis Raktas&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>VStonkausfir</short_name>
@@ -117692,6 +117697,7 @@
   <entry>
     <oui>A0:DE:05</oui>
     <manufacturer>JSC Irbis-T</manufacturer>
+    <registrant_raw>JSC &quot;Irbis-T&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>JSCIrbisT</short_name>
@@ -149455,7 +149461,7 @@
   <entry>
     <oui>6C:AF:AB</oui>
     <manufacturer>Teltonika Telematics</manufacturer>
-    <registrant_raw>UAB Teltonika Telematics</registrant_raw>
+    <registrant_raw>UAB &quot;Teltonika Telematics&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>UABTeltonika</short_name>
@@ -165751,6 +165757,7 @@
   <entry>
     <oui>14:CC:B3</oui>
     <manufacturer>AO GK NATEKS</manufacturer>
+    <registrant_raw>AO &quot;GK NATEKS&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>AoGkNateks</short_name>
@@ -170670,6 +170677,7 @@
   <entry>
     <oui>64:29:ED</oui>
     <manufacturer>AO PKK Milandr</manufacturer>
+    <registrant_raw>AO &quot;PKK Milandr&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>AOPKKMilandr</short_name>
@@ -171050,6 +171058,7 @@
   <entry>
     <oui>48:61:A3</oui>
     <manufacturer>Concern Axion JSC</manufacturer>
+    <registrant_raw>Concern &quot;Axion&quot; JSC</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>ConcernAxion</short_name>
@@ -188499,7 +188508,7 @@
   </entry>
   <entry>
     <oui>34:4F:5C</oui>
-    <manufacturer>R&amp;M Ag</manufacturer>
+    <manufacturer>R&amp;M AG</manufacturer>
     <registrant_raw>R&amp;amp;M AG</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
@@ -194192,6 +194201,7 @@
   <entry>
     <oui>00:B0:33</oui>
     <manufacturer>OAO Izhevskiy radiozavod</manufacturer>
+    <registrant_raw>OAO &quot;Izhevskiy radiozavod&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>OAOIzhevskiy</short_name>
@@ -196730,6 +196740,7 @@
   <entry>
     <oui>00:25:6C</oui>
     <manufacturer>Azimut Production Association JSC</manufacturer>
+    <registrant_raw>&quot;Azimut&quot; Production Association JSC</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>AzimutProduc</short_name>
@@ -231212,8 +231223,7 @@
   </entry>
   <entry>
     <oui>BC:F9:F2</oui>
-    <manufacturer>Cjsc &quot;Stc &quot;Teko&quot;</manufacturer>
-    <registrant_raw>CJSC STC TEKO</registrant_raw>
+    <manufacturer>CJSC &quot;STC &quot;TEKO&quot;</manufacturer>
     <registry>MA-L</registry>
     <status>current</status>
     <registrant_history>TEKO | CJSC &quot;STC &quot;TEKO&quot;</registrant_history>
@@ -238395,6 +238405,7 @@
   <entry>
     <oui>14:9E:5D</oui>
     <manufacturer>JSC IB Reform</manufacturer>
+    <registrant_raw>JSC &quot;IB Reform&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>JSCIBReform</short_name>
@@ -240108,6 +240119,7 @@
   <entry>
     <oui>38:FF:13</oui>
     <manufacturer>Joint Stock Company Research Instinite Masshtab</manufacturer>
+    <registrant_raw>Joint Stock Company &quot;Research Instinite &quot;Masshtab&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>JointStockRe</short_name>
@@ -257460,6 +257472,7 @@
   <entry>
     <oui>00:25:78</oui>
     <manufacturer>JSC Concern Sozvezdie</manufacturer>
+    <registrant_raw>JSC &quot;Concern &quot;Sozvezdie&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>JSCConcernSo</short_name>
@@ -273148,6 +273161,7 @@
   <entry>
     <oui>00:25:01</oui>
     <manufacturer>JSC Supertel</manufacturer>
+    <registrant_raw>JSC &quot;Supertel&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>JSCSupertel</short_name>
@@ -274943,6 +274957,7 @@
   <entry>
     <oui>00:1F:62</oui>
     <manufacturer>JSC Stilsoft</manufacturer>
+    <registrant_raw>JSC &quot;Stilsoft&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>JSCStilsoft</short_name>
@@ -310660,6 +310675,7 @@
   <entry>
     <oui>48:45:CF</oui>
     <manufacturer>LLC Proizvodstvennaya Kompania TransService</manufacturer>
+    <registrant_raw>LLC Proizvodstvennaya Kompania &quot;TransService&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>LLCProizvods</short_name>
@@ -312652,6 +312668,7 @@
   <entry>
     <oui>B4:E5:4C</oui>
     <manufacturer>LLC Elektra</manufacturer>
+    <registrant_raw>LLC &quot;Elektra&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>LLCElektra</short_name>
@@ -315686,6 +315703,7 @@
   <entry>
     <oui>CC:EB:18</oui>
     <manufacturer>OOO TSS</manufacturer>
+    <registrant_raw>OOO &quot;TSS&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>OooTss</short_name>
@@ -344167,7 +344185,7 @@
   </entry>
   <entry>
     <oui>E0:AE:B2</oui>
-    <manufacturer>Bender GmbH &amp; Co. KG</manufacturer>
+    <manufacturer>Bender GmbH &amp; Co.KG</manufacturer>
     <registrant_raw>Bender GmbH &amp;amp; Co.KG</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
@@ -347253,6 +347271,7 @@
   <entry>
     <oui>1C:BB:A8</oui>
     <manufacturer>OJSC Ufimskiy Zavod Promsvyaz</manufacturer>
+    <registrant_raw>OJSC &quot;Ufimskiy Zavod &quot;Promsvyaz&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>OJSCUfimskiy</short_name>
@@ -353400,7 +353419,6 @@
   <entry>
     <oui>00:1F:0B</oui>
     <manufacturer>Federal State Unitary Enterprise Industrial Union&quot;Electropribor&quot;</manufacturer>
-    <registrant_raw>Federal State Unitary Enterprise Industrial UnionElectropribor</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>FederalState</short_name>
@@ -356260,6 +356278,7 @@
   <entry>
     <oui>00:17:32</oui>
     <manufacturer>Science-Technical Center RISSA</manufacturer>
+    <registrant_raw>Science-Technical Center &quot;RISSA&quot;</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
     <short_name>ScienceTechn</short_name>
@@ -370645,7 +370664,7 @@
   </entry>
   <entry>
     <oui>00:00:00</oui>
-    <manufacturer>Officially Xerox, but 0:0:0:0:0:0 is more common</manufacturer>
+    <manufacturer>Xerox</manufacturer>
     <registrant_raw>XEROX CORPORATION</registrant_raw>
     <registry>MA-L</registry>
     <status>current</status>
@@ -390057,6 +390076,7 @@
   <entry>
     <oui>C4:95:4D:7</oui>
     <manufacturer>LLC TechnoEnergo</manufacturer>
+    <registrant_raw>LLC &quot;TechnoEnergo&quot;</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>LLCTechnoEne</short_name>
@@ -390863,6 +390883,7 @@
   <entry>
     <oui>E0:5A:9F:9</oui>
     <manufacturer>Gemalto Document Readers</manufacturer>
+    <registrant_raw>Gemalto &quot;Document Readers&quot;</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>GemaltoDocum</short_name>
@@ -391361,6 +391382,7 @@
   <entry>
     <oui>30:09:F9:3</oui>
     <manufacturer>OOO Microlink-Svyaz</manufacturer>
+    <registrant_raw>OOO &quot;Microlink-Svyaz&quot;</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>OOOMicrolink</short_name>
@@ -391923,6 +391945,7 @@
   <entry>
     <oui>28:2C:02:5</oui>
     <manufacturer>LLC MICROTEH</manufacturer>
+    <registrant_raw>LLC &quot;MICROTEH&quot;</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>LlcMicroteh</short_name>
@@ -392582,6 +392605,7 @@
   <entry>
     <oui>98:AA:FC:4</oui>
     <manufacturer>RPE RADICO</manufacturer>
+    <registrant_raw>RPE &quot;RADICO&quot;</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>RpeRadico</short_name>
@@ -400616,6 +400640,7 @@
   <entry>
     <oui>1C:A0:EF:C</oui>
     <manufacturer>LLC Gagar.In</manufacturer>
+    <registrant_raw>LLC &quot;Gagar.In&quot;</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>LLCGagarIn</short_name>
@@ -403169,6 +403194,7 @@
   <entry>
     <oui>84:89:EC:7</oui>
     <manufacturer>BYDA Co. Ltd.,</manufacturer>
+    <registrant_raw>BYDA Co. Ltd.</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>BYDA</short_name>
@@ -404476,6 +404502,7 @@
   <entry>
     <oui>1C:A0:D3:6</oui>
     <manufacturer>Intertecno SRL NISUTA</manufacturer>
+    <registrant_raw>Intertecno SRL &quot;NISUTA&quot;</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>IntertecnoNI</short_name>
@@ -406390,6 +406417,7 @@
   <entry>
     <oui>74:E1:4A:4</oui>
     <manufacturer>open joint stock company YUG-SISTEMA plus</manufacturer>
+    <registrant_raw>open joint stock company &quot;YUG-SISTEMA plus&quot;</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>openjointsto</short_name>
@@ -407019,6 +407047,7 @@
   <entry>
     <oui>E8:FF:1E:3</oui>
     <manufacturer>LLP NIC FORS</manufacturer>
+    <registrant_raw>LLP &quot;NIC &quot;FORS&quot;</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>LlpNicFors</short_name>
@@ -409765,8 +409794,7 @@
   </entry>
   <entry>
     <oui>C8:F1:0A:8</oui>
-    <manufacturer>Bwell Technology International Limited</manufacturer>
-    <registrant_raw>BWELL TECHNOLOGY INTERNATIONAL LIMITED</registrant_raw>
+    <manufacturer>BWELL TECHNOLOGY INTERNATIONAL LIMITED</manufacturer>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>BwellTechnol</short_name>
@@ -412443,6 +412471,7 @@
   <entry>
     <oui>A8:5B:36:B</oui>
     <manufacturer>Lampyris Plant LLC</manufacturer>
+    <registrant_raw>&quot;Lampyris Plant&quot; LLC</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>LampyrisPlan</short_name>
@@ -414693,6 +414722,7 @@
   <entry>
     <oui>E4:4C:C7:3</oui>
     <manufacturer>JSC Svyaz Inginiring M</manufacturer>
+    <registrant_raw>JSC &quot;Svyaz Inginiring M&quot;</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>JSCSvyazIngi</short_name>
@@ -415831,7 +415861,7 @@
   <entry>
     <oui>9C:43:1E:9</oui>
     <manufacturer>CONTINENT, Ltd</manufacturer>
-    <registrant_raw>CONTINENT Co. Ltd</registrant_raw>
+    <registrant_raw>&quot;CONTINENT&quot; Co. Ltd</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>CONTINENT</short_name>
@@ -428299,6 +428329,7 @@
   <entry>
     <oui>34:00:8A:2</oui>
     <manufacturer>RPE Monitor</manufacturer>
+    <registrant_raw>RPE &quot;Monitor&quot;</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>RPEMonitor</short_name>
@@ -432777,6 +432808,7 @@
   <entry>
     <oui>F4:97:9D:D</oui>
     <manufacturer>Huitec printer solution co.,</manufacturer>
+    <registrant_raw>Huitec printer solution co.</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>Huitecprinte</short_name>
@@ -438210,6 +438242,7 @@
   <entry>
     <oui>A0:22:4E:2</oui>
     <manufacturer>Closed Joint-Stock Company NORSI-TRANS</manufacturer>
+    <registrant_raw>Closed Joint-Stock Company &quot;NORSI-TRANS&quot;</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>ClosedJointS</short_name>
@@ -438499,6 +438532,7 @@
   <entry>
     <oui>44:D5:F2:E</oui>
     <manufacturer>Joint-Stock Company Research and Development Center ELVEES</manufacturer>
+    <registrant_raw>Joint-Stock Company Research and Development Center &quot;ELVEES&quot;</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>JointStockRe</short_name>
@@ -439169,6 +439203,7 @@
   <entry>
     <oui>9C:69:B4:D</oui>
     <manufacturer>Intellect module LLC</manufacturer>
+    <registrant_raw>&quot;Intellect module&quot; LLC</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>Intellectmod</short_name>
@@ -441913,6 +441948,7 @@
   <entry>
     <oui>00:55:DA:6</oui>
     <manufacturer>OOO DEKATRON</manufacturer>
+    <registrant_raw>OOO &quot;DEKATRON&quot;</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
     <short_name>OooDekatron</short_name>
@@ -442613,7 +442649,7 @@
   </entry>
   <entry>
     <oui>D0:22:12:9</oui>
-    <manufacturer>Uab &quot;Salda&quot;</manufacturer>
+    <manufacturer>UAB &quot;SALDA&quot;</manufacturer>
     <registrant_raw>UAB &amp;quot;SALDA&amp;quot;</registrant_raw>
     <registry>MA-M</registry>
     <status>current</status>
@@ -448321,6 +448357,7 @@
   <entry>
     <oui>8C:1F:64:EA:A</oui>
     <manufacturer>KB Modul, LLC</manufacturer>
+    <registrant_raw>&quot;KB &quot;Modul&quot;, LLC</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>KBModul</short_name>
@@ -448628,6 +448665,7 @@
   <entry>
     <oui>8C:1F:64:21:C</oui>
     <manufacturer>LLC EMS-Expert</manufacturer>
+    <registrant_raw>LLC &quot;EMS-Expert&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>LLCEMSExpert</short_name>
@@ -449000,6 +449038,7 @@
   <entry>
     <oui>70:B3:D5:74:6</oui>
     <manufacturer>Smart Systems LLC</manufacturer>
+    <registrant_raw>&quot;Smart Systems&quot; LLC</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>Smart</short_name>
@@ -449027,6 +449066,7 @@
   <entry>
     <oui>70:B3:D5:0F:D</oui>
     <manufacturer>JSC Ural Factories</manufacturer>
+    <registrant_raw>JSC &quot;Ural Factories&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>JSCUralFacto</short_name>
@@ -450028,7 +450068,7 @@
   <entry>
     <oui>70:B3:D5:D9:F</oui>
     <manufacturer>DIGITAL SOLUTIONS LTD</manufacturer>
-    <registrant_raw>Digital Solutions JSC</registrant_raw>
+    <registrant_raw>&quot;Digital Solutions&quot; JSC</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>DigitalSolut</short_name>
@@ -450193,6 +450233,7 @@
   <entry>
     <oui>70:B3:D5:86:F</oui>
     <manufacturer>LLC NTC ACTOR</manufacturer>
+    <registrant_raw>LLC &quot;NTC ACTOR&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>LlcNtcActor</short_name>
@@ -450565,7 +450606,7 @@
   </entry>
   <entry>
     <oui>70:B3:D5:62:F</oui>
-    <manufacturer>BARCO</manufacturer>
+    <manufacturer>Barco</manufacturer>
     <registrant_raw>BARCO, s.r.o.</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
@@ -450639,8 +450680,7 @@
   </entry>
   <entry>
     <oui>70:B3:D5:F3:E</oui>
-    <manufacturer>Ооо &quot;Ронекс&quot;</manufacturer>
-    <registrant_raw>ООО РОНЕКС</registrant_raw>
+    <manufacturer>ООО &quot;РОНЕКС&quot;</manufacturer>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>ОооРонекс</short_name>
@@ -456019,6 +456059,7 @@
   <entry>
     <oui>00:1B:C5:06:1</oui>
     <manufacturer>Scientific-Technical Center Epsilon Limited company</manufacturer>
+    <registrant_raw>Scientific-Technical Center &quot;Epsilon&quot; Limited company</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>ScientificTe</short_name>
@@ -461686,6 +461727,7 @@
   <entry>
     <oui>8C:1F:64:94:7</oui>
     <manufacturer>LLC TC Vympel</manufacturer>
+    <registrant_raw>LLC &quot;TC &quot;Vympel&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>LLCTCVympel</short_name>
@@ -462920,6 +462962,7 @@
   <entry>
     <oui>70:B3:D5:04:7</oui>
     <manufacturer>OOO ORION-R</manufacturer>
+    <registrant_raw>OOO &quot;ORION-R&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>OooOrionR</short_name>
@@ -463183,6 +463226,7 @@
   <entry>
     <oui>70:B3:D5:62:C</oui>
     <manufacturer>OOO NTC Rotek</manufacturer>
+    <registrant_raw>OOO &quot;NTC Rotek&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>OOONTCRotek</short_name>
@@ -463256,6 +463300,7 @@
   <entry>
     <oui>70:B3:D5:60:6</oui>
     <manufacturer>OOO Research and Production Center Computer Technologies</manufacturer>
+    <registrant_raw>OOO Research and Production Center &quot;Computer Technologies&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>OOOResearcha</short_name>
@@ -464179,6 +464224,7 @@
   <entry>
     <oui>70:B3:D5:10:7</oui>
     <manufacturer>OOO Alyans</manufacturer>
+    <registrant_raw>OOO &quot;Alyans&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>OOOAlyans</short_name>
@@ -465897,6 +465943,7 @@
   <entry>
     <oui>70:B3:D5:12:9</oui>
     <manufacturer>OOO Microlink-Svyaz</manufacturer>
+    <registrant_raw>OOO &quot;Microlink-Svyaz&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>OOOMicrolink</short_name>
@@ -467115,6 +467162,7 @@
   <entry>
     <oui>70:B3:D5:68:D</oui>
     <manufacturer>Meta-chrom Co. Ltd.</manufacturer>
+    <registrant_raw>&quot;Meta-chrom&quot; Co. Ltd.</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>Metachrom</short_name>
@@ -467323,6 +467371,7 @@
   <entry>
     <oui>70:B3:D5:1A:8</oui>
     <manufacturer>STC Rainbow Ltd.</manufacturer>
+    <registrant_raw>STC &quot;Rainbow&quot; Ltd.</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>STCRainbow</short_name>
@@ -476823,6 +476872,7 @@
   <entry>
     <oui>70:B3:D5:B8:4</oui>
     <manufacturer>OOO Research and Production Center Computer Technologies</manufacturer>
+    <registrant_raw>OOO Research and Production Center &quot;Computer Technologies&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>OOOResearcha</short_name>
@@ -479189,6 +479239,7 @@
   <entry>
     <oui>70:B3:D5:F2:5</oui>
     <manufacturer>JSC “Scientific Industrial Enterprise Rubin</manufacturer>
+    <registrant_raw>JSC “Scientific Industrial Enterprise &quot;Rubin&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>JSCScientifi</short_name>
@@ -480604,6 +480655,7 @@
   <entry>
     <oui>70:B3:D5:4C:4</oui>
     <manufacturer>OOO Research and Production Center Computer Technologies</manufacturer>
+    <registrant_raw>OOO Research and Production Center &quot;Computer Technologies&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>OOOResearcha</short_name>
@@ -488174,7 +488226,6 @@
   <entry>
     <oui>70:B3:D5:07:6</oui>
     <manufacturer>Private Enterprise &quot;Scientific and Production Private Enterprise&quot;Sparing-Vist Center&quot;&quot;</manufacturer>
-    <registrant_raw>Private Enterprise Scientific and Production Private EnterpriseSparing-Vist Center</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>PrivateEnter</short_name>
@@ -488447,6 +488498,7 @@
   <entry>
     <oui>70:B3:D5:6C:0</oui>
     <manufacturer>LLC NTZ Mekhanotronika</manufacturer>
+    <registrant_raw>LLC &quot;NTZ &quot;Mekhanotronika&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>LLCNTZMekhan</short_name>
@@ -489588,6 +489640,7 @@
   <entry>
     <oui>70:B3:D5:0F:9</oui>
     <manufacturer>OOO Research and Production Center Computer Technologies</manufacturer>
+    <registrant_raw>OOO Research and Production Center &quot;Computer Technologies&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>OOOResearcha</short_name>
@@ -489761,6 +489814,7 @@
   <entry>
     <oui>70:B3:D5:84:3</oui>
     <manufacturer>OOO Research and Production Center Computer Technologies</manufacturer>
+    <registrant_raw>OOO Research and Production Center &quot;Computer Technologies&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>OOOResearcha</short_name>
@@ -489907,6 +489961,7 @@
   <entry>
     <oui>70:B3:D5:F3:A</oui>
     <manufacturer>OOO Research and Production Center Computer Technologies</manufacturer>
+    <registrant_raw>OOO Research and Production Center &quot;Computer Technologies&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>OOOResearcha</short_name>
@@ -491871,6 +491926,7 @@
   <entry>
     <oui>70:B3:D5:91:F</oui>
     <manufacturer>JSC InformInvestGroup</manufacturer>
+    <registrant_raw>JSC &quot;InformInvestGroup&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>JSCInformInv</short_name>
@@ -500993,6 +501049,7 @@
   <entry>
     <oui>8C:1F:64:D3:C</oui>
     <manufacturer>KIB Energo LLC</manufacturer>
+    <registrant_raw>&quot;KIB Energo&quot; LLC</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>KIBEnergo</short_name>
@@ -502373,6 +502430,7 @@
   <entry>
     <oui>70:B3:D5:26:2</oui>
     <manufacturer>OOO Research and Production Center Computer Technologies</manufacturer>
+    <registrant_raw>OOO Research and Production Center &quot;Computer Technologies&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>OOOResearcha</short_name>
@@ -506034,6 +506092,7 @@
   <entry>
     <oui>70:B3:D5:61:5</oui>
     <manufacturer>JSC OTZVUK</manufacturer>
+    <registrant_raw>JSC &quot;OTZVUK&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>JscOtzvuk</short_name>
@@ -510460,6 +510519,7 @@
   <entry>
     <oui>8C:1F:64:C1:9</oui>
     <manufacturer>OOO Mig Trading</manufacturer>
+    <registrant_raw>OOO &quot;Mig Trading&quot;</registrant_raw>
     <registry>MA-S</registry>
     <status>current</status>
     <short_name>OOOMigTradin</short_name>
@@ -513934,6 +513994,7 @@
   <entry>
     <oui>00:50:C2:ED:A</oui>
     <manufacturer>Joint Stock Company Svyaz Inginiring M</manufacturer>
+    <registrant_raw>Joint Stock Company &quot;Svyaz Inginiring M&quot;</registrant_raw>
     <registry>IAB</registry>
     <status>current</status>
     <short_name>JointStockSv</short_name>
@@ -528291,6 +528352,7 @@
   <entry>
     <oui>00:50:C2:F9:D</oui>
     <manufacturer>JSC Kaluga Teletypes Manufacturing Plant</manufacturer>
+    <registrant_raw>JSC &quot;Kaluga Teletypes Manufacturing Plant&quot;</registrant_raw>
     <registry>IAB</registry>
     <status>current</status>
     <short_name>JSCKalugaTel</short_name>
@@ -530518,6 +530580,7 @@
   <entry>
     <oui>00:50:C2:D6:A</oui>
     <manufacturer>A&amp;T Corporation, Electrics Group , LAS R&amp;D Unit,</manufacturer>
+    <registrant_raw>A&amp;T Corporation, Electrics Group , LAS R&amp;D Unit</registrant_raw>
     <registry>IAB</registry>
     <status>current</status>
     <short_name>A&amp;TElectrics</short_name>
@@ -541102,6 +541165,7 @@
   <entry>
     <oui>00:50:C2:88:5</oui>
     <manufacturer>OOO NTK IMOS</manufacturer>
+    <registrant_raw>OOO &quot;NTK &quot;IMOS&quot;</registrant_raw>
     <registry>IAB</registry>
     <status>current</status>
     <short_name>OooNtkImos</short_name>
@@ -547346,6 +547410,7 @@
   <entry>
     <oui>00:50:C2:DB:4</oui>
     <manufacturer>ZAO NPC Kompjuternie Technologii</manufacturer>
+    <registrant_raw>ZAO NPC &quot;Kompjuternie Technologii&quot;</registrant_raw>
     <registry>IAB</registry>
     <status>current</status>
     <short_name>ZAONPCKompju</short_name>
@@ -548895,6 +548960,7 @@
   <entry>
     <oui>00:50:C2:A5:C</oui>
     <manufacturer>JSC Component-ASU</manufacturer>
+    <registrant_raw>JSC &quot;Component-ASU&quot;</registrant_raw>
     <registry>IAB</registry>
     <status>current</status>
     <short_name>JSCComponent</short_name>

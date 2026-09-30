@@ -1,4 +1,4 @@
-00:00:00	Officially Xerox, but 0:0:0:0:0:0 is more common
+00:00:00	Xerox
 00:00:01	Xerox
 00:00:02	Xerox
 00:00:03	Xerox
@@ -423,7 +423,7 @@
 00:01:A6	Cisco SPVTG (Scientific Atlanta)
 00:01:A7	UNEX TECHNOLOGY CORPORATION
 00:01:A8	Welltech Computer Co., Ltd.
-00:01:A9	BMW
+00:01:A9	BMW AG
 00:01:AA	Airspan Communications, Ltd.
 00:01:AB	Main Street Networks
 00:01:AC	Sitara Networks, Inc.
@@ -8035,7 +8035,7 @@
 00:1E:B5	Ever Sparkle Technologies Ltd
 00:1E:B6	TAG HEUER SA
 00:1E:B7	TBTech, Co., Ltd.
-00:1E:B8	Atlas Link Inc.
+00:1E:B8	ATLAS LINK INC.
 00:1E:B9	Sing Fai Technology Limited
 00:1E:BA	High Density Devices AS
 00:1E:BB	BLUELIGHT TECHNOLOGY INC.
@@ -24253,7 +24253,7 @@
 34:4E:2F	LEAR
 34:4E:E2	Huawei
 34:4F:3F	IO-Power Technology Co., Ltd.
-34:4F:5C	R&M Ag
+34:4F:5C	R&M AG
 34:4F:69	EKINOPS SAS
 34:51:6F	Skychers Creations ShenZhen Limited
 34:51:80	TCL King Electrical Appliances(Huizhou)Co.,Ltd
@@ -34533,7 +34533,7 @@
 70:B3:D5:62:C0/36	OOO NTC Rotek
 70:B3:D5:62:D0/36	elements
 70:B3:D5:62:E0/36	LINEAGE POWER PVT LTD.,
-70:B3:D5:62:F0/36	BARCO
+70:B3:D5:62:F0/36	Barco
 70:B3:D5:63:00/36	LGE
 70:B3:D5:63:10/36	SENSO2ME
 70:B3:D5:63:20/36	Power Electronics Espana, S.L.
@@ -36850,7 +36850,7 @@
 70:B3:D5:F3:B0/36	Epdm Pty Ltd
 70:B3:D5:F3:C0/36	Gigaray
 70:B3:D5:F3:D0/36	KAYA Instruments
-70:B3:D5:F3:E0/36	Ооо "Ронекс"
+70:B3:D5:F3:E0/36	ООО "РОНЕКС"
 70:B3:D5:F3:F0/36	comtac AG
 70:B3:D5:F4:00/36	HORIZON.INC
 70:B3:D5:F4:10/36	DUEVI SRL
@@ -50372,7 +50372,7 @@ BC:F7:30	Samsung Electronics
 BC:F8:11	Xiamen DNAKE Technology Co.,Ltd
 BC:F8:7E	Arcadyan
 BC:F8:8B	ZTE
-BC:F9:F2	Cjsc "Stc "Teko"
+BC:F9:F2	CJSC "STC "TEKO"
 BC:FA:B8	Guangzhou Shiyuan (CVTE)
 BC:FA:BA	Mellanox Technologies
 BC:FA:EB	Cisco
@@ -51990,7 +51990,7 @@ C8:F1:0A:40/28	Wislink Vision (Hongkong) Technologies Co., Limited
 C8:F1:0A:50/28	Shenzhen DO Intelligent Technology Co., Ltd
 C8:F1:0A:60/28	Nanjing Brome Communications Technology CO.,LTD
 C8:F1:0A:70/28	Moon Investment (Hong Kong) Limited
-C8:F1:0A:80/28	Bwell Technology International Limited
+C8:F1:0A:80/28	BWELL TECHNOLOGY INTERNATIONAL LIMITED
 C8:F1:0A:90/28	dss Co,. Ltd
 C8:F1:0A:B0/28	Vebo Genossenschaft
 C8:F1:0A:C0/28	Changzhou Siri Electric Technology Co.,Ltd.
@@ -52757,7 +52757,7 @@ D0:22:12:50/28	Shanghai Routech Co., Ltd
 D0:22:12:60/28	URANO INDUSTRIA DE BALANCAS E EQUIPAMENTOS LTDA
 D0:22:12:70/28	Cliptech Industria e Comercio Ltda
 D0:22:12:80/28	Shenzhen SIC Technology. Co., Ltd.
-D0:22:12:90/28	Uab "Salda"
+D0:22:12:90/28	UAB "SALDA"
 D0:22:12:A0/28	GNS-GmbH
 D0:22:12:B0/28	Schleifenbauer Holding BV
 D0:22:12:C0/28	Xperio Labs Ltd.
@@ -55099,7 +55099,7 @@ E0:AC:F1	Cisco
 E0:AD:9B	Huawei
 E0:AE:5E	Alps Alpine
 E0:AE:A2	Huawei
-E0:AE:B2	Bender GmbH & Co. KG
+E0:AE:B2	Bender GmbH & Co.KG
 E0:AE:ED	LOENK
 E0:AF:4B	Pluribus Networks, Inc.
 E0:AF:4F	Deutsche Telekom AG
