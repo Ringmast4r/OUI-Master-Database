@@ -183,45 +183,64 @@ const stats = {
 // =====================
 // Load HDM Mac-Tracker Historical Data
 // =====================
-let macTrackerHistory = {};
+// Every source spells a block differently (IEEE "00:55:DA:0", Wireshark
+// "00:55:DA:00/28", Nmap "0055DA0", mac-tracker "0055da00000/28"). One key form
+// per block - the IEEE one - or the same assignment lands in the file twice.
+//   24-bit -> XX:XX:XX   28-bit -> XX:XX:XX:X   36-bit -> XX:XX:XX:XX:X
+function canonicalKey(raw) {
+  let s = String(raw).trim();
+  let bits = 0;
+  const mask = s.match(/\/(\d+)$/);
+  if (mask) {
+    bits = parseInt(mask[1], 10);
+    s = s.replace(/\/\d+$/, '');
+  }
+  const hex = s.replace(/[^0-9A-Fa-f]/g, '').toUpperCase();
+  if (!bits) bits = { 6: 24, 7: 28, 9: 36 }[hex.length] || 0;
+  const digits = { 24: 6, 28: 7, 36: 9 }[bits];
+  if (!digits || hex.length < digits) return null;
+  const h = hex.slice(0, digits);
+  const key = bits === 24 ? `${h.substr(0,2)}:${h.substr(2,2)}:${h.substr(4,2)}`
+    : bits === 28 ? `${h.substr(0,2)}:${h.substr(2,2)}:${h.substr(4,2)}:${h.substr(6,1)}`
+    : `${h.substr(0,2)}:${h.substr(2,2)}:${h.substr(4,2)}:${h.substr(6,2)}:${h.substr(8,1)}`;
+  return { key, bits };
+}
+
+const REGISTRY_BY_BITS = { 24: 'MA-L', 28: 'MA-M', 36: 'MA-S' };
+
+// mac-tracker (runZero, MIT): every add / change / delete the IEEE registries
+// have published since ~1998. Used for the first registration date, for the
+// registrant lineage, and to tell a deregistered block from a merely
+// unlisted one.
+let macTrackerHistory = {};   // key -> first registration date (kept for the existing consumers)
+const macTracker = {};        // key -> { first, last, lastType, deregistered, names[], sourceFile }
 const macTrackerPath = path.join(SOURCES_DIR, 'mac_tracker_history.json');
 if (fs.existsSync(macTrackerPath)) {
   console.log('📖 Loading HDM mac-tracker historical data...');
   try {
-    const rawData = fs.readFileSync(macTrackerPath, 'utf8');
-    const macTrackerData = JSON.parse(rawData);
-
-    // Build a lookup map: OUI -> first registration date
-    for (const [key, history] of Object.entries(macTrackerData)) {
-      // Key format: "000000000000/24" -> extract first 6 hex chars for MA-L
-      const hexPart = key.split('/')[0].toLowerCase();
-      const prefixLength = parseInt(key.split('/')[1]) || 24;
-
-      // Find the first "add" entry for registration date
-      const addEntry = history.find(h => h.t === 'add');
-      if (addEntry && addEntry.d) {
-        let ouiKey;
-        if (prefixLength === 24) {
-          // MA-L: first 6 hex chars
-          const oui = hexPart.substring(0, 6).toUpperCase();
-          ouiKey = `${oui.substr(0,2)}:${oui.substr(2,2)}:${oui.substr(4,2)}`;
-        } else if (prefixLength === 28) {
-          // MA-M: first 7 hex chars
-          const oui = hexPart.substring(0, 7).toUpperCase();
-          ouiKey = `${oui.substr(0,2)}:${oui.substr(2,2)}:${oui.substr(4,2)}:${oui.substr(6,1)}`;
-        } else if (prefixLength === 36) {
-          // MA-S/IAB: first 9 hex chars
-          const oui = hexPart.substring(0, 9).toUpperCase();
-          ouiKey = `${oui.substr(0,2)}:${oui.substr(2,2)}:${oui.substr(4,2)}:${oui.substr(6,2)}:${oui.substr(8,1)}`;
-        }
-
-        if (ouiKey && !macTrackerHistory[ouiKey]) {
-          macTrackerHistory[ouiKey] = addEntry.d;
-          stats.mac_tracker++;
-        }
+    const macTrackerData = JSON.parse(fs.readFileSync(macTrackerPath, 'utf8'));
+    for (const [rawKey, history] of Object.entries(macTrackerData)) {
+      const ck = canonicalKey(rawKey);
+      if (!ck || !Array.isArray(history) || !history.length) continue;
+      const events = [...history].sort((a, b) => (a.d || '').localeCompare(b.d || '') || (a.t === 'add' ? -1 : 1));
+      const names = [];
+      for (const e of events) {
+        const o = (e.o || '').replace(/\s+/g, ' ').trim();
+        if (o && names[names.length - 1] !== o) names.push(o);
+      }
+      const first = (events.find(e => e.t === 'add') || events[0]).d || null;
+      const last = events[events.length - 1];
+      const info = {
+        first, last: last.d || null, lastType: last.t || null,
+        deregistered: last.t === 'delete', names,
+        sourceFile: (events.find(e => e.s) || {}).s || '',
+      };
+      if (!macTracker[ck.key]) {
+        macTracker[ck.key] = info;
+        if (first) { macTrackerHistory[ck.key] = first; stats.mac_tracker++; }
       }
     }
-    console.log(`✅ Mac-Tracker: ${stats.mac_tracker} registration dates loaded\n`);
+    console.log(`✅ Mac-Tracker: ${stats.mac_tracker} registration dates loaded (${Object.keys(macTracker).length} blocks with history)\n`);
   } catch (err) {
     console.log(`⚠️  Mac-Tracker: Failed to parse (${err.message}), continuing without historical dates...\n`);
   }
@@ -304,6 +323,7 @@ function parseIEEECSV(filePath, registryType, statKey) {
         masterDB.set(ouiKey, {
           oui: ouiDisplay,
           manufacturer: orgName,
+          ieee_registrant: orgName,
           registry: registry,
           short_name: null,
           device_type: classifyDeviceType(orgName, null),
@@ -373,22 +393,11 @@ for (const line of wiresharkLines) {
     const parts = trimmed.split('\t');
     if (parts.length < 2) continue;
 
-    let oui = parts[0].trim().toUpperCase();
+    const ck = canonicalKey(parts[0]);
+    if (!ck) continue;
+    const oui = ck.key;
     const shortName = parts[1].trim();
     const longName = parts[2]?.split('#')[0].trim();
-
-    // Normalize OUI format (handle 6-digit, 7-digit, 9-digit formats)
-    if (oui.includes(':')) {
-      // Already in XX:XX:XX format
-    } else if (oui.length === 6) {
-      oui = `${oui.substr(0,2)}:${oui.substr(2,2)}:${oui.substr(4,2)}`;
-    } else if (oui.length === 7) {
-      // 28-bit OUI (MA-M): XX:XX:XX:X
-      oui = `${oui.substr(0,2)}:${oui.substr(2,2)}:${oui.substr(4,2)}`;
-    } else if (oui.length === 9) {
-      // 36-bit OUI (MA-S): XX:XX:XX:XX:X
-      oui = `${oui.substr(0,2)}:${oui.substr(2,2)}:${oui.substr(4,2)}`;
-    }
 
     const manufacturer = longName || shortName;
 
@@ -408,7 +417,7 @@ for (const line of wiresharkLines) {
       masterDB.set(oui, {
         oui,
         manufacturer,
-        registry: 'MA-L',
+        registry: REGISTRY_BY_BITS[ck.bits],
         short_name: shortName,
         device_type: classifyDeviceType(manufacturer, shortName),
         address: null,
@@ -442,13 +451,10 @@ for (const line of nmapLines) {
     const parts = trimmed.split(' ');
     if (parts.length < 2) continue;
 
-    let prefix = parts[0].trim().toUpperCase();
+    const ck = canonicalKey(parts[0]);
+    if (!ck) continue;
+    const prefix = ck.key;
     const manufacturer = parts.slice(1).join(' ').trim();
-
-    // Convert to XX:XX:XX format
-    if (prefix.length === 6) {
-      prefix = `${prefix.substr(0,2)}:${prefix.substr(2,2)}:${prefix.substr(4,2)}`;
-    }
 
     if (masterDB.has(prefix)) {
       // Merge with existing entry
@@ -464,7 +470,7 @@ for (const line of nmapLines) {
       masterDB.set(prefix, {
         oui: prefix,
         manufacturer,
-        registry: 'MA-L',
+        registry: REGISTRY_BY_BITS[ck.bits],
         short_name: null,
         device_type: classifyDeviceType(manufacturer, null),
         address: null,
@@ -566,35 +572,92 @@ stats.canon_norm = 0;
 stats.canon_build = 0;
 stats.canon_changed = 0;
 stats.canon_distinct_before = new Set([...masterDB.values()].map(e => e.manufacturer)).size;
+
+// Resolve one registrant string the way the database does: exact string, curated
+// alias, normalized key, then the most common spelling in this build.
+function resolveCanonical(name) {
+  let canonical = canon.raw[name];
+  if (canonical) { stats.canon_raw++; return canonical; }
+  for (const [re, aliasName] of canon.aliases) {
+    if (re.test(name)) { stats.canon_alias++; return aliasName; }
+  }
+  const key = normKey(name);
+  canonical = canon.norm[key];
+  if (canonical) { stats.canon_norm++; return canonical; }
+  stats.canon_build++;
+  return majority.get(key) || name;
+}
+
 for (const entry of masterDB.values()) {
   const name = cleanName(entry.manufacturer);
-  entry.registrant_raw = entry.manufacturer;
+  entry.registrant_raw = entry.ieee_registrant || entry.manufacturer;
   if (!name) continue;
-  let canonical = canon.raw[name];
-  if (canonical) {
-    stats.canon_raw++;
-  } else {
-    for (const [re, aliasName] of canon.aliases) {
-      if (re.test(name)) { canonical = aliasName; break; }
-    }
-    if (canonical) {
-      stats.canon_alias++;
-    } else {
-      const key = normKey(name);
-      canonical = canon.norm[key];
-      if (canonical) {
-        stats.canon_norm++;
-      } else {
-        canonical = majority.get(key) || name;
-        stats.canon_build++;
-      }
-    }
-  }
+  const canonical = resolveCanonical(name);
   if (canonical !== entry.manufacturer) stats.canon_changed++;
   entry.manufacturer = canonical;
 }
 stats.canon_distinct_after = new Set([...masterDB.values()].map(e => e.manufacturer)).size;
 console.log(`✅ Vendor names: ${stats.canon_distinct_before} distinct -> ${stats.canon_distinct_after} (${stats.canon_changed} entries renamed; from database ${stats.canon_raw + stats.canon_alias + stats.canon_norm}, build majority ${stats.canon_build})\n`);
+
+// =====================
+// 3c. Registry status from mac-tracker
+// =====================
+// A block IEEE lists today is `current`. One IEEE has published a delete for is
+// `deregistered` (with the date). One only Wireshark or Nmap still carry, with no
+// delete on record, is `legacy` - kept, because old captures still need it, but
+// never dressed up as a current registration.
+console.log('🕰️  Marking registry status and registrant lineage...');
+stats.status_current = 0;
+stats.status_deregistered = 0;
+stats.status_legacy = 0;
+stats.lineage = 0;
+for (const [key, entry] of masterDB) {
+  const t = macTracker[key];
+  const listed = entry.sources.includes('IEEE');
+  if (listed) {
+    entry.status = 'current';
+    stats.status_current++;
+  } else if (t && t.deregistered) {
+    entry.status = 'deregistered';
+    stats.status_deregistered++;
+  } else {
+    entry.status = 'legacy';
+    stats.status_legacy++;
+  }
+  entry.deregistered_date = entry.status === 'deregistered' ? t.last : null;
+  entry.registrant_history = t && t.names.length > 1 ? t.names.join(' | ') : null;
+  if (entry.registrant_history) stats.lineage++;
+  if (!entry.registered_date && t && t.first) entry.registered_date = t.first;
+  if (!listed && t && t.sourceFile === 'ieee-iab.csv') entry.registry = 'IAB';
+}
+
+// Blocks IEEE has deleted survive in no current list at all - only in the
+// tracker's history. Old captures still carry their MACs, so they are added
+// here from the last registrant IEEE published, dated and flagged.
+for (const [key, t] of Object.entries(macTracker)) {
+  if (!t.deregistered || masterDB.has(key) || !t.names.length) continue;
+  const raw = t.names[t.names.length - 1];
+  const bits = key.length === 8 ? 24 : key.length === 10 ? 28 : 36;
+  masterDB.set(key, {
+    oui: key,
+    manufacturer: resolveCanonical(raw),
+    ieee_registrant: raw,
+    registrant_raw: raw,
+    registry: t.sourceFile === 'ieee-iab.csv' ? 'IAB' : REGISTRY_BY_BITS[bits],
+    short_name: null,
+    device_type: classifyDeviceType(raw, null),
+    address: null,
+    registered_date: t.first,
+    sources: ['mac-tracker'],
+    status: 'deregistered',
+    deregistered_date: t.last,
+    registrant_history: t.names.length > 1 ? t.names.join(' | ') : null,
+  });
+  stats.status_deregistered++;
+  if (t.names.length > 1) stats.lineage++;
+}
+stats.unique = masterDB.size;
+console.log(`✅ Status: ${stats.status_current} current, ${stats.status_deregistered} deregistered, ${stats.status_legacy} legacy; ${stats.lineage} blocks carry a registrant lineage\n`);
 
 // =====================
 // 4. Generate Outputs
@@ -604,14 +667,15 @@ console.log('💾 Generating output files...\n');
 stats.unique = masterDB.size;
 
 // 4.1: CSV Output
-const csvLines = ['oui,manufacturer,registry,short_name,device_type,registered_date,address,sources,registrant_raw'];
+const csvLines = ['oui,manufacturer,registry,short_name,device_type,registered_date,address,sources,registrant_raw,status,deregistered_date,registrant_history'];
 for (const [oui, entry] of masterDB) {
   const escapedManufacturer = entry.manufacturer.replace(/"/g, '""');
   const escapedAddress = (entry.address || '').replace(/"/g, '""');
   const escapedRaw = (entry.registrant_raw || '').replace(/"/g, '""');
+  const escapedHistory = (entry.registrant_history || '').replace(/"/g, '""');
   const sources = entry.sources.join('+');
   csvLines.push(
-    `${entry.oui},"${escapedManufacturer}",${entry.registry},${entry.short_name || ''},${entry.device_type || ''},${entry.registered_date || ''},"${escapedAddress}",${sources},"${escapedRaw}"`
+    `${entry.oui},"${escapedManufacturer}",${entry.registry},${entry.short_name || ''},${entry.device_type || ''},${entry.registered_date || ''},"${escapedAddress}",${sources},"${escapedRaw}",${entry.status},${entry.deregistered_date || ''},"${escapedHistory}"`
   );
 }
 fs.writeFileSync(path.join(OUTPUT_DIR, 'master_oui.csv'), csvLines.join('\n'));
@@ -725,6 +789,9 @@ for (const [oui, entry] of masterDB) {
   jsonDB[oui] = {
     manufacturer: entry.manufacturer,
     registrant_raw: entry.registrant_raw,
+    status: entry.status,
+    deregistered_date: entry.deregistered_date,
+    registrant_history: entry.registrant_history,
     registry: entry.registry,
     short_name: entry.short_name,
     device_type: entry.device_type,
@@ -756,6 +823,9 @@ const sqlLines = [
   '  address TEXT,',
   '  sources TEXT,',
   '  registrant_raw TEXT,',
+  '  status TEXT,',
+  '  deregistered_date TEXT,',
+  '  registrant_history TEXT,',
   '  last_updated TEXT DEFAULT CURRENT_TIMESTAMP',
   ');',
   '',
@@ -772,14 +842,15 @@ const ouiArray = Array.from(masterDB.values());
 for (let i = 0; i < ouiArray.length; i += BATCH_SIZE) {
   const batch = ouiArray.slice(i, i + BATCH_SIZE);
   sqlLines.push(`-- Batch ${Math.floor(i / BATCH_SIZE) + 1} (${batch.length} entries)`);
-  sqlLines.push('INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw) VALUES');
+  sqlLines.push('INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES');
 
   const values = batch.map(entry => {
+    const q = (v) => (v ? "'" + String(v).replace(/'/g, "''") + "'" : 'NULL');
     const escapedManuf = entry.manufacturer.replace(/'/g, "''");
     const escapedAddr = (entry.address || '').replace(/'/g, "''");
     const escapedRaw = (entry.registrant_raw || '').replace(/'/g, "''");
     const sources = entry.sources.join('+');
-    return `  ('${entry.oui}', '${escapedManuf}', '${entry.registry}', ${entry.short_name ? "'" + entry.short_name.replace(/'/g, "''") + "'" : 'NULL'}, ${entry.device_type ? "'" + entry.device_type + "'" : 'NULL'}, ${entry.registered_date ? "'" + entry.registered_date + "'" : 'NULL'}, '${escapedAddr}', '${sources}', '${escapedRaw}')`;
+    return `  ('${entry.oui}', '${escapedManuf}', '${entry.registry}', ${q(entry.short_name)}, ${q(entry.device_type)}, ${q(entry.registered_date)}, '${escapedAddr}', '${sources}', '${escapedRaw}', '${entry.status}', ${q(entry.deregistered_date)}, ${q(entry.registrant_history)})`;
   });
 
   sqlLines.push(values.join(',\n') + ';');
@@ -841,10 +912,10 @@ fs.writeFileSync(path.join(OUTPUT_DIR, 'master_oui.txt'), txtLines.join('\n'));
 console.log(`✅ TXT: ${OUTPUT_DIR}/master_oui.txt (${stats.unique} entries)`);
 
 // 4.5: TSV Output (Tab-separated, clean import to Excel/Sheets)
-const tsvLines = ['OUI\tManufacturer\tRegistry\tShort_Name\tRegistered_Date\tSources\tRegistrant_Raw'];
+const tsvLines = ['OUI\tManufacturer\tRegistry\tShort_Name\tRegistered_Date\tSources\tRegistrant_Raw\tStatus\tDeregistered_Date\tRegistrant_History'];
 for (const [oui, entry] of masterDB) {
   const sources = entry.sources.join('+');
-  tsvLines.push(`${entry.oui}\t${entry.manufacturer}\t${entry.registry}\t${entry.short_name || ''}\t${entry.registered_date || ''}\t${sources}\t${entry.registrant_raw || ''}`);
+  tsvLines.push(`${entry.oui}\t${entry.manufacturer}\t${entry.registry}\t${entry.short_name || ''}\t${entry.registered_date || ''}\t${sources}\t${entry.registrant_raw || ''}\t${entry.status}\t${entry.deregistered_date || ''}\t${entry.registrant_history || ''}`);
 }
 fs.writeFileSync(path.join(OUTPUT_DIR, 'master_oui.tsv'), tsvLines.join('\n'));
 console.log(`✅ TSV: ${OUTPUT_DIR}/master_oui.tsv (${stats.unique} entries)`);
@@ -871,6 +942,9 @@ for (const [oui, entry] of masterDB) {
   xmlLines.push(`    <manufacturer>${escapeXml(entry.manufacturer)}</manufacturer>`);
   if (entry.registrant_raw && entry.registrant_raw !== entry.manufacturer) xmlLines.push(`    <registrant_raw>${escapeXml(entry.registrant_raw)}</registrant_raw>`);
   xmlLines.push(`    <registry>${escapeXml(entry.registry)}</registry>`);
+  xmlLines.push(`    <status>${entry.status}</status>`);
+  if (entry.deregistered_date) xmlLines.push(`    <deregistered_date>${entry.deregistered_date}</deregistered_date>`);
+  if (entry.registrant_history) xmlLines.push(`    <registrant_history>${escapeXml(entry.registrant_history)}</registrant_history>`);
   if (entry.short_name) xmlLines.push(`    <short_name>${escapeXml(entry.short_name)}</short_name>`);
   if (entry.registered_date) xmlLines.push(`    <registered_date>${entry.registered_date}</registered_date>`);
   xmlLines.push(`    <sources>${entry.sources.join(',')}</sources>`);
@@ -895,17 +969,21 @@ db.exec(`
     registered_date TEXT,
     address TEXT,
     sources TEXT,
-    registrant_raw TEXT
+    registrant_raw TEXT,
+    status TEXT,
+    deregistered_date TEXT,
+    registrant_history TEXT
   );
   CREATE INDEX idx_manufacturer ON oui_registry(manufacturer);
   CREATE INDEX idx_short_name ON oui_registry(short_name);
   CREATE INDEX idx_registry ON oui_registry(registry);
   CREATE INDEX idx_registered_date ON oui_registry(registered_date);
+  CREATE INDEX idx_status ON oui_registry(status);
 `);
-const insertStmt = db.prepare('INSERT INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)');
+const insertStmt = db.prepare('INSERT INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)');
 const insertMany = db.transaction((entries) => {
   for (const entry of entries) {
-    insertStmt.run(entry.oui, entry.manufacturer, entry.registry, entry.short_name, entry.device_type, entry.registered_date, entry.address || '', entry.sources.join('+'), entry.registrant_raw || '');
+    insertStmt.run(entry.oui, entry.manufacturer, entry.registry, entry.short_name, entry.device_type, entry.registered_date, entry.address || '', entry.sources.join('+'), entry.registrant_raw || '', entry.status, entry.deregistered_date, entry.registrant_history);
   }
 });
 insertMany(Array.from(masterDB.values()));
@@ -955,6 +1033,12 @@ Historical Data:
 Results:
   Unique OUIs:        ${stats.unique.toLocaleString()} entries
   Merged Entries:     ${stats.merged.toLocaleString()} (same OUI from multiple sources)
+
+Registry Status (from IEEE listings + mac-tracker history):
+  current:            ${stats.status_current.toLocaleString()} blocks IEEE lists today
+  deregistered:       ${stats.status_deregistered.toLocaleString()} blocks IEEE has since deleted (deregistered_date)
+  legacy:             ${stats.status_legacy.toLocaleString()} blocks only Wireshark/Nmap still carry
+  lineage:            ${stats.lineage.toLocaleString()} blocks whose registrant changed (registrant_history)
 
 Vendor Names (canonical manufacturer, raw registry text kept in registrant_raw):
   Distinct before:    ${stats.canon_distinct_before.toLocaleString()} spellings

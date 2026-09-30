@@ -18,25 +18,31 @@ Historical Data:
   Mac-Tracker:        58,995 registration dates
 
 Results:
-  Unique OUIs:        90,417 entries
-  Merged Entries:     78,962 (same OUI from multiple sources)
+  Unique OUIs:        58,972 entries
+  Merged Entries:     110,501 (same OUI from multiple sources)
+
+Registry Status (from IEEE listings + mac-tracker history):
+  current:            58,874 blocks IEEE lists today
+  deregistered:       94 blocks IEEE has since deleted (deregistered_date)
+  legacy:             4 blocks only Wireshark/Nmap still carry
+  lineage:            7,088 blocks whose registrant changed (registrant_history)
 
 Vendor Names (canonical manufacturer, raw registry text kept in registrant_raw):
-  Distinct before:    42,143 spellings
-  Distinct after:     32,469 organizations
-  Entries renamed:    35,515
-  Resolved by:        database 90,186 (exact 72,408, alias 2,515, key 15,263), build majority 231
+  Distinct before:    33,973 spellings
+  Distinct after:     32,307 organizations
+  Entries renamed:    26,099
+  Resolved by:        database 58,913 (exact 48,892, alias 2,406, key 7,615), build majority 59
 
 Output Files:
-  master_oui.txt      2.97 MB  (simple grep/awk format)
-  master_oui.csv      11.50 MB  (full data with addresses)
-  master_oui.tsv      7.55 MB  (Excel/Sheets import)
-  master_oui.json     30.78 MB  (pretty-printed)
-  master_oui.min.json 23.96 MB  (compact for scripts)
-  master_oui.xml      21.43 MB  (enterprise/Java)
-  master_oui.db       20.84 MB  (SQLite ready-to-query)
-  import-to-d1.sql    13.95 MB  (SQL import script)
-  kismet_manuf.txt    2.97 MB  (Kismet IDS format)
-  kismet_manuf.txt.gz 0.65 MB  (Kismet gzipped)
+  master_oui.txt      1.77 MB  (simple grep/awk format)
+  master_oui.csv      10.36 MB  (full data with addresses)
+  master_oui.tsv      6.55 MB  (Excel/Sheets import)
+  master_oui.json     27.58 MB  (pretty-printed)
+  master_oui.min.json 21.72 MB  (compact for scripts)
+  master_oui.xml      18.11 MB  (enterprise/Java)
+  master_oui.db       17.75 MB  (SQLite ready-to-query)
+  import-to-d1.sql    12.49 MB  (SQL import script)
+  kismet_manuf.txt    1.77 MB  (Kismet IDS format)
+  kismet_manuf.txt.gz 0.60 MB  (Kismet gzipped)
 
-Generated: 2026-09-30T00:49:34.037Z
+Generated: 2026-09-30T02:36:03.854Z
