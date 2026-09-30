@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T03:06:09+00:00",
+ "generated": "2026-09-30T03:56:56+00:00",
  "source": "hardware-devices.db (Types of Hardware Devices)",
  "registries_listed": "2026-09-30",
  "organizations": 39148,
@@ -4008,9 +4008,9 @@
   "BAODING FORLINX EMBEDDEDTECHNOLOGY CO., LTD": "BAODING FORLINX EMBEDDEDTECHNOLOGY CO., LTD",
   "BAOLIHDER CO.,LTD.": "BAOLIHDER CO.,LTD.",
   "BAP Precision Ltd.": "BAP Precision Ltd.",
-  "BARCO": "BARCO",
+  "BARCO": "Barco",
   "BARCO CONTROL ROOMS GMBH": "BARCO CONTROL ROOMS GMBH",
-  "BARCO, s.r.o.": "BARCO",
+  "BARCO, s.r.o.": "Barco",
   "BARCONET N.V.": "BARCONET N.V.",
   "BARRISTER INFO SYS CORP": "BARRISTER INFO SYS CORP",
   "BARRON MCCANN LTD.": "BARRON MCCANN LTD.",
@@ -93710,12 +93710,6 @@
    "type": "IoT",
    "type_id": "single-board-computer",
    "confidence": 0.95,
-   "source": "research-2026-09-13-wave3"
-  },
-  "BARCO": {
-   "type": "TV",
-   "type_id": "projector",
-   "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
   "BARCO CONTROL ROOMS GMBH": {
