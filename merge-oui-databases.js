@@ -482,6 +482,121 @@ for (const line of nmapLines) {
 console.log(`✅ Nmap: ${stats.nmap} entries parsed\n`);
 
 // =====================
+// 3b. Canonicalize vendor names (GitHub issue #1)
+// =====================
+// IEEE keeps every spelling a registrant ever typed ('Nintendo Co., Ltd.' next
+// to 'Nintendo Co.,Ltd'), and the merge above passes those strings through
+// verbatim. hardware-devices.db (Types of Hardware Devices) already resolves
+// every registrant to one organization, so data/organizations.json - exported
+// from it by scripts/export_org_canon.py - is applied here in the order the
+// database itself resolves a name: exact registrant string, then the curated
+// regex aliases, then the normalized key. Names the database has never seen
+// fall back to the most common spelling within this build. The literal
+// registry text is kept in registrant_raw.
+console.log('🏷️  Canonicalizing vendor names...');
+
+const NAME_SUFFIXES = new Set(`inc incorporated corp corporation co company cos ltd limited ltda llc llp lp plc pllc lc
+gmbh mbh ag kg kgaa se sa sas sarl sl slu spa srl sro bv nv oy oyj ab as asa aps
+pty pte pvt private kk ooo zao oao jsc pjsc ojsc cjsc bhd sdn tbk doo ad cv de rl
+ek ug ev eg ou uab zoo spzoo kft zrt nyrt rt sae sal wll fzco fze fzllc dmcc lda
+holding holdings group the`.split(/\s+/));
+
+// Port of hwdb.norm_key: case, accents, punctuation, parentheticals and legal
+// suffixes removed, so 'Apple, Inc.' and 'APPLE INC' both become 'apple'.
+function normKey(name) {
+  if (!name) return '';
+  let s = name.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase();
+  s = s.replace(/\([^)]*\)|\[[^\]]*\]/g, ' ');
+  s = s.replace(/&/g, ' and ');
+  s = s.replace(/[^a-z0-9]+/g, ' ');
+  const merged = [];
+  let run = '';
+  for (const t of s.split(' ').filter(Boolean)) {
+    if (t.length === 1 && /[a-z]/.test(t)) { run += t; continue; }  // 'b v' -> 'bv'
+    if (run) { merged.push(run); run = ''; }
+    merged.push(t);
+  }
+  if (run) merged.push(run);
+  while (merged.length && NAME_SUFFIXES.has(merged[merged.length - 1])) merged.pop();
+  while (merged.length && merged[0] === 'the') merged.shift();
+  return merged.join(' ') || name.trim().toLowerCase().replace(/\s+/g, ' ');
+}
+
+function cleanName(name) {
+  return (name || '').replace(/\s+/g, ' ').trim();
+}
+
+const canon = { raw: {}, norm: {}, aliases: [] };
+const canonPath = path.join('data', 'organizations.json');
+if (fs.existsSync(canonPath)) {
+  const loaded = JSON.parse(fs.readFileSync(canonPath, 'utf8'));
+  canon.raw = loaded.raw || {};
+  canon.norm = loaded.norm || {};
+  for (const [pattern, name] of loaded.aliases || []) {
+    try {
+      canon.aliases.push([new RegExp(pattern, 'i'), name]);
+    } catch (err) {
+      console.log(`⚠️  Alias pattern skipped (not valid in JavaScript): ${pattern}`);
+    }
+  }
+  console.log(`📖 Organization map: ${Object.keys(canon.raw).length} registrant names, ${Object.keys(canon.norm).length} keys, ${canon.aliases.length} aliases (registries listed ${loaded.registries_listed})`);
+} else {
+  console.log('⚠️  data/organizations.json not found - vendor names are only unified within this build');
+}
+
+// Most common spelling per key within this build, for names the database lacks.
+const spellings = new Map();
+for (const entry of masterDB.values()) {
+  const name = cleanName(entry.manufacturer);
+  if (!name) continue;
+  const key = normKey(name);
+  if (!spellings.has(key)) spellings.set(key, new Map());
+  const counts = spellings.get(key);
+  counts.set(name, (counts.get(name) || 0) + 1);
+}
+const majority = new Map();
+for (const [key, counts] of spellings) {
+  majority.set(key, [...counts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].length - b[0].length || a[0].localeCompare(b[0]))[0][0]);
+}
+
+stats.canon_raw = 0;
+stats.canon_alias = 0;
+stats.canon_norm = 0;
+stats.canon_build = 0;
+stats.canon_changed = 0;
+stats.canon_distinct_before = new Set([...masterDB.values()].map(e => e.manufacturer)).size;
+for (const entry of masterDB.values()) {
+  const name = cleanName(entry.manufacturer);
+  entry.registrant_raw = entry.manufacturer;
+  if (!name) continue;
+  let canonical = canon.raw[name];
+  if (canonical) {
+    stats.canon_raw++;
+  } else {
+    for (const [re, aliasName] of canon.aliases) {
+      if (re.test(name)) { canonical = aliasName; break; }
+    }
+    if (canonical) {
+      stats.canon_alias++;
+    } else {
+      const key = normKey(name);
+      canonical = canon.norm[key];
+      if (canonical) {
+        stats.canon_norm++;
+      } else {
+        canonical = majority.get(key) || name;
+        stats.canon_build++;
+      }
+    }
+  }
+  if (canonical !== entry.manufacturer) stats.canon_changed++;
+  entry.manufacturer = canonical;
+}
+stats.canon_distinct_after = new Set([...masterDB.values()].map(e => e.manufacturer)).size;
+console.log(`✅ Vendor names: ${stats.canon_distinct_before} distinct -> ${stats.canon_distinct_after} (${stats.canon_changed} entries renamed; from database ${stats.canon_raw + stats.canon_alias + stats.canon_norm}, build majority ${stats.canon_build})\n`);
+
+// =====================
 // 4. Generate Outputs
 // =====================
 console.log('💾 Generating output files...\n');
@@ -489,13 +604,14 @@ console.log('💾 Generating output files...\n');
 stats.unique = masterDB.size;
 
 // 4.1: CSV Output
-const csvLines = ['oui,manufacturer,registry,short_name,device_type,registered_date,address,sources'];
+const csvLines = ['oui,manufacturer,registry,short_name,device_type,registered_date,address,sources,registrant_raw'];
 for (const [oui, entry] of masterDB) {
   const escapedManufacturer = entry.manufacturer.replace(/"/g, '""');
   const escapedAddress = (entry.address || '').replace(/"/g, '""');
+  const escapedRaw = (entry.registrant_raw || '').replace(/"/g, '""');
   const sources = entry.sources.join('+');
   csvLines.push(
-    `${entry.oui},"${escapedManufacturer}",${entry.registry},${entry.short_name || ''},${entry.device_type || ''},${entry.registered_date || ''},"${escapedAddress}",${sources}`
+    `${entry.oui},"${escapedManufacturer}",${entry.registry},${entry.short_name || ''},${entry.device_type || ''},${entry.registered_date || ''},"${escapedAddress}",${sources},"${escapedRaw}"`
   );
 }
 fs.writeFileSync(path.join(OUTPUT_DIR, 'master_oui.csv'), csvLines.join('\n'));
@@ -608,6 +724,7 @@ for (const [oui, entry] of masterDB) {
   const countryCode = extractCountryCode(entry.address);
   jsonDB[oui] = {
     manufacturer: entry.manufacturer,
+    registrant_raw: entry.registrant_raw,
     registry: entry.registry,
     short_name: entry.short_name,
     device_type: entry.device_type,
@@ -638,6 +755,7 @@ const sqlLines = [
   '  registered_date TEXT,',
   '  address TEXT,',
   '  sources TEXT,',
+  '  registrant_raw TEXT,',
   '  last_updated TEXT DEFAULT CURRENT_TIMESTAMP',
   ');',
   '',
@@ -654,13 +772,14 @@ const ouiArray = Array.from(masterDB.values());
 for (let i = 0; i < ouiArray.length; i += BATCH_SIZE) {
   const batch = ouiArray.slice(i, i + BATCH_SIZE);
   sqlLines.push(`-- Batch ${Math.floor(i / BATCH_SIZE) + 1} (${batch.length} entries)`);
-  sqlLines.push('INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources) VALUES');
+  sqlLines.push('INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw) VALUES');
 
   const values = batch.map(entry => {
     const escapedManuf = entry.manufacturer.replace(/'/g, "''");
     const escapedAddr = (entry.address || '').replace(/'/g, "''");
+    const escapedRaw = (entry.registrant_raw || '').replace(/'/g, "''");
     const sources = entry.sources.join('+');
-    return `  ('${entry.oui}', '${escapedManuf}', '${entry.registry}', ${entry.short_name ? "'" + entry.short_name.replace(/'/g, "''") + "'" : 'NULL'}, ${entry.device_type ? "'" + entry.device_type + "'" : 'NULL'}, ${entry.registered_date ? "'" + entry.registered_date + "'" : 'NULL'}, '${escapedAddr}', '${sources}')`;
+    return `  ('${entry.oui}', '${escapedManuf}', '${entry.registry}', ${entry.short_name ? "'" + entry.short_name.replace(/'/g, "''") + "'" : 'NULL'}, ${entry.device_type ? "'" + entry.device_type + "'" : 'NULL'}, ${entry.registered_date ? "'" + entry.registered_date + "'" : 'NULL'}, '${escapedAddr}', '${sources}', '${escapedRaw}')`;
   });
 
   sqlLines.push(values.join(',\n') + ';');
@@ -722,10 +841,10 @@ fs.writeFileSync(path.join(OUTPUT_DIR, 'master_oui.txt'), txtLines.join('\n'));
 console.log(`✅ TXT: ${OUTPUT_DIR}/master_oui.txt (${stats.unique} entries)`);
 
 // 4.5: TSV Output (Tab-separated, clean import to Excel/Sheets)
-const tsvLines = ['OUI\tManufacturer\tRegistry\tShort_Name\tRegistered_Date\tSources'];
+const tsvLines = ['OUI\tManufacturer\tRegistry\tShort_Name\tRegistered_Date\tSources\tRegistrant_Raw'];
 for (const [oui, entry] of masterDB) {
   const sources = entry.sources.join('+');
-  tsvLines.push(`${entry.oui}\t${entry.manufacturer}\t${entry.registry}\t${entry.short_name || ''}\t${entry.registered_date || ''}\t${sources}`);
+  tsvLines.push(`${entry.oui}\t${entry.manufacturer}\t${entry.registry}\t${entry.short_name || ''}\t${entry.registered_date || ''}\t${sources}\t${entry.registrant_raw || ''}`);
 }
 fs.writeFileSync(path.join(OUTPUT_DIR, 'master_oui.tsv'), tsvLines.join('\n'));
 console.log(`✅ TSV: ${OUTPUT_DIR}/master_oui.tsv (${stats.unique} entries)`);
@@ -750,6 +869,7 @@ for (const [oui, entry] of masterDB) {
   xmlLines.push('  <entry>');
   xmlLines.push(`    <oui>${escapeXml(entry.oui)}</oui>`);
   xmlLines.push(`    <manufacturer>${escapeXml(entry.manufacturer)}</manufacturer>`);
+  if (entry.registrant_raw && entry.registrant_raw !== entry.manufacturer) xmlLines.push(`    <registrant_raw>${escapeXml(entry.registrant_raw)}</registrant_raw>`);
   xmlLines.push(`    <registry>${escapeXml(entry.registry)}</registry>`);
   if (entry.short_name) xmlLines.push(`    <short_name>${escapeXml(entry.short_name)}</short_name>`);
   if (entry.registered_date) xmlLines.push(`    <registered_date>${entry.registered_date}</registered_date>`);
@@ -774,17 +894,18 @@ db.exec(`
     device_type TEXT,
     registered_date TEXT,
     address TEXT,
-    sources TEXT
+    sources TEXT,
+    registrant_raw TEXT
   );
   CREATE INDEX idx_manufacturer ON oui_registry(manufacturer);
   CREATE INDEX idx_short_name ON oui_registry(short_name);
   CREATE INDEX idx_registry ON oui_registry(registry);
   CREATE INDEX idx_registered_date ON oui_registry(registered_date);
 `);
-const insertStmt = db.prepare('INSERT INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources) VALUES (?, ?, ?, ?, ?, ?, ?, ?)');
+const insertStmt = db.prepare('INSERT INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)');
 const insertMany = db.transaction((entries) => {
   for (const entry of entries) {
-    insertStmt.run(entry.oui, entry.manufacturer, entry.registry, entry.short_name, entry.device_type, entry.registered_date, entry.address || '', entry.sources.join('+'));
+    insertStmt.run(entry.oui, entry.manufacturer, entry.registry, entry.short_name, entry.device_type, entry.registered_date, entry.address || '', entry.sources.join('+'), entry.registrant_raw || '');
   }
 });
 insertMany(Array.from(masterDB.values()));
@@ -834,6 +955,12 @@ Historical Data:
 Results:
   Unique OUIs:        ${stats.unique.toLocaleString()} entries
   Merged Entries:     ${stats.merged.toLocaleString()} (same OUI from multiple sources)
+
+Vendor Names (canonical manufacturer, raw registry text kept in registrant_raw):
+  Distinct before:    ${stats.canon_distinct_before.toLocaleString()} spellings
+  Distinct after:     ${stats.canon_distinct_after.toLocaleString()} organizations
+  Entries renamed:    ${stats.canon_changed.toLocaleString()}
+  Resolved by:        database ${(stats.canon_raw + stats.canon_alias + stats.canon_norm).toLocaleString()} (exact ${stats.canon_raw.toLocaleString()}, alias ${stats.canon_alias.toLocaleString()}, key ${stats.canon_norm.toLocaleString()}), build majority ${stats.canon_build.toLocaleString()}
 
 Output Files:
   master_oui.txt      ${(fs.statSync(path.join(OUTPUT_DIR, 'master_oui.txt')).size / 1024 / 1024).toFixed(2)} MB  (simple grep/awk format)

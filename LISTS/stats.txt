@@ -2,35 +2,41 @@ OUI Database Merge Statistics
 ==============================
 
 IEEE Registries Processed:
-  MA-L (Large/OUI):   40,199 entries
-  MA-M (Medium):      6,594 entries
-  MA-S (Small):       7,195 entries
+  MA-L (Large/OUI):   40,268 entries
+  MA-M (Medium):      6,607 entries
+  MA-S (Small):       7,207 entries
   IAB (Individual):   4,575 entries
-  CID (Company ID):   219 entries
+  CID (Company ID):   220 entries
   ─────────────────────────────────
-  IEEE Total:         58,782 entries
+  IEEE Total:         58,877 entries
 
 Community Sources:
-  Wireshark:          58,257 entries
+  Wireshark:          58,417 entries
   Nmap:               52,085 entries
 
 Historical Data:
-  Mac-Tracker:        58,900 registration dates
+  Mac-Tracker:        58,995 registration dates
 
 Results:
-  Unique OUIs:        90,281 entries
-  Merged Entries:     78,843 (same OUI from multiple sources)
+  Unique OUIs:        90,417 entries
+  Merged Entries:     78,962 (same OUI from multiple sources)
+
+Vendor Names (canonical manufacturer, raw registry text kept in registrant_raw):
+  Distinct before:    42,143 spellings
+  Distinct after:     32,469 organizations
+  Entries renamed:    35,515
+  Resolved by:        database 90,186 (exact 72,408, alias 2,515, key 15,263), build majority 231
 
 Output Files:
-  master_oui.txt      3.10 MB  (simple grep/awk format)
-  master_oui.csv      9.49 MB  (full data with addresses)
-  master_oui.tsv      5.73 MB  (Excel/Sheets import)
-  master_oui.json     26.77 MB  (pretty-printed)
-  master_oui.min.json 20.47 MB  (compact for scripts)
-  master_oui.xml      19.55 MB  (enterprise/Java)
-  master_oui.db       19.04 MB  (SQLite ready-to-query)
-  import-to-d1.sql    11.85 MB  (SQL import script)
-  kismet_manuf.txt    3.10 MB  (Kismet IDS format)
-  kismet_manuf.txt.gz 0.70 MB  (Kismet gzipped)
+  master_oui.txt      2.97 MB  (simple grep/awk format)
+  master_oui.csv      11.50 MB  (full data with addresses)
+  master_oui.tsv      7.55 MB  (Excel/Sheets import)
+  master_oui.json     30.78 MB  (pretty-printed)
+  master_oui.min.json 23.96 MB  (compact for scripts)
+  master_oui.xml      21.43 MB  (enterprise/Java)
+  master_oui.db       20.84 MB  (SQLite ready-to-query)
+  import-to-d1.sql    13.95 MB  (SQL import script)
+  kismet_manuf.txt    2.97 MB  (Kismet IDS format)
+  kismet_manuf.txt.gz 0.65 MB  (Kismet gzipped)
 
-Generated: 2026-09-21T08:39:55.911Z
+Generated: 2026-09-30T00:49:34.037Z
