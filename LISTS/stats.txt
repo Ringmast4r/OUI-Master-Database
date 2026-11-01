@@ -2,50 +2,50 @@ OUI Database Merge Statistics
 ==============================
 
 IEEE Registries Processed:
-  MA-L (Large/OUI):   40,360 entries
-  MA-M (Medium):      6,644 entries
-  MA-S (Small):       7,239 entries
+  MA-L (Large/OUI):   40,426 entries
+  MA-M (Medium):      6,664 entries
+  MA-S (Small):       7,253 entries
   IAB (Individual):   4,575 entries
-  CID (Company ID):   221 entries
+  CID (Company ID):   224 entries
   ─────────────────────────────────
-  IEEE Total:         59,039 entries
+  IEEE Total:         59,142 entries
 
 Community Sources:
-  Wireshark:          58,575 entries
+  Wireshark:          58,645 entries
   Nmap:               52,085 entries
 
 Historical Data:
-  Mac-Tracker:        59,157 registration dates
+  Mac-Tracker:        59,260 registration dates
 
 Results:
-  Unique OUIs:        59,134 entries
-  Merged Entries:     110,659 (same OUI from multiple sources)
+  Unique OUIs:        59,237 entries
+  Merged Entries:     110,729 (same OUI from multiple sources)
 
 Registry Status (from IEEE listings + mac-tracker history):
-  current:            59,036 blocks IEEE lists today
+  current:            59,139 blocks IEEE lists today
   deregistered:       94 blocks IEEE has since deleted (deregistered_date)
   legacy:             4 blocks only Wireshark/Nmap still carry
   lineage:            7,100 blocks whose registrant changed (registrant_history)
 
 Device Types:
-  From database:      28,194 entries carry the organization's curated primary type (20,412 overrode the name-pattern guess)
+  From database:      28,235 entries carry the organization's curated primary type (20,429 overrode the name-pattern guess)
 
 Vendor Names (canonical manufacturer, raw registry text kept in registrant_raw):
-  Distinct before:    34,037 spellings
-  Distinct after:     32,368 organizations
-  Entries renamed:    26,169
-  Resolved by:        database 59,042 (exact 58,874, alias 13, key 155), build majority 92
+  Distinct before:    34,076 spellings
+  Distinct after:     32,400 organizations
+  Entries renamed:    26,225
+  Resolved by:        database 59,114 (exact 58,944, alias 13, key 157), build majority 123
 
 Output Files:
   master_oui.txt      1.78 MB  (simple grep/awk format)
-  master_oui.csv      10.52 MB  (full data with addresses)
-  master_oui.tsv      6.57 MB  (Excel/Sheets import)
-  master_oui.json     27.75 MB  (pretty-printed)
-  master_oui.min.json 21.88 MB  (compact for scripts)
-  master_oui.xml      18.17 MB  (enterprise/Java)
-  master_oui.db       17.93 MB  (SQLite ready-to-query)
-  import-to-d1.sql    12.61 MB  (SQL import script)
+  master_oui.csv      10.53 MB  (full data with addresses)
+  master_oui.tsv      6.58 MB  (Excel/Sheets import)
+  master_oui.json     27.79 MB  (pretty-printed)
+  master_oui.min.json 21.91 MB  (compact for scripts)
+  master_oui.xml      18.20 MB  (enterprise/Java)
+  master_oui.db       17.95 MB  (SQLite ready-to-query)
+  import-to-d1.sql    12.63 MB  (SQL import script)
   kismet_manuf.txt    1.78 MB  (Kismet IDS format)
   kismet_manuf.txt.gz 0.60 MB  (Kismet gzipped)
 
-Generated: 2026-10-21T08:20:26.323Z
+Generated: 2026-11-01T10:11:17.412Z
