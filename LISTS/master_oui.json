@@ -72324,7 +72324,7 @@
     ]
   },
   "40:B3:FC": {
-    "manufacturer": "Logital Co. Limited",
+    "manufacturer": "Logital S.R.L.",
     "registrant_raw": "Logital Co. Limited",
     "status": "current",
     "deregistered_date": null,
@@ -111743,24 +111743,6 @@
       "Nmap"
     ]
   },
-  "00:A0:57": {
-    "manufacturer": "LANCOM Systems GmbH",
-    "registrant_raw": "LANCOM Systems GmbH",
-    "status": "current",
-    "deregistered_date": null,
-    "registrant_history": "ELSA AG | LANCOM Systems GmbH",
-    "registry": "MA-L",
-    "short_name": "LANCOM",
-    "device_type": "Router",
-    "registered_date": "2000-02-09",
-    "address": "Adenauer Straße 20 /B2 Würselen  DE 52146",
-    "country": "DE",
-    "sources": [
-      "IEEE",
-      "Wireshark",
-      "Nmap"
-    ]
-  },
   "00:A0:9F": {
     "manufacturer": "COMMVISION CORP.",
     "registrant_raw": "COMMVISION CORP.",
@@ -146266,13 +146248,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "GsdVietNamTe",
     "device_type": null,
     "registered_date": "2026-10-27",
     "address": "PART OF FACTORY 2, LOT C2.10, D1 STREET, DONG AN 2 INDUSTRIAL PARK, BINHDUONG WARD HO CHI MINH CITY HO CHI MINH VN 820000 ",
     "country": "VN",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "24:1F:BE": {
@@ -146282,13 +146265,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "XiaomiMobile",
     "device_type": "Phone",
     "registered_date": "2026-10-28",
     "address": "The Rainbow City Office Building, 68 Qinghe Middle Street Haidian District Beijing Beijing CN 100085 ",
     "country": "CN",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "74:BC:BC": {
@@ -146298,13 +146282,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "PhotonicTech",
     "device_type": null,
     "registered_date": "2026-10-28",
     "address": "Room 701A-701B, Building B, No.112, Liangxiu Road, China (shanghai) pilot Free Trade Zone Shanghai  CN 201203 ",
     "country": "CN",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "D0:C2:16": {
@@ -146331,11 +146316,165 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "MatX",
     "device_type": null,
     "registered_date": "2026-10-28",
     "address": "490 East Middlefield Road Mountain View CA US 94043",
     "country": "US",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "00:CE:39": {
+    "manufacturer": "MeLE Technologies(Shenzhen)Co.,Ltd.",
+    "registrant_raw": "MeLE Technologies(Shenzhen)Co.,Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "MeLETechnolo",
+    "device_type": null,
+    "registered_date": "2026-11-05",
+    "address": "3FW, Mele Building,No.28 Cuijing Road, Pingshan District, Shenzhen Guangdong CN 518118 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "54:43:87": {
+    "manufacturer": "Huawei",
+    "registrant_raw": "Huawei Device Co., Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "HuaweiDevice",
+    "device_type": "Phone",
+    "registered_date": "2026-11-03",
+    "address": "No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "2C:EB:66": {
+    "manufacturer": "Huawei",
+    "registrant_raw": "Huawei Device Co., Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "HuaweiDevice",
+    "device_type": "Phone",
+    "registered_date": "2026-11-03",
+    "address": "No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "00:A0:57": {
+    "manufacturer": "Rohde & Schwarz Networks and Cybersecurity GmbH",
+    "registrant_raw": "Rohde & Schwarz Networks and Cybersecurity GmbH",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": "ELSA AG | LANCOM Systems GmbH | Rohde & Schwarz Networks and Cybersecurity GmbH",
+    "registry": "MA-L",
+    "short_name": "RohdeSchwarz",
+    "device_type": null,
+    "registered_date": "2000-02-09",
+    "address": "Adenauer Straße 20 /B2 Würselen  DE 52146",
+    "country": "DE",
+    "sources": [
+      "IEEE",
+      "Wireshark",
+      "Nmap"
+    ]
+  },
+  "D4:D9:6A": {
+    "manufacturer": "Xiaomi",
+    "registrant_raw": "Xiaomi Communications Co Ltd",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "XiaomiCommun",
+    "device_type": "Phone",
+    "registered_date": "2026-11-06",
+    "address": "#019, 9th Floor, Building 6, 33 Xi'erqi Middle Road Beijing Haidian District CN 100085 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "50:EE:F8": {
+    "manufacturer": "Xiaomi",
+    "registrant_raw": "Xiaomi Communications Co Ltd",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "XiaomiCommun",
+    "device_type": "Phone",
+    "registered_date": "2026-11-06",
+    "address": "#019, 9th Floor, Building 6, 33 Xi'erqi Middle Road Beijing Haidian District CN 100085 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "9C:E0:87": {
+    "manufacturer": "Espressif",
+    "registrant_raw": "Espressif Systems (Singapore) Pte. Ltd",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "EspressifPte",
+    "device_type": "IoT",
+    "registered_date": "2026-11-06",
+    "address": "1 FUSIONOPOLIS VIEW#07-02ECLIPSE Singapore  SG 138577",
+    "country": "SG",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "10:25:13": {
+    "manufacturer": "LG Electronics",
+    "registrant_raw": "LG Electronics",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "LGElectronic",
+    "device_type": "TV",
+    "registered_date": "2026-11-05",
+    "address": "222 LG-ro, JINWI-MYEON Pyeongtaek-si Gyeonggi-do KR 451-713 ",
+    "country": null,
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "4C:A6:37": {
+    "manufacturer": "Hisense Home Appliances Group Co.,Ltd.Qingdao Branch",
+    "registrant_raw": "Hisense Home Appliances Group Co.,Ltd.Qingdao Branch",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": null,
+    "device_type": "TV",
+    "registered_date": "2026-11-11",
+    "address": "Hisense R&D center, #399 Songling Road, Qingdao, Shandong, 266000, China Qingdao Shandong CN 266000 ",
+    "country": "CN",
     "sources": [
       "IEEE"
     ]
@@ -277451,24 +277590,6 @@
       "Nmap"
     ]
   },
-  "0C:A2:F4": {
-    "manufacturer": "Chameleon Technology (UK) Ltd",
-    "registrant_raw": "Chameleon Technology (UK) Limited",
-    "status": "current",
-    "deregistered_date": null,
-    "registrant_history": null,
-    "registry": "MA-L",
-    "short_name": "ChameleonTec",
-    "device_type": "Smart Home",
-    "registered_date": "2011-11-29",
-    "address": "1st Floor, Central House Otley Road Beckwith Knowle Harrogate GB HG3 1UF ",
-    "country": null,
-    "sources": [
-      "IEEE",
-      "Wireshark",
-      "Nmap"
-    ]
-  },
   "04:8F:00": {
     "manufacturer": "Rong-Paisa Electronics Co., Ltd.",
     "registrant_raw": "Rong-Paisa Electronics Co., Ltd.",
@@ -289900,13 +290021,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "KingtypeTech",
     "device_type": null,
     "registered_date": "2026-10-28",
     "address": "No.9, 3rd Wuke Road, Wuhou District Chengdu Sichuan CN 610045 ",
     "country": "CN",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "10:01:8C": {
@@ -289916,13 +290038,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "XiaomiMobile",
     "device_type": "Phone",
     "registered_date": "2026-10-28",
     "address": "The Rainbow City Office Building, 68 Qinghe Middle Street Haidian District Beijing Beijing CN 100085 ",
     "country": "CN",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "4C:09:1B": {
@@ -290017,13 +290140,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "Serage",
     "device_type": null,
     "registered_date": "2026-10-27",
     "address": "35-37 Whitton Dene Road Hounslow London GB TW32JN",
     "country": null,
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "BC:2A:51": {
@@ -290041,6 +290165,225 @@
     "sources": [
       "IEEE",
       "Wireshark"
+    ]
+  },
+  "84:C3:00": {
+    "manufacturer": "SDMC Technology",
+    "registrant_raw": "Shenzhen SDMC Technology CP,.LTD",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "SDMCTechnolo",
+    "device_type": null,
+    "registered_date": "2026-11-03",
+    "address": "19/F, Changhong Science &Technology Mansion,No.18, Keji South 12th Road High-tech IndustrialPark Nanshan District,Shenzhen,China Shenzhen China CN 518000 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "90:1C:23": {
+    "manufacturer": "Huawei",
+    "registrant_raw": "Huawei Device Co., Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "HuaweiDevice",
+    "device_type": "Phone",
+    "registered_date": "2026-11-03",
+    "address": "No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "30:05:C8": {
+    "manufacturer": "Huawei",
+    "registrant_raw": "Huawei Device Co., Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "HuaweiDevice",
+    "device_type": "Phone",
+    "registered_date": "2026-11-03",
+    "address": "No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "80:70:39": {
+    "manufacturer": "Huawei",
+    "registrant_raw": "Huawei Device Co., Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "HuaweiDevice",
+    "device_type": "Phone",
+    "registered_date": "2026-11-03",
+    "address": "No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "18:2F:58": {
+    "manufacturer": "Veritech LLC",
+    "registrant_raw": "Veritech LLC",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "Veritech",
+    "device_type": null,
+    "registered_date": "2026-11-03",
+    "address": "1070 Hardees Drive Aberdeen MD US 21001",
+    "country": "US",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "1C:07:DD": {
+    "manufacturer": "FRITZ! Technology GmbH",
+    "registrant_raw": "FRITZ! Technology GmbH",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "FRITZ!Techno",
+    "device_type": "Router",
+    "registered_date": "2026-11-07",
+    "address": "Alt-Moabit 95 Berlin Berlin DE 10559",
+    "country": "DE",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "A4:05:3E": {
+    "manufacturer": "BSH Electrodomésticos España, S.A.",
+    "registrant_raw": "BSH Electrodomésticos España, S.A.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": null,
+    "device_type": null,
+    "registered_date": "2026-11-10",
+    "address": "Ronda del Canal Imperial de Aragón, 18-20 Zaragoza Zaragoza ES 50197 ",
+    "country": "ES",
+    "sources": [
+      "IEEE"
+    ]
+  },
+  "60:8D:28": {
+    "manufacturer": "Lenovo / Motorola Mobility",
+    "registrant_raw": "Motorola Mobility LLC, a Lenovo Company",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "MotorolaMobi",
+    "device_type": "Phone",
+    "registered_date": "2026-11-05",
+    "address": "222 West Merchandise Mart Plaza Chicago IL US 60654",
+    "country": "US",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "84:41:3C": {
+    "manufacturer": "New H3C Technologies Co., Ltd",
+    "registrant_raw": "New H3C Technologies Co., Ltd",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": null,
+    "device_type": "Access Point",
+    "registered_date": "2026-11-11",
+    "address": "466 Changhe Road, Binjiang District Hangzhou Zhejiang CN 310052 ",
+    "country": "CN",
+    "sources": [
+      "IEEE"
+    ]
+  },
+  "D8:23:32": {
+    "manufacturer": "Espressif",
+    "registrant_raw": "Espressif Systems (Singapore) Pte. Ltd",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "EspressifPte",
+    "device_type": "IoT",
+    "registered_date": "2026-11-06",
+    "address": "1 FUSIONOPOLIS VIEW#07-02ECLIPSE Singapore  SG 138577",
+    "country": "SG",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "0C:A2:F4": {
+    "manufacturer": "Verve Energy Technology",
+    "registrant_raw": "Verve Energy Technology",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": "Chameleon Technology (UK) Limited | Verve Energy Technology",
+    "registry": "MA-L",
+    "short_name": "VerveEnergyT",
+    "device_type": null,
+    "registered_date": "2011-11-29",
+    "address": " Suite 1 Second Floor 17-19 Cheltenham Parade, Harrogate GB HG1 1DD ",
+    "country": null,
+    "sources": [
+      "IEEE",
+      "Wireshark",
+      "Nmap"
+    ]
+  },
+  "94:B2:EC": {
+    "manufacturer": "NVIDIA",
+    "registrant_raw": "NVIDIA Corporation",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "NVIDIA",
+    "device_type": "Computer",
+    "registered_date": "2026-11-06",
+    "address": "2701 San Tomas Expressway Santa Clara  US 95050",
+    "country": "US",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "84:6E:2F": {
+    "manufacturer": "OHSUNG",
+    "registrant_raw": "OHSUNG",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": null,
+    "device_type": null,
+    "registered_date": "2026-11-11",
+    "address": "335-4,SANHODAERO,GUMI,GYEONG BUK,KOREA GUMI GYEONG BUK KR 730-030 ",
+    "country": null,
+    "sources": [
+      "IEEE"
     ]
   },
   "6C:87:20": {
@@ -296144,7 +296487,7 @@
     ]
   },
   "70:B6:51": {
-    "manufacturer": "Eight Sleep",
+    "manufacturer": "Eight Sleep Inc.",
     "registrant_raw": "Eight Sleep",
     "status": "current",
     "deregistered_date": null,
@@ -434597,13 +434940,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "ChipseaTechn",
     "device_type": null,
     "registered_date": "2026-10-27",
     "address": "3 / F, Block A, Building 2, Shenzhen Bay Innovation Technology Center, No.3156 keyuan South Road, Yuehai Street, Nanshan District, Shenzhen Shenzhen Guangdong CN 518000 ",
     "country": "CN",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "E8:9D:EA": {
@@ -434613,13 +434957,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "SiliconLabor",
     "device_type": null,
     "registered_date": "2026-10-27",
     "address": "400 West Cesar Chavez Austin TX US 78701",
     "country": "US",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "20:6D:9A": {
@@ -434629,13 +434974,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "OppoMobileTe",
     "device_type": "Phone",
     "registered_date": "2026-10-28",
     "address": "NO.18 HAIBIN ROAD, DONG GUAN GUANG DONG CN 523860 ",
     "country": "CN",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "E4:FD:9D": {
@@ -434645,13 +434991,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "SkyworthDisp",
     "device_type": "TV",
     "registered_date": "2026-10-28",
     "address": "1st floor, Experimental Factory, Skyworth Technology Industrial Park, Tangtou Community, Shiyan Street, Bao'an District Shenzhen Guangdong CN 518108 ",
     "country": "CN",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "D4:8E:83": {
@@ -434712,13 +435059,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "EspressifPte",
     "device_type": "IoT",
     "registered_date": "2026-10-28",
     "address": "1 FUSIONOPOLIS VIEW#07-02ECLIPSE Singapore  SG 138577",
     "country": "SG",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "EC:43:C4": {
@@ -434745,13 +435093,48 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "AMiTAutomati",
     "device_type": null,
     "registered_date": "2026-10-27",
     "address": "Vídeňská 186/118 Brno  CZ 61900",
     "country": "CZ",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "20:AD:72": {
+    "manufacturer": "eero",
+    "registrant_raw": "eero inc.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "eero",
+    "device_type": "Router",
+    "registered_date": "2026-11-03",
+    "address": "660 3rd Street  San Francisco CA US 94107",
+    "country": "US",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "34:23:8E": {
+    "manufacturer": "eero",
+    "registrant_raw": "eero inc.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "eero",
+    "device_type": "Router",
+    "registered_date": "2026-11-03",
+    "address": "660 3rd Street  San Francisco CA US 94107",
+    "country": "US",
+    "sources": [
+      "IEEE",
+      "Wireshark"
     ]
   },
   "9C:AD:E0": {
@@ -434761,13 +435144,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "Intel",
     "device_type": "Laptop",
     "registered_date": "2026-10-29",
     "address": "Lot 8, Jalan Hi-Tech 2/3   Kulim Kedah MY 09000 ",
     "country": "MY",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "94:FC:9A": {
@@ -434777,13 +435161,114 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "Google",
     "device_type": "Router",
     "registered_date": "2026-10-30",
     "address": "1600 Amphitheatre Parkway Mountain View  US 94043",
     "country": "US",
     "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "28:1F:81": {
+    "manufacturer": "SOXAI Inc.",
+    "registrant_raw": "SOXAI Inc.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": null,
+    "device_type": null,
+    "registered_date": "2026-11-10",
+    "address": "1102, Chuo Dai-6 Kannai Building 1-2-1 Furocho, Naka-ku Yokohama Kanagawa JP 231-0032 ",
+    "country": null,
+    "sources": [
       "IEEE"
+    ]
+  },
+  "B0:7E:F4": {
+    "manufacturer": "Hangzhou HikAuto Technology Co., Ltd.",
+    "registrant_raw": "Hangzhou HikAuto Technology Co., Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "HikAutoTechn",
+    "device_type": null,
+    "registered_date": "2026-11-06",
+    "address": "No. 399 Danfeng Road, Xixing Subdistrict, Binjiang District, Hangzhou, Zhejiang, China  Hangzhou Zhejiang CN 310052 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "68:D7:70": {
+    "manufacturer": "IoTronix Technologies Sdn. Bhd.",
+    "registrant_raw": "IoTronix Technologies Sdn. Bhd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "IoTronixTech",
+    "device_type": null,
+    "registered_date": "2026-11-06",
+    "address": "No. 85A, Lintang Bayan Lepas 11, Bayan Lepas Industri Park, Phase IV. Bayan Lepas Penang MY 11900 ",
+    "country": "MY",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "88:54:E0": {
+    "manufacturer": "Xiaomi",
+    "registrant_raw": "Xiaomi Communications Co Ltd",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "XiaomiCommun",
+    "device_type": "Phone",
+    "registered_date": "2026-11-06",
+    "address": "#019, 9th Floor, Building 6, 33 Xi'erqi Middle Road Beijing Haidian District CN 100085 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "20:99:EC": {
+    "manufacturer": "1AN Inc.",
+    "registrant_raw": "1AN Inc.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": null,
+    "device_type": null,
+    "registered_date": "2026-11-10",
+    "address": "405, Busan Knowledge Industry Center Uam, 2, Sinseon-ro, Nam-gu Busan  KR 48480 ",
+    "country": "KR",
+    "sources": [
+      "IEEE"
+    ]
+  },
+  "88:B8:F7": {
+    "manufacturer": "NVIDIA",
+    "registrant_raw": "NVIDIA Corporation",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "NVIDIA",
+    "device_type": "Computer",
+    "registered_date": "2026-11-06",
+    "address": "2701 San Tomas Expressway Santa Clara  US 95050",
+    "country": "US",
+    "sources": [
+      "IEEE",
+      "Wireshark"
     ]
   },
   "B0:0C:9D": {
@@ -438160,24 +438645,6 @@
     "registered_date": "2023-02-04",
     "address": "Bay Square Building 06 - Office No 105 Dubai Dubai AE 111581",
     "country": "AE",
-    "sources": [
-      "IEEE",
-      "Wireshark",
-      "Nmap"
-    ]
-  },
-  "2C:D7:FF": {
-    "manufacturer": "LANCOM Systems GmbH",
-    "registrant_raw": "LANCOM Systems GmbH",
-    "status": "current",
-    "deregistered_date": null,
-    "registrant_history": null,
-    "registry": "MA-L",
-    "short_name": "LANCOM",
-    "device_type": "Router",
-    "registered_date": "2023-02-03",
-    "address": "Adenauer Straße 20 /B2 Würselen  DE 52146",
-    "country": "DE",
     "sources": [
       "IEEE",
       "Wireshark",
@@ -573058,7 +573525,7 @@
     ]
   },
   "1C:69:32": {
-    "manufacturer": "Hisense Home Appliances Group Co., Ltd. Qingdao Branch",
+    "manufacturer": "Hisense Home Appliances Group Co.,Ltd.Qingdao Branch",
     "registrant_raw": "Hisense Home Appliances Group Co., Ltd. Qingdao Branch",
     "status": "current",
     "deregistered_date": null,
@@ -581012,13 +581479,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "AmazonTechno",
     "device_type": "Smart Home",
     "registered_date": "2026-10-27",
     "address": "P.O Box 8102  Reno NV US 89507",
     "country": "US",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "D4:0C:FD": {
@@ -581054,6 +581522,58 @@
       "IEEE"
     ]
   },
+  "C8:65:94": {
+    "manufacturer": "IP Yusupov Nargiz Nakibovich",
+    "registrant_raw": "IP Yusupov Nargiz Nakibovich",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "IPYusupovNar",
+    "device_type": null,
+    "registered_date": "2026-11-04",
+    "address": "Ulitsa Rinata Galeyeva, 25 Almetyevsk Respublika Tatarstan RU 423461 ",
+    "country": "RU",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "2C:D7:FF": {
+    "manufacturer": "Rohde & Schwarz Networks and Cybersecurity GmbH",
+    "registrant_raw": "Rohde & Schwarz Networks and Cybersecurity GmbH",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": "LANCOM Systems GmbH | Rohde & Schwarz Networks and Cybersecurity GmbH",
+    "registry": "MA-L",
+    "short_name": "RohdeSchwarz",
+    "device_type": null,
+    "registered_date": "2023-02-03",
+    "address": "Adenauer Straße 20 /B2 Würselen  DE 52146",
+    "country": "DE",
+    "sources": [
+      "IEEE",
+      "Wireshark",
+      "Nmap"
+    ]
+  },
+  "34:1E:64": {
+    "manufacturer": "Huawei",
+    "registrant_raw": "Huawei Device Co., Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "HuaweiDevice",
+    "device_type": "Phone",
+    "registered_date": "2026-11-03",
+    "address": "No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
   "58:30:AC": {
     "manufacturer": "Quectel",
     "registrant_raw": "Quectel Wireless Solutions Co.,Ltd.",
@@ -581061,13 +581581,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "QuectelWirel",
     "device_type": null,
     "registered_date": "2026-10-28",
     "address": "7th Floor, Hongye Building, No.1801 Hongmei Road, Xuhui District Shanghai  CN 200233 ",
     "country": "CN",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "88:8A:F5": {
@@ -581077,13 +581598,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "Intel",
     "device_type": "Laptop",
     "registered_date": "2026-10-29",
     "address": "Lot 8, Jalan Hi-Tech 2/3   Kulim Kedah MY 09000 ",
     "country": "MY",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "60:41:5A": {
@@ -581093,11 +581615,76 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "Google",
     "device_type": "Router",
     "registered_date": "2026-10-30",
     "address": "1600 Amphitheatre Parkway Mountain View  US 94043",
     "country": "US",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "04:7B:43": {
+    "manufacturer": "IEEE Registration Authority",
+    "registrant_raw": "IEEE Registration Authority",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": null,
+    "device_type": null,
+    "registered_date": "2026-11-06",
+    "address": "445 Hoes Lane Piscataway NJ US 08554",
+    "country": "US",
+    "sources": [
+      "IEEE"
+    ]
+  },
+  "98:84:C1": {
+    "manufacturer": "New H3C Technologies Co., Ltd",
+    "registrant_raw": "New H3C Technologies Co., Ltd",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": null,
+    "device_type": "Access Point",
+    "registered_date": "2026-11-11",
+    "address": "466 Changhe Road, Binjiang District Hangzhou Zhejiang CN 310052 ",
+    "country": "CN",
+    "sources": [
+      "IEEE"
+    ]
+  },
+  "90:C0:46": {
+    "manufacturer": "Foxconn (Hon Hai)",
+    "registrant_raw": "Hon Hai Precision Industry Co., Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": null,
+    "device_type": null,
+    "registered_date": "2026-11-11",
+    "address": "No.2, 2nd donghuan Road, Longhua St., Longhua Dist., ShenZhen GuangDong CN 518109 ",
+    "country": "CN",
+    "sources": [
+      "IEEE"
+    ]
+  },
+  "BC:47:D6": {
+    "manufacturer": "Sagemcom",
+    "registrant_raw": "Sagemcom Broadband SAS",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": null,
+    "device_type": "Router",
+    "registered_date": "2026-11-11",
+    "address": "4 Allée des Messageries Bois-Colombes haut de seine FR 92270",
+    "country": "FR",
     "sources": [
       "IEEE"
     ]
@@ -713473,24 +714060,6 @@
       "Nmap"
     ]
   },
-  "0C:33:1B": {
-    "manufacturer": "TydenBrooks",
-    "registrant_raw": "TydenBrooks",
-    "status": "current",
-    "deregistered_date": null,
-    "registrant_history": null,
-    "registry": "MA-L",
-    "short_name": "TydenBrooks",
-    "device_type": null,
-    "registered_date": "2025-07-30",
-    "address": "2727 Paces Ferry Rd, Building 2, Suite 300 Atlanta GA US 30339 ",
-    "country": "US",
-    "sources": [
-      "IEEE",
-      "Wireshark",
-      "Nmap"
-    ]
-  },
   "24:2B:D6": {
     "manufacturer": "Ring",
     "registrant_raw": "Ring LLC",
@@ -725511,13 +726080,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "VantivaUSA",
     "device_type": "Router",
     "registered_date": "2026-10-27",
     "address": "4855 Peachtree Industrial Blvd, Suite 200 Norcross GA US 30902 ",
     "country": "US",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "54:2B:88": {
@@ -725527,13 +726097,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "EspressifPte",
     "device_type": "IoT",
     "registered_date": "2026-10-28",
     "address": "1 FUSIONOPOLIS VIEW#07-02ECLIPSE Singapore  SG 138577",
     "country": "SG",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "2C:0C:88": {
@@ -725543,13 +726114,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "SiliconLabor",
     "device_type": null,
     "registered_date": "2026-10-27",
     "address": "400 West Cesar Chavez Austin TX US 78701",
     "country": "US",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "94:85:80": {
@@ -725559,13 +726131,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "AmazonTechno",
     "device_type": "Smart Home",
     "registered_date": "2026-10-27",
     "address": "P.O Box 8102  Reno NV US 89507",
     "country": "US",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "70:C3:BE": {
@@ -725575,13 +726148,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "IngramMicroS",
     "device_type": null,
     "registered_date": "2026-10-28",
     "address": "100 CHEMIN DE BAILLOT MONTAUBAN  FR 82000",
     "country": "FR",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "14:5C:DA": {
@@ -725591,13 +726165,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "OppoMobileTe",
     "device_type": "Phone",
     "registered_date": "2026-10-28",
     "address": "NO.18 HAIBIN ROAD, DONG GUAN GUANG DONG CN 523860 ",
     "country": "CN",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "D4:05:11": {
@@ -725607,13 +726182,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "TCLKingElect",
     "device_type": "TV",
     "registered_date": "2026-10-29",
     "address": "B Area, 10th floor, TCL multimedia Building, TCL International E City, #1001 Zhonshanyuan road,Shenzhen guangdong China CN 518058 ",
     "country": "CN",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "1C:FC:4E": {
@@ -725623,13 +726199,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "EFORTIntelli",
     "device_type": null,
     "registered_date": "2026-10-28",
     "address": "No.96 East Wanchun Road,China(Anhui) Pilot Free Trade Zone Wuhu Area, Wuhu, Anhui Province, China Wuhu Anhui CN 241000 ",
     "country": "CN",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "24:5D:5B": {
@@ -725639,11 +726216,213 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-L",
-    "short_name": null,
+    "short_name": "BouffaloLab",
     "device_type": null,
     "registered_date": "2026-10-28",
     "address": "5F, Gongxiang Space, No.100 Tuanjie Road, Nanjing, China Nanjing Jiangsu CN 211800 ",
     "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "08:F6:79": {
+    "manufacturer": "Huawei",
+    "registrant_raw": "Huawei Device Co., Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "HuaweiDevice",
+    "device_type": "Phone",
+    "registered_date": "2026-11-03",
+    "address": "No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "4C:64:C9": {
+    "manufacturer": "Huawei",
+    "registrant_raw": "Huawei Device Co., Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "HuaweiDevice",
+    "device_type": "Phone",
+    "registered_date": "2026-11-03",
+    "address": "No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "50:25:FE": {
+    "manufacturer": "Huawei",
+    "registrant_raw": "Huawei Device Co., Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "HuaweiDevice",
+    "device_type": "Phone",
+    "registered_date": "2026-11-03",
+    "address": "No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "70:BE:8E": {
+    "manufacturer": "Huawei",
+    "registrant_raw": "Huawei Device Co., Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "HuaweiDevice",
+    "device_type": "Phone",
+    "registered_date": "2026-11-03",
+    "address": "No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "E4:22:24": {
+    "manufacturer": "Lenovo / Motorola Mobility",
+    "registrant_raw": "Motorola Mobility LLC, a Lenovo Company",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "MotorolaMobi",
+    "device_type": "Phone",
+    "registered_date": "2026-11-05",
+    "address": "222 West Merchandise Mart Plaza Chicago IL US 60654",
+    "country": "US",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "8C:A0:2C": {
+    "manufacturer": "Arcadyan",
+    "registrant_raw": "Arcadyan Corporation",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "Arcadyan",
+    "device_type": "Router",
+    "registered_date": "2026-11-03",
+    "address": "No.8, Sec.2, Guangfu Rd. Hsinchu City Hsinchu TW 30071 ",
+    "country": "TW",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "0C:33:1B": {
+    "manufacturer": "TydenBrooks",
+    "registrant_raw": "TydenBrooks",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "TydenBrooks",
+    "device_type": null,
+    "registered_date": "2025-07-30",
+    "address": "1 Stoffel Drive Tallapoosa GA US 30176",
+    "country": "US",
+    "sources": [
+      "IEEE",
+      "Wireshark",
+      "Nmap"
+    ]
+  },
+  "F0:27:6E": {
+    "manufacturer": "AltoBeam",
+    "registrant_raw": "AltoBeam Inc.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": "AltoBeam",
+    "device_type": null,
+    "registered_date": "2026-11-07",
+    "address": "B808, Tsinghua Tongfang Hi-Tech Plaza, Haidian Beijing Beijing CN 100083 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "18:21:62": {
+    "manufacturer": "New H3C Technologies Co., Ltd",
+    "registrant_raw": "New H3C Technologies Co., Ltd",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": null,
+    "device_type": "Access Point",
+    "registered_date": "2026-11-11",
+    "address": "466 Changhe Road, Binjiang District Hangzhou Zhejiang CN 310052 ",
+    "country": "CN",
+    "sources": [
+      "IEEE"
+    ]
+  },
+  "4C:E2:0C": {
+    "manufacturer": "New H3C Technologies Co., Ltd",
+    "registrant_raw": "New H3C Technologies Co., Ltd",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": null,
+    "device_type": "Access Point",
+    "registered_date": "2026-11-11",
+    "address": "466 Changhe Road, Binjiang District Hangzhou Zhejiang CN 310052 ",
+    "country": "CN",
+    "sources": [
+      "IEEE"
+    ]
+  },
+  "E4:20:0B": {
+    "manufacturer": "Polystack Technologies Private Limited",
+    "registrant_raw": "Polystack Technologies Private Limited",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": null,
+    "device_type": null,
+    "registered_date": "2026-11-11",
+    "address": "HOUSE NO. 51 P, BASEMENT, RYAN INTERNATIONAL SCHOOL, SECTOR 40, GURUGRAM, HARYANA- 122001 Gurugram HARYANA IN 122001 ",
+    "country": "IN",
+    "sources": [
+      "IEEE"
+    ]
+  },
+  "B0:0D:A8": {
+    "manufacturer": "Sagemcom",
+    "registrant_raw": "Sagemcom Broadband SAS",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-L",
+    "short_name": null,
+    "device_type": "Router",
+    "registered_date": "2026-11-11",
+    "address": "4 Allée des Messageries Bois-Colombes haut de seine FR 92270",
+    "country": "FR",
     "sources": [
       "IEEE"
     ]
@@ -749830,13 +750609,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-M",
-    "short_name": null,
+    "short_name": "SkeletonTech",
     "device_type": null,
     "registered_date": "2026-10-27",
     "address": "Sepise 7 Tallinn  EE 11415",
     "country": "EE",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "5C:AB:22:E": {
@@ -749846,13 +750626,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-M",
-    "short_name": null,
+    "short_name": "Private",
     "device_type": null,
     "registered_date": "2026-10-27",
     "address": null,
     "country": null,
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "B8:F4:53:1": {
@@ -749862,13 +750643,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-M",
-    "short_name": null,
+    "short_name": "GanzhouDehui",
     "device_type": "Audio",
     "registered_date": "2026-10-28",
     "address": "Dehuida Science and Technology Park, Huoyanshan Road, Anyuan District Ganzhou Jiangxi CN 342100 ",
     "country": "CN",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "F8:2B:E6:0": {
@@ -749896,13 +750678,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-M",
-    "short_name": null,
+    "short_name": "OnticEnginee",
     "device_type": "Smart Home",
     "registered_date": "2026-10-28",
     "address": "1176 Telecom Dr Creedmoor NC US 27522",
     "country": "US",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "B8:F4:53:D": {
@@ -749912,10 +750695,60 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-M",
-    "short_name": null,
+    "short_name": "Withusnet",
     "device_type": null,
     "registered_date": "2026-10-29",
     "address": "#1003, 285, Digital-ro, Guro-gu, Seoul, Republic of Korea Seoul  KR 08381 ",
+    "country": "KR",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "B8:F4:53:E": {
+    "manufacturer": "Shenzhen Co-believe Technology limited",
+    "registrant_raw": "Shenzhen Co-believe Technology limited",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-M",
+    "short_name": "believeTechn",
+    "device_type": null,
+    "registered_date": "2026-11-05",
+    "address": "Floor, Building BC, Weixinda Industry zone, Tenglong Community, Xixiang Street, Bao’an district, Shenzhen, China Shenzhen Guangdong CN 518102 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "04:7B:43:4": {
+    "manufacturer": "Medicop d.o.o.",
+    "registrant_raw": "Medicop d.o.o.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-M",
+    "short_name": null,
+    "device_type": null,
+    "registered_date": "2026-11-10",
+    "address": "Nemčavci 81 Murska Sobota  SI 9000",
+    "country": "SI",
+    "sources": [
+      "IEEE"
+    ]
+  },
+  "04:7B:43:0": {
+    "manufacturer": "JUNGJUN Co., Ltd.",
+    "registrant_raw": "JUNGJUN Co., Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-M",
+    "short_name": null,
+    "device_type": null,
+    "registered_date": "2026-11-10",
+    "address": "70, Gunja-ro Seoul Seoul KR 05004 ",
     "country": "KR",
     "sources": [
       "IEEE"
@@ -772584,13 +773417,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-M",
-    "short_name": null,
+    "short_name": "HamamatsuPho",
     "device_type": null,
     "registered_date": "2026-10-28",
     "address": "314-5 Shimokanzo Iwata Shizuoka JP 4380193",
     "country": null,
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "5C:AB:22:1": {
@@ -772600,13 +773434,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-M",
-    "short_name": null,
+    "short_name": "MDASatConnUK",
     "device_type": "Modem",
     "registered_date": "2026-10-27",
     "address": "Spectrum Point,279 Farnborough Road,  Farnborough Hampshire GB GU14 7LS ",
     "country": null,
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "B8:F4:53:8": {
@@ -772616,13 +773451,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-M",
-    "short_name": null,
+    "short_name": "ViewSonic",
     "device_type": "TV",
     "registered_date": "2026-10-28",
     "address": "10 Point Drive Brea, CA 92821 USA LA CA US 92821 ",
     "country": "US",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "B8:F4:53:0": {
@@ -772632,13 +773468,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-M",
-    "short_name": null,
+    "short_name": "ELSInstrumen",
     "device_type": null,
     "registered_date": "2026-10-29",
     "address": "Via Karl Ludwig Von Bruck 32 Trieste  IT 34144",
     "country": "IT",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "B8:F4:53:7": {
@@ -772648,11 +773485,78 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-M",
-    "short_name": null,
+    "short_name": "Valthorsro",
     "device_type": null,
     "registered_date": "2026-10-31",
     "address": "Na Groši 1344/5a Praha 10  CZ 102 00",
     "country": null,
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "04:7B:43:D": {
+    "manufacturer": "ZEBO PTE LTD",
+    "registrant_raw": "ZEBO PTE LTD",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-M",
+    "short_name": "ZeboPte",
+    "device_type": null,
+    "registered_date": "2026-11-07",
+    "address": "60 PAYA LEBAR ROAD, #06-28, PAYA LEBAR SQUARE, SINGAPORE 409051 SINGAPORE  SG 409051 ",
+    "country": "SG",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "04:7B:43:A": {
+    "manufacturer": "RUBISEC CORPORATION",
+    "registrant_raw": "RUBISEC CORPORATION",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-M",
+    "short_name": "Rubisec",
+    "device_type": null,
+    "registered_date": "2026-11-07",
+    "address": "Harju maakond,  Kesklinna linnaosa, Viru väljak 2, Tallinn, Estonia Tallinn  EE 10111 ",
+    "country": "EE",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "04:7B:43:9": {
+    "manufacturer": "Xthings Industry LLC",
+    "registrant_raw": "Xthings Industry LLC",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-M",
+    "short_name": null,
+    "device_type": null,
+    "registered_date": "2026-11-10",
+    "address": "47703 Fremont Boulevard Fremont CA US 94538",
+    "country": "US",
+    "sources": [
+      "IEEE"
+    ]
+  },
+  "04:7B:43:6": {
+    "manufacturer": "CZUR TECH CO., LTD",
+    "registrant_raw": "CZUR TECH CO., LTD",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-M",
+    "short_name": null,
+    "device_type": null,
+    "registered_date": "2026-11-11",
+    "address": "ROM722,Block B,Podium of Buiding NO. 12 shenzhen bay Eco-Technology Park  shenzhen  CN 518066 ",
+    "country": "CN",
     "sources": [
       "IEEE"
     ]
@@ -791359,24 +792263,6 @@
       "Nmap"
     ]
   },
-  "34:C8:D6:5": {
-    "manufacturer": "PRIZMA GROUP DISTRIBUTION & CONSULTING D.O.O - RUBISEC",
-    "registrant_raw": "PRIZMA GROUP DISTRIBUTION & CONSULTING D.O.O - RUBISEC",
-    "status": "current",
-    "deregistered_date": null,
-    "registrant_history": null,
-    "registry": "MA-M",
-    "short_name": "PrizmaGroupD",
-    "device_type": null,
-    "registered_date": "2024-01-13",
-    "address": "XVI LOKAL BR. 7 BUDVA BUDVA  ME 85310",
-    "country": "ME",
-    "sources": [
-      "IEEE",
-      "Wireshark",
-      "Nmap"
-    ]
-  },
   "40:F3:85:8": {
     "manufacturer": "Great Talent Technology Limited",
     "registrant_raw": "Great Talent Technology Limited",
@@ -797180,10 +798066,144 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-M",
-    "short_name": null,
+    "short_name": "SDMT",
     "device_type": null,
     "registered_date": "2026-10-28",
     "address": "South Oaks, Main Road Cardross Dumbarton Argyll and Bute GB G82 5JY ",
+    "country": null,
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "B8:F4:53:6": {
+    "manufacturer": "Hanque(Chengdu) Information Technology Co.,Ltd.",
+    "registrant_raw": "Hanque(Chengdu) Information Technology Co.,Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-M",
+    "short_name": "HanqueInform",
+    "device_type": null,
+    "registered_date": "2026-11-04",
+    "address": "Room 609, 6th Floor, Unit 1, Building 1, No. 969 Hanzhou Road, Zhengxing Sub-district, Tianfu New Area Chengdu Sichuan CN 610213 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "B8:F4:53:3": {
+    "manufacturer": "Annapurna labs",
+    "registrant_raw": "Annapurna labs",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-M",
+    "short_name": "Annapurnalab",
+    "device_type": null,
+    "registered_date": "2026-11-03",
+    "address": "Matam Scientific Industries Center,   Building 8.2 Mail box 15123 Haifa IL 3508409 ",
+    "country": null,
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "B8:F4:53:5": {
+    "manufacturer": "EMPIRETECH HK LIMITED",
+    "registrant_raw": "EMPIRETECH HK LIMITED",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-M",
+    "short_name": "EmpiretechHk",
+    "device_type": null,
+    "registered_date": "2026-11-04",
+    "address": "ROOM B78，19/F YHC TOWER 1, SHEUNG YUET ROAD KOWLOON BAY KOWLOON BAY  HK 999077 ",
+    "country": "HK",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "04:7B:43:1": {
+    "manufacturer": "EVERBLESSED TECHNOLOGY INC",
+    "registrant_raw": "EVERBLESSED TECHNOLOGY INC",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-M",
+    "short_name": null,
+    "device_type": null,
+    "registered_date": "2026-11-11",
+    "address": "710 Lakeway Drive, Suite 200 Sunnyvale CA US 94085 ",
+    "country": "US",
+    "sources": [
+      "IEEE"
+    ]
+  },
+  "04:7B:43:3": {
+    "manufacturer": "ShenZhen MINIOLT Technology Co., Ltd.",
+    "registrant_raw": "ShenZhen MINIOLT Technology Co., Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-M",
+    "short_name": null,
+    "device_type": null,
+    "registered_date": "2026-11-11",
+    "address": "Room 308,Building D, Zhantao Commercial Plaza, No. 376 Longhua Construction Road, Longping Community, Daliang Subdistrict, Longhua District ShenZhen  CN 518109 ",
+    "country": "CN",
+    "sources": [
+      "IEEE"
+    ]
+  },
+  "04:7B:43:8": {
+    "manufacturer": "MERAK HVAC España S.A.U.",
+    "registrant_raw": "MERAK HVAC España S.A.U.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": "MERAK HVAC | MERAK HVAC España S.A.U.",
+    "registry": "MA-M",
+    "short_name": null,
+    "device_type": "Thermostat",
+    "registered_date": "2026-11-09",
+    "address": "Miguel Faraday 1 Getafe Madrid ES 28906",
+    "country": "ES",
+    "sources": [
+      "IEEE"
+    ]
+  },
+  "34:C8:D6:5": {
+    "manufacturer": "RUBISEC CORPORATION",
+    "registrant_raw": "RUBISEC CORPORATION",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": "PRIZMA GROUP DISTRIBUTION & CONSULTING D.O.O - RUBISEC | RUBISEC CORPORATION",
+    "registry": "MA-M",
+    "short_name": "Rubisec",
+    "device_type": null,
+    "registered_date": "2024-01-13",
+    "address": "XVI LOKAL BR. 7 BUDVA BUDVA  ME 85310",
+    "country": "ME",
+    "sources": [
+      "IEEE",
+      "Wireshark",
+      "Nmap"
+    ]
+  },
+  "04:7B:43:2": {
+    "manufacturer": "PEAK International",
+    "registrant_raw": "PEAK International",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-M",
+    "short_name": null,
+    "device_type": null,
+    "registered_date": "2026-11-11",
+    "address": "11 Fountain Crescent Glasgow  GB PA49RE",
     "country": null,
     "sources": [
       "IEEE"
@@ -820928,13 +821948,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-M",
-    "short_name": null,
+    "short_name": "CyngroxPriva",
     "device_type": null,
     "registered_date": "2026-10-27",
     "address": "1st Floor, F-312, Sector-63 Noida Uttar Pradesh IN 201301 ",
     "country": "IN",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "80:A5:79:A": {
@@ -820962,13 +821983,31 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-M",
-    "short_name": null,
+    "short_name": "PATechnology",
     "device_type": null,
     "registered_date": "2026-10-31",
     "address": "Global Innovation And Technology CentreBack Lane Melbourn Hertfordshire GB SG86DP",
     "country": null,
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "04:7B:43:B": {
+    "manufacturer": "ACADEMY FOR FUTURE HEALTH LTD",
+    "registrant_raw": "ACADEMY FOR FUTURE HEALTH LTD",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-M",
+    "short_name": "AcademyForFu",
+    "device_type": null,
+    "registered_date": "2026-11-06",
+    "address": "Eastcastle House, 27/28 Eastcastle Street London  GB W1W 8DH ",
+    "country": null,
+    "sources": [
+      "IEEE",
+      "Wireshark"
     ]
   },
   "C8:5C:E2:0": {
@@ -845183,6 +846222,73 @@
     "sources": [
       "IEEE",
       "Wireshark"
+    ]
+  },
+  "04:7B:43:5": {
+    "manufacturer": "Shenzhen XJ-Micro Technology Co., Ltd.",
+    "registrant_raw": "Shenzhen XJ-Micro Technology Co., Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-M",
+    "short_name": "XJMicroTechn",
+    "device_type": null,
+    "registered_date": "2026-11-06",
+    "address": "Room 902,9th Floor, Tower A, Hongji Hanlin Building, Nanshan District, Shenzhen, Guangdong Province Shenzhen Guangdong CN 518055 ",
+    "country": "CN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "04:7B:43:C": {
+    "manufacturer": "RR Technologies GmbH",
+    "registrant_raw": "RR Technologies GmbH",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-M",
+    "short_name": "RRTechnologi",
+    "device_type": null,
+    "registered_date": "2026-11-06",
+    "address": "Mühlenstraße 15 Berlin Berlin DE 10243",
+    "country": "DE",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "B8:F4:53:C": {
+    "manufacturer": "Wavin T&I",
+    "registrant_raw": "Wavin T&I",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-M",
+    "short_name": "WavinT&I",
+    "device_type": null,
+    "registered_date": "2026-11-03",
+    "address": "Rollepaal 20 Dedemsvaart  NL 7701BS",
+    "country": null,
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "04:7B:43:7": {
+    "manufacturer": "ICsec S.A.",
+    "registrant_raw": "ICsec S.A.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-M",
+    "short_name": null,
+    "device_type": "Router",
+    "registered_date": "2026-11-11",
+    "address": "Wichrowa 1A Poznan  PL 60-446",
+    "country": null,
+    "sources": [
+      "IEEE"
     ]
   },
   "8C:1F:64:AF:A": {
@@ -871104,19 +872210,88 @@
     ]
   },
   "8C:1F:64:D2:E": {
-    "manufacturer": "Logital Co. Limited",
+    "manufacturer": "Logital S.R.L.",
     "registrant_raw": "Logital S.R.L.",
     "status": "current",
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-S",
-    "short_name": null,
+    "short_name": "Logital",
     "device_type": null,
     "registered_date": "2026-10-28",
     "address": "Via Palazzetti 5/F San Lazzaro di Savena Bologna IT 40068",
     "country": "IT",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "8C:1F:64:87:3": {
+    "manufacturer": "Nav Wireless Technologies Pvt. Ltd.",
+    "registrant_raw": "Nav Wireless Technologies Pvt. Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": "NavWirelessT",
+    "device_type": null,
+    "registered_date": "2026-11-06",
+    "address": "C5 The First Besides ITC Narmada, Near Keshav Baug, Vastrapur Ahmedabad Ahmedabad IN 380015 ",
+    "country": "IN",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "8C:1F:64:F6:A": {
+    "manufacturer": "NoWire Connect Sweden AB",
+    "registrant_raw": "NoWire Connect Sweden AB",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": "NoWireConnec",
+    "device_type": null,
+    "registered_date": "2026-11-03",
+    "address": "Hultseryd 1 Lekeryd Jönköpings Län / Jonkoping County SE 561 96",
+    "country": null,
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "8C:1F:64:F0:C": {
+    "manufacturer": "Profcon AB",
+    "registrant_raw": "Profcon AB",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": "Profcon",
+    "device_type": null,
+    "registered_date": "2026-11-06",
+    "address": "Victor Hasselblads gata 9 Västra Frölunda  SE 42131",
+    "country": "SE",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "8C:1F:64:DF:7": {
+    "manufacturer": "Private (undisclosed IEEE registrant)",
+    "registrant_raw": "Private",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": "Private",
+    "device_type": null,
+    "registered_date": "2026-11-07",
+    "address": null,
+    "country": null,
+    "sources": [
+      "IEEE",
+      "Wireshark"
     ]
   },
   "8C:1F:64:A9:8": {
@@ -883648,7 +884823,7 @@
     ]
   },
   "70:B3:D5:DF:A": {
-    "manufacturer": "Newtouch Electronics (Shanghai) Co.,Ltd.",
+    "manufacturer": "Newtouch Electronics (Shanghai) Co., LTD.",
     "registrant_raw": "Newtouch Electronics (Shanghai) Co.,Ltd.",
     "status": "current",
     "deregistered_date": null,
@@ -897294,6 +898469,23 @@
       "Wireshark"
     ]
   },
+  "8C:1F:64:26:D": {
+    "manufacturer": "Blueprint Subsea",
+    "registrant_raw": "Blueprint Subsea",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": "BlueprintSub",
+    "device_type": null,
+    "registered_date": "2026-11-03",
+    "address": "The Clock Tower Building Low Wood Ulverston Cumbria GB LA12 8LY",
+    "country": null,
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
   "8C:1F:64:6D:D": {
     "manufacturer": "ViewSonic Corp.",
     "registrant_raw": "ViewSonic Corp",
@@ -897310,6 +898502,23 @@
       "IEEE",
       "Wireshark",
       "Nmap"
+    ]
+  },
+  "8C:1F:64:16:2": {
+    "manufacturer": "Texas Space Communications, Inc",
+    "registrant_raw": "Texas Space Communications, Inc",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": "TexasSpaceCo",
+    "device_type": null,
+    "registered_date": "2026-11-06",
+    "address": "990 Blue Mound Road E Haslet TX US 76052",
+    "country": "US",
+    "sources": [
+      "IEEE",
+      "Wireshark"
     ]
   },
   "8C:1F:64:E6:F": {
@@ -898879,7 +900088,7 @@
     ]
   },
   "8C:1F:64:72:3": {
-    "manufacturer": "CELESTICA INC.",
+    "manufacturer": "Celestica",
     "registrant_raw": "Celestica Inc.",
     "status": "current",
     "deregistered_date": null,
@@ -923457,6 +924666,40 @@
       "Wireshark"
     ]
   },
+  "8C:1F:64:28:2": {
+    "manufacturer": "LIVTC Portugal, Lda",
+    "registrant_raw": "LIVTC Portugal, Lda",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": "LIVTCPortuga",
+    "device_type": null,
+    "registered_date": "2026-10-31",
+    "address": "Zona Industrial Vale da Venda, Lote 1, Armazém A-D Faro Vale da Venda PT 8005-412 ",
+    "country": null,
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "8C:1F:64:A3:D": {
+    "manufacturer": "GPHY inc.",
+    "registrant_raw": "GPHY inc.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": "GPHY",
+    "device_type": null,
+    "registered_date": "2026-11-05",
+    "address": "2327 boul Versant-Nord suite 290 Québec Québec CA G1N4C2",
+    "country": null,
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
   "8C:1F:64:C1:A": {
     "manufacturer": "ViewSonic Corp.",
     "registrant_raw": "ViewSonic Corp",
@@ -923475,18 +924718,35 @@
       "Nmap"
     ]
   },
-  "8C:1F:64:28:2": {
-    "manufacturer": "LIVTC Portugal, Lda",
-    "registrant_raw": "LIVTC Portugal, Lda",
+  "8C:1F:64:08:8": {
+    "manufacturer": "JTL Systems Ltd.",
+    "registrant_raw": "JTL Systems Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": "JTL",
+    "device_type": null,
+    "registered_date": "2026-11-07",
+    "address": "41 Kingfisher Court Newbury Berks GB RG14 5SJ",
+    "country": null,
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "8C:1F:64:4C:6": {
+    "manufacturer": "Shengli Technologies",
+    "registrant_raw": "Shengli Technologies",
     "status": "current",
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-S",
     "short_name": null,
     "device_type": null,
-    "registered_date": "2026-10-31",
-    "address": "Zona Industrial Vale da Venda, Lote 1, Armazém A-D Faro Vale da Venda PT 8005-412 ",
-    "country": null,
+    "registered_date": "2026-11-11",
+    "address": "3766 Nanhuan Road, Binjiang Hangzhou  CN 310051 ",
+    "country": "CN",
     "sources": [
       "IEEE"
     ]
@@ -946316,7 +947576,7 @@
     ]
   },
   "8C:1F:64:6C:C": {
-    "manufacturer": "Newtouch Electronics (Shanghai) Co.,Ltd.",
+    "manufacturer": "Newtouch Electronics (Shanghai) Co., LTD.",
     "registrant_raw": "Newtouch Electronics (Shanghai) Co., LTD.",
     "status": "current",
     "deregistered_date": null,
@@ -949472,13 +950732,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-S",
-    "short_name": null,
+    "short_name": "SotechDevelo",
     "device_type": null,
     "registered_date": "2026-10-27",
     "address": "Ramky Selenium, Wing B, 3rd Floor, Plot No 31 & 32 Financial District, Nanakramguda Gachibowli Hyderabad Telangana IN 500032 ",
     "country": "IN",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "8C:1F:64:E6:C": {
@@ -949488,13 +950749,65 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-S",
-    "short_name": null,
+    "short_name": "FuseEnergy",
     "device_type": null,
     "registered_date": "2026-10-28",
     "address": "One Bank Street London  GB E14 4SG",
     "country": null,
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "8C:1F:64:68:A": {
+    "manufacturer": "PCN Co., Ltd.",
+    "registrant_raw": "PCN Co., Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": "PCN",
+    "device_type": null,
+    "registered_date": "2026-11-04",
+    "address": "Cornerone Smart Tower Room 312-313, 131 Dongtan Yeongchen-ro Hwaseong-si Gyeonggi-do KR 18467 ",
+    "country": "KR",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "8C:1F:64:46:E": {
+    "manufacturer": "Optima Engineering INC.",
+    "registrant_raw": "Optima Engineering INC.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": "OptimaEngine",
+    "device_type": "Smart Home",
+    "registered_date": "2026-11-04",
+    "address": "Baskent Organize Sanayi Bolgesi 19.Cadde NO:62 Malikoy-Sincan Ankara  TR 06909",
+    "country": "TR",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "8C:1F:64:EF:6": {
+    "manufacturer": "UNCOMMON GROUP INC",
+    "registrant_raw": "UNCOMMON GROUP INC",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": "UncommonGrou",
+    "device_type": null,
+    "registered_date": "2026-11-03",
+    "address": "562-Dongnamro Gangdong-gu Seoul KR 05357",
+    "country": "KR",
+    "sources": [
+      "IEEE",
+      "Wireshark"
     ]
   },
   "8C:1F:64:62:E": {
@@ -949513,6 +950826,55 @@
       "IEEE",
       "Wireshark",
       "Nmap"
+    ]
+  },
+  "8C:1F:64:85:D": {
+    "manufacturer": "Subsea Data Systems",
+    "registrant_raw": "Subsea Data Systems",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": "SubseaData",
+    "device_type": null,
+    "registered_date": "2026-11-03",
+    "address": "PO Box 2188 Rockville MD US 20847",
+    "country": "US",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "8C:1F:64:33:E": {
+    "manufacturer": "SCANMEG",
+    "registrant_raw": "SCANMEG",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": null,
+    "device_type": null,
+    "registered_date": "2026-11-11",
+    "address": "3517 Boulevard de la Grande-Allee Boisbriand Quebec CA J7H 1H5",
+    "country": null,
+    "sources": [
+      "IEEE"
+    ]
+  },
+  "8C:1F:64:87:4": {
+    "manufacturer": "Gentec",
+    "registrant_raw": "Gentec inc.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": null,
+    "device_type": null,
+    "registered_date": "2026-11-11",
+    "address": "2625 avenue Dalton Quebec QC CA G1P 3S9",
+    "country": null,
+    "sources": [
+      "IEEE"
     ]
   },
   "8C:1F:64:D6:3": {
@@ -975237,7 +976599,7 @@
     ]
   },
   "8C:1F:64:EA:3": {
-    "manufacturer": "Newtouch Electronics (Shanghai) Co.,Ltd.",
+    "manufacturer": "Newtouch Electronics (Shanghai) Co., LTD.",
     "registrant_raw": "Newtouch Electronics (Shanghai) Co., LTD.",
     "status": "current",
     "deregistered_date": null,
@@ -975260,13 +976622,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-S",
-    "short_name": null,
+    "short_name": "Intermobilit",
     "device_type": null,
     "registered_date": "2026-10-27",
     "address": "#711, Convention Center, 55, Hanyangdaehak-ro, Sangnok-gu Ansan-si Gyeonggi-do KR 15588 ",
     "country": "KR",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "8C:1F:64:84:F": {
@@ -975276,13 +976639,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-S",
-    "short_name": null,
+    "short_name": "RouchonIndus",
     "device_type": null,
     "registered_date": "2026-10-27",
     "address": "3407 E. La Palma Ave. Anaheim CA US 92806",
     "country": "US",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "8C:1F:64:A3:F": {
@@ -975328,29 +976692,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-S",
-    "short_name": null,
+    "short_name": "IdneoTechnol",
     "device_type": null,
     "registered_date": "2026-10-30",
     "address": "GRAN VÍA CARLOS III , 98 .PLANTA 5 Barcelona Barcelona ES 08028 ",
     "country": "ES",
     "sources": [
-      "IEEE"
-    ]
-  },
-  "8C:1F:64:11:C": {
-    "manufacturer": "WITCON Co., Ltd.",
-    "registrant_raw": "WITCON Co., Ltd.",
-    "status": "current",
-    "deregistered_date": null,
-    "registrant_history": null,
-    "registry": "MA-S",
-    "short_name": null,
-    "device_type": null,
-    "registered_date": "2026-10-29",
-    "address": "1516,D,60,Haan-ro Gwangmyeong-si Gyeonggi-do KR 14322 ",
-    "country": "KR",
-    "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "8C:1F:64:46:F": {
@@ -975360,11 +976709,95 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "MA-S",
-    "short_name": null,
+    "short_name": "inomatic",
     "device_type": null,
     "registered_date": "2026-10-28",
     "address": "Karl-Braun-Straße 12-13 Nordhorn Germany DE 48531",
     "country": "DE",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "8C:1F:64:11:C": {
+    "manufacturer": "WITCON Co., Ltd.",
+    "registrant_raw": "WITCON Co., Ltd.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": "WITCON",
+    "device_type": null,
+    "registered_date": "2026-10-29",
+    "address": "Room 1510, Building D, Gwangmyeong SK Technopark, 60, Haan-ro,,  Gwangmyeong-si Gyeonggi-do KR 14322 ",
+    "country": "KR",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "8C:1F:64:4C:B": {
+    "manufacturer": "Haoyu Intelligent Technonlogy",
+    "registrant_raw": "Haoyu Intelligent Technonlogy",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": "HaoyuIntelli",
+    "device_type": null,
+    "registered_date": "2026-11-04",
+    "address": "No. 200, Ln. 468, Wuqing Rd., Dayuan Dist. Taoyuan City  TW 337014 ",
+    "country": "TW",
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "8C:1F:64:18:C": {
+    "manufacturer": "Cence Power Inc.",
+    "registrant_raw": "Cence Power Inc.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": "CencePower",
+    "device_type": null,
+    "registered_date": "2026-11-03",
+    "address": "2700 John St. Markham ON CA L3R 2W4",
+    "country": null,
+    "sources": [
+      "IEEE",
+      "Wireshark"
+    ]
+  },
+  "8C:1F:64:CE:2": {
+    "manufacturer": "Kova, Corp.",
+    "registrant_raw": "Kova, Corp.",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": null,
+    "device_type": null,
+    "registered_date": "2026-11-09",
+    "address": "102 East Bay Avenue Suite J Manahawkin NJ US 08050",
+    "country": "US",
+    "sources": [
+      "IEEE"
+    ]
+  },
+  "8C:1F:64:3B:F": {
+    "manufacturer": "KanexPro",
+    "registrant_raw": "KanexPro",
+    "status": "current",
+    "deregistered_date": null,
+    "registrant_history": null,
+    "registry": "MA-S",
+    "short_name": null,
+    "device_type": null,
+    "registered_date": "2026-11-11",
+    "address": "3753 Howard Hughes Pkwy, Ste 200-1083 Las Vegas NV US 89169 ",
+    "country": "US",
     "sources": [
       "IEEE"
     ]
@@ -1054690,7 +1056123,7 @@
       "Wireshark"
     ]
   },
-  "3A:A3:F8": {
+  "FA:94:F1": {
     "manufacturer": "IEEE 802.1 Working Group",
     "registrant_raw": "IEEE 802.1 Working Group",
     "status": "current",
@@ -1054707,7 +1056140,7 @@
       "Wireshark"
     ]
   },
-  "FA:94:F1": {
+  "3A:A3:F8": {
     "manufacturer": "IEEE 802.1 Working Group",
     "registrant_raw": "IEEE 802.1 Working Group",
     "status": "current",
@@ -1054731,13 +1056164,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "CID",
-    "short_name": null,
+    "short_name": "UnseenRealit",
     "device_type": null,
     "registered_date": "2026-10-28",
     "address": "340 East Middlefield Road Mountain View CA US 94043",
     "country": "US",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "8A:85:2E": {
@@ -1056940,13 +1058374,14 @@
     "deregistered_date": null,
     "registrant_history": null,
     "registry": "CID",
-    "short_name": null,
+    "short_name": "CelAudioTech",
     "device_type": "Switch",
     "registered_date": "2026-10-28",
     "address": "B5-1201, Fulitaoyuan, Jiancaicheng east road, Beijing  CN 100096 ",
     "country": "CN",
     "sources": [
-      "IEEE"
+      "IEEE",
+      "Wireshark"
     ]
   },
   "00:FF:D1": {
