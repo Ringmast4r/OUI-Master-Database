@@ -1,6 +1,6 @@
 # OUI Master Database - Simple Format
-# Generated: 2026-11-11T10:27:11.544Z
-# Total Entries: 59320
+# Generated: 2026-11-21T10:43:56.601Z
+# Total Entries: 59424
 # Format: OUI<tab>Manufacturer
 # Prefixes follow Wireshark manuf notation - a /28 or /36 suffix marks a
 # 28-bit (MA-M) or 36-bit (MA-S/IAB) block. Bare prefixes are 24-bit MA-L.
@@ -5527,7 +5527,6 @@ A0:98:05	OpenVox Communication Co. Ltd.
 00:08:6E	Hyglo AB
 00:08:14	TIL Technologies
 00:08:BD	TEPG-US
-00:08:AE	PacketFront Network Products AB
 00:08:4F	Qualstar Corporation
 00:08:54	NETRONIX
 00:08:5C	Shanghai Dare Technologies Co. Ltd.
@@ -8165,7 +8164,15 @@ D4:D9:6A	Xiaomi
 50:EE:F8	Xiaomi
 9C:E0:87	Espressif
 10:25:13	LG Electronics
+50:57:16	Mellanox Technologies
+4C:48:D4	Huawei
+80:25:D2	Huawei
+98:C0:63	Huawei
 4C:A6:37	Hisense Home Appliances Group Co.,Ltd.Qingdao Branch
+D8:E6:AB	eero
+00:08:AE	Waystream AB
+30:E8:B9	Espressif
+C4:9A:90	Espressif
 00:74:9C	Ruijie Networks
 00:0F:EA	GIGA-BYTE TECHNOLOGY CO.,LTD.
 38:AD:2B	Hitron Technologies
@@ -16181,7 +16188,24 @@ A4:05:3E	BSH Electrodomésticos España, S.A.
 D8:23:32	Espressif
 0C:A2:F4	Verve Energy Technology
 94:B2:EC	NVIDIA
+78:9F:5B	Huawei
+D8:1E:A8	Huawei
+18:89:47	HISENSE VISUAL TECHNOLOGY CO.,LTD
+AC:66:B3	BUFFALO
+B8:31:84	HPE Aruba Networking
 84:6E:2F	OHSUNG
+74:3E:EA	ZTE
+D8:60:E6	ZTE
+0C:9A:AC	Cisco Meraki
+2C:E8:47	eero
+DC:EA:D8	Cisco
+DC:AB:39	Cisco
+48:60:CB	Nanjing RISC-V Institute Co., Ltd.
+44:B2:08	Mellanox Technologies
+64:2F:4F	Microsoft
+A4:E0:41	Ruckus Networks
+5C:DD:CB	Silicon Labs
+30:39:EB	hanshow America Inc.
 6C:87:20	New H3C Technologies Co., Ltd
 0C:8D:7A	RADiflow
 FC:A9:F5	Xiaomi
@@ -22191,7 +22215,6 @@ B4:B5:AF	Minsung Electronics
 00:50:39	MARINER NETWORKS
 00:50:95	Peracom Networks, Inc.
 00:90:B9	BERAN INSTRUMENTS LTD.
-00:90:A5	SPECTRA LOGIC
 00:90:A3	Corecess Inc.
 00:90:1F	ADTEC PRODUCTIONS, INC.
 00:90:38	Fountain Technologies, Inc.
@@ -24254,6 +24277,21 @@ B0:7E:F4	Hangzhou HikAuto Technology Co., Ltd.
 88:54:E0	Xiaomi
 20:99:EC	1AN Inc.
 88:B8:F7	NVIDIA
+34:79:DF	Dell
+10:D6:05	Fn-Link
+74:8B:7F	Skullcandy
+58:9D:44	Raycon
+14:A0:7D	Microchip Technology
+B8:CD:2B	eero
+B8:E3:BF	ZTE
+78:E0:4D	Sony Interactive Entertainment
+5C:6C:BB	IEEE Registration Authority
+00:90:A5	SPECTRA LOGIC
+F8:35:F5	Foxconn (Hon Hai)
+F4:DE:4D	Nanjing Qinheng Microelectronics Co., Ltd.
+A0:75:66	Cirrus Logic International Semiconductor Ltd
+6C:D4:41	Tech4home, Lda
+5C:57:9B	Cisco Meraki
 B0:0C:9D	Quectel
 F0:AB:1F	ZTE
 7C:B3:0A	ZTE
@@ -32406,10 +32444,21 @@ C8:65:94	IP Yusupov Nargiz Nakibovich
 58:30:AC	Quectel
 88:8A:F5	Intel
 60:41:5A	Google
-04:7B:43	IEEE Registration Authority
-98:84:C1	New H3C Technologies Co., Ltd
+AC:64:60	Nokia Solutions and Networks India Private Limited
+44:40:AB	ASUS
 90:C0:46	Foxconn (Hon Hai)
+98:84:C1	New H3C Technologies Co., Ltd
 BC:47:D6	Sagemcom
+A8:AB:18	Tuya
+04:7B:43	IEEE Registration Authority
+8C:05:4D	Huawei
+80:FF:60	Huawei
+04:6E:E5	HI-POWER Solution CO.,LTD.
+E4:DC:16	EM Microelectronic
+74:DF:B9	Cisco
+F0:B8:F7	Cisco
+C4:55:10	FRITZ! Technology GmbH
+6C:7C:FD	eero
 C8:5C:E2	IEEE Registration Authority
 DC:EE:14	ADT Technology
 10:FF:E0	GIGA-BYTE TECHNOLOGY CO.,LTD.
@@ -40467,12 +40516,30 @@ D4:05:11	TCL King Electrical Appliances(Huizhou)Co.,Ltd
 70:BE:8E	Huawei
 E4:22:24	Lenovo / Motorola Mobility
 8C:A0:2C	Arcadyan
-0C:33:1B	TydenBrooks
-F0:27:6E	AltoBeam
+B0:0D:A8	Sagemcom
+E4:20:0B	Polystack Technologies Private Limited
 18:21:62	New H3C Technologies Co., Ltd
 4C:E2:0C	New H3C Technologies Co., Ltd
-E4:20:0B	Polystack Technologies Private Limited
-B0:0D:A8	Sagemcom
+E4:C1:D8	Huawei
+04:95:8E	Huawei
+F0:27:6E	AltoBeam
+2C:1D:BB	Tuya
+0C:33:1B	TydenBrooks
+0C:84:73	Bouffalo Lab
+B4:41:6B	GX India Pvt Ltd
+FC:27:31	EM Microelectronic
+70:7F:7D	Infinix (Transsion)
+C8:4A:F0	Mellanox Technologies
+2C:B5:09	Mellanox Technologies
+14:F4:74	Network Orbiter Private Limited
+D4:3F:38	Huawei
+E0:DD:4B	Microsoft
+14:BF:9A	HavocAI, Inc.
+90:B9:70	Shenzhen V-Link Technology CO., LTD.
+00:FD:05	Silicon Labs
+C8:2F:A4	Lyntera Singapore Pte. Ltd.
+E0:BC:C8	nFore / IVT (Bluetooth stacks)
+7C:81:AA	Shenzhen Enrigin Technology Co., Ltd.
 C8:5C:E2:70/28	SYNERGY SYSTEMS AND SOLUTIONS
 74:1A:E0:90/28	Private (undisclosed IEEE registrant)
 C8:5C:E2:A0/28	San Telequip (P) Ltd.,
@@ -41829,6 +41896,8 @@ B8:F4:53:D0/28	Withusnet Co., Ltd
 B8:F4:53:E0/28	Shenzhen Co-believe Technology limited
 04:7B:43:40/28	Medicop d.o.o.
 04:7B:43:00/28	JUNGJUN Co., Ltd.
+5C:6C:BB:D0/28	Vasco Electronics S.A.
+5C:6C:BB:A0/28	Entrust Security UK Limited
 B8:4C:87:30/28	Shenzhen Link-all Technology Co., Ltd
 B8:4C:87:C0/28	SOND
 B8:4C:87:B0/28	Beijing Yunji Technology Co., Ltd.
@@ -43101,6 +43170,9 @@ B8:F4:53:70/28	Valthor, s.r.o.
 04:7B:43:A0/28	RUBISEC CORPORATION
 04:7B:43:90/28	Xthings Industry LLC
 04:7B:43:60/28	CZUR TECH CO., LTD
+5C:6C:BB:80/28	Private (undisclosed IEEE registrant)
+5C:6C:BB:30/28	DATA KNOX DMS PRIVATE LIMITED
+5C:6C:BB:20/28	Shenzhen Dangzhi Technology Co., Ltd.
 B8:4C:87:A0/28	Altronix Corporation
 8C:C8:F4:70/28	TableSafe
 58:E8:76:00/28	Zhuhai Raysharp Technology Co.,Ltd
@@ -44475,6 +44547,7 @@ B8:F4:53:50/28	EMPIRETECH HK LIMITED
 04:7B:43:80/28	MERAK HVAC España S.A.U.
 34:C8:D6:50/28	RUBISEC CORPORATION
 04:7B:43:20/28	PEAK International
+5C:6C:BB:90/28	Certaintek Co.,Ltd.
 D0:14:11:10/28	P.B. Elettronica srl
 B8:4C:87:60/28	HORIBA Precision Instruments (Beijing) Co.,Ltd
 C0:22:F1:30/28	Spectra Technologies India Private Limited
@@ -45801,7 +45874,10 @@ CC:F7:22:40/28	Menuit inc.
 5C:AB:22:50/28	Cyngrox Private Limited
 80:A5:79:A0/28	ViewSonic Corp.
 B8:F4:53:90/28	PA Technology Solutions Ltd
+04:7B:43:E0/28	SDT Inc.
 04:7B:43:B0/28	ACADEMY FOR FUTURE HEALTH LTD
+5C:6C:BB:50/28	LVT
+5C:6C:BB:C0/28	Swegon ILTO Oy
 C8:5C:E2:00/28	Fela Management AG
 B8:4C:87:E0/28	Private (undisclosed IEEE registrant)
 B8:4C:87:10/28	em-trak
@@ -47156,6 +47232,7 @@ CC:F7:22:60/28	RIVERSIDE SOLUTIONS PRIVATE LIMITED
 04:7B:43:C0/28	RR Technologies GmbH
 B8:F4:53:C0/28	Wavin T&I
 04:7B:43:70/28	ICsec S.A.
+5C:6C:BB:B0/28	BackburnerLabs
 8C:1F:64:AF:A0/36	DATA ELECTRONIC DEVICES, INC
 8C:1F:64:9B:90/36	QUERCUS TECHNOLOGIES, S.L.
 8C:1F:64:D0:F0/36	Mecco LLC
@@ -48574,18 +48651,18 @@ B8:F4:53:C0/28	Wavin T&I
 8C:1F:64:2B:20/36	Infosoft Digital Design and Services P L
 8C:1F:64:BF:90/36	Hitachi Energy
 8C:1F:64:99:00/36	Traxara Robotics
-8C:1F:64:A4:D0/36	DEUTA-WERKE GmbH
 8C:1F:64:13:00/36	Vigor Electric Corp.
 8C:1F:64:57:00/36	ACD Elektronik GmbH
+8C:1F:64:A4:D0/36	DEUTA-WERKE GmbH
 8C:1F:64:B8:90/36	Aineas
 8C:1F:64:38:30/36	Urbidermis, S.L. (VAT ESB66435017)
 8C:1F:64:53:80/36	InstruVU
+8C:1F:64:B7:00/36	Tesla Subsea Inc.
 8C:1F:64:5C:80/36	WOTA Corp.
 8C:1F:64:B4:E0/36	Aditec GmbH
 8C:1F:64:7E:40/36	Peter Huber Kaeltemaschinenbau SE
-8C:1F:64:B7:00/36	Tesla Subsea Inc.
-8C:1F:64:9A:F0/36	Advanced Mechatronics GmbH
 8C:1F:64:40:B0/36	WHOI-AComms
+8C:1F:64:9A:F0/36	Advanced Mechatronics GmbH
 8C:1F:64:A5:00/36	Simply Embededded Inc
 8C:1F:64:02:C0/36	Lanpoe
 8C:1F:64:37:90/36	Transducers Direct LLC
@@ -48595,16 +48672,22 @@ B8:F4:53:C0/28	Wavin T&I
 8C:1F:64:E7:F0/36	Automata GmbH & Co. KG
 8C:1F:64:01:B0/36	Fujitsu Defense & National Security Limited
 8C:1F:64:B8:70/36	ELBIT- ROKAR
+8C:1F:64:30:20/36	Brandmaier Messen, Steuern, Software
 8C:1F:64:53:20/36	SEONGWON ENG CO.,LTD
 8C:1F:64:C5:F0/36	Unitron Systems b.v.
-8C:1F:64:30:20/36	Brandmaier Messen, Steuern, Software
-8C:1F:64:81:F0/36	ViewSonic Corp.
-8C:1F:64:5B:90/36	ViewSonic Corp.
 8C:1F:64:D2:E0/36	Logital S.R.L.
+8C:1F:64:5B:90/36	ViewSonic Corp.
+8C:1F:64:81:F0/36	ViewSonic Corp.
 8C:1F:64:87:30/36	Nav Wireless Technologies Pvt. Ltd.
 8C:1F:64:F6:A0/36	NoWire Connect Sweden AB
 8C:1F:64:F0:C0/36	Profcon AB
+8C:1F:64:EE:70/36	CIAB Tech, LLC
 8C:1F:64:DF:70/36	Private (undisclosed IEEE registrant)
+8C:1F:64:00:50/36	H Nu Pty Ltd
+8C:1F:64:4E:F0/36	Crane Nuclear
+8C:1F:64:57:F0/36	BlueSpace TECHNOLOGY SA
+8C:1F:64:B1:C0/36	BG Systems, Inc.
+8C:1F:64:89:B0/36	Sensia Solutions,S.L.
 8C:1F:64:A9:80/36	Jacobs Technology, Inc.
 8C:1F:64:4A:90/36	Martec Marine S.p.a.
 8C:1F:64:DE:50/36	Gogo Business Aviation
@@ -49016,7 +49099,6 @@ B8:F4:53:C0/28	Wavin T&I
 70:B3:D5:18:F0/36	Newtec A/S
 70:B3:D5:A7:F0/36	AUDIO VISUAL DIGITAL SYSTEMS
 70:B3:D5:F8:00/36	Guan Show Technologe Co., Ltd.
-70:B3:D5:A6:00/36	Pneumax Spa
 00:1B:C5:02:90/36	2 FRANCE MARINE
 70:B3:D5:4F:D0/36	ENLESS WIRELESS
 70:B3:D5:86:A0/36	Stealth Communications
@@ -50033,9 +50115,9 @@ B8:F4:53:C0/28	Wavin T&I
 8C:1F:64:1A:80/36	LCR Embedded Systems
 8C:1F:64:D8:B0/36	I/O Controls
 8C:1F:64:AE:00/36	ASTER PRO-AUDIO INC.
-8C:1F:64:34:30/36	Syscom Instruments SA
 8C:1F:64:CB:40/36	Wi4B s.r.l.
 8C:1F:64:B9:C0/36	GIB Korea Co.,Ltd.
+8C:1F:64:34:30/36	Syscom Instruments SA
 8C:1F:64:55:A0/36	Zomedica
 8C:1F:64:8B:A0/36	Code Blue Corporation
 8C:1F:64:CF:20/36	Potter Electric Signal Co. LLC
@@ -50045,15 +50127,15 @@ B8:F4:53:C0/28	Wavin T&I
 8C:1F:64:F1:F0/36	ARETA AI INC.
 8C:1F:64:24:A0/36	Suzhou Nihone Electronic Technology Co.,Ltd.
 8C:1F:64:93:40/36	eumig industrie-TV GmbH.
-8C:1F:64:3A:00/36	Faraday4T
 8C:1F:64:45:20/36	Beijing Yong'an Xintong Technology Co.,LTD
 8C:1F:64:EF:C0/36	LonTen Technology（BeiJing）Co.,LTD.
 8C:1F:64:05:E0/36	Pramac GmbH
 8C:1F:64:B7:80/36	Power Electronics Espana, S.L.
-8C:1F:64:9E:30/36	E-Globaledge Corporation
+8C:1F:64:3A:00/36	Faraday4T
 8C:1F:64:6F:A0/36	IDNEO TECHNOLOGIES,S.A.U.
 8C:1F:64:06:40/36	Cube Telecom Pvt Ltd
 8C:1F:64:A8:D0/36	Brightxcom
+8C:1F:64:9E:30/36	E-Globaledge Corporation
 8C:1F:64:8C:70/36	Makita Industrial Tools Corporation
 8C:1F:64:A1:90/36	Power Electronics Espana, S.L.
 8C:1F:64:DB:20/36	Lynx Systems
@@ -50063,9 +50145,14 @@ B8:F4:53:C0/28	Wavin T&I
 8C:1F:64:2B:50/36	XTEC Industries Pte Ltd
 8C:1F:64:FA:D0/36	LOOKMAN DISTRIBUTION PVT.LTD
 8C:1F:64:B1:10/36	RFTEQ PTY LTD
-8C:1F:64:26:D0/36	Blueprint Subsea
 8C:1F:64:6D:D0/36	ViewSonic Corp.
 8C:1F:64:16:20/36	Texas Space Communications, Inc
+8C:1F:64:26:D0/36	Blueprint Subsea
+8C:1F:64:BE:70/36	Nokia
+8C:1F:64:66:70/36	FireHUD Inc. d.b.a SlateSafety
+8C:1F:64:5A:B0/36	GO engineering GmbH
+8C:1F:64:EC:70/36	Linglume (Shanghai) Technology Co., Ltd
+70:B3:D5:A6:00/36	Pneumax Spa
 8C:1F:64:E6:F0/36	Vision Systems Safety Tech
 70:B3:D5:11:90/36	YPP Corporation
 70:B3:D5:15:90/36	RCH SPA
@@ -51437,7 +51524,6 @@ B8:F4:53:C0/28	Wavin T&I
 8C:1F:64:52:80/36	Luxshare Electronic Technology (KunShan) Ltd
 8C:1F:64:C8:40/36	LUCEOR
 8C:1F:64:25:90/36	SHODEN Co., Ltd.
-8C:1F:64:14:30/36	Chamsys Ltd
 8C:1F:64:66:B0/36	Currux Vision LLC
 8C:1F:64:13:40/36	LyconSys GmbH & Co.KG
 8C:1F:64:03:60/36	Photon Counting Systems LLC
@@ -51499,13 +51585,13 @@ B8:F4:53:C0/28	Wavin T&I
 8C:1F:64:6F:10/36	alfamation spa
 8C:1F:64:F3:80/36	AKSE srl
 8C:1F:64:FD:D0/36	Atik Cameras Unipessoal, Lda
-8C:1F:64:20:F0/36	DAVE SRL
 8C:1F:64:21:80/36	Symphony Interactive Inc
-8C:1F:64:D0:10/36	Emerson Rosemount Analytical
+8C:1F:64:20:F0/36	DAVE SRL
 8C:1F:64:63:70/36	HwaCom Systems Inc.
+8C:1F:64:D0:10/36	Emerson Rosemount Analytical
 8C:1F:64:CA:A0/36	Energom Electronic Kft.
-70:B3:D5:94:C0/36	Intelligrated System LLC
 8C:1F:64:85:00/36	Tokyo Denki Gijutsu Kogyo
+70:B3:D5:94:C0/36	Intelligrated System LLC
 8C:1F:64:D7:50/36	Falling Edge Technology Ltd
 8C:1F:64:44:C0/36	Radi International CO., LTD.
 8C:1F:64:90:00/36	AUTA COMUNICACIONES SL
@@ -51515,8 +51601,8 @@ B8:F4:53:C0/28	Wavin T&I
 8C:1F:64:3B:E0/36	Adit Innovation Private Limited
 8C:1F:64:17:30/36	iPronics
 8C:1F:64:D3:60/36	RF Code
-8C:1F:64:70:F0/36	SUS Corporation
 8C:1F:64:F4:00/36	DORLET SAU
+8C:1F:64:70:F0/36	SUS Corporation
 8C:1F:64:E3:90/36	Power Electronics Espana, S.L.
 8C:1F:64:FF:10/36	KODENSHI CORP.
 8C:1F:64:3E:C0/36	SPEKTRA Schwingungstechnik und Akustik GmbH Dresden
@@ -51527,6 +51613,12 @@ B8:F4:53:C0/28	Wavin T&I
 8C:1F:64:C1:A0/36	ViewSonic Corp.
 8C:1F:64:08:80/36	JTL Systems Ltd.
 8C:1F:64:4C:60/36	Shengli Technologies
+8C:1F:64:B4:B0/36	Elsist Srl
+8C:1F:64:93:C0/36	Konzept Informationssysteme GmbH
+8C:1F:64:DB:C0/36	QHR Mothership LLC
+8C:1F:64:9F:30/36	Vardaan Electronics Industries Pvt. Ltd.
+8C:1F:64:F0:00/36	GVision Italia S.r.l.
+8C:1F:64:14:30/36	Chamsys Ltd
 8C:1F:64:82:B0/36	Flow Power
 8C:1F:64:5A:70/36	RCH SPA
 8C:1F:64:04:90/36	NUANCES ORG
@@ -52940,28 +53032,28 @@ B8:F4:53:C0/28	Wavin T&I
 8C:1F:64:A5:20/36	TIAMA
 8C:1F:64:25:D0/36	mpsonic
 8C:1F:64:47:70/36	Syndora Alto Technology Limited
-8C:1F:64:EE:C0/36	Lumenir Inc.
 8C:1F:64:1A:40/36	Beijing Qinghong Chuangzhi Technology Co.,Ltd.
-8C:1F:64:BD:A0/36	Skip Innovations, Inc
+8C:1F:64:EE:C0/36	Lumenir Inc.
 8C:1F:64:B0:70/36	AeroVironment
-8C:1F:64:B2:E0/36	Grossenbacher Systeme AG
+8C:1F:64:BD:A0/36	Skip Innovations, Inc
 8C:1F:64:56:20/36	WOLF Advanced Technology
+8C:1F:64:B2:E0/36	Grossenbacher Systeme AG
 8C:1F:64:F0:10/36	OmniBuds Ltd
 8C:1F:64:95:10/36	Mitsubishi Electric India Pvt. Ltd.
+8C:1F:64:F8:90/36	DIGITALWAN
 8C:1F:64:9F:70/36	Wuxi Tongyuan Electrical Technology Co., Ltd.
 8C:1F:64:A8:80/36	ResIOT UBLSOFTWARE SRL
 8C:1F:64:7F:F0/36	Potter Electric Signal Co. LLC
-8C:1F:64:F8:90/36	DIGITALWAN
+8C:1F:64:E5:F0/36	INVENTIA Sp. z o.o.
 8C:1F:64:FA:10/36	M/S MILIND RAMACHANDRA RAJWADE
 8C:1F:64:6A:20/36	Exatron Servers Manufacturing Pvt Ltd
-8C:1F:64:E5:F0/36	INVENTIA Sp. z o.o.
 8C:1F:64:95:00/36	Breas Medical AB
+8C:1F:64:60:40/36	Leaflabs
 8C:1F:64:7B:F0/36	Drs RADA Technologies
 8C:1F:64:22:30/36	Loonson Technology Corporation Limited
-8C:1F:64:60:40/36	Leaflabs
 8C:1F:64:0A:10/36	Televic Rail GmbH
-8C:1F:64:37:30/36	Pin Kuan Technology Co., Ltd.
 8C:1F:64:FB:80/36	Abbott
+8C:1F:64:37:30/36	Pin Kuan Technology Co., Ltd.
 8C:1F:64:5E:00/36	Everest Audio Labs
 8C:1F:64:F5:80/36	Mega Endustri Kontrol Sis.Tic.San.A.S
 8C:1F:64:F7:E0/36	Suzhou Deyi Automotive Electronics Co., Ltd.
@@ -52975,14 +53067,16 @@ B8:F4:53:C0/28	Wavin T&I
 8C:1F:64:9B:00/36	Karman
 8C:1F:64:C4:70/36	Season Electronics Ltd
 8C:1F:64:9E:D0/36	Sotech Development Pvt. Ltd.
+8C:1F:64:62:E0/36	ViewSonic Corp.
 8C:1F:64:E6:C0/36	Fuse Energy
 8C:1F:64:68:A0/36	PCN Co., Ltd.
 8C:1F:64:46:E0/36	Optima Engineering INC.
 8C:1F:64:EF:60/36	UNCOMMON GROUP INC
-8C:1F:64:62:E0/36	ViewSonic Corp.
 8C:1F:64:85:D0/36	Subsea Data Systems
 8C:1F:64:33:E0/36	SCANMEG
 8C:1F:64:87:40/36	Gentec
+8C:1F:64:54:50/36	Open Radio Systems GmbH
+8C:1F:64:46:30/36	Potter Electric Signal Co. LLC
 8C:1F:64:D6:30/36	Mobileye
 8C:1F:64:3C:80/36	BTG Instruments AB
 70:B3:D5:90:E0/36	Maytronics Ltd.
@@ -54402,32 +54496,39 @@ B8:F4:53:C0/28	Wavin T&I
 8C:1F:64:68:20/36	MB connect line GmbH
 8C:1F:64:40:F0/36	Fuzhou Tucsen Photonics Co.,Ltd
 8C:1F:64:B1:20/36	Hongtai Intelligent Technology
-8C:1F:64:FA:F0/36	Goodtech Worldwide LTD ,,mobitel''
 8C:1F:64:08:70/36	Benchmark Electronics BV
+8C:1F:64:FA:F0/36	Goodtech Worldwide LTD ,,mobitel''
 8C:1F:64:DA:20/36	Ascon Tecnologic S.r.l.
-8C:1F:64:0F:80/36	INVENTIS S.r.l.
 8C:1F:64:A9:30/36	eSmart Tech Inc
-8C:1F:64:34:60/36	Sin Yi Integration Co., Ltd.
+8C:1F:64:0F:80/36	INVENTIS S.r.l.
 8C:1F:64:18:90/36	HERUTU ELECTRONICS CORPORATION
+8C:1F:64:34:60/36	Sin Yi Integration Co., Ltd.
 8C:1F:64:A6:80/36	AvMap srlu
-8C:1F:64:3F:00/36	Supracontrol d.o.o.
 8C:1F:64:B4:D0/36	OTODO
+8C:1F:64:3F:00/36	Supracontrol d.o.o.
+8C:1F:64:EA:30/36	Newtouch Electronics (Shanghai) Co., LTD.
 8C:1F:64:5B:B0/36	Powell Electronics Inc.
 8C:1F:64:86:00/36	Gogo BA
 8C:1F:64:67:90/36	Guangdong Gospower Electric Technology Co., Ltd.
 8C:1F:64:95:F0/36	INVIXIUM ACCESS INC
-8C:1F:64:EA:30/36	Newtouch Electronics (Shanghai) Co., LTD.
 8C:1F:64:AD:D0/36	Intermobility
 8C:1F:64:84:F0/36	Rouchon Industries Inc.
 8C:1F:64:A3:F0/36	ViewSonic Corp.
-8C:1F:64:36:B0/36	ViewSonic Corp.
 8C:1F:64:C9:C0/36	IDNEO TECHNOLOGIES,S.A.U.
 8C:1F:64:46:F0/36	inomatic GmbH
+8C:1F:64:36:B0/36	ViewSonic Corp.
 8C:1F:64:11:C0/36	WITCON Co., Ltd.
 8C:1F:64:4C:B0/36	Haoyu Intelligent Technonlogy
 8C:1F:64:18:C0/36	Cence Power Inc.
-8C:1F:64:CE:20/36	Kova, Corp.
 8C:1F:64:3B:F0/36	KanexPro
+8C:1F:64:CE:20/36	Kova, Corp.
+8C:1F:64:13:20/36	Shenzhen Enatel Electronics Co,ltd.
+8C:1F:64:35:50/36	FAH TECH CO.,LTD
+8C:1F:64:ED:B0/36	ADL Systems
+8C:1F:64:2E:90/36	DataCatcher
+8C:1F:64:17:20/36	OPEN Alliance
+8C:1F:64:D4:B0/36	Rax-Tech International
+8C:1F:64:48:40/36	Shenzhen Yahboom Technology Co.,Ltd.
 40:D8:55:0D:70/36	Avant Technologies
 00:50:C2:F7:10/36	RF Code
 00:50:C2:9C:C0/36	Hirotech inc.
@@ -59047,6 +59148,7 @@ FA:7A:CB	Ultra Ethernet Consortium
 0A:9E:66	Distance Technologies Ltd
 7A:B2:30	European Telecommunications Standards Institute
 CA:30:BF	IEEE 802.1 Working Group
+3A:2F:B8	Supracontrol d.o.o.
 CA:C2:76	Saab Seaeye Ltd
 DA:E6:D7	NVM Express, Inc.
 4A:ED:1D	Astera Labs, Inc.
@@ -59141,6 +59243,8 @@ FA:8D:93	Runione Tech Co., Ltd
 4A:E0:3F	Chengdu Superxon Communication Technology Co., Ltd.
 4A:B4:7B	faytech Tech. Co., Ltd.
 6A:61:EE	Nanjing Etlchips Microelectronics Technology Co., LTD
+7A:8F:27	Mirai Speaker Inc.
+4A:52:66	LAST LOCK INC.
 DA:C4:51	Takaratomy
 BA:C8:C4	Transponder & Reader Engineered Systems, Inc
 CA:7D:DD	EmOne (Thailand) Co.,Ltd.

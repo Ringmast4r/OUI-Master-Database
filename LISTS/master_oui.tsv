@@ -5521,7 +5521,6 @@ A0:98:05	OpenVox Communication Co. Ltd.	MA-L	OpenVoxCommu	2009-08-12	IEEE+Wiresh
 00:08:6E	Hyglo AB	MA-L	Hyglo	2001-12-14	IEEE+Wireshark+Nmap	Hyglo AB	current		
 00:08:14	TIL Technologies	MA-L	TILTechnolog	2001-10-24	IEEE+Wireshark+Nmap	TIL Technologies	current		
 00:08:BD	TEPG-US	MA-L	TepgUs	2001-12-23	IEEE+Wireshark+Nmap	TEPG-US	current		
-00:08:AE	PacketFront Network Products AB	MA-L	PacketFrontN	2001-12-14	IEEE+Wireshark+Nmap	PacketFront Network Products AB	current		Packetfront | PacketFront Sweden AB | PacketFront International AB | PacketFront Network Products AB
 00:08:4F	Qualstar Corporation	MA-L	Qualstar	2001-12-14	IEEE+Wireshark+Nmap	Qualstar Corporation	current		
 00:08:54	NETRONIX	MA-L	Netronix	2001-12-14	IEEE+Wireshark+Nmap	Netronix, Inc.	current		
 00:08:5C	Shanghai Dare Technologies Co. Ltd.	MA-L	DareTechnolo	2001-12-14	IEEE+Wireshark+Nmap	Shanghai Dare Technologies Co. Ltd.	current		
@@ -8159,7 +8158,15 @@ D4:D9:6A	Xiaomi	MA-L	XiaomiCommun	2026-11-06	IEEE+Wireshark	Xiaomi Communication
 50:EE:F8	Xiaomi	MA-L	XiaomiCommun	2026-11-06	IEEE+Wireshark	Xiaomi Communications Co Ltd	current		
 9C:E0:87	Espressif	MA-L	EspressifPte	2026-11-06	IEEE+Wireshark	Espressif Systems (Singapore) Pte. Ltd	current		
 10:25:13	LG Electronics	MA-L	LGElectronic	2026-11-05	IEEE+Wireshark	LG Electronics	current		
-4C:A6:37	Hisense Home Appliances Group Co.,Ltd.Qingdao Branch	MA-L		2026-11-11	IEEE	Hisense Home Appliances Group Co.,Ltd.Qingdao Branch	current		
+50:57:16	Mellanox Technologies	MA-L		2026-11-16	IEEE	Mellanox Technologies, Inc.	current		
+4C:48:D4	Huawei	MA-L	HuaweiTechno	2026-11-13	IEEE+Wireshark	HUAWEI TECHNOLOGIES CO.,LTD	current		
+80:25:D2	Huawei	MA-L	HuaweiTechno	2026-11-13	IEEE+Wireshark	HUAWEI TECHNOLOGIES CO.,LTD	current		
+98:C0:63	Huawei	MA-L	HuaweiTechno	2026-11-13	IEEE+Wireshark	HUAWEI TECHNOLOGIES CO.,LTD	current		
+4C:A6:37	Hisense Home Appliances Group Co.,Ltd.Qingdao Branch	MA-L	HisenseHomeA	2026-11-11	IEEE+Wireshark	Hisense Home Appliances Group Co.,Ltd.Qingdao Branch	current		
+D8:E6:AB	eero	MA-L	eero	2026-11-12	IEEE+Wireshark	eero inc.	current		
+00:08:AE	Waystream AB	MA-L	PacketFrontN	2001-12-14	IEEE+Wireshark+Nmap	Waystream AB	current		Packetfront | PacketFront Sweden AB | PacketFront International AB | PacketFront Network Products AB | Waystream AB
+30:E8:B9	Espressif	MA-L		2026-11-20	IEEE	Espressif Systems (Singapore) Pte. Ltd	current		
+C4:9A:90	Espressif	MA-L		2026-11-20	IEEE	Espressif Systems (Singapore) Pte. Ltd	current		
 00:74:9C	Ruijie Networks	MA-L	RuijieNetwor	2016-05-26	IEEE+Wireshark+Nmap	Ruijie Networks Co.,LTD	current		RUIJIE NETWORKS CO., LTD. | Ruijie Networks Co.,LTD
 00:0F:EA	GIGA-BYTE TECHNOLOGY CO.,LTD.	MA-L	GigaByteTech	2004-04-03	IEEE+Wireshark+Nmap	GIGA-BYTE TECHNOLOGY CO.,LTD.	current		
 38:AD:2B	Hitron Technologies	MA-L	HitronTechno	2023-07-07	IEEE+Wireshark+Nmap	Hitron Technologies. Inc	current		
@@ -16169,13 +16176,30 @@ BC:2A:51	Apple	MA-L	Apple	2026-10-23	IEEE+Wireshark	Apple, Inc.	current
 80:70:39	Huawei	MA-L	HuaweiDevice	2026-11-03	IEEE+Wireshark	Huawei Device Co., Ltd.	current		
 18:2F:58	Veritech LLC	MA-L	Veritech	2026-11-03	IEEE+Wireshark	Veritech LLC	current		
 1C:07:DD	FRITZ! Technology GmbH	MA-L	FRITZ!Techno	2026-11-07	IEEE+Wireshark	FRITZ! Technology GmbH	current		
-A4:05:3E	BSH Electrodomésticos España, S.A.	MA-L		2026-11-10	IEEE	BSH Electrodomésticos España, S.A.	current		
+A4:05:3E	BSH Electrodomésticos España, S.A.	MA-L	BSHElectrodo	2026-11-10	IEEE+Wireshark	BSH Electrodomésticos España, S.A.	current		
 60:8D:28	Lenovo / Motorola Mobility	MA-L	MotorolaMobi	2026-11-05	IEEE+Wireshark	Motorola Mobility LLC, a Lenovo Company	current		
-84:41:3C	New H3C Technologies Co., Ltd	MA-L		2026-11-11	IEEE	New H3C Technologies Co., Ltd	current		
+84:41:3C	New H3C Technologies Co., Ltd	MA-L	NewH3CTechno	2026-11-11	IEEE+Wireshark	New H3C Technologies Co., Ltd	current		
 D8:23:32	Espressif	MA-L	EspressifPte	2026-11-06	IEEE+Wireshark	Espressif Systems (Singapore) Pte. Ltd	current		
 0C:A2:F4	Verve Energy Technology	MA-L	VerveEnergyT	2011-11-29	IEEE+Wireshark+Nmap	Verve Energy Technology	current		Chameleon Technology (UK) Limited | Verve Energy Technology
 94:B2:EC	NVIDIA	MA-L	NVIDIA	2026-11-06	IEEE+Wireshark	NVIDIA Corporation	current		
-84:6E:2F	OHSUNG	MA-L		2026-11-11	IEEE	OHSUNG	current		
+78:9F:5B	Huawei	MA-L	HuaweiTechno	2026-11-13	IEEE+Wireshark	HUAWEI TECHNOLOGIES CO.,LTD	current		
+D8:1E:A8	Huawei	MA-L	HuaweiTechno	2026-11-13	IEEE+Wireshark	HUAWEI TECHNOLOGIES CO.,LTD	current		
+18:89:47	HISENSE VISUAL TECHNOLOGY CO.,LTD	MA-L	HisenseVisua	2026-11-13	IEEE+Wireshark	HISENSE VISUAL TECHNOLOGY CO.,LTD	current		
+AC:66:B3	BUFFALO	MA-L	Buffalo	2026-11-12	IEEE+Wireshark	BUFFALO.INC	current		
+B8:31:84	HPE Aruba Networking	MA-L	HewlettPacka	2026-11-13	IEEE+Wireshark	Hewlett Packard Enterprise	current		
+84:6E:2F	OHSUNG	MA-L	Ohsung	2026-11-11	IEEE+Wireshark	OHSUNG	current		
+74:3E:EA	ZTE	MA-L		2026-11-16	IEEE	zte corporation	current		
+D8:60:E6	ZTE	MA-L		2026-11-16	IEEE	zte corporation	current		
+0C:9A:AC	Cisco Meraki	MA-L		2026-11-20	IEEE	Cisco Meraki	current		
+2C:E8:47	eero	MA-L		2026-11-20	IEEE	eero inc.	current		
+DC:EA:D8	Cisco	MA-L		2026-11-18	IEEE	Cisco Systems, Inc	current		
+DC:AB:39	Cisco	MA-L		2026-11-18	IEEE	Cisco Systems, Inc	current		
+48:60:CB	Nanjing RISC-V Institute Co., Ltd.	MA-L		2026-11-19	IEEE	Nanjing RISC-V Institute Co., Ltd.	current		
+44:B2:08	Mellanox Technologies	MA-L		2026-11-16	IEEE	Mellanox Technologies, Inc.	current		
+64:2F:4F	Microsoft	MA-L		2026-11-16	IEEE	Microsoft Corporation	current		
+A4:E0:41	Ruckus Networks	MA-L		2026-11-19	IEEE	Ruckus Wireless	current		
+5C:DD:CB	Silicon Labs	MA-L		2026-11-20	IEEE	Silicon Laboratories	current		
+30:39:EB	hanshow America Inc.	MA-L		2026-11-20	IEEE	hanshow America Inc.	current		
 6C:87:20	New H3C Technologies Co., Ltd	MA-L	NewH3CTechno	2023-07-15	IEEE+Wireshark+Nmap	New H3C Technologies Co., Ltd	current		
 0C:8D:7A	RADiflow	MA-L	RADiflow	2023-07-14	IEEE+Wireshark+Nmap	RADiflow	current		
 FC:A9:F5	Xiaomi	MA-L	XiaomiCommun	2023-07-14	IEEE+Wireshark+Nmap	Xiaomi Communications Co Ltd	current		
@@ -22185,7 +22209,6 @@ B4:B5:AF	Minsung Electronics	MA-L	MinsungElect	2009-08-19	IEEE+Wireshark+Nmap	Mi
 00:50:39	MARINER NETWORKS	MA-L	MarinerNetwo	2000-09-08	IEEE+Wireshark+Nmap	MARINER NETWORKS	current		
 00:50:95	Peracom Networks, Inc.	MA-L	PeracomNetwo	2000-09-08	IEEE+Wireshark+Nmap	PERACOM NETWORKS	current		
 00:90:B9	BERAN INSTRUMENTS LTD.	MA-L	BeranInstrum	2000-09-08	IEEE+Wireshark+Nmap	BERAN INSTRUMENTS LTD.	current		
-00:90:A5	SPECTRA LOGIC	MA-L	SpectraLogic	2000-09-08	IEEE+Wireshark+Nmap	SPECTRA LOGIC	current		
 00:90:A3	Corecess Inc.	MA-L	Corecess	2000-09-08	IEEE+Wireshark+Nmap	Corecess Inc.	current		MEDIALINCS CO., LTD. | Corecess Inc.
 00:90:1F	ADTEC PRODUCTIONS, INC.	MA-L	AdtecProduct	2000-09-08	IEEE+Wireshark+Nmap	ADTEC PRODUCTIONS, INC.	current		
 00:90:38	Fountain Technologies, Inc.	MA-L	FountainTech	2000-09-08	IEEE+Wireshark+Nmap	FOUNTAIN TECHNOLOGIES, INC.	current		
@@ -24242,12 +24265,27 @@ EC:43:C4	MitraStar Technology Corp.	MA-L	MitraStarTec	2026-10-24	IEEE+Wireshark	
 34:23:8E	eero	MA-L	eero	2026-11-03	IEEE+Wireshark	eero inc.	current		
 9C:AD:E0	Intel	MA-L	Intel	2026-10-29	IEEE+Wireshark	Intel Corporate	current		
 94:FC:9A	Google	MA-L	Google	2026-10-30	IEEE+Wireshark	Google, Inc.	current		
-28:1F:81	SOXAI Inc.	MA-L		2026-11-10	IEEE	SOXAI Inc.	current		
+28:1F:81	SOXAI Inc.	MA-L	SOXAI	2026-11-10	IEEE+Wireshark	SOXAI Inc.	current		
 B0:7E:F4	Hangzhou HikAuto Technology Co., Ltd.	MA-L	HikAutoTechn	2026-11-06	IEEE+Wireshark	Hangzhou HikAuto Technology Co., Ltd.	current		
 68:D7:70	IoTronix Technologies Sdn. Bhd.	MA-L	IoTronixTech	2026-11-06	IEEE+Wireshark	IoTronix Technologies Sdn. Bhd.	current		
 88:54:E0	Xiaomi	MA-L	XiaomiCommun	2026-11-06	IEEE+Wireshark	Xiaomi Communications Co Ltd	current		
-20:99:EC	1AN Inc.	MA-L		2026-11-10	IEEE	1AN Inc.	current		
+20:99:EC	1AN Inc.	MA-L	1AN	2026-11-10	IEEE+Wireshark	1AN Inc.	current		
 88:B8:F7	NVIDIA	MA-L	NVIDIA	2026-11-06	IEEE+Wireshark	NVIDIA Corporation	current		
+34:79:DF	Dell	MA-L	Dell	2026-11-14	IEEE+Wireshark	Dell Inc.	current		
+10:D6:05	Fn-Link	MA-L	FNLINKTECHNO	2026-11-14	IEEE+Wireshark	FN-LINK TECHNOLOGY Ltd.	current		
+74:8B:7F	Skullcandy	MA-L	Skullcandy	2026-11-13	IEEE+Wireshark	Skullcandy	current		
+58:9D:44	Raycon	MA-L	Raycon	2026-11-13	IEEE+Wireshark	Raycon	current		
+14:A0:7D	Microchip Technology	MA-L	MicrochipTec	2026-11-12	IEEE+Wireshark	Microchip Technology Inc.	current		
+B8:CD:2B	eero	MA-L	eero	2026-11-12	IEEE+Wireshark	eero inc.	current		
+B8:E3:BF	ZTE	MA-L		2026-11-16	IEEE	zte corporation	current		
+78:E0:4D	Sony Interactive Entertainment	MA-L	SonyInteract	2026-11-12	IEEE+Wireshark	Sony Interactive Entertainment Inc.	current		
+5C:6C:BB	IEEE Registration Authority	MA-L		2026-11-12	IEEE	IEEE Registration Authority	current		
+00:90:A5	SPECTRA LOGIC	MA-L	SpectraLogic	2000-09-08	IEEE+Wireshark+Nmap	SPECTRA LOGIC	current		
+F8:35:F5	Foxconn (Hon Hai)	MA-L		2026-11-17	IEEE	CLOUD NETWORK TECHNOLOGY SINGAPORE PTE. LTD.	current		
+F4:DE:4D	Nanjing Qinheng Microelectronics Co., Ltd.	MA-L		2026-11-20	IEEE	Nanjing Qinheng Microelectronics Co., Ltd.	current		
+A0:75:66	Cirrus Logic International Semiconductor Ltd	MA-L		2026-11-20	IEEE	Cirrus Logic International Semiconductor Ltd	current		
+6C:D4:41	Tech4home, Lda	MA-L		2026-11-20	IEEE	Tech4home, Lda	current		
+5C:57:9B	Cisco Meraki	MA-L		2026-11-20	IEEE	Cisco Meraki	current		
 B0:0C:9D	Quectel	MA-L	QuectelWirel	2023-07-14	IEEE+Wireshark+Nmap	Quectel Wireless Solutions Co.,Ltd.	current		
 F0:AB:1F	ZTE	MA-L	zte	2023-07-13	IEEE+Wireshark+Nmap	zte corporation	current		
 7C:B3:0A	ZTE	MA-L	zte	2023-07-13	IEEE+Wireshark+Nmap	zte corporation	current		
@@ -32400,10 +32438,21 @@ C8:65:94	IP Yusupov Nargiz Nakibovich	MA-L	IPYusupovNar	2026-11-04	IEEE+Wireshar
 58:30:AC	Quectel	MA-L	QuectelWirel	2026-10-28	IEEE+Wireshark	Quectel Wireless Solutions Co.,Ltd.	current		
 88:8A:F5	Intel	MA-L	Intel	2026-10-29	IEEE+Wireshark	Intel Corporate	current		
 60:41:5A	Google	MA-L	Google	2026-10-30	IEEE+Wireshark	Google, Inc.	current		
+AC:64:60	Nokia Solutions and Networks India Private Limited	MA-L	NokiaSolutio	2026-11-12	IEEE+Wireshark	Nokia Solutions and Networks India Private Limited	current		
+44:40:AB	ASUS	MA-L	ASUSTekCOMPU	2026-11-12	IEEE+Wireshark	ASUSTek COMPUTER INC.	current		
+90:C0:46	Foxconn (Hon Hai)	MA-L	HonHaiPrecis	2026-11-11	IEEE+Wireshark	Hon Hai Precision Industry Co., Ltd.	current		
+98:84:C1	New H3C Technologies Co., Ltd	MA-L	NewH3CTechno	2026-11-11	IEEE+Wireshark	New H3C Technologies Co., Ltd	current		
+BC:47:D6	Sagemcom	MA-L	SagemcomBroa	2026-11-11	IEEE+Wireshark	Sagemcom Broadband SAS	current		
+A8:AB:18	Tuya	MA-L	TuyaSmart	2026-11-12	IEEE+Wireshark	Tuya Smart Inc.	current		
 04:7B:43	IEEE Registration Authority	MA-L		2026-11-06	IEEE	IEEE Registration Authority	current		
-98:84:C1	New H3C Technologies Co., Ltd	MA-L		2026-11-11	IEEE	New H3C Technologies Co., Ltd	current		
-90:C0:46	Foxconn (Hon Hai)	MA-L		2026-11-11	IEEE	Hon Hai Precision Industry Co., Ltd.	current		
-BC:47:D6	Sagemcom	MA-L		2026-11-11	IEEE	Sagemcom Broadband SAS	current		
+8C:05:4D	Huawei	MA-L	HuaweiTechno	2026-11-13	IEEE+Wireshark	HUAWEI TECHNOLOGIES CO.,LTD	current		
+80:FF:60	Huawei	MA-L	HuaweiTechno	2026-11-13	IEEE+Wireshark	HUAWEI TECHNOLOGIES CO.,LTD	current		
+04:6E:E5	HI-POWER Solution CO.,LTD.	MA-L	HIPOWERSolut	2026-11-14	IEEE+Wireshark	HI-POWER Solution CO.,LTD.	current		
+E4:DC:16	EM Microelectronic	MA-L		2026-11-16	IEEE	EM Microelectronic	current		
+74:DF:B9	Cisco	MA-L		2026-11-18	IEEE	Cisco Systems, Inc	current		
+F0:B8:F7	Cisco	MA-L		2026-11-18	IEEE	Cisco Systems, Inc	current		
+C4:55:10	FRITZ! Technology GmbH	MA-L		2026-11-19	IEEE	FRITZ! Technology GmbH	current		
+6C:7C:FD	eero	MA-L		2026-11-20	IEEE	eero inc.	current		
 C8:5C:E2	IEEE Registration Authority	MA-L		2023-07-19	IEEE+Nmap	IEEE Registration Authority	current		
 DC:EE:14	ADT Technology	MA-L	ADTTechnolog	2023-07-19	IEEE+Wireshark+Nmap	ADT Technology	current		
 10:FF:E0	GIGA-BYTE TECHNOLOGY CO.,LTD.	MA-L	GigaByteTech	2023-07-20	IEEE+Wireshark+Nmap	GIGA-BYTE TECHNOLOGY CO.,LTD.	current		
@@ -40461,12 +40510,30 @@ D4:05:11	TCL King Electrical Appliances(Huizhou)Co.,Ltd	MA-L	TCLKingElect	2026-1
 70:BE:8E	Huawei	MA-L	HuaweiDevice	2026-11-03	IEEE+Wireshark	Huawei Device Co., Ltd.	current		
 E4:22:24	Lenovo / Motorola Mobility	MA-L	MotorolaMobi	2026-11-05	IEEE+Wireshark	Motorola Mobility LLC, a Lenovo Company	current		
 8C:A0:2C	Arcadyan	MA-L	Arcadyan	2026-11-03	IEEE+Wireshark	Arcadyan Corporation	current		
-0C:33:1B	TydenBrooks	MA-L	TydenBrooks	2025-07-30	IEEE+Wireshark+Nmap	TydenBrooks	current		
+B0:0D:A8	Sagemcom	MA-L	SagemcomBroa	2026-11-11	IEEE+Wireshark	Sagemcom Broadband SAS	current		
+E4:20:0B	Polystack Technologies Private Limited	MA-L	PolystackTec	2026-11-11	IEEE+Wireshark	Polystack Technologies Private Limited	current		
+18:21:62	New H3C Technologies Co., Ltd	MA-L	NewH3CTechno	2026-11-11	IEEE+Wireshark	New H3C Technologies Co., Ltd	current		
+4C:E2:0C	New H3C Technologies Co., Ltd	MA-L	NewH3CTechno	2026-11-11	IEEE+Wireshark	New H3C Technologies Co., Ltd	current		
+E4:C1:D8	Huawei	MA-L	HuaweiTechno	2026-11-13	IEEE+Wireshark	HUAWEI TECHNOLOGIES CO.,LTD	current		
+04:95:8E	Huawei	MA-L	HuaweiTechno	2026-11-13	IEEE+Wireshark	HUAWEI TECHNOLOGIES CO.,LTD	current		
 F0:27:6E	AltoBeam	MA-L	AltoBeam	2026-11-07	IEEE+Wireshark	AltoBeam Inc.	current		
-18:21:62	New H3C Technologies Co., Ltd	MA-L		2026-11-11	IEEE	New H3C Technologies Co., Ltd	current		
-4C:E2:0C	New H3C Technologies Co., Ltd	MA-L		2026-11-11	IEEE	New H3C Technologies Co., Ltd	current		
-E4:20:0B	Polystack Technologies Private Limited	MA-L		2026-11-11	IEEE	Polystack Technologies Private Limited	current		
-B0:0D:A8	Sagemcom	MA-L		2026-11-11	IEEE	Sagemcom Broadband SAS	current		
+2C:1D:BB	Tuya	MA-L	TuyaSmart	2026-11-12	IEEE+Wireshark	Tuya Smart Inc.	current		
+0C:33:1B	TydenBrooks	MA-L	TydenBrooks	2025-07-30	IEEE+Wireshark+Nmap	TydenBrooks	current		
+0C:84:73	Bouffalo Lab	MA-L		2026-11-19	IEEE	Bouffalo Lab (Nanjing) Co., Ltd.	current		
+B4:41:6B	GX India Pvt Ltd	MA-L	GXIndia	2026-11-14	IEEE+Wireshark	GX India Pvt Ltd	current		
+FC:27:31	EM Microelectronic	MA-L		2026-11-16	IEEE	EM Microelectronic	current		
+70:7F:7D	Infinix (Transsion)	MA-L		2026-11-18	IEEE	Infinix mobility limited	current		
+C8:4A:F0	Mellanox Technologies	MA-L		2026-11-16	IEEE	Mellanox Technologies, Inc.	current		
+2C:B5:09	Mellanox Technologies	MA-L		2026-11-16	IEEE	Mellanox Technologies, Inc.	current		
+14:F4:74	Network Orbiter Private Limited	MA-L	NetworkOrbit	2026-11-13	IEEE+Wireshark	Network Orbiter Private Limited	current		
+D4:3F:38	Huawei	MA-L	HuaweiTechno	2026-11-13	IEEE+Wireshark	HUAWEI TECHNOLOGIES CO.,LTD	current		
+E0:DD:4B	Microsoft	MA-L		2026-11-16	IEEE	Microsoft Corporation	current		
+14:BF:9A	HavocAI, Inc.	MA-L		2026-11-19	IEEE	HavocAI, Inc.	current		
+90:B9:70	Shenzhen V-Link Technology CO., LTD.	MA-L		2026-11-20	IEEE	Shenzhen V-Link Technology CO., LTD.	current		
+00:FD:05	Silicon Labs	MA-L		2026-11-20	IEEE	Silicon Laboratories	current		
+C8:2F:A4	Lyntera Singapore Pte. Ltd.	MA-L		2026-11-21	IEEE	Lyntera Singapore Pte. Ltd.	current		
+E0:BC:C8	nFore / IVT (Bluetooth stacks)	MA-L		2026-11-21	IEEE	nFore Technology Co.,Ltd.	current		
+7C:81:AA	Shenzhen Enrigin Technology Co., Ltd.	MA-L		2026-11-21	IEEE	Shenzhen Enrigin Technology Co. ,Ltd.	current		
 C8:5C:E2:7	SYNERGY SYSTEMS AND SOLUTIONS	MA-M	SynergyAndSo	2023-07-19	IEEE+Wireshark+Nmap	SYNERGY SYSTEMS AND SOLUTIONS	current		
 74:1A:E0:9	Private (undisclosed IEEE registrant)	MA-M	Private	2017-07-16	IEEE+Wireshark+Nmap	Private	current		
 C8:5C:E2:A	San Telequip (P) Ltd.,	MA-M	SanTelequip	2023-07-19	IEEE+Wireshark+Nmap	San Telequip (P) Ltd.	current		
@@ -41821,8 +41888,10 @@ F8:2B:E6:0	ViewSonic Corp.	MA-M	ViewSonic	2025-03-19	IEEE+Wireshark+Nmap	ViewSon
 B8:F4:53:4	Ontic Engineering & Manufacturing	MA-M	OnticEnginee	2026-10-28	IEEE+Wireshark	Ontic Engineering & Manufacturing	current		
 B8:F4:53:D	Withusnet Co., Ltd	MA-M	Withusnet	2026-10-29	IEEE+Wireshark	Withusnet Co., Ltd	current		
 B8:F4:53:E	Shenzhen Co-believe Technology limited	MA-M	believeTechn	2026-11-05	IEEE+Wireshark	Shenzhen Co-believe Technology limited	current		
-04:7B:43:4	Medicop d.o.o.	MA-M		2026-11-10	IEEE	Medicop d.o.o.	current		
-04:7B:43:0	JUNGJUN Co., Ltd.	MA-M		2026-11-10	IEEE	JUNGJUN Co., Ltd.	current		
+04:7B:43:4	Medicop d.o.o.	MA-M	Medicopdoo	2026-11-10	IEEE+Wireshark	Medicop d.o.o.	current		
+04:7B:43:0	JUNGJUN Co., Ltd.	MA-M	JUNGJUN	2026-11-10	IEEE+Wireshark	JUNGJUN Co., Ltd.	current		
+5C:6C:BB:D	Vasco Electronics S.A.	MA-M	VascoElectro	2026-11-12	IEEE+Wireshark	Vasco Electronics S.A.	current		
+5C:6C:BB:A	Entrust Security UK Limited	MA-M	EntrustSecur	2026-11-13	IEEE+Wireshark	Entrust Security UK Limited	current		
 B8:4C:87:3	Shenzhen Link-all Technology Co., Ltd	MA-M	LinkallTechn	2023-07-15	IEEE+Wireshark+Nmap	Shenzhen Link-all Technology Co., Ltd	current		
 B8:4C:87:C	SOND	MA-M	Sond	2023-07-13	IEEE+Wireshark+Nmap	SOND	current		
 B8:4C:87:B	Beijing Yunji Technology Co., Ltd.	MA-M	YunjiTechnol	2023-07-13	IEEE+Wireshark+Nmap	Beijing Yunji Technology Co., Ltd.	current		
@@ -43093,8 +43162,11 @@ B8:F4:53:0	ELS Instruments	MA-M	ELSInstrumen	2026-10-29	IEEE+Wireshark	ELS Instr
 B8:F4:53:7	Valthor, s.r.o.	MA-M	Valthorsro	2026-10-31	IEEE+Wireshark	Valthor, s.r.o.	current		
 04:7B:43:D	ZEBO PTE LTD	MA-M	ZeboPte	2026-11-07	IEEE+Wireshark	ZEBO PTE LTD	current		
 04:7B:43:A	RUBISEC CORPORATION	MA-M	Rubisec	2026-11-07	IEEE+Wireshark	RUBISEC CORPORATION	current		
-04:7B:43:9	Xthings Industry LLC	MA-M		2026-11-10	IEEE	Xthings Industry LLC	current		
-04:7B:43:6	CZUR TECH CO., LTD	MA-M		2026-11-11	IEEE	CZUR TECH CO., LTD	current		
+04:7B:43:9	Xthings Industry LLC	MA-M	XthingsIndus	2026-11-10	IEEE+Wireshark	Xthings Industry LLC	current		
+04:7B:43:6	CZUR TECH CO., LTD	MA-M	CzurTech	2026-11-11	IEEE+Wireshark	CZUR TECH CO., LTD	current		
+5C:6C:BB:8	Private (undisclosed IEEE registrant)	MA-M	Private	2026-11-14	IEEE+Wireshark	Private	current		
+5C:6C:BB:3	DATA KNOX DMS PRIVATE LIMITED	MA-M		2026-11-19	IEEE	DATA KNOX DMS PRIVATE LIMITED	current		
+5C:6C:BB:2	Shenzhen Dangzhi Technology Co., Ltd.	MA-M		2026-11-20	IEEE	Shenzhen Dangzhi Technology Co., Ltd.	current		
 B8:4C:87:A	Altronix Corporation	MA-M	Altronix	2023-07-15	IEEE+Wireshark+Nmap	Altronix , Corp	current		
 8C:C8:F4:7	TableSafe	MA-M	TableSafe	2016-10-30	IEEE+Wireshark+Nmap	TableSafe	current		Private | TableSafe
 58:E8:76:0	Zhuhai Raysharp Technology Co.,Ltd	MA-M	ZhuhaiRaysha	2016-05-07	IEEE+Wireshark+Nmap	Zhuhai Raysharp Technology Co.,Ltd	current		Private | Zhuhai Raysharp Technology Co.,Ltd
@@ -44464,11 +44536,12 @@ B8:F4:53:B	SDMT Limited	MA-M	SDMT	2026-10-28	IEEE+Wireshark	SDMT Limited	current
 B8:F4:53:6	Hanque(Chengdu) Information Technology Co.,Ltd.	MA-M	HanqueInform	2026-11-04	IEEE+Wireshark	Hanque(Chengdu) Information Technology Co.,Ltd.	current		
 B8:F4:53:3	Annapurna labs	MA-M	Annapurnalab	2026-11-03	IEEE+Wireshark	Annapurna labs	current		
 B8:F4:53:5	EMPIRETECH HK LIMITED	MA-M	EmpiretechHk	2026-11-04	IEEE+Wireshark	EMPIRETECH HK LIMITED	current		
-04:7B:43:1	EVERBLESSED TECHNOLOGY INC	MA-M		2026-11-11	IEEE	EVERBLESSED TECHNOLOGY INC	current		
-04:7B:43:3	ShenZhen MINIOLT Technology Co., Ltd.	MA-M		2026-11-11	IEEE	ShenZhen MINIOLT Technology Co., Ltd.	current		
-04:7B:43:8	MERAK HVAC España S.A.U.	MA-M		2026-11-09	IEEE	MERAK HVAC España S.A.U.	current		MERAK HVAC | MERAK HVAC España S.A.U.
+04:7B:43:1	EVERBLESSED TECHNOLOGY INC	MA-M	EverblessedT	2026-11-11	IEEE+Wireshark	EVERBLESSED TECHNOLOGY INC	current		
+04:7B:43:3	ShenZhen MINIOLT Technology Co., Ltd.	MA-M	MINIOLTTechn	2026-11-11	IEEE+Wireshark	ShenZhen MINIOLT Technology Co., Ltd.	current		
+04:7B:43:8	MERAK HVAC España S.A.U.	MA-M	MERAKHVACEsp	2026-11-09	IEEE+Wireshark	MERAK HVAC España S.A.U.	current		MERAK HVAC | MERAK HVAC España S.A.U.
 34:C8:D6:5	RUBISEC CORPORATION	MA-M	Rubisec	2024-01-13	IEEE+Wireshark+Nmap	RUBISEC CORPORATION	current		PRIZMA GROUP DISTRIBUTION & CONSULTING D.O.O - RUBISEC | RUBISEC CORPORATION
-04:7B:43:2	PEAK International	MA-M		2026-11-11	IEEE	PEAK International	current		
+04:7B:43:2	PEAK International	MA-M	PEAKInternat	2026-11-11	IEEE+Wireshark	PEAK International	current		
+5C:6C:BB:9	Certaintek Co.,Ltd.	MA-M		2026-11-18	IEEE	Certaintek Co.,Ltd.	current		
 D0:14:11:1	P.B. Elettronica srl	MA-M	PBElettronic	2020-05-05	IEEE+Wireshark+Nmap	P.B. Elettronica srl	current		Private | P.B. Elettronica srl
 B8:4C:87:6	HORIBA Precision Instruments (Beijing) Co.,Ltd	MA-M	HORIBAPrecis	2023-07-11	IEEE+Wireshark+Nmap	HORIBA Precision Instruments (Beijing) Co.,Ltd	current		
 C0:22:F1:3	Spectra Technologies India Private Limited	MA-M	SpectraTechn	2023-07-06	IEEE+Wireshark+Nmap	Spectra Technologies India Private Limited	current		
@@ -45795,7 +45868,10 @@ CC:F7:22:4	Menuit inc.	MA-M	Menuit	2026-10-15	IEEE+Wireshark	Menuit inc.	current
 5C:AB:22:5	Cyngrox Private Limited	MA-M	CyngroxPriva	2026-10-27	IEEE+Wireshark	Cyngrox Private Limited	current		
 80:A5:79:A	ViewSonic Corp.	MA-M	ViewSonic	2024-01-19	IEEE+Wireshark+Nmap	ViewSonic Corp	current		
 B8:F4:53:9	PA Technology Solutions Ltd	MA-M	PATechnology	2026-10-31	IEEE+Wireshark	PA Technology Solutions Ltd	current		
+04:7B:43:E	SDT Inc.	MA-M	SDT	2026-11-12	IEEE+Wireshark	SDT Inc.	current		
 04:7B:43:B	ACADEMY FOR FUTURE HEALTH LTD	MA-M	AcademyForFu	2026-11-06	IEEE+Wireshark	ACADEMY FOR FUTURE HEALTH LTD	current		
+5C:6C:BB:5	LVT	MA-M	Lvt	2026-11-14	IEEE+Wireshark	LVT	current		
+5C:6C:BB:C	Swegon ILTO Oy	MA-M		2026-11-19	IEEE	Swegon ILTO Oy	current		
 C8:5C:E2:0	Fela Management AG	MA-M	FelaManageme	2023-07-20	IEEE+Wireshark+Nmap	Fela Management AG	current		
 B8:4C:87:E	Private (undisclosed IEEE registrant)	MA-M	Private	2023-07-20	IEEE+Wireshark+Nmap	Private	current		
 B8:4C:87:1	em-trak	MA-M	emtrak	2023-07-07	IEEE+Wireshark+Nmap	em-trak	current		
@@ -47149,7 +47225,8 @@ CC:F7:22:6	RIVERSIDE SOLUTIONS PRIVATE LIMITED	MA-M	RiversideSol	2026-10-15	IEEE
 04:7B:43:5	Shenzhen XJ-Micro Technology Co., Ltd.	MA-M	XJMicroTechn	2026-11-06	IEEE+Wireshark	Shenzhen XJ-Micro Technology Co., Ltd.	current		
 04:7B:43:C	RR Technologies GmbH	MA-M	RRTechnologi	2026-11-06	IEEE+Wireshark	RR Technologies GmbH	current		
 B8:F4:53:C	Wavin T&I	MA-M	WavinT&I	2026-11-03	IEEE+Wireshark	Wavin T&I	current		
-04:7B:43:7	ICsec S.A.	MA-M		2026-11-11	IEEE	ICsec S.A.	current		
+04:7B:43:7	ICsec S.A.	MA-M	ICsec	2026-11-11	IEEE+Wireshark	ICsec S.A.	current		
+5C:6C:BB:B	BackburnerLabs	MA-M		2026-11-19	IEEE	BackburnerLabs	current		
 8C:1F:64:AF:A	DATA ELECTRONIC DEVICES, INC	MA-S	DataElectron	2023-07-18	IEEE+Wireshark+Nmap	DATA ELECTRONIC DEVICES, INC	current		
 8C:1F:64:9B:9	QUERCUS TECHNOLOGIES, S.L.	MA-S	QuercusTechn	2023-07-20	IEEE+Wireshark+Nmap	QUERCUS TECHNOLOGIES, S.L.	current		
 8C:1F:64:D0:F	Mecco LLC	MA-S	Mecco	2023-07-20	IEEE+Wireshark+Nmap	Mecco LLC	current		
@@ -48568,18 +48645,18 @@ B8:F4:53:C	Wavin T&I	MA-M	WavinT&I	2026-11-03	IEEE+Wireshark	Wavin T&I	current
 8C:1F:64:2B:2	Infosoft Digital Design and Services P L	MA-S	InfosoftDigi	2026-08-14	IEEE+Wireshark	Infosoft Digital Design and Services P L	current		
 8C:1F:64:BF:9	Hitachi Energy	MA-S	Hitachienerg	2026-08-15	IEEE+Wireshark	Hitachi energy India ltd	current		
 8C:1F:64:99:0	Traxara Robotics	MA-S	TraxaraRobot	2026-08-18	IEEE+Wireshark	Traxara Robotics	current		
-8C:1F:64:A4:D	DEUTA-WERKE GmbH	MA-S	DEUTAWERKE	2026-08-21	IEEE+Wireshark	DEUTA-WERKE GmbH	current		
 8C:1F:64:13:0	Vigor Electric Corp.	MA-S	VigorElectri	2026-08-25	IEEE+Wireshark	Vigor Electric Corp.	current		
 8C:1F:64:57:0	ACD Elektronik GmbH	MA-S	ACDElektroni	2026-08-25	IEEE+Wireshark	ACD Elektronik GmbH	current		
+8C:1F:64:A4:D	DEUTA-WERKE GmbH	MA-S	DEUTAWERKE	2026-08-21	IEEE+Wireshark	DEUTA-WERKE GmbH	current		
 8C:1F:64:B8:9	Aineas	MA-S	Aineas	2026-08-24	IEEE+Wireshark	Aineas	current		
 8C:1F:64:38:3	Urbidermis, S.L. (VAT ESB66435017)	MA-S	UrbidermisSL	2023-05-06	IEEE+Wireshark	Urbidermis, S.L. (VAT ESB66435017)	current		Tristate Electronic Mfg | Urbidermis, S.L. (VAT ESB66435017)
 8C:1F:64:53:8	InstruVU	MA-S	InstruVU	2026-09-02	IEEE+Wireshark	InstruVU	current		
+8C:1F:64:B7:0	Tesla Subsea Inc.	MA-S	TeslaSubsea	2026-09-09	IEEE+Wireshark	Tesla Subsea Inc.	current		
 8C:1F:64:5C:8	WOTA Corp.	MA-S	WOTA	2026-09-08	IEEE+Wireshark	WOTA Corp.	current		
 8C:1F:64:B4:E	Aditec GmbH	MA-S	Aditec	2026-09-11	IEEE+Wireshark	Aditec GmbH	current		
 8C:1F:64:7E:4	Peter Huber Kaeltemaschinenbau SE	MA-S	PeterHuberKa	2026-09-11	IEEE+Wireshark	Peter Huber Kaeltemaschinenbau SE	current		
-8C:1F:64:B7:0	Tesla Subsea Inc.	MA-S	TeslaSubsea	2026-09-09	IEEE+Wireshark	Tesla Subsea Inc.	current		
-8C:1F:64:9A:F	Advanced Mechatronics GmbH	MA-S	AdvancedMech	2026-09-10	IEEE+Wireshark	Advanced Mechatronics GmbH	current		
 8C:1F:64:40:B	WHOI-AComms	MA-S	WHOIAComms	2026-09-16	IEEE+Wireshark	WHOI-AComms	current		
+8C:1F:64:9A:F	Advanced Mechatronics GmbH	MA-S	AdvancedMech	2026-09-10	IEEE+Wireshark	Advanced Mechatronics GmbH	current		
 8C:1F:64:A5:0	Simply Embededded Inc	MA-S	SimplyEmbede	2026-09-25	IEEE+Wireshark	Simply Embededded Inc	current		
 8C:1F:64:02:C	Lanpoe	MA-S	Lanpoe	2026-09-29	IEEE+Wireshark	Lanpoe	current		
 8C:1F:64:37:9	Transducers Direct LLC	MA-S	TransducersD	2026-10-01	IEEE+Wireshark	Transducers Direct LLC	current		
@@ -48589,16 +48666,22 @@ B8:F4:53:C	Wavin T&I	MA-M	WavinT&I	2026-11-03	IEEE+Wireshark	Wavin T&I	current
 8C:1F:64:E7:F	Automata GmbH & Co. KG	MA-S	Automata	2026-10-08	IEEE+Wireshark	Automata GmbH & Co. KG	current		
 8C:1F:64:01:B	Fujitsu Defense & National Security Limited	MA-S	FujitsuDefen	2026-10-08	IEEE+Wireshark	Fujitsu Defense & National Security Limited	current		
 8C:1F:64:B8:7	ELBIT- ROKAR	MA-S	ElbitRokar	2026-10-08	IEEE+Wireshark	ELBIT- ROKAR	current		
+8C:1F:64:30:2	Brandmaier Messen, Steuern, Software	MA-S	BrandmaierMe	2026-10-19	IEEE+Wireshark	Brandmaier Messen, Steuern, Software	current		
 8C:1F:64:53:2	SEONGWON ENG CO.,LTD	MA-S	SeongwonEng	2026-10-14	IEEE+Wireshark	SEONGWON ENG CO.,LTD	current		
 8C:1F:64:C5:F	Unitron Systems b.v.	MA-S	Unitron	2026-10-21	IEEE+Wireshark	Unitron Systems b.v.	current		
-8C:1F:64:30:2	Brandmaier Messen, Steuern, Software	MA-S	BrandmaierMe	2026-10-19	IEEE+Wireshark	Brandmaier Messen, Steuern, Software	current		
-8C:1F:64:81:F	ViewSonic Corp.	MA-S	ViewSonic	2023-08-31	IEEE+Wireshark+Nmap	ViewSonic Corp	current		
-8C:1F:64:5B:9	ViewSonic Corp.	MA-S	ViewSonic	2024-01-18	IEEE+Wireshark+Nmap	ViewSonic Corp	current		
 8C:1F:64:D2:E	Logital S.R.L.	MA-S	Logital	2026-10-28	IEEE+Wireshark	Logital S.R.L.	current		
+8C:1F:64:5B:9	ViewSonic Corp.	MA-S	ViewSonic	2024-01-18	IEEE+Wireshark+Nmap	ViewSonic Corp	current		
+8C:1F:64:81:F	ViewSonic Corp.	MA-S	ViewSonic	2023-08-31	IEEE+Wireshark+Nmap	ViewSonic Corp	current		
 8C:1F:64:87:3	Nav Wireless Technologies Pvt. Ltd.	MA-S	NavWirelessT	2026-11-06	IEEE+Wireshark	Nav Wireless Technologies Pvt. Ltd.	current		
 8C:1F:64:F6:A	NoWire Connect Sweden AB	MA-S	NoWireConnec	2026-11-03	IEEE+Wireshark	NoWire Connect Sweden AB	current		
 8C:1F:64:F0:C	Profcon AB	MA-S	Profcon	2026-11-06	IEEE+Wireshark	Profcon AB	current		
+8C:1F:64:EE:7	CIAB Tech, LLC	MA-S	CIABTech	2026-11-12	IEEE+Wireshark	CIAB Tech, LLC	current		
 8C:1F:64:DF:7	Private (undisclosed IEEE registrant)	MA-S	Private	2026-11-07	IEEE+Wireshark	Private	current		
+8C:1F:64:00:5	H Nu Pty Ltd	MA-S		2026-11-16	IEEE	H Nu Pty Ltd	current		
+8C:1F:64:4E:F	Crane Nuclear	MA-S		2026-11-19	IEEE	Crane Nuclear	current		
+8C:1F:64:57:F	BlueSpace TECHNOLOGY SA	MA-S		2026-11-20	IEEE	BlueSpace TECHNOLOGY SA	current		
+8C:1F:64:B1:C	BG Systems, Inc.	MA-S		2026-11-20	IEEE	BG Systems, Inc.	current		
+8C:1F:64:89:B	Sensia Solutions,S.L.	MA-S		2026-11-20	IEEE	Sensia Solutions,S.L.	current		
 8C:1F:64:A9:8	Jacobs Technology, Inc.	MA-S	JacobsTechno	2023-07-14	IEEE+Wireshark+Nmap	Jacobs Technology, Inc.	current		
 8C:1F:64:4A:9	Martec Marine S.p.a.	MA-S	MartecMarine	2023-07-14	IEEE+Wireshark+Nmap	Martec Marine S.p.a.	current		
 8C:1F:64:DE:5	Gogo Business Aviation	MA-S	GogoBusiness	2023-07-07	IEEE+Wireshark+Nmap	Gogo Business Aviation	current		
@@ -49010,7 +49093,6 @@ B8:F4:53:C	Wavin T&I	MA-M	WavinT&I	2026-11-03	IEEE+Wireshark	Wavin T&I	current
 70:B3:D5:18:F	Newtec A/S	MA-S	Newtec	2019-12-04	IEEE+Wireshark+Nmap	Newtec A/S	current		
 70:B3:D5:A7:F	AUDIO VISUAL DIGITAL SYSTEMS	MA-S	AudioVisualD	2019-12-04	IEEE+Wireshark+Nmap	AUDIO VISUAL DIGITAL SYSTEMS	current		
 70:B3:D5:F8:0	Guan Show Technologe Co., Ltd.	MA-S	GuanShowTech	2019-11-23	IEEE+Wireshark+Nmap	Guan Show Technologe Co., Ltd.	current		
-70:B3:D5:A6:0	Pneumax Spa	MA-S	Pneumax	2019-11-22	IEEE+Wireshark+Nmap	Pneumax S.p.A.	current		
 00:1B:C5:02:9	2 FRANCE MARINE	MA-S	2FranceMarin	2013-03-31	IEEE+Wireshark+Nmap	2 FRANCE MARINE	current		
 70:B3:D5:4F:D	ENLESS WIRELESS	MA-S	EnlessWirele	2019-11-27	IEEE+Wireshark+Nmap	ENLESS WIRELESS	current		
 70:B3:D5:86:A	Stealth Communications	MA-S	StealthCommu	2019-11-09	IEEE+Wireshark+Nmap	Stealth Communications	current		
@@ -50027,9 +50109,9 @@ B8:F4:53:C	Wavin T&I	MA-M	WavinT&I	2026-11-03	IEEE+Wireshark	Wavin T&I	current
 8C:1F:64:1A:8	LCR Embedded Systems	MA-S	LCREmbedded	2025-07-03	IEEE+Wireshark+Nmap	LCR Embedded Systems	current		Private | LCR Embedded Systems
 8C:1F:64:D8:B	I/O Controls	MA-S	IOControls	2026-07-10	IEEE+Wireshark	I/O Controls	current		
 8C:1F:64:AE:0	ASTER PRO-AUDIO INC.	MA-S	AsterProAudi	2026-07-18	IEEE+Wireshark	ASTER PRO-AUDIO INC.	current		
-8C:1F:64:34:3	Syscom Instruments SA	MA-S	SyscomInstru	2026-07-22	IEEE+Wireshark	Syscom Instruments SA	current		
 8C:1F:64:CB:4	Wi4B s.r.l.	MA-S	Wi4B	2026-07-21	IEEE+Wireshark	Wi4B s.r.l.	current		
 8C:1F:64:B9:C	GIB Korea Co.,Ltd.	MA-S	GIBKorea	2026-07-21	IEEE+Wireshark	GIB Korea Co.,Ltd.	current		
+8C:1F:64:34:3	Syscom Instruments SA	MA-S	SyscomInstru	2026-07-22	IEEE+Wireshark	Syscom Instruments SA	current		
 8C:1F:64:55:A	Zomedica	MA-S	Zomedica	2026-07-24	IEEE+Wireshark	Zomedica	current		
 8C:1F:64:8B:A	Code Blue Corporation	MA-S	CodeBlue	2026-07-28	IEEE+Wireshark	Code Blue Corporation	current		
 8C:1F:64:CF:2	Potter Electric Signal Co. LLC	MA-S	PotterElectr	2026-07-31	IEEE+Wireshark	Potter Electric Signal Company	current		
@@ -50039,15 +50121,15 @@ B8:F4:53:C	Wavin T&I	MA-M	WavinT&I	2026-11-03	IEEE+Wireshark	Wavin T&I	current
 8C:1F:64:F1:F	ARETA AI INC.	MA-S	AretaAI	2026-08-18	IEEE+Wireshark	Areta AI Inc.	current		
 8C:1F:64:24:A	Suzhou Nihone Electronic Technology Co.,Ltd.	MA-S	SuzhouNihone	2026-08-23	IEEE+Wireshark	Suzhou Nihone Electronic Technology Co.,Ltd.	current		
 8C:1F:64:93:4	eumig industrie-TV GmbH.	MA-S	eumigindustr	2026-08-23	IEEE+Wireshark	eumig industrie-TV GmbH.	current		
-8C:1F:64:3A:0	Faraday4T	MA-S	Faraday4T	2026-08-24	IEEE+Wireshark	Faraday4T	current		
 8C:1F:64:45:2	Beijing Yong'an Xintong Technology Co.,LTD	MA-S	YonganXinton	2026-08-23	IEEE+Wireshark	Beijing Yong'an Xintong Technology Co.,LTD	current		
 8C:1F:64:EF:C	LonTen Technology（BeiJing）Co.,LTD.	MA-S	LonTenTechno	2026-08-21	IEEE+Wireshark	LonTen Technology（BeiJing）Co.,LTD.	current		
 8C:1F:64:05:E	Pramac GmbH	MA-S	Pramac	2026-08-21	IEEE+Wireshark	Pramac GmbH	current		
 8C:1F:64:B7:8	Power Electronics Espana, S.L.	MA-S	PowerElectro	2026-08-31	IEEE+Wireshark	Power Electronics Espana, S.L.	current		
-8C:1F:64:9E:3	E-Globaledge Corporation	MA-S	EGlobaledge	2026-09-09	IEEE+Wireshark	E-Globaledge Corporation	current		
+8C:1F:64:3A:0	Faraday4T	MA-S	Faraday4T	2026-08-24	IEEE+Wireshark	Faraday4T	current		
 8C:1F:64:6F:A	IDNEO TECHNOLOGIES,S.A.U.	MA-S	IdneoTechnol	2026-09-02	IEEE+Wireshark	IDNEO TECHNOLOGIES,S.A.U.	current		
 8C:1F:64:06:4	Cube Telecom Pvt Ltd	MA-S	CubeTelecom	2026-09-08	IEEE+Wireshark	Cube Telecom Pvt Ltd	current		
 8C:1F:64:A8:D	Brightxcom	MA-S	Brightxcom	2026-09-04	IEEE+Wireshark	Brightxcom	current		
+8C:1F:64:9E:3	E-Globaledge Corporation	MA-S	EGlobaledge	2026-09-09	IEEE+Wireshark	E-Globaledge Corporation	current		
 8C:1F:64:8C:7	Makita Industrial Tools Corporation	MA-S	MakitaIndust	2026-09-12	IEEE+Wireshark	Makita Industrial Tools Corporation	current		
 8C:1F:64:A1:9	Power Electronics Espana, S.L.	MA-S	PowerElectro	2026-09-23	IEEE+Wireshark	Power Electronics Espana, S.L.	current		
 8C:1F:64:DB:2	Lynx Systems	MA-S	Lynx	2026-09-23	IEEE+Wireshark	Lynx Systems	current		
@@ -50057,9 +50139,14 @@ B8:F4:53:C	Wavin T&I	MA-M	WavinT&I	2026-11-03	IEEE+Wireshark	Wavin T&I	current
 8C:1F:64:2B:5	XTEC Industries Pte Ltd	MA-S	XTECIndustri	2026-10-10	IEEE+Wireshark	XTEC Industries Pte Ltd	current		
 8C:1F:64:FA:D	LOOKMAN DISTRIBUTION PVT.LTD	MA-S	LookmanDistr	2026-10-13	IEEE+Wireshark	LOOKMAN DISTRIBUTION PVT.LTD	current		
 8C:1F:64:B1:1	RFTEQ PTY LTD	MA-S	Rfteq	2026-10-21	IEEE+Wireshark	RFTEQ PTY LTD	current		
-8C:1F:64:26:D	Blueprint Subsea	MA-S	BlueprintSub	2026-11-03	IEEE+Wireshark	Blueprint Subsea	current		
 8C:1F:64:6D:D	ViewSonic Corp.	MA-S	ViewSonic	2023-12-07	IEEE+Wireshark+Nmap	ViewSonic Corp	current		
 8C:1F:64:16:2	Texas Space Communications, Inc	MA-S	TexasSpaceCo	2026-11-06	IEEE+Wireshark	Texas Space Communications, Inc	current		
+8C:1F:64:26:D	Blueprint Subsea	MA-S	BlueprintSub	2026-11-03	IEEE+Wireshark	Blueprint Subsea	current		
+8C:1F:64:BE:7	Nokia	MA-S	Nokia	2026-11-12	IEEE+Wireshark	Nokia	current		
+8C:1F:64:66:7	FireHUD Inc. d.b.a SlateSafety	MA-S	FireHUDdbaSl	2026-11-13	IEEE+Wireshark	FireHUD Inc. d.b.a SlateSafety	current		
+8C:1F:64:5A:B	GO engineering GmbH	MA-S		2026-11-19	IEEE	G.O. Engineering GmbH	current		
+8C:1F:64:EC:7	Linglume (Shanghai) Technology Co., Ltd	MA-S		2026-11-19	IEEE	Linglume (Shanghai) Technology Co., Ltd	current		
+70:B3:D5:A6:0	Pneumax Spa	MA-S	Pneumax	2019-11-22	IEEE+Wireshark+Nmap	Pneumax Spa	current		Pneumax S.p.A. | Pneumax Spa
 8C:1F:64:E6:F	Vision Systems Safety Tech	MA-S	VisionSafety	2023-07-13	IEEE+Wireshark+Nmap	Vision Systems Safety Tech	current		
 70:B3:D5:11:9	YPP Corporation	MA-S	YPP	2015-08-30	IEEE+Wireshark+Nmap	YPP Corporation	current		Private | YPP Corporation
 70:B3:D5:15:9	RCH SPA	MA-S	Rch	2019-11-09	IEEE+Wireshark+Nmap	RCH SPA	current		RCH Vietnam Limited Liability Company | RCH SPA
@@ -51431,7 +51518,6 @@ B8:F4:53:C	Wavin T&I	MA-M	WavinT&I	2026-11-03	IEEE+Wireshark	Wavin T&I	current
 8C:1F:64:52:8	Luxshare Electronic Technology (KunShan) Ltd	MA-S	LuxshareElec	2025-12-22	IEEE+Wireshark+Nmap	Luxshare Electronic Technology (KunShan) Ltd	current		
 8C:1F:64:C8:4	LUCEOR	MA-S	Luceor	2025-12-26	IEEE+Wireshark+Nmap	Luceor	current		
 8C:1F:64:25:9	SHODEN Co., Ltd.	MA-S	SHODEN	2026-01-07	IEEE+Wireshark+Nmap	SHODEN Co., Ltd.	current		
-8C:1F:64:14:3	Chamsys Ltd	MA-S	ChamSys	2026-01-08	IEEE+Wireshark+Nmap	ChamSys	current		
 8C:1F:64:66:B	Currux Vision LLC	MA-S	CurruxVision	2026-01-08	IEEE+Wireshark+Nmap	Currux Vision LLC	current		
 8C:1F:64:13:4	LyconSys GmbH & Co.KG	MA-S	LyconSys	2026-01-08	IEEE+Wireshark+Nmap	LyconSys GmbH & Co.KG	current		
 8C:1F:64:03:6	Photon Counting Systems LLC	MA-S	PhotonCounti	2026-01-14	IEEE+Wireshark+Nmap	Photon Counting Systems LLC	current		
@@ -51493,13 +51579,13 @@ B8:F4:53:C	Wavin T&I	MA-M	WavinT&I	2026-11-03	IEEE+Wireshark	Wavin T&I	current
 8C:1F:64:6F:1	alfamation spa	MA-S	alfamation	2026-07-17	IEEE+Wireshark	alfamation spa	current		
 8C:1F:64:F3:8	AKSE srl	MA-S	AKSE	2026-07-22	IEEE+Wireshark	AKSE srl	current		
 8C:1F:64:FD:D	Atik Cameras Unipessoal, Lda	MA-S	AtikCamerasU	2026-07-24	IEEE+Wireshark	Atik Cameras Unipessoal, Lda	current		
-8C:1F:64:20:F	DAVE SRL	MA-S	Dave	2026-07-27	IEEE+Wireshark	DAVE SRL	current		
 8C:1F:64:21:8	Symphony Interactive Inc	MA-S	SymphonyInte	2026-07-28	IEEE+Wireshark	Symphony Interactive Inc	current		
-8C:1F:64:D0:1	Emerson Rosemount Analytical	MA-S	EmersonRosem	2026-08-14	IEEE+Wireshark	Emerson Rosemount Analytical	current		
+8C:1F:64:20:F	DAVE SRL	MA-S	Dave	2026-07-27	IEEE+Wireshark	DAVE SRL	current		
 8C:1F:64:63:7	HwaCom Systems Inc.	MA-S	HwaCom	2026-08-18	IEEE+Wireshark	HwaCom Systems Inc.	current		
+8C:1F:64:D0:1	Emerson Rosemount Analytical	MA-S	EmersonRosem	2026-08-14	IEEE+Wireshark	Emerson Rosemount Analytical	current		
 8C:1F:64:CA:A	Energom Electronic Kft.	MA-S	EnergomElect	2026-08-24	IEEE+Wireshark	Energom Electronic Kft.	current		
-70:B3:D5:94:C	Intelligrated System LLC	MA-S	Intelligrate	2020-05-28	IEEE+Wireshark+Nmap	Intelligrated System LLC	current		Honeywell/Intelligrated | Intelligrated System LLC
 8C:1F:64:85:0	Tokyo Denki Gijutsu Kogyo	MA-S	TokyoDenkiGi	2026-08-28	IEEE+Wireshark	Tokyo Denki Gijutsu Kogyo	current		
+70:B3:D5:94:C	Intelligrated System LLC	MA-S	Intelligrate	2020-05-28	IEEE+Wireshark+Nmap	Intelligrated System LLC	current		Honeywell/Intelligrated | Intelligrated System LLC
 8C:1F:64:D7:5	Falling Edge Technology Ltd	MA-S	FallingEdgeT	2026-09-02	IEEE+Wireshark	Falling Edge Technology Ltd	current		
 8C:1F:64:44:C	Radi International CO., LTD.	MA-S	RadiInternat	2026-09-08	IEEE+Wireshark	Radi International CO., LTD.	current		
 8C:1F:64:90:0	AUTA COMUNICACIONES SL	MA-S	AutaComunica	2026-09-08	IEEE+Wireshark	AUTA COMUNICACIONES SL	current		
@@ -51509,8 +51595,8 @@ B8:F4:53:C	Wavin T&I	MA-M	WavinT&I	2026-11-03	IEEE+Wireshark	Wavin T&I	current
 8C:1F:64:3B:E	Adit Innovation Private Limited	MA-S	AditInnovati	2026-09-15	IEEE+Wireshark	Adit Innovation Private Limited	current		
 8C:1F:64:17:3	iPronics	MA-S	iPronics	2026-09-22	IEEE+Wireshark	iPronics	current		
 8C:1F:64:D3:6	RF Code	MA-S	RFCode	2026-09-24	IEEE+Wireshark	RF Code Inc	current		
-8C:1F:64:70:F	SUS Corporation	MA-S	SUS	2026-10-01	IEEE+Wireshark	SUS Corporation	current		
 8C:1F:64:F4:0	DORLET SAU	MA-S	DorletSau	2026-10-05	IEEE+Wireshark	DORLET SAU	current		
+8C:1F:64:70:F	SUS Corporation	MA-S	SUS	2026-10-01	IEEE+Wireshark	SUS Corporation	current		
 8C:1F:64:E3:9	Power Electronics Espana, S.L.	MA-S	PowerElectro	2026-10-12	IEEE+Wireshark	Power Electronics Espana, S.L.	current		
 8C:1F:64:FF:1	KODENSHI CORP.	MA-S	Kodenshi	2026-10-12	IEEE+Wireshark	KODENSHI CORP.	current		
 8C:1F:64:3E:C	SPEKTRA Schwingungstechnik und Akustik GmbH Dresden	MA-S	SPEKTRASchwi	2026-10-08	IEEE+Wireshark	SPEKTRA Schwingungstechnik und Akustik GmbH Dresden	current		
@@ -51520,7 +51606,13 @@ B8:F4:53:C	Wavin T&I	MA-M	WavinT&I	2026-11-03	IEEE+Wireshark	Wavin T&I	current
 8C:1F:64:A3:D	GPHY inc.	MA-S	GPHY	2026-11-05	IEEE+Wireshark	GPHY inc.	current		
 8C:1F:64:C1:A	ViewSonic Corp.	MA-S	ViewSonic	2023-10-20	IEEE+Wireshark+Nmap	ViewSonic Corp	current		
 8C:1F:64:08:8	JTL Systems Ltd.	MA-S	JTL	2026-11-07	IEEE+Wireshark	JTL Systems Ltd.	current		
-8C:1F:64:4C:6	Shengli Technologies	MA-S		2026-11-11	IEEE	Shengli Technologies	current		
+8C:1F:64:4C:6	Shengli Technologies	MA-S	ShengliTechn	2026-11-11	IEEE+Wireshark	Shengli Technologies	current		
+8C:1F:64:B4:B	Elsist Srl	MA-S	Elsist	2026-11-13	IEEE+Wireshark	Elsist Srl	current		
+8C:1F:64:93:C	Konzept Informationssysteme GmbH	MA-S	KonzeptInfor	2026-11-12	IEEE+Wireshark	Konzept Informationssysteme GmbH	current		
+8C:1F:64:DB:C	QHR Mothership LLC	MA-S	QHRMothershi	2026-11-14	IEEE+Wireshark	QHR Mothership LLC	current		
+8C:1F:64:9F:3	Vardaan Electronics Industries Pvt. Ltd.	MA-S		2026-11-19	IEEE	Vardaan Electronics Industries Pvt. Ltd.	current		
+8C:1F:64:F0:0	GVision Italia S.r.l.	MA-S		2026-11-19	IEEE	GVision Italia S.r.l.	current		
+8C:1F:64:14:3	Chamsys Ltd	MA-S	ChamSys	2026-01-08	IEEE+Wireshark+Nmap	Chamsys Ltd	current		ChamSys | Chamsys Ltd
 8C:1F:64:82:B	Flow Power	MA-S	FlowPower	2023-07-14	IEEE+Wireshark+Nmap	Flow Power	current		
 8C:1F:64:5A:7	RCH SPA	MA-S	Rch	2023-07-06	IEEE+Wireshark+Nmap	RCH SPA	current		
 8C:1F:64:04:9	NUANCES ORG	MA-S	NuancesOrg	2023-07-08	IEEE+Wireshark+Nmap	NUANCES ORG	current		
@@ -52934,28 +53026,28 @@ B8:F4:53:C	Wavin T&I	MA-M	WavinT&I	2026-11-03	IEEE+Wireshark	Wavin T&I	current
 8C:1F:64:A5:2	TIAMA	MA-S	Tiama	2026-07-16	IEEE+Wireshark	TIAMA	current		
 8C:1F:64:25:D	mpsonic	MA-S	mpsonic	2026-07-20	IEEE+Wireshark	mpsonic	current		
 8C:1F:64:47:7	Syndora Alto Technology Limited	MA-S	SyndoraAltoT	2024-08-20	IEEE+Wireshark+Nmap	Syndora Alto Technology Limited	current		Blaucomm Ltd | Syndora Alto Technology Limited
-8C:1F:64:EE:C	Lumenir Inc.	MA-S	Lumenir	2026-07-21	IEEE+Wireshark	Lumenir Inc.	current		
 8C:1F:64:1A:4	Beijing Qinghong Chuangzhi Technology Co.,Ltd.	MA-S	QinghongChua	2026-07-24	IEEE+Wireshark	Beijing Qinghong Chuangzhi Technology Co.,Ltd.	current		
-8C:1F:64:BD:A	Skip Innovations, Inc	MA-S	SkipInnovati	2026-07-28	IEEE+Wireshark	Skip Innovations, Inc	current		
+8C:1F:64:EE:C	Lumenir Inc.	MA-S	Lumenir	2026-07-21	IEEE+Wireshark	Lumenir Inc.	current		
 8C:1F:64:B0:7	AeroVironment	MA-S	AeroVironmen	2026-07-28	IEEE+Wireshark	AeroVironment	current		
-8C:1F:64:B2:E	Grossenbacher Systeme AG	MA-S	Grossenbache	2026-08-03	IEEE+Wireshark	Grossenbacher Systeme AG	current		
+8C:1F:64:BD:A	Skip Innovations, Inc	MA-S	SkipInnovati	2026-07-28	IEEE+Wireshark	Skip Innovations, Inc	current		
 8C:1F:64:56:2	WOLF Advanced Technology	MA-S	WOLFAdvanced	2026-08-06	IEEE+Wireshark	WOLF Advanced Technology	current		
+8C:1F:64:B2:E	Grossenbacher Systeme AG	MA-S	Grossenbache	2026-08-03	IEEE+Wireshark	Grossenbacher Systeme AG	current		
 8C:1F:64:F0:1	OmniBuds Ltd	MA-S	OmniBuds	2026-08-10	IEEE+Wireshark	OmniBuds Ltd	current		
 8C:1F:64:95:1	Mitsubishi Electric India Pvt. Ltd.	MA-S	MitsubishiEl	2026-08-20	IEEE+Wireshark	MITSUBISHI ELECTRIC INDIA PVT. LTD.	current		
+8C:1F:64:F8:9	DIGITALWAN	MA-S	Digitalwan	2026-08-19	IEEE+Wireshark	DIGITALWAN	current		
 8C:1F:64:9F:7	Wuxi Tongyuan Electrical Technology Co., Ltd.	MA-S	WuxiTongyuan	2026-08-21	IEEE+Wireshark	Wuxi Tongyuan Electrical Technology Co., Ltd.	current		
 8C:1F:64:A8:8	ResIOT UBLSOFTWARE SRL	MA-S	ResIOTUBLSOF	2026-08-21	IEEE+Wireshark	ResIOT UBLSOFTWARE SRL	current		
 8C:1F:64:7F:F	Potter Electric Signal Co. LLC	MA-S	PotterElectr	2026-08-23	IEEE+Wireshark	Potter Electric Signal Company	current		
-8C:1F:64:F8:9	DIGITALWAN	MA-S	Digitalwan	2026-08-19	IEEE+Wireshark	DIGITALWAN	current		
+8C:1F:64:E5:F	INVENTIA Sp. z o.o.	MA-S	INVENTIASp	2026-08-25	IEEE+Wireshark	INVENTIA Sp. z o.o.	current		
 8C:1F:64:FA:1	M/S MILIND RAMACHANDRA RAJWADE	MA-S	MSMilindRama	2026-08-26	IEEE+Wireshark	M/S MILIND RAMACHANDRA RAJWADE	current		
 8C:1F:64:6A:2	Exatron Servers Manufacturing Pvt Ltd	MA-S	ExatronServe	2026-08-26	IEEE+Wireshark	Exatron Servers Manufacturing Pvt Ltd	current		
-8C:1F:64:E5:F	INVENTIA Sp. z o.o.	MA-S	INVENTIASp	2026-08-25	IEEE+Wireshark	INVENTIA Sp. z o.o.	current		
 8C:1F:64:95:0	Breas Medical AB	MA-S	BreasMedical	2026-08-27	IEEE+Wireshark	Breas Medical AB	current		
+8C:1F:64:60:4	Leaflabs	MA-S	LeafLabs	2026-09-03	IEEE+Wireshark	LeafLabs, LLC	current		
 8C:1F:64:7B:F	Drs RADA Technologies	MA-S	DrsRADATechn	2026-09-02	IEEE+Wireshark	Drs RADA Technologies	current		
 8C:1F:64:22:3	Loonson Technology Corporation Limited	MA-S	LoonsonTechn	2026-09-03	IEEE+Wireshark	Loonson Technology Corporation Limited	current		
-8C:1F:64:60:4	Leaflabs	MA-S	LeafLabs	2026-09-03	IEEE+Wireshark	LeafLabs, LLC	current		
 8C:1F:64:0A:1	Televic Rail GmbH	MA-S	TelevicRail	2026-09-02	IEEE+Wireshark	Televic Rail GmbH	current		
-8C:1F:64:37:3	Pin Kuan Technology Co., Ltd.	MA-S	PinKuanTechn	2026-09-08	IEEE+Wireshark	Pin Kuan Technology Co., Ltd.	current		
 8C:1F:64:FB:8	Abbott	MA-S	AbbottDiagno	2026-09-10	IEEE+Wireshark	Abbott Diagnostics Technologies AS	current		
+8C:1F:64:37:3	Pin Kuan Technology Co., Ltd.	MA-S	PinKuanTechn	2026-09-08	IEEE+Wireshark	Pin Kuan Technology Co., Ltd.	current		
 8C:1F:64:5E:0	Everest Audio Labs	MA-S	EverestAudio	2026-09-12	IEEE+Wireshark	Everest Audio Labs	current		Audio Video Show Sp. z o.o. | Everest Audio Labs
 8C:1F:64:F5:8	Mega Endustri Kontrol Sis.Tic.San.A.S	MA-S	MegaEndustri	2026-09-17	IEEE+Wireshark	Mega Endustri Kontrol Sis.Tic.San.A.S	current		
 8C:1F:64:F7:E	Suzhou Deyi Automotive Electronics Co., Ltd.	MA-S	SuzhouDeyiAu	2026-09-16	IEEE+Wireshark	Suzhou Deyi Automotive Electronics Co., Ltd.	current		Suzhou Deyi Automotive Electronice Co., Ltd. | Suzhou Deyi Automotive Electronics Co., Ltd.
@@ -52969,14 +53061,16 @@ B8:F4:53:C	Wavin T&I	MA-M	WavinT&I	2026-11-03	IEEE+Wireshark	Wavin T&I	current
 8C:1F:64:9B:0	Karman	MA-S	Karman	2026-10-14	IEEE+Wireshark	Karman	current		
 8C:1F:64:C4:7	Season Electronics Ltd	MA-S	SeasonElectr	2026-10-20	IEEE+Wireshark	Season Electronics Ltd	current		
 8C:1F:64:9E:D	Sotech Development Pvt. Ltd.	MA-S	SotechDevelo	2026-10-27	IEEE+Wireshark	Sotech Development Pvt. Ltd.	current		
+8C:1F:64:62:E	ViewSonic Corp.	MA-S	ViewSonic	2023-12-14	IEEE+Wireshark+Nmap	ViewSonic Corp	current		
 8C:1F:64:E6:C	Fuse Energy	MA-S	FuseEnergy	2026-10-28	IEEE+Wireshark	Fuse Energy	current		
 8C:1F:64:68:A	PCN Co., Ltd.	MA-S	PCN	2026-11-04	IEEE+Wireshark	PCN Co., Ltd.	current		
 8C:1F:64:46:E	Optima Engineering INC.	MA-S	OptimaEngine	2026-11-04	IEEE+Wireshark	Optima Engineering INC.	current		
 8C:1F:64:EF:6	UNCOMMON GROUP INC	MA-S	UncommonGrou	2026-11-03	IEEE+Wireshark	UNCOMMON GROUP INC	current		
-8C:1F:64:62:E	ViewSonic Corp.	MA-S	ViewSonic	2023-12-14	IEEE+Wireshark+Nmap	ViewSonic Corp	current		
 8C:1F:64:85:D	Subsea Data Systems	MA-S	SubseaData	2026-11-03	IEEE+Wireshark	Subsea Data Systems	current		
-8C:1F:64:33:E	SCANMEG	MA-S		2026-11-11	IEEE	SCANMEG	current		
-8C:1F:64:87:4	Gentec	MA-S		2026-11-11	IEEE	Gentec inc.	current		
+8C:1F:64:33:E	SCANMEG	MA-S	Scanmeg	2026-11-11	IEEE+Wireshark	SCANMEG	current		
+8C:1F:64:87:4	Gentec	MA-S	Gentec	2026-11-11	IEEE+Wireshark	Gentec inc.	current		
+8C:1F:64:54:5	Open Radio Systems GmbH	MA-S	OpenRadio	2026-11-13	IEEE+Wireshark	Open Radio Systems GmbH	current		
+8C:1F:64:46:3	Potter Electric Signal Co. LLC	MA-S		2026-11-16	IEEE	Potter Electric Signal Company	current		
 8C:1F:64:D6:3	Mobileye	MA-S	Mobileye	2023-07-20	IEEE+Wireshark+Nmap	Mobileye	current		
 8C:1F:64:3C:8	BTG Instruments AB	MA-S	BTGInstrumen	2023-07-06	IEEE+Wireshark+Nmap	BTG Instruments AB	current		
 70:B3:D5:90:E	Maytronics Ltd.	MA-S	Maytronics	2018-01-14	IEEE+Wireshark+Nmap	Maytronics Ltd.	current		Private | Maytronics Ltd.
@@ -54396,32 +54490,39 @@ B8:F4:53:C	Wavin T&I	MA-M	WavinT&I	2026-11-03	IEEE+Wireshark	Wavin T&I	current
 8C:1F:64:68:2	MB connect line GmbH	MA-S	MBconnectlin	2026-08-27	IEEE+Wireshark	MB connect line GmbH	current		
 8C:1F:64:40:F	Fuzhou Tucsen Photonics Co.,Ltd	MA-S	FuzhouTucsen	2026-09-02	IEEE+Wireshark	Fuzhou Tucsen Photonics Co.,Ltd	current		
 8C:1F:64:B1:2	Hongtai Intelligent Technology	MA-S	HongtaiIntel	2026-09-04	IEEE+Wireshark	Hongtai Intelligent Technology	current		
-8C:1F:64:FA:F	Goodtech Worldwide LTD ,,mobitel''	MA-S	GoodtechWorl	2026-09-18	IEEE+Wireshark	Goodtech Worldwide LTD ,,mobitel''	current		
 8C:1F:64:08:7	Benchmark Electronics BV	MA-S	BenchmarkEle	2026-09-12	IEEE+Wireshark	Benchmark Electronics BV	current		
+8C:1F:64:FA:F	Goodtech Worldwide LTD ,,mobitel''	MA-S	GoodtechWorl	2026-09-18	IEEE+Wireshark	Goodtech Worldwide LTD ,,mobitel''	current		
 8C:1F:64:DA:2	Ascon Tecnologic S.r.l.	MA-S	AsconTecnolo	2026-09-16	IEEE+Wireshark	Ascon Tecnologic S.r.l.	current		
-8C:1F:64:0F:8	INVENTIS S.r.l.	MA-S	INVENTIS	2026-09-25	IEEE+Wireshark	INVENTIS S.r.l.	current		
 8C:1F:64:A9:3	eSmart Tech Inc	MA-S	eSmartTech	2026-09-24	IEEE+Wireshark	eSmart Tech Inc	current		
-8C:1F:64:34:6	Sin Yi Integration Co., Ltd.	MA-S	SinYiIntegra	2026-10-05	IEEE+Wireshark	Sin Yi Integration Co., Ltd.	current		
+8C:1F:64:0F:8	INVENTIS S.r.l.	MA-S	INVENTIS	2026-09-25	IEEE+Wireshark	INVENTIS S.r.l.	current		
 8C:1F:64:18:9	HERUTU ELECTRONICS CORPORATION	MA-S	HerutuElectr	2026-10-08	IEEE+Wireshark	HERUTU ELECTRONICS CORPORATION	current		
+8C:1F:64:34:6	Sin Yi Integration Co., Ltd.	MA-S	SinYiIntegra	2026-10-05	IEEE+Wireshark	Sin Yi Integration Co., Ltd.	current		
 8C:1F:64:A6:8	AvMap srlu	MA-S	AvMapsrlu	2026-10-08	IEEE+Wireshark	AvMap srlu	current		
-8C:1F:64:3F:0	Supracontrol d.o.o.	MA-S	Supracontrol	2026-10-15	IEEE+Wireshark	Supracontrol d.o.o.	current		
 8C:1F:64:B4:D	OTODO	MA-S	Otodo	2026-10-15	IEEE+Wireshark	OTODO	current		
+8C:1F:64:3F:0	Supracontrol d.o.o.	MA-S	Supracontrol	2026-10-15	IEEE+Wireshark	Supracontrol d.o.o.	current		
+8C:1F:64:EA:3	Newtouch Electronics (Shanghai) Co., LTD.	MA-S	NewtouchElec	2026-10-24	IEEE+Wireshark	Newtouch Electronics (Shanghai) Co., LTD.	current		
 8C:1F:64:5B:B	Powell Electronics Inc.	MA-S	PowellElectr	2026-10-21	IEEE+Wireshark	Powell Electronics Inc.	current		
 8C:1F:64:86:0	Gogo BA	MA-S	GogoBA	2026-10-18	IEEE+Wireshark	Gogo BA	current		
 8C:1F:64:67:9	Guangdong Gospower Electric Technology Co., Ltd.	MA-S	GospowerElec	2026-10-24	IEEE+Wireshark	Guangdong Gospower Electric Technology Co., Ltd.	current		
 8C:1F:64:95:F	INVIXIUM ACCESS INC	MA-S	InvixiumAcce	2026-10-24	IEEE+Wireshark	INVIXIUM ACCESS INC	current		
-8C:1F:64:EA:3	Newtouch Electronics (Shanghai) Co., LTD.	MA-S	NewtouchElec	2026-10-24	IEEE+Wireshark	Newtouch Electronics (Shanghai) Co., LTD.	current		
 8C:1F:64:AD:D	Intermobility	MA-S	Intermobilit	2026-10-27	IEEE+Wireshark	Intermobility Co., Ltd.	current		
 8C:1F:64:84:F	Rouchon Industries Inc.	MA-S	RouchonIndus	2026-10-27	IEEE+Wireshark	Rouchon Industries Inc.	current		
 8C:1F:64:A3:F	ViewSonic Corp.	MA-S	ViewSonic	2023-04-15	IEEE+Wireshark+Nmap	ViewSonic Corp	current		
-8C:1F:64:36:B	ViewSonic Corp.	MA-S	ViewSonic	2024-01-05	IEEE+Wireshark+Nmap	ViewSonic Corp	current		
 8C:1F:64:C9:C	IDNEO TECHNOLOGIES,S.A.U.	MA-S	IdneoTechnol	2026-10-30	IEEE+Wireshark	IDNEO TECHNOLOGIES,S.A.U.	current		
 8C:1F:64:46:F	inomatic GmbH	MA-S	inomatic	2026-10-28	IEEE+Wireshark	inomatic GmbH	current		
+8C:1F:64:36:B	ViewSonic Corp.	MA-S	ViewSonic	2024-01-05	IEEE+Wireshark+Nmap	ViewSonic Corp	current		
 8C:1F:64:11:C	WITCON Co., Ltd.	MA-S	WITCON	2026-10-29	IEEE+Wireshark	WITCON Co., Ltd.	current		
 8C:1F:64:4C:B	Haoyu Intelligent Technonlogy	MA-S	HaoyuIntelli	2026-11-04	IEEE+Wireshark	Haoyu Intelligent Technonlogy	current		
 8C:1F:64:18:C	Cence Power Inc.	MA-S	CencePower	2026-11-03	IEEE+Wireshark	Cence Power Inc.	current		
-8C:1F:64:CE:2	Kova, Corp.	MA-S		2026-11-09	IEEE	Kova, Corp.	current		
-8C:1F:64:3B:F	KanexPro	MA-S		2026-11-11	IEEE	KanexPro	current		
+8C:1F:64:3B:F	KanexPro	MA-S	KanexPro	2026-11-11	IEEE+Wireshark	KanexPro	current		
+8C:1F:64:CE:2	Kova, Corp.	MA-S	Kova	2026-11-09	IEEE+Wireshark	Kova, Corp.	current		
+8C:1F:64:13:2	Shenzhen Enatel Electronics Co,ltd.	MA-S		2026-11-19	IEEE	Shenzhen Enatel Electronics Co,ltd.	current		
+8C:1F:64:35:5	FAH TECH CO.,LTD	MA-S		2026-11-16	IEEE	FAH TECH CO.,LTD	current		
+8C:1F:64:ED:B	ADL Systems	MA-S	ADL	2026-11-14	IEEE+Wireshark	ADL Systems	current		
+8C:1F:64:2E:9	DataCatcher	MA-S		2026-11-19	IEEE	DataCatcher	current		
+8C:1F:64:17:2	OPEN Alliance	MA-S	OPENAlliance	2026-11-14	IEEE+Wireshark	OPEN Alliance	current		
+8C:1F:64:D4:B	Rax-Tech International	MA-S		2026-11-21	IEEE	Rax-Tech International	current		
+8C:1F:64:48:4	Shenzhen Yahboom Technology Co.,Ltd.	MA-S		2026-11-21	IEEE	Shenzhen Yahboom Technology Co.,Ltd.	current		
 40:D8:55:0D:7	Avant Technologies	IAB	AvantTechnol	2013-04-15	IEEE+Wireshark	Avant Technologies	current		
 00:50:C2:F7:1	RF Code	IAB	RFCode	2012-04-15	IEEE+Wireshark	RF Code	current		RF Code, Inc | RF Code
 00:50:C2:9C:C	Hirotech inc.	IAB	Hirotech	2008-11-09	IEEE+Wireshark	Hirotech inc.	current		Hirotech, Inc | Hirotech inc.
@@ -59041,6 +59142,7 @@ FA:7A:CB	Ultra Ethernet Consortium	CID	UltraEtherne	2025-03-15	IEEE+Wireshark	Ul
 0A:9E:66	Distance Technologies Ltd	CID	DistanceTech	2026-01-31	IEEE+Wireshark	Distance Technologies Ltd	current		
 7A:B2:30	European Telecommunications Standards Institute	CID	EuropeanTele	2026-08-04	IEEE+Wireshark	European Telecommunications Standards Institute	current		
 CA:30:BF	IEEE 802.1 Working Group	CID	IEEE8021Work	2017-05-28	IEEE+Wireshark	IEEE 802.1 Working Group	current		IEEE 802.1 Working Group | IEEE 802.1 Chair | IEEE 802.1 Working Group
+3A:2F:B8	Supracontrol d.o.o.	CID		2026-11-16	IEEE	Supracontrol d.o.o.	current		
 CA:C2:76	Saab Seaeye Ltd	CID	SaabSeaeye	2022-12-10	IEEE+Wireshark	Saab Seaeye Ltd	current		
 DA:E6:D7	NVM Express, Inc.	CID	NVMExpress	2022-11-05	IEEE+Wireshark	NVM Express, Inc.	current		
 4A:ED:1D	Astera Labs, Inc.	CID	AsteraLabs	2022-08-13	IEEE+Wireshark	Astera Labs Inc	current		
@@ -59135,6 +59237,8 @@ FA:8D:93	Runione Tech Co., Ltd	CID	RunioneTech	2026-06-11	IEEE+Wireshark	Runione
 4A:E0:3F	Chengdu Superxon Communication Technology Co., Ltd.	CID	SuperxonComm	2020-08-16	IEEE+Wireshark	Chengdu Superxon Communication Technology Co., Ltd.	current		Chengdu Superxon Communicaiton Technology Co., Ltd. | Chengdu Superxon communication Technology Co. Ltd. | Chengdu Superxon Communication Technology Co., Ltd.
 4A:B4:7B	faytech Tech. Co., Ltd.	CID	faytechTech	2026-07-30	IEEE+Wireshark	faytech Tech. Co., Ltd.	current		
 6A:61:EE	Nanjing Etlchips Microelectronics Technology Co., LTD	CID	NanjingEtlch	2026-08-04	IEEE+Wireshark	Nanjing Etlchips Microelectronics Technology Co., LTD	current		
+7A:8F:27	Mirai Speaker Inc.	CID		2026-11-19	IEEE	Mirai Speaker Inc.	current		
+4A:52:66	LAST LOCK INC.	CID		2026-11-19	IEEE	Last Lock Inc	current		
 DA:C4:51	Takaratomy	CID	Takaratomy	2022-08-27	IEEE+Wireshark	Takaratomy	current		
 BA:C8:C4	Transponder & Reader Engineered Systems, Inc	CID	TransponderR	2022-07-15	IEEE+Wireshark	Transponder & Reader Engineered Systems, Inc	current		
 CA:7D:DD	EmOne (Thailand) Co.,Ltd.	CID	EmOne	2022-06-16	IEEE+Wireshark	EmOne (Thailand) Co.,Ltd.	current		

@@ -1,6 +1,6 @@
 -- Master OUI Database Import
--- Generated: 2026-11-11T10:27:11.256Z
--- Total Entries: 59320
+-- Generated: 2026-11-21T10:43:56.328Z
+-- Total Entries: 59424
 
 CREATE TABLE IF NOT EXISTS oui_registry (
   oui TEXT PRIMARY KEY,
@@ -5579,7 +5579,6 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:08:6E', 'Hyglo AB', 'MA-L', 'Hyglo', NULL, '2001-12-14', 'Vastberga alle 60   SE', 'IEEE+Wireshark+Nmap', 'Hyglo AB', 'current', NULL, NULL),
   ('00:08:14', 'TIL Technologies', 'MA-L', 'TILTechnolog', 'Smart Home', '2001-10-24', 'Europark DePichaury, BAT 9   FR  ', 'IEEE+Wireshark+Nmap', 'TIL Technologies', 'current', NULL, NULL),
   ('00:08:BD', 'TEPG-US', 'MA-L', 'TepgUs', NULL, '2001-12-23', '100 Simplex Drive Westminster MA US 01441', 'IEEE+Wireshark+Nmap', 'TEPG-US', 'current', NULL, NULL),
-  ('00:08:AE', 'PacketFront Network Products AB', 'MA-L', 'PacketFrontN', 'Switch', '2001-12-14', 'PO 1217 Kistagangen 2, IV Kista Stockholm SE -16428 SE  ', 'IEEE+Wireshark+Nmap', 'PacketFront Network Products AB', 'current', NULL, 'Packetfront | PacketFront Sweden AB | PacketFront International AB | PacketFront Network Products AB'),
   ('00:08:4F', 'Qualstar Corporation', 'MA-L', 'Qualstar', 'Storage', '2001-12-14', '3990B Heritage Oak Court Simi Valley CA US 93063', 'IEEE+Wireshark+Nmap', 'Qualstar Corporation', 'current', NULL, NULL),
   ('00:08:54', 'NETRONIX', 'MA-L', 'Netronix', NULL, '2001-12-14', '3F-1, No. 31, Hsin-Tai Road,   TW  ', 'IEEE+Wireshark+Nmap', 'Netronix, Inc.', 'current', NULL, NULL),
   ('00:08:5C', 'Shanghai Dare Technologies Co. Ltd.', 'MA-L', 'DareTechnolo', NULL, '2001-12-14', '23F, China Merchants Tower, Pudong New Area, Shanghai CN  ', 'IEEE+Wireshark+Nmap', 'Shanghai Dare Technologies Co. Ltd.', 'current', NULL, NULL),
@@ -6056,11 +6055,11 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:50:02', 'OMNISEC AG', 'MA-L', 'Omnisec', NULL, '2000-09-08', 'RIETSTRASSE 14 CH-8108 DAELLIKON  CH', 'IEEE+Wireshark+Nmap', 'OMNISEC AG', 'current', NULL, NULL),
   ('00:50:6A', 'EDEVA, INC.', 'MA-L', 'Edeva', NULL, '2000-09-08', '298 S. SUNNYVALE AVE. - #208 SUNNYVALE CA US 94086', 'IEEE+Wireshark+Nmap', 'EDEVA, INC.', 'current', NULL, NULL),
   ('00:50:C5', 'ADS Technologies, Inc.', 'MA-L', 'ADSTechnolog', NULL, '2000-09-08', '12627 Hiddencreek Way Cerritos CA US 90703', 'IEEE+Wireshark+Nmap', 'ADS Technologies, Inc', 'current', NULL, 'ADS TECHNOLOGIES, INC. | ADS Technologies, Inc'),
-  ('00:50:8E', 'OPTIMATION, INC.', 'MA-L', 'Optimation', NULL, '2000-09-08', 'P.O. BOX 14357 HUNTSVILLE AL US 35815', 'IEEE+Wireshark+Nmap', 'OPTIMATION, INC.', 'current', NULL, NULL);
+  ('00:50:8E', 'OPTIMATION, INC.', 'MA-L', 'Optimation', NULL, '2000-09-08', 'P.O. BOX 14357 HUNTSVILLE AL US 35815', 'IEEE+Wireshark+Nmap', 'OPTIMATION, INC.', 'current', NULL, NULL),
+  ('00:50:28', 'AVAL COMMUNICATIONS', 'MA-L', 'AvalCommunic', NULL, '2000-09-08', '1777 NORTH CALIFORNIA BLVD. WALNUT CREEK CA US 94596', 'IEEE+Wireshark+Nmap', 'AVAL COMMUNICATIONS', 'current', NULL, NULL);
 
 -- Batch 13 (500 entries)
 INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
-  ('00:50:28', 'AVAL COMMUNICATIONS', 'MA-L', 'AvalCommunic', NULL, '2000-09-08', '1777 NORTH CALIFORNIA BLVD. WALNUT CREEK CA US 94596', 'IEEE+Wireshark+Nmap', 'AVAL COMMUNICATIONS', 'current', NULL, NULL),
   ('00:50:2F', 'TollBridge Technologies, Inc.', 'MA-L', 'TollBridgeTe', NULL, '2000-09-08', '872 HERMOSA DRIVE SUNNYVALE CA US 94086', 'IEEE+Wireshark+Nmap', 'TollBridge Technologies, Inc.', 'current', NULL, 'TOLLBRIDGE TECHNOLOGIES, INC. | TollBridge Technologies, Inc.'),
   ('00:50:74', 'ADVANCED HI-TECH CORP.', 'MA-L', 'AdvancedHiTe', NULL, '2000-09-08', '1990 EAST GRAND AVE. EL SEGUNDO CA US 90505', 'IEEE+Wireshark+Nmap', 'ADVANCED HI-TECH CORP.', 'current', NULL, NULL),
   ('00:50:0A', 'IRIS TECHNOLOGIES, INC.', 'MA-L', 'IrisTechnolo', NULL, '2000-09-08', 'WESTMORELAND INDUSRIAL PARK GREENSBURG PA US 15601', 'IEEE+Wireshark+Nmap', 'IRIS TECHNOLOGIES, INC.', 'current', NULL, NULL),
@@ -6559,11 +6558,11 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:00:9D', 'LOCUS COMPUTING CORPORATION', 'MA-L', 'LocusComputi', NULL, '2000-09-08', '9800 LA CIENEGA INGLEWOOD CA US 90301', 'IEEE+Wireshark+Nmap', 'LOCUS COMPUTING CORPORATION', 'current', NULL, NULL),
   ('00:00:FD', 'HIGH LEVEL HARDWARE', 'MA-L', 'HighLevelHar', NULL, '2000-09-08', 'PO BOX 170 WINDMILL ROAD   GB ENGLAND', 'IEEE+Wireshark+Nmap', 'HIGH LEVEL HARDWARE', 'current', NULL, NULL),
   ('08:00:0F', 'Mitel', 'MA-L', 'Mitel', 'VoIP', '1998-09-25', '350 LEGGET DRIVE CANADA K2K CA 1X3', 'IEEE+Wireshark+Nmap', 'MITEL CORPORATION', 'current', NULL, NULL),
-  ('02:70:B0', 'M/A-COM INC. COMPANIES', 'MA-L', 'MAComCompani', NULL, '2000-09-08', '11717 EXPLORATION LANE GERMANTOWN MD US 20767', 'IEEE+Wireshark+Nmap', 'M/A-COM INC. COMPANIES', 'current', NULL, NULL);
+  ('02:70:B0', 'M/A-COM INC. COMPANIES', 'MA-L', 'MAComCompani', NULL, '2000-09-08', '11717 EXPLORATION LANE GERMANTOWN MD US 20767', 'IEEE+Wireshark+Nmap', 'M/A-COM INC. COMPANIES', 'current', NULL, NULL),
+  ('00:00:53', 'COMPUCORP', 'MA-L', 'Compucorp', NULL, '2000-09-08', '2211 MICHIGAN AVENUE SANTA MONICA CA US 90404', 'IEEE+Wireshark+Nmap', 'COMPUCORP', 'current', NULL, NULL);
 
 -- Batch 14 (500 entries)
 INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
-  ('00:00:53', 'COMPUCORP', 'MA-L', 'Compucorp', NULL, '2000-09-08', '2211 MICHIGAN AVENUE SANTA MONICA CA US 90404', 'IEEE+Wireshark+Nmap', 'COMPUCORP', 'current', NULL, NULL),
   ('08:00:0A', 'NESTAR SYSTEMS INCORPORATED', 'MA-L', 'Nestar', 'Smart Home', '1998-09-25', '2585 EAST BAYSHORE ROAD PALO ALTO CA US 94303', 'IEEE+Wireshark+Nmap', 'NESTAR SYSTEMS INCORPORATED', 'current', NULL, NULL),
   ('00:00:04', 'Xerox', 'MA-L', 'Xerox', 'Printer', '2000-09-08', 'M/S 105-50C WEBSTER NY US 14580', 'IEEE+Wireshark+Nmap', 'XEROX CORPORATION', 'current', NULL, NULL),
   ('00:DD:0E', 'UNGERMANN-BASS INC.', 'MA-L', 'UngermannBas', NULL, '2000-09-08', '3900 FREEDOM CIRCLE SANTA CLARA CA US 95054', 'IEEE+Wireshark+Nmap', 'UNGERMANN-BASS INC.', 'current', NULL, NULL),
@@ -7062,11 +7061,11 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('64:4F:56', 'Yealink', 'MA-L', 'YealinkNetwo', 'VoIP', '2024-10-15', '309, 3th Floor, No.16, Yun Ding North Road, Huli District xiamen Fujian CN 361015 ', 'IEEE+Wireshark+Nmap', 'YEALINK(XIAMEN) NETWORK TECHNOLOGY CO.,LTD.', 'current', NULL, NULL),
   ('DC:90:09', 'Intel', 'MA-L', 'Intel', 'Laptop', '2024-10-15', 'Lot 8, Jalan Hi-Tech 2/3   Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL),
   ('54:E4:ED', 'Intel', 'MA-L', 'Intel', 'Laptop', '2024-10-15', 'Lot 8, Jalan Hi-Tech 2/3   Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL),
-  ('38:F0:BB', 'CompuSoft A/S', 'MA-L', 'CompuSoft', NULL, '2024-10-11', 'Sunekær 9 Søndersø  DK 5471', 'IEEE+Wireshark+Nmap', 'CompuSoft A/S', 'current', NULL, NULL);
+  ('38:F0:BB', 'CompuSoft A/S', 'MA-L', 'CompuSoft', NULL, '2024-10-11', 'Sunekær 9 Søndersø  DK 5471', 'IEEE+Wireshark+Nmap', 'CompuSoft A/S', 'current', NULL, NULL),
+  ('08:B8:D0', 'Chipsea Technologies (Shenzhen) Corp.', 'MA-L', 'ChipseaTechn', NULL, '2024-10-17', '3 / F, Block A, Building 2, Shenzhen Bay Innovation Technology Center, No.3156 keyuan South Road, Yuehai Street, Nanshan District, Shenzhen Shenzhen Guangdong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Chipsea Technologies (Shenzhen) Corp.', 'current', NULL, NULL);
 
 -- Batch 15 (500 entries)
 INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
-  ('08:B8:D0', 'Chipsea Technologies (Shenzhen) Corp.', 'MA-L', 'ChipseaTechn', NULL, '2024-10-17', '3 / F, Block A, Building 2, Shenzhen Bay Innovation Technology Center, No.3156 keyuan South Road, Yuehai Street, Nanshan District, Shenzhen Shenzhen Guangdong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Chipsea Technologies (Shenzhen) Corp.', 'current', NULL, NULL),
   ('00:15:D1', 'CommScope (ARRIS)', 'MA-L', 'Commscope', 'Router', '2005-09-09', '6450 Sequence Drive San Diego CA US 92121', 'IEEE+Wireshark+Nmap', 'Commscope', 'current', NULL, 'ARRIS International | ARRIS Group, Inc. | Commscope'),
   ('00:00:CA', 'CommScope (ARRIS)', 'MA-L', 'Commscope', 'Router', '2000-09-08', '6450 Sequence Drive San Diego CA US 92121', 'IEEE+Wireshark+Nmap', 'Commscope', 'current', NULL, 'APPLITEK | ARRIS International | ARRIS Group, Inc. | Commscope'),
   ('00:15:A4', 'CommScope (ARRIS)', 'MA-L', 'Commscope', 'Router', '2005-08-24', '6450 Sequence Drive San Diego CA US 92121', 'IEEE+Wireshark+Nmap', 'Commscope', 'current', NULL, 'ARRIS International | ARRIS Group, Inc. | Commscope'),
@@ -7565,11 +7564,11 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:3E:76', 'Arcadyan', 'MA-L', 'Arcadyan', 'Router', '2025-09-15', 'No.8, Sec.2, Guangfu Rd. Hsinchu City Hsinchu TW 30071 ', 'IEEE+Wireshark+Nmap', 'Arcadyan Corporation', 'current', NULL, NULL),
   ('F4:5C:42', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2025-09-17', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
   ('3C:24:0A', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2025-09-17', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
-  ('E4:AE:E4', 'Tuya', 'MA-L', 'TuyaSmart', 'Smart Home', '2025-09-17', '160 Greentree Drive, Suite 101 Dover DE US 19904 ', 'IEEE+Wireshark+Nmap', 'Tuya Smart Inc.', 'current', NULL, NULL);
+  ('E4:AE:E4', 'Tuya', 'MA-L', 'TuyaSmart', 'Smart Home', '2025-09-17', '160 Greentree Drive, Suite 101 Dover DE US 19904 ', 'IEEE+Wireshark+Nmap', 'Tuya Smart Inc.', 'current', NULL, NULL),
+  ('0C:EB:25', 'Power Plus Communications AG', 'MA-L', 'PowerPlusCom', NULL, '2025-09-17', 'Dudenstrasse 6 Mannheim  DE 68167', 'IEEE+Wireshark+Nmap', 'Power Plus Communications AG', 'current', NULL, NULL);
 
 -- Batch 16 (500 entries)
 INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
-  ('0C:EB:25', 'Power Plus Communications AG', 'MA-L', 'PowerPlusCom', NULL, '2025-09-17', 'Dudenstrasse 6 Mannheim  DE 68167', 'IEEE+Wireshark+Nmap', 'Power Plus Communications AG', 'current', NULL, NULL),
   ('80:48:63', 'Electralsys Networks', 'MA-L', 'ElectralsysN', NULL, '2025-09-18', '45 Bharat Nagar, New Friends Colony NEW DELHI DELHI IN 110025 ', 'IEEE+Wireshark+Nmap', 'Electralsys Networks', 'current', NULL, NULL),
   ('7C:CF:4E', 'FINE TRIUMPH TECHNOLOGY CORP.,LTD.', 'MA-L', 'FineTriumphT', NULL, '2025-09-18', 'kihitech Industrial Park,DongChen Town, RuGao,jiangsu RuGao,jiangsu  CN 226571 ', 'IEEE+Wireshark+Nmap', 'FINE TRIUMPH TECHNOLOGY CORP.,LTD.', 'current', NULL, NULL),
   ('70:F3:95', 'USI (Universal Global Scientific Industrial)', 'MA-L', 'UniversalGlo', NULL, '2010-03-05', '141, LANE 351,SEC.1, TAIPING RD. TSAOTUEN, NANTOU TW 54261 ', 'IEEE+Wireshark+Nmap', 'Universal Global Scientific Industrial., Ltd', 'current', NULL, 'USI | Universal Global Scientific Industrial Co., Ltd. | Universal Global Scientific Industrial., Ltd'),
@@ -8068,11 +8067,11 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('90:B1:41', 'Lenovo / Motorola Mobility', 'MA-L', 'MotorolaMobi', 'Phone', '2026-07-03', '222 West Merchandise Mart Plaza Chicago IL US 60654', 'IEEE+Wireshark', 'Motorola Mobility LLC, a Lenovo Company', 'current', NULL, NULL),
   ('BC:C8:CC', 'Epson', 'MA-L', 'SeikoEpson', 'Printer', '2026-07-02', '2070 Kotobuki Koaka Matsumoto-shi Nagano-ken JP 399-8702', 'IEEE+Wireshark', 'Seiko Epson Corporation', 'current', NULL, NULL),
   ('00:A0:B0', 'I-O DATA, INC.', 'MA-L', 'IOData', 'Storage', '1998-04-22', '24-1, SAKURADA-MACHI KANAZAWA, ISHIKAWA 920  JP na ', 'IEEE+Wireshark+Nmap', 'I-O DATA, INC.', 'current', NULL, 'I-O DATA DEVICE, INC. | I-O DATA DEVICE,INC. | I-O DATA, INC.'),
-  ('88:0A:BD', 'Wuhan Nexphoton Technology Co.,Ltd', 'MA-L', 'NexphotonTec', NULL, '2026-07-14', 'Room 312, 3rd Floor, Area C, Guanggu Innovation Industrial Park (Yunke Town),No. 22, Gaoxin 4th Road, East Lake High-Tech Development Zone,Wuhan City, Hubei Province, P.R.China Wuhan Hubei CN 430070 ', 'IEEE+Wireshark', 'Wuhan Nexphoton Technology Co.,Ltd', 'current', NULL, NULL);
+  ('88:0A:BD', 'Wuhan Nexphoton Technology Co.,Ltd', 'MA-L', 'NexphotonTec', NULL, '2026-07-14', 'Room 312, 3rd Floor, Area C, Guanggu Innovation Industrial Park (Yunke Town),No. 22, Gaoxin 4th Road, East Lake High-Tech Development Zone,Wuhan City, Hubei Province, P.R.China Wuhan Hubei CN 430070 ', 'IEEE+Wireshark', 'Wuhan Nexphoton Technology Co.,Ltd', 'current', NULL, NULL),
+  ('5C:E7:53', 'Govee (Shenzhen Intellirocks)', 'MA-L', 'Intellirocks', 'Smart Home', '2025-06-07', 'No. 3301, Block C, Section 1, Chuangzhi Yuncheng Building, Liuxian Avenue,Xili Community, Xili Street, Nanshan District Shenzhen Guangdong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Shenzhen Intellirocks Tech. Co. Ltd.', 'current', NULL, 'Private | Shenzhen Intellirocks Tech. Co. Ltd.');
 
 -- Batch 17 (500 entries)
 INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
-  ('5C:E7:53', 'Govee (Shenzhen Intellirocks)', 'MA-L', 'Intellirocks', 'Smart Home', '2025-06-07', 'No. 3301, Block C, Section 1, Chuangzhi Yuncheng Building, Liuxian Avenue,Xili Community, Xili Street, Nanshan District Shenzhen Guangdong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Shenzhen Intellirocks Tech. Co. Ltd.', 'current', NULL, 'Private | Shenzhen Intellirocks Tech. Co. Ltd.'),
   ('80:9B:31', 'XIN LINK INTERNAITONAL CO LIMITED', 'MA-L', 'XinLinkInter', NULL, '2026-07-15', 'Room 902, 9/F, ONE MIDTOWN, 11 Hoi Shing Road, Tsuen Wan, New Territories, Hong Kong HONGKONG  CN 999077 ', 'IEEE+Wireshark', 'XIN LINK INTERNAITONAL CO LIMITED', 'current', NULL, NULL),
   ('90:B3:39', 'Espressif', 'MA-L', 'Espressif', 'IoT', '2026-07-14', 'Vistra Corporate Services Centre, Wickhams Cay II Road Town Tortola VG VG1110 ', 'IEEE+Wireshark', 'Espressif Inc.', 'current', NULL, NULL),
   ('50:12:5C', 'Sony', 'MA-L', 'Sony', 'TV', '2026-07-14', 'Sony City Osaki 2-10-1 Shinagawa-ku  Tokyo JP 141-8610', 'IEEE+Wireshark', 'Sony Corporation', 'current', NULL, NULL),
@@ -8232,7 +8231,15 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('50:EE:F8', 'Xiaomi', 'MA-L', 'XiaomiCommun', 'Phone', '2026-11-06', '#019, 9th Floor, Building 6, 33 Xi''erqi Middle Road Beijing Haidian District CN 100085 ', 'IEEE+Wireshark', 'Xiaomi Communications Co Ltd', 'current', NULL, NULL),
   ('9C:E0:87', 'Espressif', 'MA-L', 'EspressifPte', 'IoT', '2026-11-06', '1 FUSIONOPOLIS VIEW#07-02ECLIPSE Singapore  SG 138577', 'IEEE+Wireshark', 'Espressif Systems (Singapore) Pte. Ltd', 'current', NULL, NULL),
   ('10:25:13', 'LG Electronics', 'MA-L', 'LGElectronic', 'TV', '2026-11-05', '222 LG-ro, JINWI-MYEON Pyeongtaek-si Gyeonggi-do KR 451-713 ', 'IEEE+Wireshark', 'LG Electronics', 'current', NULL, NULL),
-  ('4C:A6:37', 'Hisense Home Appliances Group Co.,Ltd.Qingdao Branch', 'MA-L', NULL, 'TV', '2026-11-11', 'Hisense R&D center, #399 Songling Road, Qingdao, Shandong, 266000, China Qingdao Shandong CN 266000 ', 'IEEE', 'Hisense Home Appliances Group Co.,Ltd.Qingdao Branch', 'current', NULL, NULL),
+  ('50:57:16', 'Mellanox Technologies', 'MA-L', NULL, 'Switch', '2026-11-16', '350 Oakmead Parkway, Suite 100   Sunnyvale CA US 94085 ', 'IEEE', 'Mellanox Technologies, Inc.', 'current', NULL, NULL),
+  ('4C:48:D4', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2026-11-13', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
+  ('80:25:D2', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2026-11-13', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
+  ('98:C0:63', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2026-11-13', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
+  ('4C:A6:37', 'Hisense Home Appliances Group Co.,Ltd.Qingdao Branch', 'MA-L', 'HisenseHomeA', 'TV', '2026-11-11', 'Hisense R&D center, #399 Songling Road, Qingdao, Shandong, 266000, China Qingdao Shandong CN 266000 ', 'IEEE+Wireshark', 'Hisense Home Appliances Group Co.,Ltd.Qingdao Branch', 'current', NULL, NULL),
+  ('D8:E6:AB', 'eero', 'MA-L', 'eero', 'Router', '2026-11-12', '660 3rd Street  San Francisco CA US 94107', 'IEEE+Wireshark', 'eero inc.', 'current', NULL, NULL),
+  ('00:08:AE', 'Waystream AB', 'MA-L', 'PacketFrontN', NULL, '2001-12-14', 'Farogatan 33 Kista  SE 164 51', 'IEEE+Wireshark+Nmap', 'Waystream AB', 'current', NULL, 'Packetfront | PacketFront Sweden AB | PacketFront International AB | PacketFront Network Products AB | Waystream AB'),
+  ('30:E8:B9', 'Espressif', 'MA-L', NULL, 'IoT', '2026-11-20', '1 FUSIONOPOLIS VIEW#07-02ECLIPSE Singapore  SG 138577', 'IEEE', 'Espressif Systems (Singapore) Pte. Ltd', 'current', NULL, NULL),
+  ('C4:9A:90', 'Espressif', 'MA-L', NULL, 'IoT', '2026-11-20', '1 FUSIONOPOLIS VIEW#07-02ECLIPSE Singapore  SG 138577', 'IEEE', 'Espressif Systems (Singapore) Pte. Ltd', 'current', NULL, NULL),
   ('00:74:9C', 'Ruijie Networks', 'MA-L', 'RuijieNetwor', NULL, '2016-05-26', '19# Building,Star-net Science Plaza,Juyuanzhou, 618 Jinshan Road Fuzhou Fujian CN 350002 ', 'IEEE+Wireshark+Nmap', 'Ruijie Networks Co.,LTD', 'current', NULL, 'RUIJIE NETWORKS CO., LTD. | Ruijie Networks Co.,LTD'),
   ('00:0F:EA', 'GIGA-BYTE TECHNOLOGY CO.,LTD.', 'MA-L', 'GigaByteTech', 'Computer', '2004-04-03', 'No.215,Nan-Ping Road,Ping-Jen City, Ping-Jen Taoyuan TW 324 ', 'IEEE+Wireshark+Nmap', 'GIGA-BYTE TECHNOLOGY CO.,LTD.', 'current', NULL, NULL),
   ('38:AD:2B', 'Hitron Technologies', 'MA-L', 'HitronTechno', 'Modem', '2023-07-07', 'No. 1-8, Lising 1st Rd. Hsinchu Science Park, Hsinchu, 300, Taiwan, R.O.C Hsin-chu Taiwan TW 300 ', 'IEEE+Wireshark+Nmap', 'Hitron Technologies. Inc', 'current', NULL, NULL),
@@ -8564,17 +8571,17 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('CC:4D:74', 'Newland Payment', 'MA-L', 'FujianNewlan', 'IoT', '2022-11-13', 'No. B602, Building #1, HaixiaJingmao Plaza, Fuzhou Bonded Area Fuzhou  CN 350015 ', 'IEEE+Wireshark+Nmap', 'Fujian Newland Payment Technology Co., Ltd.', 'current', NULL, NULL),
   ('A0:31:EB', 'Semikron Elektronik GmbH & Co. KG', 'MA-L', 'SemikronElek', NULL, '2022-11-13', 'Sigmundstrasse 200 Nürnberg Bavaria DE 90431', 'IEEE+Wireshark+Nmap', 'Semikron Elektronik GmbH & Co. KG', 'current', NULL, NULL),
   ('F8:D7:58', 'Veratron AG', 'MA-L', 'Veratron', 'Automotive', '2022-11-04', 'Industriestrasse 18 Rüthi St.Gallen CH 9464', 'IEEE+Wireshark+Nmap', 'Veratron AG', 'current', NULL, NULL),
-  ('24:FE:9A', 'CyberTAN Technology Inc.', 'MA-L', 'CyberTANTech', NULL, '2022-11-04', '99 Park Ave III, Hsinchu Science Park Hsinchu  TW 308 ', 'IEEE+Wireshark+Nmap', 'CyberTAN Technology Inc.', 'current', NULL, NULL),
+  ('24:FE:9A', 'CyberTAN Technology Inc.', 'MA-L', 'CyberTANTech', NULL, '2022-11-04', '99 Park Ave III, Hsinchu Science Park Hsinchu  TW 308 ', 'IEEE+Wireshark+Nmap', 'CyberTAN Technology Inc.', 'current', NULL, NULL);
+
+-- Batch 18 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('B4:CB:B8', 'Universal Electronics', 'MA-L', 'UniversalEle', NULL, '2022-09-28', '201 E Sandpointe Ave SANTA ANA CA US 927075778', 'IEEE+Wireshark+Nmap', 'Universal Electronics, Inc.', 'current', NULL, 'UNIVERSAL ELECTRONICS | Universal Electronics, Inc.'),
   ('BC:32:B2', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2022-11-01', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('EC:8A:48', 'Arista Networks', 'MA-L', 'AristaNetwor', 'Switch', '2022-11-09', '5453 Great America Parkway Santa Clara CA US 95054', 'IEEE+Wireshark+Nmap', 'Arista Networks', 'current', NULL, NULL),
   ('14:1A:97', 'Apple', 'MA-L', 'Apple', 'Phone', '2022-11-16', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
   ('8C:5D:B2', 'IEEE Registration Authority', 'MA-L', NULL, NULL, '2022-11-11', '445 Hoes Lane Piscataway NJ US 08554', 'IEEE+Nmap', 'IEEE Registration Authority', 'current', NULL, NULL),
   ('88:CE:3F', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2022-10-20', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
-  ('EC:F8:D0', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2022-10-20', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL);
-
--- Batch 18 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('EC:F8:D0', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2022-10-20', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('30:DF:17', 'Alps Alpine', 'MA-L', 'Alpsalpine', 'Automotive', '2022-07-28', 'nishida 6-1 kakuda-City Miyagi-Pref JP 981-1595', 'IEEE+Wireshark+Nmap', 'ALPSALPINE CO,.LTD', 'current', NULL, 'ALPSALPINE CO .,LTD | ALPSALPINE CO,.LTD'),
   ('D8:02:8A', 'Shenzhen YOUHUA Technology Co., Ltd', 'MA-L', 'YOUHUATechno', NULL, '2022-10-20', 'Room 407 Shenzhen University-town Business Park,Lishan Road,Taoyuan Street,Nanshan District Shenzhen Guangdong CN 518055 ', 'IEEE+Wireshark+Nmap', 'Shenzhen YOUHUA Technology Co., Ltd', 'current', NULL, NULL),
   ('B8:3C:28', 'Apple', 'MA-L', 'Apple', 'Phone', '2022-10-20', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
@@ -9067,17 +9074,17 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('7C:C1:77', 'Ingram Micro Services', 'MA-L', 'IngramMicroS', NULL, '2021-06-12', '100 CHEMIN DE BAILLOT MONTAUBAN  FR 82000', 'IEEE+Wireshark+Nmap', 'INGRAM MICRO SERVICES', 'current', NULL, NULL),
   ('78:76:D9', 'EXARA Group', 'MA-L', 'EXARAGroup', NULL, '2021-06-11', 'Andropova pr. 18 1 Moscow  RU 115432', 'IEEE+Wireshark+Nmap', 'EXARA Group', 'current', NULL, NULL),
   ('94:A4:08', 'shenzhen trolink', 'MA-L', 'TrolinkTechn', NULL, '2021-06-11', '201 B building 4 shijie, Chashu industry 505 block, Baoan airport Sanwei community, Hangcheng street Baoan area. Shenzhen GuangDong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Shenzhen Trolink Technology CO, LTD', 'current', NULL, NULL),
-  ('7C:84:37', 'China Post Communications Equipment Co., Ltd.', 'MA-L', 'ChinaPostCom', NULL, '2021-06-05', '6 / F, block D, No.156, Beijing International Financial Building, Fuxingmennei street,Xicheng District Beijing Beijing CN 100031 ', 'IEEE+Wireshark+Nmap', 'China Post Communications Equipment Co., Ltd.', 'current', NULL, NULL),
+  ('7C:84:37', 'China Post Communications Equipment Co., Ltd.', 'MA-L', 'ChinaPostCom', NULL, '2021-06-05', '6 / F, block D, No.156, Beijing International Financial Building, Fuxingmennei street,Xicheng District Beijing Beijing CN 100031 ', 'IEEE+Wireshark+Nmap', 'China Post Communications Equipment Co., Ltd.', 'current', NULL, NULL);
+
+-- Batch 19 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('B8:4D:43', 'Fn-Link', 'MA-L', 'HunanFnLinkT', NULL, '2021-06-05', 'No.8, Litong Road, Liuyan Economic & Tec Changsha HUNAN CN 410329 ', 'IEEE+Wireshark+Nmap', 'HUNAN FN-LINK TECHNOLOGY LIMITED', 'current', NULL, NULL),
   ('D0:F8:65', 'ITEL MOBILE LIMITED', 'MA-L', 'ItelMobile', 'Phone', '2021-06-09', 'RM B3 & B4 BLOCK B, KO FAI INDUSTRIAL BUILDING  NO.7 KO FAI ROAD, YAU TONG, KLN, H.K Hong Kong KOWLOON HK 999077 ', 'IEEE+Wireshark+Nmap', 'ITEL MOBILE LIMITED', 'current', NULL, NULL),
   ('C8:9F:1A', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2021-06-04', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('D8:68:52', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2021-06-04', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('AC:64:90', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2021-06-04', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('A8:4A:63', 'TPV Display Technology (Xiamen) Co.,Ltd.', 'MA-L', 'TPVDisplayTe', 'TV', '2021-06-04', 'No.1, Xianghai Road, Xiamen Torch Hi-Tech Industrial Development Zone, China Xiamen Fujian CN 361101 ', 'IEEE+Wireshark+Nmap', 'TPV Display Technology(Xiamen) Co.,Ltd.', 'current', NULL, NULL),
-  ('60:8F:A4', 'Nokia Solutions and Networks GmbH & Co. KG', 'MA-L', 'NokiaSolutio', 'Router', '2021-06-16', 'Werinherstrasse 91 München Bavaria DE D-81541', 'IEEE+Wireshark+Nmap', 'Nokia Solutions and Networks GmbH & Co. KG', 'current', NULL, NULL);
-
--- Batch 19 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('60:8F:A4', 'Nokia Solutions and Networks GmbH & Co. KG', 'MA-L', 'NokiaSolutio', 'Router', '2021-06-16', 'Werinherstrasse 91 München Bavaria DE D-81541', 'IEEE+Wireshark+Nmap', 'Nokia Solutions and Networks GmbH & Co. KG', 'current', NULL, NULL),
   ('24:3F:AA', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2021-06-04', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
   ('D8:67:D3', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2021-06-04', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
   ('48:47:4B', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2021-06-04', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
@@ -9570,17 +9577,17 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('B4:62:93', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2012-06-12', '#94-1,Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('00:0D:A1', 'MIRAE ITS Co.,LTD.', 'MA-L', 'MIRAEITS', NULL, '2003-07-23', '7F, ChangHyun B/D,960-1,HoGye1Dong AnYang KyongiGiDo KR 431-840 ', 'IEEE+Wireshark+Nmap', 'MIRAE ITS Co.,LTD.', 'current', NULL, NULL),
   ('CC:D9:AC', 'Intel', 'MA-L', 'Intel', 'Laptop', '2020-03-13', 'Lot 8, Jalan Hi-Tech 2/3  Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL),
-  ('B8:80:4F', 'Texas Instruments', 'MA-L', 'TexasInstrum', 'IoT', '2020-03-14', '12500 TI Blvd Dallas TX US 75243', 'IEEE+Wireshark+Nmap', 'Texas Instruments', 'current', NULL, NULL),
+  ('B8:80:4F', 'Texas Instruments', 'MA-L', 'TexasInstrum', 'IoT', '2020-03-14', '12500 TI Blvd Dallas TX US 75243', 'IEEE+Wireshark+Nmap', 'Texas Instruments', 'current', NULL, NULL);
+
+-- Batch 20 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:0F:2D', 'CHUNG-HSIN ELECTRIC & MACHINERY MFG.CORP.', 'MA-L', 'ChungHsinEle', NULL, '2004-01-23', 'NO. 25, Wen-Te Rd., Lo-Shan Village Kwei Shan Hsiang Taoyuan Hsien TW 330 ', 'IEEE+Wireshark+Nmap', 'CHUNG-HSIN ELECTRIC & MACHINERY MFG.CORP.', 'current', NULL, NULL),
   ('18:3C:B7', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2020-03-18', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
   ('5C:90:12', 'Owl Cyber Defense Solutions, LLC', 'MA-L', 'OwlCyberDefe', 'Router', '2020-03-18', '38A Grove Street Ridgefield CT US 06877', 'IEEE+Wireshark+Nmap', 'Owl Cyber Defense Solutions, LLC', 'current', NULL, NULL),
   ('48:16:93', 'LEAR', 'MA-L', 'Lear', NULL, '2020-03-22', 'Industriestrasse 48 Kronach Bavaria DE 96317', 'IEEE+Wireshark+Nmap', 'Lear Corporation GmbH', 'current', NULL, NULL),
   ('A4:BD:C4', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2020-03-22', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('38:F7:CD', 'IEEE Registration Authority', 'MA-L', NULL, NULL, '2020-03-18', '445 Hoes Lane Piscataway NJ US 08554', 'IEEE+Nmap', 'IEEE Registration Authority', 'current', NULL, NULL),
-  ('9C:29:76', 'Intel', 'MA-L', 'Intel', 'Laptop', '2020-03-18', 'Lot 8, Jalan Hi-Tech 2/3  Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL);
-
--- Batch 20 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('9C:29:76', 'Intel', 'MA-L', 'Intel', 'Laptop', '2020-03-18', 'Lot 8, Jalan Hi-Tech 2/3  Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL),
   ('18:F6:97', 'Axiom Memory Solutions, Inc.', 'MA-L', 'AxiomMemoryS', NULL, '2023-03-11', '8619 Wall Street Bldg 4, Suite 400 Austin TX US 78754-4591 ', 'IEEE+Wireshark+Nmap', 'Axiom Memory Solutions, Inc.', 'current', NULL, NULL),
   ('5C:6B:D7', 'Foshan VIOMI Electric Appliance Technology Co. Ltd.', 'MA-L', 'FoshanVIOMIE', 'Appliance', '2020-03-03', 'No.2 North Xinxi Fourth Road, Xiashi Village Committee,Lunjiao Sub-district Office, Shunde District Foshan Guandong CN 528308 ', 'IEEE+Wireshark+Nmap', 'Foshan VIOMI Electric Appliance Technology Co. Ltd.', 'current', NULL, NULL),
   ('18:48:CA', 'Murata', 'MA-L', 'MurataManufa', 'Smart Home', '2020-03-03', '1-10-1, Higashikotari Nagaokakyo-shi Kyoto JP 617-8555 ', 'IEEE+Wireshark+Nmap', 'Murata Manufacturing Co., Ltd.', 'current', NULL, NULL),
@@ -10073,17 +10080,17 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:B8:B3', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2018-07-25', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
   ('74:5F:90', 'LAM Technologies', 'MA-L', 'LAMTechnolog', 'Industrial', '2018-08-05', 'Viale Ludovico Ariosto, 492/D Sesto Fiorentino FIRENZE IT 50019 ', 'IEEE+Wireshark+Nmap', 'LAM Technologies', 'current', NULL, NULL),
   ('F8:5B:9C', 'SB SYSTEMS Co.,Ltd', 'MA-L', 'SB', NULL, '2015-04-21', '2F Ventureforum, 323, Pangyo-ro, Bundang-gu Seongnam-si Gyeonngi-do KR 453-400 ', 'IEEE+Wireshark+Nmap', 'SB SYSTEMS Co.,Ltd', 'current', NULL, NULL),
-  ('00:42:79', 'JBL speaker ODMs (Jingxun, Sunitec, Honesty, Fihonest)', 'MA-L', 'SunitecEnter', NULL, '2018-07-29', '3F.,No.98-1,Mincyuan Rd.Sindian City Taipei County 231  CN 231141 ', 'IEEE+Wireshark+Nmap', 'Sunitec Enterprise Co.,Ltd', 'current', NULL, NULL),
+  ('00:42:79', 'JBL speaker ODMs (Jingxun, Sunitec, Honesty, Fihonest)', 'MA-L', 'SunitecEnter', NULL, '2018-07-29', '3F.,No.98-1,Mincyuan Rd.Sindian City Taipei County 231  CN 231141 ', 'IEEE+Wireshark+Nmap', 'Sunitec Enterprise Co.,Ltd', 'current', NULL, NULL);
+
+-- Batch 21 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('A4:50:46', 'Xiaomi', 'MA-L', 'XiaomiCommun', 'Phone', '2018-07-29', 'The Rainbow City of China Resources NO.68, Qinghe Middle Street Haidian District, Beijing CN 100085 ', 'IEEE+Wireshark+Nmap', 'Xiaomi Communications Co Ltd', 'current', NULL, NULL),
   ('F8:50:1C', 'Tianjin Geneuo Technology Co.,Ltd', 'MA-L', 'TianjinGeneu', NULL, '2018-07-12', 'Technology Avenue South JingHai Economic Development Area,Tianjin China Tianjin  CN 301609 ', 'IEEE+Wireshark+Nmap', 'Tianjin Geneuo Technology Co.,Ltd', 'current', NULL, NULL),
   ('70:D3:13', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2018-07-03', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('9C:1D:36', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2018-07-03', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('CC:BB:FE', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2018-07-03', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('44:07:0B', 'Google', 'MA-L', 'Google', 'Router', '2018-07-10', '1600 Amphitheatre Parkway Mountain View CA US 94043', 'IEEE+Wireshark+Nmap', 'Google, Inc.', 'current', NULL, NULL),
-  ('EC:F6:BD', 'SNCF MOBILITÉS', 'MA-L', 'SncfMobilité', NULL, '2018-07-17', '9 rue Jean-Philippe Rameau  SAINT-DENIS  FR 93200', 'IEEE+Wireshark+Nmap', 'SNCF MOBILITÉS', 'current', NULL, NULL);
-
--- Batch 21 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('EC:F6:BD', 'SNCF MOBILITÉS', 'MA-L', 'SncfMobilité', NULL, '2018-07-17', '9 rue Jean-Philippe Rameau  SAINT-DENIS  FR 93200', 'IEEE+Wireshark+Nmap', 'SNCF MOBILITÉS', 'current', NULL, NULL),
   ('B8:31:B5', 'Microsoft', 'MA-L', 'Microsoft', 'Laptop', '2018-07-13', 'One Microsoft Way REDMOND WA US 98052', 'IEEE+Wireshark+Nmap', 'Microsoft Corporation', 'current', NULL, NULL),
   ('00:7C:2D', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2018-07-20', '129, Samsung-ro, Youngtongl-Gu Suwon Gyeonggi-Do KR 16677 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('C8:47:82', 'Areson Technology Corp', 'MA-L', 'AresonTechno', 'Computer', '2018-06-19', '11F., No. 646, Sec. 5, Chongxin Rd., Sanchong District New Taipei City  TW 24158 ', 'IEEE+Wireshark+Nmap', 'Areson Technology Corp.', 'current', NULL, NULL),
@@ -10576,17 +10583,17 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:1E:29', 'Hypertherm Inc', 'MA-L', 'Hypertherm', 'Industrial', '2007-09-25', '15 Great Hollow Rd Hanover NH US 03755', 'IEEE+Wireshark+Nmap', 'Hypertherm Inc', 'current', NULL, NULL),
   ('7C:C6:C4', 'Kolff Computer Supplies b.v.', 'MA-L', 'KolffCompute', NULL, '2016-10-18', 'Kuipershaven 22 Dordrecht Zuid-Holland NL 3311 AL', 'IEEE+Wireshark+Nmap', 'Kolff Computer Supplies b.v.', 'current', NULL, NULL),
   ('C4:83:6F', 'Ciena Corporation', 'MA-L', 'Ciena', NULL, '2016-10-14', '7035 Ridge Road Hanover MD US 21076', 'IEEE+Wireshark+Nmap', 'Ciena Corporation', 'current', NULL, NULL),
-  ('50:04:B8', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2016-10-04', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
+  ('50:04:B8', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2016-10-04', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL);
+
+-- Batch 22 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('5C:FF:35', 'Wistron Corporation', 'MA-L', 'Wistron', 'Laptop', '2010-01-07', '21F, 88, Sec.1, Hsin Tai Wu Rd., Hsichih, Taipei Hsien  TW 221 ', 'IEEE+Wireshark+Nmap', 'Wistron Corporation', 'current', NULL, 'Wistron Corporation | Wistron Neweb Corporation | Wistron Corporation'),
   ('78:F2:9E', 'PEGATRON', 'MA-L', 'Pegatron', 'Router', '2016-09-27', '5F No. 76, Ligong St., Beitou District Taipei City Taiwan TW 112 ', 'IEEE+Wireshark+Nmap', 'PEGATRON CORPORATION', 'current', NULL, NULL),
   ('64:77:7D', 'Hitron Technologies', 'MA-L', 'HitronTechno', 'Modem', '2016-09-27', 'No. 1-8, Lising 1st Rd. Hsinchu Science Park, Hsinchu, 300, Taiwan, R.O.C Hsin-chu Taiwan TW 300 ', 'IEEE+Wireshark+Nmap', 'Hitron Technologies. Inc', 'current', NULL, NULL),
   ('60:D2:62', 'Tzukuri Pty Ltd', 'MA-L', 'Tzukuri', NULL, '2016-09-27', '6 Lenthall Street Kensington NSW AU 2033', 'IEEE+Wireshark+Nmap', 'Tzukuri Pty Ltd', 'current', NULL, NULL),
   ('14:2F:FD', 'LT SECURITY INC', 'MA-L', 'LtSecurity', 'Camera', '2016-09-28', '18738 SAN JOSE AVE CITY OF INDUSTRY CA US 91748', 'IEEE+Wireshark+Nmap', 'LT SECURITY INC', 'current', NULL, NULL),
   ('00:D0:B2', 'Xiotech Corporation', 'MA-L', 'Xiotech', 'Storage', '2000-09-08', '6455 FLYING CLOUD DRIVE EDEN PRAIRIE MN US 55344', 'IEEE+Wireshark+Nmap', 'Xiotech Corporation', 'current', NULL, 'XIOTECH CORPORATION | 19514 | Xiotech Corporation'),
-  ('9C:50:EE', 'Cambridge Industries(Group) Co.,Ltd.', 'MA-L', 'CambridgeInd', NULL, '2016-09-14', '5/F,Building 8, 2388 ChenHang Road, MinHang District shanghai  CN 201114 ', 'IEEE+Wireshark+Nmap', 'Cambridge Industries(Group) Co.,Ltd.', 'current', NULL, NULL);
-
--- Batch 22 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('9C:50:EE', 'Cambridge Industries(Group) Co.,Ltd.', 'MA-L', 'CambridgeInd', NULL, '2016-09-14', '5/F,Building 8, 2388 ChenHang Road, MinHang District shanghai  CN 201114 ', 'IEEE+Wireshark+Nmap', 'Cambridge Industries(Group) Co.,Ltd.', 'current', NULL, NULL),
   ('40:ED:98', 'IEEE Registration Authority', 'MA-L', NULL, NULL, '2016-09-14', '445 Hoes Lane Piscataway NJ US 08554', 'IEEE+Nmap', 'IEEE Registration Authority', 'current', NULL, NULL),
   ('AC:DC:E5', 'Procter & Gamble', 'MA-L', 'ProcterGambl', 'Appliance', '2016-09-16', '2 Procter & Gamble Plaza Cincinnati OH US 45202', 'IEEE+Wireshark+Nmap', 'Procter & Gamble Company', 'current', NULL, NULL),
   ('00:B3:62', 'Apple', 'MA-L', 'Apple', 'Phone', '2016-09-16', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
@@ -11079,17 +11086,17 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('FC:0F:E6', 'Sony Interactive Entertainment', 'MA-L', 'SonyInteract', 'Gaming', '2010-09-17', '1-7-1 Konan Minato-ku Tokyo JP 108-0075', 'IEEE+Wireshark+Nmap', 'Sony Interactive Entertainment Inc.', 'current', NULL, 'Sony Computer Entertainment Inc. | Sony Corporation | Sony Computer Entertainment Inc. | Sony Interactive Entertainment Inc.'),
   ('24:FD:52', 'Liteon', 'MA-L', 'LiteonTechno', NULL, '2013-03-19', '4F,90,Chien 1 Road,ChungHo New Taipei City Taipei TW 23585 ', 'IEEE+Wireshark+Nmap', 'Liteon Technology Corporation', 'current', NULL, NULL),
   ('2C:D0:5A', 'Liteon', 'MA-L', 'LiteonTechno', NULL, '2013-01-06', '4F,90,Chien 1 Road,ChungHo New Taipei City Taipei TW 23585 ', 'IEEE+Wireshark+Nmap', 'Liteon Technology Corporation', 'current', NULL, NULL),
-  ('74:E5:43', 'Liteon', 'MA-L', 'LiteonTechno', NULL, '2012-05-08', '4F,90,Chien 1 Road,ChungHo New Taipei City Taipei TW 23585 ', 'IEEE+Wireshark+Nmap', 'Liteon Technology Corporation', 'current', NULL, NULL),
+  ('74:E5:43', 'Liteon', 'MA-L', 'LiteonTechno', NULL, '2012-05-08', '4F,90,Chien 1 Road,ChungHo New Taipei City Taipei TW 23585 ', 'IEEE+Wireshark+Nmap', 'Liteon Technology Corporation', 'current', NULL, NULL);
+
+-- Batch 23 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:1C:A8', 'AirTies', 'MA-L', 'AirTiesWirel', 'Router', '2007-05-29', 'Gulbahar Mahallesi, Avni Diligil Sokak ISTANBUL ISTANBUL TR 34394 ', 'IEEE+Wireshark+Nmap', 'AirTies Wireless Networks', 'current', NULL, 'AirTies Wireless Networks | AirTies Wireless Netowrks | AirTies Wireless Networks'),
   ('00:23:8E', 'ADB Broadband Italia', 'MA-L', 'ADBBroadband', 'Router', '2008-10-08', 'VIALE SARCA 222 MILANO  IT 20126', 'IEEE+Wireshark+Nmap', 'ADB Broadband Italia', 'current', NULL, 'PIRELLI BROADBAND SOLUTIONS | ADB Broadband Italia | Pirelli Tyre S.p.A. | ADB Broadband Italia'),
   ('00:1D:8B', 'ADB Broadband Italia', 'MA-L', 'ADBBroadband', 'Router', '2007-08-18', 'VIALE SARCA 222 MILANO  IT 20126', 'IEEE+Wireshark+Nmap', 'ADB Broadband Italia', 'current', NULL, 'PIRELLI BROADBAND SOLUTIONS | ADB Broadband Italia'),
   ('00:13:C8', 'ADB Broadband Italia', 'MA-L', 'ADBBroadband', 'Router', '2005-02-25', 'VIALE SARCA 222 MILANO  IT 20126', 'IEEE+Wireshark+Nmap', 'ADB Broadband Italia', 'current', NULL, 'PIRELLI BROADBAND SOLUTIONS S.P.A. | ADB Broadband Italia'),
   ('74:DE:2B', 'Liteon', 'MA-L', 'LiteonTechno', NULL, '2011-08-18', '4F,90,Chien 1 Road,ChungHo,Taipei Hsien,Taiwan, TaiPei TaiWan TW 23585 ', 'IEEE+Wireshark+Nmap', 'Liteon Technology Corporation', 'current', NULL, NULL),
   ('00:22:5F', 'Liteon', 'MA-L', 'LiteonTechno', NULL, '2008-06-18', '4F,90,Chien 1 Road,ChungHo,Taipei Hsien,Taiwan, TaiPei TaiWan TW 23585 ', 'IEEE+Wireshark+Nmap', 'Liteon Technology Corporation', 'current', NULL, NULL),
-  ('5C:93:A2', 'Liteon', 'MA-L', 'LiteonTechno', NULL, '2014-06-04', '4F,90,Chien 1 Road, ChungHo, TaiPei Hsien TaiPei TaiWan TW 23585 ', 'IEEE+Wireshark+Nmap', 'Liteon Technology Corporation', 'current', NULL, NULL);
-
--- Batch 23 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('5C:93:A2', 'Liteon', 'MA-L', 'LiteonTechno', NULL, '2014-06-04', '4F,90,Chien 1 Road, ChungHo, TaiPei Hsien TaiPei TaiWan TW 23585 ', 'IEEE+Wireshark+Nmap', 'Liteon Technology Corporation', 'current', NULL, NULL),
   ('DC:0B:1A', 'ADB Broadband Italia', 'MA-L', 'ADBBroadband', 'Router', '2011-07-28', 'via Sarca 222 Milano  IT 20126', 'IEEE+Wireshark+Nmap', 'ADB Broadband Italia', 'current', NULL, 'ADB Broadband SpA | ADB Broadband Italia | ADB Broadband SpA | ADB Broadband Italia'),
   ('84:26:15', 'ADB Broadband Italia', 'MA-L', 'ADBBroadband', 'Router', '2013-12-20', 'VIALE SARCA 336 MILANO  IT 20126', 'IEEE+Wireshark+Nmap', 'ADB Broadband Italia', 'current', NULL, 'ADB Broadband Italia | ADB BROADBAND ITALIA | ADB Broadband Italia'),
   ('F0:84:2F', 'ADB Broadband Italia', 'MA-L', 'ADBBroadband', 'Router', '2013-06-28', 'VIALE SARCA 336 MILANO  IT 20126', 'IEEE+Wireshark+Nmap', 'ADB Broadband Italia', 'current', NULL, 'ADB Broadband Italia | ADB BROADBAND ITALIA | ADB Broadband Italia'),
@@ -11582,17 +11589,17 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('88:3B:8B', 'Cheering Connection Co. Ltd.', 'MA-L', 'CheeringConn', 'Smart Home', '2014-12-06', 'Room 602, Shenzhen Software Park T2-B Shenzhen Guangdong CN 518057 ', 'IEEE+Wireshark+Nmap', 'Cheering Connection Co. Ltd.', 'current', NULL, NULL),
   ('E4:F9:39', 'Minxon Hotel Technology INC.', 'MA-L', 'MinxonHotelT', NULL, '2014-12-06', '3F, No.37, Dongxing Rd., Xinyi Dist. Taipei Taiwan TW 11070 ', 'IEEE+Wireshark+Nmap', 'Minxon Hotel Technology INC.', 'current', NULL, NULL),
   ('70:DA:9C', 'TECSEN', 'MA-L', 'Tecsen', NULL, '2014-11-15', '$401, Jeongsu Bd, 94-70, SEOUL NA KR 150-037 ', 'IEEE+Wireshark+Nmap', 'TECSEN', 'current', NULL, NULL),
-  ('78:40:E4', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2014-11-15', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
+  ('78:40:E4', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2014-11-15', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL);
+
+-- Batch 24 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('E0:99:71', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2014-11-15', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('2C:A2:B4', 'Fortify Technologies, LLC', 'MA-L', 'FortifyTechn', NULL, '2014-11-15', '6200 Shingle Creek Pkwy, Suite 400 Minneapolis Minnesota US 55430 ', 'IEEE+Wireshark+Nmap', 'Fortify Technologies, LLC', 'current', NULL, NULL),
   ('10:D3:8A', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2014-11-15', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('24:76:56', 'Shanghai Net Miles Fiber Optics Technology Co., LTD.', 'MA-L', 'NetMilesFibe', NULL, '2014-12-17', 'Flat F, 17th Floor, Southern International Mansion Shanghai Shanghai CN 201401 ', 'IEEE+Wireshark+Nmap', 'Shanghai Net Miles Fiber Optics Technology Co., LTD.', 'current', NULL, NULL),
   ('B8:F0:80', 'SPS, INC.', 'MA-L', 'Sps', NULL, '2014-12-06', '70, Techno8-ro Yuseong-gu Daejeon KR 305-500 ', 'IEEE+Wireshark+Nmap', 'SPS, INC.', 'current', NULL, NULL),
   ('A4:7B:85', 'ULTIMEDIA Co Ltd,', 'MA-L', 'ULTIMEDIA', NULL, '2014-12-17', 'Guro-Gu Saeaml-ro 102 Seoul  KR 152770', 'IEEE+Wireshark+Nmap', 'ULTIMEDIA Co Ltd', 'current', NULL, NULL),
-  ('EC:BA:FE', 'GIROPTIC', 'MA-L', 'Giroptic', 'Camera', '2014-10-23', '165 avenue de Bretagne Lille Nord FR 59000', 'IEEE+Wireshark+Nmap', 'GIROPTIC', 'current', NULL, NULL);
-
--- Batch 24 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('EC:BA:FE', 'GIROPTIC', 'MA-L', 'Giroptic', 'Camera', '2014-10-23', '165 avenue de Bretagne Lille Nord FR 59000', 'IEEE+Wireshark+Nmap', 'GIROPTIC', 'current', NULL, NULL),
   ('3C:2C:94', '杭州德澜科技有限公司（HangZhou Delan Technology Co.,Ltd）', 'MA-L', 'DelanTech', NULL, '2014-10-23', 'tianmushan road no.398,Xihu District, hangzhou city, zhejiang province, China Hangzhou ZheJiang CN 310013 ', 'IEEE+Wireshark+Nmap', '杭州德澜科技有限公司（HangZhou Delan Technology Co.,Ltd）', 'current', NULL, 'æ­å·å¾·æ¾ç§ææéå¬å¸ï¼HangZhou Delan Technology Co.,Ltdï¼ | 杭州德澜科技有限公司（HangZhou Delan Technology Co.,Ltd）'),
   ('84:73:03', 'Letv Mobile and Intelligent Information Technology (Beijing) Corporation Ltd.', 'MA-L', 'LetvMobilean', 'Phone', '2014-10-21', '5th floor,Hongchengxintai building,No.105,Yaojiayuan Road,Chaoyang District,Beijing Beijing Chaoyang CN 100025 ', 'IEEE+Wireshark+Nmap', 'Letv Mobile and Intelligent Information Technology (Beijing) Corporation Ltd.', 'current', NULL, NULL),
   ('3C:C2:E1', 'XINHUA CONTROL ENGINEERING CO.,LTD', 'MA-L', 'XinhuaContro', 'Smart Home', '2014-10-21', '160 Wenjing Road, Minhang Shanghai Shanghai CN 200245 ', 'IEEE+Wireshark+Nmap', 'XINHUA CONTROL ENGINEERING CO.,LTD', 'current', NULL, NULL),
@@ -12085,17 +12092,17 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('B4:A4:B5', 'Zen Eye Co.,Ltd', 'MA-L', 'ZenEye', NULL, '2012-03-29', '#401, 157-5 Chunui-dong Bucheon-si Gyeonggi-do KR 420-859 ', 'IEEE+Wireshark+Nmap', 'Zen Eye Co.,Ltd', 'current', NULL, NULL),
   ('BC:C2:3A', 'Vantiva (Technicolor)', 'MA-L', 'ThomsonVideo', 'Router', '2012-04-12', '6, rue du Clos Courtel Cesson Sevigne  FR 35510 ', 'IEEE+Wireshark+Nmap', 'Thomson Video Networks', 'current', NULL, NULL),
   ('AC:C2:EC', 'CLT INT''L IND. CORP.', 'MA-L', 'CltIntLInd', NULL, '2012-04-11', '11F-2, NO.1, ZHANQIAN MIAOLI  TW 36043 ', 'IEEE+Wireshark+Nmap', 'CLT INT''L IND. CORP.', 'current', NULL, NULL),
-  ('3C:9F:81', 'Shenzhen CATIC Bit Communications Technology Co.,Ltd', 'MA-L', 'CATICBitComm', NULL, '2012-01-07', 'in  Nanshan District,Shenzhen Software park Road 10 in Room 202 Shenzhen Guangdong CN 518057 ', 'IEEE+Wireshark+Nmap', 'Shenzhen CATIC Bit Communications Technology Co.,Ltd', 'current', NULL, NULL),
+  ('3C:9F:81', 'Shenzhen CATIC Bit Communications Technology Co.,Ltd', 'MA-L', 'CATICBitComm', NULL, '2012-01-07', 'in  Nanshan District,Shenzhen Software park Road 10 in Room 202 Shenzhen Guangdong CN 518057 ', 'IEEE+Wireshark+Nmap', 'Shenzhen CATIC Bit Communications Technology Co.,Ltd', 'current', NULL, NULL);
+
+-- Batch 25 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('44:5F:7A', 'Shihlin Electric & Engineering Corp.', 'MA-L', 'ShihlinElect', 'Smart Home', '2012-01-06', '16F  NO.88,  SEC,  6,  CHUNG  SHAN  N.  RD., TAIPEI   HsinChu HsinFun Shiang TW 304 ', 'IEEE+Wireshark+Nmap', 'Shihlin Electric & Engineering Corp.', 'current', NULL, NULL),
   ('14:1A:51', 'Treetech Sistemas Digitais', 'MA-L', 'TreetechSist', 'Industrial', '2012-01-05', 'Praca Claudino Alves, 141 Atibaia São Paulo BR 12940-800 ', 'IEEE+Wireshark+Nmap', 'Treetech Sistemas Digitais', 'current', NULL, NULL),
   ('A4:7C:14', 'ChargeStorm AB', 'MA-L', 'ChargeStorm', 'Smart Home', '2012-01-19', 'Laxholmstorget 3 Norrköping  SE 60221', 'IEEE+Wireshark+Nmap', 'ChargeStorm AB', 'current', NULL, NULL),
   ('80:20:AF', 'Trade FIDES a.s.', 'MA-L', 'TradeFIDES', NULL, '2012-01-17', 'Dornych 57 Brno  CZ 61700', 'IEEE+Wireshark+Nmap', 'Trade FIDES, a.s.', 'current', NULL, NULL),
   ('3C:B8:7A', 'Private (undisclosed IEEE registrant)', 'MA-L', 'Private', NULL, '2012-01-17', '', 'IEEE+Wireshark+Nmap', 'Private', 'current', NULL, 'Electro Motive Diesels | PRIVATE'),
   ('00:2D:76', 'TITECH GmbH', 'MA-L', 'TITECH', 'Industrial', '2012-01-19', 'Otto-Hahn-Str. 6 Muelheim-Kaerlich  DE 56218', 'IEEE+Wireshark+Nmap', 'TITECH GmbH', 'current', NULL, NULL),
-  ('8C:60:4F', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2012-01-19', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, 'Cisco Systems | CISCO SYSTEMS, INC. | Cisco Systems | CISCO SYSTEMS, INC. | Cisco Systems, Inc');
-
--- Batch 25 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('8C:60:4F', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2012-01-19', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, 'Cisco Systems | CISCO SYSTEMS, INC. | Cisco Systems | CISCO SYSTEMS, INC. | Cisco Systems, Inc'),
   ('A4:B9:80', 'Parking BOXX Inc.', 'MA-L', 'ParkingBOXX', 'Industrial', '2012-01-19', '382 NE 191st St. #93984 Miami FL US 33179-3899', 'IEEE+Wireshark+Nmap', 'Parking BOXX Inc.', 'current', NULL, NULL),
   ('2C:75:0F', 'Shanghai Dongzhou-Lawton Communication Technology Co. Ltd.', 'MA-L', 'DongzhouLawt', NULL, '2012-02-18', 'NO.188,FengyeRoad,BaoshanDistrict shanghai  CN 200949 ', 'IEEE+Wireshark+Nmap', 'Shanghai Dongzhou-Lawton Communication Technology Co. Ltd.', 'current', NULL, NULL),
   ('5C:50:15', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2012-02-17', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, 'Cisco Systems | CISCO SYSTEMS, INC. | Cisco Systems | CISCO SYSTEMS, INC. | Cisco Systems, Inc'),
@@ -12588,17 +12595,17 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:26:B5', 'ICOMM Tele Ltd', 'MA-L', 'ICOMMTele', NULL, '2009-07-01', '304, Trendset Towers, Hyderabad AP IN 500034 ', 'IEEE+Wireshark+Nmap', 'ICOMM Tele Ltd', 'current', NULL, NULL),
   ('00:26:D4', 'IRCA SpA', 'MA-L', 'IRCA', NULL, '2009-07-11', 'Viale Venezia 31 - C.P. 248 San Vendemiano (Treviso) Italy IT 31020', 'IEEE+Wireshark+Nmap', 'IRCA SpA', 'current', NULL, NULL),
   ('00:26:4C', 'Shanghai DigiVision Technology Co., Ltd.', 'MA-L', 'DigiVisionTe', NULL, '2009-05-31', 'No. 333 Guangji Rd. Shanghai  CN 200083', 'IEEE+Wireshark+Nmap', 'Shanghai DigiVision Technology Co., Ltd.', 'current', NULL, NULL),
-  ('00:26:46', 'SHENYANG TONGFANG MULTIMEDIA TECHNOLOGY COMPANY LIMITED', 'MA-L', 'ShenyangTong', 'TV', '2009-05-31', 'No.10 Ping Nan East Road Shenyang Liao Ning CN 110014', 'IEEE+Wireshark+Nmap', 'SHENYANG TONGFANG MULTIMEDIA TECHNOLOGY COMPANY LIMITED', 'current', NULL, NULL),
+  ('00:26:46', 'SHENYANG TONGFANG MULTIMEDIA TECHNOLOGY COMPANY LIMITED', 'MA-L', 'ShenyangTong', 'TV', '2009-05-31', 'No.10 Ping Nan East Road Shenyang Liao Ning CN 110014', 'IEEE+Wireshark+Nmap', 'SHENYANG TONGFANG MULTIMEDIA TECHNOLOGY COMPANY LIMITED', 'current', NULL, NULL);
+
+-- Batch 26 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:26:44', 'Vantiva (Technicolor)', 'MA-L', 'ThomsonTelec', 'Router', '2009-05-31', 'Prins Boudewijnlaan 47 Edegem Antwerp BE B-2650', 'IEEE+Wireshark+Nmap', 'Thomson Telecom Belgium', 'current', NULL, NULL),
   ('00:26:3F', 'LIOS Technology GmbH', 'MA-L', 'LIOSTechnolo', 'IoT', '2009-05-31', 'Schanzenstraße 39 Köln Germany DE D-51063', 'IEEE+Wireshark+Nmap', 'LIOS Technology GmbH', 'current', NULL, NULL),
   ('00:26:06', 'RAUMFELD GmbH', 'MA-L', 'RAUMFELD', 'Audio', '2009-05-03', 'Reichenberger Str. 124 Berlin  DE 10999', 'IEEE+Wireshark+Nmap', 'RAUMFELD GmbH', 'current', NULL, NULL),
   ('00:26:07', 'Enabling Technology Pty Ltd', 'MA-L', 'EnablingTech', NULL, '2009-05-03', '23/44 Kings Park Road West Perth Western Australia AU 6005', 'IEEE+Wireshark+Nmap', 'Enabling Technology Pty Ltd', 'current', NULL, NULL),
   ('00:26:02', 'SMART Temps LLC', 'MA-L', 'SMARTTemps', 'IoT', '2009-05-03', '435 PARK PL CIRCLE SUITE 100 Mishawaka IN US 46545', 'IEEE+Wireshark+Nmap', 'SMART Temps LLC', 'current', NULL, NULL),
   ('00:26:05', 'CC Systems AB', 'MA-L', 'CC', NULL, '2009-05-03', 'Box 83 Alfta  SE 822 22', 'IEEE+Wireshark+Nmap', 'CC Systems AB', 'current', NULL, NULL),
-  ('00:25:D4', 'General Dynamics Mission Systems', 'MA-L', 'GeneralDynam', NULL, '2009-04-12', '150 Rustcraft Road Dedham MA US 02026', 'IEEE+Wireshark+Nmap', 'General Dynamics Mission Systems', 'current', NULL, 'Fortress Technologies | General Dynamics Mission Systems');
-
--- Batch 26 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:25:D4', 'General Dynamics Mission Systems', 'MA-L', 'GeneralDynam', NULL, '2009-04-12', '150 Rustcraft Road Dedham MA US 02026', 'IEEE+Wireshark+Nmap', 'General Dynamics Mission Systems', 'current', NULL, 'Fortress Technologies | General Dynamics Mission Systems'),
   ('00:25:C2', 'RingBell Co.,Ltd.', 'MA-L', 'RingBell', 'Smart Home', '2009-04-05', '10586 KingGeorge Hwy Surrey B.C CA V3T 2X3', 'IEEE+Wireshark+Nmap', 'RingBell Co.,Ltd.', 'current', NULL, NULL),
   ('00:26:3B', 'Onbnetech', 'MA-L', 'Onbnetech', NULL, '2009-05-17', '506, Samsung IT Valley, 197-5 Guro-Gu Seoul KR 152-848 ', 'IEEE+Wireshark+Nmap', 'Onbnetech', 'current', NULL, NULL),
   ('00:26:34', 'Infineta Systems, Inc', 'MA-L', 'Infineta', NULL, '2009-05-17', '2870 Zanker Rd San Jose CA US 95134', 'IEEE+Wireshark+Nmap', 'Infineta Systems, Inc', 'current', NULL, NULL),
@@ -13091,17 +13098,17 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:19:40', 'Rackable Systems', 'MA-L', 'Rackable', 'Server', '2006-08-14', '1933 Milmont Drive Milpitas CA US 95035', 'IEEE+Wireshark+Nmap', 'Rackable Systems', 'current', NULL, NULL),
   ('00:19:3C', 'HighPoint Technologies, Inc.', 'MA-L', 'HighPointTec', 'Storage', '2006-08-14', '1161 Cadillac Court Milpitas CA US 95035', 'IEEE+Wireshark+Nmap', 'HighPoint Technologies Incorporated', 'current', NULL, NULL),
   ('00:19:00', 'Intelliverese - DBA Voicecom', 'MA-L', 'Intelliveres', NULL, '2006-07-14', '5900 Windward Parkway Alpharetta Georgia US 30005', 'IEEE+Wireshark+Nmap', 'Intelliverese - DBA Voicecom', 'current', NULL, NULL),
-  ('00:19:02', 'CAMBRIDGE CONSULTANTS LTD', 'MA-L', 'CambridgeCon', NULL, '2006-07-14', 'Science Park Cambridge Cambs GB CB4 0DW', 'IEEE+Wireshark+Nmap', 'Cambridge Consultants Ltd', 'current', NULL, NULL),
+  ('00:19:02', 'CAMBRIDGE CONSULTANTS LTD', 'MA-L', 'CambridgeCon', NULL, '2006-07-14', 'Science Park Cambridge Cambs GB CB4 0DW', 'IEEE+Wireshark+Nmap', 'Cambridge Consultants Ltd', 'current', NULL, NULL);
+
+-- Batch 27 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:19:45', 'RF COncepts, LLC', 'MA-L', 'RFCOncepts', NULL, '2006-08-14', '1148 Wagner Drive  Sevierville TN US 37862', 'IEEE+Wireshark+Nmap', 'RF COncepts, LLC', 'current', NULL, 'Ten-Tec Inc. | RF COncepts, LLC'),
   ('00:19:48', 'AireSpider Networks', 'MA-L', 'AireSpiderNe', NULL, '2006-08-14', '1171 Montague Express Way Milpitas CA US 95035', 'IEEE+Wireshark+Nmap', 'AireSpider Networks', 'current', NULL, NULL),
   ('00:19:5C', 'Innotech Corporation', 'MA-L', 'Innotech', 'Industrial', '2006-08-20', '3-17-6 Yokohama Kanagawa JP 222-8580', 'IEEE+Wireshark+Nmap', 'Innotech Corporation', 'current', NULL, NULL),
   ('00:19:5F', 'Valemount Networks Corporation', 'MA-L', 'ValemountNet', NULL, '2006-08-20', '1201- 5th Ave Valemount BC CA V0E2Z0', 'IEEE+Wireshark+Nmap', 'Valemount Networks Corporation', 'current', NULL, NULL),
   ('00:18:F1', 'Chunichi Denshi Co.,LTD.', 'MA-L', 'ChunichiDens', NULL, '2006-07-09', '1 Denjiyama Nagoya Aichi JP 458-8525', 'IEEE+Wireshark+Nmap', 'Chunichi Denshi Co.,LTD.', 'current', NULL, NULL),
   ('00:18:F2', 'Beijing Tianyu Communication Equipment Co., Ltd', 'MA-L', 'TianyuCommun', 'Phone', '2006-07-09', '27th Floor, Tengda Plaza Beijing  CN 100044 ', 'IEEE+Wireshark+Nmap', 'Beijing Tianyu Communication Equipment Co., Ltd', 'current', NULL, NULL),
-  ('00:18:EC', 'Welding Technology Corporation', 'MA-L', 'WeldingTechn', 'Industrial', '2006-07-09', '24775 Crestview Court Farmington Hills MI US 48335', 'IEEE+Wireshark+Nmap', 'Welding Technology Corporation', 'current', NULL, NULL);
-
--- Batch 27 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:18:EC', 'Welding Technology Corporation', 'MA-L', 'WeldingTechn', 'Industrial', '2006-07-09', '24775 Crestview Court Farmington Hills MI US 48335', 'IEEE+Wireshark+Nmap', 'Welding Technology Corporation', 'current', NULL, NULL),
   ('00:18:ED', 'Accutech Ultrasystems Co., Ltd.', 'MA-L', 'AccutechUltr', NULL, '2006-07-09', '11F-4, No. 150, CHUNG-HO CITY, TAIPEI HSIEN, TW 235 ', 'IEEE+Wireshark+Nmap', 'Accutech Ultrasystems Co., Ltd.', 'current', NULL, 'ACCUTECH INTERNATIONAL CO., LTD. | Accutech Ultrasystems Co., Ltd.'),
   ('00:18:94', 'NPCore, Inc.', 'MA-L', 'NPCore', NULL, '2006-06-13', '1001, ISBIZ Tower Youngdungpo Gu Seoul KR 150-105 ', 'IEEE+Wireshark+Nmap', 'NPCore, Inc.', 'current', NULL, 'zimocom | NPCore, Inc.'),
   ('00:18:98', 'KINGSTATE ELECTRONICS CORPORATION', 'MA-L', 'KingstateEle', NULL, '2006-06-13', '10F, No.69-11, Sec.2, Chung Cheng E. Rd., Taipei County  TW 251 ', 'IEEE+Wireshark+Nmap', 'KINGSTATE ELECTRONICS CORPORATION', 'current', NULL, NULL),
@@ -13594,17 +13601,17 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:0C:7D', 'TEIKOKU ELECTRIC MFG. CO., LTD', 'MA-L', 'TeikokuElect', NULL, '2003-02-07', '60,HIRANO IBO-GUN HYOGO JP 679-4395 ', 'IEEE+Wireshark+Nmap', 'TEIKOKU ELECTRIC MFG. CO., LTD', 'current', NULL, NULL),
   ('00:0C:B7', 'Nanjing Huazhuo Electronics Co., Ltd.', 'MA-L', 'NanjingHuazh', NULL, '2003-04-08', 'No.77 Gaohu Road Nanjing Jiangsu CN 211100', 'IEEE+Wireshark+Nmap', 'Nanjing Huazhuo Electronics Co., Ltd.', 'current', NULL, NULL),
   ('00:0C:76', 'Micro Star International', 'MA-L', 'MicroStarInt', 'Laptop', '2003-02-07', 'No 69, Li-De Street, Jung-He City, Taipe Taipei  TW  ', 'IEEE+Wireshark+Nmap', 'MICRO-STAR INTERNATIONAL CO., LTD.', 'current', NULL, NULL),
-  ('00:0C:68', 'SigmaTel, Inc.', 'MA-L', 'SigmaTel', NULL, '2003-02-07', '201 Jones Road Waltham MA US 02451', 'IEEE+Wireshark+Nmap', 'SigmaTel, Inc.', 'current', NULL, 'Oasis Semiconductor, Inc. | SigmaTel, Inc.'),
+  ('00:0C:68', 'SigmaTel, Inc.', 'MA-L', 'SigmaTel', NULL, '2003-02-07', '201 Jones Road Waltham MA US 02451', 'IEEE+Wireshark+Nmap', 'SigmaTel, Inc.', 'current', NULL, 'Oasis Semiconductor, Inc. | SigmaTel, Inc.');
+
+-- Batch 28 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:0C:AD', 'BTU International', 'MA-L', 'BTUInternati', 'Industrial', '2003-03-05', '23 Esquire Rd North Billerica MA US 01862', 'IEEE+Wireshark+Nmap', 'BTU International', 'current', NULL, NULL),
   ('00:0C:A3', 'Rancho Technology, Inc.', 'MA-L', 'RanchoTechno', NULL, '2003-03-05', '10783 Bell Court Rancho Cucamonga CA US 19730', 'IEEE+Wireshark+Nmap', 'Rancho Technology, Inc.', 'current', NULL, NULL),
   ('00:0C:0E', 'XtremeSpectrum, Inc.', 'MA-L', 'XtremeSpectr', NULL, '2003-01-21', '8133 Leesburg Pike Vienna VA US 22182', 'IEEE+Wireshark+Nmap', 'XtremeSpectrum, Inc.', 'current', NULL, NULL),
   ('00:0C:12', 'Micro-Optronic-Messtechnik GmbH', 'MA-L', 'MicroOptroni', 'Industrial', '2003-01-21', 'Lessingstrasse 14 Langebrück Saxony DE D-01465', 'IEEE+Wireshark+Nmap', 'Micro-Optronic-Messtechnik GmbH', 'current', NULL, NULL),
   ('00:0C:10', 'PNI Corporation', 'MA-L', 'PNI', NULL, '2003-01-21', '5464 Skylane Blvd #A Santa Rosa CA US 95403', 'IEEE+Wireshark+Nmap', 'PNI Corporation', 'current', NULL, NULL),
   ('00:0C:0A', 'Guangdong Province Electronic Technology Research Institute', 'MA-L', 'ProvinceElec', NULL, '2002-12-12', 'Electronic Technology Building,NO.61-65, Guangzhou Guangdong CN 510630 ', 'IEEE+Wireshark+Nmap', 'Guangdong Province Electronic Technology Research Institute', 'current', NULL, NULL),
-  ('00:0C:0B', 'Broadbus Technologies', 'MA-L', 'BroadbusTech', NULL, '2002-12-12', '80 Central Street Boxborough Massachusetts US 01719', 'IEEE+Wireshark+Nmap', 'Broadbus Technologies', 'current', NULL, NULL);
-
--- Batch 28 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:0C:0B', 'Broadbus Technologies', 'MA-L', 'BroadbusTech', NULL, '2002-12-12', '80 Central Street Boxborough Massachusetts US 01719', 'IEEE+Wireshark+Nmap', 'Broadbus Technologies', 'current', NULL, NULL),
   ('00:0C:07', 'Iftest AG', 'MA-L', 'Iftest', NULL, '2002-12-12', 'Schwimmbadstrasse 43 Wettingen AG CH 5430', 'IEEE+Wireshark+Nmap', 'Iftest AG', 'current', NULL, NULL),
   ('00:0C:0C', 'APPRO TECHNOLOGY INC.', 'MA-L', 'ApproTechnol', 'Camera', '2002-12-12', '13F, No. 66 Chung-Cheng Rd, Hsin-Chuang Taipei TW 242 ', 'IEEE+Wireshark+Nmap', 'APPRO TECHNOLOGY INC.', 'current', NULL, NULL),
   ('00:0B:F9', 'Gemstone Communications, Inc.', 'MA-L', 'GemstoneComm', NULL, '2002-12-12', '6Fl., No. 102,  Hengyang Rd. Taipei  TW 100 ', 'IEEE+Wireshark+Nmap', 'Gemstone Communications, Inc.', 'current', NULL, 'Gemstone communications, Inc. | Gemstone Communications, Inc.'),
@@ -14097,17 +14104,17 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:01:B9', 'SKF (U.K.) Limited', 'MA-L', 'SKF', 'IoT', '2000-09-08', '2 Michaelson Square Kirkton Campus Livingston   West Lothian GB EH54 7DP', 'IEEE+Wireshark+Nmap', 'SKF (U.K.) Limited', 'current', NULL, 'SKF Condition Monitoring | SKF (U.K.) Limited'),
   ('00:01:BD', 'Peterson Electro-Musical Products Inc.', 'MA-L', 'PetersonElec', 'Audio', '2000-09-08', '11601 S. Mayfield Avenue Alsip IL US 60803-2476', 'IEEE+Wireshark+Nmap', 'Peterson Electro-Musical Products, Inc.', 'current', NULL, NULL),
   ('00:01:B3', 'Precision Electronic Manufacturing', 'MA-L', 'PrecisionEle', 'Smart Home', '2000-09-08', 'P0187, P.O. 527948 Miami FL US 33152-7948 ', 'IEEE+Wireshark+Nmap', 'Precision Electronic Manufacturing', 'current', NULL, NULL),
-  ('00:01:4E', 'WIN Enterprises, Inc.', 'MA-L', 'WINEnterpris', 'Computer', '2000-09-08', '300 Willow Street South North Andover MA US 01845', 'IEEE+Wireshark+Nmap', 'WIN Enterprises, Inc.', 'current', NULL, NULL),
+  ('00:01:4E', 'WIN Enterprises, Inc.', 'MA-L', 'WINEnterpris', 'Computer', '2000-09-08', '300 Willow Street South North Andover MA US 01845', 'IEEE+Wireshark+Nmap', 'WIN Enterprises, Inc.', 'current', NULL, NULL);
+
+-- Batch 29 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:30:73', 'International Microsystems, In', 'MA-L', 'Internationa', NULL, '2000-09-08', '521 Valley Way Milpitas CA US 95035', 'IEEE+Wireshark+Nmap', 'International Microsystems, In', 'current', NULL, NULL),
   ('00:30:3F', 'TurboComm Tech Inc.', 'MA-L', 'TurboCommTec', NULL, '2000-09-08', '4F-2, No 171, Sung-Tch Road Taipei  TW  ', 'IEEE+Wireshark+Nmap', 'TurboComm Tech Inc.', 'current', NULL, NULL),
   ('00:01:95', 'Sena Technologies', 'MA-L', 'SenaTechnolo', 'Automotive', '2000-09-08', '116-23 Shinlim-dong   KR KOREA', 'IEEE+Wireshark+Nmap', 'Sena Technologies, Inc.', 'current', NULL, NULL),
   ('00:01:84', 'SIEB & MEYER AG', 'MA-L', 'SiebMeyer', NULL, '2000-09-08', 'Auf dem Schmaarkamp 21   DE', 'IEEE+Wireshark+Nmap', 'SIEB & MEYER AG', 'current', NULL, NULL),
   ('00:01:8E', 'Logitec Corp.', 'MA-L', 'Logitec', 'Computer', '2000-09-08', '8268 Rokudouhara, Misuzu   JP  ', 'IEEE+Wireshark+Nmap', 'Logitec Corporation', 'current', NULL, NULL),
   ('00:01:79', 'WIRELESS TECHNOLOGY, INC.', 'MA-L', 'WirelessTech', NULL, '2000-09-08', 'Anam Bldg. 2Fl, 154-17   KR KOREA ', 'IEEE+Wireshark+Nmap', 'WIRELESS TECHNOLOGY, INC.', 'current', NULL, NULL),
-  ('00:01:60', 'ELMEX Co., LTD.', 'MA-L', 'ELMEX', NULL, '2000-09-08', '16-30 Kimachi   JP', 'IEEE+Wireshark+Nmap', 'ELMEX Co., LTD.', 'current', NULL, NULL);
-
--- Batch 29 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:01:60', 'ELMEX Co., LTD.', 'MA-L', 'ELMEX', NULL, '2000-09-08', '16-30 Kimachi   JP', 'IEEE+Wireshark+Nmap', 'ELMEX Co., LTD.', 'current', NULL, NULL),
   ('00:01:6D', 'CarrierComm Inc.', 'MA-L', 'CarrierComm', 'Thermostat', '2000-09-08', '2231 Rutherford, Suite 110 Carlsbad CA US 92008 ', 'IEEE+Wireshark+Nmap', 'CarrierComm Inc.', 'current', NULL, 'Triton Network Systems | CarrierComm Inc.'),
   ('00:01:6A', 'ALITEC', 'MA-L', 'Alitec', NULL, '2000-09-08', 'Laval Technopole B.P. 102   FR', 'IEEE+Wireshark+Nmap', 'ALITEC', 'current', NULL, NULL),
   ('00:01:6F', 'Inkel Corp.', 'MA-L', 'Inkel', 'Audio', '2000-09-08', 'CheongCheon-Dong, BuPyeong-Gu, Incheon-Si  KR  ', 'IEEE+Wireshark+Nmap', 'Inkel Corp.', 'current', NULL, 'HAITAI ELECTRONICS CO., LTD. | Inkel Corp.'),
@@ -14600,17 +14607,17 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:40:4D', 'TELECOMMUNICATIONS TECHNIQUES', 'MA-L', 'Telecommunic', 'Industrial', '1998-04-22', 'M/S GERMANTOWN MD US 20876', 'IEEE+Wireshark+Nmap', 'TELECOMMUNICATIONS TECHNIQUES', 'current', NULL, NULL),
   ('00:40:0D', 'LANNET DATA COMMUNICATIONS,LTD', 'MA-L', 'LannetDataCo', 'Switch', '1998-04-22', 'ATIDIM TECHNOLOG''L PARK, BG.#3   IL  ', 'IEEE+Wireshark+Nmap', 'LANNET DATA COMMUNICATIONS,LTD', 'current', NULL, NULL),
   ('00:80:D7', 'Fantum Engineering', 'MA-L', 'FantumEngine', 'Smart Home', '1998-04-22', 'Rockwall TX US 75087', 'IEEE+Wireshark+Nmap', 'Fantum Engineering', 'current', NULL, 'FANTUM ENGINEERING, INC. | Fantum Engineering'),
-  ('00:80:7A', 'AITECH SYSTEMS LTD.', 'MA-L', 'Aitech', 'Computer', '2000-09-08', '3080 OLCOTT STREET SANTA CLARA CA US 95054', 'IEEE+Wireshark+Nmap', 'AITECH SYSTEMS LTD.', 'current', NULL, NULL),
+  ('00:80:7A', 'AITECH SYSTEMS LTD.', 'MA-L', 'Aitech', 'Computer', '2000-09-08', '3080 OLCOTT STREET SANTA CLARA CA US 95054', 'IEEE+Wireshark+Nmap', 'AITECH SYSTEMS LTD.', 'current', NULL, NULL);
+
+-- Batch 30 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:80:DC', 'PICKER INTERNATIONAL', 'MA-L', 'PickerIntern', 'Medical', '2000-09-08', '595 MINER ROAD CLEVELAND OH US 44143', 'IEEE+Wireshark+Nmap', 'PICKER INTERNATIONAL', 'current', NULL, NULL),
   ('00:C0:A0', 'ADVANCE MICRO RESEARCH, INC.', 'MA-L', 'AdvanceMicro', NULL, '1998-04-22', '2045 CORPORATE COURT SAN JOSE CA US 95131', 'IEEE+Wireshark+Nmap', 'ADVANCE MICRO RESEARCH, INC.', 'current', NULL, NULL),
   ('00:40:19', 'AEON SYSTEMS, INC.', 'MA-L', 'Aeon', NULL, '2000-09-08', '8401 WASHINGTON PLACE NE ALBUQUERQUE NM US 87113', 'IEEE+Wireshark+Nmap', 'AEON SYSTEMS, INC.', 'current', NULL, NULL),
   ('00:40:BE', 'BOEING DEFENSE & SPACE', 'MA-L', 'BoeingDefens', 'Automotive', '2000-09-08', 'P.O. BOX 3999 SEATTLE WA US 98124-2499', 'IEEE+Wireshark+Nmap', 'BOEING DEFENSE & SPACE', 'current', NULL, NULL),
   ('00:40:6E', 'Corollary, Inc', 'MA-L', 'Corollary', NULL, '1998-04-22', '2802 KELVIN IRVINE CA US 92714', 'IEEE+Wireshark+Nmap', 'COROLLARY, INC.', 'current', NULL, NULL),
   ('00:40:76', 'Sun Conversion Technologies', 'MA-L', 'SunConversio', NULL, '1998-04-22', '100 Commerce Boulevard Quakertown PA US 78951-2237', 'IEEE+Wireshark+Nmap', 'Sun Conversion Technologies', 'current', NULL, 'AMP INCORPORATED | Sun Conversion Technologies'),
-  ('00:40:28', 'NETCOMM LIMITED', 'MA-L', 'Netcomm', 'Router', '2000-09-08', '3 OLYMPIC BUSINESS CENTRE  UNITED GB KINGDOM', 'IEEE+Wireshark+Nmap', 'NETCOMM LIMITED', 'current', NULL, NULL);
-
--- Batch 30 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:40:28', 'NETCOMM LIMITED', 'MA-L', 'Netcomm', 'Router', '2000-09-08', '3 OLYMPIC BUSINESS CENTRE  UNITED GB KINGDOM', 'IEEE+Wireshark+Nmap', 'NETCOMM LIMITED', 'current', NULL, NULL),
   ('00:40:CB', 'LANWAN TECHNOLOGIES', 'MA-L', 'LanwanTechno', NULL, '2000-09-08', '1566 LA PRADERA DRIVE CAMPBELL CA US 95008', 'IEEE+Wireshark+Nmap', 'LANWAN TECHNOLOGIES', 'current', NULL, NULL),
   ('00:40:B2', 'SYSTEMFORSCHUNG', 'MA-L', 'Systemforsch', NULL, '2000-09-08', 'KONIGSTRASSE 33A   DE', 'IEEE+Wireshark+Nmap', 'SYSTEMFORSCHUNG', 'current', NULL, NULL),
   ('00:40:E6', 'CAEN S.p.A.', 'MA-L', 'CAEN', 'Industrial', '2000-09-08', '2, CHEMIN LATERAL   FR  ', 'IEEE+Wireshark+Nmap', 'C.A.E.N.', 'current', NULL, NULL),
@@ -15103,17 +15110,17 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('28:24:C9', 'Amazon', 'MA-L', 'AmazonTechno', 'Smart Home', '2024-07-16', 'P.O Box 8102  Reno NV US 89507', 'IEEE+Wireshark+Nmap', 'Amazon Technologies Inc.', 'current', NULL, NULL),
   ('50:00:E0', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2024-07-10', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
   ('74:E2:E7', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2024-07-10', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
-  ('C4:60:0A', 'Huaqin Technology Co.,Ltd', 'MA-L', 'HuaqinTechno', NULL, '2024-07-19', '11th Floor,Unit 12,No.399 Keyuan Road,Pudong, Shanghai  Shanghai  Pudong CN 201203 ', 'IEEE+Wireshark+Nmap', 'Huaqin Technology Co.LTD', 'current', NULL, NULL),
+  ('C4:60:0A', 'Huaqin Technology Co.,Ltd', 'MA-L', 'HuaqinTechno', NULL, '2024-07-19', '11th Floor,Unit 12,No.399 Keyuan Road,Pudong, Shanghai  Shanghai  Pudong CN 201203 ', 'IEEE+Wireshark+Nmap', 'Huaqin Technology Co.LTD', 'current', NULL, NULL);
+
+-- Batch 31 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('14:7E:19', 'HPE Aruba Networking', 'MA-L', 'HewlettPacka', 'Access Point', '2024-07-18', '6280 America Center Dr San Jose CA US 95002', 'IEEE+Wireshark+Nmap', 'Hewlett Packard Enterprise', 'current', NULL, NULL),
   ('38:06:E6', 'Arcadyan', 'MA-L', 'Arcadyan', 'Router', '2024-07-17', 'No.8, Sec.2, Guangfu Rd. Hsinchu City Hsinchu TW 30071 ', 'IEEE+Wireshark+Nmap', 'Arcadyan Corporation', 'current', NULL, NULL),
   ('10:74:C5', 'Calix', 'MA-L', 'Calix', 'Router', '2024-07-17', '2777 Orchard Pkwy San Jose CA US 95131', 'IEEE+Wireshark+Nmap', 'Calix Inc.', 'current', NULL, NULL),
   ('BC:CD:7F', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2024-07-23', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
   ('44:89:6D', 'TELLESCOM INDUSTRIA E COMERCIO EM TELECOMUNICACAO', 'MA-L', 'TellescomInd', NULL, '2024-07-24', 'Av. Buriti, 1900 – Setor B – Distrito Industrial Manaus Amazonas BR 69075-000 ', 'IEEE+Wireshark+Nmap', 'TELLESCOM INDUSTRIA E COMERCIO EM TELECOMUNICACAO', 'current', NULL, NULL),
   ('E4:51:A9', 'Nanjing Xinlian Electronics Co., Ltd', 'MA-L', 'NanjingXinli', NULL, '2024-07-24', 'No. 28, Jiayuan Middle Road, Jiangning District, Nanjing, Jiangsu Province, China Nanjing Jiangsu CN 211111 ', 'IEEE+Wireshark+Nmap', 'Nanjing Xinlian Electronics Co., Ltd', 'current', NULL, NULL),
-  ('74:28:69', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2024-07-23', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL);
-
--- Batch 31 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('74:28:69', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2024-07-23', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
   ('D0:C1:B5', 'Dell', 'MA-L', 'Dell', 'Laptop', '2024-07-26', 'One Dell Way Round Rock  TX US 78682', 'IEEE+Wireshark+Nmap', 'Dell Inc.', 'current', NULL, NULL),
   ('EC:E7:8E', 'AsiaTelco Technologies Co.', 'MA-L', 'AsiaTelcoTec', NULL, '2024-08-01', 'No. 68 Huatuo Road, Building-8,Zhangjiang Hi-Tech Park, Pudong Shanghai Shanghai CN 201203 ', 'IEEE+Wireshark+Nmap', 'AsiaTelco Technologies Co.', 'current', NULL, NULL),
   ('14:5A:41', 'Foxconn (Hon Hai)', 'MA-L', 'CloudNetwork', NULL, '2024-07-27', 'B22 Building,NO.51 Tongle Road, Shajing Town, Jiangnan District, Nanning, Guangxi Province, China Nanning Guangxi CN 530007 ', 'IEEE+Wireshark+Nmap', 'CLOUD NETWORK TECHNOLOGY SINGAPORE PTE. LTD.', 'current', NULL, NULL),
@@ -15606,17 +15613,17 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:73:DA', 'Silicon Labs', 'MA-L', 'SiliconLabor', NULL, '2025-07-31', '400 West Cesar Chavez Austin TX US 78701', 'IEEE+Wireshark+Nmap', 'Silicon Laboratories', 'current', NULL, NULL),
   ('34:55:06', 'GUANGDONG GENIUS TECHNOLOGY CO., LTD.', 'MA-L', 'GeniusTechno', 'Wearable', '2025-08-08', 'No.168, Middle Road Of East Gate Xiaobian Community Chang''an Town CN 523851 ', 'IEEE+Wireshark+Nmap', 'GUANGDONG GENIUS TECHNOLOGY CO., LTD.', 'current', NULL, NULL),
   ('D4:7A:97', 'realme', 'MA-L', 'RealmeChongq', 'Phone', '2025-08-08', 'No.178 Yulong Avenue, Yufengshan, Yubei District, Chongqing. Chongqing  China CN 401120 ', 'IEEE+Wireshark+Nmap', 'Realme Chongqing Mobile Telecommunications Corp.,Ltd.', 'current', NULL, NULL),
-  ('6C:1A:EA', 'Texas Instruments', 'MA-L', 'TexasInstrum', 'IoT', '2025-08-06', '12500 TI Blvd Dallas TX US 75243', 'IEEE+Wireshark+Nmap', 'Texas Instruments', 'current', NULL, NULL),
+  ('6C:1A:EA', 'Texas Instruments', 'MA-L', 'TexasInstrum', 'IoT', '2025-08-06', '12500 TI Blvd Dallas TX US 75243', 'IEEE+Wireshark+Nmap', 'Texas Instruments', 'current', NULL, NULL);
+
+-- Batch 32 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('68:44:06', 'Texas Instruments', 'MA-L', 'TexasInstrum', 'IoT', '2025-08-06', '12500 TI Blvd Dallas TX US 75243', 'IEEE+Wireshark+Nmap', 'Texas Instruments', 'current', NULL, NULL),
   ('84:0C:6D', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2025-08-06', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
   ('E4:B1:6C', 'Apple', 'MA-L', 'Apple', 'Phone', '2025-08-05', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
   ('70:4C:A2', 'Apple', 'MA-L', 'Apple', 'Phone', '2025-08-05', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
   ('94:89:78', 'Apple', 'MA-L', 'Apple', 'Phone', '2025-08-05', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
   ('28:D5:B1', 'Apple', 'MA-L', 'Apple', 'Phone', '2025-08-05', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
-  ('BC:5A:34', 'New H3C Technologies Co., Ltd', 'MA-L', 'NewH3CTechno', 'Access Point', '2025-08-06', '466 Changhe Road, Binjiang District Hangzhou Zhejiang CN 310052 ', 'IEEE+Wireshark+Nmap', 'New H3C Technologies Co., Ltd', 'current', NULL, NULL);
-
--- Batch 32 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('BC:5A:34', 'New H3C Technologies Co., Ltd', 'MA-L', 'NewH3CTechno', 'Access Point', '2025-08-06', '466 Changhe Road, Binjiang District Hangzhou Zhejiang CN 310052 ', 'IEEE+Wireshark+Nmap', 'New H3C Technologies Co., Ltd', 'current', NULL, NULL),
   ('2C:CC:7A', 'AltoBeam', 'MA-L', 'AltoBeam', NULL, '2025-08-07', 'B808, Tsinghua Tongfang Hi-Tech Plaza, Haidian Beijing Beijing CN 100083 ', 'IEEE+Wireshark+Nmap', 'AltoBeam Inc.', 'current', NULL, NULL),
   ('80:D1:CE', 'Apple', 'MA-L', 'Apple', 'Phone', '2025-08-05', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
   ('F0:68:E3', 'AzureWave', 'MA-L', 'AzureWaveTec', NULL, '2025-08-18', '8F., No. 94, Baozhong Rd. New Taipei City Taiwan TW 231 ', 'IEEE+Wireshark+Nmap', 'AzureWave Technology Inc.', 'current', NULL, NULL),
@@ -16109,17 +16116,17 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('DC:23:3B', 'Extreme Networks', 'MA-L', 'ExtremeNetwo', 'Access Point', '2023-04-05', '2121 RDU Center Drive  Morrisville NC US 27560', 'IEEE+Wireshark+Nmap', 'Extreme Networks, Inc.', 'current', NULL, 'Extreme Networks, Inc. | Extreme Networks Headquarters | Extreme Networks, Inc.'),
   ('C8:51:FB', 'Extreme Networks', 'MA-L', 'ExtremeNetwo', 'Access Point', '2023-04-15', '2121 RDU Center Drive  Morrisville NC US 27560', 'IEEE+Wireshark+Nmap', 'Extreme Networks, Inc.', 'current', NULL, 'Extreme Networks, Inc. | Extreme Networks Headquarters | Extreme Networks, Inc.'),
   ('60:1D:56', 'Extreme Networks', 'MA-L', 'ExtremeNetwo', 'Access Point', '2023-11-23', '2121 RDU Center Drive  Morrisville NC US 27560', 'IEEE+Wireshark+Nmap', 'Extreme Networks, Inc.', 'current', NULL, 'Extreme Networks Headquarters | Extreme Networks, Inc.'),
-  ('50:0A:9C', 'Extreme Networks', 'MA-L', 'ExtremeNetwo', 'Access Point', '2024-09-19', '2121 RDU Center Drive  Morrisville  US 27560', 'IEEE+Wireshark+Nmap', 'Extreme Networks, Inc.', 'current', NULL, 'Extreme Networks Headquarters | Extreme Networks, Inc.'),
+  ('50:0A:9C', 'Extreme Networks', 'MA-L', 'ExtremeNetwo', 'Access Point', '2024-09-19', '2121 RDU Center Drive  Morrisville  US 27560', 'IEEE+Wireshark+Nmap', 'Extreme Networks, Inc.', 'current', NULL, 'Extreme Networks Headquarters | Extreme Networks, Inc.');
+
+-- Batch 33 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('0C:ED:71', 'Extreme Networks', 'MA-L', 'ExtremeNetwo', 'Access Point', '2024-11-14', '2121 RDU Center Drive  Morrisville NC US 27560', 'IEEE+Wireshark+Nmap', 'Extreme Networks, Inc.', 'current', NULL, 'Extreme Networks Headquarters | Extreme Networks, Inc.'),
   ('A4:97:91', 'Extreme Networks', 'MA-L', 'ExtremeNetwo', 'Access Point', '2025-03-04', '2121 RDU Center Drive  Morrisville NC US 27560', 'IEEE+Wireshark+Nmap', 'Extreme Networks, Inc.', 'current', NULL, 'Extreme Networks Headquarters | Extreme Networks, Inc.'),
   ('7C:A4:F7', 'Extreme Networks', 'MA-L', 'ExtremeNetwo', 'Access Point', '2025-04-17', '2121 RDU Center Drive  Morrisville NC US 27560', 'IEEE+Wireshark+Nmap', 'Extreme Networks, Inc.', 'current', NULL, 'Extreme Networks Headquarters | Extreme Networks, Inc.'),
   ('DC:BB:3D', 'Extreme Networks', 'MA-L', 'ExtremeNetwo', 'Access Point', '2025-06-12', '2121 RDU Center Drive  Morrisville  US 27560', 'IEEE+Wireshark+Nmap', 'Extreme Networks, Inc.', 'current', NULL, 'Extreme Networks Headquarters | Extreme Networks, Inc.'),
   ('C8:66:5D', 'Extreme Networks', 'MA-L', 'ExtremeNetwo', 'Access Point', '2015-09-17', '2121 RDU Center Drive  Morrisville NC US 27560', 'IEEE+Wireshark+Nmap', 'Extreme Networks, Inc.', 'current', NULL, 'Aerohive Networks Inc. | Extreme Networks, Inc. | Extreme Networks Headquarters | Extreme Networks, Inc.'),
   ('D8:54:A2', 'Extreme Networks', 'MA-L', 'ExtremeNetwo', 'Access Point', '2015-01-14', '2121 RDU Center Drive  Morrisville NC US 27560', 'IEEE+Wireshark+Nmap', 'Extreme Networks, Inc.', 'current', NULL, 'Aerohive Networks Inc. | Extreme Networks, Inc. | Extreme Networks Headquarters | Extreme Networks, Inc.'),
-  ('B0:27:CF', 'Extreme Networks', 'MA-L', 'ExtremeNetwo', 'Access Point', '2021-02-28', '2121 RDU Center Drive  Morrisville NC US 27560', 'IEEE+Wireshark+Nmap', 'Extreme Networks, Inc.', 'current', NULL, 'Extreme Networks, Inc. | Extreme Networks Headquarters | Extreme Networks, Inc.');
-
--- Batch 33 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('B0:27:CF', 'Extreme Networks', 'MA-L', 'ExtremeNetwo', 'Access Point', '2021-02-28', '2121 RDU Center Drive  Morrisville NC US 27560', 'IEEE+Wireshark+Nmap', 'Extreme Networks, Inc.', 'current', NULL, 'Extreme Networks, Inc. | Extreme Networks Headquarters | Extreme Networks, Inc.'),
   ('8C:49:7A', 'Extreme Networks', 'MA-L', 'ExtremeNetwo', 'Access Point', '2021-10-21', '2121 RDU Center Drive  Morrisville NC US 27560', 'IEEE+Wireshark+Nmap', 'Extreme Networks, Inc.', 'current', NULL, 'Extreme Networks, Inc. | Extreme Networks Headquarters | Extreme Networks, Inc.'),
   ('E4:DB:AE', 'Extreme Networks', 'MA-L', 'ExtremeNetwo', 'Access Point', '2022-09-20', '2121 RDU Center Drive Morrisville NC US 27560', 'IEEE+Wireshark+Nmap', 'Extreme Networks, Inc.', 'current', NULL, 'Extreme Networks, Inc. | Extreme Networks Headquarters | Extreme Networks, Inc.'),
   ('00:07:CC', 'dormakaba Deutschland GmbH', 'MA-L', 'dormakabaDeu', 'Smart Home', '2001-10-24', 'DORMA Platz 1 Ennepetal  DE 58256', 'IEEE+Wireshark+Nmap', 'dormakaba Deutschland GmbH', 'current', NULL, 'Kaba Benzing GmbH | dormakaba Deutschland GmbH'),
@@ -16290,13 +16297,30 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('80:70:39', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2026-11-03', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
   ('18:2F:58', 'Veritech LLC', 'MA-L', 'Veritech', NULL, '2026-11-03', '1070 Hardees Drive Aberdeen MD US 21001', 'IEEE+Wireshark', 'Veritech LLC', 'current', NULL, NULL),
   ('1C:07:DD', 'FRITZ! Technology GmbH', 'MA-L', 'FRITZ!Techno', 'Router', '2026-11-07', 'Alt-Moabit 95 Berlin Berlin DE 10559', 'IEEE+Wireshark', 'FRITZ! Technology GmbH', 'current', NULL, NULL),
-  ('A4:05:3E', 'BSH Electrodomésticos España, S.A.', 'MA-L', NULL, NULL, '2026-11-10', 'Ronda del Canal Imperial de Aragón, 18-20 Zaragoza Zaragoza ES 50197 ', 'IEEE', 'BSH Electrodomésticos España, S.A.', 'current', NULL, NULL),
+  ('A4:05:3E', 'BSH Electrodomésticos España, S.A.', 'MA-L', 'BSHElectrodo', NULL, '2026-11-10', 'Ronda del Canal Imperial de Aragón, 18-20 Zaragoza Zaragoza ES 50197 ', 'IEEE+Wireshark', 'BSH Electrodomésticos España, S.A.', 'current', NULL, NULL),
   ('60:8D:28', 'Lenovo / Motorola Mobility', 'MA-L', 'MotorolaMobi', 'Phone', '2026-11-05', '222 West Merchandise Mart Plaza Chicago IL US 60654', 'IEEE+Wireshark', 'Motorola Mobility LLC, a Lenovo Company', 'current', NULL, NULL),
-  ('84:41:3C', 'New H3C Technologies Co., Ltd', 'MA-L', NULL, 'Access Point', '2026-11-11', '466 Changhe Road, Binjiang District Hangzhou Zhejiang CN 310052 ', 'IEEE', 'New H3C Technologies Co., Ltd', 'current', NULL, NULL),
+  ('84:41:3C', 'New H3C Technologies Co., Ltd', 'MA-L', 'NewH3CTechno', 'Access Point', '2026-11-11', '466 Changhe Road, Binjiang District Hangzhou Zhejiang CN 310052 ', 'IEEE+Wireshark', 'New H3C Technologies Co., Ltd', 'current', NULL, NULL),
   ('D8:23:32', 'Espressif', 'MA-L', 'EspressifPte', 'IoT', '2026-11-06', '1 FUSIONOPOLIS VIEW#07-02ECLIPSE Singapore  SG 138577', 'IEEE+Wireshark', 'Espressif Systems (Singapore) Pte. Ltd', 'current', NULL, NULL),
   ('0C:A2:F4', 'Verve Energy Technology', 'MA-L', 'VerveEnergyT', NULL, '2011-11-29', ' Suite 1 Second Floor 17-19 Cheltenham Parade, Harrogate GB HG1 1DD ', 'IEEE+Wireshark+Nmap', 'Verve Energy Technology', 'current', NULL, 'Chameleon Technology (UK) Limited | Verve Energy Technology'),
   ('94:B2:EC', 'NVIDIA', 'MA-L', 'NVIDIA', 'Computer', '2026-11-06', '2701 San Tomas Expressway Santa Clara  US 95050', 'IEEE+Wireshark', 'NVIDIA Corporation', 'current', NULL, NULL),
-  ('84:6E:2F', 'OHSUNG', 'MA-L', NULL, NULL, '2026-11-11', '335-4,SANHODAERO,GUMI,GYEONG BUK,KOREA GUMI GYEONG BUK KR 730-030 ', 'IEEE', 'OHSUNG', 'current', NULL, NULL),
+  ('78:9F:5B', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2026-11-13', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
+  ('D8:1E:A8', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2026-11-13', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
+  ('18:89:47', 'HISENSE VISUAL TECHNOLOGY CO.,LTD', 'MA-L', 'HisenseVisua', 'TV', '2026-11-13', 'Qianwangang Road 218 Qingdao Shandong CN 266510', 'IEEE+Wireshark', 'HISENSE VISUAL TECHNOLOGY CO.,LTD', 'current', NULL, NULL),
+  ('AC:66:B3', 'BUFFALO', 'MA-L', 'Buffalo', 'Router', '2026-11-12', 'AKAMONDORI Bld.,30-20,Ohsu 3-chome,Naka-ku Nagoya Aichi Pref. JP 460-8315 ', 'IEEE+Wireshark', 'BUFFALO.INC', 'current', NULL, NULL),
+  ('B8:31:84', 'HPE Aruba Networking', 'MA-L', 'HewlettPacka', 'Access Point', '2026-11-13', '6280 America Center Dr San Jose CA US 95002', 'IEEE+Wireshark', 'Hewlett Packard Enterprise', 'current', NULL, NULL),
+  ('84:6E:2F', 'OHSUNG', 'MA-L', 'Ohsung', NULL, '2026-11-11', '335-4,SANHODAERO,GUMI,GYEONG BUK,KOREA GUMI GYEONG BUK KR 730-030 ', 'IEEE+Wireshark', 'OHSUNG', 'current', NULL, NULL),
+  ('74:3E:EA', 'ZTE', 'MA-L', NULL, 'Phone', '2026-11-16', '12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen  guangdong CN 518057 ', 'IEEE', 'zte corporation', 'current', NULL, NULL),
+  ('D8:60:E6', 'ZTE', 'MA-L', NULL, 'Phone', '2026-11-16', '12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen  guangdong CN 518057 ', 'IEEE', 'zte corporation', 'current', NULL, NULL),
+  ('0C:9A:AC', 'Cisco Meraki', 'MA-L', NULL, 'Access Point', '2026-11-20', '500 Terry A. Francois Blvd San Francisco  US 94158', 'IEEE', 'Cisco Meraki', 'current', NULL, NULL),
+  ('2C:E8:47', 'eero', 'MA-L', NULL, 'Router', '2026-11-20', '660 3rd Street  San Francisco CA US 94107', 'IEEE', 'eero inc.', 'current', NULL, NULL),
+  ('DC:EA:D8', 'Cisco', 'MA-L', NULL, 'Access Point', '2026-11-18', '80 West Tasman Drive San Jose  CA US 94568', 'IEEE', 'Cisco Systems, Inc', 'current', NULL, NULL),
+  ('DC:AB:39', 'Cisco', 'MA-L', NULL, 'Access Point', '2026-11-18', '80 West Tasman Drive San Jose  CA US 94568', 'IEEE', 'Cisco Systems, Inc', 'current', NULL, NULL),
+  ('48:60:CB', 'Nanjing RISC-V Institute Co., Ltd.', 'MA-L', NULL, NULL, '2026-11-19', 'Room 303, Building C, 18 Ningshuang Road  Nanjing Jiangsu CN 210000 ', 'IEEE', 'Nanjing RISC-V Institute Co., Ltd.', 'current', NULL, NULL),
+  ('44:B2:08', 'Mellanox Technologies', 'MA-L', NULL, 'Switch', '2026-11-16', '350 Oakmead Parkway, Suite 100   Sunnyvale CA US 94085 ', 'IEEE', 'Mellanox Technologies, Inc.', 'current', NULL, NULL),
+  ('64:2F:4F', 'Microsoft', 'MA-L', NULL, 'Laptop', '2026-11-16', 'One Microsoft Way REDMOND WA US 98052', 'IEEE', 'Microsoft Corporation', 'current', NULL, NULL),
+  ('A4:E0:41', 'Ruckus Networks', 'MA-L', NULL, 'Access Point', '2026-11-19', '350 West Java Drive Sunnyvale CA US 94089', 'IEEE', 'Ruckus Wireless', 'current', NULL, NULL),
+  ('5C:DD:CB', 'Silicon Labs', 'MA-L', NULL, NULL, '2026-11-20', '400 West Cesar Chavez Austin TX US 78701', 'IEEE', 'Silicon Laboratories', 'current', NULL, NULL),
+  ('30:39:EB', 'hanshow America Inc.', 'MA-L', NULL, NULL, '2026-11-20', '5801 Headquarters Dr, Suite 950 plano TX US 75024 ', 'IEEE', 'hanshow America Inc.', 'current', NULL, NULL),
   ('6C:87:20', 'New H3C Technologies Co., Ltd', 'MA-L', 'NewH3CTechno', 'Access Point', '2023-07-15', '466 Changhe Road, Binjiang District Hangzhou Zhejiang CN 310052 ', 'IEEE+Wireshark+Nmap', 'New H3C Technologies Co., Ltd', 'current', NULL, NULL),
   ('0C:8D:7A', 'RADiflow', 'MA-L', 'RADiflow', 'Router', '2023-07-14', 'HaBarzel St 38 Tel-Aviv  IL 6971054', 'IEEE+Wireshark+Nmap', 'RADiflow', 'current', NULL, NULL),
   ('FC:A9:F5', 'Xiaomi', 'MA-L', 'XiaomiCommun', 'Phone', '2023-07-14', '#019, 9th Floor, Building 6, 33 Xi''erqi Middle Road Beijing Haidian District CN 100085 ', 'IEEE+Wireshark+Nmap', 'Xiaomi Communications Co Ltd', 'current', NULL, NULL),
@@ -16595,7 +16619,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('C0:C7:0A', 'Ruckus Networks', 'MA-L', 'RuckusWirele', 'Access Point', '2022-12-04', '350 West Java Drive Sunnyvale CA US 94089', 'IEEE+Wireshark+Nmap', 'Ruckus Wireless', 'current', NULL, NULL),
   ('00:16:16', 'BROWAN COMMUNICATIONS INCORPORATION', 'MA-L', 'BrowanCommun', 'IoT', '2005-10-13', 'No.1 Jen-Ai Road, HsinChu Industrial Park, HuKou Hsiang HsinChu Hsien TW 303 ', 'IEEE+Wireshark+Nmap', 'BROWAN COMMUNICATIONS INCORPORATION', 'current', NULL, 'BROWAN COMMUNICATION INC. | BROWAN COMMUNICATIONS INCORPORATION'),
   ('B4:61:E9', 'Sichuan AI-Link (Changhong)', 'MA-L', 'SichuanAILin', NULL, '2022-11-19', 'Anzhou, Industrial Park Mianyang Sichuan CN 622650 ', 'IEEE+Wireshark+Nmap', 'Sichuan AI-Link Technology Co., Ltd.', 'current', NULL, NULL),
-  ('64:E2:04', 'NTN Technical Service Corporation', 'MA-L', 'NTNTechnical', NULL, '2022-11-19', '1578 Higashi-Kaizuka Iwata Shizuoka JP 438-8510', 'IEEE+Wireshark+Nmap', 'NTN Technical Service Corporation', 'current', NULL, NULL),
+  ('64:E2:04', 'NTN Technical Service Corporation', 'MA-L', 'NTNTechnical', NULL, '2022-11-19', '1578 Higashi-Kaizuka Iwata Shizuoka JP 438-8510', 'IEEE+Wireshark+Nmap', 'NTN Technical Service Corporation', 'current', NULL, NULL);
+
+-- Batch 34 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('2C:98:11', 'Foxconn (Hon Hai)', 'MA-L', 'CloudNetwork', NULL, '2022-11-19', 'B22 Building,NO.51 Tongle Road, Shajing Town, Jiangnan District, Nanning, Guangxi Province, China Nanning Guangxi CN 530007 ', 'IEEE+Wireshark+Nmap', 'CLOUD NETWORK TECHNOLOGY SINGAPORE PTE. LTD.', 'current', NULL, NULL),
   ('90:D6:89', 'Huahao Fangzhou Technology Co.,Ltd', 'MA-L', 'HuahaoFangzh', NULL, '2022-11-19', 'No.99,Hangtian Road,Section 2,East Third Ring Road,Chenghua Distrct,Chengdu,SiChuan Chengdu SiChuan CN 610051 ', 'IEEE+Wireshark+Nmap', 'Huahao Fangzhou Technology Co.,Ltd', 'current', NULL, NULL),
   ('C0:8B:2A', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2022-11-19', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
@@ -16619,10 +16646,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('E8:88:43', 'Xiaomi', 'MA-L', 'XiaomiCommun', 'Phone', '2022-11-12', '#019, 9th Floor, Building 6, 33 Xi''erqi Middle Road Beijing Haidian District CN 100085 ', 'IEEE+Wireshark+Nmap', 'Xiaomi Communications Co Ltd', 'current', NULL, NULL),
   ('28:02:2E', 'Apple', 'MA-L', 'Apple', 'Phone', '2022-11-16', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
   ('70:5A:6F', 'IEEE Registration Authority', 'MA-L', NULL, NULL, '2022-10-29', '445 Hoes Lane Piscataway NJ US 08554', 'IEEE+Nmap', 'IEEE Registration Authority', 'current', NULL, NULL),
-  ('DC:A3:13', 'Shenzhen Changjin Communication Technology Co.,Ltd', 'MA-L', 'ChangjinComm', NULL, '2022-10-28', '6th Floor, Saibo Building, Tenglong Road, Minzhi Street, Longhua District, Shenzhen Shenzhen  CN 518000 ', 'IEEE+Wireshark+Nmap', 'Shenzhen Changjin Communication Technology Co.,Ltd', 'current', NULL, NULL);
-
--- Batch 34 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('DC:A3:13', 'Shenzhen Changjin Communication Technology Co.,Ltd', 'MA-L', 'ChangjinComm', NULL, '2022-10-28', '6th Floor, Saibo Building, Tenglong Road, Minzhi Street, Longhua District, Shenzhen Shenzhen  CN 518000 ', 'IEEE+Wireshark+Nmap', 'Shenzhen Changjin Communication Technology Co.,Ltd', 'current', NULL, NULL),
   ('18:26:54', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2022-11-01', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('1C:67:60', 'Phonesuite', 'MA-L', 'Phonesuite', NULL, '2022-11-01', '400 Liberty Park Court Flowood  US 39232', 'IEEE+Wireshark+Nmap', 'Phonesuite', 'current', NULL, NULL),
   ('04:32:01', 'Broadcom', 'MA-L', 'Broadcom', NULL, '2022-10-29', '15191 Alton Parkway Irvine CA US 92618', 'IEEE+Wireshark+Nmap', 'Broadcom Limited', 'current', NULL, NULL),
@@ -17098,7 +17122,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('F0:35:75', 'Hui Zhou Gaoshengda (GSD)', 'MA-L', 'HuiZhouGaosh', NULL, '2021-07-11', 'No.75,Zhongkai High-Tech Development District,Huizhou Hui Zhou Guangdong CN 516006 ', 'IEEE+Wireshark+Nmap', 'Hui Zhou Gaoshengda Technology Co.,LTD', 'current', NULL, NULL),
   ('F8:B5:4D', 'Intel', 'MA-L', 'Intel', 'Laptop', '2021-07-09', 'Lot 8, Jalan Hi-Tech 2/3   Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL),
   ('38:A8:CD', 'IEEE Registration Authority', 'MA-L', NULL, NULL, '2021-07-09', '445 Hoes Lane Piscataway NJ US 08554', 'IEEE+Nmap', 'IEEE Registration Authority', 'current', NULL, NULL),
-  ('54:67:06', 'OPPO', 'MA-L', 'OppoMobileTe', 'Phone', '2021-07-09', 'NO.18 HAIBIN ROAD, DONG GUAN GUANG DONG CN 523860 ', 'IEEE+Wireshark+Nmap', 'GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD', 'current', NULL, NULL),
+  ('54:67:06', 'OPPO', 'MA-L', 'OppoMobileTe', 'Phone', '2021-07-09', 'NO.18 HAIBIN ROAD, DONG GUAN GUANG DONG CN 523860 ', 'IEEE+Wireshark+Nmap', 'GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD', 'current', NULL, NULL);
+
+-- Batch 35 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('C0:F5:35', 'AMPAK', 'MA-L', 'AMPAKTechnol', NULL, '2021-07-08', '3F, No.15-1 Zhonghua Road, Hsinchu Industrail Park, Hukou, Hsinchu Hsinchu,Taiwan R.O.C. TW 30352 ', 'IEEE+Wireshark+Nmap', 'AMPAK Technology,Inc.', 'current', NULL, NULL),
   ('90:81:75', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2021-07-11', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('30:74:67', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2021-07-11', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
@@ -17122,10 +17149,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('E0:69:BA', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2021-06-23', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
   ('24:36:DA', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2021-06-23', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
   ('20:37:A5', 'Apple', 'MA-L', 'Apple', 'Phone', '2021-06-25', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
-  ('DC:B5:4F', 'Apple', 'MA-L', 'Apple', 'Phone', '2021-06-25', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL);
-
--- Batch 35 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('DC:B5:4F', 'Apple', 'MA-L', 'Apple', 'Phone', '2021-06-25', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
   ('B8:37:4A', 'Apple', 'MA-L', 'Apple', 'Phone', '2021-06-25', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
   ('EC:7C:2C', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2021-06-25', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('5C:83:82', 'Nokia', 'MA-L', 'Nokia', 'Router', '2021-06-16', '600 March Road Kanata Ontario CA K2K 2E6', 'IEEE+Wireshark+Nmap', 'Nokia', 'current', NULL, NULL),
@@ -17601,7 +17625,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('B8:48:AA', 'EM Microelectronic', 'MA-L', 'EMMicroelect', NULL, '2020-03-07', 'Rue des Sors 3 Marin-Epagnier Neuchatel CH 2074', 'IEEE+Wireshark+Nmap', 'EM Microelectronic', 'current', NULL, NULL),
   ('E0:D4:62', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2020-02-26', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
   ('90:98:38', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2020-02-26', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
-  ('F8:AC:65', 'Intel', 'MA-L', 'Intel', 'Laptop', '2020-03-12', 'Lot 8, Jalan Hi-Tech 2/3  Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL),
+  ('F8:AC:65', 'Intel', 'MA-L', 'Intel', 'Laptop', '2020-03-12', 'Lot 8, Jalan Hi-Tech 2/3  Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL);
+
+-- Batch 36 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:19:F4', 'Convergens Oy Ltd', 'MA-L', 'Convergens', NULL, '2006-10-16', 'Westendintie 99 B Espoo Uusimaa FI FIN-02160', 'IEEE+Wireshark+Nmap', 'Convergens Oy Ltd', 'current', NULL, NULL),
   ('F0:B0:22', 'TOHO Electronics INC.', 'MA-L', 'TOHOElectron', NULL, '2020-03-05', '1-13-21 Tanashioda, Chuo-Ku Sagamihara-City Kanagawa JP 252-0245 ', 'IEEE+Wireshark+Nmap', 'TOHO Electronics INC.', 'current', NULL, NULL),
   ('98:7E:CA', 'Inventus Power Eletronica do Brasil LTDA', 'MA-L', 'InventusPowe', NULL, '2020-03-05', 'Av Buriti, 4285 Distrito Industrial Manaus Amazonas BR 69075000 ', 'IEEE+Wireshark+Nmap', 'Inventus Power Eletronica do Brasil LTDA', 'current', NULL, NULL),
@@ -17625,10 +17652,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('90:56:FC', 'TECNO MOBILE LIMITED', 'MA-L', 'TecnoMobile', 'Phone', '2020-01-21', 'ROOMS 05-15, 13A/F., SOUTH TOWER, WORLD FINANCE CENTRE, HARBOUR CITY, 17 CANTON ROAD, TSIM SHA TSUI, KOWLOON, HONG KONG Hong Kong Hong Kong HK 999077 ', 'IEEE+Wireshark+Nmap', 'TECNO MOBILE LIMITED', 'current', NULL, NULL),
   ('98:ED:5C', 'Tesla', 'MA-L', 'Tesla', 'Smart Home', '2018-07-29', '3500 Deer Creek Road Palo Alto CA US 94304', 'IEEE+Wireshark+Nmap', 'Tesla,Inc.', 'current', NULL, 'Tesla Motors, Inc | Tesla,Inc.'),
   ('78:AA:82', 'New H3C Technologies Co., Ltd', 'MA-L', 'NewH3CTechno', 'Access Point', '2020-01-23', '466 Changhe Road, Binjiang District Hangzhou Zhejiang CN 310052 ', 'IEEE+Wireshark+Nmap', 'New H3C Technologies Co., Ltd', 'current', NULL, NULL),
-  ('7C:89:C1', 'Palo Alto Networks', 'MA-L', 'PaloAltoNetw', 'Router', '2018-09-07', '3000 Tannery Way Santa Clara CA US 95054', 'IEEE+Wireshark+Nmap', 'Palo Alto Networks', 'current', NULL, NULL);
-
--- Batch 36 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('7C:89:C1', 'Palo Alto Networks', 'MA-L', 'PaloAltoNetw', 'Router', '2018-09-07', '3000 Tannery Way Santa Clara CA US 95054', 'IEEE+Wireshark+Nmap', 'Palo Alto Networks', 'current', NULL, NULL),
   ('84:D6:C5', 'SolarEdge', 'MA-L', 'SolarEdgeTec', 'Smart Home', '2020-01-30', '1 Abba Eban St. Herzelia  IL 46725', 'IEEE+Wireshark+Nmap', 'SolarEdge Technologies', 'current', NULL, NULL),
   ('38:F6:01', 'Solid State Storage Technology Corporation', 'MA-L', 'SolidStateSt', NULL, '2020-01-01', '21F, 392, Ruey Kuang Road, Neihu  Taipei  TW 11492 ', 'IEEE+Wireshark+Nmap', 'Solid State Storage Technology Corporation', 'current', NULL, NULL),
   ('10:70:FD', 'Mellanox Technologies', 'MA-L', 'MellanoxTech', 'Switch', '2020-01-22', '350 Oakmead Parkway, Suite 100  Sunnyvale CA US 94085 ', 'IEEE+Wireshark+Nmap', 'Mellanox Technologies, Inc.', 'current', NULL, NULL),
@@ -18104,7 +18128,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('D8:1C:79', 'Apple', 'MA-L', 'Apple', 'Phone', '2018-06-28', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
   ('58:E6:BA', 'Apple', 'MA-L', 'Apple', 'Phone', '2018-06-28', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
   ('24:84:98', 'Beijing Jiaoda Microunion Tech.Co.,Ltd.', 'MA-L', 'JiaodaMicrou', NULL, '2018-07-17', '4-5/F,89 Building, First Section No.44 Gaoliangqiao Xie Street, Haidian District, Beijing, China Beijing Beijing CN 100044 ', 'IEEE+Wireshark+Nmap', 'Beijing Jiaoda Microunion Tech.Co.,Ltd.', 'current', NULL, NULL),
-  ('6C:9B:C0', 'Chemoptics Inc.', 'MA-L', 'Chemoptics', NULL, '2018-07-07', '261, Techno 2-ro, Yuseong-gu Daejeon  KR 34026 ', 'IEEE+Wireshark+Nmap', 'Chemoptics Inc.', 'current', NULL, NULL),
+  ('6C:9B:C0', 'Chemoptics Inc.', 'MA-L', 'Chemoptics', NULL, '2018-07-07', '261, Techno 2-ro, Yuseong-gu Daejeon  KR 34026 ', 'IEEE+Wireshark+Nmap', 'Chemoptics Inc.', 'current', NULL, NULL);
+
+-- Batch 37 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('04:EB:40', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2018-06-14', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
   ('18:01:F1', 'Xiaomi', 'MA-L', 'XiaomiCommun', 'Phone', '2018-06-14', 'The Rainbow City of China Resources NO.68, Qinghe Middle Street Haidian District, Beijing CN 100085 ', 'IEEE+Wireshark+Nmap', 'Xiaomi Communications Co Ltd', 'current', NULL, NULL),
   ('C0:74:AD', 'Grandstream', 'MA-L', 'GrandstreamN', 'VoIP', '2018-06-26', '1297 Beacon Street Brookline MA US 02446', 'IEEE+Wireshark+Nmap', 'Grandstream Networks, Inc.', 'current', NULL, NULL),
@@ -18128,10 +18155,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:04:76', '3Com Corporation', 'MA-L', '3Com', 'Switch', '2000-11-23', '5400 Bayfront Plaza Santa Clara CA US 95052', 'IEEE+Wireshark+Nmap', '3COM', 'current', NULL, '3 Com Corporation | 3COM'),
   ('00:04:75', '3Com Corporation', 'MA-L', '3Com', 'Switch', '2000-11-23', '5400 Bayfront Plaza Santa Clara CA US 95052', 'IEEE+Wireshark+Nmap', '3COM', 'current', NULL, '3 Com Corporation | 3COM'),
   ('00:D0:96', '3COM EUROPE LTD', 'MA-L', '3ComEurope', 'Switch', '2000-09-08', 'BOUNDARY WAY vvvvv UNITED GB KINGDOM', 'IEEE+Wireshark+Nmap', '3COM EUROPE LTD', 'current', NULL, '3COM EUROPE LTD. | 3COM EUROPE LTD'),
-  ('30:09:F9', 'IEEE Registration Authority', 'MA-L', NULL, NULL, '2018-05-10', '445 Hoes Lane Piscataway NJ US 08554', 'IEEE+Nmap', 'IEEE Registration Authority', 'current', NULL, NULL);
-
--- Batch 37 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('30:09:F9', 'IEEE Registration Authority', 'MA-L', NULL, NULL, '2018-05-10', '445 Hoes Lane Piscataway NJ US 08554', 'IEEE+Nmap', 'IEEE Registration Authority', 'current', NULL, NULL),
   ('48:F0:27', 'Chengdu newifi Co.,Ltd', 'MA-L', 'newifi', 'Router', '2018-05-10', 'C11 Building 2001,No.219 ,2nd Tianhua Road,Hi-tech zone Chengdu Sichuan CN 610000 ', 'IEEE+Wireshark+Nmap', 'Chengdu newifi Co.,Ltd', 'current', NULL, NULL),
   ('B4:2E:99', 'GIGA-BYTE TECHNOLOGY CO.,LTD.', 'MA-L', 'GigaByteTech', 'Computer', '2018-05-12', 'Pin-Jen City, Taoyuan, Taiwan, R.O.C. Pin-Jen Taoyuan TW 324 ', 'IEEE+Wireshark+Nmap', 'GIGA-BYTE TECHNOLOGY CO.,LTD.', 'current', NULL, NULL),
   ('34:2C:C4', 'Compal', 'MA-L', 'CompalBroadb', NULL, '2018-05-12', '13F., No.1, Taiyuan 1st St. Zhubei City Hsinchu County TW 30265 ', 'IEEE+Wireshark+Nmap', 'Compal Broadband Networks, Inc.', 'current', NULL, NULL),
@@ -18607,7 +18631,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('EC:8A:4C', 'ZTE', 'MA-L', 'zte', 'Phone', '2014-03-27', '12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen  guangdong CN 518057 ', 'IEEE+Wireshark+Nmap', 'zte corporation', 'current', NULL, NULL),
   ('B8:D5:0B', 'JBL speaker ODMs (Jingxun, Sunitec, Honesty, Fihonest)', 'MA-L', 'SunitecEnter', NULL, '2016-12-21', '3F.,No.98-1,Mincyuan Rd.Sindian City Taipei County 231  CN 231141 ', 'IEEE+Wireshark+Nmap', 'Sunitec Enterprise Co.,Ltd', 'current', NULL, NULL),
   ('BC:66:DE', 'Shadow Creator Information Technology Co.,Ltd.', 'MA-L', 'ShadowCreato', 'Gaming', '2016-12-21', 'Shanghai City, Pudong New Area Zhangjiang road 368, Building 29, room 611  Shanghai Shanghai CN 200120 ', 'IEEE+Wireshark+Nmap', 'Shadow Creator Information Technology Co.,Ltd.', 'current', NULL, NULL),
-  ('2C:AB:EB', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2016-12-20', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
+  ('2C:AB:EB', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2016-12-20', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL);
+
+-- Batch 38 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('58:D9:D5', 'Tenda', 'MA-L', 'TendaTechnol', 'Router', '2016-12-13', 'Room 79,Yuanyi Road,Dalang Town,Dongguan Guangdong 523770 Dongguan Guangdong CN 523770 ', 'IEEE+Wireshark+Nmap', 'Tenda Technology Co.,Ltd.Dongguan branch', 'current', NULL, NULL),
   ('D4:5F:25', 'Shenzhen YOUHUA Technology Co., Ltd', 'MA-L', 'YOUHUATechno', NULL, '2016-12-23', 'Room 407 Shenzhen University-town Business Park,Lishan Road,Taoyuan Street,Nanshan District Shenzhen Guangdong CN 518055 ', 'IEEE+Wireshark+Nmap', 'Shenzhen YOUHUA Technology Co., Ltd', 'current', NULL, NULL),
   ('40:C8:CB', 'AM Telecom co., Ltd.', 'MA-L', 'AMTelecom', NULL, '2016-12-22', '#608,YatapLeaders B/D, Jangmi-ro 42, Bundang-gu Seongnam-si Gyeonggi-do KR 463-828 ', 'IEEE+Wireshark+Nmap', 'AM Telecom co., Ltd.', 'current', NULL, NULL),
@@ -18631,10 +18658,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('4C:74:BF', 'Apple', 'MA-L', 'Apple', 'Phone', '2016-12-02', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
   ('04:94:6B', 'TECNO MOBILE LIMITED', 'MA-L', 'TecnoMobile', 'Phone', '2016-12-02', 'ROOMS 05-15, 13A/F., SOUTH TOWER, WORLD FINANCE CENTRE, HARBOUR CITY, 17 CANTON ROAD, TSIM SHA TSUI, KOWLOON, HONG KONG Hong Kong Hong Kong HK 999077 ', 'IEEE+Wireshark+Nmap', 'TECNO MOBILE LIMITED', 'current', NULL, NULL),
   ('A0:4C:5B', 'Shenzhen TINNO Mobile Technology Corp.', 'MA-L', 'TINNOMobileT', 'Phone', '2016-12-02', 'Building, No.33, Xiandong Rd, Xili Nanshan District, Shenzhen PRC CN 518053 ', 'IEEE+Wireshark+Nmap', 'Shenzhen TINNO Mobile Technology Corp.', 'current', NULL, NULL),
-  ('F8:59:71', 'Intel', 'MA-L', 'Intel', 'Laptop', '2016-12-02', 'Lot 8, Jalan Hi-Tech 2/3 Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL);
-
--- Batch 38 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('F8:59:71', 'Intel', 'MA-L', 'Intel', 'Laptop', '2016-12-02', 'Lot 8, Jalan Hi-Tech 2/3 Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL),
   ('F4:E4:AD', 'ZTE', 'MA-L', 'zte', 'Phone', '2016-12-01', '12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen guangdong CN 518057 ', 'IEEE+Wireshark+Nmap', 'zte corporation', 'current', NULL, NULL),
   ('BC:02:4A', 'HMD Global (Nokia phones)', 'MA-L', 'HMDGlobal', 'Phone', '2016-11-23', 'Bertel Jungin aukio 9 Espoo  FI 02600', 'IEEE+Wireshark+Nmap', 'HMD Global Oy', 'current', NULL, NULL),
   ('94:99:01', 'Shenzhen YITOA Digital Appliance CO.,LTD', 'MA-L', 'YITOADigital', NULL, '2016-11-23', '5/F,Yitoa Building,Keji South Road 5th,Hi-tech Industrial Park,Nanshan District, shenzhen Guangdong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Shenzhen YITOA Digital Appliance CO.,LTD', 'current', NULL, NULL),
@@ -19110,7 +19134,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:24:7C', 'Nokia (mobile phones, legacy)', 'MA-L', 'NokiaDanmark', 'Router', '2008-12-07', 'Frederikskaj Copenhagen V  DK DK-1790', 'IEEE+Wireshark+Nmap', 'Nokia Danmark A/S', 'current', NULL, NULL),
   ('00:1A:89', 'Nokia (mobile phones, legacy)', 'MA-L', 'NokiaDanmark', 'Router', '2006-11-29', 'Frederikskaj Copenhagen V  DK DK-1790', 'IEEE+Wireshark+Nmap', 'Nokia Danmark A/S', 'current', NULL, NULL),
   ('00:1A:DC', 'Nokia (mobile phones, legacy)', 'MA-L', 'NokiaDanmark', 'Router', '2006-12-30', 'Frederikskaj Copenhagen V  DK DK-1790', 'IEEE+Wireshark+Nmap', 'Nokia Danmark A/S', 'current', NULL, NULL),
-  ('00:25:CF', 'Nokia (mobile phones, legacy)', 'MA-L', 'NokiaDanmark', 'Router', '2009-04-12', 'Frederikskaj Copenhagen V  DK DK-1790', 'IEEE+Wireshark+Nmap', 'Nokia Danmark A/S', 'current', NULL, NULL),
+  ('00:25:CF', 'Nokia (mobile phones, legacy)', 'MA-L', 'NokiaDanmark', 'Router', '2009-04-12', 'Frederikskaj Copenhagen V  DK DK-1790', 'IEEE+Wireshark+Nmap', 'Nokia Danmark A/S', 'current', NULL, NULL);
+
+-- Batch 39 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:21:AB', 'Nokia (mobile phones, legacy)', 'MA-L', 'NokiaDanmark', 'Router', '2008-06-18', 'Frederikskaj Copenhagen V  DK DK-1790', 'IEEE+Wireshark+Nmap', 'Nokia Danmark A/S', 'current', NULL, NULL),
   ('00:1F:DE', 'Nokia (mobile phones, legacy)', 'MA-L', 'NokiaDanmark', 'Router', '2008-02-09', 'Frederikskaj Copenhagen V  DK DK-1790', 'IEEE+Wireshark+Nmap', 'Nokia Danmark A/S', 'current', NULL, NULL),
   ('00:1F:DF', 'Nokia (mobile phones, legacy)', 'MA-L', 'NokiaDanmark', 'Router', '2008-02-09', 'Frederikskaj Copenhagen V  DK DK-1790', 'IEEE+Wireshark+Nmap', 'Nokia Danmark A/S', 'current', NULL, NULL),
@@ -19134,10 +19161,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('10:77:B1', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2013-02-10', '129, Samsung-ro, Youngtongl-Gu Suwon Gyeonggi-Do KR 16677 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, 'Samsung Electronics Co.,LTD | Samsung Electronics Co.,Ltd'),
   ('00:1F:C7', 'CASIO HITACHI Mobile Communications Co., Ltd.', 'MA-L', 'CasioHitachi', NULL, '2008-02-09', '2-229-1, Sakuragaoka Higashiyamato-shi Tokyo JP 207-8501 ', 'IEEE+Wireshark+Nmap', 'Casio Hitachi Mobile Communications Co., Ltd.', 'current', NULL, 'Casio Hitachi Mobile Comunications Co., Ltd. | Casio Hitachi Mobile Communications Co., Ltd.'),
   ('FC:C7:34', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2011-10-21', '#94-1,Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
-  ('84:25:DB', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2011-11-16', '#94-1,Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL);
-
--- Batch 39 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('84:25:DB', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2011-11-16', '#94-1,Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('B0:EC:71', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2011-12-02', '#94-1,Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('E4:58:B8', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2015-07-24', '#94-1,Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('08:8C:2C', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2015-07-24', '#94-1,Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
@@ -19613,7 +19637,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('D8:9A:34', 'Beijing SHENQI Technology Co., Ltd.', 'MA-L', 'SHENQITechno', 'Phone', '2015-03-04', 'No.6 Shang Di West Road  Haidian District Beijing CN 100085', 'IEEE+Wireshark+Nmap', 'Beijing SHENQI Technology Co., Ltd.', 'current', NULL, NULL),
   ('7C:F9:0E', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2015-03-04', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('38:2B:78', 'ECO PLUGS ENTERPRISE CO., LTD', 'MA-L', 'EcoPlugsEnte', 'Smart Home', '2015-03-28', '10F,-6, No.117, Sec.2, Zhongbei Rd., Zhongli Dist., Taoyuan Taiwan TW 32097 ', 'IEEE+Wireshark+Nmap', 'ECO PLUGS ENTERPRISE CO., LTD', 'current', NULL, NULL),
-  ('A4:7B:2C', 'Nokia', 'MA-L', 'Nokia', 'Router', '2015-03-27', '600 March Road Kanata Ontario CA K2K 2E6', 'IEEE+Wireshark+Nmap', 'Nokia', 'current', NULL, 'Alcatel-Lucent | Alcatel-Lucent Canada | Nokia'),
+  ('A4:7B:2C', 'Nokia', 'MA-L', 'Nokia', 'Router', '2015-03-27', '600 March Road Kanata Ontario CA K2K 2E6', 'IEEE+Wireshark+Nmap', 'Nokia', 'current', NULL, 'Alcatel-Lucent | Alcatel-Lucent Canada | Nokia');
+
+-- Batch 40 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('DC:DB:70', 'Tonfunk Systementwicklung und Service GmbH', 'MA-L', 'TonfunkSyste', NULL, '2015-03-26', 'Anger20 Falkenstein / Harz OT Ermsleben Sachsen-Anhalt DE 06463', 'IEEE+Wireshark+Nmap', 'Tonfunk Systementwicklung und Service GmbH', 'current', NULL, NULL),
   ('80:0B:51', 'Chengdu XGimi Technology Co.,Ltd', 'MA-L', 'XGimiTechnol', 'TV', '2015-03-25', '5F Building A7,Tianfu Software Park,Tianfu Chengdu Sichuan CN 610041 ', 'IEEE+Wireshark+Nmap', 'Chengdu XGimi Technology Co.,Ltd', 'current', NULL, NULL),
   ('34:81:F4', 'SST Taiwan', 'MA-L', 'SSTTaiwan', NULL, '2015-04-07', '5F, No. 5, Industry E Rd. VII, Hsin Chu, Taiwan TW 30077 ', 'IEEE+Wireshark+Nmap', 'SST Taiwan Ltd.', 'current', NULL, NULL),
@@ -19637,10 +19664,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('78:BD:BC', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2015-03-03', '129, Samsung-ro, Youngtongl-Gu Suwon Gyeonggi-Do KR 16677 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('28:76:10', 'IgniteNet', 'MA-L', 'IgniteNet', NULL, '2015-02-04', '1, Creation 3rd Rd. Hsinchu  TW 300 ', 'IEEE+Wireshark+Nmap', 'IgniteNet', 'current', NULL, NULL),
   ('74:6A:3A', 'Aperi Corporation', 'MA-L', 'Aperi', NULL, '2015-01-29', '360 Mobil Avenue Camarillo CA US 93010', 'IEEE+Wireshark+Nmap', 'Aperi Corporation', 'current', NULL, NULL),
-  ('94:A7:B7', 'ZTE', 'MA-L', 'zte', 'Phone', '2015-01-29', '12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen  guangdong CN 518057 ', 'IEEE+Wireshark+Nmap', 'zte corporation', 'current', NULL, NULL);
-
--- Batch 40 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('94:A7:B7', 'ZTE', 'MA-L', 'zte', 'Phone', '2015-01-29', '12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen  guangdong CN 518057 ', 'IEEE+Wireshark+Nmap', 'zte corporation', 'current', NULL, NULL),
   ('18:44:E6', 'ZTE', 'MA-L', 'zte', 'Phone', '2015-01-29', '12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen  guangdong CN 518057 ', 'IEEE+Wireshark+Nmap', 'zte corporation', 'current', NULL, NULL),
   ('48:50:73', 'Microsoft', 'MA-L', 'Microsoft', 'Laptop', '2015-02-26', '1 Microsoft Way Redmond Washington FI 98052', 'IEEE+Wireshark+Nmap', 'Microsoft Corporation', 'current', NULL, NULL),
   ('34:9B:5B', 'MAQUET GmbH', 'MA-L', 'Maquet', 'Medical', '2015-03-03', 'Kehler Strasse 31 Rastatt Baden-Württemberg DE 76437', 'IEEE+Wireshark+Nmap', 'Maquet GmbH', 'current', NULL, NULL),
@@ -20116,7 +20140,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:38:11', 'Siemens Mobility Limited', 'MA-L', 'SiemensMobil', 'Automotive', '2012-08-22', '17 Langley Park Way Chippenham Wiltshire GB SN15 1GG', 'IEEE+Wireshark+Nmap', 'Siemens Mobility Limited', 'current', NULL, 'Invensys Rail | Siemens Mobility Limited'),
   ('CC:4B:FB', 'Hellberg Safety AB', 'MA-L', 'HellbergSafe', 'Audio', '2012-08-18', 'Stakebergsvagen 2 Stenkullen  SE 44361', 'IEEE+Wireshark+Nmap', 'Hellberg Safety AB', 'current', NULL, NULL),
   ('6C:AD:EF', 'KZ Broadband Technologies, Ltd.', 'MA-L', 'KZBroadbandT', NULL, '2012-08-18', '1601 Tower C  Shenzhen Guangdong CN 518057', 'IEEE+Wireshark+Nmap', 'KZ Broadband Technologies, Ltd.', 'current', NULL, NULL),
-  ('74:5F:AE', 'TSL PPL', 'MA-L', 'TslPpl', 'Audio', '2012-08-17', 'Units 1-2, First Avenue Marlow Buckinghamshire GB SL7 1YA ', 'IEEE+Wireshark+Nmap', 'TSL PPL', 'current', NULL, NULL),
+  ('74:5F:AE', 'TSL PPL', 'MA-L', 'TslPpl', 'Audio', '2012-08-17', 'Units 1-2, First Avenue Marlow Buckinghamshire GB SL7 1YA ', 'IEEE+Wireshark+Nmap', 'TSL PPL', 'current', NULL, NULL);
+
+-- Batch 41 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('60:BD:91', 'Move Innovation', 'MA-L', 'MoveInnovati', NULL, '2012-08-24', 'Generatorvej 8B,st Herlev DK DK 2730 ', 'IEEE+Wireshark+Nmap', 'Move Innovation', 'current', NULL, NULL),
   ('68:51:B7', 'PowerCloud Systems, Inc.', 'MA-L', 'PowerCloud', 'Access Point', '2012-08-24', '3333 Coyote Hill Rd Palo Alto CA US 94304', 'IEEE+Wireshark+Nmap', 'PowerCloud Systems, Inc.', 'current', NULL, NULL),
   ('1C:95:9F', 'Veethree Electronics And Marine LLC', 'MA-L', 'VeethreeElec', 'Automotive', '2012-08-24', '2050 47th Terrace East Bradenton Florida US 34203', 'IEEE+Wireshark+Nmap', 'Veethree Electronics And Marine LLC', 'current', NULL, NULL),
@@ -20140,10 +20167,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('E8:5B:F0', 'Imaging Diagnostics', 'MA-L', 'ImagingDiagn', 'Medical', '2012-06-15', 'POB 698 Nes Ziona N/A IL 74106', 'IEEE+Wireshark+Nmap', 'Imaging Diagnostics', 'current', NULL, NULL),
   ('F8:22:85', 'Cypress Technology CO., LTD.', 'MA-L', 'CypressTechn', 'Audio', '2012-07-07', '6F-5, NO., 130 Jiankang Rd., Zhonghe Dist. New Taipei City TW 23585 ', 'IEEE+Wireshark+Nmap', 'Cypress Technology CO., LTD.', 'current', NULL, NULL),
   ('24:EE:3A', 'Chengdu Yingji Electronic Hi-tech Co Ltd', 'MA-L', 'YingjiElectr', 'Media Player', '2012-07-07', 'No.3 South Herui Road Hi-tech Zone Chengdu City Sichuan CN 611731', 'IEEE+Wireshark+Nmap', 'Chengdu Yingji Electronic Hi-tech Co Ltd', 'current', NULL, NULL),
-  ('0C:C6:6A', 'Nokia (mobile phones, legacy)', 'MA-L', 'Nokia', 'Router', '2012-07-07', 'Elektroniikkatie 10 Oulu  FI 90570', 'IEEE+Wireshark+Nmap', 'Nokia Corporation', 'current', NULL, NULL);
-
--- Batch 41 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('0C:C6:6A', 'Nokia (mobile phones, legacy)', 'MA-L', 'Nokia', 'Router', '2012-07-07', 'Elektroniikkatie 10 Oulu  FI 90570', 'IEEE+Wireshark+Nmap', 'Nokia Corporation', 'current', NULL, NULL),
   ('74:27:3C', 'ChangYang Technology (Nanjing) Co., LTD', 'MA-L', 'ChangYangTec', NULL, '2012-07-06', 'NO.9 KaiCheng Road,QiLinTown NanJing JiangSu CN 211100 ', 'IEEE+Wireshark+Nmap', 'ChangYang Technology (Nanjing) Co., LTD', 'current', NULL, NULL),
   ('08:7C:BE', 'Quintic Corp.', 'MA-L', 'Quintic', NULL, '2012-07-06', '1600 Wyatt Dr., #8 Santa Clara CA US 95054 ', 'IEEE+Wireshark+Nmap', 'Quintic Corp.', 'current', NULL, NULL),
   ('04:4A:50', 'Ramaxel Technology(Shenzhen) Limited', 'MA-L', 'RamaxelTechn', NULL, '2012-06-15', '2-5/F,North Block Southeast Industrial and Commercial Building Houhai Road,Shekou Shenzhen  shenzhen guangdong CN 518067 ', 'IEEE+Wireshark+Nmap', 'Ramaxel Technology (Shenzhen) limited company', 'current', NULL, NULL),
@@ -20619,7 +20643,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('C0:1E:9B', 'Pixavi AS', 'MA-L', 'PixaviAS', 'Phone', '2009-10-20', 'Dusavikveien 39 Stavanger  NO 4003', 'IEEE+Wireshark+Nmap', 'Pixavi AS', 'current', NULL, NULL),
   ('C4:E1:7C', 'U2S co.', 'MA-L', 'U2S', NULL, '2009-10-17', '104-706, SK Ventium Building, 522, Dangjeong-Dong Gunpo-si Geonggi-do KR 435-776 ', 'IEEE+Wireshark+Nmap', 'U2S co.', 'current', NULL, NULL),
   ('20:BF:DB', 'DVL', 'MA-L', 'Dvl', NULL, '2009-10-17', '21 Gradinilor Str Chisinau  MD MD2001', 'IEEE+Wireshark+Nmap', 'DVL', 'current', NULL, NULL),
-  ('44:83:12', 'Star-Net', 'MA-L', 'StarNet', NULL, '2009-11-04', 'Egoz 64  Kiryat Byalik Israel IL 27000', 'IEEE+Wireshark+Nmap', 'Star-Net', 'current', NULL, NULL),
+  ('44:83:12', 'Star-Net', 'MA-L', 'StarNet', NULL, '2009-11-04', 'Egoz 64  Kiryat Byalik Israel IL 27000', 'IEEE+Wireshark+Nmap', 'Star-Net', 'current', NULL, NULL);
+
+-- Batch 42 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('E0:AB:FE', 'Orb Networks, Inc.', 'MA-L', 'OrbNetworks', 'Storage', '2009-11-10', '428 13th Street Oakland CA US 94612', 'IEEE+Wireshark+Nmap', 'Orb Networks, Inc.', 'current', NULL, NULL),
   ('A0:5D:E7', 'DIRECTV, Inc.', 'MA-L', 'DIRECTV', 'Media Player', '2009-11-06', '2230 E. Imperial Hwy El Segundo CA US 90245', 'IEEE+Wireshark+Nmap', 'DIRECTV, Inc.', 'current', NULL, NULL),
   ('D0:E4:0B', 'Wearable Inc.', 'MA-L', 'Wearable', 'Wearable', '2009-09-29', '3825 Charles Dr. Northbrook IL US 60062', 'IEEE+Wireshark+Nmap', 'Wearable Inc.', 'current', NULL, NULL),
@@ -20643,10 +20670,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('DC:33:50', 'TechSAT GmbH', 'MA-L', 'TechSAT', 'Automotive', '2009-09-01', 'Gruber Str. 46c Poing BY DE 85586', 'IEEE+Wireshark+Nmap', 'TechSAT GmbH', 'current', NULL, NULL),
   ('E0:64:BB', 'DigiView S.r.l.', 'MA-L', 'DigiView', NULL, '2009-08-26', 'Via Senigallia 18/2 Milano  IT 20161', 'IEEE+Wireshark+Nmap', 'DigiView S.r.l.', 'current', NULL, NULL),
   ('68:AA:D2', 'DATECS LTD.,', 'MA-L', 'Datecs', 'IoT', '2009-08-25', 'BUL. TSARIGRADSKO SHOSSE 115A SOFIA  BG 1784', 'IEEE+Wireshark+Nmap', 'DATECS LTD.', 'current', NULL, NULL),
-  ('A4:DE:50', 'Total Walther GmbH', 'MA-L', 'TotalWalther', 'Smart Home', '2009-08-25', 'Frankfurter Ring 17 Munich  DE 80807', 'IEEE+Wireshark+Nmap', 'Total Walther GmbH', 'current', NULL, NULL);
-
--- Batch 42 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('A4:DE:50', 'Total Walther GmbH', 'MA-L', 'TotalWalther', 'Smart Home', '2009-08-25', 'Frankfurter Ring 17 Munich  DE 80807', 'IEEE+Wireshark+Nmap', 'Total Walther GmbH', 'current', NULL, NULL),
   ('D8:D6:7E', 'GSK CNC EQUIPMENT CO.,LTD', 'MA-L', 'GskCncEquipm', 'Industrial', '2009-08-21', 'No.7,1st Street,Luochong North Road,Luochongwei,No.7,1st Street,Luochong North Road,Luochongwei,No.7,1st Street,Luochong North Road,Luochongwei, Guangzhou Guangdong CN 510165 ', 'IEEE+Wireshark+Nmap', 'GSK CNC EQUIPMENT CO.,LTD', 'current', NULL, NULL),
   ('C4:AA:A1', 'SUMMIT DEVELOPMENT, spol.s r.o.', 'MA-L', 'SUMMITDEVELO', 'Access Point', '2009-09-09', 'K Vodoteci 197 Orech Praha-zapad CZ 252 25', 'IEEE+Wireshark+Nmap', 'SUMMIT DEVELOPMENT, spol.s r.o.', 'current', NULL, NULL),
   ('1C:F0:61', 'SCAPS GmbH', 'MA-L', 'SCAPS', 'Industrial', '2009-09-17', 'Bahnhofstraße 17 Deisenhofen Bavaria DE 82041', 'IEEE+Wireshark+Nmap', 'SCAPS GmbH', 'current', NULL, NULL),
@@ -21122,7 +21146,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:1A:85', 'NV Michel Van de Wiele', 'MA-L', 'NVMichelVand', 'Industrial', '2006-11-29', 'M. Vandewielestraat 7 Marke West-Vlaanderen BE 8510', 'IEEE+Wireshark+Nmap', 'NV Michel Van de Wiele', 'current', NULL, NULL),
   ('00:1A:64', 'IBM', 'MA-L', 'IBM', NULL, '2006-11-29', '3039 E Cornwallis Road Research Triangle Park NC US 27709-2195', 'IEEE+Wireshark+Nmap', 'IBM Corp', 'current', NULL, 'IBM Corp. | IBM Corp'),
   ('00:1A:55', 'ACA-Digital Corporation', 'MA-L', 'ACADigital', NULL, '2006-11-29', '17 F, No. 866-7, Chung Cheng Rd., Chung Ho City Taipei County TW 23586 ', 'IEEE+Wireshark+Nmap', 'ACA-Digital Corporation', 'current', NULL, NULL),
-  ('00:1A:1C', 'GT&T Engineering Pte Ltd', 'MA-L', 'GT&TEngineer', 'Smart Home', '2006-11-02', '2 Ang Mo Kio St.64, Econ Building, #04-00  Singapore SG 569084 ', 'IEEE+Wireshark+Nmap', 'GT&T Engineering Pte Ltd', 'current', NULL, NULL),
+  ('00:1A:1C', 'GT&T Engineering Pte Ltd', 'MA-L', 'GT&TEngineer', 'Smart Home', '2006-11-02', '2 Ang Mo Kio St.64, Econ Building, #04-00  Singapore SG 569084 ', 'IEEE+Wireshark+Nmap', 'GT&T Engineering Pte Ltd', 'current', NULL, NULL);
+
+-- Batch 43 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:1A:1F', 'Coastal Environmental Systems', 'MA-L', 'CoastalEnvir', 'Smart Home', '2006-11-02', '820 First Avenue South Seattle wa US 98134', 'IEEE+Wireshark+Nmap', 'Coastal Environmental Systems', 'current', NULL, NULL),
   ('00:1A:23', 'Ice Qube, Inc', 'MA-L', 'IceQube', 'Industrial', '2006-11-02', '141 Wilson Ave Greensburg Pa US 15601', 'IEEE+Wireshark+Nmap', 'Ice Qube, Inc', 'current', NULL, NULL),
   ('00:1A:1D', 'PChome Online Inc.', 'MA-L', 'PChomeOnline', NULL, '2006-11-02', '11F, 105, Sec. 2, Tun-Hwa S. Rd.  Taipei TW 106 ', 'IEEE+Wireshark+Nmap', 'PChome Online Inc.', 'current', NULL, NULL),
@@ -21146,10 +21173,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:19:A4', 'Austar Technology (hang zhou) Co.,Ltd', 'MA-L', 'AustarTechno', NULL, '2006-09-25', '7-402,West Lake Software Part Hang Zhou Zhe Jiang CN 310012 ', 'IEEE+Wireshark+Nmap', 'Austar Technology (hang zhou) Co.,Ltd', 'current', NULL, NULL),
   ('00:19:AA', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2006-09-25', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, 'Cisco Systems | CISCO SYSTEMS, INC. | Cisco Systems | CISCO SYSTEMS, INC. | Cisco Systems, Inc'),
   ('00:19:B1', 'Arrow7 Corporation', 'MA-L', 'Arrow7', 'Industrial', '2006-09-25', 'Kamijima 3-27-7 Hamamatsu Shizuoka JP 433-8122', 'IEEE+Wireshark+Nmap', 'Arrow7 Corporation', 'current', NULL, NULL),
-  ('00:19:96', 'TurboChef Technologies Inc.', 'MA-L', 'TurboChefTec', 'Appliance', '2006-09-25', '4240 International Parkway Carrollton Texas US 75007', 'IEEE+Wireshark+Nmap', 'TurboChef Technologies Inc.', 'current', NULL, NULL);
-
--- Batch 43 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:19:96', 'TurboChef Technologies Inc.', 'MA-L', 'TurboChefTec', 'Appliance', '2006-09-25', '4240 International Parkway Carrollton Texas US 75007', 'IEEE+Wireshark+Nmap', 'TurboChef Technologies Inc.', 'current', NULL, NULL),
   ('00:19:97', 'Soft Device Sdn Bhd', 'MA-L', 'SoftDeviceSd', NULL, '2006-09-25', '67-2 Jalan 2/27F Kuala Lumpur WP MY 53300', 'IEEE+Wireshark+Nmap', 'Soft Device Sdn Bhd', 'current', NULL, NULL),
   ('00:19:98', 'Sato Corp.', 'MA-L', 'Sato', 'Printer', '2006-09-25', '1-207,ONARI-CHO, SAITAMA-SHI SAITAMA JP 330-0852 ', 'IEEE+Wireshark+Nmap', 'SATO CORPORATION', 'current', NULL, NULL),
   ('00:19:9C', 'CTRING', 'MA-L', 'Ctring', 'Smart Home', '2006-09-25', '#514, World Meridian Venture Center II Keumcheon-gu Seoul KR 153-803 ', 'IEEE+Wireshark+Nmap', 'CTRING', 'current', NULL, NULL),
@@ -21625,7 +21649,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:0D:6E', 'K-Patents Oy', 'MA-L', 'KPatents', 'Industrial', '2003-06-01', 'P.O. Box 77 VANTAA FI FI 01511', 'IEEE+Wireshark+Nmap', 'K-Patents Oy', 'current', NULL, NULL),
   ('00:0D:A8', 'Teletronics Technology Corporation', 'MA-L', 'TeletronicsT', 'Automotive', '2003-07-23', '2525 Pearl Buck Road Bristol Pennsylvania US 19007', 'IEEE+Wireshark+Nmap', 'Teletronics Technology Corporation', 'current', NULL, NULL),
   ('00:0D:9E', 'TOKUDEN OHIZUMI SEISAKUSYO Co.,Ltd.', 'MA-L', 'TOKUDENOHIZU', NULL, '2003-07-23', 'Yoshida 1221 Ouragun Ohizumi Gunma JP 370-0523', 'IEEE+Wireshark+Nmap', 'TOKUDEN OHIZUMI SEISAKUSYO Co.,Ltd.', 'current', NULL, NULL),
-  ('00:0D:A3', 'Emerging Technologies Limited', 'MA-L', 'EmergingTech', NULL, '2003-07-23', 'Wong''s Industrial Centre, 180 Wai Yip St  Nil HK  ', 'IEEE+Wireshark+Nmap', 'Emerging Technologies Limited', 'current', NULL, NULL),
+  ('00:0D:A3', 'Emerging Technologies Limited', 'MA-L', 'EmergingTech', NULL, '2003-07-23', 'Wong''s Industrial Centre, 180 Wai Yip St  Nil HK  ', 'IEEE+Wireshark+Nmap', 'Emerging Technologies Limited', 'current', NULL, NULL);
+
+-- Batch 44 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:0D:A4', 'DOSCH & AMAND SYSTEMS AG', 'MA-L', 'DoschAmand', NULL, '2003-07-23', 'Scheinerstrasse 9 Munich Bavaria DE 81679', 'IEEE+Wireshark+Nmap', 'DOSCH & AMAND SYSTEMS AG', 'current', NULL, NULL),
   ('00:0D:9A', 'INFOTEC LTD', 'MA-L', 'Infotec', NULL, '2003-07-23', 'The Maltings Ashby-de-la-Zouch Leicestershire GB LE65 2PS', 'IEEE+Wireshark+Nmap', 'INFOTEC LTD', 'current', NULL, NULL),
   ('00:0D:C0', 'Spagat AS', 'MA-L', 'SpagatAS', NULL, '2003-07-23', 'Tonne Hutifeldtpl. 2 Halden Ostfold NO 1767', 'IEEE+Wireshark+Nmap', 'Spagat AS', 'current', NULL, NULL),
@@ -21649,10 +21676,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:0D:B4', 'Stormshield', 'MA-L', 'Stormshield', 'Router', '2003-07-23', '2-10 rue Marceau ISSY LES MOULINEAUX  FR 92130', 'IEEE+Wireshark+Nmap', 'Stormshield', 'current', NULL, 'NETASQ | Stormshield'),
   ('00:0C:CB', 'Design Combus Ltd', 'MA-L', 'DesignCombus', NULL, '2003-04-08', 'Hatanapaan valtatie 34A Tampere  FI FIN-33100', 'IEEE+Wireshark+Nmap', 'Design Combus Ltd', 'current', NULL, NULL),
   ('00:0C:C9', 'ILWOO DATA & TECHNOLOGY CO.,LTD', 'MA-L', 'IlwooDataTec', NULL, '2003-04-08', '1475-10,HWA HYUN BLD. 2nd Floor, SEOUL  KR 137-071 ', 'IEEE+Wireshark+Nmap', 'ILWOO DATA & TECHNOLOGY CO.,LTD', 'current', NULL, NULL),
-  ('00:0D:02', 'NEC Platforms, Ltd.', 'MA-L', 'NECPlatforms', 'Router', '2003-04-08', '800 Shimomata Kakegawa Shizuoka JP 436-8501', 'IEEE+Wireshark+Nmap', 'NEC Platforms, Ltd.', 'current', NULL, 'NEC Access Technica,Ltd | NEC AccessTechnica,Ltd | NEC AccessTechnica, Ltd. | NEC Platforms, Ltd.');
-
--- Batch 44 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:0D:02', 'NEC Platforms, Ltd.', 'MA-L', 'NECPlatforms', 'Router', '2003-04-08', '800 Shimomata Kakegawa Shizuoka JP 436-8501', 'IEEE+Wireshark+Nmap', 'NEC Platforms, Ltd.', 'current', NULL, 'NEC Access Technica,Ltd | NEC AccessTechnica,Ltd | NEC AccessTechnica, Ltd. | NEC Platforms, Ltd.'),
   ('00:0D:07', 'Calrec Audio Ltd', 'MA-L', 'CalrecAudio', 'Audio', '2003-04-08', 'Nutclough Mill Hebden Bridge West Yorkshire GB HX7 8EZ', 'IEEE+Wireshark+Nmap', 'Calrec Audio Ltd', 'current', NULL, NULL),
   ('00:0D:2F', 'AIN Comm.Tech.Co., LTD', 'MA-L', 'AINCommTech', 'Computer', '2003-04-25', '4F, No.76, Sec2 Mintzu Rd Jung-Li City  TW 320 ', 'IEEE+Wireshark+Nmap', 'AIN Comm.Tech.Co., LTD', 'current', NULL, NULL),
   ('00:0D:21', 'WISCORE Inc.', 'MA-L', 'WISCORE', NULL, '2003-04-25', '6F, No. 180, Sec. 2, Duenhua S. Rd, Taipei  TW 106 ', 'IEEE+Wireshark+Nmap', 'WISCORE Inc.', 'current', NULL, NULL),
@@ -22128,7 +22152,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:02:5B', 'Qualcomm', 'MA-L', 'CambridgeSil', NULL, '2000-09-08', 'Unit 400, Science Park,  United GB Kingdom ', 'IEEE+Wireshark+Nmap', 'Cambridge Silicon Radio', 'current', NULL, NULL),
   ('00:02:56', 'Alpha Processor, Inc.', 'MA-L', 'AlphaProcess', NULL, '2000-09-08', '130 C Baker Ave. Ext. Concord MA US 01742', 'IEEE+Wireshark+Nmap', 'Alpha Processor, Inc.', 'current', NULL, NULL),
   ('00:02:59', 'Tsann Kuen China (Shanghai)Enterprise Co., Ltd. IT Group', 'MA-L', 'TsannKuenChi', NULL, '2000-09-08', '8F, #99, Huaihai Rd, East,  CHINA CN 200021 ', 'IEEE+Wireshark+Nmap', 'Tsann Kuen China (Shanghai)Enterprise Co., Ltd. IT Group', 'current', NULL, NULL),
-  ('00:02:51', 'Soma Networks', 'MA-L', 'SomaNetworks', NULL, '2000-09-08', '650 Townsend St. San Francisco CA US 94103', 'IEEE+Wireshark+Nmap', 'Soma Networks, Inc.', 'current', NULL, 'Soma Networks | Soma Networks, Inc.'),
+  ('00:02:51', 'Soma Networks', 'MA-L', 'SomaNetworks', NULL, '2000-09-08', '650 Townsend St. San Francisco CA US 94103', 'IEEE+Wireshark+Nmap', 'Soma Networks, Inc.', 'current', NULL, 'Soma Networks | Soma Networks, Inc.');
+
+-- Batch 45 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:02:6A', 'Cocess Telecom Co., Ltd.', 'MA-L', 'CocessTeleco', NULL, '2000-09-08', 'Research & Development Dept. Seoul Seoul KR KOREA', 'IEEE+Wireshark+Nmap', 'Cocess Telecom Co., Ltd.', 'current', NULL, NULL),
   ('00:02:6C', 'Philips CFT', 'MA-L', 'PhilipsCFT', NULL, '2000-09-08', 'Building SAN 6  The NL', 'IEEE+Wireshark+Nmap', 'Philips CFT', 'current', NULL, NULL),
   ('00:02:62', 'Soyo Group Soyo Com Tech Co., Ltd', 'MA-L', 'SoyoGroupSoy', 'Computer', '2000-09-08', '5H. No. 21 Wu-gong 5 Rd, Taipei Hsien Taiwan TW R.O.C. ', 'IEEE+Wireshark+Nmap', 'Soyo Group Soyo Com Tech Co., Ltd', 'current', NULL, NULL),
@@ -22152,10 +22179,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:01:FD', 'Digital Voice Systems, Inc.', 'MA-L', 'DigitalVoice', NULL, '2000-09-08', '234 Littleton Road Westford MA US 01886', 'IEEE+Wireshark+Nmap', 'Digital Voice Systems, Inc.', 'current', NULL, NULL),
   ('00:01:EE', 'Comtrol Europe, Ltd.', 'MA-L', 'ComtrolEurop', 'Industrial', '2000-09-08', 'The Courtyard Studio   GB U.K.', 'IEEE+Wireshark+Nmap', 'Comtrol Europe, Ltd.', 'current', NULL, NULL),
   ('00:01:F0', 'Tridium', 'MA-L', 'Tridium', 'Industrial', '2000-09-08', '3951 Westerre Parkway Richmond VA US 23233', 'IEEE+Wireshark+Nmap', 'Tridium, Inc.', 'current', NULL, NULL),
-  ('00:01:F1', 'Innovative Concepts, Inc.', 'MA-L', 'InnovativeCo', 'IoT', '2000-09-08', '8200 Greensboro Drive McLean VA US 22102', 'IEEE+Wireshark+Nmap', 'Innovative Concepts, Inc.', 'current', NULL, NULL);
-
--- Batch 45 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:01:F1', 'Innovative Concepts, Inc.', 'MA-L', 'InnovativeCo', 'IoT', '2000-09-08', '8200 Greensboro Drive McLean VA US 22102', 'IEEE+Wireshark+Nmap', 'Innovative Concepts, Inc.', 'current', NULL, NULL),
   ('00:01:E2', 'Ando Electric Corporation', 'MA-L', 'AndoElectric', 'Industrial', '2000-09-08', '19-7, Kamata 4-Chrome, Ota-ku   JP  ', 'IEEE+Wireshark+Nmap', 'Ando Electric Corporation', 'current', NULL, NULL),
   ('00:02:2F', 'P-Cube, Ltd.', 'MA-L', 'PCube', 'Router', '2000-09-08', 'P.O. Box 12331   IL', 'IEEE+Wireshark+Nmap', 'P-Cube, Ltd.', 'current', NULL, NULL),
   ('00:02:27', 'ESD Electronic System Design GmbH', 'MA-L', 'ESDElectroni', NULL, '2000-09-08', 'Vahrenwalder Str. 207 30 165 Hannover DE', 'IEEE+Wireshark+Nmap', 'ESD Electronic System Design GmbH', 'current', NULL, 'ESD GmbH | ESD Electronic System Design GmbH'),
@@ -22342,7 +22366,6 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:50:39', 'MARINER NETWORKS', 'MA-L', 'MarinerNetwo', NULL, '2000-09-08', '1585 S. MANCHESTER AVE. ANAHEIM CA US 92802-2907', 'IEEE+Wireshark+Nmap', 'MARINER NETWORKS', 'current', NULL, NULL),
   ('00:50:95', 'Peracom Networks, Inc.', 'MA-L', 'PeracomNetwo', NULL, '2000-09-08', '13000 WESTON PARKWAY CARY NC US 27513', 'IEEE+Wireshark+Nmap', 'PERACOM NETWORKS', 'current', NULL, NULL),
   ('00:90:B9', 'BERAN INSTRUMENTS LTD.', 'MA-L', 'BeranInstrum', 'Industrial', '2000-09-08', 'HATCHMOOR INDUSTRIAL ESTATE N DEVON EX38 7HP  GB', 'IEEE+Wireshark+Nmap', 'BERAN INSTRUMENTS LTD.', 'current', NULL, NULL),
-  ('00:90:A5', 'SPECTRA LOGIC', 'MA-L', 'SpectraLogic', 'Storage', '2000-09-08', '1700 N. 55TH STREET BOULDER CO US 80301', 'IEEE+Wireshark+Nmap', 'SPECTRA LOGIC', 'current', NULL, NULL),
   ('00:90:A3', 'Corecess Inc.', 'MA-L', 'Corecess', 'Modem', '2000-09-08', '135-726, Keopyung B-Town 1F, 203, Nonhyu Seoul  KR  ', 'IEEE+Wireshark+Nmap', 'Corecess Inc.', 'current', NULL, 'MEDIALINCS CO., LTD. | Corecess Inc.'),
   ('00:90:1F', 'ADTEC PRODUCTIONS, INC.', 'MA-L', 'AdtecProduct', 'TV', '2000-09-08', '408 RUSSELL STREET NASHVILLE TN US 37206', 'IEEE+Wireshark+Nmap', 'ADTEC PRODUCTIONS, INC.', 'current', NULL, NULL),
   ('00:90:38', 'Fountain Technologies, Inc.', 'MA-L', 'FountainTech', NULL, '2000-09-08', '50 RANDOLPH ROAD SOMERSET NJ US 08873', 'IEEE+Wireshark+Nmap', 'FOUNTAIN TECHNOLOGIES, INC.', 'current', NULL, NULL),
@@ -22632,7 +22655,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:C0:B5', 'CORPORATE NETWORK SYSTEMS,INC.', 'MA-L', 'CorporateNet', NULL, '1998-04-22', '5711 SIX FORKS ROAD--STE #306 RALEIGH NC US 27609', 'IEEE+Wireshark+Nmap', 'CORPORATE NETWORK SYSTEMS,INC.', 'current', NULL, NULL),
   ('00:C0:4B', 'CREATIVE MICROSYSTEMS', 'MA-L', 'CreativeMicr', NULL, '1998-04-22', '9, AVENUE DU CANADA 91966 LES FR ULIS---FRANC ', 'IEEE+Wireshark+Nmap', 'CREATIVE MICROSYSTEMS', 'current', NULL, NULL),
   ('00:C0:B9', 'FUNK SOFTWARE, INC.', 'MA-L', 'FunkSoftware', NULL, '1998-04-22', '222 THIRD STREET CAMBRIDGE MA US 02142', 'IEEE+Wireshark+Nmap', 'FUNK SOFTWARE, INC.', 'current', NULL, NULL),
-  ('00:C0:15', 'New Media Corp.', 'MA-L', 'NewMedia', NULL, '1998-04-22', '15375 BARRANCA PARKWAY IRVINE CA US 92718', 'IEEE+Wireshark+Nmap', 'NEW MEDIA CORPORATION', 'current', NULL, NULL),
+  ('00:C0:15', 'New Media Corp.', 'MA-L', 'NewMedia', NULL, '1998-04-22', '15375 BARRANCA PARKWAY IRVINE CA US 92718', 'IEEE+Wireshark+Nmap', 'NEW MEDIA CORPORATION', 'current', NULL, NULL);
+
+-- Batch 46 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:C0:83', 'TRACE MOUNTAIN PRODUCTS, INC.', 'MA-L', 'TraceMountai', NULL, '2000-09-08', '1040 EAST BROKAW ROAD SAN JOSE CA US 95131', 'IEEE+Wireshark+Nmap', 'TRACE MOUNTAIN PRODUCTS, INC.', 'current', NULL, NULL),
   ('00:C0:94', 'VMX INC.', 'MA-L', 'Vmx', 'VoIP', '2000-09-08', '2115 O''NEL DRIVE SAN JOSE CA US 95131', 'IEEE+Wireshark+Nmap', 'VMX INC.', 'current', NULL, NULL),
   ('00:C0:F9', 'Artesyn Embedded Technologies', 'MA-L', 'ArtesynEmbed', NULL, '1998-04-22', '2900 S. Diablo Way Suite 190 Tempe AZ US 85282', 'IEEE+Wireshark+Nmap', 'Artesyn Embedded Technologies', 'current', NULL, 'HARRIS AND JEFFRIES, INC. | Motorola Embedded Computing Group | Emerson Network Power | Artesyn Embedded Technologies'),
@@ -22655,10 +22681,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:C0:61', 'SOLECTEK CORPORATION', 'MA-L', 'Solectek', 'Access Point', '1998-04-22', '6370 NANCY RIDGE DR.-STE.#109 SAN DIEGO CA US 92121', 'IEEE+Wireshark+Nmap', 'SOLECTEK CORPORATION', 'current', NULL, NULL),
   ('00:C0:AD', 'MARBEN COMMUNICATION SYSTEMS', 'MA-L', 'MarbenCommun', NULL, '1998-04-22', '1 RUE DU BOIS CHALAND   FR', 'IEEE+Wireshark+Nmap', 'MARBEN COMMUNICATION SYSTEMS', 'current', NULL, NULL),
   ('00:C0:7F', 'NUPON COMPUTING CORP.', 'MA-L', 'NuponComputi', NULL, '1998-04-22', '1391 WARNER AVE., -SUITE TUSTIN CA US 92680 ', 'IEEE+Wireshark+Nmap', 'NUPON COMPUTING CORP.', 'current', NULL, NULL),
-  ('00:C0:57', 'MYCO ELECTRONICS', 'MA-L', 'MycoElectron', NULL, '1998-04-22', 'MUSSERONGRAND 1G   SE', 'IEEE+Wireshark+Nmap', 'MYCO ELECTRONICS', 'current', NULL, NULL);
-
--- Batch 46 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:C0:57', 'MYCO ELECTRONICS', 'MA-L', 'MycoElectron', NULL, '1998-04-22', 'MUSSERONGRAND 1G   SE', 'IEEE+Wireshark+Nmap', 'MYCO ELECTRONICS', 'current', NULL, NULL),
   ('00:C0:56', 'SOMELEC', 'MA-L', 'Somelec', NULL, '1998-04-22', 'BP 7010 - 95050   FR', 'IEEE+Wireshark+Nmap', 'SOMELEC', 'current', NULL, NULL),
   ('00:C0:27', 'Cipher Systems Inc', 'MA-L', 'Cipher', NULL, '1998-04-22', '22115 NW Imbrie Dr #285 Hillsboro OR US 97124', 'IEEE+Wireshark+Nmap', 'CIPHER SYSTEMS, INC.', 'current', NULL, NULL),
   ('00:C0:5C', 'ELONEX PLC', 'MA-L', 'Elonex', 'Computer', '1998-04-22', '2 APSLEY WAY  UNITED GB KINGDOM', 'IEEE+Wireshark+Nmap', 'ELONEX PLC', 'current', NULL, NULL),
@@ -23135,7 +23158,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('20:DB:EA', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2024-05-08', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
   ('A0:47:9B', 'PROCITEC GmbH', 'MA-L', 'PROCITEC', NULL, '2024-05-09', 'Rastatter Str. 41 Pforzheim  DE 75179', 'IEEE+Wireshark+Nmap', 'PROCITEC GmbH', 'current', NULL, NULL),
   ('74:C9:0F', 'Microchip Technology', 'MA-L', 'MicrochipTec', 'IoT', '2024-05-11', '2355 W Chandler Blvd Chandler AZ US 85224-6199', 'IEEE+Wireshark+Nmap', 'Microchip Technologies Inc', 'current', NULL, NULL),
-  ('18:E2:04', 'BEIJING COOLSHARK TECHNOLOGY CO.,LTD.', 'MA-L', 'CoolsharkTec', NULL, '2024-05-21', 'B503,Zhongguancun Science and Technology Service Building, No.2 Guanzhuang Road Beijing Chaoyang District CN 100101 ', 'IEEE+Wireshark+Nmap', 'BEIJING COOLSHARK TECHNOLOGY CO.,LTD.', 'current', NULL, NULL),
+  ('18:E2:04', 'BEIJING COOLSHARK TECHNOLOGY CO.,LTD.', 'MA-L', 'CoolsharkTec', NULL, '2024-05-21', 'B503,Zhongguancun Science and Technology Service Building, No.2 Guanzhuang Road Beijing Chaoyang District CN 100101 ', 'IEEE+Wireshark+Nmap', 'BEIJING COOLSHARK TECHNOLOGY CO.,LTD.', 'current', NULL, NULL);
+
+-- Batch 47 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('2C:B7:A1', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2024-05-18', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
   ('6C:82:43', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2024-05-18', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
   ('B4:76:A4', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2024-05-18', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
@@ -23158,10 +23184,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('C4:B3:49', 'Apple', 'MA-L', 'Apple', 'Phone', '2024-06-14', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
   ('34:F6:8D', 'Apple', 'MA-L', 'Apple', 'Phone', '2024-06-14', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
   ('AC:B7:22', 'Qingdao Haier Technology Co.,Ltd', 'MA-L', 'QingdaoHaier', 'Appliance', '2024-06-11', 'Building C01,Haier Information Park,No.1 Haier Road Qingdao  CN 266101 ', 'IEEE+Wireshark+Nmap', 'Qingdao Haier Technology Co.,Ltd', 'current', NULL, NULL),
-  ('CC:27:46', 'Apple', 'MA-L', 'Apple', 'Phone', '2024-06-14', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL);
-
--- Batch 47 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('CC:27:46', 'Apple', 'MA-L', 'Apple', 'Phone', '2024-06-14', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
   ('28:59:23', 'Xiaomi', 'MA-L', 'XiaomiCommun', 'Phone', '2024-06-26', '#019, 9th Floor, Building 6, 33 Xi''erqi Middle Road Beijing Haidian District CN 100085 ', 'IEEE+Wireshark+Nmap', 'Xiaomi Communications Co Ltd', 'current', NULL, NULL),
   ('D0:CE:C0', 'Xiaomi', 'MA-L', 'XiaomiCommun', 'Phone', '2024-06-26', '#019, 9th Floor, Building 6, 33 Xi''erqi Middle Road Beijing Haidian District CN 100085 ', 'IEEE+Wireshark+Nmap', 'Xiaomi Communications Co Ltd', 'current', NULL, NULL),
   ('0C:01:A5', 'ZTE', 'MA-L', 'zte', 'Phone', '2024-06-18', '12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen  guangdong CN 518057 ', 'IEEE+Wireshark+Nmap', 'zte corporation', 'current', NULL, NULL),
@@ -23638,7 +23661,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('FC:39:5A', 'SonicWall', 'MA-L', 'SonicWall', 'Router', '2025-05-31', '1033 McCarthy Blvd Milpitas CA US 95035', 'IEEE+Wireshark+Nmap', 'SonicWall', 'current', NULL, NULL),
   ('0C:FE:7B', 'Vantiva (Technicolor)', 'MA-L', 'VantivaUSA', 'Router', '2025-05-30', '4855 Peachtree Industrial Blvd, Suite 200 Norcross GA US 30902 ', 'IEEE+Wireshark+Nmap', 'Vantiva USA LLC', 'current', NULL, NULL),
   ('B0:D5:FB', 'Google', 'MA-L', 'Google', 'Router', '2025-06-03', '1600 Amphitheatre Parkway Mountain View CA US 94043', 'IEEE+Wireshark+Nmap', 'Google, Inc.', 'current', NULL, NULL),
-  ('48:D0:1C', 'AltoBeam', 'MA-L', 'AltoBeam', NULL, '2025-06-03', 'B808, Tsinghua Tongfang Hi-Tech Plaza, Haidian Beijing Beijing CN 100083 ', 'IEEE+Wireshark+Nmap', 'AltoBeam Inc.', 'current', NULL, NULL),
+  ('48:D0:1C', 'AltoBeam', 'MA-L', 'AltoBeam', NULL, '2025-06-03', 'B808, Tsinghua Tongfang Hi-Tech Plaza, Haidian Beijing Beijing CN 100083 ', 'IEEE+Wireshark+Nmap', 'AltoBeam Inc.', 'current', NULL, NULL);
+
+-- Batch 48 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('58:7A:B1', 'Shanghai Lixun Information Technology Co., Ltd.', 'MA-L', 'LixunInforma', NULL, '2025-05-29', 'Room 2111-L, No. 89 Yunling East Road Putuo District Shanghai CN 200333 ', 'IEEE+Wireshark+Nmap', 'Shanghai Lixun Information Technology Co., Ltd.', 'current', NULL, NULL),
   ('04:B5:C1', 'ITEL MOBILE LIMITED', 'MA-L', 'ItelMobile', 'Phone', '2025-05-30', 'RM B3 & B4 BLOCK B, KO FAI INDUSTRIAL BUILDING  NO.7 KO FAI ROAD, YAU TONG, KLN, H.K Hong Kong KOWLOON HK 999077 ', 'IEEE+Wireshark+Nmap', 'ITEL MOBILE LIMITED', 'current', NULL, NULL),
   ('28:C9:7A', 'New H3C Technologies Co., Ltd', 'MA-L', 'NewH3CTechno', 'Access Point', '2025-05-28', '466 Changhe Road, Binjiang District Hangzhou Zhejiang CN 310052 ', 'IEEE+Wireshark+Nmap', 'New H3C Technologies Co., Ltd', 'current', NULL, NULL),
@@ -23661,10 +23687,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('A8:6D:04', 'Siemens AG', 'MA-L', 'Siemens', 'Industrial', '2025-05-30', 'Hermann-Papst-Strasse 1  St. Georgen  DE 78112', 'IEEE+Wireshark+Nmap', 'Siemens AG', 'current', NULL, 'ebm-papst St. Georgen GmbH & Co. KG | Siemens AG'),
   ('4C:46:D1', 'Guangzhou V-Solution Telecommunication Technology Co.,Ltd.', 'MA-L', 'GuangzhouVSo', 'Modem', '2025-06-27', '601,Building B2,No.162,Science Avenue,Science City,Guangzhou High-tech Industrial Development Zone,Guangdong Province,China Guangzhou Guangdong CN 510663 ', 'IEEE+Wireshark+Nmap', 'Guangzhou V-Solution Telecommunication Technology Co.,Ltd.', 'current', NULL, NULL),
   ('DC:70:35', 'Shengzhen Gongjin Electronics', 'MA-L', 'ShengzhenGon', NULL, '2025-06-30', 'No. 2 Danzi North Road, Kengzi Street, Pingshan District Shenzhen Guangdong CN 518122 ', 'IEEE+Wireshark+Nmap', 'Shengzhen Gongjin Electronics', 'current', NULL, NULL),
-  ('EC:ED:04', 'Intel', 'MA-L', 'Intel', 'Laptop', '2025-07-02', 'Lot 8, Jalan Hi-Tech 2/3   Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL);
-
--- Batch 48 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('EC:ED:04', 'Intel', 'MA-L', 'Intel', 'Laptop', '2025-07-02', 'Lot 8, Jalan Hi-Tech 2/3   Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL),
   ('9C:97:1B', 'Intel', 'MA-L', 'Intel', 'Laptop', '2025-07-02', 'Lot 8, Jalan Hi-Tech 2/3   Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL),
   ('F8:CF:52', 'Intel', 'MA-L', 'Intel', 'Laptop', '2025-07-02', 'Lot 8, Jalan Hi-Tech 2/3   Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL),
   ('5C:67:83', 'Intel', 'MA-L', 'Intel', 'Laptop', '2025-07-02', 'Lot 8, Jalan Hi-Tech 2/3   Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL),
@@ -24141,7 +24164,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('B8:1F:3F', 'Espressif', 'MA-L', 'Espressif', 'IoT', '2026-05-11', 'Vistra Corporate Services Centre, Wickhams Cay II Road Town Tortola VG VG1110 ', 'IEEE+Wireshark', 'Espressif Inc.', 'current', NULL, NULL),
   ('90:DA:72', 'Espressif', 'MA-L', 'Espressif', 'IoT', '2026-05-11', 'Vistra Corporate Services Centre, Wickhams Cay II Road Town Tortola VG VG1110 ', 'IEEE+Wireshark', 'Espressif Inc.', 'current', NULL, NULL),
   ('48:CA:43', 'Espressif', 'MA-L', 'Espressif', 'IoT', '2023-12-29', 'Vistra Corporate Services Centre, Wickhams Cay II Road Town Tortola VG VG1110 ', 'IEEE+Wireshark+Nmap', 'Espressif Inc.', 'current', NULL, NULL),
-  ('E8:06:90', 'Espressif', 'MA-L', 'Espressif', 'IoT', '2024-03-29', 'Vistra Corporate Services Centre, Wickhams Cay II Road Town Tortola VG VG1110 ', 'IEEE+Wireshark+Nmap', 'Espressif Inc.', 'current', NULL, NULL),
+  ('E8:06:90', 'Espressif', 'MA-L', 'Espressif', 'IoT', '2024-03-29', 'Vistra Corporate Services Centre, Wickhams Cay II Road Town Tortola VG VG1110 ', 'IEEE+Wireshark+Nmap', 'Espressif Inc.', 'current', NULL, NULL);
+
+-- Batch 49 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('34:CD:B0', 'Espressif', 'MA-L', 'Espressif', 'IoT', '2024-05-11', 'Vistra Corporate Services Centre, Wickhams Cay II Road Town Tortola VG VG1110 ', 'IEEE+Wireshark+Nmap', 'Espressif Inc.', 'current', NULL, NULL),
   ('14:33:5C', 'Espressif', 'MA-L', 'Espressif', 'IoT', '2024-12-31', 'Vistra Corporate Services Centre, Wickhams Cay II Road Town Tortola VG VG1110 ', 'IEEE+Wireshark+Nmap', 'Espressif Inc.', 'current', NULL, NULL),
   ('98:88:E0', 'Espressif', 'MA-L', 'Espressif', 'IoT', '2024-12-31', 'Vistra Corporate Services Centre, Wickhams Cay II Road Town Tortola VG VG1110 ', 'IEEE+Wireshark+Nmap', 'Espressif Inc.', 'current', NULL, NULL),
@@ -24164,10 +24190,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('38:16:B3', 'HP Inc.', 'MA-L', 'HP', 'Printer', '2026-06-17', '10300 Energy Dr Spring TX US 77389', 'IEEE+Wireshark', 'HP Inc.', 'current', NULL, NULL),
   ('44:66:90', 'TP-Link', 'MA-L', 'TpLinkTechno', 'Router', '2026-01-06', '2-7th floors of South Building and 3-11th floors of North Building, No. 396, Jucai Road, Changhe Street, Binjiang District Hangzhou City Zhejiang Province, CN 310000 ', 'IEEE+Wireshark+Nmap', 'TP-LINK TECHNOLOGIES CO.,LTD.', 'current', NULL, NULL),
   ('80:EA:07', 'TP-Link', 'MA-L', 'TpLinkTechno', 'Router', '2020-05-02', '2-7th floors of South Building and 3-11th floors of North Building, No. 396, Jucai Road, Changhe Street, Binjiang District Hangzhou City Zhejiang Province, CN 310000 ', 'IEEE+Wireshark+Nmap', 'TP-LINK TECHNOLOGIES CO.,LTD.', 'current', NULL, NULL),
-  ('50:D4:F7', 'TP-Link', 'MA-L', 'TpLinkTechno', 'Router', '2019-03-27', '2-7th floors of South Building and 3-11th floors of North Building, No. 396, Jucai Road, Changhe Street, Binjiang District Hangzhou City Zhejiang Province, CN 310000 ', 'IEEE+Wireshark+Nmap', 'TP-LINK TECHNOLOGIES CO.,LTD.', 'current', NULL, NULL);
-
--- Batch 49 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('50:D4:F7', 'TP-Link', 'MA-L', 'TpLinkTechno', 'Router', '2019-03-27', '2-7th floors of South Building and 3-11th floors of North Building, No. 396, Jucai Road, Changhe Street, Binjiang District Hangzhou City Zhejiang Province, CN 310000 ', 'IEEE+Wireshark+Nmap', 'TP-LINK TECHNOLOGIES CO.,LTD.', 'current', NULL, NULL),
   ('9C:BC:A6', 'HPE Aruba Networking', 'MA-L', 'HewlettPacka', 'Access Point', '2026-06-16', '6280 America Center Dr San Jose CA US 95002', 'IEEE+Wireshark', 'Hewlett Packard Enterprise', 'current', NULL, NULL),
   ('28:80:6E', 'Pirelli Tyre S.P.A.', 'MA-L', 'PirelliTyre', NULL, '2026-06-16', 'Via Piero e Alberto Pirelli 25 Milan Lombardia IT 20126', 'IEEE+Wireshark', 'Pirelli Tyre S.p.A.', 'current', NULL, NULL),
   ('68:2E:3C', 'Ubiquiti', 'MA-L', 'Ubiquiti', 'Access Point', '2026-06-17', '685 Third Avenue, 27th Floor New York NY US New York NY 10017 ', 'IEEE+Wireshark', 'Ubiquiti Inc', 'current', NULL, NULL),
@@ -24411,12 +24434,27 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('34:23:8E', 'eero', 'MA-L', 'eero', 'Router', '2026-11-03', '660 3rd Street  San Francisco CA US 94107', 'IEEE+Wireshark', 'eero inc.', 'current', NULL, NULL),
   ('9C:AD:E0', 'Intel', 'MA-L', 'Intel', 'Laptop', '2026-10-29', 'Lot 8, Jalan Hi-Tech 2/3   Kulim Kedah MY 09000 ', 'IEEE+Wireshark', 'Intel Corporate', 'current', NULL, NULL),
   ('94:FC:9A', 'Google', 'MA-L', 'Google', 'Router', '2026-10-30', '1600 Amphitheatre Parkway Mountain View  US 94043', 'IEEE+Wireshark', 'Google, Inc.', 'current', NULL, NULL),
-  ('28:1F:81', 'SOXAI Inc.', 'MA-L', NULL, NULL, '2026-11-10', '1102, Chuo Dai-6 Kannai Building 1-2-1 Furocho, Naka-ku Yokohama Kanagawa JP 231-0032 ', 'IEEE', 'SOXAI Inc.', 'current', NULL, NULL),
+  ('28:1F:81', 'SOXAI Inc.', 'MA-L', 'SOXAI', NULL, '2026-11-10', '1102, Chuo Dai-6 Kannai Building 1-2-1 Furocho, Naka-ku Yokohama Kanagawa JP 231-0032 ', 'IEEE+Wireshark', 'SOXAI Inc.', 'current', NULL, NULL),
   ('B0:7E:F4', 'Hangzhou HikAuto Technology Co., Ltd.', 'MA-L', 'HikAutoTechn', NULL, '2026-11-06', 'No. 399 Danfeng Road, Xixing Subdistrict, Binjiang District, Hangzhou, Zhejiang, China  Hangzhou Zhejiang CN 310052 ', 'IEEE+Wireshark', 'Hangzhou HikAuto Technology Co., Ltd.', 'current', NULL, NULL),
   ('68:D7:70', 'IoTronix Technologies Sdn. Bhd.', 'MA-L', 'IoTronixTech', NULL, '2026-11-06', 'No. 85A, Lintang Bayan Lepas 11, Bayan Lepas Industri Park, Phase IV. Bayan Lepas Penang MY 11900 ', 'IEEE+Wireshark', 'IoTronix Technologies Sdn. Bhd.', 'current', NULL, NULL),
   ('88:54:E0', 'Xiaomi', 'MA-L', 'XiaomiCommun', 'Phone', '2026-11-06', '#019, 9th Floor, Building 6, 33 Xi''erqi Middle Road Beijing Haidian District CN 100085 ', 'IEEE+Wireshark', 'Xiaomi Communications Co Ltd', 'current', NULL, NULL),
-  ('20:99:EC', '1AN Inc.', 'MA-L', NULL, NULL, '2026-11-10', '405, Busan Knowledge Industry Center Uam, 2, Sinseon-ro, Nam-gu Busan  KR 48480 ', 'IEEE', '1AN Inc.', 'current', NULL, NULL),
+  ('20:99:EC', '1AN Inc.', 'MA-L', '1AN', NULL, '2026-11-10', '405, Busan Knowledge Industry Center Uam, 2, Sinseon-ro, Nam-gu Busan  KR 48480 ', 'IEEE+Wireshark', '1AN Inc.', 'current', NULL, NULL),
   ('88:B8:F7', 'NVIDIA', 'MA-L', 'NVIDIA', 'Computer', '2026-11-06', '2701 San Tomas Expressway Santa Clara  US 95050', 'IEEE+Wireshark', 'NVIDIA Corporation', 'current', NULL, NULL),
+  ('34:79:DF', 'Dell', 'MA-L', 'Dell', 'Laptop', '2026-11-14', 'One Dell Way Round Rock  TX US 78682', 'IEEE+Wireshark', 'Dell Inc.', 'current', NULL, NULL),
+  ('10:D6:05', 'Fn-Link', 'MA-L', 'FNLINKTECHNO', NULL, '2026-11-14', 'No.8, Litong Road, Liuyang Economic & Technical Development Zone, Changsha, Hunan,China Changsha Hunan CN 410329 ', 'IEEE+Wireshark', 'FN-LINK TECHNOLOGY Ltd.', 'current', NULL, NULL),
+  ('74:8B:7F', 'Skullcandy', 'MA-L', 'Skullcandy', 'Audio', '2026-11-13', '1441 Ute blvd. Park City  US 84098', 'IEEE+Wireshark', 'Skullcandy', 'current', NULL, NULL),
+  ('58:9D:44', 'Raycon', 'MA-L', 'Raycon', 'Audio', '2026-11-13', '1115 Broadway, Suite 12 New York NY US 10010 ', 'IEEE+Wireshark', 'Raycon', 'current', NULL, NULL),
+  ('14:A0:7D', 'Microchip Technology', 'MA-L', 'MicrochipTec', 'IoT', '2026-11-12', '2355 W. Chandler Blvd. Chandler AZ US 85224', 'IEEE+Wireshark', 'Microchip Technology Inc.', 'current', NULL, NULL),
+  ('B8:CD:2B', 'eero', 'MA-L', 'eero', 'Router', '2026-11-12', '660 3rd Street  San Francisco CA US 94107', 'IEEE+Wireshark', 'eero inc.', 'current', NULL, NULL),
+  ('B8:E3:BF', 'ZTE', 'MA-L', NULL, 'Phone', '2026-11-16', '12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen  guangdong CN 518057 ', 'IEEE', 'zte corporation', 'current', NULL, NULL),
+  ('78:E0:4D', 'Sony Interactive Entertainment', 'MA-L', 'SonyInteract', 'Gaming', '2026-11-12', '1-7-1 Konan Minato-ku Tokyo JP 108-0075', 'IEEE+Wireshark', 'Sony Interactive Entertainment Inc.', 'current', NULL, NULL),
+  ('5C:6C:BB', 'IEEE Registration Authority', 'MA-L', NULL, NULL, '2026-11-12', '445 Hoes Lane Piscataway NJ US 08554', 'IEEE', 'IEEE Registration Authority', 'current', NULL, NULL),
+  ('00:90:A5', 'SPECTRA LOGIC', 'MA-L', 'SpectraLogic', 'Storage', '2000-09-08', '6285 Lookout RD  Boulder CO US 80301', 'IEEE+Wireshark+Nmap', 'SPECTRA LOGIC', 'current', NULL, NULL),
+  ('F8:35:F5', 'Foxconn (Hon Hai)', 'MA-L', NULL, NULL, '2026-11-17', 'B22 Building,NO.51 Tongle Road, Shajing Town, Jiangnan District, Nanning, Guangxi Province, China Nanning Guangxi CN 530007 ', 'IEEE', 'CLOUD NETWORK TECHNOLOGY SINGAPORE PTE. LTD.', 'current', NULL, NULL),
+  ('F4:DE:4D', 'Nanjing Qinheng Microelectronics Co., Ltd.', 'MA-L', NULL, NULL, '2026-11-20', 'No.18, Ningshuang Road  Nanjing Jiangsu CN 210012 ', 'IEEE', 'Nanjing Qinheng Microelectronics Co., Ltd.', 'current', NULL, NULL),
+  ('A0:75:66', 'Cirrus Logic International Semiconductor Ltd', 'MA-L', NULL, NULL, '2026-11-20', '7b Nightingale Way Edinburgh  GB EH39EG', 'IEEE', 'Cirrus Logic International Semiconductor Ltd', 'current', NULL, NULL),
+  ('6C:D4:41', 'Tech4home, Lda', 'MA-L', NULL, 'Media Player', '2026-11-20', 'Rua de Fundoes N151 Sao Joao da Madeira Aveiro PT 3700-121', 'IEEE', 'Tech4home, Lda', 'current', NULL, NULL),
+  ('5C:57:9B', 'Cisco Meraki', 'MA-L', NULL, 'Access Point', '2026-11-20', '500 Terry A. Francois Blvd San Francisco  US 94158', 'IEEE', 'Cisco Meraki', 'current', NULL, NULL),
   ('B0:0C:9D', 'Quectel', 'MA-L', 'QuectelWirel', NULL, '2023-07-14', '7th Floor, Hongye Building, No.1801 Hongmei Road, Xuhui District Shanghai  CN 200233 ', 'IEEE+Wireshark+Nmap', 'Quectel Wireless Solutions Co.,Ltd.', 'current', NULL, NULL),
   ('F0:AB:1F', 'ZTE', 'MA-L', 'zte', 'Phone', '2023-07-13', '12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen  guangdong CN 518057 ', 'IEEE+Wireshark+Nmap', 'zte corporation', 'current', NULL, NULL),
   ('7C:B3:0A', 'ZTE', 'MA-L', 'zte', 'Phone', '2023-07-13', '12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen  guangdong CN 518057 ', 'IEEE+Wireshark+Nmap', 'zte corporation', 'current', NULL, NULL),
@@ -24629,7 +24667,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('18:A9:9B', 'Dell', 'MA-L', 'Dell', 'Laptop', '2013-06-04', 'One Dell Way Round Rock TX US 78682', 'IEEE+Wireshark+Nmap', 'Dell Inc.', 'current', NULL, 'Dell Inc PCBA Test | Dell Inc | Dell Inc.'),
   ('F8:BC:12', 'Dell', 'MA-L', 'Dell', 'Laptop', '2013-08-29', 'One Dell Way Round Rock TX US 78682', 'IEEE+Wireshark+Nmap', 'Dell Inc.', 'current', NULL, 'Dell Inc PCBA Test | Dell Inc | Dell Inc.'),
   ('00:20:67', 'Private (undisclosed IEEE registrant)', 'MA-L', 'Private', NULL, '2000-11-23', '', 'IEEE+Wireshark+Nmap', 'Private', 'current', NULL, 'PRIVATE | IEEE Registration Authority | Private'),
-  ('AC:DE:48', 'Private (undisclosed IEEE registrant)', 'MA-L', 'Private', NULL, '2001-10-24', '', 'IEEE+Wireshark+Nmap', 'Private', 'current', NULL, 'IEEE Registration Authority | PRIVATE'),
+  ('AC:DE:48', 'Private (undisclosed IEEE registrant)', 'MA-L', 'Private', NULL, '2001-10-24', '', 'IEEE+Wireshark+Nmap', 'Private', 'current', NULL, 'IEEE Registration Authority | PRIVATE');
+
+-- Batch 50 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:50:C7', 'Private (undisclosed IEEE registrant)', 'MA-L', 'Private', NULL, '2015-08-30', '', 'IEEE+Wireshark+Nmap', 'Private', 'current', NULL, NULL),
   ('E8:65:5F', 'Dell', 'MA-L', 'Dell', 'Laptop', '2022-09-02', 'One Dell Way Round Rock  TX US 78682', 'IEEE+Wireshark+Nmap', 'Dell Inc.', 'current', NULL, NULL),
   ('E8:B2:65', 'Dell', 'MA-L', 'Dell', 'Laptop', '2022-09-29', 'One Dell Way Round Rock  TX US 78682', 'IEEE+Wireshark+Nmap', 'Dell Inc.', 'current', NULL, NULL),
@@ -24667,10 +24708,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('34:17:EB', 'Dell', 'MA-L', 'Dell', 'Laptop', '2013-11-16', 'One Dell Way Round Rock TX US 78682', 'IEEE+Wireshark+Nmap', 'Dell Inc.', 'current', NULL, 'Dell Inc PCBA Test | Dell Inc | Dell Inc.'),
   ('B0:83:FE', 'Dell', 'MA-L', 'Dell', 'Laptop', '2014-04-05', 'One Dell way Round Rock  US 78682', 'IEEE+Wireshark+Nmap', 'Dell Inc.', 'current', NULL, 'Dell Inc | Dell Inc.'),
   ('94:CB:CD', 'ZTE', 'MA-L', 'zte', 'Phone', '2023-01-13', '12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen  guangdong CN 518057 ', 'IEEE+Wireshark+Nmap', 'zte corporation', 'current', NULL, NULL),
-  ('80:5F:8E', 'Huizhou BYD Electronic Co., Ltd.', 'MA-L', 'HuizhouBYDEl', NULL, '2023-01-13', 'Xiangshui River, Economic Development Zone, Daya Bay, Huizhou, Guangdong, China Huizhou Guangdong CN 516000 ', 'IEEE+Wireshark+Nmap', 'Huizhou BYD Electronic Co., Ltd.', 'current', NULL, NULL);
-
--- Batch 50 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('80:5F:8E', 'Huizhou BYD Electronic Co., Ltd.', 'MA-L', 'HuizhouBYDEl', NULL, '2023-01-13', 'Xiangshui River, Economic Development Zone, Daya Bay, Huizhou, Guangdong, China Huizhou Guangdong CN 516000 ', 'IEEE+Wireshark+Nmap', 'Huizhou BYD Electronic Co., Ltd.', 'current', NULL, NULL),
   ('A8:3A:79', 'Juniper Mist', 'MA-L', 'Mist', 'Access Point', '2023-01-12', '1601 South De Anza Blvd, Suite 248 Cupertino CA US 95014 ', 'IEEE+Wireshark+Nmap', 'Mist Systems, Inc.', 'current', NULL, NULL),
   ('54:88:FE', 'Xiaoniu network technology (Shanghai) Co., Ltd.', 'MA-L', 'Xiaoniunetwo', 'Automotive', '2023-01-19', 'Room 706, building 3, no.20 east road, jingan district. Shang hai  CN 200040 ', 'IEEE+Wireshark+Nmap', 'Xiaoniu network technology (Shanghai) Co., Ltd.', 'current', NULL, NULL),
   ('F4:D5:80', 'Yamaha Corp.', 'MA-L', 'Yamaha', 'Audio', '2023-01-19', '10-1 Nakazawa-cho, Naka-ku Hamamatsu Shizuoka JP 430-8650 ', 'IEEE+Wireshark+Nmap', 'YAMAHA CORPORATION', 'current', NULL, NULL),
@@ -25132,7 +25170,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('A0:92:08', 'Tuya', 'MA-L', 'TuyaSmart', 'Smart Home', '2021-11-18', '160 Greentree Drive, Suite 101 Dover DE US 19904 ', 'IEEE+Wireshark+Nmap', 'Tuya Smart Inc.', 'current', NULL, NULL),
   ('F4:B8:98', 'Texas Instruments', 'MA-L', 'TexasInstrum', 'IoT', '2021-11-13', '12500 TI Blvd Dallas TX US 75243', 'IEEE+Wireshark+Nmap', 'Texas Instruments', 'current', NULL, NULL),
   ('B0:D2:78', 'Texas Instruments', 'MA-L', 'TexasInstrum', 'IoT', '2021-11-13', '12500 TI Blvd Dallas TX US 75243', 'IEEE+Wireshark+Nmap', 'Texas Instruments', 'current', NULL, NULL),
-  ('00:24:B6', 'Seagate', 'MA-L', 'SeagateTechn', 'Storage', '2008-12-21', '1280 Disc Drive Shakopee MN US 55379', 'IEEE+Wireshark+Nmap', 'Seagate Technology', 'current', NULL, NULL),
+  ('00:24:B6', 'Seagate', 'MA-L', 'SeagateTechn', 'Storage', '2008-12-21', '1280 Disc Drive Shakopee MN US 55379', 'IEEE+Wireshark+Nmap', 'Seagate Technology', 'current', NULL, NULL);
+
+-- Batch 51 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('64:D6:9A', 'Intel', 'MA-L', 'Intel', 'Laptop', '2021-11-20', 'Lot 8, Jalan Hi-Tech 2/3   Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL),
   ('E0:A2:5A', 'Shanghai Mo xiang Network Technology CO.,ltd', 'MA-L', 'MoxiangNetwo', NULL, '2021-10-24', 'Room#418-421, ShaHeXiLi, 2-2 XiLi North Road, LiCheng Community, Xili Street, NanShan District, Shenzhen City Shenzhen Guangdong CN 518071 ', 'IEEE+Wireshark+Nmap', 'Shanghai Mo xiang Network Technology CO.,ltd', 'current', NULL, NULL),
   ('E4:84:D3', 'Xiaomi', 'MA-L', 'XiaomiCommun', 'Phone', '2021-10-24', '#019, 9th Floor, Building 6, 33 Xi''erqi Middle Road Beijing Haidian District CN 100085 ', 'IEEE+Wireshark+Nmap', 'Xiaomi Communications Co Ltd', 'current', NULL, NULL),
@@ -25170,10 +25211,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('FC:02:96', 'Xiaomi', 'MA-L', 'XiaomiCommun', 'Phone', '2021-09-17', '#019, 9th Floor, Building 6, 33 Xi''erqi Middle Road Beijing Haidian District CN 100085 ', 'IEEE+Wireshark+Nmap', 'Xiaomi Communications Co Ltd', 'current', NULL, NULL),
   ('68:BE:49', 'Nebula Matrix', 'MA-L', 'NebulaMatrix', NULL, '2021-10-02', '24/F Ahoke Aurora Plaza, Zhongmei RD, Longhua Dist. Shenzhen Guangdong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Nebula Matrix', 'current', NULL, NULL),
   ('94:F8:27', 'Shanghai Imilab Technology Co.Ltd', 'MA-L', 'ImilabTechno', 'Camera', '2021-10-01', '29F, A Tower, New Caohejing International Business Center, Guiping Road, Xuhui District Shanghai Shanghai CN 200000 ', 'IEEE+Wireshark+Nmap', 'Shanghai Imilab Technology Co.Ltd', 'current', NULL, NULL),
-  ('D8:CF:BF', 'Lenovo / Motorola Mobility', 'MA-L', 'MotorolaMobi', 'Phone', '2021-09-26', '222 West Merchandise Mart Plaza Chicago IL US 60654', 'IEEE+Wireshark+Nmap', 'Motorola Mobility LLC, a Lenovo Company', 'current', NULL, NULL);
-
--- Batch 51 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('D8:CF:BF', 'Lenovo / Motorola Mobility', 'MA-L', 'MotorolaMobi', 'Phone', '2021-09-26', '222 West Merchandise Mart Plaza Chicago IL US 60654', 'IEEE+Wireshark+Nmap', 'Motorola Mobility LLC, a Lenovo Company', 'current', NULL, NULL),
   ('18:45:B3', 'IEEE Registration Authority', 'MA-L', NULL, NULL, '2021-09-26', '445 Hoes Lane Piscataway NJ US 08554', 'IEEE+Nmap', 'IEEE Registration Authority', 'current', NULL, NULL),
   ('60:E8:5B', 'Texas Instruments', 'MA-L', 'TexasInstrum', 'IoT', '2021-09-17', '12500 TI Blvd Dallas TX US 75243', 'IEEE+Wireshark+Nmap', 'Texas Instruments', 'current', NULL, NULL),
   ('C4:48:FA', 'Taicang T&W Electronics', 'MA-L', 'TaicangT&WEl', NULL, '2021-09-05', '89# Jiang Nan RD Suzhou Jiangsu CN 215412', 'IEEE+Wireshark+Nmap', 'Taicang T&W Electronics', 'current', NULL, NULL),
@@ -25635,7 +25673,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('FC:65:B3', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2020-08-21', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
   ('10:9D:7A', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2020-08-21', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
   ('DC:63:73', 'OBARA KOREA', 'MA-L', 'ObaraKorea', 'Industrial', '2020-08-21', '97-23, Barangongdan-ro 4-gil Hwaseong-si Gyeonggi-do KR 18623 ', 'IEEE+Wireshark+Nmap', 'OBARA KOREA', 'current', NULL, NULL),
-  ('D4:7E:E4', 'China Mobile IOT Company Limited', 'MA-L', 'ChinaMobileI', NULL, '2020-08-21', 'NO.8 Yu Ma Road, NanAn Area Chongqing Chongqing CN 401336 ', 'IEEE+Wireshark+Nmap', 'China Mobile IOT Company Limited', 'current', NULL, NULL),
+  ('D4:7E:E4', 'China Mobile IOT Company Limited', 'MA-L', 'ChinaMobileI', NULL, '2020-08-21', 'NO.8 Yu Ma Road, NanAn Area Chongqing Chongqing CN 401336 ', 'IEEE+Wireshark+Nmap', 'China Mobile IOT Company Limited', 'current', NULL, NULL);
+
+-- Batch 52 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('1C:A8:52', 'SENSAIO PTE LTD', 'MA-L', 'SensaioPte', NULL, '2020-08-16', '160 Robinson Road #14-04 SINGAPORE SINGAPORE SG 068914', 'IEEE+Wireshark+Nmap', 'SENSAIO PTE LTD', 'current', NULL, NULL),
   ('40:1C:83', 'Intel', 'MA-L', 'Intel', 'Laptop', '2020-08-16', 'Lot 8, Jalan Hi-Tech 2/3   Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL),
   ('44:3B:32', 'Intelbras', 'MA-L', 'Intelbras', 'Camera', '2020-08-15', 'BR 101, km 210, S/N° São José Santa Catarina BR 88104800 ', 'IEEE+Wireshark+Nmap', 'Intelbras', 'current', NULL, NULL),
@@ -25673,10 +25714,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('F8:2E:3F', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2020-07-11', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('90:A5:AF', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2020-07-11', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('04:76:B0', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2020-07-10', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
-  ('40:F0:78', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2020-07-10', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL);
-
--- Batch 52 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('40:F0:78', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2020-07-10', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
   ('78:D7:1A', 'Ciena Corporation', 'MA-L', 'Ciena', NULL, '2020-07-10', '7035 Ridge Road Hanover MD US 21076', 'IEEE+Wireshark+Nmap', 'Ciena Corporation', 'current', NULL, NULL),
   ('24:B1:05', 'Hikvision', 'MA-L', 'PramaHikvisi', 'Camera', '2020-06-30', 'Prama Hikvision India Pvt Ltd, Akurli Cross Road No 1, Kandivali East Mumbai Maharashtra IN 400101 ', 'IEEE+Wireshark+Nmap', 'Prama Hikvision India Private Limited', 'current', NULL, NULL),
   ('70:9C:D1', 'Intel', 'MA-L', 'Intel', 'Laptop', '2020-06-30', 'Lot 8, Jalan Hi-Tech 2/3   Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL),
@@ -26138,7 +26176,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('1C:B3:E9', 'Shenzhen Zhongke United Communication Technology', 'MA-L', 'ZhongkeUnite', NULL, '2019-01-05', '6C jiajiahao commercial building, Shennan avenue Shenzhen Guangdong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Shenzhen Zhongke United Communication Technology', 'current', NULL, NULL),
   ('A4:83:E7', 'Apple', 'MA-L', 'Apple', 'Phone', '2018-12-15', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
   ('F4:AF:E7', 'Apple', 'MA-L', 'Apple', 'Phone', '2018-12-15', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
-  ('AC:88:FD', 'Apple', 'MA-L', 'Apple', 'Phone', '2018-12-15', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
+  ('AC:88:FD', 'Apple', 'MA-L', 'Apple', 'Phone', '2018-12-15', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL);
+
+-- Batch 53 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('64:89:F1', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2018-12-01', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('50:3E:7C', 'LeiShen Intelligent System Co.Ltd', 'MA-L', 'LeiShenIntel', 'Camera', '2018-12-01', '4th Floor,No.1 Commercial Building,Cultural Center,Tanggang Road,Tanggang Community,Shajing Street,Baoan District Shenzhen Guangdong CN 518104 ', 'IEEE+Wireshark+Nmap', 'LeiShen Intelligent System Co.Ltd', 'current', NULL, NULL),
   ('24:3F:30', 'Oxygen Broadband s.a.', 'MA-L', 'OxygenBroadb', NULL, '2018-12-01', '2 Messogeion ave., Athens Tower Athens Attiki GR 11527 ', 'IEEE+Wireshark+Nmap', 'Oxygen Broadband s.a.', 'current', NULL, NULL),
@@ -26176,10 +26217,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('A4:5F:9B', 'Nexell', 'MA-L', 'Nexell', NULL, '2018-10-24', '12F, 31 Hwangsaeul-ro 258 beon-gil, Bundang-gu Seongnam-si, Gyeonggi-do  KR 13595 ', 'IEEE+Wireshark+Nmap', 'Nexell', 'current', NULL, NULL),
   ('E4:58:E7', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2014-11-15', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('00:10:4A', 'The Parvus Corporation', 'MA-L', 'Parvus', 'Computer', '1998-04-22', '3222 S Washington St. Salt Lake City UT US 84115', 'IEEE+Wireshark+Nmap', 'The Parvus Corporation', 'current', NULL, 'THE PARVUC CORPORATION | The Parvus Corporation'),
-  ('48:C3:B0', 'Pharos Co.Ltd', 'MA-L', 'Pharos', NULL, '2018-10-19', '503 Ogong-ro 144  Deokjin-gu Jeonju-si   KR 54873', 'IEEE+Wireshark+Nmap', 'Pharos Co.Ltd', 'current', NULL, NULL);
-
--- Batch 53 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('48:C3:B0', 'Pharos Co.Ltd', 'MA-L', 'Pharos', NULL, '2018-10-19', '503 Ogong-ro 144  Deokjin-gu Jeonju-si   KR 54873', 'IEEE+Wireshark+Nmap', 'Pharos Co.Ltd', 'current', NULL, NULL),
   ('DC:58:BC', 'Thomas-Krenn.AG', 'MA-L', 'ThomasKrenn', 'Server', '2018-10-19', 'Speltenbach-Steinaecker 1 Freyung  DE 94078', 'IEEE+Wireshark+Nmap', 'Thomas-Krenn.AG', 'current', NULL, NULL),
   ('00:10:25', 'Grayhill Inc.', 'MA-L', 'Grayhill', NULL, '1998-04-22', '561 Hillgrove Ave LaGrange IL US 60525', 'IEEE+Wireshark+Nmap', 'Grayhill, Inc', 'current', NULL, 'GRAYHILL INC. | Grayhill, Inc'),
   ('70:EA:1A', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2018-10-18', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
@@ -26641,7 +26679,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:25:05', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2017-04-11', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('08:A8:A1', 'Cyclotronics Power Concepts, Inc', 'MA-L', 'Cyclotronics', NULL, '2017-04-11', 'PO Box 37449 Houston TX US 77237-7449', 'IEEE+Wireshark+Nmap', 'Cyclotronics Power Concepts, Inc', 'current', NULL, NULL),
   ('BC:96:80', 'SHENZHEN GONGJIN ELECTRONICS CO.,LT', 'MA-L', 'GongjinElect', 'Router', '2013-06-20', 'B116,B118,A211-A213,B201-B213,A311-A313,B411-413,BF08-09 Nanshan Medical Instrument Industry Park, Shenzhen Guangdong CN 518067 ', 'IEEE+Wireshark+Nmap', 'SHENZHEN GONGJIN ELECTRONICS CO.,LT', 'current', NULL, 'Shenzhen Gongjin Electronics Co.,Ltd | SHENZHEN GONGJIN ELECTRONICS CO.,LT'),
-  ('7C:2E:DD', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2017-04-01', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
+  ('7C:2E:DD', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2017-04-01', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL);
+
+-- Batch 54 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('3C:F7:A4', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2017-04-01', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('CC:2F:71', 'Intel', 'MA-L', 'Intel', 'Laptop', '2017-04-06', 'Lot 8, Jalan Hi-Tech 2/3 Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL),
   ('B8:F8:BE', 'BLUECOM', 'MA-L', 'Bluecom', NULL, '2016-03-22', '116, Venture-ro, Yeonsu-gu, Incheon  KR 406-840 ', 'IEEE+Wireshark+Nmap', 'BLUECOM', 'current', NULL, NULL),
@@ -26679,10 +26720,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('60:31:3B', 'Sunnovo International Limited', 'MA-L', 'SunnovoInter', NULL, '2017-03-01', '1717 Haitai Building Beijing Beijing CN 100083', 'IEEE+Wireshark+Nmap', 'Sunnovo International Limited', 'current', NULL, NULL),
   ('6C:B2:27', 'Sony', 'MA-L', 'SonyVideoSou', 'TV', '2017-03-01', 'Sony City Osaki, 2-10-1 Osaki Shinagawa-ku Tokyo JP 141-8610 ', 'IEEE+Wireshark+Nmap', 'Sony Video & Sound Products Inc.', 'current', NULL, NULL),
   ('00:A3:D1', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2017-02-22', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
-  ('00:1C:FA', 'Alarm.com', 'MA-L', 'Alarmcom', NULL, '2007-06-16', '8150 Leesburg Pike Vienna VA US 22182', 'IEEE+Wireshark+Nmap', 'Alarm.com', 'current', NULL, 'PRIVATE | Alarm.com');
-
--- Batch 54 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:1C:FA', 'Alarm.com', 'MA-L', 'Alarmcom', NULL, '2007-06-16', '8150 Leesburg Pike Vienna VA US 22182', 'IEEE+Wireshark+Nmap', 'Alarm.com', 'current', NULL, 'PRIVATE | Alarm.com'),
   ('98:6F:60', 'OPPO', 'MA-L', 'OppoMobileTe', 'Phone', '2017-02-24', 'NO.18 HAIBIN ROAD, DONG GUAN GUANG DONG CN 523860 ', 'IEEE+Wireshark+Nmap', 'GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD', 'current', NULL, NULL),
   ('74:54:27', 'SHENZHEN FAST TECHNOLOGIES CO.,LTD', 'MA-L', 'FastTechnolo', 'Router', '2017-02-10', 'Room 202,Building No.5,Section 30,No.2 of Kefa Road,Nanshan District,Shenzhen,P.R.China Shenzhen Guangdong CN 518057 ', 'IEEE+Wireshark+Nmap', 'SHENZHEN FAST TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('30:89:76', 'DALIAN LAMBA TECHNOLOGY CO.,LTD', 'MA-L', 'DalianLambaT', NULL, '2017-02-10', 'Dalian Hi-tech Zone Keypark Room 1201 Dalian Liaoning CN 116000', 'IEEE+Wireshark+Nmap', 'DALIAN LAMBA TECHNOLOGY CO.,LTD', 'current', NULL, NULL),
@@ -27144,7 +27182,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('1C:55:3A', 'QianGua Corp.', 'MA-L', 'QianGua', NULL, '2015-12-19', 'Room 1106, block B,No.391,Gui Ping Road Xu Hui District ShangHai CN 200223 ', 'IEEE+Wireshark+Nmap', 'QianGua Corp.', 'current', NULL, NULL),
   ('00:8E:73', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2015-12-18', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
   ('9C:9D:5D', 'Raden Inc', 'MA-L', 'Raden', 'IoT', '2015-12-05', '15 Maiden Lane New York NY US 10038', 'IEEE+Wireshark+Nmap', 'Raden Inc', 'current', NULL, NULL),
-  ('DC:4D:23', 'MRV Comunications', 'MA-L', 'MRVComunicat', NULL, '2015-12-04', 'Hayetzira Yokneam  IL 614', 'IEEE+Wireshark+Nmap', 'MRV Comunications', 'current', NULL, NULL),
+  ('DC:4D:23', 'MRV Comunications', 'MA-L', 'MRVComunicat', NULL, '2015-12-04', 'Hayetzira Yokneam  IL 614', 'IEEE+Wireshark+Nmap', 'MRV Comunications', 'current', NULL, NULL);
+
+-- Batch 55 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:23:B3', 'Lyyn AB', 'MA-L', 'Lyyn', NULL, '2008-10-08', 'IDEON Science Park Lund  SE 223 70', 'IEEE+Wireshark+Nmap', 'Lyyn AB', 'current', NULL, NULL),
   ('40:5E:E1', 'Shenzhen H&T Intelligent Control Co., Ltd', 'MA-L', 'H&TIntellige', NULL, '2015-12-29', 'D-Zone,10/F,Shenzhen Academy of Aerospace Technology,Hi-Tech Park at Nanshan District,Shenzhen,China  Shenzhen  CN 518000 ', 'IEEE+Wireshark+Nmap', 'Shenzhen H&T Intelligent Control Co.,Ltd.', 'current', NULL, NULL),
   ('00:25:78', 'JSC Concern Sozvezdie', 'MA-L', 'JSCConcernSo', 'IoT', '2009-03-15', 'Plekhanovskaya st., 14 Voronezh  RU 394018 ', 'IEEE+Wireshark+Nmap', 'JSC "Concern "Sozvezdie"', 'current', NULL, NULL),
@@ -27182,10 +27223,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('54:44:08', 'Nokia (mobile phones, legacy)', 'MA-L', 'Nokia', 'Router', '2013-06-13', 'Joensuunkatu 7 Salo Varsinais-Suomi FI 24101', 'IEEE+Wireshark+Nmap', 'Nokia Corporation', 'current', NULL, NULL),
   ('3C:C2:43', 'Nokia (mobile phones, legacy)', 'MA-L', 'Nokia', 'Router', '2013-01-30', 'Joensuunkatu 7 Salo NA FI 24101', 'IEEE+Wireshark+Nmap', 'Nokia Corporation', 'current', NULL, NULL),
   ('34:7E:39', 'Nokia (mobile phones, legacy)', 'MA-L', 'NokiaDanmark', 'Router', '2009-09-24', 'Frederikskaj Copenhagen V  DK DK-1790', 'IEEE+Wireshark+Nmap', 'Nokia Danmark A/S', 'current', NULL, NULL),
-  ('00:18:0F', 'Nokia (mobile phones, legacy)', 'MA-L', 'NokiaDanmark', 'Router', '2006-04-21', 'Frederikskaj Copenhagen V Denmark DK 1790V', 'IEEE+Wireshark+Nmap', 'Nokia Danmark A/S', 'current', NULL, NULL);
-
--- Batch 55 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:18:0F', 'Nokia (mobile phones, legacy)', 'MA-L', 'NokiaDanmark', 'Router', '2006-04-21', 'Frederikskaj Copenhagen V Denmark DK 1790V', 'IEEE+Wireshark+Nmap', 'Nokia Danmark A/S', 'current', NULL, NULL),
   ('C8:97:9F', 'Nokia (mobile phones, legacy)', 'MA-L', 'Nokia', 'Router', '2009-12-08', 'Joensuunkatu 7 Salo Varsinais-Suomi FI 24101', 'IEEE+Wireshark+Nmap', 'Nokia Corporation', 'current', NULL, NULL),
   ('00:21:FC', 'Nokia (mobile phones, legacy)', 'MA-L', 'NokiaDanmark', 'Router', '2008-06-18', 'Frederikskaj Copenhagen V  DK DK-1790V', 'IEEE+Wireshark+Nmap', 'Nokia Danmark A/S', 'current', NULL, NULL),
   ('00:1F:5D', 'Nokia (mobile phones, legacy)', 'MA-L', 'NokiaDanmark', 'Router', '2007-12-31', 'Frederikskaj Copenhagen V  DK DK-1790V', 'IEEE+Wireshark+Nmap', 'Nokia Danmark A/S', 'current', NULL, NULL),
@@ -27647,7 +27685,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('6C:EB:B2', 'Dongguan Sen DongLv Electronics Co.,Ltd', 'MA-L', 'DongguanSenD', NULL, '2015-06-24', 'Nanjiang RD 111st,Daning Dongguan Guangdong  523930 ', 'IEEE+Wireshark+Nmap', 'Dongguan Sen DongLv Electronics Co.,Ltd', 'current', NULL, NULL),
   ('68:58:C5', 'ZF TRW Automotive', 'MA-L', 'ZFTRWAutomot', 'Automotive', '2015-06-13', '​12001 Tech Center Drive Livonia MI US 48150', 'IEEE+Wireshark+Nmap', 'ZF TRW Automotive', 'current', NULL, NULL),
   ('BC:E6:3F', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2015-06-23', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
-  ('7C:91:22', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2015-06-23', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
+  ('7C:91:22', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2015-06-23', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL);
+
+-- Batch 56 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('AC:BC:32', 'Apple', 'MA-L', 'Apple', 'Phone', '2015-06-19', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, 'Apple | Apple, Inc.'),
   ('54:4E:90', 'Apple', 'MA-L', 'Apple', 'Phone', '2015-06-19', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, 'Apple | Apple, Inc.'),
   ('88:1B:99', 'SHENZHEN XIN FEI JIA ELECTRONIC CO. LTD.', 'MA-L', 'XinFeiJiaEle', 'Automotive', '2015-06-11', '#4 BULIDING, HIGH TECH INDUSTRIAL PARK, HE PING COMMUNITY GUANGDONG N/A CN 518000 ', 'IEEE+Wireshark+Nmap', 'SHENZHEN XIN FEI JIA ELECTRONIC CO. LTD.', 'current', NULL, NULL),
@@ -27685,10 +27726,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('08:3A:5C', 'Junilab, Inc.', 'MA-L', 'Junilab', NULL, '2015-03-14', '#205 107 Gyounggyo-Ro, Yeongtong-Gu, Suwon Suwon Gyeonggi-Do KR 443-766 ', 'IEEE+Wireshark+Nmap', 'Junilab, Inc.', 'current', NULL, NULL),
   ('6C:E0:1E', 'Modcam AB', 'MA-L', 'Modcam', 'IoT', '2015-02-19', 'Bredgatan 4 Malmö Skåne SE 21130', 'IEEE+Wireshark+Nmap', 'Modcam AB', 'current', NULL, NULL),
   ('74:85:2A', 'PEGATRON', 'MA-L', 'Pegatron', 'Router', '2015-02-19', '5F No. 76, Ligong St., Beitou District Taipei City Taiwan TW 112 ', 'IEEE+Wireshark+Nmap', 'PEGATRON CORPORATION', 'current', NULL, NULL),
-  ('4C:EE:B0', 'SHC Netzwerktechnik GmbH', 'MA-L', 'SHCNetzwerkt', NULL, '2015-02-18', 'Ludwigstrasse 33-37 Frankfurt am Main Hessen DE 60327', 'IEEE+Wireshark+Nmap', 'SHC Netzwerktechnik GmbH', 'current', NULL, NULL);
-
--- Batch 56 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('4C:EE:B0', 'SHC Netzwerktechnik GmbH', 'MA-L', 'SHCNetzwerkt', NULL, '2015-02-18', 'Ludwigstrasse 33-37 Frankfurt am Main Hessen DE 60327', 'IEEE+Wireshark+Nmap', 'SHC Netzwerktechnik GmbH', 'current', NULL, NULL),
   ('80:01:84', 'HTC (High Tech Computer Corp.)', 'MA-L', 'HTC', 'Phone', '2015-02-14', 'No. 23, Xinghua Rd., Taoyuan City Taoyuan County Taiwan TW 330 ', 'IEEE+Wireshark+Nmap', 'HTC Corporation', 'current', NULL, NULL),
   ('B8:B3:DC', 'Derek(Shaoguan)Limited', 'MA-L', 'Derek', NULL, '2015-03-13', 'Gaojiling, Taiping Town, Shao Guan Guang Dong CN 512500 ', 'IEEE+Wireshark+Nmap', 'DEREK (SHAOGUAN) LIMITED', 'current', NULL, NULL),
   ('70:2A:7D', 'EpSpot AB', 'MA-L', 'EpSpot', NULL, '2015-03-13', 'Aluddsparken 7D  Stockholm SE 11265', 'IEEE+Wireshark+Nmap', 'EpSpot AB', 'current', NULL, NULL),
@@ -28150,7 +28188,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('CC:C1:04', 'Applied Technical Systems', 'MA-L', 'AppliedTechn', NULL, '2012-05-10', 'P.O. Box 5705 Shreveport LA US 71135', 'IEEE+Wireshark+Nmap', 'Applied Technical Systems', 'current', NULL, NULL),
   ('4C:72:B9', 'PEGATRON', 'MA-L', 'Pegatron', 'Router', '2012-05-18', '5F No. 76, Ligong St., Beitou District Taipei City Taiwan TW 112 ', 'IEEE+Wireshark+Nmap', 'PEGATRON CORPORATION', 'current', NULL, 'Pegatron Corporation | PEGATRON CORPORATION'),
   ('90:70:25', 'Garea Microsys Co.,Ltd.', 'MA-L', 'GareaMicrosy', NULL, '2012-05-15', '4th Floor, Building 2, Software Park Suzhou Jiangsu CN 215163 ', 'IEEE+Wireshark+Nmap', 'Garea Microsys Co.,Ltd.', 'current', NULL, NULL),
-  ('10:D1:DC', 'INSTAR Deutschland GmbH', 'MA-L', 'INSTARDeutsc', 'Camera', '2012-05-15', 'Auf der Hostert 17 Huenstetten Bechtheim Hessen DE 65510', 'IEEE+Wireshark+Nmap', 'INSTAR Deutschland GmbH', 'current', NULL, NULL),
+  ('10:D1:DC', 'INSTAR Deutschland GmbH', 'MA-L', 'INSTARDeutsc', 'Camera', '2012-05-15', 'Auf der Hostert 17 Huenstetten Bechtheim Hessen DE 65510', 'IEEE+Wireshark+Nmap', 'INSTAR Deutschland GmbH', 'current', NULL, NULL);
+
+-- Batch 57 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('2C:ED:EB', 'Alpheus Digital Company Limited', 'MA-L', 'AlpheusDigit', NULL, '2012-05-31', 'Room 2, 23/F Tak King Industrial building Hong Kong  HK 852 ', 'IEEE+Wireshark+Nmap', 'Alpheus Digital Company Limited', 'current', NULL, NULL),
   ('00:DB:1E', 'Albedo Telecom SL', 'MA-L', 'AlbedoTeleco', 'Industrial', '2012-06-30', 'Joan d''Austria 112 Barcelona  ES 08018', 'IEEE+Wireshark+Nmap', 'Albedo Telecom SL', 'current', NULL, NULL),
   ('34:AF:2C', 'Nintendo', 'MA-L', 'Nintendo', 'Gaming', '2012-06-27', '  11-1 HOKOTATE-CHO KAMITOBA, MINAMI-KU KYOTO KYOTO JP 601-8501 ', 'IEEE+Wireshark+Nmap', 'Nintendo Co., Ltd.', 'current', NULL, NULL),
@@ -28188,10 +28229,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('A4:4C:11', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2012-03-17', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, 'Cisco Systems | CISCO SYSTEMS, INC. | Cisco Systems | CISCO SYSTEMS, INC. | Cisco Systems, Inc'),
   ('60:84:3B', 'Soladigm, Inc.', 'MA-L', 'Soladigm', NULL, '2012-03-17', '195. S Milpitas Blvd Milpitas CA US 95035', 'IEEE+Wireshark+Nmap', 'Soladigm, Inc.', 'current', NULL, NULL),
   ('20:9B:A5', 'JIAXING GLEAD Electronics Co.,Ltd', 'MA-L', 'JIAXINGGLEAD', NULL, '2012-03-17', 'No.66 Zhengyuan Road in Tanghu Industrial Garden  Jiaxing Zhejiang CN 314003', 'IEEE+Wireshark+Nmap', 'JIAXING GLEAD Electronics Co.,Ltd', 'current', NULL, NULL),
-  ('A0:F4:50', 'HTC (High Tech Computer Corp.)', 'MA-L', 'HTC', 'Phone', '2012-03-15', 'No. 23, Xinghua Rd., Taoyuan City Taoyuan County Taiwan TW 330 ', 'IEEE+Wireshark+Nmap', 'HTC Corporation', 'current', NULL, NULL);
-
--- Batch 57 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('A0:F4:50', 'HTC (High Tech Computer Corp.)', 'MA-L', 'HTC', 'Phone', '2012-03-15', 'No. 23, Xinghua Rd., Taoyuan City Taoyuan County Taiwan TW 330 ', 'IEEE+Wireshark+Nmap', 'HTC Corporation', 'current', NULL, NULL),
   ('60:89:B1', 'Key Digital Systems', 'MA-L', 'KeyDigital', 'Audio', '2012-03-15', '521 E 3rd Street Mount Vernon NY US 10553', 'IEEE+Wireshark+Nmap', 'Key Digital Systems', 'current', NULL, NULL),
   ('44:D1:5E', 'Shanghai Kingto Information Technology Ltd', 'MA-L', 'KingtoInform', NULL, '2012-03-15', 'No.738 Guangji RD.3F shanghai.china  shanghai CN 200434', 'IEEE+Wireshark+Nmap', 'Shanghai Kingto Information Technology Ltd', 'current', NULL, NULL),
   ('68:D9:25', 'ProSys Development Services', 'MA-L', 'ProSysDevelo', NULL, '2012-02-23', 'Mill House Mitcham Surrey GB CR4 4HY', 'IEEE+Wireshark+Nmap', 'ProSys Development Services', 'current', NULL, NULL),
@@ -28653,7 +28691,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('EC:E9:F8', 'Guang Zhou TRI-SUN Electronics Technology Co., Ltd', 'MA-L', 'GuangZhouTRI', NULL, '2009-10-22', '9th floor Guangzhou info port building B, Keyun Road, Tianhe District, Guangzhou ,PRC Guangzhou Guangdong CN 510665 ', 'IEEE+Wireshark+Nmap', 'Guang Zhou TRI-SUN Electronics Technology Co., Ltd', 'current', NULL, 'Shenzhen Morlab Communications Technology Co., Ltd | Guang Zhou TRI-SUN Electronics Technology Co., Ltd'),
   ('34:CE:94', 'Parsec', 'MA-L', 'Parsec', NULL, '2009-10-20', 'Building 8-10 Manhattan Office Park Centurion Gauteng ZA 0157', 'IEEE+Wireshark+Nmap', 'Parsec (Pty) Ltd', 'current', NULL, NULL),
   ('A4:38:FC', 'Plastic Logic', 'MA-L', 'PlasticLogic', NULL, '2009-11-11', '650 Castro St., Suite 500 Mountain View CA US 94041 ', 'IEEE+Wireshark+Nmap', 'Plastic Logic', 'current', NULL, NULL),
-  ('18:FC:9F', 'Changhe Electronics Co., Ltd.', 'MA-L', 'ChangheElect', NULL, '2009-11-11', '6th Floor, Building B, Dajiahao Square, YuÂ¡Â¯an 1st Road, BaoÂ¡Â¯an,  Shenzhen Guangdong CN 518101 ', 'IEEE+Wireshark+Nmap', 'Changhe Electronics Co., Ltd.', 'current', NULL, NULL),
+  ('18:FC:9F', 'Changhe Electronics Co., Ltd.', 'MA-L', 'ChangheElect', NULL, '2009-11-11', '6th Floor, Building B, Dajiahao Square, YuÂ¡Â¯an 1st Road, BaoÂ¡Â¯an,  Shenzhen Guangdong CN 518101 ', 'IEEE+Wireshark+Nmap', 'Changhe Electronics Co., Ltd.', 'current', NULL, NULL);
+
+-- Batch 58 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('A0:59:3A', 'V.D.S. Video Display Systems srl', 'MA-L', 'VDSVideoDisp', 'TV', '2009-11-10', 'Via Del Pantano 71 SCANDICCI FI IT 50018', 'IEEE+Wireshark+Nmap', 'V.D.S. Video Display Systems srl', 'current', NULL, NULL),
   ('CC:EA:1C', 'DCONWORKS Co., Ltd', 'MA-L', 'DCONWORKS', NULL, '2009-11-07', '182-13 Daerung Post Tower 2nd 5F Seoul  KR 152-847', 'IEEE+Wireshark+Nmap', 'DCONWORKS Co., Ltd', 'current', NULL, NULL),
   ('68:7F:74', 'Linksys', 'MA-L', 'CiscoLinksys', 'Router', '2009-11-04', '121 Theory Drive Irvine California US 92612', 'IEEE+Wireshark+Nmap', 'Cisco-Linksys, LLC', 'current', NULL, NULL),
@@ -28691,10 +28732,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('90:6D:C8', 'DLG Automação Industrial Ltda', 'MA-L', 'DLGAutomação', 'Industrial', '2009-08-27', 'Rua José Batista Soares, 53 Sertãozinho São Paulo BR 14176-119 ', 'IEEE+Wireshark+Nmap', 'DLG Automação Industrial Ltda', 'current', NULL, 'DLG Automação Industrial Ltda | DLG AutomaÃ§Ã£o Industrial Ltda | DLG Automação Industrial Ltda | DLG AutomaÃÂ§ÃÂ£o Industrial Ltda | DLG Automação Industrial Ltda | DLG AutomaÃÂ§ÃÂ£o Industrial Ltda | DLG AutomaÃ§Ã£o Industrial Ltda | DLG AutomaÃÂÃÂÃÂÃÂ§ÃÂÃÂÃÂÃÂ£o Industrial Ltda | DLG AutomaÃ§Ã£o Industrial Ltda | DLG Automação Industrial Ltda'),
   ('44:56:B7', 'Spawn Labs, Inc', 'MA-L', 'SpawnLabs', NULL, '2009-08-12', '2209 Granger Lane Austin TX US 78613', 'IEEE+Wireshark+Nmap', 'Spawn Labs, Inc', 'current', NULL, NULL),
   ('44:C9:A2', 'Greenwald Industries', 'MA-L', 'GreenwaldInd', NULL, '2009-08-12', '212 Middlesex Avenue Chester CT US 06412', 'IEEE+Wireshark+Nmap', 'Greenwald Industries', 'current', NULL, NULL),
-  ('40:61:86', 'MICRO-STAR INT''L CO.,LTD.', 'MA-L', 'MicroStarInt', 'Laptop', '2009-08-12', 'No.69,Li-De St Jung-Ho City Taipei Hsien TW 235 ', 'IEEE+Wireshark+Nmap', 'MICRO-STAR INT''L CO.,LTD', 'current', NULL, NULL);
-
--- Batch 58 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('40:61:86', 'MICRO-STAR INT''L CO.,LTD.', 'MA-L', 'MicroStarInt', 'Laptop', '2009-08-12', 'No.69,Li-De St Jung-Ho City Taipei Hsien TW 235 ', 'IEEE+Wireshark+Nmap', 'MICRO-STAR INT''L CO.,LTD', 'current', NULL, NULL),
   ('A8:CE:90', 'CVC', 'MA-L', 'Cvc', NULL, '2009-08-12', 'No.361,Renhua Rd., Dali City Taichung TW 412 ', 'IEEE+Wireshark+Nmap', 'CVC', 'current', NULL, NULL),
   ('00:27:21', 'Shenzhen Baoan Fenda Industrial Co., Ltd', 'MA-L', 'BaoanFendaIn', 'Audio', '2009-08-09', 'Fenda Hi-Tech Park Baoan  Shenzhen CN 518108', 'IEEE+Wireshark+Nmap', 'Shenzhen Baoan Fenda Industrial Co., Ltd', 'current', NULL, NULL),
   ('58:4C:EE', 'Digital One Technologies, Limited', 'MA-L', 'DigitalOneTe', NULL, '2009-08-26', 'Room 2203, No.1 Shangdi Xinxi Road Beijing  CN 100085 ', 'IEEE+Wireshark+Nmap', 'Digital One Technologies, Limited', 'current', NULL, NULL),
@@ -29156,7 +29194,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:1B:F4', 'KENWIN INDUSTRIAL(HK) LTD.', 'MA-L', 'KenwinIndust', NULL, '2007-04-08', 'RM.1512 15/F SHATIN GALLERIA   HK', 'IEEE+Wireshark+Nmap', 'KENWIN INDUSTRIAL(HK) LTD.', 'current', NULL, NULL),
   ('00:1B:F9', 'Intellitect Water Ltd', 'MA-L', 'IntellitectW', 'Industrial', '2007-04-08', 'Suite 19, Basepoint Business Centre Christchurch Dorset GB BH23 ^NW ', 'IEEE+Wireshark+Nmap', 'Intellitect Water Ltd', 'current', NULL, NULL),
   ('00:1B:FA', 'G.i.N. mbH', 'MA-L', 'GiNmbH', 'Automotive', '2007-04-08', 'Raiffeisenstraße 15 Griesheim Hessen DE 64347', 'IEEE+Wireshark+Nmap', 'G.i.N. mbH', 'current', NULL, NULL),
-  ('00:1B:F3', 'TRANSRADIO SenderSysteme Berlin AG', 'MA-L', 'TRANSRADIOSe', 'IoT', '2007-04-08', 'Mertensstrasse 63 Berlin  DE 13587', 'IEEE+Wireshark+Nmap', 'TRANSRADIO SenderSysteme Berlin AG', 'current', NULL, NULL),
+  ('00:1B:F3', 'TRANSRADIO SenderSysteme Berlin AG', 'MA-L', 'TRANSRADIOSe', 'IoT', '2007-04-08', 'Mertensstrasse 63 Berlin  DE 13587', 'IEEE+Wireshark+Nmap', 'TRANSRADIO SenderSysteme Berlin AG', 'current', NULL, NULL);
+
+-- Batch 59 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:1B:DE', 'Renkus-Heinz, Inc.', 'MA-L', 'RenkusHeinz', 'Audio', '2007-04-08', '19201 Cook St. Foothill Ranch CA US 92610', 'IEEE+Wireshark+Nmap', 'Renkus-Heinz, Inc.', 'current', NULL, NULL),
   ('00:1B:DB', 'Valeo', 'MA-L', 'ValeoVECS', NULL, '2007-04-08', '2 Avenue Fernand Pouillon CRETEIL Ile de France FR 94042', 'IEEE+Wireshark+Nmap', 'Valeo VECS', 'current', NULL, NULL),
   ('00:1C:69', 'Packet Vision Ltd', 'MA-L', 'PacketVision', NULL, '2007-05-13', 'SC House Maidenhead Berks GB SL6 4UB', 'IEEE+Wireshark+Nmap', 'Packet Vision Ltd', 'current', NULL, NULL),
@@ -29194,10 +29235,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:1B:36', 'Tsubata Engineering Co.,Ltd. (Head Office)', 'MA-L', 'TsubataEngin', 'Smart Home', '2007-01-26', 'Koyanagi 1-2 Ibaraki Osaka JP 567-0852', 'IEEE+Wireshark+Nmap', 'Tsubata Engineering Co.,Ltd. (Head Office)', 'current', NULL, 'Tsubata Engineering Co.,Ltd. | Tsubata Engineering Co.,Ltd. (Head Office)'),
   ('00:1B:39', 'Proxicast', 'MA-L', 'Proxicast', 'Router', '2007-01-26', '312 Sunnyfield Drive Glenshaw PA US 15116', 'IEEE+Wireshark+Nmap', 'Proxicast', 'current', NULL, NULL),
   ('00:1B:3B', 'Yi-Qing CO., LTD', 'MA-L', 'YiQing', NULL, '2007-01-26', '310 ROOM,12F TAIPEI  TW 100 ', 'IEEE+Wireshark+Nmap', 'Yi-Qing CO., LTD', 'current', NULL, NULL),
-  ('00:1B:1C', 'Coherent', 'MA-L', 'Coherent', NULL, '2007-01-16', '1280 Blues Hills Ave. Bloomfield CT US 06002', 'IEEE+Wireshark+Nmap', 'Coherent', 'current', NULL, NULL);
-
--- Batch 59 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:1B:1C', 'Coherent', 'MA-L', 'Coherent', NULL, '2007-01-16', '1280 Blues Hills Ave. Bloomfield CT US 06002', 'IEEE+Wireshark+Nmap', 'Coherent', 'current', NULL, NULL),
   ('00:1B:22', 'PALIT MICROSYSTEMS, LTD', 'MA-L', 'PalitMicrosy', NULL, '2007-01-16', 'Room 4-6,11F,Nan Fung Commercial Center Kowloon  HK 111 ', 'IEEE+Wireshark+Nmap', 'Palit Microsystems ( H.K.) Ltd.', 'current', NULL, NULL),
   ('00:1B:19', 'IEEE I&M Society TC9', 'MA-L', 'IEEEI&MSocie', NULL, '2007-01-16', '100 Bureau Dr., Mail Stop 8220 Gaithersburg MD US 20899-8220 ', 'IEEE+Wireshark+Nmap', 'IEEE I&M Society TC9', 'current', NULL, 'IEEE 1588 Standard | IEEE I&M Society TC9'),
   ('00:1B:13', 'Icron Technologies Corp.', 'MA-L', 'IcronTechnol', NULL, '2007-01-16', '221 - 4664 Lougheed Highway Burnaby BC CA V5C 5T5', 'IEEE+Wireshark+Nmap', 'Icron Technologies Corporation', 'current', NULL, NULL),
@@ -29659,7 +29697,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:0F:C5', 'KeyMed Ltd', 'MA-L', 'KeyMed', 'Medical', '2004-03-17', 'KeyMed House Southend on Sea Essex GB SS2 5QH', 'IEEE+Wireshark+Nmap', 'KeyMed Ltd', 'current', NULL, NULL),
   ('00:0F:BF', 'DGT Sp. z o.o.', 'MA-L', 'DGTSp', NULL, '2004-03-17', 'ul. Jaskowa Dolina 15 Gdansk woj. pomorskie PL 80-252', 'IEEE+Wireshark+Nmap', 'DGT Sp. z o.o.', 'current', NULL, NULL),
   ('00:0F:BD', 'MRV Communications (Networks) LTD', 'MA-L', 'MRVCommunica', 'Router', '2004-03-17', 'P.O Box 614 Yokneam  IL 20692', 'IEEE+Wireshark+Nmap', 'MRV Communications (Networks) LTD', 'current', NULL, NULL),
-  ('00:0F:B4', 'Timespace Technology', 'MA-L', 'TimespaceTec', NULL, '2004-03-17', 'Blackstone Road Huntingdon Cambridgeshire GB PE29 6TT', 'IEEE+Wireshark+Nmap', 'Timespace Technology', 'current', NULL, NULL),
+  ('00:0F:B4', 'Timespace Technology', 'MA-L', 'TimespaceTec', NULL, '2004-03-17', 'Blackstone Road Huntingdon Cambridgeshire GB PE29 6TT', 'IEEE+Wireshark+Nmap', 'Timespace Technology', 'current', NULL, NULL);
+
+-- Batch 60 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:0F:A6', 'S2 Security Corporation', 'MA-L', 'S2Security', 'Smart Home', '2004-03-17', '6 Abbott Road Wellesley MA US 02481', 'IEEE+Wireshark+Nmap', 'S2 Security Corporation', 'current', NULL, NULL),
   ('00:0F:AA', 'Nexus Technologies', 'MA-L', 'NexusTechnol', NULL, '2004-03-17', '10 National Ave. Fletcher NC US 28732', 'IEEE+Wireshark+Nmap', 'Nexus Technologies', 'current', NULL, NULL),
   ('00:0F:A8', 'Photometrics, Inc.', 'MA-L', 'Photometrics', 'Camera', '2004-03-17', '3440 E Britannia Drive Tucson AZ US 85706-5006', 'IEEE+Wireshark+Nmap', 'Photometrics, Inc.', 'current', NULL, NULL),
@@ -29697,10 +29738,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:0F:4D', 'TalkSwitch', 'MA-L', 'TalkSwitch', 'VoIP', '2004-01-23', '1545 Carling Ave Ottawa Ontario CA K1Z 8P9', 'IEEE+Wireshark+Nmap', 'TalkSwitch', 'current', NULL, 'Centrepoint Technologies Inc. | TalkSwitch'),
   ('00:0E:DD', 'Shure', 'MA-L', 'Shure', 'Audio', '2003-12-21', '5800 W. TOUHY AVE. NILES IL US 60714', 'IEEE+Wireshark+Nmap', 'SHURE INCORPORATED', 'current', NULL, NULL),
   ('00:0E:DC', 'Tellion INC.', 'MA-L', 'Tellion', 'Modem', '2003-12-21', '5th Fl. BONA Venture Town Seoul Seocho-gu. KR 137-719', 'IEEE+Wireshark+Nmap', 'Tellion INC.', 'current', NULL, NULL),
-  ('00:0E:CD', 'SKOV A/S', 'MA-L', 'Skov', 'Industrial', '2003-12-21', 'Hedelund 4 Roslev  DK DK-7870', 'IEEE+Wireshark+Nmap', 'SKOV A/S', 'current', NULL, NULL);
-
--- Batch 60 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:0E:CD', 'SKOV A/S', 'MA-L', 'Skov', 'Industrial', '2003-12-21', 'Hedelund 4 Roslev  DK DK-7870', 'IEEE+Wireshark+Nmap', 'SKOV A/S', 'current', NULL, NULL),
   ('00:0E:F5', 'iPAC Technology Co., Ltd.', 'MA-L', 'iPACTechnolo', NULL, '2003-12-21', '6F, No. 30, Shingjung Road, Neihu Taipei  TW 114 ', 'IEEE+Wireshark+Nmap', 'iPAC Technology Co., Ltd.', 'current', NULL, NULL),
   ('00:0E:B1', 'Newcotech,Ltd', 'MA-L', 'Newcotech', NULL, '2003-12-21', 'Anyang Megavally 715-3 Anyang City Gueonggi-Do KR 431-160', 'IEEE+Wireshark+Nmap', 'Newcotech,Ltd', 'current', NULL, NULL),
   ('00:0E:B4', 'GUANGZHOU GAOKE COMMUNICATIONS TECHNOLOGY CO.LTD.', 'MA-L', 'GuangzhouGao', NULL, '2003-12-21', 'AVE. 398 ZHONGSHAN GUANGZHOU GUANGDONG CN 510660', 'IEEE+Wireshark+Nmap', 'GUANGZHOU GAOKE COMMUNICATIONS TECHNOLOGY CO.LTD.', 'current', NULL, NULL),
@@ -30162,7 +30200,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:05:76', 'NSM Technology Ltd.', 'MA-L', 'NSMTechnolog', NULL, '2001-04-17', '22 Floor, Times Tower Koloon  HK  ', 'IEEE+Wireshark+Nmap', 'NSM Technology Ltd.', 'current', NULL, NULL),
   ('00:05:55', 'Japan Cash Machine Co., Ltd.', 'MA-L', 'JapanCashMac', 'IoT', '2001-04-17', 'No. 3-15, 2-chome, Nishiwaki,   JP 547-0035 ', 'IEEE+Wireshark+Nmap', 'Japan Cash Machine Co., Ltd.', 'current', NULL, NULL),
   ('00:05:52', 'Xycotec Computer GmbH', 'MA-L', 'XycotecCompu', NULL, '2001-04-17', 'Karl-Heinz-Beckurts-Str. 4   DE', 'IEEE+Wireshark+Nmap', 'Xycotec Computer GmbH', 'current', NULL, NULL),
-  ('00:05:4A', 'Ario Data Networks, Inc.', 'MA-L', 'ArioDataNetw', NULL, '2001-02-02', '2890 Zanker Road, Suite 203 San Jose CA US 95134 ', 'IEEE+Wireshark+Nmap', 'Ario Data Networks, Inc.', 'current', NULL, 'Ario Data Netwoeks, Inc. | Ario Data Networks, Inc.'),
+  ('00:05:4A', 'Ario Data Networks, Inc.', 'MA-L', 'ArioDataNetw', NULL, '2001-02-02', '2890 Zanker Road, Suite 203 San Jose CA US 95134 ', 'IEEE+Wireshark+Nmap', 'Ario Data Networks, Inc.', 'current', NULL, 'Ario Data Netwoeks, Inc. | Ario Data Networks, Inc.');
+
+-- Batch 61 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:05:48', 'Disco Corporation', 'MA-L', 'Disco', 'Industrial', '2001-02-02', '13-11 Omori-Kita 2-chome Ota-ku Tokyo JP 143-8580', 'IEEE+Wireshark+Nmap', 'Disco Corporation', 'current', NULL, NULL),
   ('00:04:F7', 'Omega Band, Inc.', 'MA-L', 'OmegaBand', NULL, '2001-02-02', '9020-I Capital of Texas Hghwy N Austin TX US 78759', 'IEEE+Wireshark+Nmap', 'Omega Band, Inc.', 'current', NULL, NULL),
   ('00:04:EE', 'Lincoln Electric Company', 'MA-L', 'LincolnElect', 'Industrial', '2001-01-24', '22801 St. Clair Avenue Cleveland OH US 44117-1199', 'IEEE+Wireshark+Nmap', 'Lincoln Electric Company', 'current', NULL, NULL),
@@ -30200,10 +30241,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:04:47', 'Acrowave Systems Co., Ltd.', 'MA-L', 'Acrowave', NULL, '2000-11-23', 'Maru B/D 86-6, Nonhyun-Dong KOREA zip: KR 135-818 ', 'IEEE+Wireshark+Nmap', 'Acrowave Systems Co., Ltd.', 'current', NULL, NULL),
   ('00:04:85', 'PicoLight', 'MA-L', 'PicoLight', NULL, '2000-11-23', '4665 Nautilus Court South Boulder CO US 80301', 'IEEE+Wireshark+Nmap', 'PicoLight', 'current', NULL, NULL),
   ('00:04:79', 'Radius', 'MA-L', 'Radius', NULL, '2000-11-23', '1-48-11, Itabashi   JP  ', 'IEEE+Wireshark+Nmap', 'Radius Co., Ltd.', 'current', NULL, NULL),
-  ('00:04:D5', 'Hitachi Information & Communication Engineering, Ltd.', 'MA-L', 'HitachiInfor', 'Smart Home', '2001-01-24', 'Queen''s Tower B21F, 2-3-3, Minatomirai, Nishi-ku, Yokohama, JP 220-6121 ', 'IEEE+Wireshark+Nmap', 'Hitachi Information & Communication Engineering, Ltd.', 'current', NULL, 'Hitachi Communication Systems, Inc. | Hitachi Information & Communication Engineering, Ltd.');
-
--- Batch 61 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:04:D5', 'Hitachi Information & Communication Engineering, Ltd.', 'MA-L', 'HitachiInfor', 'Smart Home', '2001-01-24', 'Queen''s Tower B21F, 2-3-3, Minatomirai, Nishi-ku, Yokohama, JP 220-6121 ', 'IEEE+Wireshark+Nmap', 'Hitachi Information & Communication Engineering, Ltd.', 'current', NULL, 'Hitachi Communication Systems, Inc. | Hitachi Information & Communication Engineering, Ltd.'),
   ('00:04:CA', 'FreeMs Corp.', 'MA-L', 'FreeMs', NULL, '2001-01-24', 'Shinhan Bldg. 6F, Seoul 150-736 KR KOREA ', 'IEEE+Wireshark+Nmap', 'FreeMs Corp.', 'current', NULL, NULL),
   ('00:04:C5', 'ASE Technologies, USA', 'MA-L', 'ASETechnolog', NULL, '2001-01-24', '6721 Baum Dr. Knoxville TN US 37919', 'IEEE+Wireshark+Nmap', 'ASE Technologies, USA', 'current', NULL, NULL),
   ('00:04:B0', 'ELESIGN Co., Ltd.', 'MA-L', 'ELESIGN', NULL, '2000-12-04', '9Fl. TaeKyoung Bldg.,  R.O. KR KOREA ', 'IEEE+Wireshark+Nmap', 'ELESIGN Co., Ltd.', 'current', NULL, NULL),
@@ -30665,7 +30703,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:A0:B4', 'Texas Microsystems', 'MA-L', 'TexasMicrosy', NULL, '1998-04-22', '5959 CORPORATE DRIVE HOUSTON TX US 77036', 'IEEE+Wireshark+Nmap', 'TEXAS MICROSYSTEMS, INC.', 'current', NULL, NULL),
   ('00:A0:3B', 'TOSHIN ELECTRIC CO., LTD.', 'MA-L', 'ToshinElectr', NULL, '1998-04-22', '3FL. RIVER-STONE 3RD. BLG.234  213 JP', 'IEEE+Wireshark+Nmap', 'TOSHIN ELECTRIC CO., LTD.', 'current', NULL, NULL),
   ('00:A0:F3', 'STAUBLI', 'MA-L', 'Staubli', 'Industrial', '1998-04-22', '183 RUE DES USINES   FR', 'IEEE+Wireshark+Nmap', 'STAUBLI', 'current', NULL, NULL),
-  ('00:A0:42', 'SPUR PRODUCTS CORP.', 'MA-L', 'SpurProducts', NULL, '1998-04-22', '9288 W. EMERALD STREET BOISE ID US 83704', 'IEEE+Wireshark+Nmap', 'SPUR PRODUCTS CORP.', 'current', NULL, NULL),
+  ('00:A0:42', 'SPUR PRODUCTS CORP.', 'MA-L', 'SpurProducts', NULL, '1998-04-22', '9288 W. EMERALD STREET BOISE ID US 83704', 'IEEE+Wireshark+Nmap', 'SPUR PRODUCTS CORP.', 'current', NULL, NULL);
+
+-- Batch 62 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:A0:C1', 'ORTIVUS MEDICAL AB', 'MA-L', 'OrtivusMedic', 'Medical', '1998-04-22', 'BOX 513   SE', 'IEEE+Wireshark+Nmap', 'ORTIVUS MEDICAL AB', 'current', NULL, NULL),
   ('00:A0:4F', 'AMERITEC CORP.', 'MA-L', 'Ameritec', 'Industrial', '1998-04-22', '760 ARROW GRAND CIRCLE COVINA CA US 91722', 'IEEE+Wireshark+Nmap', 'AMERITEC CORP.', 'current', NULL, NULL),
   ('00:A0:CF', 'SOTAS, INC.', 'MA-L', 'Sotas', NULL, '1998-04-22', '2 RESEARCH PLACE, STE. ROCKVILLE MD US 20850 ', 'IEEE+Wireshark+Nmap', 'SOTAS, INC.', 'current', NULL, NULL),
@@ -30703,10 +30744,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:20:ED', 'GIGA-BYTE TECHNOLOGY CO.,LTD.', 'MA-L', 'GigaByteTech', 'Computer', '1998-04-22', '365 CLOVERLEAF BALDWIN PARK CA US 91706', 'IEEE+Wireshark+Nmap', 'GIGA-BYTE TECHNOLOGY CO., LTD.', 'current', NULL, NULL),
   ('00:20:85', 'Eaton Corporation', 'MA-L', 'Eaton', 'Industrial', '1998-04-22', '8380 Capital Blvd. RALEIGH NC US 27616', 'IEEE+Wireshark+Nmap', 'Eaton Corporation', 'current', NULL, 'EXIDE ELECTRONICS | Eaton Corporation'),
   ('00:20:CD', 'HYBRID NETWORKS, INC.', 'MA-L', 'HybridNetwor', NULL, '1998-04-22', '10201 BUBB ROAD CUPERTINO CA US 95014-4167', 'IEEE+Wireshark+Nmap', 'HYBRID NETWORKS, INC.', 'current', NULL, NULL),
-  ('00:20:2E', 'DAYSTAR DIGITAL', 'MA-L', 'DaystarDigit', 'Computer', '1998-04-22', '5556 ATLANTA HIGHWAY FLOWERY BRANCH GA US 30542', 'IEEE+Wireshark+Nmap', 'DAYSTAR DIGITAL', 'current', NULL, NULL);
-
--- Batch 62 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:20:2E', 'DAYSTAR DIGITAL', 'MA-L', 'DaystarDigit', 'Computer', '1998-04-22', '5556 ATLANTA HIGHWAY FLOWERY BRANCH GA US 30542', 'IEEE+Wireshark+Nmap', 'DAYSTAR DIGITAL', 'current', NULL, NULL),
   ('00:20:29', 'TELEPROCESSING PRODUCTS, INC.', 'MA-L', 'Teleprocessi', NULL, '1998-04-22', '4565 E. INDUSTRIAL STREET SIMI VALLEY CA US 93063', 'IEEE+Wireshark+Nmap', 'TELEPROCESSING PRODUCTS, INC.', 'current', NULL, NULL),
   ('00:20:69', 'ISDN SYSTEMS CORPORATION', 'MA-L', 'Isdn', NULL, '1998-04-22', '8320 OLD COURTHOUSE RD. VIENNA VA US 22182', 'IEEE+Wireshark+Nmap', 'ISDN SYSTEMS CORPORATION', 'current', NULL, NULL),
   ('00:20:8B', 'LAPIS TECHNOLOGIES, INC.', 'MA-L', 'LapisTechnol', NULL, '1998-04-22', '1100 MARINA VILLAGE PKWY ALAMEDA CA US 94501', 'IEEE+Wireshark+Nmap', 'LAPIS TECHNOLOGIES, INC.', 'current', NULL, NULL),
@@ -31168,7 +31206,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('48:35:84', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2024-02-29', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
   ('88:F6:DC', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2024-02-29', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
   ('70:EB:74', 'Ningbo Goneo Electric Appliance Co., Ltd.', 'MA-L', 'NingboGoneoE', NULL, '2024-03-01', 'No.88 Rixian Road Cixi City, Ningbo City Zhejiang CN 315311 ', 'IEEE+Wireshark+Nmap', 'Ningbo Goneo Electric Appliance Co., Ltd.', 'current', NULL, NULL),
-  ('00:05:7E', 'Eckelmann AG', 'MA-L', 'Eckelmann', 'Industrial', '2001-04-17', 'Berliner Str. 161 Wiesbaden  DE 65205', 'IEEE+Wireshark+Nmap', 'Eckelmann AG', 'current', NULL, 'Eckelmann Steuerungstechnik GmbH | Eckelmann AG'),
+  ('00:05:7E', 'Eckelmann AG', 'MA-L', 'Eckelmann', 'Industrial', '2001-04-17', 'Berliner Str. 161 Wiesbaden  DE 65205', 'IEEE+Wireshark+Nmap', 'Eckelmann AG', 'current', NULL, 'Eckelmann Steuerungstechnik GmbH | Eckelmann AG');
+
+-- Batch 63 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('D4:95:5D', 'ZTE', 'MA-L', 'zte', 'Phone', '2024-03-09', '12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen  guangdong CN 518057 ', 'IEEE+Wireshark+Nmap', 'zte corporation', 'current', NULL, NULL),
   ('9C:66:97', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2024-03-12', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
   ('D0:E5:81', 'Apple', 'MA-L', 'Apple', 'Phone', '2024-03-09', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
@@ -31206,10 +31247,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:24:6C', 'HPE Aruba Networking', 'MA-L', 'HewlettPacka', 'Access Point', '2008-11-30', '3333 Scott Blvd 6280 America Center Dr CA US 95002', 'IEEE+Wireshark+Nmap', 'Hewlett Packard Enterprise', 'current', NULL, 'ARUBA NETWORKS, INC. | Aruba Networks | Aruba, a Hewlett Packard Enterprise Company | Hewlett Packard Enterprise'),
   ('00:1A:1E', 'HPE Aruba Networking', 'MA-L', 'HewlettPacka', 'Access Point', '2006-11-02', '3333 Scott Blvd Santa Clara CA US 95054', 'IEEE+Wireshark+Nmap', 'Hewlett Packard Enterprise', 'current', NULL, 'Aruba Networks | Aruba, a Hewlett Packard Enterprise Company | Hewlett Packard Enterprise'),
   ('A8:52:D4', 'HPE Aruba Networking', 'MA-L', 'HewlettPacka', 'Access Point', '2023-01-19', '3333 Scott Blvd 6280 America Center Dr CA US 95002', 'IEEE+Wireshark+Nmap', 'Hewlett Packard Enterprise', 'current', NULL, 'Aruba, a Hewlett Packard Enterprise Company | Hewlett Packard Enterprise'),
-  ('94:64:24', 'HPE Aruba Networking', 'MA-L', 'HewlettPacka', 'Access Point', '2021-06-25', '3333 Scott Blvd 6280 America Center Dr CA US 95002', 'IEEE+Wireshark+Nmap', 'Hewlett Packard Enterprise', 'current', NULL, 'Aruba, a Hewlett Packard Enterprise Company | Hewlett Packard Enterprise');
-
--- Batch 63 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('94:64:24', 'HPE Aruba Networking', 'MA-L', 'HewlettPacka', 'Access Point', '2021-06-25', '3333 Scott Blvd 6280 America Center Dr CA US 95002', 'IEEE+Wireshark+Nmap', 'Hewlett Packard Enterprise', 'current', NULL, 'Aruba, a Hewlett Packard Enterprise Company | Hewlett Packard Enterprise'),
   ('38:21:C7', 'HPE Aruba Networking', 'MA-L', 'HewlettPacka', 'Access Point', '2018-10-25', '3333 Scott Blvd 6280 America Center Dr CA US 95002', 'IEEE+Wireshark+Nmap', 'Hewlett Packard Enterprise', 'current', NULL, 'Aruba Networks | Aruba, a Hewlett Packard Enterprise Company | Hewlett Packard Enterprise'),
   ('54:77:8A', 'HPE Aruba Networking', 'MA-L', 'HewlettPacka', 'Access Point', '2020-06-09', '8000 Foothills Blvd. Roseville CA US 95747', 'IEEE+Wireshark+Nmap', 'Hewlett Packard Enterprise', 'current', NULL, 'Hewlett Packard Enterprise | Hewlett Packard Enterprise – WW Corporate Headquarters | Hewlett Packard Enterprise'),
   ('94:A6:D8', 'New H3C Technologies Co., Ltd', 'MA-L', 'NewH3CTechno', 'Access Point', '2024-03-28', '466 Changhe Road, Binjiang District Hangzhou Zhejiang CN 310052 ', 'IEEE+Wireshark+Nmap', 'New H3C Technologies Co., Ltd', 'current', NULL, NULL),
@@ -31671,7 +31709,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('FC:E1:A6', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2025-02-11', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('0C:07:F3', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2025-02-11', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('98:24:7B', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2025-02-11', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
-  ('6C:CF:39', 'Shanghai StarFive Semiconductor Co., Ltd.', 'MA-L', 'StarFiveSemi', NULL, '2021-04-21', 'Room 506, Building 2, No. 61 Shengxia Rd., Shanghai Shanghai CN 201203 ', 'IEEE+Wireshark+Nmap', 'Shanghai StarFive Semiconductor Co., Ltd.', 'current', NULL, 'Guangdong Starfive Technology Co., Ltd. | Shanghai StarFive Semiconductor Co., Ltd.'),
+  ('6C:CF:39', 'Shanghai StarFive Semiconductor Co., Ltd.', 'MA-L', 'StarFiveSemi', NULL, '2021-04-21', 'Room 506, Building 2, No. 61 Shengxia Rd., Shanghai Shanghai CN 201203 ', 'IEEE+Wireshark+Nmap', 'Shanghai StarFive Semiconductor Co., Ltd.', 'current', NULL, 'Guangdong Starfive Technology Co., Ltd. | Shanghai StarFive Semiconductor Co., Ltd.');
+
+-- Batch 64 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('58:83:36', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2025-02-11', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('08:4B:44', 'Robert Bosch Elektronika Kft.', 'MA-L', 'RobertBoschE', NULL, '2025-02-04', 'Robert Bosch út 1 Hatvan Heves HU 3000', 'IEEE+Wireshark+Nmap', 'Robert Bosch Elektronika Kft.', 'current', NULL, NULL),
   ('90:F9:64', 'Rawasi Co', 'MA-L', 'Rawasi', NULL, '2025-02-06', '6-20, 206, Rokubancho Chiyoda City Tokyo JP 102-0085 ', 'IEEE+Wireshark+Nmap', 'Rawasi Co', 'current', NULL, NULL),
@@ -31709,10 +31750,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('24:27:E5', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2025-03-14', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
   ('E0:0D:EE', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2025-03-14', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
   ('0C:B5:B3', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2025-03-14', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
-  ('D4:84:D0', 'Shanghai Xiaodu Technology Limited', 'MA-L', 'XiaoduTechno', 'Smart Home', '2025-03-15', '	4th Floor Building No.1 , No.701 Naxian Road Pilot Free Trade Zone Shanghai China Shanghai  CN 200000 ', 'IEEE+Wireshark+Nmap', 'Shanghai Xiaodu Technology Limited', 'current', NULL, NULL);
-
--- Batch 64 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('D4:84:D0', 'Shanghai Xiaodu Technology Limited', 'MA-L', 'XiaoduTechno', 'Smart Home', '2025-03-15', '	4th Floor Building No.1 , No.701 Naxian Road Pilot Free Trade Zone Shanghai China Shanghai  CN 200000 ', 'IEEE+Wireshark+Nmap', 'Shanghai Xiaodu Technology Limited', 'current', NULL, NULL),
   ('A0:28:84', 'Garmin', 'MA-L', 'GarminIntern', 'Automotive', '2025-03-18', '1200 E. 151st St Olathe KS US 66062', 'IEEE+Wireshark+Nmap', 'Garmin International', 'current', NULL, NULL),
   ('B4:B2:E9', 'Fortinet', 'MA-L', 'Fortinet', 'Router', '2025-03-15', '899 Kifer Road Sunnyvale  US 94086', 'IEEE+Wireshark+Nmap', 'Fortinet, Inc.', 'current', NULL, NULL),
   ('A8:B5:8E', 'SHENZHEN BILIAN', 'MA-L', 'BilianElectr', NULL, '2025-03-22', 'NO.268， Fuqian Rd, Jutang community, Guanlan Town, Longhua New district shenzhen guangdong CN 518000 ', 'IEEE+Wireshark+Nmap', 'SHENZHEN BILIAN ELECTRONIC CO.，LTD', 'current', NULL, NULL),
@@ -32174,7 +32212,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('08:95:36', 'Actiontec', 'MA-L', 'ActiontecEle', 'Router', '2026-02-06', '2445 Augustine Dr #501 Santa Clara  CA US 95054', 'IEEE+Wireshark+Nmap', 'Actiontec Electronics Inc.', 'current', NULL, NULL),
   ('84:7C:EE', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2026-02-05', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
   ('90:6F:18', 'Afero, Inc.', 'MA-L', 'Afero', NULL, '2015-05-16', '4410 El Camino Real, Suite 200 Los Altos  US 94022 ', 'IEEE+Wireshark+Nmap', 'Afero, Inc.', 'current', NULL, 'PRIVATE | Afero, Inc.'),
-  ('24:D6:60', 'Silicon Labs', 'MA-L', 'SiliconLabor', NULL, '2026-02-10', '400 West Cesar Chavez Austin TX US 78701', 'IEEE+Wireshark+Nmap', 'Silicon Laboratories', 'current', NULL, NULL),
+  ('24:D6:60', 'Silicon Labs', 'MA-L', 'SiliconLabor', NULL, '2026-02-10', '400 West Cesar Chavez Austin TX US 78701', 'IEEE+Wireshark+Nmap', 'Silicon Laboratories', 'current', NULL, NULL);
+
+-- Batch 65 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('18:C3:E4', 'IEEE Registration Authority', 'MA-L', NULL, NULL, '2026-02-10', '445 Hoes Lane Piscataway NJ US 08554', 'IEEE+Nmap', 'IEEE Registration Authority', 'current', NULL, NULL),
   ('18:4F:5D', 'Japan Radio Company', 'MA-L', 'JapanRadio', NULL, '2020-10-07', 'NAKANO CENTRAL PARK EAST 10-1, Nakano 4-chome Nakano-ku Tokyo JP 164-8570 ', 'IEEE+Wireshark+Nmap', 'Japan Radio Co., Ltd', 'current', NULL, 'JRC Mobility Inc. | Japan Radio Co., Ltd'),
   ('6C:28:13', 'nFore / IVT (Bluetooth stacks)', 'MA-L', 'nForeTechnol', NULL, '2026-02-11', '5F, No.31, Ln. 258, Ruiguang Rd., Neihu Dist.,  Taipei city  TW 114 ', 'IEEE+Wireshark+Nmap', 'nFore Technology Co., Ltd.', 'current', NULL, NULL),
@@ -32212,10 +32253,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('28:87:5F', 'Annapurna labs', 'MA-L', 'Annapurnalab', NULL, '2026-03-12', 'Matam Scientific Industries Center,   Building 8.2 Mail box 15123 Haifa IL 3508409 ', 'IEEE+Wireshark', 'Annapurna labs', 'current', NULL, NULL),
   ('38:6D:ED', 'Juniper Networks', 'MA-L', 'JuniperNetwo', 'Router', '2026-03-11', '1133 Innovation Way Sunnyvale CA US 94089', 'IEEE+Wireshark', 'Juniper Networks', 'current', NULL, NULL),
   ('10:3A:5D', 'Emerson', 'MA-L', 'Emerson', NULL, '2026-03-11', '6021 Innovation Blvd Shakopee MN US 55379', 'IEEE+Wireshark', 'Emerson', 'current', NULL, NULL),
-  ('30:08:4D', 'Trumpf Hüttinger', 'MA-L', 'TrumpfHüttin', NULL, '2026-03-10', 'Bötzingerstraße 80 Freiburg  DE 79111', 'IEEE+Wireshark', 'Trumpf Hüttinger', 'current', NULL, NULL);
-
--- Batch 65 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('30:08:4D', 'Trumpf Hüttinger', 'MA-L', 'TrumpfHüttin', NULL, '2026-03-10', 'Bötzingerstraße 80 Freiburg  DE 79111', 'IEEE+Wireshark', 'Trumpf Hüttinger', 'current', NULL, NULL),
   ('4C:09:D4', 'Arcadyan', 'MA-L', 'Arcadyan', 'Router', '2014-09-30', '4F, No. 9, Park Avenue II , Hsinchu  TW 300 ', 'IEEE+Wireshark+Nmap', 'Arcadyan Corporation', 'current', NULL, 'Arcadyan Technology Corporation | Arcadyan Corporation'),
   ('DC:9D:ED', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2026-03-20', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('AC:62:FF', 'Vantiva (Technicolor)', 'MA-L', 'VantivaUSA', 'Router', '2026-03-20', '4855 Peachtree Industrial Blvd, Suite 200 Norcross GA US 30902 ', 'IEEE+Wireshark', 'Vantiva USA LLC', 'current', NULL, NULL),
@@ -32617,10 +32655,21 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('58:30:AC', 'Quectel', 'MA-L', 'QuectelWirel', NULL, '2026-10-28', '7th Floor, Hongye Building, No.1801 Hongmei Road, Xuhui District Shanghai  CN 200233 ', 'IEEE+Wireshark', 'Quectel Wireless Solutions Co.,Ltd.', 'current', NULL, NULL),
   ('88:8A:F5', 'Intel', 'MA-L', 'Intel', 'Laptop', '2026-10-29', 'Lot 8, Jalan Hi-Tech 2/3   Kulim Kedah MY 09000 ', 'IEEE+Wireshark', 'Intel Corporate', 'current', NULL, NULL),
   ('60:41:5A', 'Google', 'MA-L', 'Google', 'Router', '2026-10-30', '1600 Amphitheatre Parkway Mountain View  US 94043', 'IEEE+Wireshark', 'Google, Inc.', 'current', NULL, NULL),
+  ('AC:64:60', 'Nokia Solutions and Networks India Private Limited', 'MA-L', 'NokiaSolutio', NULL, '2026-11-12', 'Plot 45, Fathima NagarNemilicherry,Chrompet Chennai Taminadu IN 600044 ', 'IEEE+Wireshark', 'Nokia Solutions and Networks India Private Limited', 'current', NULL, NULL),
+  ('44:40:AB', 'ASUS', 'MA-L', 'ASUSTekCOMPU', 'Router', '2026-11-12', '15,Li-Te Rd., Peitou, Taipei 112, Taiwan Taipei Taiwan TW 112 ', 'IEEE+Wireshark', 'ASUSTek COMPUTER INC.', 'current', NULL, NULL),
+  ('90:C0:46', 'Foxconn (Hon Hai)', 'MA-L', 'HonHaiPrecis', NULL, '2026-11-11', 'No.2, 2nd donghuan Road, Longhua St., Longhua Dist., ShenZhen GuangDong CN 518109 ', 'IEEE+Wireshark', 'Hon Hai Precision Industry Co., Ltd.', 'current', NULL, NULL),
+  ('98:84:C1', 'New H3C Technologies Co., Ltd', 'MA-L', 'NewH3CTechno', 'Access Point', '2026-11-11', '466 Changhe Road, Binjiang District Hangzhou Zhejiang CN 310052 ', 'IEEE+Wireshark', 'New H3C Technologies Co., Ltd', 'current', NULL, NULL),
+  ('BC:47:D6', 'Sagemcom', 'MA-L', 'SagemcomBroa', 'Router', '2026-11-11', '4 Allée des Messageries Bois-Colombes haut de seine FR 92270', 'IEEE+Wireshark', 'Sagemcom Broadband SAS', 'current', NULL, NULL),
+  ('A8:AB:18', 'Tuya', 'MA-L', 'TuyaSmart', 'Smart Home', '2026-11-12', '160 Greentree Drive, Suite 101 Dover DE US 19904 ', 'IEEE+Wireshark', 'Tuya Smart Inc.', 'current', NULL, NULL),
   ('04:7B:43', 'IEEE Registration Authority', 'MA-L', NULL, NULL, '2026-11-06', '445 Hoes Lane Piscataway NJ US 08554', 'IEEE', 'IEEE Registration Authority', 'current', NULL, NULL),
-  ('98:84:C1', 'New H3C Technologies Co., Ltd', 'MA-L', NULL, 'Access Point', '2026-11-11', '466 Changhe Road, Binjiang District Hangzhou Zhejiang CN 310052 ', 'IEEE', 'New H3C Technologies Co., Ltd', 'current', NULL, NULL),
-  ('90:C0:46', 'Foxconn (Hon Hai)', 'MA-L', NULL, NULL, '2026-11-11', 'No.2, 2nd donghuan Road, Longhua St., Longhua Dist., ShenZhen GuangDong CN 518109 ', 'IEEE', 'Hon Hai Precision Industry Co., Ltd.', 'current', NULL, NULL),
-  ('BC:47:D6', 'Sagemcom', 'MA-L', NULL, 'Router', '2026-11-11', '4 Allée des Messageries Bois-Colombes haut de seine FR 92270', 'IEEE', 'Sagemcom Broadband SAS', 'current', NULL, NULL),
+  ('8C:05:4D', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2026-11-13', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
+  ('80:FF:60', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2026-11-13', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
+  ('04:6E:E5', 'HI-POWER Solution CO.,LTD.', 'MA-L', 'HIPOWERSolut', NULL, '2026-11-14', 'Rm. 5F-1A, No. 6, Ln. 256, Sec. 2, Xitun Rd., Xitun Dist.,  Taichung City  TW 407428 ', 'IEEE+Wireshark', 'HI-POWER Solution CO.,LTD.', 'current', NULL, NULL),
+  ('E4:DC:16', 'EM Microelectronic', 'MA-L', NULL, NULL, '2026-11-16', 'Rue des Sors 3 Marin-Epagnier Neuchatel CH 2074', 'IEEE', 'EM Microelectronic', 'current', NULL, NULL),
+  ('74:DF:B9', 'Cisco', 'MA-L', NULL, 'Access Point', '2026-11-18', '80 West Tasman Drive San Jose  CA US 94568', 'IEEE', 'Cisco Systems, Inc', 'current', NULL, NULL),
+  ('F0:B8:F7', 'Cisco', 'MA-L', NULL, 'Access Point', '2026-11-18', '80 West Tasman Drive San Jose  CA US 94568', 'IEEE', 'Cisco Systems, Inc', 'current', NULL, NULL),
+  ('C4:55:10', 'FRITZ! Technology GmbH', 'MA-L', NULL, 'Router', '2026-11-19', 'Alt-Moabit 95 Berlin Berlin DE 10559', 'IEEE', 'FRITZ! Technology GmbH', 'current', NULL, NULL),
+  ('6C:7C:FD', 'eero', 'MA-L', NULL, 'Router', '2026-11-20', '660 3rd Street  San Francisco CA US 94107', 'IEEE', 'eero inc.', 'current', NULL, NULL),
   ('C8:5C:E2', 'IEEE Registration Authority', 'MA-L', NULL, NULL, '2023-07-19', '445 Hoes Lane Piscataway NJ US 08554', 'IEEE+Nmap', 'IEEE Registration Authority', 'current', NULL, NULL),
   ('DC:EE:14', 'ADT Technology', 'MA-L', 'ADTTechnolog', NULL, '2023-07-19', 'Room 325, 3rd Floor, Building F, Xinmao Science and Technology Park, Huayuan Industrial Zone Tianjin Tianjin CN 300384 ', 'IEEE+Wireshark+Nmap', 'ADT Technology', 'current', NULL, NULL),
   ('10:FF:E0', 'GIGA-BYTE TECHNOLOGY CO.,LTD.', 'MA-L', 'GigaByteTech', 'Computer', '2023-07-20', 'Pin-Jen City, Taoyuan, Taiwan, R.O.C. Pin-Jen Taoyuan TW 324 ', 'IEEE+Wireshark+Nmap', 'GIGA-BYTE TECHNOLOGY CO.,LTD.', 'current', NULL, NULL),
@@ -32666,7 +32715,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('BC:0E:AB', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2023-05-31', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('98:FB:27', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2023-05-31', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('A8:0B:FB', 'Ruckus Networks', 'MA-L', 'RuckusWirele', 'Access Point', '2023-06-08', '350 West Java Drive Sunnyvale CA US 94089', 'IEEE+Wireshark+Nmap', 'Ruckus Wireless', 'current', NULL, NULL),
-  ('3C:FA:30', 'Palo Alto Networks', 'MA-L', 'PaloAltoNetw', 'Router', '2023-06-08', '3000 Tannery Way Santa Clara CA US 95054', 'IEEE+Wireshark+Nmap', 'Palo Alto Networks', 'current', NULL, NULL),
+  ('3C:FA:30', 'Palo Alto Networks', 'MA-L', 'PaloAltoNetw', 'Router', '2023-06-08', '3000 Tannery Way Santa Clara CA US 95054', 'IEEE+Wireshark+Nmap', 'Palo Alto Networks', 'current', NULL, NULL);
+
+-- Batch 66 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('CC:EC:B7', 'ShenZhen Linked-Z Intelligent Display Co., Ltd', 'MA-L', 'LinkedZIntel', 'TV', '2023-06-07', 'Block 128?Huafeng Zhigu-Hangcheng High-tech Industrial Park?Aviation Road?Sanwei Community,Hangcheng Street,Bao’an District Shenzhen Guangdong CN 518128 ', 'IEEE+Wireshark+Nmap', 'ShenZhen Linked-Z Intelligent Display Co., Ltd', 'current', NULL, NULL),
   ('A8:B8:E0', 'Changwang Technology inc.', 'MA-L', 'ChangwangTec', NULL, '2023-06-16', 'No.37,Qinghutou,Renmin Road, Tangxia Town  Dongguan Guangdong CN 523710 ', 'IEEE+Wireshark+Nmap', 'Changwang Technology inc.', 'current', NULL, NULL),
   ('14:CA:56', 'ZTE', 'MA-L', 'zte', 'Phone', '2023-05-25', '12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen  guangdong CN 518057 ', 'IEEE+Wireshark+Nmap', 'zte corporation', 'current', NULL, NULL),
@@ -32715,10 +32767,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('50:09:59', 'Vantiva (Technicolor)', 'MA-L', 'VantivaUSA', 'Router', '2016-06-08', '5030 Sugarloaf Parkway Bldg 6 Lawrenceville GA US 30044', 'IEEE+Wireshark+Nmap', 'Vantiva USA LLC', 'current', NULL, 'Technicolor CH USA Inc. | Vantiva USA LLC'),
   ('38:17:E1', 'Vantiva (Technicolor)', 'MA-L', 'VantivaUSA', 'Router', '2017-03-17', '5030 Sugarloaf Parkway Bldg 6 Lawrenceville GA US 30044', 'IEEE+Wireshark+Nmap', 'Vantiva USA LLC', 'current', NULL, 'Technicolor CH USA Inc. | Vantiva USA LLC'),
   ('40:75:C3', 'Vantiva (Technicolor)', 'MA-L', 'VantivaUSA', 'Router', '2022-05-21', '4855 Peachtree Industrial Blvd, Suite 20 Norcross GA US 30902 ', 'IEEE+Wireshark+Nmap', 'Vantiva USA LLC', 'current', NULL, 'Technicolor CH USA Inc. | Vantiva USA LLC'),
-  ('10:A7:93', 'Vantiva (Technicolor)', 'MA-L', 'VantivaUSA', 'Router', '2022-11-19', '4855 Peachtree Industrial Blvd, Suite 20 Norcross GA US 30902 ', 'IEEE+Wireshark+Nmap', 'Vantiva USA LLC', 'current', NULL, 'Technicolor CH USA Inc. | Vantiva USA LLC');
-
--- Batch 66 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('10:A7:93', 'Vantiva (Technicolor)', 'MA-L', 'VantivaUSA', 'Router', '2022-11-19', '4855 Peachtree Industrial Blvd, Suite 20 Norcross GA US 30902 ', 'IEEE+Wireshark+Nmap', 'Vantiva USA LLC', 'current', NULL, 'Technicolor CH USA Inc. | Vantiva USA LLC'),
   ('B8:A5:35', 'Vantiva (Technicolor)', 'MA-L', 'VantivaUSA', 'Router', '2022-12-02', '4855 Peachtree Industrial Blvd, Suite 20 Norcross GA US 30902 ', 'IEEE+Wireshark+Nmap', 'Vantiva USA LLC', 'current', NULL, 'Technicolor CH USA Inc. | Vantiva USA LLC'),
   ('98:39:C0', 'Flex (Flextronics)', 'MA-L', 'Flextronics', NULL, '2023-04-26', 'Carretera Base Aerea 5850 int 4 Zapopan Jalisco MX 45136', 'IEEE+Wireshark+Nmap', 'FLEXTRONICS', 'current', NULL, NULL),
   ('8C:CB:14', 'TBS GmbH', 'MA-L', 'TBS', NULL, '2023-04-25', 'Finkenstr. 73 Kaiserslautern  DE 67661', 'IEEE+Wireshark+Nmap', 'TBS GmbH', 'current', NULL, NULL),
@@ -33169,7 +33218,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('BC:15:41', 'Nokia', 'MA-L', 'Nokia', 'Router', '2022-04-28', '600 March Road Kanata Ontario CA K2K 2E6', 'IEEE+Wireshark+Nmap', 'Nokia', 'current', NULL, NULL),
   ('40:E1:71', 'Jiangsu Huitong Group Co.,Ltd.', 'MA-L', 'JiangsuHuito', 'Media Player', '2022-04-22', 'No. 24, Block 2, Taohuawu New District Zhenjiang Jiangsu CN 212003 ', 'IEEE+Wireshark+Nmap', 'Jiangsu Huitong Group Co.,Ltd.', 'current', NULL, NULL),
   ('18:C3:00', 'Nokia', 'MA-L', 'Nokia', 'Router', '2022-04-21', '600 March Road Kanata Ontario CA K2K 2E6', 'IEEE+Wireshark+Nmap', 'Nokia', 'current', NULL, NULL),
-  ('D4:4D:77', 'Nokia', 'MA-L', 'Nokia', 'Router', '2022-04-21', '600 March Road Kanata Ontario CA K2K 2E6', 'IEEE+Wireshark+Nmap', 'Nokia', 'current', NULL, NULL),
+  ('D4:4D:77', 'Nokia', 'MA-L', 'Nokia', 'Router', '2022-04-21', '600 March Road Kanata Ontario CA K2K 2E6', 'IEEE+Wireshark+Nmap', 'Nokia', 'current', NULL, NULL);
+
+-- Batch 67 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('E0:F3:18', 'Sichuan Tianyi Comheart Telecom Co.,LTD', 'MA-L', 'SichuanTiany', NULL, '2022-05-04', 'No.198,First Section,Snow Mountain Avenue, Jinyuan Town, Dayi County Chengdu Sichuan CN 611330 ', 'IEEE+Wireshark+Nmap', 'Sichuan Tianyi Comheart Telecom Co.,LTD', 'current', NULL, NULL),
   ('C4:64:F2', 'Infinix (Transsion)', 'MA-L', 'Infinixmobil', 'Phone', '2022-05-04', 'RMS 05-15, 13A/F SOUTH TOWER WORLD FINANCE CTR HARBOUR CITY 17 CANTON RD TST KLN HONG KONG HongKong HongKong HK 999077 ', 'IEEE+Wireshark+Nmap', 'Infinix mobility limited', 'current', NULL, NULL),
   ('6C:72:4A', 'Onkyo Technology K.K.', 'MA-L', 'OnkyoTechnol', 'Audio', '2022-04-21', 'Lux Building (5th floor),1-1-41 Kawamata Higashiosaka City Osaka JP 577-0063 ', 'IEEE+Wireshark+Nmap', 'Onkyo Technology K.K.', 'current', NULL, NULL),
@@ -33218,10 +33270,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('BC:FA:EB', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2022-02-24', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
   ('84:85:53', 'Biznes Systema Telecom, LLC', 'MA-L', 'BiznesSystem', NULL, '2022-02-24', 'room XXII/1, fl 3, block 3, 6 Barklaya street, Moscow, 121087, Russia Moscow  RU 121087 ', 'IEEE+Wireshark+Nmap', 'Biznes Systema Telecom, LLC', 'current', NULL, NULL),
   ('B4:7D:76', 'KNS Group LLC (YADRO Company)', 'MA-L', 'KNSGroup', 'Server', '2022-02-24', 'Room 4, Office IV, Floor 4 Rochdelskaya street, 15, b.15 Moscow, 123376 Russia Moscow  RU 123376 ', 'IEEE+Wireshark+Nmap', 'KNS Group LLC', 'current', NULL, NULL),
-  ('C0:AD:97', 'TECNO MOBILE LIMITED', 'MA-L', 'TecnoMobile', 'Phone', '2022-02-24', 'ROOMS 05-15, 13A/F., SOUTH TOWER, WORLD FINANCE CENTRE, HARBOUR CITY, 17 CANTON ROAD, TSIM SHA TSUI, KOWLOON, HONG KONG Hong Kong Hong Kong HK 999077 ', 'IEEE+Wireshark+Nmap', 'TECNO MOBILE LIMITED', 'current', NULL, NULL);
-
--- Batch 67 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('C0:AD:97', 'TECNO MOBILE LIMITED', 'MA-L', 'TecnoMobile', 'Phone', '2022-02-24', 'ROOMS 05-15, 13A/F., SOUTH TOWER, WORLD FINANCE CENTRE, HARBOUR CITY, 17 CANTON ROAD, TSIM SHA TSUI, KOWLOON, HONG KONG Hong Kong Hong Kong HK 999077 ', 'IEEE+Wireshark+Nmap', 'TECNO MOBILE LIMITED', 'current', NULL, NULL),
   ('58:00:32', 'Genexis B.V.', 'MA-L', 'Genexis', 'Modem', '2022-02-24', 'Lodewijkstraat 1A Eindhoven  NL 5652AC', 'IEEE+Wireshark+Nmap', 'Genexis B.V.', 'current', NULL, NULL),
   ('BC:C7:DA', 'Earda Technologies', 'MA-L', 'EardaTechnol', NULL, '2022-02-20', 'Block A,Lianfeng Creative Park, #2 Jisheng Rd., Nansha District Guangzhou Guangdong CN 511455 ', 'IEEE+Wireshark+Nmap', 'Earda Technologies co Ltd', 'current', NULL, NULL),
   ('18:66:F0', 'Jupiter Systems', 'MA-L', 'Jupiter', 'Audio', '2022-02-20', '31015 Huntwood Ave Hayward CA US 94544-7007', 'IEEE+Wireshark+Nmap', 'Jupiter Systems', 'current', NULL, NULL),
@@ -33672,7 +33721,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('F0:62:5A', 'realme', 'MA-L', 'RealmeChongq', 'Phone', '2020-12-06', 'No.178 Yulong Avenue, Yufengshan, Yubei District, Chongqing. Chongqing  China CN 401120 ', 'IEEE+Wireshark+Nmap', 'Realme Chongqing Mobile Telecommunications Corp.,Ltd.', 'current', NULL, NULL),
   ('84:3B:10', 'LVSWITCHES INC.', 'MA-L', 'Lvswitches', 'Switch', '2020-12-18', 'F1 building,New light source base Luocun town,Nanhai district Foshan Guangdong CN 528000 ', 'IEEE+Wireshark+Nmap', 'LVSWITCHES INC.', 'current', NULL, 'Lv switch Inc. | LVSWITCHES INC.'),
   ('94:A4:F9', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2020-12-18', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
-  ('6C:34:91', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2020-12-18', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
+  ('6C:34:91', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2020-12-18', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL);
+
+-- Batch 68 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('E8:4D:74', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2020-12-18', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('CC:89:5E', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2020-12-18', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('EC:63:D7', 'Intel', 'MA-L', 'Intel', 'Laptop', '2020-12-12', 'Lot 8, Jalan Hi-Tech 2/3   Kulim Kedah MY 09000 ', 'IEEE+Wireshark+Nmap', 'Intel Corporate', 'current', NULL, NULL),
@@ -33721,10 +33773,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('F8:8F:07', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2020-11-13', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('8C:EA:48', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2020-11-01', '129, Samsung-ro, Youngtongl-Gu Suwon Gyeonggi-Do KR 16677 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('50:3D:C6', 'Xiaomi', 'MA-L', 'XiaomiCommun', 'Phone', '2020-11-01', '#019, 9th Floor, Building 6, 33 Xi''erqi Middle Road Beijing Haidian District CN 100085 ', 'IEEE+Wireshark+Nmap', 'Xiaomi Communications Co Ltd', 'current', NULL, NULL),
-  ('B0:BD:1B', 'Dongguan Liesheng Electronic Co., Ltd.', 'MA-L', 'DongguanLies', NULL, '2020-11-01', 'F5, Building B, North Block, Gaosheng Tech Park, No. 84 Zhongli Road, Nancheng District, Dongguan Ci dongguan  guangdong CN 523000 ', 'IEEE+Wireshark+Nmap', 'Dongguan Liesheng Electronic Co., Ltd.', 'current', NULL, NULL);
-
--- Batch 68 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('B0:BD:1B', 'Dongguan Liesheng Electronic Co., Ltd.', 'MA-L', 'DongguanLies', NULL, '2020-11-01', 'F5, Building B, North Block, Gaosheng Tech Park, No. 84 Zhongli Road, Nancheng District, Dongguan Ci dongguan  guangdong CN 523000 ', 'IEEE+Wireshark+Nmap', 'Dongguan Liesheng Electronic Co., Ltd.', 'current', NULL, NULL),
   ('D4:EC:AB', 'vivo', 'MA-L', 'vivoMobileCo', 'Phone', '2020-11-01', 'No.1, vivo Road, Chang''an Dongguan Guangdong CN 523860 ', 'IEEE+Wireshark+Nmap', 'vivo Mobile Communication Co., Ltd.', 'current', NULL, NULL),
   ('BC:3E:CB', 'vivo', 'MA-L', 'vivoMobileCo', 'Phone', '2020-11-01', 'No.1, vivo Road, Chang''an Dongguan Guangdong CN 523860 ', 'IEEE+Wireshark+Nmap', 'vivo Mobile Communication Co., Ltd.', 'current', NULL, NULL),
   ('08:79:8C', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2020-11-01', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
@@ -34175,7 +34224,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('FC:7D:6C', 'HYESUNG TECHWIN Co., Ltd', 'MA-L', 'HYESUNGTECHW', NULL, '2019-04-23', '#1509,545,Dunchon-daero, Jungwon-gu Seongnam  Gyeonggi-do KR 13215 ', 'IEEE+Wireshark+Nmap', 'HYESUNG TECHWIN Co., Ltd', 'current', NULL, NULL),
   ('1C:D5:E2', 'Shenzhen YOUHUA Technology Co., Ltd', 'MA-L', 'YOUHUATechno', NULL, '2019-04-20', 'Room 407 Shenzhen University-town Business Park,Lishan Road,Taoyuan Street,Nanshan District Shenzhen Guangdong CN 518055 ', 'IEEE+Wireshark+Nmap', 'Shenzhen YOUHUA Technology Co., Ltd', 'current', NULL, NULL),
   ('00:24:E9', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2009-01-11', '416, Maetan 3Dong, Yeongtong-Gu Suwon City Geyonggi Do KR 443-742 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, 'Samsung Electronics Co., Ltd., Storage System Division | Samsung Electronics Co.,Ltd'),
-  ('68:3B:78', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2019-04-25', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
+  ('68:3B:78', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2019-04-25', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL);
+
+-- Batch 69 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('F4:CE:36', 'Nordic Semiconductor', 'MA-L', 'NordicSemico', 'IoT', '2019-04-25', 'Otto Nielsens veg 12 Trondheim  NO NO-7052', 'IEEE+Wireshark+Nmap', 'Nordic Semiconductor ASA', 'current', NULL, NULL),
   ('AC:77:13', 'Honeywell', 'MA-L', 'HoneywellSaf', 'Industrial', '2019-05-09', '430 Li Bing Road Zhang Jiang Hi-Tech ParkPudong New Area Shanghai Shanghai CN 201203', 'IEEE+Wireshark+Nmap', 'Honeywell Safety Products (Shanghai) Co.,Ltd', 'current', NULL, NULL),
   ('08:84:9D', 'Amazon', 'MA-L', 'AmazonTechno', 'Smart Home', '2019-05-09', 'P.O Box 8102 Reno NV US 89507', 'IEEE+Wireshark+Nmap', 'Amazon Technologies Inc.', 'current', NULL, NULL),
@@ -34224,10 +34276,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('C4:F7:D5', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2019-03-01', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
   ('1C:64:99', 'Comtrend Corporation', 'MA-L', 'Comtrend', 'Modem', '2019-03-01', '3F-1, 10 Lane 609, Chongxin Road, Section 5,  New Taipei City, Taiwan TW 24159 ', 'IEEE+Wireshark+Nmap', 'Comtrend Corporation', 'current', NULL, NULL),
   ('04:D9:F5', 'ASUS', 'MA-L', 'ASUSTekCOMPU', 'Router', '2019-03-09', '15,Li-Te Rd., Peitou, Taipei 112, Taiwan Taipei Taiwan TW 112 ', 'IEEE+Wireshark+Nmap', 'ASUSTek COMPUTER INC.', 'current', NULL, NULL),
-  ('54:EC:2F', 'Ruckus Networks', 'MA-L', 'RuckusWirele', 'Access Point', '2019-03-13', '350 West Java Drive Sunnyvale CA US 94089', 'IEEE+Wireshark+Nmap', 'Ruckus Wireless', 'current', NULL, NULL);
-
--- Batch 69 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('54:EC:2F', 'Ruckus Networks', 'MA-L', 'RuckusWirele', 'Access Point', '2019-03-13', '350 West Java Drive Sunnyvale CA US 94089', 'IEEE+Wireshark+Nmap', 'Ruckus Wireless', 'current', NULL, NULL),
   ('00:25:7E', 'NEW POS TECHNOLOGY LIMITED', 'MA-L', 'NewPosTechno', 'IoT', '2009-03-15', '6FRM, 6F, China Economic Trade Building Shenzhen Guangdong CN 518000 ', 'IEEE+Wireshark+Nmap', 'NEW POS TECHNOLOGY LIMITED', 'current', NULL, NULL),
   ('28:99:C7', 'LINDSAY BROADBAND INC', 'MA-L', 'LindsayBroad', 'Router', '2019-03-15', '2035 2 FISHER DRIVE PETERBOROUGH Ontario CA K9J 6X6', 'IEEE+Wireshark+Nmap', 'LINDSAY BROADBAND INC', 'current', NULL, NULL),
   ('B4:C4:FC', 'Xiaomi', 'MA-L', 'XiaomiCommun', 'Phone', '2019-03-19', 'The Rainbow City of China Resources NO.68, Qinghe Middle Street Haidian District, Beijing CN 100085 ', 'IEEE+Wireshark+Nmap', 'Xiaomi Communications Co Ltd', 'current', NULL, NULL),
@@ -34678,7 +34727,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:1D:38', 'Seagate', 'MA-L', 'SeagateTechn', 'Storage', '2007-08-18', 'M/S NW1F01 Longmont CO US 80503', 'IEEE+Wireshark+Nmap', 'Seagate Technology', 'current', NULL, NULL),
   ('E4:8F:34', 'Vodafone Italia S.p.A.', 'MA-L', 'VodafoneItal', NULL, '2017-09-12', 'Via Lorenteggio nr. 240 Milan Italy IT 20147', 'IEEE+Wireshark+Nmap', 'Vodafone Italia S.p.A.', 'current', NULL, NULL),
   ('D8:E0:04', 'Vodia Networks Inc', 'MA-L', 'VodiaNetwork', NULL, '2017-08-22', '33 Broad St Boston MA US 02109', 'IEEE+Wireshark+Nmap', 'Vodia Networks Inc', 'current', NULL, NULL),
-  ('2C:FD:AB', 'Lenovo / Motorola Mobility', 'MA-L', 'MotorolaMobi', 'Phone', '2017-08-22', 'No.19, Gaoxin 4th Road, Wuhan East Lake High-tech Zone, Wuhan Wuhan Hubei CN 430000 ', 'IEEE+Wireshark+Nmap', 'Motorola (Wuhan) Mobility Technologies Communication Co., Ltd.', 'current', NULL, NULL),
+  ('2C:FD:AB', 'Lenovo / Motorola Mobility', 'MA-L', 'MotorolaMobi', 'Phone', '2017-08-22', 'No.19, Gaoxin 4th Road, Wuhan East Lake High-tech Zone, Wuhan Wuhan Hubei CN 430000 ', 'IEEE+Wireshark+Nmap', 'Motorola (Wuhan) Mobility Technologies Communication Co., Ltd.', 'current', NULL, NULL);
+
+-- Batch 70 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('30:B4:B8', 'LG Electronics', 'MA-L', 'LGElectronic', 'TV', '2017-08-22', '222 LG-ro, JINWI-MYEON Pyeongtaek-si Gyeonggi-do KR 451-713 ', 'IEEE+Wireshark+Nmap', 'LG Electronics', 'current', NULL, NULL),
   ('38:73:EA', 'IEEE Registration Authority', 'MA-L', NULL, NULL, '2017-08-18', '445 Hoes Lane Piscataway NJ US 08554', 'IEEE+Nmap', 'IEEE Registration Authority', 'current', NULL, NULL),
   ('4C:52:62', 'Fujitsu Technology Solutions', 'MA-L', 'FujitsuTechn', 'Server', '2017-08-18', 'Buergermeister-Ulrich-Strasse 100 Augsburg Bayern DE 86199', 'IEEE+Wireshark+Nmap', 'Fujitsu Technology Solutions GmbH', 'current', NULL, NULL),
@@ -34727,10 +34779,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('28:29:86', 'APC by Schneider Electric', 'MA-L', 'APCbySchneid', 'Industrial', '2017-07-20', '800 Federal St. Andover MA US 01810', 'IEEE+Wireshark+Nmap', 'APC by Schneider Electric', 'current', NULL, NULL),
   ('70:7D:B9', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2017-07-19', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
   ('08:BE:AC', 'Edimax Technology Co., Ltd', 'MA-L', 'EdimaxTechno', 'Computer', '2017-07-19', 'No. 278, Xinhu 1st Road Taipei City Neihu Dist TW 248 ', 'IEEE+Wireshark+Nmap', 'Edimax Technology Co. Ltd.', 'current', NULL, NULL),
-  ('8C:0F:83', 'Angie Hospitality LLC', 'MA-L', 'AngieHospita', NULL, '2017-07-19', '12465 S Fort St, Ste 300 Draper UT US 84020-9021 ', 'IEEE+Wireshark+Nmap', 'Angie Hospitality LLC', 'current', NULL, NULL);
-
--- Batch 70 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('8C:0F:83', 'Angie Hospitality LLC', 'MA-L', 'AngieHospita', NULL, '2017-07-19', '12465 S Fort St, Ste 300 Draper UT US 84020-9021 ', 'IEEE+Wireshark+Nmap', 'Angie Hospitality LLC', 'current', NULL, NULL),
   ('D0:04:01', 'Lenovo / Motorola Mobility', 'MA-L', 'MotorolaMobi', 'Phone', '2017-07-14', '222 West Merchandise Mart Plaza Chicago IL US 60654', 'IEEE+Wireshark+Nmap', 'Motorola Mobility LLC, a Lenovo Company', 'current', NULL, NULL),
   ('74:28:57', 'Mayfield Robotics', 'MA-L', 'MayfieldRobo', 'Appliance', '2017-07-14', '400 Convention Way Redwood City CA US 94063', 'IEEE+Wireshark+Nmap', 'Mayfield Robotics', 'current', NULL, NULL),
   ('58:90:43', 'Sagemcom', 'MA-L', 'SagemcomBroa', 'Router', '2017-07-13', '250, route de l''Empereur Rueil Malmaison Cedex hauts de seine FR 92848 ', 'IEEE+Wireshark+Nmap', 'Sagemcom Broadband SAS', 'current', NULL, NULL),
@@ -35181,7 +35230,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:0A:0E', 'Invivo Research Inc.', 'MA-L', 'InvivoResear', 'Medical', '2002-06-05', '12601 Research Parkway Orlando Florida US 32826', 'IEEE+Wireshark+Nmap', 'Invivo Research Inc.', 'current', NULL, NULL),
   ('00:04:38', 'Nortel Networks', 'MA-L', 'NortelNetwor', NULL, '2000-11-23', '8200 Dixie Rd Brampton Ontario CA 0000', 'IEEE+Wireshark+Nmap', 'Nortel Networks', 'current', NULL, NULL),
   ('00:0E:C0', 'Nortel Networks', 'MA-L', 'NortelNetwor', NULL, '2003-12-21', '8200 Dixie Rd Brampton Ontario CA 0000', 'IEEE+Wireshark+Nmap', 'Nortel Networks', 'current', NULL, NULL),
-  ('3C:40:4F', 'GUANGDONG PISEN ELECTRONICS CO.,LTD', 'MA-L', 'PisenElectro', 'Industrial', '2013-05-30', 'Building C,Liuyue Jintang Industry Zone Shenzhen Guangdong CN 518173 ', 'IEEE+Wireshark+Nmap', 'GUANGDONG PISEN ELECTRONICS CO.,LTD', 'current', NULL, 'Guangdong Pisen Electronics Co. Ltd. | GUANGDONG PISEN ELECTRONICS CO.,LTD'),
+  ('3C:40:4F', 'GUANGDONG PISEN ELECTRONICS CO.,LTD', 'MA-L', 'PisenElectro', 'Industrial', '2013-05-30', 'Building C,Liuyue Jintang Industry Zone Shenzhen Guangdong CN 518173 ', 'IEEE+Wireshark+Nmap', 'GUANGDONG PISEN ELECTRONICS CO.,LTD', 'current', NULL, 'Guangdong Pisen Electronics Co. Ltd. | GUANGDONG PISEN ELECTRONICS CO.,LTD');
+
+-- Batch 71 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('D8:4F:B8', 'LG Electronics', 'MA-L', 'LgElectronic', 'TV', '2016-04-22', '84 Wanam-ro Seongsan-gu Changwon-si Gyeongsangnam-do KR 642-713', 'IEEE+Wireshark+Nmap', 'LG ELECTRONICS', 'current', NULL, NULL),
   ('00:0A:EB', 'TP-Link', 'MA-L', 'TpLinkTechno', 'Router', '2002-09-09', 'Hi-Tech Park R1-B3 Shenzhen Guangdong CN 518057', 'IEEE+Wireshark+Nmap', 'TP-LINK TECHNOLOGIES CO.,LTD.', 'current', NULL, 'Shenzhen Tp-link Technology Co; Ltd. | Shenzhen Tp-Link Technology Co; Ltd. | TP-LINK TECHNOLOGIES CO.,LTD.'),
   ('60:EE:5C', 'SHENZHEN FAST TECHNOLOGIES CO.,LTD', 'MA-L', 'FastTechnolo', 'Router', '2015-12-31', 'Room 202,Building No.5,Section 30,No.2 of Kefa Road,Nanshan District,Shenzhen,P.R.China Shenzhen Guangdong CN 518057 ', 'IEEE+Wireshark+Nmap', 'SHENZHEN FAST TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
@@ -35230,10 +35282,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('7C:C7:09', 'Dash cam ODMs (RF-Link, Feitengyun)', 'MA-L', 'RfLinkTechno', NULL, '2014-12-06', 'Bldg56A, 6/F, Baotian Rd3, Baoan District, Shenzhen, P.R.C Shenzhen Guangdong CN 518100 ', 'IEEE+Wireshark+Nmap', 'SHENZHEN RF-LINK TECHNOLOGY CO.,LTD.', 'current', NULL, 'Shenzhen RF-LINK Elec&Technology.,Ltd | SHENZHEN RF-LINK TECHNOLOGY CO.,LTD.'),
   ('18:33:9D', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2012-04-19', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, 'Cisco Systems | CISCO SYSTEMS, INC. | Cisco Systems | CISCO SYSTEMS, INC. | Cisco Systems, Inc'),
   ('14:61:02', 'Alps Alpine', 'MA-L', 'AlpsAlpine', 'Automotive', '2016-04-13', '20-1, Yoshima Industrial Park Iwaki Fukushima JP 970-1192 ', 'IEEE+Wireshark+Nmap', 'Alps Alpine', 'current', NULL, 'Alpine Electronics, Inc. | Alps Alpine'),
-  ('54:27:6C', 'Jiangsu Houge Technology Corp.', 'MA-L', 'JiangsuHouge', NULL, '2016-04-13', 'No.20 Xizhang North Road, Fenghuang Town Zhangjiagang Jiangsu CN 215614 ', 'IEEE+Wireshark+Nmap', 'Jiangsu Houge Technology Corp.', 'current', NULL, NULL);
-
--- Batch 71 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('54:27:6C', 'Jiangsu Houge Technology Corp.', 'MA-L', 'JiangsuHouge', NULL, '2016-04-13', 'No.20 Xizhang North Road, Fenghuang Town Zhangjiagang Jiangsu CN 215614 ', 'IEEE+Wireshark+Nmap', 'Jiangsu Houge Technology Corp.', 'current', NULL, NULL),
   ('08:21:EF', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2015-11-20', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('34:14:5F', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2015-11-20', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('A0:3E:6B', 'IEEE Registration Authority', 'MA-L', NULL, NULL, '2015-07-17', '445 Hoes Lane Piscataway NJ US 08554', 'IEEE+Nmap', 'IEEE Registration Authority', 'current', NULL, 'IEEE REGISTRATION AUTHORITY - Please see MAM public listing for more information. | IEEE Registration Authority'),
@@ -35684,7 +35733,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('AC:16:2D', 'HP Inc.', 'MA-L', 'HewlettPacka', 'Printer', '2012-01-19', '11445 Compaq Center Drive Houston  US 77070', 'IEEE+Wireshark+Nmap', 'Hewlett Packard', 'current', NULL, NULL),
   ('80:C1:6E', 'HP Inc.', 'MA-L', 'HewlettPacka', 'Printer', '2011-12-07', '11445 Compaq Center Drive Houston  US 77070', 'IEEE+Wireshark+Nmap', 'Hewlett Packard', 'current', NULL, NULL),
   ('B4:B5:2F', 'HP Inc.', 'MA-L', 'HewlettPacka', 'Printer', '2012-03-24', '11445 Compaq Center Drive Houston  US 77070', 'IEEE+Wireshark+Nmap', 'Hewlett Packard', 'current', NULL, NULL),
-  ('D0:7E:28', 'HP Inc.', 'MA-L', 'HewlettPacka', 'Printer', '2012-06-15', '11445 Compaq Center Drive Houston  US 77070', 'IEEE+Wireshark+Nmap', 'Hewlett Packard', 'current', NULL, NULL),
+  ('D0:7E:28', 'HP Inc.', 'MA-L', 'HewlettPacka', 'Printer', '2012-06-15', '11445 Compaq Center Drive Houston  US 77070', 'IEEE+Wireshark+Nmap', 'Hewlett Packard', 'current', NULL, NULL);
+
+-- Batch 72 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('D0:BF:9C', 'HP Inc.', 'MA-L', 'HewlettPacka', 'Printer', '2014-10-04', '11445 Compaq Center Drive Houston  US 77070', 'IEEE+Wireshark+Nmap', 'Hewlett Packard', 'current', NULL, NULL),
   ('30:8D:99', 'HP Inc.', 'MA-L', 'HewlettPacka', 'Printer', '2015-04-02', '11445 Compaq Center Drive Houston  US 77070', 'IEEE+Wireshark+Nmap', 'Hewlett Packard', 'current', NULL, NULL),
   ('74:46:A0', 'HP Inc.', 'MA-L', 'HewlettPacka', 'Printer', '2012-12-23', '11445 Compaq Center Drive Houston  US 77070', 'IEEE+Wireshark+Nmap', 'Hewlett Packard', 'current', NULL, NULL),
@@ -35733,10 +35785,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('50:9F:27', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2013-01-13', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, 'Huawei Technologies Co., Ltd | HUAWEI TECHNOLOGIES CO.,LTD'),
   ('8C:34:FD', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2015-01-14', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, 'Huawei Technologies Co., Ltd | HUAWEI TECHNOLOGIES CO.,LTD'),
   ('58:7F:66', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2015-02-14', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, 'Huawei Technologies Co., Ltd | HUAWEI TECHNOLOGIES CO.,LTD'),
-  ('64:A6:51', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2015-05-23', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, 'Huawei Technologies Co., Ltd | HUAWEI TECHNOLOGIES CO.,LTD');
-
--- Batch 72 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('64:A6:51', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2015-05-23', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, 'Huawei Technologies Co., Ltd | HUAWEI TECHNOLOGIES CO.,LTD'),
   ('CC:F9:54', 'Avaya', 'MA-L', 'Avaya', 'VoIP', '2011-04-20', '360 Mt Kemble Ave Morristown NJ US 07960', 'IEEE+Wireshark+Nmap', 'Avaya Inc', 'current', NULL, 'Avaya, Inc | Avaya Inc'),
   ('2C:F4:C5', 'Avaya', 'MA-L', 'Avaya', 'VoIP', '2011-07-27', '360 Mt Kemble Ave Morristown NJ US 07960', 'IEEE+Wireshark+Nmap', 'Avaya Inc', 'current', NULL, 'Avaya Inc | Avaya, Inc | Avaya Inc | Avaya, Inc | Avaya Inc'),
   ('3C:3A:73', 'Avaya', 'MA-L', 'Avaya', 'VoIP', '2012-02-07', '360 Mt Kemble Ave Morristown NJ US 07960', 'IEEE+Wireshark+Nmap', 'Avaya Inc', 'current', NULL, 'Avaya, Inc | Avaya Inc'),
@@ -36187,7 +36236,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('C0:F7:9D', 'Powercode', 'MA-L', 'Powercode', NULL, '2013-11-19', '300 Industrial Dr Random Lake Wisconsin US 53075', 'IEEE+Wireshark+Nmap', 'Powercode', 'current', NULL, NULL),
   ('C4:C9:19', 'Energy Imports Ltd', 'MA-L', 'EnergyImport', NULL, '2013-11-19', '306a Broadway Ave Palmerston North Manawatu NZ 4414', 'IEEE+Wireshark+Nmap', 'Energy Imports Ltd', 'current', NULL, NULL),
   ('D8:DD:5F', 'BALMUDA Inc.', 'MA-L', 'BALMUDA', 'Appliance', '2013-11-19', '5-1-21 Kyonancho Musashino Tokyo JP 180-0023', 'IEEE+Wireshark+Nmap', 'BALMUDA Inc.', 'current', NULL, NULL),
-  ('E0:7F:53', 'TECHBOARD SRL', 'MA-L', 'Techboard', NULL, '2013-10-25', 'Via Della Scienza, 50 Modena  IT 41122 ', 'IEEE+Wireshark+Nmap', 'TECHBOARD SRL', 'current', NULL, NULL),
+  ('E0:7F:53', 'TECHBOARD SRL', 'MA-L', 'Techboard', NULL, '2013-10-25', 'Via Della Scienza, 50 Modena  IT 41122 ', 'IEEE+Wireshark+Nmap', 'TECHBOARD SRL', 'current', NULL, NULL);
+
+-- Batch 73 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('48:FE:EA', 'HOMA B.V.', 'MA-L', 'Homa', NULL, '2013-10-25', 'P.O. Box 545 Enschede  NL 7500 AM', 'IEEE+Wireshark+Nmap', 'HOMA B.V.', 'current', NULL, NULL),
   ('74:6F:3D', 'Contec Co., Ltd', 'MA-L', 'Contec', NULL, '2013-10-24', 'Oberahrer Straße 9 Sainerholz RP DE 56244', 'IEEE+Wireshark+Nmap', 'Contec GmbH', 'current', NULL, NULL),
   ('4C:0D:EE', 'Jabil', 'MA-L', 'JabilCircuit', NULL, '2013-10-24', 'FL5-UNIT A2 NO 1528 GUMEI ROAD  SHANGHAI CN 200233', 'IEEE+Wireshark+Nmap', 'JABIL CIRCUIT (SHANGHAI) LTD.', 'current', NULL, NULL),
@@ -36236,10 +36288,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('10:33:78', 'FLECTRON Co., LTD', 'MA-L', 'FLECTRON', NULL, '2013-09-10', 'A-625, Sigma2, Tancheonsang-ro 164 Seongnam-si Gyeonggi-do KR 463-741 ', 'IEEE+Wireshark+Nmap', 'FLECTRON Co., LTD', 'current', NULL, NULL),
   ('F0:D3:A7', 'CobaltRay Co., Ltd', 'MA-L', 'CobaltRay', NULL, '2013-09-05', 'Room 409,Humanteco Building,#281-16 Seoul  KR 133120 ', 'IEEE+Wireshark+Nmap', 'CobaltRay Co., Ltd', 'current', NULL, NULL),
   ('2C:18:AE', 'Trend Electronics Ltd', 'MA-L', 'TrendElectro', 'Media Player', '2013-09-04', '4F-3, No 17, Lane 77, Sec. 2 Taipei Taiwan TW 10446 ', 'IEEE+Wireshark+Nmap', 'Trend Electronics Co., Ltd.', 'current', NULL, NULL),
-  ('50:C0:06', 'Carmanah Signs', 'MA-L', 'CarmanahSign', 'TV', '2013-08-29', '#5 6025 12 Street SE Calgary Alberta CA T2H2K1', 'IEEE+Wireshark+Nmap', 'Carmanah Signs', 'current', NULL, NULL);
-
--- Batch 73 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('50:C0:06', 'Carmanah Signs', 'MA-L', 'CarmanahSign', 'TV', '2013-08-29', '#5 6025 12 Street SE Calgary Alberta CA T2H2K1', 'IEEE+Wireshark+Nmap', 'Carmanah Signs', 'current', NULL, NULL),
   ('A4:E9:A3', 'Honest Technology Co., Ltd', 'MA-L', 'HonestTechno', 'Smart Home', '2013-08-23', '5F, KyungDong Bldg. 906-5,  Daejeon KR 305-330 ', 'IEEE+Wireshark+Nmap', 'Honest Technology Co., Ltd', 'current', NULL, NULL),
   ('A0:E5:E9', 'enimai Inc', 'MA-L', 'enimai', NULL, '2013-08-23', '701 Villa St Mountain View California US 94041', 'IEEE+Wireshark+Nmap', 'enimai Inc', 'current', NULL, 'Ã«nimai Inc | enimai Inc'),
   ('04:CB:1D', 'Traka plc', 'MA-L', 'Traka', 'Smart Home', '2013-08-29', '30 Stilebrook Road Bucks Buckinghamshire GB MK46 5EA', 'IEEE+Wireshark+Nmap', 'Traka plc', 'current', NULL, NULL),
@@ -36690,7 +36739,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('90:5F:8D', 'modas GmbH', 'MA-L', 'modas', NULL, '2011-04-15', 'Belziger Str. 69-71 Berlin  DE 10823', 'IEEE+Wireshark+Nmap', 'modas GmbH', 'current', NULL, NULL),
   ('98:29:3F', 'FUJIAN START COMPUTER EQUIPMENT CO.,LTD', 'MA-L', 'FujianStartC', NULL, '2011-04-14', 'No.68 Hongshangyuan Road,   Fuzhou City,  Fujian Province, CN 350002 ', 'IEEE+Wireshark+Nmap', 'Fujian Start Computer Equipment Co.,Ltd', 'current', NULL, NULL),
   ('0C:51:F7', 'CHAUVIN ARNOUX', 'MA-L', 'ChauvinArnou', 'Industrial', '2011-04-19', 'LA QUEUE DEVEE REUX PONT L EVEQUE FR 14130', 'IEEE+Wireshark+Nmap', 'CHAUVIN ARNOUX', 'current', NULL, NULL),
-  ('0C:FC:83', 'MediaTek', 'MA-L', 'AirohaTechno', NULL, '2011-04-19', '5F, No.6-5, Dushing Road , Hsinchu Science Park Hsinchu  TW 300 ', 'IEEE+Wireshark+Nmap', 'Airoha Technology Corp.', 'current', NULL, NULL),
+  ('0C:FC:83', 'MediaTek', 'MA-L', 'AirohaTechno', NULL, '2011-04-19', '5F, No.6-5, Dushing Road , Hsinchu Science Park Hsinchu  TW 300 ', 'IEEE+Wireshark+Nmap', 'Airoha Technology Corp.', 'current', NULL, NULL);
+
+-- Batch 74 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('58:76:75', 'Beijing ECHO Technologies Co.,Ltd', 'MA-L', 'ECHOTechnolo', 'Industrial', '2011-04-19', 'NO1 Street 4 Shangdi   BeiJing  CN 100085', 'IEEE+Wireshark+Nmap', 'Beijing ECHO Technologies Co.,Ltd', 'current', NULL, NULL),
   ('CC:D9:E9', 'SCR Engineers Ltd.', 'MA-L', 'SCREngineers', 'Industrial', '2011-04-08', '6 Haomanut St. Netanya  IL 42504', 'IEEE+Wireshark+Nmap', 'SCR Engineers Ltd.', 'current', NULL, NULL),
   ('34:A7:09', 'Trevil srl', 'MA-L', 'Trevil', 'Industrial', '2011-04-07', 'Via Copernico 1 Pozzo d''Adda MI IT 20060', 'IEEE+Wireshark+Nmap', 'Trevil srl', 'current', NULL, NULL),
@@ -36739,10 +36791,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('74:78:18', 'Jurumani Solutions', 'MA-L', 'JurumaniSolu', NULL, '2010-12-08', '321 14th Road Midrand  ZA 1685', 'IEEE+Wireshark+Nmap', 'Jurumani Solutions', 'current', NULL, 'ServiceAssure | Jurumani Solutions'),
   ('B8:F4:D0', 'Herrmann Ultraschalltechnik GmbH & Co. Kg', 'MA-L', 'HerrmannUltr', 'Industrial', '2011-01-13', 'Descostraße 3-9 Karlsbad Baden-Württemberg DE 76307', 'IEEE+Wireshark+Nmap', 'Herrmann Ultraschalltechnik GmbH & Co. Kg', 'current', NULL, NULL),
   ('08:AC:A5', 'Benu Video, Inc.', 'MA-L', 'BenuVideo', 'Router', '2011-01-13', '300 Concord Rd., Suite #110 Billerica MA US 01821 ', 'IEEE+Wireshark+Nmap', 'Benu Video, Inc.', 'current', NULL, NULL),
-  ('58:6D:8F', 'Linksys', 'MA-L', 'CiscoLinksys', 'Router', '2011-01-13', '121 Theory Drive Irvine California US 92612', 'IEEE+Wireshark+Nmap', 'Cisco-Linksys, LLC', 'current', NULL, NULL);
-
--- Batch 74 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('58:6D:8F', 'Linksys', 'MA-L', 'CiscoLinksys', 'Router', '2011-01-13', '121 Theory Drive Irvine California US 92612', 'IEEE+Wireshark+Nmap', 'Cisco-Linksys, LLC', 'current', NULL, NULL),
   ('10:E3:C7', 'Seohwa Telecom', 'MA-L', 'SeohwaTeleco', 'Router', '2011-01-11', '678 Seohwa Bldg Gasan-Dong, Gumcheon-Gu Seoul KR 153-803 ', 'IEEE+Wireshark+Nmap', 'Seohwa Telecom', 'current', NULL, NULL),
   ('FC:F1:CD', 'OPTEX-FA CO.,LTD.', 'MA-L', 'OptexFa', 'Industrial', '2010-12-29', '91 Awata-cho Kyoto  JP 600-8815', 'IEEE+Wireshark+Nmap', 'OPTEX-FA CO.,LTD.', 'current', NULL, NULL),
   ('44:25:BB', 'Bamboo Entertainment Corporation', 'MA-L', 'BambooEntert', NULL, '2010-12-23', '179 South Street Boston MA US 02111', 'IEEE+Wireshark+Nmap', 'Bamboo Entertainment Corporation', 'current', NULL, NULL),
@@ -37193,7 +37242,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:21:DA', 'Automation Products AB', 'MA-L', 'AutomationPr', NULL, '2008-06-18', '1025 West 1700 North Logan Utah US 84321', 'IEEE+Wireshark+Nmap', 'Automation Products Group Inc.', 'current', NULL, NULL),
   ('00:21:6C', 'ODVA', 'MA-L', 'Odva', NULL, '2008-06-18', '4220 Varsity Drive Ann Arbor MI US 48108-5006', 'IEEE+Wireshark+Nmap', 'ODVA', 'current', NULL, NULL),
   ('00:21:61', 'Yournet Inc.', 'MA-L', 'Yournet', NULL, '2008-06-18', 'KT R&D Center Seoul  KR 137-792', 'IEEE+Wireshark+Nmap', 'Yournet Inc.', 'current', NULL, NULL),
-  ('00:21:89', 'Apptech Inc', 'MA-L', 'AppTech', NULL, '2008-06-18', '363 E Greyhound Pass Carmel Indiana US 46032', 'IEEE+Wireshark+Nmap', 'AppTech, Inc.', 'current', NULL, NULL),
+  ('00:21:89', 'Apptech Inc', 'MA-L', 'AppTech', NULL, '2008-06-18', '363 E Greyhound Pass Carmel Indiana US 46032', 'IEEE+Wireshark+Nmap', 'AppTech, Inc.', 'current', NULL, NULL);
+
+-- Batch 75 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:21:BD', 'Nintendo', 'MA-L', 'Nintendo', 'Gaming', '2008-06-18', '  11-1 HOKOTATE-CHO KAMITOBA, MINAMI-KU KYOTO KYOTO JP 601-8501 ', 'IEEE+Wireshark+Nmap', 'Nintendo Co., Ltd.', 'current', NULL, NULL),
   ('00:21:B5', 'Galvanic Ltd', 'MA-L', 'Galvanic', NULL, '2008-06-18', '38 Nothumberland Road Dublin  IE 2', 'IEEE+Wireshark+Nmap', 'Galvanic Ltd', 'current', NULL, 'Vyro Games Limited | Galvanic Ltd'),
   ('00:21:C4', 'Consilium AB', 'MA-L', 'Consilium', 'Automotive', '2008-06-18', 'Västra Finnbodavägen 2-4 Nacka Stockholm SE 13131', 'IEEE+Wireshark+Nmap', 'Consilium AB', 'current', NULL, NULL),
@@ -37242,10 +37294,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:1F:1E', 'Astec Technology Co., Ltd', 'MA-L', 'AstecTechnol', NULL, '2007-12-31', '12F, No.2, Jian Ba Rd. Chung Ho Taipei Hsien TW 235 ', 'IEEE+Wireshark+Nmap', 'Astec Technology Co., Ltd', 'current', NULL, NULL),
   ('00:1F:14', 'NexG', 'MA-L', 'NexG', NULL, '2007-12-31', '5F Seoul Academy Bldg, Daechi-Dong, Gangnam-Gu, Seoul  KR 135-280 ', 'IEEE+Wireshark+Nmap', 'NexG', 'current', NULL, NULL),
   ('00:1F:0C', 'Intelligent Digital Services GmbH', 'MA-L', 'IntelligentD', NULL, '2007-12-31', 'Grevesmuehlener Strasse 8 Mallentin Mecklenburg-Vorpommern DE 23639', 'IEEE+Wireshark+Nmap', 'Intelligent Digital Services GmbH', 'current', NULL, NULL),
-  ('00:1F:08', 'RISCO LTD', 'MA-L', 'Risco', 'Smart Home', '2007-12-31', '32 Hacharoshet St Kiriat Malachi  IL 83101', 'IEEE+Wireshark+Nmap', 'RISCO LTD', 'current', NULL, NULL);
-
--- Batch 75 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:1F:08', 'RISCO LTD', 'MA-L', 'Risco', 'Smart Home', '2007-12-31', '32 Hacharoshet St Kiriat Malachi  IL 83101', 'IEEE+Wireshark+Nmap', 'RISCO LTD', 'current', NULL, NULL),
   ('00:1E:F1', 'Servimat', 'MA-L', 'Servimat', NULL, '2007-12-31', 'ZAET Les Haies St Maximin Oise FR 60740', 'IEEE+Wireshark+Nmap', 'Servimat', 'current', NULL, NULL),
   ('00:1E:F4', 'L-3 Communications Display Systems', 'MA-L', 'L3Communicat', 'Automotive', '2007-12-31', '1355 Bluegrass Lakes Parkway Alpharetta GA US 30004-8458', 'IEEE+Wireshark+Nmap', 'L-3 Communications Display Systems', 'current', NULL, NULL),
   ('00:1F:0E', 'Japan Kyastem Co., Ltd', 'MA-L', 'JapanKyastem', NULL, '2007-12-31', '1-4-4 Tachikawa Tokyo JP 190-0022', 'IEEE+Wireshark+Nmap', 'Japan Kyastem Co., Ltd', 'current', NULL, NULL),
@@ -37696,7 +37745,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:13:E1', 'Iprobe AB', 'MA-L', 'Iprobe', NULL, '2005-03-06', 'Finlandsgatan 12  Kista SE SE-16474', 'IEEE+Wireshark+Nmap', 'Iprobe AB', 'current', NULL, 'Iprobe | Iprobe AB'),
   ('00:13:E3', 'CoVi Technologies, Inc.', 'MA-L', 'CoViTechnolo', NULL, '2005-03-06', '6300 Bridgepoint Parkway Austin Texas US 78730', 'IEEE+Wireshark+Nmap', 'CoVi Technologies, Inc.', 'current', NULL, NULL),
   ('00:13:E4', 'YANGJAE SYSTEMS CORP.', 'MA-L', 'Yangjae', NULL, '2005-03-06', '1202. HANSHIN IT TOWER Guro-3Dong,  Seoul KR 152-848 ', 'IEEE+Wireshark+Nmap', 'YANGJAE SYSTEMS CORP.', 'current', NULL, NULL),
-  ('00:13:D9', 'Matrix Product Development, Inc.', 'MA-L', 'MatrixProduc', NULL, '2005-02-25', '13 North Bird Street Sun Prairie WI US 53590', 'IEEE+Wireshark+Nmap', 'Matrix Product Development, Inc.', 'current', NULL, NULL),
+  ('00:13:D9', 'Matrix Product Development, Inc.', 'MA-L', 'MatrixProduc', NULL, '2005-02-25', '13 North Bird Street Sun Prairie WI US 53590', 'IEEE+Wireshark+Nmap', 'Matrix Product Development, Inc.', 'current', NULL, NULL);
+
+-- Batch 76 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:13:94', 'Infohand Co.,Ltd', 'MA-L', 'Infohand', NULL, '2005-02-06', 'Kranz-Techno #1207, 5442-1, Sangdaewon-dong, Jungwon-gu Seongnam-si Gyeonggi-do KR 462-819 ', 'IEEE+Wireshark+Nmap', 'Infohand Co.,Ltd', 'current', NULL, NULL),
   ('00:13:89', 'Redes de Telefonía Móvil S.A.', 'MA-L', 'RedesdeTelef', NULL, '2005-02-06', 'C/Puerto de la Morcuera 14 B4 Leganés Madrid ES 28918', 'IEEE+Wireshark+Nmap', 'Redes de Telefonía Móvil S.A.', 'current', NULL, 'Redes de Telefonía Móvil S.A. | Redes de TelefonÃ­a MÃ³vil S.A. | Redes de Telefonía Móvil S.A. | Redes de TelefonÃÂ­a MÃÂ³vil S.A. | Redes de Telefonía Móvil S.A. | Redes de TelefonÃÂ­a MÃÂ³vil S.A. | Redes de TelefonÃ­a MÃ³vil S.A. | Redes de TelefonÃÂÃÂÃÂÃÂ­a MÃÂÃÂÃÂÃÂ³vil S.A. | Redes de TelefonÃ­a MÃ³vil S.A. | Redes de Telefonía Móvil S.A.'),
   ('00:13:8C', 'Kumyoung.Co.Ltd', 'MA-L', 'Kumyoung', 'Audio', '2005-02-06', 'Seoul KY building, 40-17 Hangang Ro, 3Ga, Youngsan-Gu Seoul  KR 140-880 ', 'IEEE+Wireshark+Nmap', 'Kumyoung.Co.Ltd', 'current', NULL, NULL),
@@ -37745,10 +37797,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:12:D4', 'Princeton Technology, Ltd', 'MA-L', 'PrincetonTec', NULL, '2004-11-16', 'K.A.I. Bldg. 3F Chiyodaku Tokyo JP 101-0032', 'IEEE+Wireshark+Nmap', 'Princeton Technology, Ltd', 'current', NULL, NULL),
   ('00:12:D9', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2004-11-16', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, 'Cisco Systems | CISCO SYSTEMS, INC. | Cisco Systems | CISCO SYSTEMS, INC. | Cisco Systems, Inc'),
   ('00:12:74', 'NIT lab', 'MA-L', 'NITlab', NULL, '2004-09-29', 'Skoriny str., 65-3 Minsk Minskaya obl. BY 220013 ', 'IEEE+Wireshark+Nmap', 'NIT lab', 'current', NULL, NULL),
-  ('00:12:70', 'NGES Denro Systems', 'MA-L', 'NGESDenro', 'IoT', '2004-09-29', '7055 Troy Hill Dr Elkridge MD US 21075', 'IEEE+Wireshark+Nmap', 'NGES Denro Systems', 'current', NULL, NULL);
-
--- Batch 76 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:12:70', 'NGES Denro Systems', 'MA-L', 'NGESDenro', 'IoT', '2004-09-29', '7055 Troy Hill Dr Elkridge MD US 21075', 'IEEE+Wireshark+Nmap', 'NGES Denro Systems', 'current', NULL, NULL),
   ('00:12:6E', 'Seidel Elektronik GmbH Nfg.KG', 'MA-L', 'SeidelElektr', NULL, '2004-09-29', 'Frauentalerstrasse 100 Deutschlandsberg Steiermark AT 8530', 'IEEE+Wireshark+Nmap', 'Seidel Elektronik GmbH Nfg.KG', 'current', NULL, NULL),
   ('00:12:A0', 'NeoMeridian Sdn Bhd', 'MA-L', 'NeoMeridianS', NULL, '2004-10-16', '3A-1, Perdana The Place Bandar Damansara Perdana Selangor MY 47820 ', 'IEEE+Wireshark+Nmap', 'NeoMeridian Sdn Bhd', 'current', NULL, NULL),
   ('00:12:AD', 'VIVAVIS AG', 'MA-L', 'Vivavis', NULL, '2004-10-26', 'Nobelstraße, 18 Ettlingen Baden-Württemberg DE 76275 ', 'IEEE+Wireshark+Nmap', 'VIVAVIS AG', 'current', NULL, 'IDS GmbH | VIVAVIS AG'),
@@ -38199,7 +38248,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:07:A4', 'GN (Jabra, ReSound, BlueParrott)', 'MA-L', 'GNNetcom', 'Audio', '2001-10-24', '12-13 Sedling Road, Wear Est., District  England GB NE38 9BZ ', 'IEEE+Wireshark+Nmap', 'GN Netcom Ltd.', 'current', NULL, NULL),
   ('00:07:9D', 'Musashi Co., Ltd.', 'MA-L', 'Musashi', NULL, '2001-10-24', '3-21-1, Shimo-ochiai, Tokyo  JP 161-0033 ', 'IEEE+Wireshark+Nmap', 'Musashi Co., Ltd.', 'current', NULL, NULL),
   ('00:07:9F', 'Action Digital Inc.', 'MA-L', 'ActionDigita', NULL, '2001-10-24', '10650 Main St. Fairfax VA US 22030', 'IEEE+Wireshark+Nmap', 'Action Digital Inc.', 'current', NULL, NULL),
-  ('00:07:92', 'Sütron Electronic GmbH', 'MA-L', 'SütronElectr', 'Industrial', '2001-10-24', 'Kurze Straße 29   DE', 'IEEE+Wireshark+Nmap', 'Sütron Electronic GmbH', 'current', NULL, 'Suetron Electronic GmbH | SÃ¼tron Electronic GmbH | Suetron Electronic GmbH | SÃ¼tron Electronic GmbH | Sütron Electronic GmbH'),
+  ('00:07:92', 'Sütron Electronic GmbH', 'MA-L', 'SütronElectr', 'Industrial', '2001-10-24', 'Kurze Straße 29   DE', 'IEEE+Wireshark+Nmap', 'Sütron Electronic GmbH', 'current', NULL, 'Suetron Electronic GmbH | SÃ¼tron Electronic GmbH | Suetron Electronic GmbH | SÃ¼tron Electronic GmbH | Sütron Electronic GmbH');
+
+-- Batch 77 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:07:90', 'Tri-M Technologies (s) Limited', 'MA-L', 'TriMTechnolo', NULL, '2001-10-24', 'Blk 25, Kallang Avenue #07-01/04   SG 339416 ', 'IEEE+Wireshark+Nmap', 'Tri-M Technologies (s) Limited', 'current', NULL, NULL),
   ('00:07:8D', 'NetEngines Ltd.', 'MA-L', 'NetEngines', NULL, '2001-10-24', '146 Walnut Tree Close   GB GUI 4UB', 'IEEE+Wireshark+Nmap', 'NetEngines Ltd.', 'current', NULL, NULL),
   ('00:07:8A', 'Mentor Data System Inc.', 'MA-L', 'MentorDataSy', NULL, '2001-10-24', 'No. 24-1, Industry East 4 Rd., Hsin-Chu,  TW  ', 'IEEE+Wireshark+Nmap', 'Mentor Data System Inc.', 'current', NULL, NULL),
@@ -38248,10 +38300,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:06:53', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2001-06-04', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, 'Cisco Systems, Inc. | CISCO SYSTEMS, INC. | Cisco Systems, Inc. | CISCO SYSTEMS, INC. | Cisco Systems, Inc'),
   ('00:06:4F', 'PRO-NETS Technology Corporation', 'MA-L', 'PRONETSTechn', NULL, '2001-06-04', 'Pao-Chung Road, Hsin Tien Taipei, TW  ', 'IEEE+Wireshark+Nmap', 'PRO-NETS Technology Corporation', 'current', NULL, NULL),
   ('00:06:51', 'Aspen Networks Inc.', 'MA-L', 'AspenNetwork', NULL, '2001-06-04', '3777 Stevens Creek Blvd Santa Clara CA US 95051', 'IEEE+Wireshark+Nmap', 'Aspen Networks Inc.', 'current', NULL, NULL),
-  ('00:06:5C', 'Malachite Technologies, Inc.', 'MA-L', 'MalachiteTec', NULL, '2001-06-04', '195 New Hampshire Avenue Portsmouth NH US 03801', 'IEEE+Wireshark+Nmap', 'Malachite Technologies, Inc.', 'current', NULL, NULL);
-
--- Batch 77 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:06:5C', 'Malachite Technologies, Inc.', 'MA-L', 'MalachiteTec', NULL, '2001-06-04', '195 New Hampshire Avenue Portsmouth NH US 03801', 'IEEE+Wireshark+Nmap', 'Malachite Technologies, Inc.', 'current', NULL, NULL),
   ('00:06:22', 'Chung Fu Chen Yeh Enterprise Corp.', 'MA-L', 'ChungFuChenY', NULL, '2001-06-04', '2F No. 666 Jing Ping Road, Taipei Hsien  TW  ', 'IEEE+Wireshark+Nmap', 'Chung Fu Chen Yeh Enterprise Corp.', 'current', NULL, NULL),
   ('00:06:12', 'Accusys Inc', 'MA-L', 'Accusys', NULL, '2001-06-04', '5F, No. 38, Taiyuan St Hsinchu County  TW 30265 ', 'IEEE+Wireshark+Nmap', 'Accusys, Inc.', 'current', NULL, NULL),
   ('00:06:09', 'Crossport Systems', 'MA-L', 'Crossport', NULL, '2001-06-04', '10940 NE 33rd Place Bellevue WA US 98005', 'IEEE+Wireshark+Nmap', 'Crossport Systems', 'current', NULL, NULL),
@@ -38702,7 +38751,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:10:A1', 'KENDIN SEMICONDUCTOR, INC.', 'MA-L', 'KendinSemico', NULL, '1998-04-22', '1550 S. BASCOM AVE., STE. #250 CAMPBELL CA US 95008 ', 'IEEE+Wireshark+Nmap', 'KENDIN SEMICONDUCTOR, INC.', 'current', NULL, NULL),
   ('00:10:5F', 'ZODIAC DATA SYSTEMS', 'MA-L', 'ZodiacData', 'Industrial', '1998-04-22', '5 Av Des Andes Les Ulis  FR 91940', 'IEEE+Wireshark+Nmap', 'ZODIAC DATA SYSTEMS', 'current', NULL, 'IN-SNEC | ZODIAC DATA SYSTEMS'),
   ('00:10:3E', 'NETSCHOOLS CORPORATION', 'MA-L', 'Netschools', NULL, '1998-04-22', '2003 LANDINGS DRIVE MOUNTAIN VIEW CA US 94043', 'IEEE+Wireshark+Nmap', 'NETSCHOOLS CORPORATION', 'current', NULL, NULL),
-  ('00:10:CB', 'FACIT K.K.', 'MA-L', 'Facit', NULL, '1998-04-22', 'HIMEI NIHOMBASHI BLDG. 3F CHUO-KU, TOKYO 103  JP  ', 'IEEE+Wireshark+Nmap', 'FACIT K.K.', 'current', NULL, NULL),
+  ('00:10:CB', 'FACIT K.K.', 'MA-L', 'Facit', NULL, '1998-04-22', 'HIMEI NIHOMBASHI BLDG. 3F CHUO-KU, TOKYO 103  JP  ', 'IEEE+Wireshark+Nmap', 'FACIT K.K.', 'current', NULL, NULL);
+
+-- Batch 78 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:10:E0', 'Oracle Corporation', 'MA-L', 'Oracle', NULL, '1998-04-22', '500 Oracle Parkway Redwood Shores CA US 94065', 'IEEE+Wireshark+Nmap', 'Oracle Corporation', 'current', NULL, 'COBALT MICROSERVER, INC. | Sun Microsystems, Inc. | Oracle Corporation'),
   ('00:10:7C', 'P-COM, INC.', 'MA-L', 'PCom', 'Access Point', '1998-04-22', '3175 S. WINCHESTER BLVD. CAMPBELL CA US 95008', 'IEEE+Wireshark+Nmap', 'P-COM, INC.', 'current', NULL, NULL),
   ('00:10:BD', 'THE TELECOMMUNICATION TECHNOLOGY COMMITTEE (TTC)', 'MA-L', 'Telecommunic', NULL, '1998-04-22', '1-1-12 Shiba Kouen, Minato-ku MINATO-KU,   TOKYO JP 105-0011 ', 'IEEE+Wireshark+Nmap', 'THE TELECOMMUNICATION TECHNOLOGY COMMITTEE (TTC)', 'current', NULL, 'THE TELECOMMUNICATION | THE TELECOMMUNICATION TECHNOLOGY COMMITTEE | THE TELECOMMUNICATION TECHNOLOGY COMMITTEE (TTC)'),
@@ -38751,10 +38803,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:60:7D', 'SENTIENT NETWORKS INC.', 'MA-L', 'SentientNetw', NULL, '1998-04-22', '2201 CANTU COURT-STE #205 SARASOTA FL US 34232', 'IEEE+Wireshark+Nmap', 'SENTIENT NETWORKS INC.', 'current', NULL, NULL),
   ('00:60:6E', 'Davicom Semiconductor, Inc.', 'MA-L', 'DavicomSemic', NULL, '1998-04-22', '2457 AUGUSTINE DRIVE SANTA CLARA CA US 95054', 'IEEE+Wireshark+Nmap', 'DAVICOM SEMICONDUCTOR, INC.', 'current', NULL, NULL),
   ('00:60:C7', 'AMATI COMMUNICATIONS CORP.', 'MA-L', 'AmatiCommuni', NULL, '1998-04-22', '2043 SAMARITAN DRIVE SAN JOSE CA US 95124', 'IEEE+Wireshark+Nmap', 'AMATI COMMUNICATIONS CORP.', 'current', NULL, NULL),
-  ('00:E0:60', 'SHERWOOD', 'MA-L', 'Sherwood', NULL, '1998-04-22', '21056 FORBES STREET HAYWARD CA US 94545', 'IEEE+Wireshark+Nmap', 'SHERWOOD', 'current', NULL, NULL);
-
--- Batch 78 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:E0:60', 'SHERWOOD', 'MA-L', 'Sherwood', NULL, '1998-04-22', '21056 FORBES STREET HAYWARD CA US 94545', 'IEEE+Wireshark+Nmap', 'SHERWOOD', 'current', NULL, NULL),
   ('00:E0:BA', 'BERGHOF AUTOMATIONSTECHNIK GmbH', 'MA-L', 'BERGHOFAUTOM', 'Industrial', '1998-04-22', 'HARRET STRASSE 1 D 72800 ENINGEN  DE', 'IEEE+Wireshark+Nmap', 'BERGHOF AUTOMATIONSTECHNIK GmbH', 'current', NULL, 'BERGHOF AUTOMATIONSTECHNIK | BERGHOF AUTOMATIONSTECHNIK GmbH'),
   ('00:E0:21', 'FREEGATE CORP.', 'MA-L', 'Freegate', NULL, '1998-04-22', '710 LAKEWAY  STE.#230 SUNNYVALE CA US 94086', 'IEEE+Wireshark+Nmap', 'FREEGATE CORP.', 'current', NULL, NULL),
   ('00:E0:5B', 'WEST END SYSTEMS CORP.', 'MA-L', 'WestEnd', NULL, '1998-04-22', '39 WINNER''S CIRCLE DR., ARNPRIOR, ONTARIO    K7S 3G9  CA  ', 'IEEE+Wireshark+Nmap', 'WEST END SYSTEMS CORP.', 'current', NULL, NULL),
@@ -39205,7 +39254,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('5C:16:7D', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2023-10-26', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('50:E4:52', 'Chipsea Technologies (Shenzhen) Corp.', 'MA-L', 'ChipseaTechn', NULL, '2023-10-28', '3 / F, Block A, Building 2, Shenzhen Bay Innovation Technology Center, No.3156 keyuan South Road, Yuehai Street, Nanshan District, Shenzhen Shenzhen Guangdong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Chipsea Technologies (Shenzhen) Corp.', 'current', NULL, NULL),
   ('A4:A4:90', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2023-10-31', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
-  ('B8:A8:25', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2023-10-31', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
+  ('B8:A8:25', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2023-10-31', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL);
+
+-- Batch 79 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('CC:F9:F0', 'Samsung Electronics', 'MA-L', 'SamsungElect', 'Phone', '2023-10-31', '#94-1, Imsoo-Dong Gumi Gyeongbuk KR 730-350 ', 'IEEE+Wireshark+Nmap', 'Samsung Electronics Co.,Ltd', 'current', NULL, NULL),
   ('F0:A8:82', 'shenzhen trolink', 'MA-L', 'trolinkTechn', NULL, '2023-11-01', 'F/5 Building -E ,Fenda Hight Technology Park,Sanwei Hangcheng Street,Bao''an ,Shenzhen  shenzhen gangdong CN 518101 ', 'IEEE+Wireshark+Nmap', 'shenzhen trolink Technology Co.,Ltd', 'current', NULL, NULL),
   ('10:32:2C', 'Murata', 'MA-L', 'MurataManufa', 'Smart Home', '2023-11-01', '1-10-1, Higashikotari Nagaokakyo-shi Kyoto JP 617-8555 ', 'IEEE+Wireshark+Nmap', 'Murata Manufacturing Co., Ltd.', 'current', NULL, NULL),
@@ -39254,10 +39306,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('40:6F:27', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2023-11-23', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('18:CA:A7', 'ZTE', 'MA-L', 'zte', 'Phone', '2023-11-23', '12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China shenzhen  guangdong CN 518057 ', 'IEEE+Wireshark+Nmap', 'zte corporation', 'current', NULL, NULL),
   ('D4:87:CC', 'WS Audiology (Signia, Widex)', 'MA-L', 'Sivantos', 'Medical', '2023-11-18', 'Henri-Dunant-Strasse 100 Erlangen Bavaria DE 91058', 'IEEE+Wireshark+Nmap', 'Sivantos GmbH', 'current', NULL, NULL),
-  ('00:33:58', 'Ruckus Networks', 'MA-L', 'RuckusWirele', 'Access Point', '2023-11-21', '350 West Java Drive Sunnyvale CA US 94089', 'IEEE+Wireshark+Nmap', 'Ruckus Wireless', 'current', NULL, NULL);
-
--- Batch 79 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:33:58', 'Ruckus Networks', 'MA-L', 'RuckusWirele', 'Access Point', '2023-11-21', '350 West Java Drive Sunnyvale CA US 94089', 'IEEE+Wireshark+Nmap', 'Ruckus Wireless', 'current', NULL, NULL),
   ('64:4E:EB', 'Daikin Holdings Singapore Pte Ltd', 'MA-L', 'DaikinHoldin', 'Industrial', '2023-12-01', '10 ANG MO KIO INDUSTRIAL PARK 2 SINGAPORE Singapore Singapore SG 569501', 'IEEE+Wireshark+Nmap', 'Daikin Holdings Singapore Pte Ltd', 'current', NULL, NULL),
   ('E0:4C:12', 'realme', 'MA-L', 'RealmeChongq', 'Phone', '2023-12-05', 'No.178 Yulong Avenue, Yufengshan, Yubei District, Chongqing. Chongqing  China CN 401120 ', 'IEEE+Wireshark+Nmap', 'Realme Chongqing Mobile Telecommunications Corp.,Ltd.', 'current', NULL, NULL),
   ('24:E8:CE', 'Qingdao Haier Technology Co.,Ltd', 'MA-L', 'QingdaoHaier', 'Appliance', '2023-12-01', 'Building C01,Haier Information Park,No.1 Haier Road, Qingdao Shandong CN 266101 ', 'IEEE+Wireshark+Nmap', 'Qingdao Haier Technology Co.,Ltd', 'current', NULL, NULL),
@@ -39708,7 +39757,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('68:28:6C', 'Sony Interactive Entertainment', 'MA-L', 'SonyInteract', 'Gaming', '2024-11-27', '1-7-1 Konan Minato-ku Tokyo JP 108-0075', 'IEEE+Wireshark+Nmap', 'Sony Interactive Entertainment Inc.', 'current', NULL, NULL),
   ('38:AA:09', 'Cisco', 'MA-L', 'Cisco', 'Access Point', '2024-11-27', '80 West Tasman Drive San Jose CA US 94568', 'IEEE+Wireshark+Nmap', 'Cisco Systems, Inc', 'current', NULL, NULL),
   ('D0:AA:5F', 'IEEE Registration Authority', 'MA-L', NULL, NULL, '2024-11-28', '445 Hoes Lane Piscataway NJ US 08554', 'IEEE+Nmap', 'IEEE Registration Authority', 'current', NULL, NULL),
-  ('DC:32:62', 'Nanjing Qinheng Microelectronics Co., Ltd.', 'MA-L', 'NanjingQinhe', NULL, '2024-12-04', 'No.18, Ningshuang Road  Nanjing Jiangsu CN 210012 ', 'IEEE+Wireshark+Nmap', 'Nanjing Qinheng Microelectronics Co., Ltd.', 'current', NULL, NULL),
+  ('DC:32:62', 'Nanjing Qinheng Microelectronics Co., Ltd.', 'MA-L', 'NanjingQinhe', NULL, '2024-12-04', 'No.18, Ningshuang Road  Nanjing Jiangsu CN 210012 ', 'IEEE+Wireshark+Nmap', 'Nanjing Qinheng Microelectronics Co., Ltd.', 'current', NULL, NULL);
+
+-- Batch 80 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('E4:FE:43', 'Xiaomi', 'MA-L', 'XiaomiMobile', 'Phone', '2024-12-04', 'The Rainbow City Office Building, 68 Qinghe Middle Street Haidian District Beijing Beijing CN 100085 ', 'IEEE+Wireshark+Nmap', 'Beijing Xiaomi Mobile Software Co., Ltd', 'current', NULL, NULL),
   ('38:D6:E0', 'TOPDON TECHNOLOGY Co.,Ltd.', 'MA-L', 'TOPDONTECHNO', NULL, '2024-12-05', 'Nanshan Shenzhen Guangdong CN 518000', 'IEEE+Wireshark+Nmap', 'TOPDON TECHNOLOGY Co.,Ltd.', 'current', NULL, NULL),
   ('D8:06:F3', 'Arista Networks', 'MA-L', 'AristaNetwor', 'Switch', '2024-12-05', '5453 Great America Parkway Santa Clara CA US 95054', 'IEEE+Wireshark+Nmap', 'Arista Networks', 'current', NULL, NULL),
@@ -39757,10 +39809,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:1E:80', 'Icotera A/S', 'MA-L', 'Icotera', 'Modem', '2007-10-22', 'Vibeholms Allé 12 Brøndby  DK 2605', 'IEEE+Wireshark+Nmap', 'Icotera A/S', 'current', NULL, 'Last Mile Ltd. | Icotera A/S'),
   ('0C:F0:7B', 'Shenzhen Skyworth Digital Technology CO., Ltd', 'MA-L', 'SkyworthDigi', 'Media Player', '2025-01-17', '4F,Block A, Skyworth?Building, Shenzhen Guangdong CN 518057 ', 'IEEE+Wireshark+Nmap', 'Shenzhen Skyworth Digital Technology CO., Ltd', 'current', NULL, NULL),
   ('A0:48:39', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2025-01-17', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
-  ('F4:89:18', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2025-01-17', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL);
-
--- Batch 80 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('F4:89:18', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2025-01-17', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('08:B6:57', 'AVM Audiovisuelles Marketing und Computersysteme GmbH', 'MA-L', 'AVMAudiovisu', 'Router', '2025-01-17', 'Alt-Moabit 95 Berlin Berlin DE 10559', 'IEEE+Wireshark+Nmap', 'AVM Audiovisuelles Marketing und Computersysteme GmbH', 'current', NULL, NULL),
   ('F4:68:02', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2025-01-17', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark+Nmap', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('00:17:A5', 'MediaTek', 'MA-L', 'MediaTek', NULL, '2006-03-15', 'No. 1, Dusing 1st Rd. , Hsinchu Science Park Hsin-Chu Science Park Hsin-chu City  TW 200 ', 'IEEE+Wireshark+Nmap', 'MediaTek Inc', 'current', NULL, 'TrendChip Technologies Corp. | Ralink Technology Corp | MediaTek Inc. | MediaTek Inc'),
@@ -40211,7 +40260,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('40:E7:62', 'Calix', 'MA-L', 'Calix', 'Router', '2025-12-16', '2777 Orchard Pkwy San Jose CA US 95131', 'IEEE+Wireshark+Nmap', 'Calix Inc.', 'current', NULL, NULL),
   ('68:1A:47', 'Apple', 'MA-L', 'Apple', 'Phone', '2025-12-23', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
   ('28:49:E9', 'Apple', 'MA-L', 'Apple', 'Phone', '2025-12-23', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
-  ('78:96:0D', 'Apple', 'MA-L', 'Apple', 'Phone', '2025-12-23', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
+  ('78:96:0D', 'Apple', 'MA-L', 'Apple', 'Phone', '2025-12-23', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL);
+
+-- Batch 81 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('80:1D:39', 'Apple', 'MA-L', 'Apple', 'Phone', '2025-12-23', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
   ('CC:72:2A', 'Apple', 'MA-L', 'Apple', 'Phone', '2025-12-23', '1 Infinite Loop Cupertino CA US 95014', 'IEEE+Wireshark+Nmap', 'Apple, Inc.', 'current', NULL, NULL),
   ('AC:40:1E', 'vivo', 'MA-L', 'vivoMobileCo', 'Phone', '2025-12-23', 'No.1, vivo Road, Chang''an Dongguan Guangdong CN 523860 ', 'IEEE+Wireshark+Nmap', 'vivo Mobile Communication Co., Ltd.', 'current', NULL, NULL),
@@ -40260,10 +40312,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('CC:35:D9', 'Ubiquiti', 'MA-L', 'Ubiquiti', 'Access Point', '2026-02-03', '685 Third Avenue, 27th Floor New York NY US New York NY 10017 ', 'IEEE+Wireshark+Nmap', 'Ubiquiti Inc', 'current', NULL, NULL),
   ('6C:47:80', 'IEEE Registration Authority', 'MA-L', NULL, NULL, '2026-01-31', '445 Hoes Lane Piscataway NJ US 08554', 'IEEE+Nmap', 'IEEE Registration Authority', 'current', NULL, NULL),
   ('50:C3:A2', 'nFore / IVT (Bluetooth stacks)', 'MA-L', 'nForeTechnol', NULL, '2020-10-25', '5F., No.31, Ln. 258, Ruiguang Rd. Neihu Dist., Taipei City 114, Taiwan Taipei  TW 114 ', 'IEEE+Wireshark+Nmap', 'nFore Technology Co., Ltd.', 'current', NULL, 'nFore Technology Co.,Ltd. | nFore Technology Co., Ltd.'),
-  ('A4:04:50', 'nFore / IVT (Bluetooth stacks)', 'MA-L', 'nForeTechnol', NULL, '2017-03-24', '5F, NO 31, Ln 258, Rulguang Rd Taipei Neihu District TW 11491 ', 'IEEE+Wireshark+Nmap', 'nFore Technology Co., Ltd.', 'current', NULL, 'nFore Technology Inc. | nFore Technology Co., Ltd.');
-
--- Batch 81 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('A4:04:50', 'nFore / IVT (Bluetooth stacks)', 'MA-L', 'nForeTechnol', NULL, '2017-03-24', '5F, NO 31, Ln 258, Rulguang Rd Taipei Neihu District TW 11491 ', 'IEEE+Wireshark+Nmap', 'nFore Technology Co., Ltd.', 'current', NULL, 'nFore Technology Inc. | nFore Technology Co., Ltd.'),
   ('00:17:53', 'nFore / IVT (Bluetooth stacks)', 'MA-L', 'nForeTechnol', NULL, '2006-03-06', '5F, NO 31, Ln 258, Rulguang Rd Taipei Neihu District TW 11491 ', 'IEEE+Wireshark+Nmap', 'nFore Technology Co., Ltd.', 'current', NULL, 'nFore Technology Inc. | nFore Technology Co., Ltd.'),
   ('44:10:30', 'Google', 'MA-L', 'Google', 'Router', '2026-02-11', '1600 Amphitheatre Parkway Mountain View CA US 94043', 'IEEE+Wireshark+Nmap', 'Google, Inc.', 'current', NULL, NULL),
   ('80:C4:29', 'Dialog / Renesas', 'MA-L', 'RenesasElect', NULL, '2026-02-07', 'Dukes Meadow, Millboard Raod Bourne End BU Bourne End BU  GB SL8 5FH ', 'IEEE+Wireshark+Nmap', 'Renesas Electronics Operations Services Limited', 'current', NULL, NULL),
@@ -40714,7 +40763,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('C0:80:09', 'Vantiva (Technicolor)', 'MA-L', 'VantivaUSA', 'Router', '2026-10-27', '4855 Peachtree Industrial Blvd, Suite 200 Norcross GA US 30902 ', 'IEEE+Wireshark', 'Vantiva USA LLC', 'current', NULL, NULL),
   ('54:2B:88', 'Espressif', 'MA-L', 'EspressifPte', 'IoT', '2026-10-28', '1 FUSIONOPOLIS VIEW#07-02ECLIPSE Singapore  SG 138577', 'IEEE+Wireshark', 'Espressif Systems (Singapore) Pte. Ltd', 'current', NULL, NULL),
   ('2C:0C:88', 'Silicon Labs', 'MA-L', 'SiliconLabor', NULL, '2026-10-27', '400 West Cesar Chavez Austin TX US 78701', 'IEEE+Wireshark', 'Silicon Laboratories', 'current', NULL, NULL),
-  ('94:85:80', 'Amazon', 'MA-L', 'AmazonTechno', 'Smart Home', '2026-10-27', 'P.O Box 8102  Reno NV US 89507', 'IEEE+Wireshark', 'Amazon Technologies Inc.', 'current', NULL, NULL),
+  ('94:85:80', 'Amazon', 'MA-L', 'AmazonTechno', 'Smart Home', '2026-10-27', 'P.O Box 8102  Reno NV US 89507', 'IEEE+Wireshark', 'Amazon Technologies Inc.', 'current', NULL, NULL);
+
+-- Batch 82 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('70:C3:BE', 'Ingram Micro Services', 'MA-L', 'IngramMicroS', NULL, '2026-10-28', '100 CHEMIN DE BAILLOT MONTAUBAN  FR 82000', 'IEEE+Wireshark', 'INGRAM MICRO SERVICES', 'current', NULL, NULL),
   ('14:5C:DA', 'OPPO', 'MA-L', 'OppoMobileTe', 'Phone', '2026-10-28', 'NO.18 HAIBIN ROAD, DONG GUAN GUANG DONG CN 523860 ', 'IEEE+Wireshark', 'GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD', 'current', NULL, NULL),
   ('D4:05:11', 'TCL King Electrical Appliances(Huizhou)Co.,Ltd', 'MA-L', 'TCLKingElect', 'TV', '2026-10-29', 'B Area, 10th floor, TCL multimedia Building, TCL International E City, #1001 Zhonshanyuan road,Shenzhen guangdong China CN 518058 ', 'IEEE+Wireshark', 'TCL King Electrical Appliances(Huizhou)Co.,Ltd', 'current', NULL, NULL),
@@ -40726,12 +40778,30 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:BE:8E', 'Huawei', 'MA-L', 'HuaweiDevice', 'Phone', '2026-11-03', 'No.2 of Xincheng Road, Songshan Lake Zone Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark', 'Huawei Device Co., Ltd.', 'current', NULL, NULL),
   ('E4:22:24', 'Lenovo / Motorola Mobility', 'MA-L', 'MotorolaMobi', 'Phone', '2026-11-05', '222 West Merchandise Mart Plaza Chicago IL US 60654', 'IEEE+Wireshark', 'Motorola Mobility LLC, a Lenovo Company', 'current', NULL, NULL),
   ('8C:A0:2C', 'Arcadyan', 'MA-L', 'Arcadyan', 'Router', '2026-11-03', 'No.8, Sec.2, Guangfu Rd. Hsinchu City Hsinchu TW 30071 ', 'IEEE+Wireshark', 'Arcadyan Corporation', 'current', NULL, NULL),
-  ('0C:33:1B', 'TydenBrooks', 'MA-L', 'TydenBrooks', NULL, '2025-07-30', '1 Stoffel Drive Tallapoosa GA US 30176', 'IEEE+Wireshark+Nmap', 'TydenBrooks', 'current', NULL, NULL),
+  ('B0:0D:A8', 'Sagemcom', 'MA-L', 'SagemcomBroa', 'Router', '2026-11-11', '4 Allée des Messageries Bois-Colombes haut de seine FR 92270', 'IEEE+Wireshark', 'Sagemcom Broadband SAS', 'current', NULL, NULL),
+  ('E4:20:0B', 'Polystack Technologies Private Limited', 'MA-L', 'PolystackTec', NULL, '2026-11-11', 'HOUSE NO. 51 P, BASEMENT, RYAN INTERNATIONAL SCHOOL, SECTOR 40, GURUGRAM, HARYANA- 122001 Gurugram HARYANA IN 122001 ', 'IEEE+Wireshark', 'Polystack Technologies Private Limited', 'current', NULL, NULL),
+  ('18:21:62', 'New H3C Technologies Co., Ltd', 'MA-L', 'NewH3CTechno', 'Access Point', '2026-11-11', '466 Changhe Road, Binjiang District Hangzhou Zhejiang CN 310052 ', 'IEEE+Wireshark', 'New H3C Technologies Co., Ltd', 'current', NULL, NULL),
+  ('4C:E2:0C', 'New H3C Technologies Co., Ltd', 'MA-L', 'NewH3CTechno', 'Access Point', '2026-11-11', '466 Changhe Road, Binjiang District Hangzhou Zhejiang CN 310052 ', 'IEEE+Wireshark', 'New H3C Technologies Co., Ltd', 'current', NULL, NULL),
+  ('E4:C1:D8', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2026-11-13', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
+  ('04:95:8E', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2026-11-13', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
   ('F0:27:6E', 'AltoBeam', 'MA-L', 'AltoBeam', NULL, '2026-11-07', 'B808, Tsinghua Tongfang Hi-Tech Plaza, Haidian Beijing Beijing CN 100083 ', 'IEEE+Wireshark', 'AltoBeam Inc.', 'current', NULL, NULL),
-  ('18:21:62', 'New H3C Technologies Co., Ltd', 'MA-L', NULL, 'Access Point', '2026-11-11', '466 Changhe Road, Binjiang District Hangzhou Zhejiang CN 310052 ', 'IEEE', 'New H3C Technologies Co., Ltd', 'current', NULL, NULL),
-  ('4C:E2:0C', 'New H3C Technologies Co., Ltd', 'MA-L', NULL, 'Access Point', '2026-11-11', '466 Changhe Road, Binjiang District Hangzhou Zhejiang CN 310052 ', 'IEEE', 'New H3C Technologies Co., Ltd', 'current', NULL, NULL),
-  ('E4:20:0B', 'Polystack Technologies Private Limited', 'MA-L', NULL, NULL, '2026-11-11', 'HOUSE NO. 51 P, BASEMENT, RYAN INTERNATIONAL SCHOOL, SECTOR 40, GURUGRAM, HARYANA- 122001 Gurugram HARYANA IN 122001 ', 'IEEE', 'Polystack Technologies Private Limited', 'current', NULL, NULL),
-  ('B0:0D:A8', 'Sagemcom', 'MA-L', NULL, 'Router', '2026-11-11', '4 Allée des Messageries Bois-Colombes haut de seine FR 92270', 'IEEE', 'Sagemcom Broadband SAS', 'current', NULL, NULL),
+  ('2C:1D:BB', 'Tuya', 'MA-L', 'TuyaSmart', 'Smart Home', '2026-11-12', '160 Greentree Drive, Suite 101 Dover DE US 19904 ', 'IEEE+Wireshark', 'Tuya Smart Inc.', 'current', NULL, NULL),
+  ('0C:33:1B', 'TydenBrooks', 'MA-L', 'TydenBrooks', NULL, '2025-07-30', '1 Stoffel Drive Tallapoosa GA US 30176', 'IEEE+Wireshark+Nmap', 'TydenBrooks', 'current', NULL, NULL),
+  ('0C:84:73', 'Bouffalo Lab', 'MA-L', NULL, NULL, '2026-11-19', '5F, Gongxiang Space, No.100 Tuanjie Road, Nanjing, China Nanjing Jiangsu CN 211800 ', 'IEEE', 'Bouffalo Lab (Nanjing) Co., Ltd.', 'current', NULL, NULL),
+  ('B4:41:6B', 'GX India Pvt Ltd', 'MA-L', 'GXIndia', NULL, '2026-11-14', '595, SECTOR-8, IMT MANESAR GURGAON Haryana IN 122051 ', 'IEEE+Wireshark', 'GX India Pvt Ltd', 'current', NULL, NULL),
+  ('FC:27:31', 'EM Microelectronic', 'MA-L', NULL, NULL, '2026-11-16', 'Rue des Sors 3 Marin-Epagnier Neuchatel CH 2074', 'IEEE', 'EM Microelectronic', 'current', NULL, NULL),
+  ('70:7F:7D', 'Infinix (Transsion)', 'MA-L', NULL, 'Phone', '2026-11-18', 'RMS 05-15, 13A/F SOUTH TOWER WORLD FINANCE CTR HARBOUR CITY 17 CANTON RD TST KLN HONG KONG HongKong HongKong HK 999077 ', 'IEEE', 'Infinix mobility limited', 'current', NULL, NULL),
+  ('C8:4A:F0', 'Mellanox Technologies', 'MA-L', NULL, 'Switch', '2026-11-16', '350 Oakmead Parkway, Suite 100   Sunnyvale CA US 94085 ', 'IEEE', 'Mellanox Technologies, Inc.', 'current', NULL, NULL),
+  ('2C:B5:09', 'Mellanox Technologies', 'MA-L', NULL, 'Switch', '2026-11-16', '350 Oakmead Parkway, Suite 100   Sunnyvale CA US 94085 ', 'IEEE', 'Mellanox Technologies, Inc.', 'current', NULL, NULL),
+  ('14:F4:74', 'Network Orbiter Private Limited', 'MA-L', 'NetworkOrbit', NULL, '2026-11-13', 'C-79 4th Floor DDA Shed Okhla PH-1 New Delhi Delhi IN 110020', 'IEEE+Wireshark', 'Network Orbiter Private Limited', 'current', NULL, NULL),
+  ('D4:3F:38', 'Huawei', 'MA-L', 'HuaweiTechno', 'Phone', '2026-11-13', 'No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808 ', 'IEEE+Wireshark', 'HUAWEI TECHNOLOGIES CO.,LTD', 'current', NULL, NULL),
+  ('E0:DD:4B', 'Microsoft', 'MA-L', NULL, 'Laptop', '2026-11-16', 'One Microsoft Way REDMOND WA US 98052', 'IEEE', 'Microsoft Corporation', 'current', NULL, NULL),
+  ('14:BF:9A', 'HavocAI, Inc.', 'MA-L', NULL, NULL, '2026-11-19', '56 Broad St. Suite 14130 Boston MA US 02109', 'IEEE', 'HavocAI, Inc.', 'current', NULL, NULL),
+  ('90:B9:70', 'Shenzhen V-Link Technology CO., LTD.', 'MA-L', NULL, NULL, '2026-11-20', 'Room 1803, BaiRuiDa Building, Bantian Sub-district, LongGang District Shenzhen GuangDong CN 518000 ', 'IEEE', 'Shenzhen V-Link Technology CO., LTD.', 'current', NULL, NULL),
+  ('00:FD:05', 'Silicon Labs', 'MA-L', NULL, NULL, '2026-11-20', '400 West Cesar Chavez Austin TX US 78701', 'IEEE', 'Silicon Laboratories', 'current', NULL, NULL),
+  ('C8:2F:A4', 'Lyntera Singapore Pte. Ltd.', 'MA-L', NULL, NULL, '2026-11-21', '135 Cecil St., #10-01 Philippine Airlines Bldg Singapore  SG 069536 ', 'IEEE', 'Lyntera Singapore Pte. Ltd.', 'current', NULL, NULL),
+  ('E0:BC:C8', 'nFore / IVT (Bluetooth stacks)', 'MA-L', NULL, NULL, '2026-11-21', '9F., No. 333, Ruiguang Rd., Neihu Dist., Taipei City 114063, Taiwan (R.O.C.) Taipei  TW 114 ', 'IEEE', 'nFore Technology Co.,Ltd.', 'current', NULL, NULL),
+  ('7C:81:AA', 'Shenzhen Enrigin Technology Co., Ltd.', 'MA-L', NULL, NULL, '2026-11-21', ' Room 3401, Unit 1, Chengjian Yunqi Building, No. 19 Jinhua Street, Xinwei Community, Guiyuan Street, Luohu District Shenzhen Guangdong CN 518010 ', 'IEEE', 'Shenzhen Enrigin Technology Co. ,Ltd.', 'current', NULL, NULL),
   ('C8:5C:E2:7', 'SYNERGY SYSTEMS AND SOLUTIONS', 'MA-M', 'SynergyAndSo', 'Industrial', '2023-07-19', 'A1526, GREEN FIELDS COLONY Faridabad HARYANA IN 121001 ', 'IEEE+Wireshark+Nmap', 'SYNERGY SYSTEMS AND SOLUTIONS', 'current', NULL, NULL),
   ('74:1A:E0:9', 'Private (undisclosed IEEE registrant)', 'MA-M', 'Private', NULL, '2017-07-16', '', 'IEEE+Wireshark+Nmap', 'Private', 'current', NULL, NULL),
   ('C8:5C:E2:A', 'San Telequip (P) Ltd.,', 'MA-M', 'SanTelequip', NULL, '2023-07-19', '504 505 Deron Heights, Baner Road, Baner Pune Maharashtra IN 411045 ', 'IEEE+Wireshark+Nmap', 'San Telequip (P) Ltd.', 'current', NULL, NULL),
@@ -40763,10 +40833,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('BC:31:98:B', 'Suzhou Anchi Control system.,Co.Ltd', 'MA-M', 'SuzhouAnchiC', 'Industrial', '2023-04-05', 'Building 7, Industrial Park, No.38 North Guandu Road, Wuzhong District, Suzhou Suzhou  CN 320500 ', 'IEEE+Wireshark+Nmap', 'Suzhou Anchi Control system.,Co.Ltd', 'current', NULL, NULL),
   ('C8:6B:BC:9', 'Osee Technology LTD.', 'MA-M', 'OseeTechnolo', 'TV', '2023-04-15', 'No.22 Building, No.68 zone, Beiqing Road, Haidian District Beijing Beijing CN 100094 ', 'IEEE+Wireshark+Nmap', 'Osee Technology LTD.', 'current', NULL, NULL),
   ('BC:31:98:E', 'RADAR', 'MA-M', 'Radar', NULL, '2023-04-06', ' 15150 Avenue of Science, suite 200 San Diego CA US 92128 ', 'IEEE+Wireshark+Nmap', 'RADAR', 'current', NULL, NULL),
-  ('BC:34:00:0', 'Redvision CCTV', 'MA-M', 'RedvisionCCT', 'Camera', '2015-10-16', 'Alpha House, Blacknest Road, Blacknest Alton Hampshire GB GU34 4PX ', 'IEEE+Wireshark+Nmap', 'Redvision CCTV', 'current', NULL, NULL);
-
--- Batch 82 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('BC:34:00:0', 'Redvision CCTV', 'MA-M', 'RedvisionCCT', 'Camera', '2015-10-16', 'Alpha House, Blacknest Road, Blacknest Alton Hampshire GB GU34 4PX ', 'IEEE+Wireshark+Nmap', 'Redvision CCTV', 'current', NULL, NULL),
   ('C8:6B:BC:6', 'Drowsy Digital Inc', 'MA-M', 'DrowsyDigita', NULL, '2023-04-13', '1 COOK ST WESTBOROUGH MA US 01581', 'IEEE+Wireshark+Nmap', 'Drowsy Digital Inc', 'current', NULL, NULL),
   ('B0:FF:72:5', 'Shenzhen Ruilian Electronic Technology Co.,Ltd', 'MA-M', 'RuilianElect', NULL, '2023-03-30', 'Kanatomi Lai Business Building, Block A, 1018,49-1 Dabao Road, Xinan Street, Bao''an District, Shenzhen  CN 518101 ', 'IEEE+Wireshark+Nmap', 'Shenzhen Ruilian Electronic Technology Co.,Ltd', 'current', NULL, NULL),
   ('B0:FF:72:1', 'Guangzhou Senguang Communication Technology Co., Ltd', 'MA-M', 'GuangzhouSen', NULL, '2023-03-31', 'Room 4141, No. 11 Chunhui Street, Tongtai Road, Baiyun District, Guangzhou. Guangzhou Guangdong CN 510000 ', 'IEEE+Wireshark+Nmap', 'Guangzhou Senguang Communication Technology Co., Ltd', 'current', NULL, NULL),
@@ -41199,7 +41266,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('44:D5:F2:6', 'Beam Communications Pty Ltd', 'MA-M', 'BeamCommunic', 'Modem', '2019-05-17', 'U5/8 Anzed Court Mulgrave Victoria AU 3170', 'IEEE+Wireshark+Nmap', 'Beam Communications Pty Ltd', 'current', NULL, NULL),
   ('D0:5F:64:6', 'Cyrus Technology GmbH', 'MA-M', 'CyrusTechnol', 'Phone', '2019-05-11', 'Hergelsbendenstraße 49 Aachen  DE 52080', 'IEEE+Wireshark+Nmap', 'Cyrus Technology GmbH', 'current', NULL, NULL),
   ('FC:A4:7A:7', 'Innovative Advantage', 'MA-M', 'InnovativeAd', NULL, '2019-04-27', '15353 NE 90th Street Redmond  WA US 98052', 'IEEE+Wireshark+Nmap', 'Innovative Advantage', 'current', NULL, NULL),
-  ('B4:A2:EB:9', 'CURRENT WAYS, INC.', 'MA-M', 'CurrentWays', NULL, '2019-04-13', '10221 BUENA VISTA AVE SANTEE CA US 92071', 'IEEE+Wireshark+Nmap', 'CURRENT WAYS, INC.', 'current', NULL, NULL),
+  ('B4:A2:EB:9', 'CURRENT WAYS, INC.', 'MA-M', 'CurrentWays', NULL, '2019-04-13', '10221 BUENA VISTA AVE SANTEE CA US 92071', 'IEEE+Wireshark+Nmap', 'CURRENT WAYS, INC.', 'current', NULL, NULL);
+
+-- Batch 83 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('B4:A2:EB:5', 'Annapurna labs', 'MA-M', 'Annapurnalab', NULL, '2019-04-13', 'Matam Scientific Industries Center,   Building 8.2 Mail box 15123 Haifa IL 3508409 ', 'IEEE+Wireshark+Nmap', 'Annapurna labs', 'current', NULL, NULL),
   ('B4:A2:EB:A', 'Hengkang（Hangzhou）Co.,Ltd', 'MA-M', 'HengkangCo', NULL, '2019-04-13', 'Industrial Area,Huanghu Town,Yuhang District Hangzhou Zhejiang CN 311118 ', 'IEEE+Wireshark+Nmap', 'Hengkang（Hangzhou）Co.,Ltd', 'current', NULL, NULL),
   ('2C:16:BD:B', 'LINGDONG TECHNOLOGY (BEIJING) CO. LTD', 'MA-M', 'LingdongTech', 'Appliance', '2019-04-20', '2603-01, Floor 22, building 2, No.66 Zhongguancun East Road, Haidian District, Beijing Beijing  CN 100080 ', 'IEEE+Wireshark+Nmap', 'LINGDONG TECHNOLOGY (BEIJING) CO. LTD', 'current', NULL, NULL),
@@ -41266,10 +41336,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('6C:DF:FB:E', 'Beijing Fimi Technology Co., Ltd.', 'MA-M', 'FimiTechnolo', NULL, '2019-07-01', 'Room 348, 3F, Complex building A1, Yongtai Park, Qinghe Street, Haidian District, Beijing Beijing  CN 100000 ', 'IEEE+Wireshark+Nmap', 'Beijing Fimi Technology Co., Ltd.', 'current', NULL, NULL),
   ('4C:91:7A:0', 'Shenzhen Dangs Science and Technology CO.,Ltd.', 'MA-M', 'DangsScience', NULL, '2018-09-23', '7D, 7th Floor, HSAE Building, Nanshan District, Shenzhen GuangDong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Shenzhen Dangs Science & Technology CO.,LTD', 'current', NULL, NULL),
   ('4C:91:7A:2', 'Chongqing Unisinsight Technology Co.,Ltd.', 'MA-M', 'ChongqingUni', 'Camera', '2018-09-23', 'No.117-386, Yunhan Road Beibei District Chongqing CN 400714 ', 'IEEE+Wireshark+Nmap', 'Chongqing Unisinsight Technology Co.,Ltd.', 'current', NULL, NULL),
-  ('98:F9:C7:5', 'Tonycore Technology Co.,Ltd.', 'MA-M', 'TonycoreTech', NULL, '2018-08-19', '2/F,Building A,Dingxin Technology Park,Honglang North 2nd Road,Xin’an Street,Bao’an District, Shenzhen Guangdong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Tonycore Technology Co.,Ltd.', 'current', NULL, NULL);
-
--- Batch 83 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('98:F9:C7:5', 'Tonycore Technology Co.,Ltd.', 'MA-M', 'TonycoreTech', NULL, '2018-08-19', '2/F,Building A,Dingxin Technology Park,Honglang North 2nd Road,Xin’an Street,Bao’an District, Shenzhen Guangdong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Tonycore Technology Co.,Ltd.', 'current', NULL, NULL),
   ('98:F9:C7:D', 'hangzhou soar security technologies limited liability company', 'MA-M', 'soarsecurity', NULL, '2018-08-19', 'Zhebao Ideal Xiangyuan Creative industrial Park Hangzhou Zhejiang CN Zhejiang', 'IEEE+Wireshark+Nmap', 'hangzhou soar security technologies limited liability company', 'current', NULL, NULL),
   ('7C:BC:84:5', 'Nanning auto digital technology co.,LTD', 'MA-M', 'Nanningautod', NULL, '2018-09-07', '3/f, no.6 guichun road, qingxiu district Nanning Guangxi CN 530021 ', 'IEEE+Wireshark+Nmap', 'Nanning auto digital technology co.,LTD', 'current', NULL, NULL),
   ('2C:48:35:E', 'IROOTECH TECHNOLOGY CO.,LTD', 'MA-M', 'IrootechTech', NULL, '2018-03-04', 'Room 606, Floor 6, Building 5, Eastern Yard 10, Xibeiwang East Road Beijing  CN 100092 ', 'IEEE+Wireshark+Nmap', 'IROOTECH TECHNOLOGY CO.,LTD', 'current', NULL, NULL),
@@ -41702,7 +41769,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('C8:5C:E2:D', 'UNILUMIN GROUP CO.,LTD', 'MA-M', 'UniluminGrou', 'TV', '2023-07-26', 'No. 18 Haoye Road, Tongfuyu Industrial Zone, Fuhai Street, Baoan District, Shenzhen Guangdong CN 518000 ', 'IEEE+Wireshark+Nmap', 'UNILUMIN GROUP CO., LTD.', 'current', NULL, NULL),
   ('4C:EA:41:6', 'Gopod Group Limited', 'MA-M', 'GopodGroup', NULL, '2023-08-05', '5-6/f,building 8,Lianjian Industrial Park,Longhua Shenzhen  CN 518109 ', 'IEEE+Wireshark+Nmap', 'Gopod Group Limited', 'current', NULL, NULL),
   ('5C:F8:38:4', 'Shanghai Zenchant Electornics Co.,LTD', 'MA-M', 'ZenchantElec', NULL, '2023-08-16', 'Room 1202, building a, Noble international, 908 Xiuwen Road, Minhang District ShangHai ShangHai CN 201199 ', 'IEEE+Wireshark+Nmap', 'Shanghai Zenchant Electornics Co.,LTD', 'current', NULL, NULL),
-  ('5C:F8:38:8', 'Stonex srl', 'MA-M', 'Stonex', 'Industrial', '2023-08-16', 'Via dei Mille, 4,Monza e Brianza,Italy Monza e Brianza IT 20900 ', 'IEEE+Wireshark+Nmap', 'Stonex srl', 'current', NULL, NULL),
+  ('5C:F8:38:8', 'Stonex srl', 'MA-M', 'Stonex', 'Industrial', '2023-08-16', 'Via dei Mille, 4,Monza e Brianza,Italy Monza e Brianza IT 20900 ', 'IEEE+Wireshark+Nmap', 'Stonex srl', 'current', NULL, NULL);
+
+-- Batch 84 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('4C:EA:41:5', 'ZICHAN J TECHNOLOGY CO.,LTD', 'MA-M', 'ZichanJTechn', NULL, '2023-08-11', '4F Building C,No.3 Tianyang Second Road,Songgang Street,Bao''an District,Shenzhen Shenzhen  CN 518000 ', 'IEEE+Wireshark+Nmap', 'ZICHAN J TECHNOLOGY CO.,LTD', 'current', NULL, NULL),
   ('5C:F8:38:A', 'Semsotec GmbH', 'MA-M', 'Semsotec', NULL, '2023-08-17', 'Schleißheimer Str., 91a Garching B München Bavaria DE 85748 ', 'IEEE+Wireshark+Nmap', 'Semsotec GmbH', 'current', NULL, NULL),
   ('5C:F8:38:1', 'Bergische Ingenieure GmbH', 'MA-M', 'BergischeIng', NULL, '2023-08-19', 'Heide 33 Burscheid  DE 51399', 'IEEE+Wireshark+Nmap', 'Bergische Ingenieure GmbH', 'current', NULL, NULL),
@@ -41769,10 +41839,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('34:C8:D6:C', 'Huizhou KDT Intelligent Display Technology Co. Ltd', 'MA-M', 'HuizhouKDTIn', 'TV', '2024-01-13', 'No. 1 Yaoli Road, Chengjiang Street, Dongsheng Village, Zhongkai High-tech Development Zone Huizhou Guangdong CN 516006 ', 'IEEE+Wireshark+Nmap', 'Huizhou KDT Intelligent Display Technology Co. Ltd', 'current', NULL, NULL),
   ('34:C8:D6:8', 'Illumina', 'MA-M', 'Illumina', 'Medical', '2024-01-18', '5200 Illumina Way San Diego CA US 92122', 'IEEE+Wireshark+Nmap', 'Illumina', 'current', NULL, NULL),
   ('90:15:64:2', 'PIN GENIE, INC.DBA LOCKLY', 'MA-M', 'PinGenieDbaL', 'Smart Home', '2024-02-02', '676 Transfer Rd.,  St. Paul MN US 55114 ', 'IEEE+Wireshark+Nmap', 'PIN GENIE, INC.DBA LOCKLY', 'current', NULL, NULL),
-  ('04:C3:E6:E', 'Great Talent Technology Limited', 'MA-M', 'GreatTalentT', NULL, '2018-04-22', 'No.13 Langshan Rd,HiTech Park,Nanshan District Shenzhen Guangdong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Great Talent Technology Limited', 'current', NULL, 'Teleepoch Ltd | Great Talent Technology Limited');
-
--- Batch 84 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('04:C3:E6:E', 'Great Talent Technology Limited', 'MA-M', 'GreatTalentT', NULL, '2018-04-22', 'No.13 Langshan Rd,HiTech Park,Nanshan District Shenzhen Guangdong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Great Talent Technology Limited', 'current', NULL, 'Teleepoch Ltd | Great Talent Technology Limited'),
   ('90:15:64:3', 'Clinton Electronics Corporation', 'MA-M', 'ClintonElect', 'Camera', '2024-02-08', '6701 Clinton Road Loves Park IL US 61111', 'IEEE+Wireshark+Nmap', 'Clinton Electronics Corporation', 'current', NULL, NULL),
   ('90:15:64:0', 'Fengzhushou Co., Ltd.', 'MA-M', 'Fengzhushou', NULL, '2024-02-03', 'Room 901-909, No. 660, Huangpu Avenue Middle, Tianhe District, Guangzhou Guangzhou Guangdong CN 510000 ', 'IEEE+Wireshark+Nmap', 'Fengzhushou Co., Ltd.', 'current', NULL, NULL),
   ('90:15:64:5', 'Relectrify Pty Ltd', 'MA-M', 'Relectrify', 'Smart Home', '2024-02-08', '4/113-117 Adderley Street  West Melbourne Victoria AU 3003', 'IEEE+Wireshark+Nmap', 'Relectrify Pty Ltd', 'current', NULL, NULL),
@@ -42095,8 +42162,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('B8:F4:53:4', 'Ontic Engineering & Manufacturing', 'MA-M', 'OnticEnginee', 'Smart Home', '2026-10-28', '1176 Telecom Dr Creedmoor NC US 27522', 'IEEE+Wireshark', 'Ontic Engineering & Manufacturing', 'current', NULL, NULL),
   ('B8:F4:53:D', 'Withusnet Co., Ltd', 'MA-M', 'Withusnet', NULL, '2026-10-29', '#1003, 285, Digital-ro, Guro-gu, Seoul, Republic of Korea Seoul  KR 08381 ', 'IEEE+Wireshark', 'Withusnet Co., Ltd', 'current', NULL, NULL),
   ('B8:F4:53:E', 'Shenzhen Co-believe Technology limited', 'MA-M', 'believeTechn', NULL, '2026-11-05', 'Floor, Building BC, Weixinda Industry zone, Tenglong Community, Xixiang Street, Bao’an district, Shenzhen, China Shenzhen Guangdong CN 518102 ', 'IEEE+Wireshark', 'Shenzhen Co-believe Technology limited', 'current', NULL, NULL),
-  ('04:7B:43:4', 'Medicop d.o.o.', 'MA-M', NULL, NULL, '2026-11-10', 'Nemčavci 81 Murska Sobota  SI 9000', 'IEEE', 'Medicop d.o.o.', 'current', NULL, NULL),
-  ('04:7B:43:0', 'JUNGJUN Co., Ltd.', 'MA-M', NULL, NULL, '2026-11-10', '70, Gunja-ro Seoul Seoul KR 05004 ', 'IEEE', 'JUNGJUN Co., Ltd.', 'current', NULL, NULL),
+  ('04:7B:43:4', 'Medicop d.o.o.', 'MA-M', 'Medicopdoo', NULL, '2026-11-10', 'Nemčavci 81 Murska Sobota  SI 9000', 'IEEE+Wireshark', 'Medicop d.o.o.', 'current', NULL, NULL),
+  ('04:7B:43:0', 'JUNGJUN Co., Ltd.', 'MA-M', 'JUNGJUN', NULL, '2026-11-10', '70, Gunja-ro Seoul Seoul KR 05004 ', 'IEEE+Wireshark', 'JUNGJUN Co., Ltd.', 'current', NULL, NULL),
+  ('5C:6C:BB:D', 'Vasco Electronics S.A.', 'MA-M', 'VascoElectro', NULL, '2026-11-12', 'Al. 29 listopada 20 Kraków małopolska PL 31-401', 'IEEE+Wireshark', 'Vasco Electronics S.A.', 'current', NULL, NULL),
+  ('5C:6C:BB:A', 'Entrust Security UK Limited', 'MA-M', 'EntrustSecur', NULL, '2026-11-13', '1 Station Square Cambridge  GB CB1 2GA', 'IEEE+Wireshark', 'Entrust Security UK Limited', 'current', NULL, NULL),
   ('B8:4C:87:3', 'Shenzhen Link-all Technology Co., Ltd', 'MA-M', 'LinkallTechn', NULL, '2023-07-15', 'Floor 5th, Block 9th, Sunny Industrial Zone, Xili Town, Nanshan District, Shenzhen, China  Shenzhen Guangdong CN 518108 ', 'IEEE+Wireshark+Nmap', 'Shenzhen Link-all Technology Co., Ltd', 'current', NULL, NULL),
   ('B8:4C:87:C', 'SOND', 'MA-M', 'Sond', NULL, '2023-07-13', '1295 Beacon St, Unit #899 Brookline  US 02446 ', 'IEEE+Wireshark+Nmap', 'SOND', 'current', NULL, NULL),
   ('B8:4C:87:B', 'Beijing Yunji Technology Co., Ltd.', 'MA-M', 'YunjiTechnol', 'IoT', '2023-07-13', 'Floor 7?Hailong Mansion?No.1 Zhongguancun Avenue,Haidian District,Beijing Beijing  CN 100080 ', 'IEEE+Wireshark+Nmap', 'Beijing Yunji Technology Co., Ltd.', 'current', NULL, NULL),
@@ -42203,7 +42272,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('D4:20:00:B', 'Shenzhen Volt IoT technology co.,ltd.', 'MA-M', 'VoltIoTtechn', NULL, '2022-07-01', 'Room 902, Building B, Industry-University-Research Building, Wuhan University, Yuehai Street, Nanshan District, Shenzhen Shenzhen guangdong CN 518054 ', 'IEEE+Wireshark+Nmap', 'Shenzhen Volt IoT technology co.,ltd.', 'current', NULL, NULL),
   ('C4:83:72:E', 'Suzhou LZY technology Co.,Ltd', 'MA-M', 'SuzhouLZYtec', NULL, '2022-07-15', 'No.88,Yandangshan Road,New district,Suzhou Suzhou Jiangsu CN 215153 ', 'IEEE+Wireshark+Nmap', 'Suzhou LZY technology Co.,Ltd', 'current', NULL, NULL),
   ('58:47:CA:1', 'Hexagon Metrology Services Ltd.', 'MA-M', 'HexagonMetro', 'Industrial', '2022-06-23', 'Metrology House, Halesfield 13 Telford  GB TF7 4PL ', 'IEEE+Wireshark+Nmap', 'Hexagon Metrology Services Ltd.', 'current', NULL, NULL),
-  ('88:3C:C5:6', 'mfJebsen Electronics Ltd.', 'MA-M', 'mfJebsenElec', NULL, '2022-06-15', 'RM2509, Island Place Tower 510 King''s Road, North Point Hong Kong  HK 999077 ', 'IEEE+Wireshark+Nmap', 'mfJebsen Electronics Ltd.', 'current', NULL, NULL),
+  ('88:3C:C5:6', 'mfJebsen Electronics Ltd.', 'MA-M', 'mfJebsenElec', NULL, '2022-06-15', 'RM2509, Island Place Tower 510 King''s Road, North Point Hong Kong  HK 999077 ', 'IEEE+Wireshark+Nmap', 'mfJebsen Electronics Ltd.', 'current', NULL, NULL);
+
+-- Batch 85 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('E8:6C:C7:7', 'Huaqin Technology Co.,Ltd', 'MA-M', 'HuaqinTechno', NULL, '2020-12-19', 'No. 10 Keyuan Road, Songshan Lake Dongguan Guangdong CN 523808 ', 'IEEE+Wireshark+Nmap', 'Huaqin Technology Co.,Ltd.', 'current', NULL, 'Huaqin Technology Co.,Ltd | Huaqin Technology Co.,Ltd.'),
   ('88:3C:C5:1', 'Hanwei Electronics Group Corporation', 'MA-M', 'HanweiElectr', 'Industrial', '2022-06-12', 'No.169,Xue Song Road National Hi-Tech Zone Zhengzhou Henan CN 450001 ', 'IEEE+Wireshark+Nmap', 'Hanwei Electronics Group Corporation', 'current', NULL, NULL),
   ('88:3C:C5:8', 'Wuhan Guangying Intelligence Technology Co., Ltd', 'MA-M', 'GuangyingInt', NULL, '2022-06-03', 'Optics Valley High tech building, No. 2, Jiayuan Road, Hongshan District, Wuhan Wuhan HuBei CN 430074 ', 'IEEE+Wireshark+Nmap', 'Wuhan Guangying Intelligence Technology Co., Ltd', 'current', NULL, NULL),
@@ -42272,10 +42344,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('18:D7:93:8', 'Torsa Global', 'MA-M', 'TorsaGlobal', 'Industrial', '2021-11-12', 'C/ Severo Ochoa, 19 Malaga Malaga ES 29590 ', 'IEEE+Wireshark+Nmap', 'Torsa Global', 'current', NULL, NULL),
   ('04:EE:E8:E', 'Best Integration Technology Co., Ltd.', 'MA-M', 'BestIntegrat', NULL, '2021-11-11', '5F., No.1, Ln.63, Guanxin Rd., East Dist Hsinchu City Taiwan TW 30072 ', 'IEEE+Wireshark+Nmap', 'Best Integration Technology Co., Ltd.', 'current', NULL, NULL),
   ('04:EE:E8:0', 'Zoomlion Huanuo(Beijing)Technology Co.,Ltd', 'MA-M', 'ZoomlionHuan', 'Industrial', '2021-11-11', 'Room 401, floor 4, unit 2, building 26, yard 1, Disheng North Street, Beijing Economic and Technological Development Zone, Beijing Beijing  CN 100000 ', 'IEEE+Wireshark+Nmap', 'Zoomlion Huanuo(Beijing)Technology Co.,Ltd', 'current', NULL, NULL),
-  ('04:EE:E8:9', 'Privacy Hero', 'MA-M', 'PrivacyHero', 'Router', '2021-11-07', '3-1136 Centre Street, suite 152 Thornhill Ontario CA L4J 3M8 ', 'IEEE+Wireshark+Nmap', 'Privacy Hero', 'current', NULL, NULL);
-
--- Batch 85 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('04:EE:E8:9', 'Privacy Hero', 'MA-M', 'PrivacyHero', 'Router', '2021-11-07', '3-1136 Centre Street, suite 152 Thornhill Ontario CA L4J 3M8 ', 'IEEE+Wireshark+Nmap', 'Privacy Hero', 'current', NULL, NULL),
   ('04:EE:E8:B', 'Hunan Yaguan Communication Technology Co.,Ltd', 'MA-M', 'HunanYaguanC', NULL, '2021-11-03', '13th Floor, China Power Software Park, High-tech Development Zone, Changsha City Changsha  CN 410000 ', 'IEEE+Wireshark+Nmap', 'Hunan Yaguan Communication Technology Co.,Ltd', 'current', NULL, NULL),
   ('50:A0:30:3', 'RealWear (Shanghai) Intelligent Technology Co. Ltd', 'MA-M', 'RealWearInte', 'Wearable', '2021-11-02', '2F,Block21, No.55 Chuanhe Road, Pudong New District Shanghai Shanghai CN 201210 ', 'IEEE+Wireshark+Nmap', 'RealWear (Shanghai) Intelligent Technology Co. Ltd', 'current', NULL, 'RealWaer (Shanghai) Intelligent Technology Co., Ltd. | RealWear (Shanghai) Intelligent Technology Co. Ltd'),
   ('04:EE:E8:6', 'NALSSEN INC.', 'MA-M', 'Nalssen', NULL, '2021-11-10', '17, Yeokgok-ro 13beon-gil, Bucheon-si, Gyeonggi-do, Republic of Korea Gyeonggi-do Gyeonggi-do KR 14671 ', 'IEEE+Wireshark+Nmap', 'NALSSEN INC.', 'current', NULL, NULL),
@@ -42706,7 +42775,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('74:1A:E0:E', 'ITS Partner (O.B.S) S.L.', 'MA-M', 'ITSPartnerSL', NULL, '2017-07-16', 'Av. Corts Catalanes 9-11  Sant Cugat del Valles Barcelona ES 08173', 'IEEE+Wireshark+Nmap', 'ITS Partner (O.B.S) S.L.', 'current', NULL, NULL),
   ('74:1A:E0:8', 'Broadcast Wireless Systems Ltd', 'MA-M', 'BroadcastWir', 'Audio', '2017-07-16', 'Unit 9, Swanwick Business Centre, Bridge Road Southampton Hampshire GB SO31 7GB ', 'IEEE+Wireshark+Nmap', 'Broadcast Wireless Systems Ltd', 'current', NULL, NULL),
   ('74:1A:E0:7', 'BÄR Bahnsicherung AG', 'MA-M', 'BÄRBahnsiche', NULL, '2017-07-16', 'Luppmenstrasse 3 Fehraltorf   CH 8320', 'IEEE+Wireshark+Nmap', 'BÄR Bahnsicherung AG', 'current', NULL, NULL),
-  ('CC:22:37:E', 'Manufacturas y transformados AB', 'MA-M', 'Manufacturas', NULL, '2017-07-16', 'SANT ANTONI DE BAIX, 110-112 IGUALADA BARCELONA ES 08700 ', 'IEEE+Wireshark+Nmap', 'MANUFACTURAS Y TRANSFORMADOS AB, S.L.', 'current', NULL, NULL),
+  ('CC:22:37:E', 'Manufacturas y transformados AB', 'MA-M', 'Manufacturas', NULL, '2017-07-16', 'SANT ANTONI DE BAIX, 110-112 IGUALADA BARCELONA ES 08700 ', 'IEEE+Wireshark+Nmap', 'MANUFACTURAS Y TRANSFORMADOS AB, S.L.', 'current', NULL, NULL);
+
+-- Batch 86 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('CC:22:37:B', 'Tolomatic, Inc.', 'MA-M', 'Tolomatic', 'Industrial', '2017-07-16', '3800 County Road 116 Hamel MN US 55340', 'IEEE+Wireshark+Nmap', 'Tolomatic, Inc.', 'current', NULL, NULL),
   ('CC:22:37:2', 'Apeiron Data Systems', 'MA-M', 'ApeironData', 'Storage', '2017-06-18', '81 Blue Ravine Road Folsom CA US 95630', 'IEEE+Wireshark+Nmap', 'Apeiron Data Systems', 'current', NULL, NULL),
   ('2C:27:9E:E', 'Amaryllo International Inc.', 'MA-M', 'AmarylloInte', 'Camera', '2017-06-18', '4F, No. 159, Xianzheng 9th Rd., ZUHUBEI CITY HSINCHU COUNTY TW 302 ', 'IEEE+Wireshark+Nmap', 'Amaryllo International Inc.', 'current', NULL, NULL),
@@ -42775,10 +42847,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('1C:A0:D3:5', 'Dynamic Connect (Suzhou) Hi-Tech Electronic Co.,Ltd.', 'MA-M', 'DynamicConne', NULL, '2016-11-20', 'Unit C&D, No.201 WuXiang, Export Processing Zone A No.200Suhong Road SIP Suzhou JiangSu CN 215021 ', 'IEEE+Wireshark+Nmap', 'Dynamic Connect (Suzhou) Hi-Tech Electronic Co.,Ltd.', 'current', NULL, NULL),
   ('1C:A0:D3:6', 'Intertecno SRL NISUTA', 'MA-M', 'IntertecnoNI', 'Router', '2016-11-20', 'Av. Belgrano 1209 Capital Federal Buenos Aires AR 1093', 'IEEE+Wireshark+Nmap', 'Intertecno SRL "NISUTA"', 'current', NULL, NULL),
   ('40:F3:85:E', 'BBB Inc.', 'MA-M', 'BBB', NULL, '2016-11-13', '28, Yatap-ro, Bundang-gu Seongnam-si Gyeonggi-do KR 13522 ', 'IEEE+Wireshark+Nmap', 'BBB Inc.', 'current', NULL, NULL),
-  ('1C:A0:D3:4', 'NPO TELECOM JSC', 'MA-M', 'NpoTelecom', NULL, '2016-11-20', '31, Votkinskoe shosse str. Izhevsk Udmurtia RU 426039 ', 'IEEE+Wireshark+Nmap', 'NPO TELECOM JSC', 'current', NULL, NULL);
-
--- Batch 86 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('1C:A0:D3:4', 'NPO TELECOM JSC', 'MA-M', 'NpoTelecom', NULL, '2016-11-20', '31, Votkinskoe shosse str. Izhevsk Udmurtia RU 426039 ', 'IEEE+Wireshark+Nmap', 'NPO TELECOM JSC', 'current', NULL, NULL),
   ('1C:A0:D3:3', 'SAVELEC', 'MA-M', 'Savelec', NULL, '2016-11-27', 'rue de la houille blanche HERMILLON SAVOIE FR 73300', 'IEEE+Wireshark+Nmap', 'SAVELEC', 'current', NULL, NULL),
   ('40:F3:85:5', 'KATO ENGINEERING INC.', 'MA-M', 'KatoEngineer', 'Industrial', '2016-11-13', '2075 HOWARD DRIVE WEST NORTH MANKATO  MN US 56003', 'IEEE+Wireshark+Nmap', 'KATO ENGINEERING INC.', 'current', NULL, NULL),
   ('8C:C8:F4:4', 'ITECH Electronic Co.,ltd.', 'MA-M', 'ITECHElectro', 'Industrial', '2016-11-06', 'No.108, XiShanqiao Nanlu Nanjing Jiangsu CN 210039 ', 'IEEE+Wireshark+Nmap', 'ITECH Electronic Co.,ltd.', 'current', NULL, NULL),
@@ -43209,7 +43278,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('B0:CC:CE:7', 'EBI Patient Care, Inc.', 'MA-M', 'EBIPatientCa', NULL, '2025-06-14', '484 Calle E Guaynabo PR US 00969', 'IEEE+Wireshark+Nmap', 'EBI Patient Care, Inc.', 'current', NULL, NULL),
   ('78:78:35:A', 'Skylight', 'MA-M', 'Skylight', 'Media Player', '2025-06-25', '101a Clay Street #144 San Francisco CA US 94111', 'IEEE+Wireshark+Nmap', 'Skylight', 'current', NULL, NULL),
   ('B0:CC:CE:E', 'MICROTEST', 'MA-M', 'Microtest', 'Industrial', '2025-06-21', '14 F.-6, No. 79, Sec. 1, Xintai 5th Rd., Xizhi Dist. New Taipei  TW 221432 ', 'IEEE+Wireshark+Nmap', 'MICROTEST', 'current', NULL, NULL),
-  ('78:78:35:2', 'EHTech (Beijing) Co. Ltd.', 'MA-M', 'EHTech', NULL, '2025-06-30', '2nd Floor, Building 6 (Block D), No.5 Shengfang Road, Daxing District Beijing  CN 102627 ', 'IEEE+Wireshark+Nmap', 'EHTech (Beijing)Co., Ltd.', 'current', NULL, 'EHTech （Beijing）Co., Ltd. | EHTech (Beijing)Co., Ltd.'),
+  ('78:78:35:2', 'EHTech (Beijing) Co. Ltd.', 'MA-M', 'EHTech', NULL, '2025-06-30', '2nd Floor, Building 6 (Block D), No.5 Shengfang Road, Daxing District Beijing  CN 102627 ', 'IEEE+Wireshark+Nmap', 'EHTech (Beijing)Co., Ltd.', 'current', NULL, 'EHTech （Beijing）Co., Ltd. | EHTech (Beijing)Co., Ltd.');
+
+-- Batch 87 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('FC:E4:98:B', 'GIGA Copper Networks GmbH', 'MA-M', 'GIGACopperNe', 'Modem', '2025-07-03', 'Rückerstraße 10 Düsseldorf  DE 40470', 'IEEE+Wireshark+Nmap', 'GIGA Copper Networks GmbH', 'current', NULL, NULL),
   ('FC:E4:98:4', 'TScale Electronics Mfg. (Kunshan) Co., Ltd', 'MA-M', 'TScaleElectr', 'Medical', '2025-07-03', 'No. 99 Jingwei Road, Zhoushi Kunshan  CN 215300 ', 'IEEE+Wireshark+Nmap', 'TScale Electronics Mfg. (Kunshan) Co., Ltd', 'current', NULL, NULL),
   ('FC:E4:98:2', 'ART Finex Co.,Ltd.', 'MA-M', 'ARTFinex', NULL, '2025-07-03', '6-1-33,KAMIKOBATACHO,SABAE-SHI  Fukui-ken  JP 916-0037 ', 'IEEE+Wireshark+Nmap', 'ART Finex Co.,Ltd.', 'current', NULL, NULL),
@@ -43278,10 +43350,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('6C:47:80:A', 'Prolink Surveillance Technology Co.Ltd', 'MA-M', 'ProlinkSurve', 'Camera', '2026-02-04', '10F.-7, No.18, Ln. 609, Sec. 5, Chongxin Rd., Sanchong Dist. New Taipei City  TW 241 ', 'IEEE+Wireshark+Nmap', 'Prolink Surveillance Technology Co.Ltd', 'current', NULL, NULL),
   ('6C:47:80:6', 'CTHINGS.CO sp. z o.o.', 'MA-M', 'CTHINGSsp', 'Industrial', '2026-02-06', 'Aleja Niepodleglosci 18 Warsaw  PL 02-653', 'IEEE+Wireshark+Nmap', 'CTHINGS.CO sp. z o.o.', 'current', NULL, NULL),
   ('18:C3:E4:D', 'CASE Deutschland GmbH', 'MA-M', 'CASEDeutschl', 'Industrial', '2026-02-10', 'Gruener Ring 126 Braunschweig Niedersachsen DE 38108', 'IEEE+Wireshark+Nmap', 'CASE Deutschland GmbH', 'current', NULL, NULL),
-  ('6C:47:80:1', 'HD HYUNDAI ENERGY SOLUTIONS CO., LTD.', 'MA-M', 'HdHyundaiEne', 'Smart Home', '2026-02-06', '477, Bundangsuseo-ro Bundang-gu, Seongnam-si Gyeonggi-do KR 13553 ', 'IEEE+Wireshark+Nmap', 'HD HYUNDAI ENERGY SOLUTIONS CO., LTD.', 'current', NULL, NULL);
-
--- Batch 87 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('6C:47:80:1', 'HD HYUNDAI ENERGY SOLUTIONS CO., LTD.', 'MA-M', 'HdHyundaiEne', 'Smart Home', '2026-02-06', '477, Bundangsuseo-ro Bundang-gu, Seongnam-si Gyeonggi-do KR 13553 ', 'IEEE+Wireshark+Nmap', 'HD HYUNDAI ENERGY SOLUTIONS CO., LTD.', 'current', NULL, NULL),
   ('18:C3:E4:6', 'Clicks Technology Ltd', 'MA-M', 'ClicksTechno', NULL, '2026-02-11', '2 Stone Buildings London  GB WC2A 3TH', 'IEEE+Wireshark+Nmap', 'Clicks Technology Ltd', 'current', NULL, NULL),
   ('6C:47:80:E', 'Alban Giacomo S.p.a.', 'MA-M', 'AlbanGiacomo', NULL, '2026-02-24', 'Via Alcide De Gasperi, 75 Romano d''Ezzelino Vicenza IT 36060 ', 'IEEE+Wireshark', 'Alban Giacomo S.p.a.', 'current', NULL, NULL),
   ('C4:82:72:B', 'MyPlace Australia Pty Ltd', 'MA-M', 'MyPlaceAustr', 'Thermostat', '2026-02-25', '115 Vulcan Rd Canning Vale WA AU 6155', 'IEEE+Wireshark', 'MyPlace Australia Pty Ltd', 'current', NULL, NULL),
@@ -43376,8 +43445,11 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('B8:F4:53:7', 'Valthor, s.r.o.', 'MA-M', 'Valthorsro', NULL, '2026-10-31', 'Na Groši 1344/5a Praha 10  CZ 102 00', 'IEEE+Wireshark', 'Valthor, s.r.o.', 'current', NULL, NULL),
   ('04:7B:43:D', 'ZEBO PTE LTD', 'MA-M', 'ZeboPte', NULL, '2026-11-07', '60 PAYA LEBAR ROAD, #06-28, PAYA LEBAR SQUARE, SINGAPORE 409051 SINGAPORE  SG 409051 ', 'IEEE+Wireshark', 'ZEBO PTE LTD', 'current', NULL, NULL),
   ('04:7B:43:A', 'RUBISEC CORPORATION', 'MA-M', 'Rubisec', NULL, '2026-11-07', 'Harju maakond,  Kesklinna linnaosa, Viru väljak 2, Tallinn, Estonia Tallinn  EE 10111 ', 'IEEE+Wireshark', 'RUBISEC CORPORATION', 'current', NULL, NULL),
-  ('04:7B:43:9', 'Xthings Industry LLC', 'MA-M', NULL, NULL, '2026-11-10', '47703 Fremont Boulevard Fremont CA US 94538', 'IEEE', 'Xthings Industry LLC', 'current', NULL, NULL),
-  ('04:7B:43:6', 'CZUR TECH CO., LTD', 'MA-M', NULL, NULL, '2026-11-11', 'ROM722,Block B,Podium of Buiding NO. 12 shenzhen bay Eco-Technology Park  shenzhen  CN 518066 ', 'IEEE', 'CZUR TECH CO., LTD', 'current', NULL, NULL),
+  ('04:7B:43:9', 'Xthings Industry LLC', 'MA-M', 'XthingsIndus', NULL, '2026-11-10', '47703 Fremont Boulevard Fremont CA US 94538', 'IEEE+Wireshark', 'Xthings Industry LLC', 'current', NULL, NULL),
+  ('04:7B:43:6', 'CZUR TECH CO., LTD', 'MA-M', 'CzurTech', NULL, '2026-11-11', 'ROM722,Block B,Podium of Buiding NO. 12 shenzhen bay Eco-Technology Park  shenzhen  CN 518066 ', 'IEEE+Wireshark', 'CZUR TECH CO., LTD', 'current', NULL, NULL),
+  ('5C:6C:BB:8', 'Private (undisclosed IEEE registrant)', 'MA-M', 'Private', NULL, '2026-11-14', '', 'IEEE+Wireshark', 'Private', 'current', NULL, NULL),
+  ('5C:6C:BB:3', 'DATA KNOX DMS PRIVATE LIMITED', 'MA-M', NULL, NULL, '2026-11-19', 'MAHAPE TTC INDUSTRIAL AREA  NAVI MUMBAI MAHARASHTRA IN 400709', 'IEEE', 'DATA KNOX DMS PRIVATE LIMITED', 'current', NULL, NULL),
+  ('5C:6C:BB:2', 'Shenzhen Dangzhi Technology Co., Ltd.', 'MA-M', NULL, NULL, '2026-11-20', 'Room 1309, Building A7, Chuangzhi Cloud City, Xili Street, Nanshan District, Shenzhen, China Shenzhen Guangdong CN 518000 ', 'IEEE', 'Shenzhen Dangzhi Technology Co., Ltd.', 'current', NULL, NULL),
   ('B8:4C:87:A', 'Altronix Corporation', 'MA-M', 'Altronix', 'Industrial', '2023-07-15', '140 58th St. Bldg A, Ste 2N Brooklyn NY US 11220 ', 'IEEE+Wireshark+Nmap', 'Altronix , Corp', 'current', NULL, NULL),
   ('8C:C8:F4:7', 'TableSafe', 'MA-M', 'TableSafe', 'IoT', '2016-10-30', '12220 113th Ave NE, Suite 220 Kirkland WA US 98034 ', 'IEEE+Wireshark+Nmap', 'TableSafe', 'current', NULL, 'Private | TableSafe'),
   ('58:E8:76:0', 'Zhuhai Raysharp Technology Co.,Ltd', 'MA-M', 'ZhuhaiRaysha', 'Camera', '2016-05-07', 'No.100 of Keji Liu Rd.6, Hi-Tech Zone Zhuhai Guangdong CN  519080 ', 'IEEE+Wireshark+Nmap', 'Zhuhai Raysharp Technology Co.,Ltd', 'current', NULL, 'Private | Zhuhai Raysharp Technology Co.,Ltd'),
@@ -43709,7 +43781,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('04:11:19:9', 'AC Power Distribution / ACT Entmt.', 'MA-M', 'ACPowerDistr', 'Industrial', '2020-12-18', '2313 N. Valley St. Burbank CA US 91505', 'IEEE+Wireshark+Nmap', 'AC Power Distribution / ACT Entmt.', 'current', NULL, NULL),
   ('04:11:19:D', 'Nuance Hearing Ltd.', 'MA-M', 'NuanceHearin', 'Medical', '2020-12-18', 'Raoul Wallenberg 24, Building A1, Floor 3 Tel Aviv  IL 6971920 ', 'IEEE+Wireshark+Nmap', 'Nuance Hearing Ltd.', 'current', NULL, NULL),
   ('04:11:19:A', 'CyOne Security AG', 'MA-M', 'CyOneSecurit', NULL, '2020-12-16', 'Hinterbergstrasse 18 Steinhausen Zug CH 6312', 'IEEE+Wireshark+Nmap', 'CyOne Security AG', 'current', NULL, NULL),
-  ('04:11:19:3', 'SUZHOU RIBAO TECHNOLOGY CO.,LTD.', 'MA-M', 'SuzhouRibaoT', 'IoT', '2020-12-19', 'SUZHOU RIBAO TECHNOLOGY CO.,LTD. SUZHOU JIANGSU CN 215133 ', 'IEEE+Wireshark+Nmap', 'SUZHOU RIBAO TECHNOLOGY CO.,LTD.', 'current', NULL, NULL),
+  ('04:11:19:3', 'SUZHOU RIBAO TECHNOLOGY CO.,LTD.', 'MA-M', 'SuzhouRibaoT', 'IoT', '2020-12-19', 'SUZHOU RIBAO TECHNOLOGY CO.,LTD. SUZHOU JIANGSU CN 215133 ', 'IEEE+Wireshark+Nmap', 'SUZHOU RIBAO TECHNOLOGY CO.,LTD.', 'current', NULL, NULL);
+
+-- Batch 88 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('98:27:82:6', 'WESTERN SECURITY SOLUTIONS', 'MA-M', 'WesternSecur', NULL, '2020-12-13', 'WSS TOWER HARINAGAR GURUGRAM HARYANA IN 122001', 'IEEE+Wireshark+Nmap', 'WESTERN SECURITY SOLUTIONS', 'current', NULL, NULL),
   ('98:27:82:B', 'RayTron, INC.', 'MA-M', 'RayTron', NULL, '2020-12-06', '11F.ESLEAD Bldg.HONMACHI 1-4-8 HONMACHI CHUO-KU Osaka Osaka JP 541-0053', 'IEEE+Wireshark+Nmap', 'RayTron, INC.', 'current', NULL, NULL),
   ('98:27:82:D', 'ThorLabs', 'MA-M', 'Thorlabs', 'Industrial', '2020-12-06', 'Münchner Weg 1 Bergkirchen  DE 85232', 'IEEE+Wireshark+Nmap', 'Thorlabs GmbH', 'current', NULL, NULL),
@@ -43781,10 +43856,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('D0:14:11:7', 'Realwave Inc.', 'MA-M', 'Realwave', NULL, '2020-05-06', '5857 Owens Avenue, Suite 300 Carlsbad CA US 92008-5507 ', 'IEEE+Wireshark+Nmap', 'Realwave Inc.', 'current', NULL, NULL),
   ('30:49:50:D', 'Merlyn Mind, Inc.', 'MA-M', 'MerlynMind', 'Smart Home', '2020-04-30', '405 Lexington Avenue, Suite 3504 New York NY US 10174 ', 'IEEE+Wireshark+Nmap', 'Merlyn Mind, Inc.', 'current', NULL, 'Xio Research, Inc | Merlyn Mind, Inc.'),
   ('D0:14:11:8', 'Video Security, Inc.', 'MA-M', 'VideoSecurit', 'Camera', '2020-05-02', '80, Fengren Rd., Fengshan Dist., Kaohsiung, Taiwan, R.O.C. Kaohsiung City TW 830 ', 'IEEE+Wireshark+Nmap', 'Video Security, Inc.', 'current', NULL, NULL),
-  ('30:49:50:8', 'SHENZHEN LDROBOT CO., LTD.', 'MA-M', 'Ldrobot', 'Storage', '2020-04-26', 'Nanshan Shenzhen  CN 518000', 'IEEE+Wireshark+Nmap', 'SHENZHEN LDROBOT CO., LTD.', 'current', NULL, NULL);
-
--- Batch 88 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('30:49:50:8', 'SHENZHEN LDROBOT CO., LTD.', 'MA-M', 'Ldrobot', 'Storage', '2020-04-26', 'Nanshan Shenzhen  CN 518000', 'IEEE+Wireshark+Nmap', 'SHENZHEN LDROBOT CO., LTD.', 'current', NULL, NULL),
   ('F0:D7:AF:A', 'MSTAR TECHNOLOGIES,INC', 'MA-M', 'MstarTechnol', NULL, '2020-04-18', '#998 West Wenyi Road Hangzhou Zhejiang CN 310012', 'IEEE+Wireshark+Nmap', 'MSTAR TECHNOLOGIES,INC', 'current', NULL, NULL),
   ('F0:D7:AF:5', 'Dongguan Huili electroacoustic Industrial Co.,ltd', 'MA-M', 'DongguanHuil', NULL, '2020-04-15', 'Dalang Town, Biyun Cai Bai Cun East Second Street 66,A4 Building 501 Dongguan Guangdong CN 523770 ', 'IEEE+Wireshark+Nmap', 'Dongguan Huili electroacoustic Industrial Co.,ltd', 'current', NULL, NULL),
   ('F0:D7:AF:2', 'Blacknight Internet Solutions Limited', 'MA-M', 'BlacknightIn', NULL, '2020-04-17', 'Unit 12a, Barrowside Business Park, Sleaty Rd. Carlow Carlow IE R93 X265 ', 'IEEE+Wireshark+Nmap', 'Blacknight Internet Solutions Limited', 'current', NULL, NULL),
@@ -44212,7 +44284,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('5C:F2:86:7', 'Access IS', 'MA-M', 'AccessIS', 'IoT', '2015-12-13', '18 Suttons Business Park READING Berks GB RG6 1AZ', 'IEEE+Wireshark+Nmap', 'Access IS', 'current', NULL, NULL),
   ('38:FD:FE:8', 'Indra Navia AS', 'MA-M', 'IndraNaviaAS', 'Automotive', '2015-12-13', 'Olaf Helsets vei 6, P.O. Box 150 Oppsal Oslo  NO 0619 ', 'IEEE+Wireshark+Nmap', 'Indra Navia AS', 'current', NULL, NULL),
   ('38:FD:FE:9', 'OOO Group of Industrial Technologies', 'MA-M', 'OOOGroupIndu', NULL, '2015-12-13', 'Profsoyuznaya st. 124A Moscow Moscow RU 117321', 'IEEE+Wireshark+Nmap', 'OOO Group of Industrial Technologies', 'current', NULL, NULL),
-  ('38:FD:FE:0', 'Edge I&D Co., Ltd.', 'MA-M', 'EdgeI&D', NULL, '2015-12-06', '1342-12, Gyeongchung-daero, Chowol-eup Gwangju-si Gyeonggi-do KR 12735 ', 'IEEE+Wireshark+Nmap', 'Edge I&D Co., Ltd.', 'current', NULL, NULL),
+  ('38:FD:FE:0', 'Edge I&D Co., Ltd.', 'MA-M', 'EdgeI&D', NULL, '2015-12-06', '1342-12, Gyeongchung-daero, Chowol-eup Gwangju-si Gyeonggi-do KR 12735 ', 'IEEE+Wireshark+Nmap', 'Edge I&D Co., Ltd.', 'current', NULL, NULL);
+
+-- Batch 89 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('78:CA:83:4', 'Pinhole (Beijing) Technology Co., Ltd.', 'MA-M', 'PinholeTechn', NULL, '2015-11-15', 'Room 1001-008, No.1 Building, No. 3 Haidian Street, Haidian District Beijing  CN 100190 ', 'IEEE+Wireshark+Nmap', 'Pinhole (Beijing) Technology Co., Ltd.', 'current', NULL, NULL),
   ('38:B8:EB:4', 'UMLOGICS', 'MA-M', 'Umlogics', NULL, '2015-11-29', '17, Techno2ro, Yuseong-gu Daejeon  KR 34012 ', 'IEEE+Wireshark+Nmap', 'UMLOGICS', 'current', NULL, NULL),
   ('38:B8:EB:0', 'Bumjin C&L Co., Ltd.', 'MA-M', 'BumjinC&L', NULL, '2015-11-29', '9B 10L, 833-14 Wonsi-dong Danwon-gu Ansan Gyeonggi KR 15612 ', 'IEEE+Wireshark+Nmap', 'Bumjin C&L Co., Ltd.', 'current', NULL, NULL),
@@ -44284,10 +44359,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('80:E4:DA:D', 'Dalian Roiland Technology Co.,Ltd', 'MA-M', 'DalianRoilan', 'Automotive', '2015-10-16', '11th floor,7Huixian Yuan, Dalian, Liaoning CN 116023 ', 'IEEE+Wireshark+Nmap', 'Dalian Roiland Technology Co.,Ltd', 'current', NULL, NULL),
   ('80:E4:DA:5', 'CAVALRY STORAGE INC', 'MA-M', 'CavalryStora', NULL, '2015-10-16', '4251 E BRICKELL ST ONTARIO CA US 91761', 'IEEE+Wireshark+Nmap', 'CAVALRY STORAGE INC', 'current', NULL, NULL),
   ('80:E4:DA:6', 'BroadMedia Co., Ltd.', 'MA-M', 'BroadMedia', NULL, '2015-10-16', '102-124, 106 Youngdeungpo Ro Seoul N/A KR 150-935 ', 'IEEE+Wireshark+Nmap', 'BroadMedia Co., Ltd.', 'current', NULL, NULL),
-  ('64:FB:81:0', 'SHANGHAI SIMCOM LIMITED', 'MA-M', 'Simcom', NULL, '2015-10-16', 'Building A, SIM technology Building, N0.633 JinZhong Road, Shanghai / CN 200335 ', 'IEEE+Wireshark+Nmap', 'SHANGHAI SIMCOM LIMITED', 'current', NULL, NULL);
-
--- Batch 89 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('64:FB:81:0', 'SHANGHAI SIMCOM LIMITED', 'MA-M', 'Simcom', NULL, '2015-10-16', 'Building A, SIM technology Building, N0.633 JinZhong Road, Shanghai / CN 200335 ', 'IEEE+Wireshark+Nmap', 'SHANGHAI SIMCOM LIMITED', 'current', NULL, NULL),
   ('1C:CA:E3:3', 'Shenzhen Smart Device Technology Co.,LTD', 'MA-M', 'SmartDeviceT', NULL, '2015-10-16', 'SSMEC Building, Gao Xin Nan First Avenue Hi-Tech Park South Shenzhen GuangDong CN 518057 ', 'IEEE+Wireshark+Nmap', 'Shenzhen Smart Device Technology Co.,LTD', 'current', NULL, NULL),
   ('1C:CA:E3:4', 'Sunray Medical Apparatus Co.,Ltd.', 'MA-M', 'SunrayMedica', 'Medical', '2015-10-16', ' 4/F No.242 Tianhe Dong Road ,510620 Guangzhou,  PEOPLE’S REPUBLICA OF CHINA Guangzhou Guangdong CN 510620 ', 'IEEE+Wireshark+Nmap', 'Sunray Medical Apparatus Co.,Ltd.', 'current', NULL, NULL),
   ('1C:CA:E3:8', 'OxySec S.r.l.', 'MA-M', 'OxySec', NULL, '2015-10-16', 'via delle Querce, 7 Treviolo Bergamo IT 24048 ', 'IEEE+Wireshark+Nmap', 'OxySec S.r.l.', 'current', NULL, NULL),
@@ -44715,7 +44787,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('CC:39:53:7', 'Chengdu Superxon Communication Technology Co., Ltd.', 'MA-M', 'SuperxonComm', NULL, '2026-07-11', 'No. 666, Shaojia street, Shuangliu District, Chengdu Chengdu  CN 610200 ', 'IEEE+Wireshark', 'Chengdu Superxon Communication Technology Co., Ltd.', 'current', NULL, NULL),
   ('CC:39:53:9', 'MT-LINK TECHNOLOGIES CO', 'MA-M', 'MtLinkTechno', NULL, '2026-07-17', 'OFFICE # 109 ELLAHI CENTRE PREDEY STREET REGAL CHOWK KARACHI Karachi Sindh PK 744000', 'IEEE+Wireshark', 'MT-LINK TECHNOLOGIES CO', 'current', NULL, NULL),
   ('7C:E4:A1:8', 'Shenzhen Liandian Communication Technology Co.LTD', 'MA-M', 'LiandianComm', NULL, '2026-07-23', '1307, building A4, workshop 2, LiLang International Jewelry Industrial Park, 31 Bulan Road, xialilang community, Nanwan street, Longgang District Shenzhen Guangdong CN 518112 ', 'IEEE+Wireshark', 'Shenzhen Liandian Communication Technology Co.LTD', 'current', NULL, NULL),
-  ('7C:E4:A1:4', 'Weihai Idencoder Electronic Technology Co.,Ltd', 'MA-M', 'WeihaiIdenco', 'Industrial', '2026-07-24', 'TEL：1# Building, 12-5# FENGCHAO STREET, ECONOMIC DEVELOPMENT ZONE, WEIHAI CITY, SHANDONG PROVINCE Weihai Shandong CN 264200 ', 'IEEE+Wireshark', 'Weihai Idencoder Electronic Technology Co.,Ltd', 'current', NULL, NULL),
+  ('7C:E4:A1:4', 'Weihai Idencoder Electronic Technology Co.,Ltd', 'MA-M', 'WeihaiIdenco', 'Industrial', '2026-07-24', 'TEL：1# Building, 12-5# FENGCHAO STREET, ECONOMIC DEVELOPMENT ZONE, WEIHAI CITY, SHANDONG PROVINCE Weihai Shandong CN 264200 ', 'IEEE+Wireshark', 'Weihai Idencoder Electronic Technology Co.,Ltd', 'current', NULL, NULL);
+
+-- Batch 90 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('7C:E4:A1:3', 'Vybe Audio LLC', 'MA-M', 'VybeAudio', 'Automotive', '2026-07-27', '2093 PHILADELPHIA PIKE #5466 CLAYMONT DE US 19703', 'IEEE+Wireshark', 'Vybe Audio LLC', 'current', NULL, NULL),
   ('7C:E4:A1:E', 'Dongguan City Boqun Electronic Technology Co., Ltd.', 'MA-M', 'DongguanCity', NULL, '2026-07-28', 'No.21 Shangtun New Village Road Houjie Town Dongguan City Guangdong Province CN 523960', 'IEEE+Wireshark', 'Dongguan City Boqun Electronic Technology Co., Ltd.', 'current', NULL, NULL),
   ('B4:DF:43:9', 'Epilady 2000', 'MA-M', 'Epilady2000', NULL, '2026-07-29', 'HACHARASH 7 HAZOR HAGLILIT  IL 1035102', 'IEEE+Wireshark', 'Epilady 2000', 'current', NULL, NULL),
@@ -44753,11 +44828,12 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('B8:F4:53:6', 'Hanque(Chengdu) Information Technology Co.,Ltd.', 'MA-M', 'HanqueInform', NULL, '2026-11-04', 'Room 609, 6th Floor, Unit 1, Building 1, No. 969 Hanzhou Road, Zhengxing Sub-district, Tianfu New Area Chengdu Sichuan CN 610213 ', 'IEEE+Wireshark', 'Hanque(Chengdu) Information Technology Co.,Ltd.', 'current', NULL, NULL),
   ('B8:F4:53:3', 'Annapurna labs', 'MA-M', 'Annapurnalab', NULL, '2026-11-03', 'Matam Scientific Industries Center,   Building 8.2 Mail box 15123 Haifa IL 3508409 ', 'IEEE+Wireshark', 'Annapurna labs', 'current', NULL, NULL),
   ('B8:F4:53:5', 'EMPIRETECH HK LIMITED', 'MA-M', 'EmpiretechHk', NULL, '2026-11-04', 'ROOM B78，19/F YHC TOWER 1, SHEUNG YUET ROAD KOWLOON BAY KOWLOON BAY  HK 999077 ', 'IEEE+Wireshark', 'EMPIRETECH HK LIMITED', 'current', NULL, NULL),
-  ('04:7B:43:1', 'EVERBLESSED TECHNOLOGY INC', 'MA-M', NULL, NULL, '2026-11-11', '710 Lakeway Drive, Suite 200 Sunnyvale CA US 94085 ', 'IEEE', 'EVERBLESSED TECHNOLOGY INC', 'current', NULL, NULL),
-  ('04:7B:43:3', 'ShenZhen MINIOLT Technology Co., Ltd.', 'MA-M', NULL, NULL, '2026-11-11', 'Room 308,Building D, Zhantao Commercial Plaza, No. 376 Longhua Construction Road, Longping Community, Daliang Subdistrict, Longhua District ShenZhen  CN 518109 ', 'IEEE', 'ShenZhen MINIOLT Technology Co., Ltd.', 'current', NULL, NULL),
-  ('04:7B:43:8', 'MERAK HVAC España S.A.U.', 'MA-M', NULL, 'Thermostat', '2026-11-09', 'Miguel Faraday 1 Getafe Madrid ES 28906', 'IEEE', 'MERAK HVAC España S.A.U.', 'current', NULL, 'MERAK HVAC | MERAK HVAC España S.A.U.'),
+  ('04:7B:43:1', 'EVERBLESSED TECHNOLOGY INC', 'MA-M', 'EverblessedT', NULL, '2026-11-11', '710 Lakeway Drive, Suite 200 Sunnyvale CA US 94085 ', 'IEEE+Wireshark', 'EVERBLESSED TECHNOLOGY INC', 'current', NULL, NULL),
+  ('04:7B:43:3', 'ShenZhen MINIOLT Technology Co., Ltd.', 'MA-M', 'MINIOLTTechn', NULL, '2026-11-11', 'Room 308,Building D, Zhantao Commercial Plaza, No. 376 Longhua Construction Road, Longping Community, Daliang Subdistrict, Longhua District ShenZhen  CN 518109 ', 'IEEE+Wireshark', 'ShenZhen MINIOLT Technology Co., Ltd.', 'current', NULL, NULL),
+  ('04:7B:43:8', 'MERAK HVAC España S.A.U.', 'MA-M', 'MERAKHVACEsp', 'Thermostat', '2026-11-09', 'Miguel Faraday 1 Getafe Madrid ES 28906', 'IEEE+Wireshark', 'MERAK HVAC España S.A.U.', 'current', NULL, 'MERAK HVAC | MERAK HVAC España S.A.U.'),
   ('34:C8:D6:5', 'RUBISEC CORPORATION', 'MA-M', 'Rubisec', NULL, '2024-01-13', 'XVI LOKAL BR. 7 BUDVA BUDVA  ME 85310', 'IEEE+Wireshark+Nmap', 'RUBISEC CORPORATION', 'current', NULL, 'PRIZMA GROUP DISTRIBUTION & CONSULTING D.O.O - RUBISEC | RUBISEC CORPORATION'),
-  ('04:7B:43:2', 'PEAK International', 'MA-M', NULL, NULL, '2026-11-11', '11 Fountain Crescent Glasgow  GB PA49RE', 'IEEE', 'PEAK International', 'current', NULL, NULL),
+  ('04:7B:43:2', 'PEAK International', 'MA-M', 'PEAKInternat', NULL, '2026-11-11', '11 Fountain Crescent Glasgow  GB PA49RE', 'IEEE+Wireshark', 'PEAK International', 'current', NULL, NULL),
+  ('5C:6C:BB:9', 'Certaintek Co.,Ltd.', 'MA-M', NULL, NULL, '2026-11-18', 'Room 301, Tower B, Phase 2, Tech Building, No.1057 Nanhai Avenue, Shekou, Yanshan Community, Zhaoshang Subdistrict Shenzhen  CN 518067 ', 'IEEE', 'Certaintek Co.,Ltd.', 'current', NULL, NULL),
   ('D0:14:11:1', 'P.B. Elettronica srl', 'MA-M', 'PBElettronic', NULL, '2020-05-05', 'Via Santorelli, 8 Grugliasco Torino IT 10095 ', 'IEEE+Wireshark+Nmap', 'P.B. Elettronica srl', 'current', NULL, 'Private | P.B. Elettronica srl'),
   ('B8:4C:87:6', 'HORIBA Precision Instruments (Beijing) Co.,Ltd', 'MA-M', 'HORIBAPrecis', 'Industrial', '2023-07-11', 'Building 1, No.3 Xixing Road, Houshayu Town, Shunyi District, Beijing, China Beijing Shunyi CN 101318 ', 'IEEE+Wireshark+Nmap', 'HORIBA Precision Instruments (Beijing) Co.,Ltd', 'current', NULL, NULL),
   ('C0:22:F1:3', 'Spectra Technologies India Private Limited', 'MA-M', 'SpectraTechn', NULL, '2023-07-06', '8/33-C, FF, SF, Kirti Nagar Industrial Area, New Delhi New Delhi Delhi IN 110015 ', 'IEEE+Wireshark+Nmap', 'Spectra Technologies India Private Limited', 'current', NULL, NULL),
@@ -44787,10 +44863,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('C8:6B:BC:8', 'Sinsegye Beijing Technology Co., Ltd', 'MA-M', 'SinsegyeBeij', NULL, '2023-04-13', '1801, Building 6, Zone 4, Wangjing Dongyuan, Chaoyang District, Beijing  Beijing  CN 100102 ', 'IEEE+Wireshark+Nmap', 'Sinsegye Beijing Technology Co., Ltd', 'current', NULL, NULL),
   ('8C:47:6E:7', 'Syng, Inc.', 'MA-M', 'Syng', 'Audio', '2020-10-03', '120 Mildred Ave. Venice CA US 90291', 'IEEE+Wireshark+Nmap', 'Syng, Inc.', 'current', NULL, 'Private | Syng, Inc.'),
   ('58:C4:1E:4', 'BEIJING FIBRLINK COMMUNICATIONS CO.,LTD.', 'MA-M', 'FibrlinkComm', NULL, '2023-04-18', 'Dongxu International Centre, Fengtai District, Beijing BEIJING FENGTAI CN 100070 ', 'IEEE+Wireshark+Nmap', 'BEIJING FIBRLINK COMMUNICATIONS CO.,LTD.', 'current', NULL, NULL),
-  ('BC:31:98:4', 'Chongqing e-skybest ELECT CO.,LIMITED', 'MA-M', 'Chongqingesk', NULL, '2023-04-06', 'Second Floor, building No. 7,Phase??Standard Workshop, South District, Zitong Street Industrial Park, Tongnan District, Chongqing Chongqing  CN 400000 ', 'IEEE+Wireshark+Nmap', 'Chongqing e-skybest ELECT CO.,LIMITED', 'current', NULL, NULL);
-
--- Batch 90 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('BC:31:98:4', 'Chongqing e-skybest ELECT CO.,LIMITED', 'MA-M', 'Chongqingesk', NULL, '2023-04-06', 'Second Floor, building No. 7,Phase??Standard Workshop, South District, Zitong Street Industrial Park, Tongnan District, Chongqing Chongqing  CN 400000 ', 'IEEE+Wireshark+Nmap', 'Chongqing e-skybest ELECT CO.,LIMITED', 'current', NULL, NULL),
   ('BC:31:98:6', 'ntc mekhanotronnika', 'MA-M', 'ntcmekhanotr', NULL, '2023-04-06', 'Pionerstroya str., build 23a Saint-Petersburg Select State RU 198206 ', 'IEEE+Wireshark+Nmap', 'ntc mekhanotronnika', 'current', NULL, NULL),
   ('C8:6B:BC:1', 'WeLink Solutions, Inc.', 'MA-M', 'WeLinkSoluti', NULL, '2023-04-14', '4F., No. 55, Lane 6, Chenglin Rd., Tucheng Dist., New Taipei City Taiwan TW 23677 ', 'IEEE+Wireshark+Nmap', 'WeLink Solutions, Inc.', 'current', NULL, NULL),
   ('BC:31:98:8', 'Temposonics,LLC', 'MA-M', 'Temposonics', 'Industrial', '2023-04-05', '3001 Sheldon Drive Cary NC US 27513', 'IEEE+Wireshark+Nmap', 'Temposonics,LLC', 'current', NULL, NULL),
@@ -45217,7 +45290,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('FC:A4:7A:4', 'HOOC AG', 'MA-M', 'Hooc', 'Industrial', '2019-05-03', 'Torweg 8 Visp VS CH 3930', 'IEEE+Wireshark+Nmap', 'HOOC AG', 'current', NULL, NULL),
   ('D0:5F:64:C', 'Nanjing Huamai Technology Co.,Ltd', 'MA-M', 'NanjingHuama', 'Modem', '2019-05-18', 'No.11 Runfa Road, Dongshan Industry Gathering Zone, Jiangning District Nanjing Jiangsu CN 210000 ', 'IEEE+Wireshark+Nmap', 'Nanjing Huamai Technology Co.,Ltd', 'current', NULL, NULL),
   ('D0:5F:64:4', 'wallbe GmbH', 'MA-M', 'wallbe', 'Smart Home', '2019-05-04', 'Paderborner Straße 76 Schlangen  NRW DE 33189', 'IEEE+Wireshark+Nmap', 'wallbe GmbH', 'current', NULL, NULL),
-  ('D0:5F:64:0', 'DECATHLON SE', 'MA-M', 'Decathlon', 'Wearable', '2019-05-04', '4 Boulevard de Mons Villeneuve d''Ascq Haut de France FR 59650', 'IEEE+Wireshark+Nmap', 'Decathlon SA', 'current', NULL, NULL),
+  ('D0:5F:64:0', 'DECATHLON SE', 'MA-M', 'Decathlon', 'Wearable', '2019-05-04', '4 Boulevard de Mons Villeneuve d''Ascq Haut de France FR 59650', 'IEEE+Wireshark+Nmap', 'Decathlon SA', 'current', NULL, NULL);
+
+-- Batch 91 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('2C:16:BD:6', 'CLOUDWALK TECHNOLOGY CO.,LTD', 'MA-M', 'CloudwalkTec', NULL, '2019-04-19', 'Five Floors of Block 106, West Jinkai Avenue, Yubei District Chongqing Chongqing CN 401120 ', 'IEEE+Wireshark+Nmap', 'CLOUDWALK TECHNOLOGY CO.,LTD', 'current', NULL, NULL),
   ('B4:A2:EB:1', 'DCI International, LLC.', 'MA-M', 'DCIInternati', 'Medical', '2019-04-13', '305 N Springbrook Road Newberg OR US 97132', 'IEEE+Wireshark+Nmap', 'DCI International, LLC.', 'current', NULL, NULL),
   ('B4:A2:EB:6', 'ShenZhen Lark Acoustics Co., Ltd.', 'MA-M', 'LarkAcoustic', 'Audio', '2019-04-13', 'Room 2406, Northwestern Polytechnical University, Gaoxin South Nine Road,Nanshan District Shenzhen Guangdong CN 518000 ', 'IEEE+Wireshark+Nmap', 'ShenZhen Lark Acoustics Co., Ltd.', 'current', NULL, NULL),
@@ -45290,10 +45366,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('38:B1:9E:5', 'Star Electronics GmbH & CoKG', 'MA-M', 'StarElectron', 'Automotive', '2018-11-01', 'Jahnstraße, 86 Göppingen  DE 73037 ', 'IEEE+Wireshark+Nmap', 'Star Electronics GmbH & CoKG', 'current', NULL, NULL),
   ('38:B1:9E:2', 'HDANYWHERE', 'MA-M', 'Hdanywhere', NULL, '2018-11-01', 'Unit 23 Link Business Centre Malvern Worcs GB WR14 1UQ', 'IEEE+Wireshark+Nmap', 'HDANYWHERE', 'current', NULL, NULL),
   ('38:B1:9E:A', 'Aeroespacial Guosheng Technology Co., Ltd', 'MA-M', 'Aeroespacial', NULL, '2018-11-01', '501 Edificio Gaode, No. 10 Huayuan East Road, Haiden DIstrict Beijing CN 100191 ', 'IEEE+Wireshark+Nmap', 'Aeroespacial Guosheng Technology Co., Ltd', 'current', NULL, NULL),
-  ('38:B1:9E:E', 'ShenZhen ShuaiXian Electronic Equipment Co.Ltd', 'MA-M', 'ShuaiXianEle', NULL, '2018-11-02', 'No. 10, Lane 3, Longxing Rd, Dakang Village,HengGang Town ShenZhen Guangdong CN 518115 ', 'IEEE+Wireshark+Nmap', 'ShenZhen ShuaiXian Electronic Equipment Co.Ltd', 'current', NULL, NULL);
-
--- Batch 91 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('38:B1:9E:E', 'ShenZhen ShuaiXian Electronic Equipment Co.Ltd', 'MA-M', 'ShuaiXianEle', NULL, '2018-11-02', 'No. 10, Lane 3, Longxing Rd, Dakang Village,HengGang Town ShenZhen Guangdong CN 518115 ', 'IEEE+Wireshark+Nmap', 'ShenZhen ShuaiXian Electronic Equipment Co.Ltd', 'current', NULL, NULL),
   ('D8:86:0B:C', 'YUSAN INDUSTRIES LIMITED', 'MA-M', 'YusanIndustr', NULL, '2019-07-01', 'UNIT 8-9, 8/F., HONOUR INDUSTRIAL CENTRE, 6 SUN YIP STREET, CHAI WAN HongKong  HK 999077 ', 'IEEE+Wireshark+Nmap', 'YUSAN INDUSTRIES LIMITED', 'current', NULL, NULL),
   ('D8:86:0B:B', 'Library Ideas', 'MA-M', 'LibraryIdeas', 'Tablet', '2018-11-08', 'PO Box 9 Vienna VA US 22183', 'IEEE+Wireshark+Nmap', 'Library Ideas', 'current', NULL, NULL),
   ('D8:86:0B:D', 'ComNav Technology Ltd.', 'MA-M', 'ComNavTechno', NULL, '2018-11-08', 'Buliding 2,No. 618  Chengliu Middle  Road JiaDing District Shanghai CN 201801 ', 'IEEE+Wireshark+Nmap', 'ComNav Technology Ltd.', 'current', NULL, NULL),
@@ -45720,7 +45793,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('74:19:F8:1', 'Trend-tech Technology Co., Limited', 'MA-M', 'TrendtechTec', NULL, '2015-10-16', 'NO. 609, Noble Plaza, Qianjin YiLu Shenzhen Guangdong CN 518101 ', 'IEEE+Wireshark+Nmap', 'Trend-tech Technology Co., Limited', 'current', NULL, NULL),
   ('C8:5C:E2:8', 'LYNX Technik AG', 'MA-M', 'LYNXTechnik', 'Audio', '2023-07-21', 'Brunnenweg 3 Weiterstadt Hessen DE 64331', 'IEEE+Wireshark+Nmap', 'LYNX Technik AG', 'current', NULL, NULL),
   ('C8:5C:E2:2', 'SamabaNova Systems', 'MA-M', 'SamabaNova', 'Server', '2023-07-26', '2100 Geng Rd #103 Palo Alto CA US 94303', 'IEEE+Wireshark+Nmap', 'SamabaNova Systems', 'current', NULL, NULL),
-  ('C8:5C:E2:C', 'Shanghai Gaviota Intelligent Technology Co.,Ltd.', 'MA-M', 'GaviotaIntel', NULL, '2023-07-28', 'Room 1805, No. 1403, Minsheng Road, Pudong New Area, Shanghai Shanghai  CN 200135 ', 'IEEE+Wireshark+Nmap', 'Shanghai Gaviota Intelligent Technology Co.,Ltd.', 'current', NULL, NULL),
+  ('C8:5C:E2:C', 'Shanghai Gaviota Intelligent Technology Co.,Ltd.', 'MA-M', 'GaviotaIntel', NULL, '2023-07-28', 'Room 1805, No. 1403, Minsheng Road, Pudong New Area, Shanghai Shanghai  CN 200135 ', 'IEEE+Wireshark+Nmap', 'Shanghai Gaviota Intelligent Technology Co.,Ltd.', 'current', NULL, NULL);
+
+-- Batch 92 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('4C:EA:41:3', 'YENSHOW TECHNOLOGY CO.,LTD', 'MA-M', 'YenshowTechn', NULL, '2023-08-08', '3F., No. 369, Sec. 2, Zhongshan Rd., Zhonghe Dist., New Taipei City 23558 , Taiwan New Taipei City  TW 23558 ', 'IEEE+Wireshark+Nmap', 'YENSHOW TECHNOLOGY CO.,LTD', 'current', NULL, NULL),
   ('4C:EA:41:0', 'Airflying', 'MA-M', 'Airflying', NULL, '2023-08-01', 'No. 71, Shengli 6th St.,   Zhubei City Hsinchu County TW 302044 ', 'IEEE+Wireshark+Nmap', 'Airflying', 'current', NULL, NULL),
   ('4C:74:A7:C', 'N3com', 'MA-M', 'N3com', 'Switch', '2022-08-13', '18/5 Prospekt Andropova, room 13/9 Moscow  RU 115432 ', 'IEEE+Wireshark+Nmap', 'N3com', 'current', NULL, NULL),
@@ -45793,10 +45869,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('C8:FF:BF:4', 'Beijing Jingyibeifang Instrument Co.,Ltd.', 'MA-M', 'Jingyibeifan', NULL, '2024-03-22', '2 Shengfang Road, Qiangaomidian, Daxing District Beijing Beijing CN 102600 ', 'IEEE+Wireshark+Nmap', 'Beijing Jingyibeifang Instrument Co.,Ltd.', 'current', NULL, NULL),
   ('C8:FF:BF:B', 'PubliBike SA', 'MA-M', 'PubliBike', NULL, '2024-03-29', 'Weltpoststrasse 5 Berne  CH 3015', 'IEEE+Wireshark+Nmap', 'PubliBike SA', 'current', NULL, NULL),
   ('C8:FF:BF:D', 'ALDES DomNexX', 'MA-M', 'ALDESDomNexX', 'Smart Home', '2024-03-27', '84 allée Galilée Montbonnot St Martin  FR 38330', 'IEEE+Wireshark+Nmap', 'ALDES DomNexX', 'current', NULL, NULL),
-  ('10:63:A3:9', 'Nexite', 'MA-M', 'Nexite', 'IoT', '2024-04-02', '126 Yigal Alon st. Tel-Aviv  IL 6744332', 'IEEE+Wireshark+Nmap', 'Nexite', 'current', NULL, NULL);
-
--- Batch 92 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('10:63:A3:9', 'Nexite', 'MA-M', 'Nexite', 'IoT', '2024-04-02', '126 Yigal Alon st. Tel-Aviv  IL 6744332', 'IEEE+Wireshark+Nmap', 'Nexite', 'current', NULL, NULL),
   ('30:49:50:3', 'Morgan Schaffer', 'MA-M', 'MorganSchaff', NULL, '2020-05-02', '8300 rue St-Patrick bureau 150 LaSalle Quebec CA H8N 2H1', 'IEEE+Wireshark+Nmap', 'Morgan Schaffer', 'current', NULL, 'Morgan Schaffer Inc. | Morgan Schaffer'),
   ('5C:87:D8:4', 'TELFI TECHNOLOGIES PRIVATE LIMITED', 'MA-M', 'TelfiTechnol', NULL, '2024-04-10', 'TELFI TECHNOLOGIES PRIVATE LIMITED1/301,2nd floor, Palkalai Nagar avenue, Palavakkam CHENNAI TAMILNADU IN 600041 ', 'IEEE+Wireshark+Nmap', 'TELFI TECHNOLOGIES PRIVATE LIMITED', 'current', NULL, NULL),
   ('10:63:A3:1', 'Jacobs Technology, Inc.', 'MA-M', 'JacobsTechno', NULL, '2024-04-05', '7765 Old Telegraph Road Severn MD US 21144', 'IEEE+Wireshark+Nmap', 'Jacobs Technology, Inc.', 'current', NULL, NULL),
@@ -46093,7 +46166,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('5C:AB:22:5', 'Cyngrox Private Limited', 'MA-M', 'CyngroxPriva', NULL, '2026-10-27', '1st Floor, F-312, Sector-63 Noida Uttar Pradesh IN 201301 ', 'IEEE+Wireshark', 'Cyngrox Private Limited', 'current', NULL, NULL),
   ('80:A5:79:A', 'ViewSonic Corp.', 'MA-M', 'ViewSonic', 'TV', '2024-01-19', '10 Point Drive Brea LA CA US 92821', 'IEEE+Wireshark+Nmap', 'ViewSonic Corp', 'current', NULL, NULL),
   ('B8:F4:53:9', 'PA Technology Solutions Ltd', 'MA-M', 'PATechnology', NULL, '2026-10-31', 'Global Innovation And Technology CentreBack Lane Melbourn Hertfordshire GB SG86DP', 'IEEE+Wireshark', 'PA Technology Solutions Ltd', 'current', NULL, NULL),
+  ('04:7B:43:E', 'SDT Inc.', 'MA-M', 'SDT', NULL, '2026-11-12', '10F, 5, Teheran-ro 44-gil, Gangnam-gu, Seoul, Republic of Korea 06211  Seoul Gangnam-gu KR 06211 ', 'IEEE+Wireshark', 'SDT Inc.', 'current', NULL, NULL),
   ('04:7B:43:B', 'ACADEMY FOR FUTURE HEALTH LTD', 'MA-M', 'AcademyForFu', NULL, '2026-11-06', 'Eastcastle House, 27/28 Eastcastle Street London  GB W1W 8DH ', 'IEEE+Wireshark', 'ACADEMY FOR FUTURE HEALTH LTD', 'current', NULL, NULL),
+  ('5C:6C:BB:5', 'LVT', 'MA-M', 'Lvt', NULL, '2026-11-14', '802 E 1050 S Suite 300 American Fork UT US 84003', 'IEEE+Wireshark', 'LVT', 'current', NULL, NULL),
+  ('5C:6C:BB:C', 'Swegon ILTO Oy', 'MA-M', NULL, NULL, '2026-11-19', 'Asessorinkatu 10 Kaarina Varsinais-Suomi FI 20780', 'IEEE', 'Swegon ILTO Oy', 'current', NULL, NULL),
   ('C8:5C:E2:0', 'Fela Management AG', 'MA-M', 'FelaManageme', NULL, '2023-07-20', 'Basadingerstrasse 18 Diessenhofen  CH 8253', 'IEEE+Wireshark+Nmap', 'Fela Management AG', 'current', NULL, NULL),
   ('B8:4C:87:E', 'Private (undisclosed IEEE registrant)', 'MA-M', 'Private', NULL, '2023-07-20', '', 'IEEE+Wireshark+Nmap', 'Private', 'current', NULL, NULL),
   ('B8:4C:87:1', 'em-trak', 'MA-M', 'emtrak', 'Automotive', '2023-07-07', 'wireless house, westfield industrial estate Midsomer Norton Bath Somerset GB BA3 4BS ', 'IEEE+Wireshark+Nmap', 'em-trak', 'current', NULL, NULL),
@@ -46220,7 +46296,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('D4:20:00:6', 'HiAR Information Technology Co.,Ltd', 'MA-M', 'HiARInformat', 'Wearable', '2022-07-02', 'Room 501, no.570, Shengxia Road, Pudong  New Area, Shanghai  CN 200120 ', 'IEEE+Wireshark+Nmap', 'HiAR Information Technology Co.,Ltd', 'current', NULL, NULL),
   ('C4:83:72:1', 'Shenzhen King Will Technology Co., LTD', 'MA-M', 'KingWillTech', NULL, '2022-07-13', 'Room 202-207, Building A7, Tianliao Industrial Zone, Xueyuan Avenue, Taoyuan Street, Nanshan District Shenzhen Guangdong CN 518071 ', 'IEEE+Wireshark+Nmap', 'Shenzhen King Will Technology Co., LTD', 'current', NULL, NULL),
   ('C4:83:72:0', 'Compumedics Germany GmbH', 'MA-M', 'CompumedicsG', 'Medical', '2022-07-08', 'Josef-Schüttler-Straße 2 Singen  DE 78224', 'IEEE+Wireshark+Nmap', 'Compumedics Germany GmbH', 'current', NULL, NULL),
-  ('D4:20:00:3', 'Arbe Robotics Ltd.', 'MA-M', 'ArbeRobotics', 'Camera', '2022-06-30', '107, Hashmonaim st. Tel Aviv  IL 6713321 ', 'IEEE+Wireshark+Nmap', 'Arbe Robotics Ltd.', 'current', NULL, NULL),
+  ('D4:20:00:3', 'Arbe Robotics Ltd.', 'MA-M', 'ArbeRobotics', 'Camera', '2022-06-30', '107, Hashmonaim st. Tel Aviv  IL 6713321 ', 'IEEE+Wireshark+Nmap', 'Arbe Robotics Ltd.', 'current', NULL, NULL);
+
+-- Batch 93 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('C4:83:72:A', 'VIE STYLE,INC,', 'MA-M', 'VieStyle', NULL, '2022-07-09', '5-10-14 Zaimokuza Kamakura KN JP 2480013', 'IEEE+Wireshark+Nmap', 'VIE STYLE,INC', 'current', NULL, NULL),
   ('58:47:CA:3', 'Fujian Helios Technologies Co., Ltd.', 'MA-M', 'FujianHelios', NULL, '2023-03-11', '4/F, Helios Building, No. 12 Xiangyue Road, Xiangan District,  Xiamen Fujian CN 361100 ', 'IEEE+Wireshark+Nmap', 'Fujian Helios Technologies Co., Ltd.', 'current', NULL, NULL),
   ('58:47:CA:9', 'Kingnuo Intelligent Technology (Jiaxing) Co., Ltd.', 'MA-M', 'KingnuoIntel', NULL, '2022-06-22', 'ROOM.1202,Yongyue Building, YOUCHEGANG TOWN?XIUZHOU DISTRICT Jiaxing Zhejiang CN 314000 ', 'IEEE+Wireshark+Nmap', 'Kingnuo Intelligent Technology (Jiaxing) Co., Ltd.', 'current', NULL, NULL),
@@ -46296,10 +46375,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('04:EE:E8:A', 'Shenzhen JoiningFree Technology Co.,Ltd', 'MA-M', 'JoiningFreeT', NULL, '2021-11-03', '16F, Block C, Qifengda Building, Taohuayuan Science and Technology Innovation Park, Furong Road, Songgang Street, Baoan District, Shenzhen Guangdong CN 518110 ', 'IEEE+Wireshark+Nmap', 'Shenzhen JoiningFree Technology Co.,Ltd', 'current', NULL, NULL),
   ('18:D7:93:7', 'JFA Electronics Industry and Commerce EIRELI', 'MA-M', 'JFAElectroni', NULL, '2021-11-18', 'Rua Flor das Pedras, 175 Belo Horizonte Minas Gerais BR 30810-000 ', 'IEEE+Wireshark+Nmap', 'JFA Electronics Industry and Commerce EIRELI', 'current', NULL, NULL),
   ('04:EE:E8:8', 'MPEON Co.,Ltd', 'MA-M', 'MPEON', NULL, '2021-11-07', '#927, Gyeonggi business Growh Center, Pangyo 2nd TechnoValley, 42, Changeop-ro, Sujeong-gu Seongnam-si Gyeonggi-do KP 13449 ', 'IEEE+Wireshark+Nmap', 'MPEON Co.,Ltd', 'current', NULL, NULL),
-  ('DC:36:43:C', 'Orlaco Products B.V.', 'MA-M', 'OrlacoProduc', NULL, '2021-11-19', 'Albert Plesmanstraat 42 Barneveld  NL 3772MN', 'IEEE+Wireshark+Nmap', 'Orlaco Products B.V.', 'current', NULL, NULL);
-
--- Batch 93 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('DC:36:43:C', 'Orlaco Products B.V.', 'MA-M', 'OrlacoProduc', NULL, '2021-11-19', 'Albert Plesmanstraat 42 Barneveld  NL 3772MN', 'IEEE+Wireshark+Nmap', 'Orlaco Products B.V.', 'current', NULL, NULL),
   ('18:D7:93:5', 'DongGuan Orient Electronics & Metal Co.,Ltd', 'MA-M', 'DongGuanOrie', NULL, '2021-11-13', 'A2 Building, ZhiGu Science and Technology Park, Gekeng industrial park, HengLi Town,  China DongGuan GuangDong, CN 523468 ', 'IEEE+Wireshark+Nmap', 'DongGuan Orient Electronics & Metal Co.,Ltd', 'current', NULL, NULL),
   ('18:D7:93:2', 'Hydrotechnik GmbH', 'MA-M', 'Hydrotechnik', 'Industrial', '2021-11-17', 'Holzheimer Strasse  94-96 Limburg  DE 65549', 'IEEE+Wireshark+Nmap', 'Hydrotechnik GmbH', 'current', NULL, NULL),
   ('08:F8:0D:8', 'OpenYard LLC', 'MA-M', 'OpenYard', NULL, '2021-10-07', '82, Sadovnicheskaya str., Building 2, Office 3F07 Moscow  RU 115035 ', 'IEEE+Wireshark+Nmap', 'OpenYard LLC', 'current', NULL, NULL),
@@ -46723,7 +46799,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1C:DA:3', 'Structura Technology & Innovation', 'MA-M', 'StructuraTec', NULL, '2018-02-04', 'via Roveredo 20/B Pordenone PN IT 33170', 'IEEE+Wireshark+Nmap', 'Structura Technology & Innovation', 'current', NULL, NULL),
   ('8C:1C:DA:B', 'T+A elektroakustik GmbH & Co.KG', 'MA-M', 'TAelektroaku', 'Audio', '2018-02-04', 'Planckstr. 9-11 Herford  DE 32052', 'IEEE+Wireshark+Nmap', 'T+A elektroakustik GmbH & Co.KG', 'current', NULL, NULL),
   ('48:0B:B2:1', 'BAJA ELECTRONICS TECHNOLOGY LIMITED', 'MA-M', 'BajaElectron', NULL, '2018-01-14', '403, Unit 3, Building 3, Zhongdian Hi-Tech Park, No.1 Kejiqi Rd. Zhuhai Guangdong CN 519080 ', 'IEEE+Wireshark+Nmap', 'BAJA ELECTRONICS TECHNOLOGY LIMITED', 'current', NULL, NULL),
-  ('48:0B:B2:D', 'M2Lab Ltd.', 'MA-M', 'M2Lab', NULL, '2018-01-14', '148 Des Voeux Rd Central Hong Kong  HK HK', 'IEEE+Wireshark+Nmap', 'M2Lab Ltd.', 'current', NULL, NULL),
+  ('48:0B:B2:D', 'M2Lab Ltd.', 'MA-M', 'M2Lab', NULL, '2018-01-14', '148 Des Voeux Rd Central Hong Kong  HK HK', 'IEEE+Wireshark+Nmap', 'M2Lab Ltd.', 'current', NULL, NULL);
+
+-- Batch 94 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('48:0B:B2:0', 'Ridango AS', 'MA-M', 'RidangoAS', 'Industrial', '2018-01-14', 'Pärnu maantee 139E/13 Tallinn Harjumaa EE 11317', 'IEEE+Wireshark+Nmap', 'Ridango AS', 'current', NULL, NULL),
   ('0C:73:EB:5', 'Husty M.Styczen J.Hupert Sp.J.', 'MA-M', 'HustyMStycze', 'Appliance', '2018-01-21', 'Rzepakowa 5e Krakow malopolska PL 31-989', 'IEEE+Wireshark+Nmap', 'Husty M.Styczen J.Hupert Sp.J.', 'current', NULL, NULL),
   ('0C:73:EB:0', 'Gemini Data Loggers (UK) Limited', 'MA-M', 'GeminiDataLo', 'IoT', '2018-01-14', 'Scientific House, Terminus Road Chichester West Sussex GB PO19 8UJ ', 'IEEE+Wireshark+Nmap', 'Gemini Data Loggers (UK) Limited', 'current', NULL, NULL),
@@ -46799,10 +46878,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('F8:8A:3C:C', 'EXCETOP TECHNOLOGY (BEIJING) CO., LTD.', 'MA-M', 'ExcetopTechn', NULL, '2017-03-26', 'A03, 9th Floor, Horizon International Tower, No.6, Zhichun Road, Haidian District Beijing  CN 100191 ', 'IEEE+Wireshark+Nmap', 'EXCETOP TECHNOLOGY (BEIJING) CO., LTD.', 'current', NULL, NULL),
   ('7C:BA:CC:0', 'TGT Limited', 'MA-M', 'TGT', NULL, '2017-04-02', 'Flat/Rm 1003 10/F, Witty Commercial Building, 1A-1L Tung Choi Street, Hong Kong  HongKong  HK 529060 ', 'IEEE+Wireshark+Nmap', 'TGT Limited', 'current', NULL, NULL),
   ('F8:8A:3C:9', 'withus', 'MA-M', 'withus', NULL, '2017-04-02', 'Rua Dr. Mario Sacramento Ed. Colombo II N22 Aveiro  PT 3810-106', 'IEEE+Wireshark+Nmap', 'withus', 'current', NULL, NULL),
-  ('F8:8A:3C:D', 'THK Co.,LTD.', 'MA-M', 'THK', 'Industrial', '2017-04-02', '4-9-16 Higashikoujiya Ota Tokyo JP 1440033', 'IEEE+Wireshark+Nmap', 'THK Co.,LTD.', 'current', NULL, NULL);
-
--- Batch 94 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('F8:8A:3C:D', 'THK Co.,LTD.', 'MA-M', 'THK', 'Industrial', '2017-04-02', '4-9-16 Higashikoujiya Ota Tokyo JP 1440033', 'IEEE+Wireshark+Nmap', 'THK Co.,LTD.', 'current', NULL, NULL),
   ('A0:C5:F2:5', 'Spacepath Communications Ltd', 'MA-M', 'SpacepathCom', 'Modem', '2017-03-05', 'Unit 4, Bartley Point, Osborn Way Hook, Hampshire  GB RG27 9GX ', 'IEEE+Wireshark+Nmap', 'Spacepath Communications Ltd', 'current', NULL, 'Tango Wave | Spacepath Communications Ltd'),
   ('A0:C5:F2:3', 'Shenzhen Feima Robotics Technology Co.,Ltd', 'MA-M', 'FeimaRobotic', 'IoT', '2017-03-12', '1/f,16 ,Zhiheng Industrial Park, Nantou Second Road, Nantou Street, Nanshan District Shenzhen Guangdong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Shenzhen Feima Robotics Technology Co.,Ltd', 'current', NULL, NULL),
   ('4C:65:A8:D', 'Qingping Technology (Beijing) Co., Ltd.', 'MA-M', 'QingpingTech', 'Smart Home', '2017-03-26', 'Room 401, Block B, Fangheng Times Square, No. 10 Wangjing Street, Chaoyang District Beijing  CN 100102 ', 'IEEE+Wireshark+Nmap', 'Qingping Technology (Beijing) Co., Ltd.', 'current', NULL, NULL),
@@ -47226,7 +47302,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('90:88:A9:0', 'shenzhen zovoton electronic co.,ltd', 'MA-M', 'zovotonelect', NULL, '2024-11-21', '1F 4 Blok, jinrui zhonghe industrial park, huarong road, tongsheng community, dalang street, longhua district, Shenzhen city, Guangdong province, china shenzhen guangdong CN 518100 ', 'IEEE+Wireshark+Nmap', 'shenzhen zovoton electronic co.,ltd', 'current', NULL, NULL),
   ('EC:74:CD:C', 'Smart Data (Shenzhen) Intelligent System Co., Ltd.', 'MA-M', 'SmartDataInt', NULL, '2024-11-19', 'Unit 201-26, Luohu Business Center, No. 2028 Shennan East Road, Chengdong Community, Dongmen Street, Luohu District, Shenzhen Shenzhen  CN 518001 ', 'IEEE+Wireshark+Nmap', 'Smart Data (Shenzhen) Intelligent System Co., Ltd.', 'current', NULL, NULL),
   ('90:88:A9:D', 'REMOWIRELESS COMMUNICATION INTERNATIONAL CO.,LIMITED', 'MA-M', 'Remowireless', NULL, '2024-11-22', 'RM1202,12/F,TUNG CHUN COMM CTR 438-444 SHANGHAI ST KL HONG KONG HONG KONG HK 999077 ', 'IEEE+Wireshark+Nmap', 'REMOWIRELESS COMMUNICATION INTERNATIONAL CO.,LIMITED', 'current', NULL, NULL),
-  ('90:88:A9:C', 'Rikom Technologies Sdn Bhd', 'MA-M', 'RikomTechnol', NULL, '2024-11-26', 'Level 15, Dpulze Cyberjaya, Lingkaran, Cyber Point Timur, 63000 Selangor Malaysia Cyber Point Timur Selangor MY 630000 ', 'IEEE+Wireshark+Nmap', 'Rikom Technologies Sdn Bhd', 'current', NULL, NULL),
+  ('90:88:A9:C', 'Rikom Technologies Sdn Bhd', 'MA-M', 'RikomTechnol', NULL, '2024-11-26', 'Level 15, Dpulze Cyberjaya, Lingkaran, Cyber Point Timur, 63000 Selangor Malaysia Cyber Point Timur Selangor MY 630000 ', 'IEEE+Wireshark+Nmap', 'Rikom Technologies Sdn Bhd', 'current', NULL, NULL);
+
+-- Batch 95 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('90:88:A9:8', 'Samway Electronic SRL', 'MA-M', 'SamwayElectr', NULL, '2024-11-23', 'Str Maltopol nr 16 Bucharest  RO 011048', 'IEEE+Wireshark+Nmap', 'Samway Electronic SRL', 'current', NULL, NULL),
   ('A4:59:D3:0', 'VTECH Technology Corportion', 'MA-M', 'VTECHTechnol', NULL, '2024-12-12', '6F-8, No.27, Sec. 3, Zhongshan N. Rd., TAIPEI TAIWAN TW 104 ', 'IEEE+Wireshark+Nmap', 'VTECH Technology Corportion', 'current', NULL, NULL),
   ('D0:AA:5F:E', 'MBX International Ltd.', 'MA-M', 'MBXInternati', NULL, '2024-12-10', 'RM 506A 5F HARBOUR CRYSTAL CENTRE,100 GRANVILLE ROAD TSIM SHA TSUI Hongkong  HK XXXXX ', 'IEEE+Wireshark+Nmap', 'MBX International Ltd.', 'current', NULL, NULL),
@@ -47302,10 +47381,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('78:13:05:9', 'Shanghai Kanghai Information System CO.,LTD.', 'MA-M', 'KanghaiInfor', NULL, '2021-04-22', '9th FIoor, Building 9, No.1 Qingxiang road, BaoNeng Science and TechnoIogy Industrial Park, Longhua New District ShenZhen GuangDong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Shanghai Kanghai Information System CO.,LTD.', 'current', NULL, 'Shenzhen C & D Electronics Co., Ltd. | Shanghai Kanghai Information System CO.,LTD.'),
   ('58:47:CA:6', 'Shanghai Kanghai Information System CO.,LTD.', 'MA-M', 'KanghaiInfor', NULL, '2022-06-22', '9th FIoor, Building 9, No.1 Qingxiang road, BaoNeng Science and TechnoIogy Industrial Park, Longhua New District ShenZhen GuangDong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Shanghai Kanghai Information System CO.,LTD.', 'current', NULL, 'Shenzhen C & D Electronics Co., Ltd. | Shanghai Kanghai Information System CO.,LTD.'),
   ('DC:76:C3:3', 'Shanghai Kanghai Information System CO.,LTD.', 'MA-M', 'KanghaiInfor', NULL, '2025-04-19', '9th FIoor, Building 9, No.1 Qingxiang road, BaoNeng Science and TechnoIogy Industrial Park, Longhua New District ShenZhen GuangDong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Shanghai Kanghai Information System CO.,LTD.', 'current', NULL, 'Shenzhen C & D Electronics Co., Ltd. | Shanghai Kanghai Information System CO.,LTD.'),
-  ('E0:23:3B:B', 'Shanghai Kanghai Information System CO.,LTD.', 'MA-M', 'KanghaiInfor', NULL, '2025-08-11', '9th FIoor, Building 9, No.1 Qingxiang road, BaoNeng Science and TechnoIogy Industrial Park, Longhua New District ShenZhen GuangDong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Shanghai Kanghai Information System CO.,LTD.', 'current', NULL, 'Shenzhen C & D Electronics Co., Ltd. | Shanghai Kanghai Information System CO.,LTD.');
-
--- Batch 95 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('E0:23:3B:B', 'Shanghai Kanghai Information System CO.,LTD.', 'MA-M', 'KanghaiInfor', NULL, '2025-08-11', '9th FIoor, Building 9, No.1 Qingxiang road, BaoNeng Science and TechnoIogy Industrial Park, Longhua New District ShenZhen GuangDong CN 518000 ', 'IEEE+Wireshark+Nmap', 'Shanghai Kanghai Information System CO.,LTD.', 'current', NULL, 'Shenzhen C & D Electronics Co., Ltd. | Shanghai Kanghai Information System CO.,LTD.'),
   ('24:A1:0D:5', 'Avantel Limited', 'MA-M', 'Avantel', 'Modem', '2025-09-10', 'Plot No. S-119M, E-CITY Maheshwaram Mandal,  Raviryal, Rangareddy  HYDERABAD  Telangana IN 501510 ', 'IEEE+Wireshark+Nmap', 'Avantel Limited', 'current', NULL, NULL),
   ('24:A1:0D:3', 'Rhymebus corporation', 'MA-M', 'Rhymebus', NULL, '2025-09-15', 'No. 17, 33rd Road, Taichung Industrial Park Taichung  TW 40768 ', 'IEEE+Wireshark+Nmap', 'Rhymebus corporation', 'current', NULL, NULL),
   ('24:A1:0D:4', 'Dongguan Taijie Electronics Technology Co.,Ltd', 'MA-M', 'DongguanTaij', NULL, '2025-09-16', '5F, 6# Building, Sanjia Industrial Park, Dongkeng Town Dongguan Guangdong CN 523000 ', 'IEEE+Wireshark+Nmap', 'Dongguan Taijie Electronics Technology Co.,Ltd', 'current', NULL, NULL),
@@ -47456,7 +47532,8 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('04:7B:43:5', 'Shenzhen XJ-Micro Technology Co., Ltd.', 'MA-M', 'XJMicroTechn', NULL, '2026-11-06', 'Room 902,9th Floor, Tower A, Hongji Hanlin Building, Nanshan District, Shenzhen, Guangdong Province Shenzhen Guangdong CN 518055 ', 'IEEE+Wireshark', 'Shenzhen XJ-Micro Technology Co., Ltd.', 'current', NULL, NULL),
   ('04:7B:43:C', 'RR Technologies GmbH', 'MA-M', 'RRTechnologi', NULL, '2026-11-06', 'Mühlenstraße 15 Berlin Berlin DE 10243', 'IEEE+Wireshark', 'RR Technologies GmbH', 'current', NULL, NULL),
   ('B8:F4:53:C', 'Wavin T&I', 'MA-M', 'WavinT&I', NULL, '2026-11-03', 'Rollepaal 20 Dedemsvaart  NL 7701BS', 'IEEE+Wireshark', 'Wavin T&I', 'current', NULL, NULL),
-  ('04:7B:43:7', 'ICsec S.A.', 'MA-M', NULL, 'Router', '2026-11-11', 'Wichrowa 1A Poznan  PL 60-446', 'IEEE', 'ICsec S.A.', 'current', NULL, NULL),
+  ('04:7B:43:7', 'ICsec S.A.', 'MA-M', 'ICsec', 'Router', '2026-11-11', 'Wichrowa 1A Poznan  PL 60-446', 'IEEE+Wireshark', 'ICsec S.A.', 'current', NULL, NULL),
+  ('5C:6C:BB:B', 'BackburnerLabs', 'MA-M', NULL, NULL, '2026-11-19', '2327 WYCLIFF ST, STE 330 SAINT PAUL MN US 55114 ', 'IEEE', 'BackburnerLabs', 'current', NULL, NULL),
   ('8C:1F:64:AF:A', 'DATA ELECTRONIC DEVICES, INC', 'MA-S', 'DataElectron', NULL, '2023-07-18', '32 NORTHWESTERN DR SALEM NH US 03079', 'IEEE+Wireshark+Nmap', 'DATA ELECTRONIC DEVICES, INC', 'current', NULL, NULL),
   ('8C:1F:64:9B:9', 'QUERCUS TECHNOLOGIES, S.L.', 'MA-S', 'QuercusTechn', 'Industrial', '2023-07-20', 'Av. Onze de Setembre 19 Reus Tarragona ES 43203', 'IEEE+Wireshark+Nmap', 'QUERCUS TECHNOLOGIES, S.L.', 'current', NULL, NULL),
   ('8C:1F:64:D0:F', 'Mecco LLC', 'MA-S', 'Mecco', 'Industrial', '2023-07-20', '290 Executive Drive Cranberry Township PA US 16066', 'IEEE+Wireshark+Nmap', 'Mecco LLC', 'current', NULL, NULL),
@@ -47728,7 +47805,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:4E:6', 'Santa Barbara Imaging Systems', 'MA-S', 'SantaBarbara', NULL, '2021-03-06', '340 Storke Road, Suite 101 Goleta CA US 93117 ', 'IEEE+Wireshark+Nmap', 'Santa Barbara Imaging Systems', 'current', NULL, NULL),
   ('70:B3:D5:20:B', 'KST technology', 'MA-S', 'KSTtechnolog', NULL, '2021-02-25', 'KST B/D 4-5, Wiryeseong-daero 12-gil Songpa-gu Seoul KR 05636 ', 'IEEE+Wireshark+Nmap', 'KST technology', 'current', NULL, NULL),
   ('70:B3:D5:BA:0', 'Season Electronics Ltd', 'MA-S', 'SeasonElectr', NULL, '2021-02-26', '600 Nest Business Park  Havant Hampshire GB PO9 5TL', 'IEEE+Wireshark+Nmap', 'Season Electronics Ltd', 'current', NULL, NULL),
-  ('70:B3:D5:D1:3', 'IRT Technologies', 'MA-S', 'IRTTechnolog', 'Modem', '2021-02-25', '5580 BOULEVARD THIMENS Saint-Laurent Quebec CA H4R 2K9', 'IEEE+Wireshark+Nmap', 'IRT Technologies', 'current', NULL, NULL),
+  ('70:B3:D5:D1:3', 'IRT Technologies', 'MA-S', 'IRTTechnolog', 'Modem', '2021-02-25', '5580 BOULEVARD THIMENS Saint-Laurent Quebec CA H4R 2K9', 'IEEE+Wireshark+Nmap', 'IRT Technologies', 'current', NULL, NULL);
+
+-- Batch 96 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('70:B3:D5:EC:0', 'ProtoConvert Pty Ltd', 'MA-S', 'ProtoConvert', 'Industrial', '2021-03-04', '2 Clyden Court Burwood East Victoria AU 3151', 'IEEE+Wireshark+Nmap', 'ProtoConvert Pty Ltd', 'current', NULL, NULL),
   ('70:B3:D5:8D:6', 'Beijing Xiansheng Technology Co., Ltd', 'MA-S', 'XianshengTec', NULL, '2021-02-21', 'Room 02, 102-1 / F, building 32, yard 69, Yanfu Road, Fangshan District Beijing Beijing CN 102488 ', 'IEEE+Wireshark+Nmap', 'Beijing Xiansheng Technology Co., Ltd', 'current', NULL, NULL),
   ('70:B3:D5:73:6', 'Jabil', 'MA-S', 'Jabil', NULL, '2020-04-15', '888 Executive Center Dr. W. St.Petersubrg FL US 33702', 'IEEE+Wireshark+Nmap', 'Jabil', 'current', NULL, 'Jabil, Inc. | Jabil'),
@@ -47805,10 +47885,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:7B:1', 'Panamera', 'MA-S', 'Panamera', NULL, '2020-08-19', 'Rua. Dr. Brasilio Vicente de Castro, 111 Critiba Parana BR 81200-526 ', 'IEEE+Wireshark+Nmap', 'Panamera', 'current', NULL, NULL),
   ('70:B3:D5:55:2', 'ALTIT.CO.,Ltd.', 'MA-S', 'ALTIT', NULL, '2020-08-16', 'Gasan Digital 1 ro 88, 1905 Seoul Korea KR 08590 ', 'IEEE+Wireshark+Nmap', 'ALTIT.CO.,Ltd.', 'current', NULL, NULL),
   ('70:B3:D5:A1:A', 'Nueon - The COR', 'MA-S', 'NueonCOR', NULL, '2020-07-18', '101 Jefferson Drive Menlo Park  US 94025', 'IEEE+Wireshark+Nmap', 'Nueon - The COR', 'current', NULL, 'Nueon Inc. | Nueon - The COR'),
-  ('70:B3:D5:3F:D', 'NaraControls Inc', 'MA-S', 'NaraControls', 'Industrial', '2020-07-17', 'youngdong daero Seoul  KR 06072', 'IEEE+Wireshark+Nmap', 'NaraControls Inc', 'current', NULL, NULL);
-
--- Batch 96 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('70:B3:D5:3F:D', 'NaraControls Inc', 'MA-S', 'NaraControls', 'Industrial', '2020-07-17', 'youngdong daero Seoul  KR 06072', 'IEEE+Wireshark+Nmap', 'NaraControls Inc', 'current', NULL, NULL),
   ('70:B3:D5:85:6', 'Shanghai Westwell Information and Technology Company Ltd', 'MA-S', 'WestwellInfo', 'Industrial', '2020-07-17', 'No.102,Lixi Road.ChangNing district Shanghai Shanghai CN 200050 ', 'IEEE+Wireshark+Nmap', 'Shanghai Westwell Information and Technology Company Ltd', 'current', NULL, NULL),
   ('70:B3:D5:93:F', 'Vision Sensing Co., Ltd.', 'MA-S', 'VisionSensin', NULL, '2020-07-21', 'Yorikimachi park bld.5F, Yorikimachi1-5, Kita-ku Osaka Osaka JP 530-0036 ', 'IEEE+Wireshark+Nmap', 'Vision Sensing Co., Ltd.', 'current', NULL, NULL),
   ('70:B3:D5:99:D', 'Opsys-Tech', 'MA-S', 'OpsysTech', 'Automotive', '2020-07-23', '26 Harokmim st Holon  IL 5885849', 'IEEE+Wireshark+Nmap', 'Opsys-Tech', 'current', NULL, NULL),
@@ -48231,7 +48308,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:D9:A', 'Wuhan Xingtuxinke ELectronic Co.,Ltd', 'MA-S', 'XingtuxinkeE', NULL, '2016-10-02', 'NO.C3-8F,Software Park,Optics Valley,East Lake Development Zone,Wuhan,Hubei,China Wuhan Hubei CN 430074 ', 'IEEE+Wireshark+Nmap', 'Wuhan Xingtuxinke ELectronic Co.,Ltd', 'current', NULL, NULL),
   ('70:B3:D5:6B:0', 'PTYPE Co., LTD.', 'MA-S', 'PTYPE', NULL, '2016-10-02', 'B121, B-dong, Keumkang Penterium IT Tower, 810, Gwanyand 2-dong, Dongan-gu Anyang-si Gyeonggi-do KR 14056 ', 'IEEE+Wireshark+Nmap', 'PTYPE Co., LTD.', 'current', NULL, NULL),
   ('70:B3:D5:5F:4', 'FDSTiming', 'MA-S', 'FDSTiming', 'Wearable', '2016-09-25', 'Rue du Nord 123 la Chaux-de-Fonds  CH 2300', 'IEEE+Wireshark+Nmap', 'FDSTiming', 'current', NULL, NULL),
-  ('70:B3:D5:D3:2', 'Euklis by GSG International', 'MA-S', 'EuklisbyGSGI', NULL, '2016-09-25', 'via Colombo 23 Trezzano sul Naviglio MI IT 20090', 'IEEE+Wireshark+Nmap', 'Euklis by GSG International', 'current', NULL, NULL),
+  ('70:B3:D5:D3:2', 'Euklis by GSG International', 'MA-S', 'EuklisbyGSGI', NULL, '2016-09-25', 'via Colombo 23 Trezzano sul Naviglio MI IT 20090', 'IEEE+Wireshark+Nmap', 'Euklis by GSG International', 'current', NULL, NULL);
+
+-- Batch 97 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('70:B3:D5:9C:7', 'YUYAMA MFG Co.,Ltd', 'MA-S', 'YUYAMAMFG', 'Medical', '2016-10-02', '3-3-1 TOYONAKASHI OSAKA JP 561-0841', 'IEEE+Wireshark+Nmap', 'YUYAMA MFG Co.,Ltd', 'current', NULL, NULL),
   ('70:B3:D5:B5:3', 'Revolution Retail Systems', 'MA-S', 'RevolutionRe', NULL, '2016-10-02', '1840 Hutton Drive Ste 130 Carrollton TX US 75006', 'IEEE+Wireshark+Nmap', 'Revolution Retail Systems, LLC', 'current', NULL, NULL),
   ('70:B3:D5:63:C', 'Pivothead', 'MA-S', 'Pivothead', 'Wearable', '2016-10-02', '1224 Speer Blvd.  Denver CO US 80204', 'IEEE+Wireshark+Nmap', 'Pivothead', 'current', NULL, NULL),
@@ -48308,10 +48388,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:35:A', 'Applied Radar, Inc.', 'MA-S', 'AppliedRadar', 'Camera', '2016-03-06', '315 Commerce Park Road Unit 3 North Kingstown RI US 02886', 'IEEE+Wireshark+Nmap', 'Applied Radar, Inc.', 'current', NULL, NULL),
   ('70:B3:D5:B8:1', 'Instro Precision Limited', 'MA-S', 'InstroPrecis', 'Industrial', '2016-02-21', '15 Hornet Close, Pysons Road Industrial Estate Broadstairs Kent GB CT10 2YD ', 'IEEE+Wireshark+Nmap', 'Instro Precision Limited', 'current', NULL, NULL),
   ('70:B3:D5:9E:0', 'ES Industrial Systems Co., Ltd.', 'MA-S', 'ESIndustrial', NULL, '2016-02-21', 'B-dong, 12, Baekseokgongdan 3-gil, Seobuk-gu, Cheonan-si, Chungcheongnam-do Cheonan-si Chungcheongnam-do KR 31094 ', 'IEEE+Wireshark+Nmap', 'ES Industrial Systems Co., Ltd.', 'current', NULL, NULL),
-  ('70:B3:D5:D6:5', 'CRDE', 'MA-S', 'Crde', 'Industrial', '2016-02-21', 'ZI DES GRANDS CAMPS MERCUES LOT FR 46090', 'IEEE+Wireshark+Nmap', 'CRDE', 'current', NULL, NULL);
-
--- Batch 97 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('70:B3:D5:D6:5', 'CRDE', 'MA-S', 'Crde', 'Industrial', '2016-02-21', 'ZI DES GRANDS CAMPS MERCUES LOT FR 46090', 'IEEE+Wireshark+Nmap', 'CRDE', 'current', NULL, NULL),
   ('70:B3:D5:1A:B', 'Access Control Systems JSC', 'MA-S', 'AccessContro', NULL, '2016-02-21', 'Bogatyrsky av. 18/1 office 505 Sankt-Peterburg  RU 197348', 'IEEE+Wireshark+Nmap', 'Access Control Systems JSC', 'current', NULL, NULL),
   ('70:B3:D5:6B:F', 'Otto Bihler Maschinenfabrik GmbH & Co. KG', 'MA-S', 'OttoBihlerMa', 'Industrial', '2016-02-21', 'Lechbrucker Str. 15 Halblech  DE 87642', 'IEEE+Wireshark+Nmap', 'Otto Bihler Maschinenfabrik GmbH & Co. KG', 'current', NULL, NULL),
   ('70:B3:D5:A6:6', 'Trapeze Software Group Inc', 'MA-S', 'TrapezeSoftw', 'Automotive', '2016-02-21', '5265 Rockwell Dr NE Cedar Rapids IA US 52402', 'IEEE+Wireshark+Nmap', 'Trapeze Software Group Inc', 'current', NULL, NULL),
@@ -48734,7 +48811,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1F:64:5B:6', 'ShenZhen melevet medical Inc.,Ltd.', 'MA-S', 'melevetmedic', 'Medical', '2025-04-02', '广东省深圳市宝安区西乡街道臣田社区宝田工业区宝田四路宝树科技工业园502 ShenZhen GuangDong CN 518101', 'IEEE+Wireshark+Nmap', 'ShenZhen melevet medical Inc.,Ltd.', 'current', NULL, NULL),
   ('8C:1F:64:6D:2', 'VectorNav Technologies', 'MA-S', 'VectorNavTec', NULL, '2025-04-03', '10501 Markison Road Dallas TX US 75238', 'IEEE+Wireshark+Nmap', 'VectorNav Technologies', 'current', NULL, NULL),
   ('8C:1F:64:06:8', 'Shenzhen ROLSTONE Technology Co., Ltd', 'MA-S', 'ROLSTONETech', NULL, '2025-04-04', '4F?Block 3, Fushijie Industry Park, Dalang District,  Shenzhen Guangdong CN 518110 ', 'IEEE+Wireshark+Nmap', 'Shenzhen ROLSTONE Technology Co., Ltd', 'current', NULL, NULL),
-  ('8C:1F:64:17:6', 'Leidos', 'MA-S', 'Leidos', NULL, '2025-04-10', '1121 W Reeves Ave Ridgecrest CA US 93555', 'IEEE+Wireshark+Nmap', 'Leidos Inc', 'current', NULL, NULL),
+  ('8C:1F:64:17:6', 'Leidos', 'MA-S', 'Leidos', NULL, '2025-04-10', '1121 W Reeves Ave Ridgecrest CA US 93555', 'IEEE+Wireshark+Nmap', 'Leidos Inc', 'current', NULL, NULL);
+
+-- Batch 98 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('8C:1F:64:D1:E', 'Tycon Systems Inc', 'MA-S', 'Tycon', 'Industrial', '2025-04-05', '930 W 14600 S Suite 600 Bluffdale UT US 84065', 'IEEE+Wireshark+Nmap', 'Tycon Systems Inc', 'current', NULL, NULL),
   ('8C:1F:64:82:8', 'AURCORE TECHNOLOGY INC.', 'MA-S', 'AurcoreTechn', NULL, '2025-04-16', '25691 ATLANTIC OCEAN DRIVE UNIT B10 LAKE FOREST CA US 92630', 'IEEE+Wireshark+Nmap', 'AURCORE TECHNOLOGY INC.', 'current', NULL, NULL),
   ('8C:1F:64:76:E', 'develogic GmbH', 'MA-S', 'develogic', 'Automotive', '2025-04-17', 'Hammer Deich 70 Hamburg Hamburg DE 20537', 'IEEE+Wireshark+Nmap', 'develogic GmbH', 'current', NULL, NULL),
@@ -48811,10 +48891,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1F:64:1C:4', 'EDGX bv', 'MA-S', 'EDGX', 'IoT', '2025-12-05', 'Moutstraat 54 Gent Oost-Vlaanderen BE 9000', 'IEEE+Wireshark+Nmap', 'EDGX bv', 'current', NULL, NULL),
   ('8C:1F:64:18:A', 'Network Rail', 'MA-S', 'NetworkRail', 'Automotive', '2025-12-17', 'The Quadrant, Elder Gate Milton Keynes Buckinghamshire GB MK9 1EN ', 'IEEE+Wireshark+Nmap', 'Network Rail', 'current', NULL, NULL),
   ('8C:1F:64:8F:7', 'BORMANN EDV und Zubehoer', 'MA-S', 'BORMANNEDVun', NULL, '2025-12-17', 'Lohwaldstr. 53 Neusaess Bayern DE 85356', 'IEEE+Wireshark+Nmap', 'BORMANN EDV und Zubehoer', 'current', NULL, NULL),
-  ('8C:1F:64:73:4', 'ZKTECO EUROPE', 'MA-S', 'ZktecoEurope', 'Smart Home', '2025-12-17', 'CARRETERA DE FUENCARRAL 44 ALCOBENDAS MADRID ES 28108', 'IEEE+Wireshark+Nmap', 'ZKTECO EUROPE', 'current', NULL, NULL);
-
--- Batch 98 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('8C:1F:64:73:4', 'ZKTECO EUROPE', 'MA-S', 'ZktecoEurope', 'Smart Home', '2025-12-17', 'CARRETERA DE FUENCARRAL 44 ALCOBENDAS MADRID ES 28108', 'IEEE+Wireshark+Nmap', 'ZKTECO EUROPE', 'current', NULL, NULL),
   ('8C:1F:64:6C:4', 'inmediQ GmbH', 'MA-S', 'inmediQ', NULL, '2025-12-20', 'Gebrüder-Freitag-Str. 1 Butzbach Hessen DE 35510', 'IEEE+Wireshark+Nmap', 'inmediQ GmbH', 'current', NULL, NULL),
   ('8C:1F:64:68:4', 'Potter Electric Signal Co. LLC', 'MA-S', 'PotterElectr', 'Smart Home', '2026-01-03', '1609 Park 370 Place Hazelwood MO US 63042', 'IEEE+Wireshark+Nmap', 'Potter Electric Signal Co. LLC', 'current', NULL, NULL),
   ('8C:1F:64:5F:2', 'CMC Applied Technology institute', 'MA-S', 'CMCAppliedTe', NULL, '2026-01-03', 'CMC Tower, Duy Tan street, Cau Giay Ward, Hanoi Vietnam Hanoi  VN 151831 ', 'IEEE+Wireshark+Nmap', 'CMC Applied Technology institute', 'current', NULL, NULL),
@@ -48884,18 +48961,18 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1F:64:2B:2', 'Infosoft Digital Design and Services P L', 'MA-S', 'InfosoftDigi', NULL, '2026-08-14', '484, SECTOR-8 ,IMT MANESER,GURGAON MANESER GURGAON Haryana IN 122050 ', 'IEEE+Wireshark', 'Infosoft Digital Design and Services P L', 'current', NULL, NULL),
   ('8C:1F:64:BF:9', 'Hitachi Energy', 'MA-S', 'Hitachienerg', NULL, '2026-08-15', '#4A, 5 & 6, 2nd Phase, Peenya Industrial Estate Bangalore Karnataka  IN 560058 ', 'IEEE+Wireshark', 'Hitachi energy India ltd', 'current', NULL, NULL),
   ('8C:1F:64:99:0', 'Traxara Robotics', 'MA-S', 'TraxaraRobot', 'Industrial', '2026-08-18', '1872 Notre-Dame west, Suite 100 Montreal Quebec CA H3J1M6 ', 'IEEE+Wireshark', 'Traxara Robotics', 'current', NULL, NULL),
-  ('8C:1F:64:A4:D', 'DEUTA-WERKE GmbH', 'MA-S', 'DEUTAWERKE', 'Automotive', '2026-08-21', 'Paffrather Str. 140 Bergisch Gladbach North Rhine-Westphalia DE 51465', 'IEEE+Wireshark', 'DEUTA-WERKE GmbH', 'current', NULL, NULL),
   ('8C:1F:64:13:0', 'Vigor Electric Corp.', 'MA-S', 'VigorElectri', NULL, '2026-08-25', 'No.116, Xingzhong Rd., Danshui Dist., New Taipei City 25152, Taiwan (R.O.C.) Danshui Dist. New Taipei City TW 25152 ', 'IEEE+Wireshark', 'Vigor Electric Corp.', 'current', NULL, NULL),
   ('8C:1F:64:57:0', 'ACD Elektronik GmbH', 'MA-S', 'ACDElektroni', NULL, '2026-08-25', 'Industriegebiet Engelberg 2 Achstetten  DE 88480', 'IEEE+Wireshark', 'ACD Elektronik GmbH', 'current', NULL, NULL),
+  ('8C:1F:64:A4:D', 'DEUTA-WERKE GmbH', 'MA-S', 'DEUTAWERKE', 'Automotive', '2026-08-21', 'Paffrather Str. 140 Bergisch Gladbach North Rhine-Westphalia DE 51465', 'IEEE+Wireshark', 'DEUTA-WERKE GmbH', 'current', NULL, NULL),
   ('8C:1F:64:B8:9', 'Aineas', 'MA-S', 'Aineas', NULL, '2026-08-24', 'Ipsiladou 45 Kalochori  GR 57009', 'IEEE+Wireshark', 'Aineas', 'current', NULL, NULL),
   ('8C:1F:64:38:3', 'Urbidermis, S.L. (VAT ESB66435017)', 'MA-S', 'UrbidermisSL', 'Industrial', '2023-05-06', 'Ctra. C-251 Km. 5,6 Parc de Belloch La Roca del Vallès Barcelona ES 08340 ', 'IEEE+Wireshark', 'Urbidermis, S.L. (VAT ESB66435017)', 'current', NULL, 'Tristate Electronic Mfg | Urbidermis, S.L. (VAT ESB66435017)'),
   ('8C:1F:64:53:8', 'InstruVU', 'MA-S', 'InstruVU', NULL, '2026-09-02', '45 W Easy St Ste 11 Simi Valley CA US 93065', 'IEEE+Wireshark', 'InstruVU', 'current', NULL, NULL),
+  ('8C:1F:64:B7:0', 'Tesla Subsea Inc.', 'MA-S', 'TeslaSubsea', 'Automotive', '2026-09-09', '16300 Katy Freeway Suite 270 Houston TX US 77084', 'IEEE+Wireshark', 'Tesla Subsea Inc.', 'current', NULL, NULL),
   ('8C:1F:64:5C:8', 'WOTA Corp.', 'MA-S', 'WOTA', 'Appliance', '2026-09-08', '1-13-13 Nihonbashi Bakujrocho, Chuo-Ku Tokyo  JP 103-0002 ', 'IEEE+Wireshark', 'WOTA Corp.', 'current', NULL, NULL),
   ('8C:1F:64:B4:E', 'Aditec GmbH', 'MA-S', 'Aditec', NULL, '2026-09-11', 'Talweg 17 Offenau Baden-Wuerttemberg DE 74254', 'IEEE+Wireshark', 'Aditec GmbH', 'current', NULL, NULL),
   ('8C:1F:64:7E:4', 'Peter Huber Kaeltemaschinenbau SE', 'MA-S', 'PeterHuberKa', 'Industrial', '2026-09-11', 'Werner-von-Siemens-Str. 1 Offenburg BW DE 77656', 'IEEE+Wireshark', 'Peter Huber Kaeltemaschinenbau SE', 'current', NULL, NULL),
-  ('8C:1F:64:B7:0', 'Tesla Subsea Inc.', 'MA-S', 'TeslaSubsea', 'Automotive', '2026-09-09', '16300 Katy Freeway Suite 270 Houston TX US 77084', 'IEEE+Wireshark', 'Tesla Subsea Inc.', 'current', NULL, NULL),
-  ('8C:1F:64:9A:F', 'Advanced Mechatronics GmbH', 'MA-S', 'AdvancedMech', NULL, '2026-09-10', 'Robert-Bosch-Str. 6 Hüttlingen  DE 73460', 'IEEE+Wireshark', 'Advanced Mechatronics GmbH', 'current', NULL, NULL),
   ('8C:1F:64:40:B', 'WHOI-AComms', 'MA-S', 'WHOIAComms', NULL, '2026-09-16', '266 Woods Hole Rd MS18 Woods Hole MA US 02543', 'IEEE+Wireshark', 'WHOI-AComms', 'current', NULL, NULL),
+  ('8C:1F:64:9A:F', 'Advanced Mechatronics GmbH', 'MA-S', 'AdvancedMech', NULL, '2026-09-10', 'Robert-Bosch-Str. 6 Hüttlingen  DE 73460', 'IEEE+Wireshark', 'Advanced Mechatronics GmbH', 'current', NULL, NULL),
   ('8C:1F:64:A5:0', 'Simply Embededded Inc', 'MA-S', 'SimplyEmbede', NULL, '2026-09-25', '221 10th Ave SE, Suite 301 Calgary Alberta CA T2G0V9 ', 'IEEE+Wireshark', 'Simply Embededded Inc', 'current', NULL, NULL),
   ('8C:1F:64:02:C', 'Lanpoe', 'MA-S', 'Lanpoe', NULL, '2026-09-29', '960 Hewlett Drive Valley Stream NY US 11581', 'IEEE+Wireshark', 'Lanpoe', 'current', NULL, NULL),
   ('8C:1F:64:37:9', 'Transducers Direct LLC', 'MA-S', 'TransducersD', NULL, '2026-10-01', '12115 Ellington Ct Cincinnati OH US 45249', 'IEEE+Wireshark', 'Transducers Direct LLC', 'current', NULL, NULL),
@@ -48905,16 +48982,22 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1F:64:E7:F', 'Automata GmbH & Co. KG', 'MA-S', 'Automata', NULL, '2026-10-08', 'Gewerbering 5 Ried Bavaria DE 86510', 'IEEE+Wireshark', 'Automata GmbH & Co. KG', 'current', NULL, NULL),
   ('8C:1F:64:01:B', 'Fujitsu Defense & National Security Limited', 'MA-S', 'FujitsuDefen', NULL, '2026-10-08', '12F, Osaka Tokyo Marine Nichido Building 2-2-53 Shiromi, Chuo-ku Osaka Osaka JP 5400001 ', 'IEEE+Wireshark', 'Fujitsu Defense & National Security Limited', 'current', NULL, NULL),
   ('8C:1F:64:B8:7', 'ELBIT- ROKAR', 'MA-S', 'ElbitRokar', NULL, '2026-10-08', '11Hartom St. Mount Hotzvim, Jerusalem POB 45049 jerusalem  IL 45049 ', 'IEEE+Wireshark', 'ELBIT- ROKAR', 'current', NULL, NULL),
+  ('8C:1F:64:30:2', 'Brandmaier Messen, Steuern, Software', 'MA-S', 'BrandmaierMe', NULL, '2026-10-19', 'Liststraße 1 Horb  DE 72160', 'IEEE+Wireshark', 'Brandmaier Messen, Steuern, Software', 'current', NULL, NULL),
   ('8C:1F:64:53:2', 'SEONGWON ENG CO.,LTD', 'MA-S', 'SeongwonEng', NULL, '2026-10-14', 'Room 601, Human Skyvally 33, 132 Beon-gil, Gwonseon-gu SUWON-SI Gyeonggi-do KR 16642 ', 'IEEE+Wireshark', 'SEONGWON ENG CO.,LTD', 'current', NULL, NULL),
   ('8C:1F:64:C5:F', 'Unitron Systems b.v.', 'MA-S', 'Unitron', NULL, '2026-10-21', 'SCHANSESTRAAT 7 IJzendijke  NL 4515 RN', 'IEEE+Wireshark', 'Unitron Systems b.v.', 'current', NULL, NULL),
-  ('8C:1F:64:30:2', 'Brandmaier Messen, Steuern, Software', 'MA-S', 'BrandmaierMe', NULL, '2026-10-19', 'Liststraße 1 Horb  DE 72160', 'IEEE+Wireshark', 'Brandmaier Messen, Steuern, Software', 'current', NULL, NULL),
-  ('8C:1F:64:81:F', 'ViewSonic Corp.', 'MA-S', 'ViewSonic', 'TV', '2023-08-31', '10 Point Drive Brea LA CA US 92821', 'IEEE+Wireshark+Nmap', 'ViewSonic Corp', 'current', NULL, NULL),
-  ('8C:1F:64:5B:9', 'ViewSonic Corp.', 'MA-S', 'ViewSonic', 'TV', '2024-01-18', '10 Point Drive Brea LA CA US 92821', 'IEEE+Wireshark+Nmap', 'ViewSonic Corp', 'current', NULL, NULL),
   ('8C:1F:64:D2:E', 'Logital S.R.L.', 'MA-S', 'Logital', NULL, '2026-10-28', 'Via Palazzetti 5/F San Lazzaro di Savena Bologna IT 40068', 'IEEE+Wireshark', 'Logital S.R.L.', 'current', NULL, NULL),
+  ('8C:1F:64:5B:9', 'ViewSonic Corp.', 'MA-S', 'ViewSonic', 'TV', '2024-01-18', '10 Point Drive Brea LA CA US 92821', 'IEEE+Wireshark+Nmap', 'ViewSonic Corp', 'current', NULL, NULL),
+  ('8C:1F:64:81:F', 'ViewSonic Corp.', 'MA-S', 'ViewSonic', 'TV', '2023-08-31', '10 Point Drive Brea LA CA US 92821', 'IEEE+Wireshark+Nmap', 'ViewSonic Corp', 'current', NULL, NULL),
   ('8C:1F:64:87:3', 'Nav Wireless Technologies Pvt. Ltd.', 'MA-S', 'NavWirelessT', NULL, '2026-11-06', 'C5 The First Besides ITC Narmada, Near Keshav Baug, Vastrapur Ahmedabad Ahmedabad IN 380015 ', 'IEEE+Wireshark', 'Nav Wireless Technologies Pvt. Ltd.', 'current', NULL, NULL),
   ('8C:1F:64:F6:A', 'NoWire Connect Sweden AB', 'MA-S', 'NoWireConnec', NULL, '2026-11-03', 'Hultseryd 1 Lekeryd Jönköpings Län / Jonkoping County SE 561 96', 'IEEE+Wireshark', 'NoWire Connect Sweden AB', 'current', NULL, NULL),
   ('8C:1F:64:F0:C', 'Profcon AB', 'MA-S', 'Profcon', NULL, '2026-11-06', 'Victor Hasselblads gata 9 Västra Frölunda  SE 42131', 'IEEE+Wireshark', 'Profcon AB', 'current', NULL, NULL),
+  ('8C:1F:64:EE:7', 'CIAB Tech, LLC', 'MA-S', 'CIABTech', NULL, '2026-11-12', '1956 Crowndale Lane Canton MI US 48188', 'IEEE+Wireshark', 'CIAB Tech, LLC', 'current', NULL, NULL),
   ('8C:1F:64:DF:7', 'Private (undisclosed IEEE registrant)', 'MA-S', 'Private', NULL, '2026-11-07', '', 'IEEE+Wireshark', 'Private', 'current', NULL, NULL),
+  ('8C:1F:64:00:5', 'H Nu Pty Ltd', 'MA-S', NULL, NULL, '2026-11-16', '2250 Unit 3, 68 Railway Crescent LISAROW NSW AU 2250 ', 'IEEE', 'H Nu Pty Ltd', 'current', NULL, NULL),
+  ('8C:1F:64:4E:F', 'Crane Nuclear', 'MA-S', NULL, NULL, '2026-11-19', '2825 Cobb International Blvd NW Kennesaw GA US 30152', 'IEEE', 'Crane Nuclear', 'current', NULL, NULL),
+  ('8C:1F:64:57:F', 'BlueSpace TECHNOLOGY SA', 'MA-S', NULL, NULL, '2026-11-20', 'Soseaua Alexandriei, nr.82 Bragadiru Ilfov RO 077025 ', 'IEEE', 'BlueSpace TECHNOLOGY SA', 'current', NULL, NULL),
+  ('8C:1F:64:B1:C', 'BG Systems, Inc.', 'MA-S', NULL, NULL, '2026-11-20', '931 Commercial St. Palo Alto CA US 94303', 'IEEE', 'BG Systems, Inc.', 'current', NULL, NULL),
+  ('8C:1F:64:89:B', 'Sensia Solutions,S.L.', 'MA-S', NULL, NULL, '2026-11-20', 'Calle Margarita Salas 12 Leganés  ES 28919', 'IEEE', 'Sensia Solutions,S.L.', 'current', NULL, NULL),
   ('8C:1F:64:A9:8', 'Jacobs Technology, Inc.', 'MA-S', 'JacobsTechno', NULL, '2023-07-14', '7765 Old Telegraph Road Severn MD US 21144', 'IEEE+Wireshark+Nmap', 'Jacobs Technology, Inc.', 'current', NULL, NULL),
   ('8C:1F:64:4A:9', 'Martec Marine S.p.a.', 'MA-S', 'MartecMarine', 'Automotive', '2023-07-14', 'Via dell''industria 1/3 Vignate Milano IT 20052', 'IEEE+Wireshark+Nmap', 'Martec Marine S.p.a.', 'current', NULL, NULL),
   ('8C:1F:64:DE:5', 'Gogo Business Aviation', 'MA-S', 'GogoBusiness', 'Automotive', '2023-07-07', '105 Edgeview Dr., Suite 300 Broomfield CO US 80021 ', 'IEEE+Wireshark+Nmap', 'Gogo Business Aviation', 'current', NULL, NULL),
@@ -49231,7 +49314,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:59:E', 'i2-electronics', 'MA-S', 'i2electronic', NULL, '2020-11-12', 'Kitazakae 4-13-15-701 Urayasu city Chiba JP 2790002', 'IEEE+Wireshark+Nmap', 'i2-electronics', 'current', NULL, NULL),
   ('70:B3:D5:06:5', 'EXATEL', 'MA-S', 'Exatel', 'Router', '2020-11-12', 'Perkuna 46 Warsaw Mazowieckie PL 04-164', 'IEEE+Wireshark+Nmap', 'EXATEL', 'current', NULL, NULL),
   ('70:B3:D5:C1:3', 'Guangzhou Xianhe Technology Engineering Co., Ltd', 'MA-S', 'GuangzhouXia', 'Smart Home', '2020-11-11', 'No. 30-6, Jiantai Road, Dongyong Town, Nansha District Guangzhou Guangdong CN 511453 ', 'IEEE+Wireshark+Nmap', 'Guangzhou Xianhe Technology Engineering Co., Ltd', 'current', NULL, NULL),
-  ('70:B3:D5:29:0', 'GETT Geraetetechnik GmbH', 'MA-S', 'GETTGeraetet', 'Computer', '2020-10-20', 'Mittlerer Ring 1 Treuen  DE 08233', 'IEEE+Wireshark+Nmap', 'GETT Geraetetechnik GmbH', 'current', NULL, NULL),
+  ('70:B3:D5:29:0', 'GETT Geraetetechnik GmbH', 'MA-S', 'GETTGeraetet', 'Computer', '2020-10-20', 'Mittlerer Ring 1 Treuen  DE 08233', 'IEEE+Wireshark+Nmap', 'GETT Geraetetechnik GmbH', 'current', NULL, NULL);
+
+-- Batch 99 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('70:B3:D5:CE:E', 'ACRIOS Systems s.r.o.', 'MA-S', 'ACRIOSsro', 'Industrial', '2020-10-20', 'Tvaruzkova, 2738  Roznov pod Radhostem CZ 756 61 ', 'IEEE+Wireshark+Nmap', 'ACRIOS Systems s.r.o.', 'current', NULL, NULL),
   ('70:B3:D5:AF:C', 'BAE Systems', 'MA-S', 'BAE', 'Automotive', '2020-10-28', '1098 Clark Street Endicott NY US 13760', 'IEEE+Wireshark+Nmap', 'BAE Systems', 'current', NULL, NULL),
   ('70:B3:D5:A6:5', 'CREATIVE', 'MA-S', 'Creative', NULL, '2020-10-28', '801 Chenil Bldg. 266 Hwagokro, Gangseogu seoul KR 07673 ', 'IEEE+Wireshark+Nmap', 'CREATIVE', 'current', NULL, NULL),
@@ -49314,10 +49400,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:0F:4', 'Visual Robotics', 'MA-S', 'VisualRoboti', 'Industrial', '2020-01-10', '38 Irving Rd Eugene OR US 97404', 'IEEE+Wireshark+Nmap', 'Visual Robotics', 'current', NULL, NULL),
   ('70:B3:D5:FA:8', 'Munters', 'MA-S', 'Munters', 'Industrial', '2020-01-11', 'Hasivim 18 Pethch Tikva Israel IL 4959376', 'IEEE+Wireshark+Nmap', 'Munters', 'current', NULL, NULL),
   ('70:B3:D5:1E:C', 'Cherry Labs, Inc.', 'MA-S', 'CherryLabs', 'Camera', '2023-03-11', '550 Hamilton Ave, suites 125 Palo Alto CA US 94301 ', 'IEEE+Wireshark+Nmap', 'Cherry Labs, Inc.', 'current', NULL, NULL),
-  ('70:B3:D5:FF:B', 'QUERCUS TECHNOLOGIES, S.L.', 'MA-S', 'QuercusTechn', 'Industrial', '2023-03-11', 'Av. Onze de Setembre 19 Reus Tarragona ES 43203', 'IEEE+Wireshark+Nmap', 'QUERCUS TECHNOLOGIES, S.L.', 'current', NULL, NULL);
-
--- Batch 99 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('70:B3:D5:FF:B', 'QUERCUS TECHNOLOGIES, S.L.', 'MA-S', 'QuercusTechn', 'Industrial', '2023-03-11', 'Av. Onze de Setembre 19 Reus Tarragona ES 43203', 'IEEE+Wireshark+Nmap', 'QUERCUS TECHNOLOGIES, S.L.', 'current', NULL, NULL),
   ('70:B3:D5:EA:5', 'LOTES TM OOO', 'MA-S', 'LotesTm', NULL, '2020-01-24', 'Barklaya 22, str.1 Moscow  RU 121309 ', 'IEEE+Wireshark+Nmap', 'LOTES TM OOO', 'current', NULL, NULL),
   ('70:B3:D5:6C:2', 'TEX COMPUTER SRL', 'MA-S', 'TexComputer', 'Industrial', '2020-01-17', 'VIA MERCADANTE 35 CATTOLICA  RIMINI  IT 47841', 'IEEE+Wireshark+Nmap', 'TEX COMPUTER SRL', 'current', NULL, NULL),
   ('70:B3:D5:38:5', 'Kamacho Scale Co., Ltd.', 'MA-S', 'KamachoScale', NULL, '2019-12-25', '2246 Mure Takamatsu-shi Kagawa-ken JP 761-0196', 'IEEE+Wireshark+Nmap', 'Kamacho Scale Co., Ltd.', 'current', NULL, NULL),
@@ -49329,7 +49412,6 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:18:F', 'Newtec A/S', 'MA-S', 'Newtec', NULL, '2019-12-04', 'Stærmosegårdsvej  18 Odense SV Region Syd DK 5230', 'IEEE+Wireshark+Nmap', 'Newtec A/S', 'current', NULL, NULL),
   ('70:B3:D5:A7:F', 'AUDIO VISUAL DIGITAL SYSTEMS', 'MA-S', 'AudioVisualD', 'Automotive', '2019-12-04', 'PLOT NO.180 PHASE V SECTOR56, HSIIDC I.E KUNDLI SONEPAT SONEPAT HARYANA IN 131028 ', 'IEEE+Wireshark+Nmap', 'AUDIO VISUAL DIGITAL SYSTEMS', 'current', NULL, NULL),
   ('70:B3:D5:F8:0', 'Guan Show Technologe Co., Ltd.', 'MA-S', 'GuanShowTech', NULL, '2019-11-23', 'No.127, Jianguo 1st Rd., Lingya Dist.  Kaohsiung City   TW 802 ', 'IEEE+Wireshark+Nmap', 'Guan Show Technologe Co., Ltd.', 'current', NULL, NULL),
-  ('70:B3:D5:A6:0', 'Pneumax Spa', 'MA-S', 'Pneumax', NULL, '2019-11-22', 'Via Cascina Barbellina 10 Lurano  IT 24050', 'IEEE+Wireshark+Nmap', 'Pneumax S.p.A.', 'current', NULL, NULL),
   ('00:1B:C5:02:9', '2 FRANCE MARINE', 'MA-S', '2FranceMarin', NULL, '2013-03-31', '61, route de la Chapelle de Rousse GAN  FR 64290 ', 'IEEE+Wireshark+Nmap', '2 FRANCE MARINE', 'current', NULL, NULL),
   ('70:B3:D5:4F:D', 'ENLESS WIRELESS', 'MA-S', 'EnlessWirele', NULL, '2019-11-27', '45 TER AVENUE DE VERDUN BRUGES  FR 33520', 'IEEE+Wireshark+Nmap', 'ENLESS WIRELESS', 'current', NULL, NULL),
   ('70:B3:D5:86:A', 'Stealth Communications', 'MA-S', 'StealthCommu', NULL, '2019-11-09', '1 Penn Plaza, Suite 6308 New York NY US 10119 ', 'IEEE+Wireshark+Nmap', 'Stealth Communications', 'current', NULL, NULL),
@@ -49735,7 +49817,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:14:2', 'DAVE SRL', 'MA-S', 'Dave', 'IoT', '2016-07-24', 'VIA TALPONEDO 29/A PORCIA PORDENONE IT 330850', 'IEEE+Wireshark+Nmap', 'DAVE SRL', 'current', NULL, NULL),
   ('70:B3:D5:17:8', 'Gamber Johnson-LLC', 'MA-S', 'GamberJohnso', NULL, '2016-07-24', '3001 Borham Ave Stevens Point WI US 54481', 'IEEE+Wireshark+Nmap', 'Gamber Johnson-LLC', 'current', NULL, NULL),
   ('70:B3:D5:A5:C', 'Molekule', 'MA-S', 'Molekule', 'Smart Home', '2016-07-31', '2507 Bryant St. San Francisco CA US 94110', 'IEEE+Wireshark+Nmap', 'Molekule', 'current', NULL, NULL),
-  ('70:B3:D5:EB:D', 'midBit Technologies, LLC', 'MA-S', 'midBitTechno', NULL, '2016-07-31', '153 Homestead Ln Romney WV US 26757', 'IEEE+Wireshark+Nmap', 'midBit Technologies, LLC', 'current', NULL, NULL),
+  ('70:B3:D5:EB:D', 'midBit Technologies, LLC', 'MA-S', 'midBitTechno', NULL, '2016-07-31', '153 Homestead Ln Romney WV US 26757', 'IEEE+Wireshark+Nmap', 'midBit Technologies, LLC', 'current', NULL, NULL);
+
+-- Batch 100 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('70:B3:D5:A8:E', 'OMESH CITY GROUP', 'MA-S', 'OmeshCityGro', NULL, '2016-07-31', '202,A building,Xu Zhuang Software Park,Xuan Wu District Nangjing Jiangsu CN 240042 ', 'IEEE+Wireshark+Nmap', 'OMESH CITY GROUP', 'current', NULL, NULL),
   ('70:B3:D5:1B:B', 'EFENTO T P SZYDŁOWSKI K ZARĘBA SPÓŁKA JAWNA', 'MA-S', 'EfentoTPSzyd', NULL, '2016-08-07', 'Dietla 93/6 Kraków  PL 31-031', 'IEEE+Wireshark+Nmap', 'EFENTO T P SZYDŁOWSKI K ZARĘBA SPÓŁKA JAWNA', 'current', NULL, NULL),
   ('70:B3:D5:48:F', 'Seiwa Giken', 'MA-S', 'SeiwaGiken', NULL, '2016-07-03', '4-4-23 Hotarugaike-higashimachi Toyonaka-City Osaka JP 560-0032', 'IEEE+Wireshark+Nmap', 'Seiwa Giken', 'current', NULL, NULL),
@@ -49817,10 +49902,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:60:9', 'PBSI Group Limited', 'MA-S', 'PBSIGroup', NULL, '2015-10-25', 'Belle Vue Works, Boundary Street Manchester Lancashire GB M12 5NG ', 'IEEE+Wireshark+Nmap', 'PBSI Group Limited', 'current', NULL, NULL),
   ('70:B3:D5:32:3', 'TATTILE SRL', 'MA-S', 'Tattile', 'Camera', '2014-05-18', 'VIA DONIZETTI, 1/3/5 MAIRANO BRESCIA IT 25030 ', 'IEEE+Wireshark+Nmap', 'TATTILE SRL', 'current', NULL, NULL),
   ('70:B3:D5:8F:3', 'TATTILE SRL', 'MA-S', 'Tattile', 'Camera', '2014-12-21', 'VIA DONIZETTI, 1/3/5 MAIRANO BRESCIA IT 25030 ', 'IEEE+Wireshark+Nmap', 'TATTILE SRL', 'current', NULL, NULL),
-  ('70:B3:D5:C3:B', 'Vironova AB', 'MA-S', 'Vironova', 'Industrial', '2015-10-16', 'Gävlegatan 22 Stockholm  SE 11330', 'IEEE+Wireshark+Nmap', 'Vironova AB', 'current', NULL, NULL);
-
--- Batch 100 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('70:B3:D5:C3:B', 'Vironova AB', 'MA-S', 'Vironova', 'Industrial', '2015-10-16', 'Gävlegatan 22 Stockholm  SE 11330', 'IEEE+Wireshark+Nmap', 'Vironova AB', 'current', NULL, NULL),
   ('70:B3:D5:66:B', 'Innitive B.V.', 'MA-S', 'Innitive', NULL, '2015-10-11', 'Brouwerijstraat 20 Enschede Overijssel NL 7523xd', 'IEEE+Wireshark+Nmap', 'Innitive B.V.', 'current', NULL, NULL),
   ('70:B3:D5:1B:4', '5nines', 'MA-S', '5nines', NULL, '2015-10-11', 'Avalon Four, Mill Street Cape Town Western Cape ZA 8001 ', 'IEEE+Wireshark+Nmap', '5nines', 'current', NULL, NULL),
   ('70:B3:D5:99:6', 'XpertSea Solutions inc.', 'MA-S', 'XpertSeaSolu', 'Industrial', '2015-09-27', '2700 Jean-Perrin suite 170 Québec QC CA G2C 1S9', 'IEEE+Wireshark+Nmap', 'XpertSea Solutions inc.', 'current', NULL, NULL),
@@ -50238,7 +50320,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1F:64:CE:5', 'Private (undisclosed IEEE registrant)', 'MA-S', 'Private', NULL, '2025-08-01', '', 'IEEE+Wireshark+Nmap', 'Private', 'current', NULL, NULL),
   ('8C:1F:64:E9:B', 'Discover Energy Systems Corp.', 'MA-S', 'DiscoverEner', 'Smart Home', '2025-07-30', '320-13711 International Place Richmond BC CA V6V 2Z8', 'IEEE+Wireshark+Nmap', 'Discover Energy Systems Corp.', 'current', NULL, NULL),
   ('8C:1F:64:BB:A', 'elysia GmbH', 'MA-S', 'elysia', 'Audio', '2025-07-31', 'Am Panneschopp 18 Nettetal  DE 41334', 'IEEE+Wireshark+Nmap', 'elysia GmbH', 'current', NULL, NULL),
-  ('8C:1F:64:D1:2', 'QUANZHOU RADIOBOSS TECHNOLOGY CO., LTD', 'MA-S', 'QuanzhouRadi', 'IoT', '2025-08-08', 'NO. 8, CHUANGZAO ROAD, OPTOELECTRONICS-INFORMATION INDUSTRY BASE, NAN''AN, QUANZHOU, FUJIAN  Nan''an Fujian CN 362300 ', 'IEEE+Wireshark+Nmap', 'QUANZHOU RADIOBOSS TECHNOLOGY CO., LTD', 'current', NULL, NULL),
+  ('8C:1F:64:D1:2', 'QUANZHOU RADIOBOSS TECHNOLOGY CO., LTD', 'MA-S', 'QuanzhouRadi', 'IoT', '2025-08-08', 'NO. 8, CHUANGZAO ROAD, OPTOELECTRONICS-INFORMATION INDUSTRY BASE, NAN''AN, QUANZHOU, FUJIAN  Nan''an Fujian CN 362300 ', 'IEEE+Wireshark+Nmap', 'QUANZHOU RADIOBOSS TECHNOLOGY CO., LTD', 'current', NULL, NULL);
+
+-- Batch 101 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('8C:1F:64:12:3', 'GeneSys Elektronik GmbH', 'MA-S', 'GeneSysElekt', 'VoIP', '2025-08-08', 'Maria-und-Georg-Dietrich-Str. 6 Offenburg  DE 77652', 'IEEE+Wireshark+Nmap', 'GeneSys Elektronik GmbH', 'current', NULL, NULL),
   ('8C:1F:64:7F:9', 'COPELION INTERNATIONAL INC', 'MA-S', 'CopelionInte', NULL, '2025-08-08', '9 F., No. 202, Sec. 2, Yanping N. Rd., Datong Dist. Taipei City  TW 103606 ', 'IEEE+Wireshark+Nmap', 'COPELION INTERNATIONAL INC', 'current', NULL, NULL),
   ('8C:1F:64:DA:4', 'Foenix Coding Ltd', 'MA-S', 'FoenixCoding', NULL, '2025-08-22', 'The Barns - Hilltop Farm Lyne Lane Chertsey Surrey GB KT16 0AW', 'IEEE+Wireshark+Nmap', 'Foenix Coding Ltd', 'current', NULL, NULL),
@@ -50320,10 +50405,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1F:64:0A:E', 'Gogo BA', 'MA-S', 'GogoBA', 'Automotive', '2026-04-09', '105 Edgeview Drive Broomfield CO US 80021', 'IEEE+Wireshark', 'Gogo BA', 'current', NULL, NULL),
   ('8C:1F:64:C9:5', 'LEMIER', 'MA-S', 'Lemier', NULL, '2026-04-18', 'Entuziastov 34-4-21 Moscow  RU 105118', 'IEEE+Wireshark', 'LEMIER', 'current', NULL, NULL),
   ('8C:1F:64:12:F', 'MB connect line GmbH', 'MA-S', 'MBconnectlin', 'Industrial', '2026-04-16', 'Winnettener Strasse 6 Dinkelsbuehl Bavaria DE 91550', 'IEEE+Wireshark', 'MB connect line GmbH', 'current', NULL, NULL),
-  ('8C:1F:64:5F:4', 'Jiangsu Yi Rong Mstar Technology Ltd.', 'MA-S', 'JiangsuYiRon', NULL, '2026-04-17', 'Building 1-4, No. 9, Yongfu Road, Dafeng Economic Development Zone,  Yancheng City Jiangsu CN 224199 ', 'IEEE+Wireshark', 'Jiangsu Yi Rong Mstar Technology Ltd.', 'current', NULL, NULL);
-
--- Batch 101 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('8C:1F:64:5F:4', 'Jiangsu Yi Rong Mstar Technology Ltd.', 'MA-S', 'JiangsuYiRon', NULL, '2026-04-17', 'Building 1-4, No. 9, Yongfu Road, Dafeng Economic Development Zone,  Yancheng City Jiangsu CN 224199 ', 'IEEE+Wireshark', 'Jiangsu Yi Rong Mstar Technology Ltd.', 'current', NULL, NULL),
   ('8C:1F:64:C2:E', 'ICS SOLUTIONS INC.', 'MA-S', 'IcsSolutions', NULL, '2026-04-28', 'E-705,706, songdo-miraero, younsu-gu incheon  KR 21990 ', 'IEEE+Wireshark', 'ICS SOLUTIONS INC.', 'current', NULL, NULL),
   ('8C:1F:64:63:3', 'Gyros Protein Technologies AB', 'MA-S', 'GyrosProtein', 'Medical', '2026-04-30', 'Kungsängstull 4 Uppsala  SE 75319', 'IEEE+Wireshark', 'Gyros Protein Technologies AB', 'current', NULL, NULL),
   ('8C:1F:64:82:3', 'Lumiplan Duhamel', 'MA-S', 'LumiplanDuha', 'Automotive', '2026-05-04', '2 rue de l''industrie Domène Isère FR 38420', 'IEEE+Wireshark', 'Lumiplan Duhamel', 'current', NULL, NULL),
@@ -50352,9 +50434,9 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1F:64:1A:8', 'LCR Embedded Systems', 'MA-S', 'LCREmbedded', 'Computer', '2025-07-03', '', 'IEEE+Wireshark+Nmap', 'LCR Embedded Systems', 'current', NULL, 'Private | LCR Embedded Systems'),
   ('8C:1F:64:D8:B', 'I/O Controls', 'MA-S', 'IOControls', NULL, '2026-07-10', '1357 W Foothill Blvd Azusa CA US 91702', 'IEEE+Wireshark', 'I/O Controls', 'current', NULL, NULL),
   ('8C:1F:64:AE:0', 'ASTER PRO-AUDIO INC.', 'MA-S', 'AsterProAudi', 'Audio', '2026-07-18', '5F.,NO.159, KANGNING ST., XIZHI DIST., NEW TAIPEI  TW 221 ', 'IEEE+Wireshark', 'ASTER PRO-AUDIO INC.', 'current', NULL, NULL),
-  ('8C:1F:64:34:3', 'Syscom Instruments SA', 'MA-S', 'SyscomInstru', 'Industrial', '2026-07-22', 'industrie 21 Sainte-Croix  CH 1450', 'IEEE+Wireshark', 'Syscom Instruments SA', 'current', NULL, NULL),
   ('8C:1F:64:CB:4', 'Wi4B s.r.l.', 'MA-S', 'Wi4B', NULL, '2026-07-21', 'Via Beroaldo 38A Bologna  IT 40100', 'IEEE+Wireshark', 'Wi4B s.r.l.', 'current', NULL, NULL),
   ('8C:1F:64:B9:C', 'GIB Korea Co.,Ltd.', 'MA-S', 'GIBKorea', NULL, '2026-07-21', '#3, Building 4, 5th floor, 228, Haan-ro Gwangmyeong-si Gyeonggi-do KR 14308 ', 'IEEE+Wireshark', 'GIB Korea Co.,Ltd.', 'current', NULL, NULL),
+  ('8C:1F:64:34:3', 'Syscom Instruments SA', 'MA-S', 'SyscomInstru', 'Industrial', '2026-07-22', 'industrie 21 Sainte-Croix  CH 1450', 'IEEE+Wireshark', 'Syscom Instruments SA', 'current', NULL, NULL),
   ('8C:1F:64:55:A', 'Zomedica', 'MA-S', 'Zomedica', 'Medical', '2026-07-24', '1101 Technology Dr, Suite 100 Ann Arbor MI US 48108 ', 'IEEE+Wireshark', 'Zomedica', 'current', NULL, NULL),
   ('8C:1F:64:8B:A', 'Code Blue Corporation', 'MA-S', 'CodeBlue', 'Industrial', '2026-07-28', '259 Hedcor Street Holland MI US 49423', 'IEEE+Wireshark', 'Code Blue Corporation', 'current', NULL, NULL),
   ('8C:1F:64:CF:2', 'Potter Electric Signal Co. LLC', 'MA-S', 'PotterElectr', 'Smart Home', '2026-07-31', '5757 Phantom Drive Hazelwood MO US 63042', 'IEEE+Wireshark', 'Potter Electric Signal Company', 'current', NULL, NULL),
@@ -50364,15 +50446,15 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1F:64:F1:F', 'ARETA AI INC.', 'MA-S', 'AretaAI', NULL, '2026-08-18', '8 The Green Ste A Dover DE US 19901', 'IEEE+Wireshark', 'Areta AI Inc.', 'current', NULL, NULL),
   ('8C:1F:64:24:A', 'Suzhou Nihone Electronic Technology Co.,Ltd.', 'MA-S', 'SuzhouNihone', NULL, '2026-08-23', 'No. 185 Xiaoxiang Road, Huqiu District, Suzhou City  Suzhou City  Jiangsu CN 215000 ', 'IEEE+Wireshark', 'Suzhou Nihone Electronic Technology Co.,Ltd.', 'current', NULL, NULL),
   ('8C:1F:64:93:4', 'eumig industrie-TV GmbH.', 'MA-S', 'eumigindustr', 'TV', '2026-08-23', 'Gewerbeparkstrasse 9 Anif Salzburg AT 5081', 'IEEE+Wireshark', 'eumig industrie-TV GmbH.', 'current', NULL, NULL),
-  ('8C:1F:64:3A:0', 'Faraday4T', 'MA-S', 'Faraday4T', NULL, '2026-08-24', '670, Daewangpangyo-ro Seongnam  KR 13494 ', 'IEEE+Wireshark', 'Faraday4T', 'current', NULL, NULL),
   ('8C:1F:64:45:2', 'Beijing Yong''an Xintong Technology Co.,LTD', 'MA-S', 'YonganXinton', NULL, '2026-08-23', 'Room 6009, Jihai Building, Inno Way (Zhongguancun Chuangye Dajie), Zhongguancun, Haidian District, Beijing, China Beijing  CN 100080 ', 'IEEE+Wireshark', 'Beijing Yong''an Xintong Technology Co.,LTD', 'current', NULL, NULL),
   ('8C:1F:64:EF:C', 'LonTen Technology（BeiJing）Co.,LTD.', 'MA-S', 'LonTenTechno', NULL, '2026-08-21', 'No. 211, 2nd Floor, Building 2, No. 10, Huiwan Road, Huirongguan Town, Changping District, Beijing Shenzhen  CN 102200 ', 'IEEE+Wireshark', 'LonTen Technology（BeiJing）Co.,LTD.', 'current', NULL, NULL),
   ('8C:1F:64:05:E', 'Pramac GmbH', 'MA-S', 'Pramac', 'Industrial', '2026-08-21', 'Marktstr. 185 Pfullingen  DE 72793', 'IEEE+Wireshark', 'Pramac GmbH', 'current', NULL, NULL),
   ('8C:1F:64:B7:8', 'Power Electronics Espana, S.L.', 'MA-S', 'PowerElectro', 'Smart Home', '2026-08-31', 'RONDA DEL CAMP DE AVIACIO, NO. 4 CARRASES INDUSTRIAL ESTATE LLÍRIA  Valencia ES 46160  ', 'IEEE+Wireshark', 'Power Electronics Espana, S.L.', 'current', NULL, NULL),
-  ('8C:1F:64:9E:3', 'E-Globaledge Corporation', 'MA-S', 'EGlobaledge', NULL, '2026-09-09', '7F Nakameguro GT Tower, 2-1-1 Kamimeguro Meguroku, Tokyo  JP 1530051 ', 'IEEE+Wireshark', 'E-Globaledge Corporation', 'current', NULL, NULL),
+  ('8C:1F:64:3A:0', 'Faraday4T', 'MA-S', 'Faraday4T', NULL, '2026-08-24', '670, Daewangpangyo-ro Seongnam  KR 13494 ', 'IEEE+Wireshark', 'Faraday4T', 'current', NULL, NULL),
   ('8C:1F:64:6F:A', 'IDNEO TECHNOLOGIES,S.A.U.', 'MA-S', 'IdneoTechnol', NULL, '2026-09-02', 'GRAN VÍA CARLOS III , 98 .PLANTA 5 Barcelona Barcelona ES 08028 ', 'IEEE+Wireshark', 'IDNEO TECHNOLOGIES,S.A.U.', 'current', NULL, NULL),
   ('8C:1F:64:06:4', 'Cube Telecom Pvt Ltd', 'MA-S', 'CubeTelecom', NULL, '2026-09-08', 'D-238, First Floor Sector-10 Noida UTTAR PRADESH IN 201301 ', 'IEEE+Wireshark', 'Cube Telecom Pvt Ltd', 'current', NULL, NULL),
   ('8C:1F:64:A8:D', 'Brightxcom', 'MA-S', 'Brightxcom', NULL, '2026-09-04', '150 SE 2ND Ave STE 1403  MIAMI FL US 33131', 'IEEE+Wireshark', 'Brightxcom', 'current', NULL, NULL),
+  ('8C:1F:64:9E:3', 'E-Globaledge Corporation', 'MA-S', 'EGlobaledge', NULL, '2026-09-09', '7F Nakameguro GT Tower, 2-1-1 Kamimeguro Meguroku, Tokyo  JP 1530051 ', 'IEEE+Wireshark', 'E-Globaledge Corporation', 'current', NULL, NULL),
   ('8C:1F:64:8C:7', 'Makita Industrial Tools Corporation', 'MA-S', 'MakitaIndust', 'Industrial', '2026-09-12', '6F, 1-2-3 Keihan-Hondori Moriguchi Osaka JP 570-0083 ', 'IEEE+Wireshark', 'Makita Industrial Tools Corporation', 'current', NULL, NULL),
   ('8C:1F:64:A1:9', 'Power Electronics Espana, S.L.', 'MA-S', 'PowerElectro', 'Smart Home', '2026-09-23', 'RONDA DEL CAMP DE AVIACIO, NO. 4 CARRASES INDUSTRIAL ESTATE LLÍRIA  Valencia ES 46160  ', 'IEEE+Wireshark', 'Power Electronics Espana, S.L.', 'current', NULL, NULL),
   ('8C:1F:64:DB:2', 'Lynx Systems', 'MA-S', 'Lynx', NULL, '2026-09-23', '1819 Firman Dr STE 137 Richardson TX US 75081', 'IEEE+Wireshark', 'Lynx Systems', 'current', NULL, NULL),
@@ -50382,9 +50464,14 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1F:64:2B:5', 'XTEC Industries Pte Ltd', 'MA-S', 'XTECIndustri', NULL, '2026-10-10', '21 Woodlands Close, #09-30 Primz Bizhub Singapore NA SG 737854 ', 'IEEE+Wireshark', 'XTEC Industries Pte Ltd', 'current', NULL, NULL),
   ('8C:1F:64:FA:D', 'LOOKMAN DISTRIBUTION PVT.LTD', 'MA-S', 'LookmanDistr', NULL, '2026-10-13', 'No.9, New No.15, 2nd Street Extn, 3rd Main Road,  CIT Nagar,Nandanam, Chennai 600 035,Tamil Nadu, India. CHENNAI  TAMILNADU IN 600035 ', 'IEEE+Wireshark', 'LOOKMAN DISTRIBUTION PVT.LTD', 'current', NULL, NULL),
   ('8C:1F:64:B1:1', 'RFTEQ PTY LTD', 'MA-S', 'Rfteq', NULL, '2026-10-21', 'Unit 2, 118A Hayward Avenue Torrensville SA AU 5031 ', 'IEEE+Wireshark', 'RFTEQ PTY LTD', 'current', NULL, NULL),
-  ('8C:1F:64:26:D', 'Blueprint Subsea', 'MA-S', 'BlueprintSub', NULL, '2026-11-03', 'The Clock Tower Building Low Wood Ulverston Cumbria GB LA12 8LY', 'IEEE+Wireshark', 'Blueprint Subsea', 'current', NULL, NULL),
   ('8C:1F:64:6D:D', 'ViewSonic Corp.', 'MA-S', 'ViewSonic', 'TV', '2023-12-07', '10 Point Drive Brea LA CA US 92821', 'IEEE+Wireshark+Nmap', 'ViewSonic Corp', 'current', NULL, NULL),
   ('8C:1F:64:16:2', 'Texas Space Communications, Inc', 'MA-S', 'TexasSpaceCo', NULL, '2026-11-06', '990 Blue Mound Road E Haslet TX US 76052', 'IEEE+Wireshark', 'Texas Space Communications, Inc', 'current', NULL, NULL),
+  ('8C:1F:64:26:D', 'Blueprint Subsea', 'MA-S', 'BlueprintSub', NULL, '2026-11-03', 'The Clock Tower Building Low Wood Ulverston Cumbria GB LA12 8LY', 'IEEE+Wireshark', 'Blueprint Subsea', 'current', NULL, NULL),
+  ('8C:1F:64:BE:7', 'Nokia', 'MA-S', 'Nokia', 'Router', '2026-11-12', '600 March Road Kanata Ontario CA K2K 2E6', 'IEEE+Wireshark', 'Nokia', 'current', NULL, NULL),
+  ('8C:1F:64:66:7', 'FireHUD Inc. d.b.a SlateSafety', 'MA-S', 'FireHUDdbaSl', NULL, '2026-11-13', '229 Peachtree St. NE STE 1970 Atlanta GA US 30303', 'IEEE+Wireshark', 'FireHUD Inc. d.b.a SlateSafety', 'current', NULL, NULL),
+  ('8C:1F:64:5A:B', 'GO engineering GmbH', 'MA-S', NULL, 'Smart Home', '2026-11-19', 'Oberkirchweg 38 Bühl Baden-Württemberg DE 77815', 'IEEE', 'G.O. Engineering GmbH', 'current', NULL, NULL),
+  ('8C:1F:64:EC:7', 'Linglume (Shanghai) Technology Co., Ltd', 'MA-S', NULL, NULL, '2026-11-19', '1st Floor, Building 2, No. 18 Fangsi Highway Shanghai Shanghai CN 201601 ', 'IEEE', 'Linglume (Shanghai) Technology Co., Ltd', 'current', NULL, NULL),
+  ('70:B3:D5:A6:0', 'Pneumax Spa', 'MA-S', 'Pneumax', NULL, '2019-11-22', 'Via Cascina Barbellina 10 Lurano  IT 24050', 'IEEE+Wireshark+Nmap', 'Pneumax Spa', 'current', NULL, 'Pneumax S.p.A. | Pneumax Spa'),
   ('8C:1F:64:E6:F', 'Vision Systems Safety Tech', 'MA-S', 'VisionSafety', NULL, '2023-07-13', '5 Chemin de Chiradie Brignais  FR 69530', 'IEEE+Wireshark+Nmap', 'Vision Systems Safety Tech', 'current', NULL, NULL),
   ('70:B3:D5:11:9', 'YPP Corporation', 'MA-S', 'YPP', NULL, '2015-08-30', '24 Geumchon-gu Seoul KR 153-802', 'IEEE+Wireshark+Nmap', 'YPP Corporation', 'current', NULL, 'Private | YPP Corporation'),
   ('70:B3:D5:15:9', 'RCH SPA', 'MA-S', 'Rch', 'IoT', '2019-11-09', 'Via Cendon 39 Silea  IT 31057', 'IEEE+Wireshark+Nmap', 'RCH SPA', 'current', NULL, 'RCH Vietnam Limited Liability Company | RCH SPA'),
@@ -50736,7 +50823,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:B7:B', 'Doosan Digital Innovation America', 'MA-S', 'DoosanDigita', NULL, '2020-07-18', '195 GOVERNORS HWY SOUTH WINDSOR CT US 06074-2419', 'IEEE+Wireshark+Nmap', 'Doosan Digital Innovation America', 'current', NULL, NULL),
   ('70:B3:D5:05:5', 'BAE Systems', 'MA-S', 'Bae', 'Automotive', '2020-07-15', '150 PARISH DRIVE  WAYNE NJ US 07470', 'IEEE+Wireshark+Nmap', 'BAE SYSTEMS', 'current', NULL, NULL),
   ('70:B3:D5:5A:1', 'BOE TECHNOLOGY GROUP CO.,LTD', 'MA-S', 'BOETechnolog', NULL, '2020-06-20', 'No.12 Xihuanzhong RD, BDA Beijing Beijing CN 100176 ', 'IEEE+Wireshark+Nmap', 'BOE Technology Group Co., Ltd.', 'current', NULL, NULL),
-  ('70:B3:D5:99:2', 'KAEONIT', 'MA-S', 'Kaeonit', NULL, '2020-06-20', '51 boulevard Tristan Corbiere Marseille  FR 13012', 'IEEE+Wireshark+Nmap', 'KAEONIT', 'current', NULL, NULL),
+  ('70:B3:D5:99:2', 'KAEONIT', 'MA-S', 'Kaeonit', NULL, '2020-06-20', '51 boulevard Tristan Corbiere Marseille  FR 13012', 'IEEE+Wireshark+Nmap', 'KAEONIT', 'current', NULL, NULL);
+
+-- Batch 102 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('70:B3:D5:A2:3', 'LG Electronics', 'MA-S', 'LGElectronic', 'TV', '2020-06-27', 'LG Science Park, 10, Magokjungang 10-ro, GangSeo-gu SEOUL  KR 07796 ', 'IEEE+Wireshark+Nmap', 'LG Electronics', 'current', NULL, NULL),
   ('70:B3:D5:D0:F', 'Alto Aviation', 'MA-S', 'AltoAviation', 'Automotive', '2020-06-17', '86 Leominster Road Sterling MA US 01564', 'IEEE+Wireshark+Nmap', 'Alto Aviation', 'current', NULL, NULL),
   ('70:B3:D5:ED:A', 'Breas Medical AB', 'MA-S', 'BreasMedical', 'Medical', '2020-06-03', 'Företagsvägen 1 Mölnlycke  SE SE-435 33', 'IEEE+Wireshark+Nmap', 'Breas Medical AB', 'current', NULL, NULL),
@@ -50823,10 +50913,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:EE:2', 'MONTRADE SPA', 'MA-S', 'Montrade', NULL, '2019-10-01', 'Via Armando Sarti 6 Bologna  IT 40132', 'IEEE+Wireshark+Nmap', 'MONTRADE SPA', 'current', NULL, NULL),
   ('70:B3:D5:84:F', 'Mettler Toledo', 'MA-S', 'MettlerToled', 'Industrial', '2019-10-03', '1571 Northpointe Parkway Lutz FL US 33558', 'IEEE+Wireshark+Nmap', 'Mettler Toledo', 'current', NULL, NULL),
   ('70:B3:D5:00:B', 'AXING AG', 'MA-S', 'Axing', NULL, '2019-09-10', 'Gewerbehaus Moskau Ramsen  CH 8262', 'IEEE+Wireshark+Nmap', 'AXING AG', 'current', NULL, NULL),
-  ('70:B3:D5:CE:F', 'Ellego Powertec Oy', 'MA-S', 'EllegoPowert', 'Industrial', '2019-09-22', 'Linnapellontie 18 Halikko  FI 24910', 'IEEE+Wireshark+Nmap', 'Ellego Powertec Oy', 'current', NULL, NULL);
-
--- Batch 102 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('70:B3:D5:CE:F', 'Ellego Powertec Oy', 'MA-S', 'EllegoPowert', 'Industrial', '2019-09-22', 'Linnapellontie 18 Halikko  FI 24910', 'IEEE+Wireshark+Nmap', 'Ellego Powertec Oy', 'current', NULL, NULL),
   ('70:B3:D5:12:A', 'Elvys s.r.o', 'MA-S', 'Elvyssro', NULL, '2019-09-28', 'Polska 9 Kosice  SK 04011', 'IEEE+Wireshark+Nmap', 'Elvys s.r.o', 'current', NULL, NULL),
   ('70:B3:D5:B8:7', 'CAITRON GmbH', 'MA-S', 'CAITRON', NULL, '2019-09-18', 'Eich 8 Ramerberg  DE 83561', 'IEEE+Wireshark+Nmap', 'CAITRON GmbH', 'current', NULL, NULL),
   ('70:B3:D5:B2:5', 'Hifocus Electronics India Private Limited', 'MA-S', 'HifocusElect', NULL, '2019-09-15', 'No. 3 Sunguvar Street, Chintadripet Chennai Tamil Nadu IN 600002 ', 'IEEE+Wireshark+Nmap', 'Hifocus Electronics India Private Limited', 'current', NULL, NULL),
@@ -51239,7 +51326,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:7D:E', 'Telaeris, Inc.', 'MA-S', 'Telaeris', 'IoT', '2016-04-03', '9123 Chesapeake Dr. San Diego CA US 92123', 'IEEE+Wireshark+Nmap', 'Telaeris, Inc.', 'current', NULL, NULL),
   ('70:B3:D5:0B:D', 'Andium', 'MA-S', 'Andium', 'Camera', '2016-03-20', '609 E 11th Street, 2B New York NY US 10009 ', 'IEEE+Wireshark+Nmap', 'Andium', 'current', NULL, NULL),
   ('70:B3:D5:D2:B', 'StreamPlay Oy Ltd', 'MA-S', 'StreamPlay', NULL, '2016-03-20', 'Sarankulmankatu 12 B Tampere  FI 33900', 'IEEE+Wireshark+Nmap', 'StreamPlay Oy Ltd', 'current', NULL, NULL),
-  ('70:B3:D5:36:7', 'Living Water', 'MA-S', 'LivingWater', NULL, '2016-04-03', '629 Yorkshire Ct Livermore CA US 94551', 'IEEE+Wireshark+Nmap', 'Living Water', 'current', NULL, NULL),
+  ('70:B3:D5:36:7', 'Living Water', 'MA-S', 'LivingWater', NULL, '2016-04-03', '629 Yorkshire Ct Livermore CA US 94551', 'IEEE+Wireshark+Nmap', 'Living Water', 'current', NULL, NULL);
+
+-- Batch 103 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('70:B3:D5:10:A', 'SEASON DESIGN TECHNOLOGY', 'MA-S', 'SeasonDesign', NULL, '2016-03-06', 'FLOOR 4, WARDS EXCHANGE, 199 ECCLESALL ROAD SHEFFIELD SOUTH YORKSHIRE GB S11 8HW ', 'IEEE+Wireshark+Nmap', 'SEASON DESIGN TECHNOLOGY', 'current', NULL, NULL),
   ('70:B3:D5:E7:E', 'Groupe Citypassenger Inc', 'MA-S', 'GroupeCitypa', NULL, '2016-03-06', '1117 sainte catherine ouest Montreal Quebec CA H3B1H9', 'IEEE+Wireshark+Nmap', 'Groupe Citypassenger Inc', 'current', NULL, NULL),
   ('70:B3:D5:27:7', 'Voltaware Limited', 'MA-S', 'Voltaware', 'Smart Home', '2016-03-06', '282 Earls Court Road London London GB SW5 9AS', 'IEEE+Wireshark+Nmap', 'Voltaware Limited', 'current', NULL, NULL),
@@ -51326,10 +51416,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:E4:B', 'DELTA', 'MA-S', 'Delta', NULL, '2015-06-28', 'Venlighedsvej 4 Horsholm Denmark DK 2970', 'IEEE+Wireshark+Nmap', 'DELTA', 'current', NULL, NULL),
   ('70:B3:D5:1A:D', 'Techworld Industries Ltd', 'MA-S', 'TechworldInd', NULL, '2015-05-31', 'Unit 1705, 17/F, Nanyang Plaza, 57 Hung To Road, Hong Kong N/A HK N/A ', 'IEEE+Wireshark+Nmap', 'Techworld Industries Ltd', 'current', NULL, NULL),
   ('70:B3:D5:E6:D', 'Domus S.C.', 'MA-S', 'DomusSC', NULL, '2015-05-31', '87 A Oriente #1623 Local A Puebla Puebla MX 72587', 'IEEE+Wireshark+Nmap', 'Domus S.C.', 'current', NULL, NULL),
-  ('70:B3:D5:FB:B', 'Vena Engineering Corporation', 'MA-S', 'VenaEngineer', 'Smart Home', '2015-04-26', '7 Hangar Way Watsonville CA US 95076', 'IEEE+Wireshark+Nmap', 'Vena Engineering Corporation', 'current', NULL, NULL);
-
--- Batch 103 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('70:B3:D5:FB:B', 'Vena Engineering Corporation', 'MA-S', 'VenaEngineer', 'Smart Home', '2015-04-26', '7 Hangar Way Watsonville CA US 95076', 'IEEE+Wireshark+Nmap', 'Vena Engineering Corporation', 'current', NULL, NULL),
   ('70:B3:D5:9F:2', 'Acorde Technologies', 'MA-S', 'AcordeTechno', 'Modem', '2015-04-12', 'PCTCAN - Av. Albert Einstein, 6 Santander Cantabria ES 39011 ', 'IEEE+Wireshark+Nmap', 'Acorde Technologies', 'current', NULL, NULL),
   ('70:B3:D5:03:F', 'Elesar Limited', 'MA-S', 'Elesar', NULL, '2015-04-12', 'Future Business Centre Cambridge Cambridgeshire GB CB4 2HY', 'IEEE+Wireshark+Nmap', 'Elesar Limited', 'current', NULL, NULL),
   ('70:B3:D5:08:8', 'OptiScan Biomedical Corp.', 'MA-S', 'OptiScanBiom', 'Medical', '2015-04-26', '24590 Clawiter Road Hayward CA US 94545', 'IEEE+Wireshark+Nmap', 'OptiScan Biomedical Corp.', 'current', NULL, NULL),
@@ -51742,7 +51829,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1F:64:BA:4', 'Buckeye Mountain', 'MA-S', 'BuckeyeMount', NULL, '2025-10-30', '3631 Brookwall DrSuite 101 Akron OH US 44333', 'IEEE+Wireshark+Nmap', 'Buckeye Mountain', 'current', NULL, NULL),
   ('8C:1F:64:64:D', 'NEWONE CO.,LTD.', 'MA-S', 'Newone', NULL, '2025-11-12', '21 seodun-ro,gwonseon-gu suwon-si gyeonggi-do KR 16623 ', 'IEEE+Wireshark+Nmap', 'NEWONE CO.,LTD.', 'current', NULL, NULL),
   ('8C:1F:64:02:D', 'Shenzhen Tezesk Energy Technology Co.,LTD', 'MA-S', 'TezeskEnergy', 'Smart Home', '2025-11-20', '12AB, Building AB, New Energy Building, No.2239 Nanhai Avenue, Nanguang Community, Nanshan Subdistrict  Shenzhen Guangdong CN 518067 ', 'IEEE+Wireshark+Nmap', 'Shenzhen Tezesk Energy Technology Co.,LTD', 'current', NULL, NULL),
-  ('8C:1F:64:44:7', 'MARVAUS TECHNOLOGIES PRIVATE LIMITED', 'MA-S', 'MarvausTechn', NULL, '2025-11-20', 'P-6095 Devender Vihar Sector 56 Gurugram Haryana IN 122011', 'IEEE+Wireshark+Nmap', 'MARVAUS TECHNOLOGIES PRIVATE LIMITED', 'current', NULL, NULL),
+  ('8C:1F:64:44:7', 'MARVAUS TECHNOLOGIES PRIVATE LIMITED', 'MA-S', 'MarvausTechn', NULL, '2025-11-20', 'P-6095 Devender Vihar Sector 56 Gurugram Haryana IN 122011', 'IEEE+Wireshark+Nmap', 'MARVAUS TECHNOLOGIES PRIVATE LIMITED', 'current', NULL, NULL);
+
+-- Batch 104 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('8C:1F:64:F3:7', 'Polarity Inc', 'MA-S', 'Polarity', 'IoT', '2025-11-20', '11294 Sunrise Park Dr RANCHO CORDOVA CA US 95742-6599', 'IEEE+Wireshark+Nmap', 'Polarity Inc', 'current', NULL, NULL),
   ('8C:1F:64:ED:C', 'Infosoft Digital Design and Services P L', 'MA-S', 'InfosoftDigi', NULL, '2025-11-25', '484, SECTOR-8 ,IMT MANESER,GURGAONMANESER GURGAON Haryana IN 122050 ', 'IEEE+Wireshark+Nmap', 'Infosoft Digital Design and Services P L', 'current', NULL, NULL),
   ('8C:1F:64:17:8', 'Attack do Brasil Ind Com Apar de Som LTDA', 'MA-S', 'AttackdoBras', 'Audio', '2025-11-22', 'AV AYRTON SENNA DA SILVA, 400 – PQ INDL ZONA OESTE Apucarana Parana BR 86803-570 ', 'IEEE+Wireshark+Nmap', 'Attack do Brasil Ind Com Apar de Som LTDA', 'current', NULL, NULL),
@@ -51762,7 +51852,6 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1F:64:52:8', 'Luxshare Electronic Technology (KunShan) Ltd', 'MA-S', 'LuxshareElec', NULL, '2025-12-22', 'No. 699 Jinshang Road, Jinxi Town, Kunshan City, Jiangsu Province Kunshan  Jiangsu CN 215300 ', 'IEEE+Wireshark+Nmap', 'Luxshare Electronic Technology (KunShan) Ltd', 'current', NULL, NULL),
   ('8C:1F:64:C8:4', 'LUCEOR', 'MA-S', 'Luceor', NULL, '2025-12-26', '3 Rue Michael Faraday Montigny-le-Bretonneux  FR 78180', 'IEEE+Wireshark+Nmap', 'Luceor', 'current', NULL, NULL),
   ('8C:1F:64:25:9', 'SHODEN Co., Ltd.', 'MA-S', 'SHODEN', NULL, '2026-01-07', '365, Sannocho Inage-ku Chiba Chiba JP 2630002 ', 'IEEE+Wireshark+Nmap', 'SHODEN Co., Ltd.', 'current', NULL, NULL),
-  ('8C:1F:64:14:3', 'Chamsys Ltd', 'MA-S', 'ChamSys', 'Industrial', '2026-01-08', 'Unit 5 Adanac Park southampton Hampshire  GB SO16 0BT', 'IEEE+Wireshark+Nmap', 'ChamSys', 'current', NULL, NULL),
   ('8C:1F:64:66:B', 'Currux Vision LLC', 'MA-S', 'CurruxVision', 'Industrial', '2026-01-08', '520 Post Oak Boulevard, Suite 260 Houston TX US 77027 ', 'IEEE+Wireshark+Nmap', 'Currux Vision LLC', 'current', NULL, NULL),
   ('8C:1F:64:13:4', 'LyconSys GmbH & Co.KG', 'MA-S', 'LyconSys', NULL, '2026-01-08', 'Hildegardstr. 12A Bad Nauheim  DE 61231', 'IEEE+Wireshark+Nmap', 'LyconSys GmbH & Co.KG', 'current', NULL, NULL),
   ('8C:1F:64:03:6', 'Photon Counting Systems LLC', 'MA-S', 'PhotonCounti', 'Industrial', '2026-01-14', '950 Danby Road Ithaca NY US 14850', 'IEEE+Wireshark+Nmap', 'Photon Counting Systems LLC', 'current', NULL, NULL),
@@ -51824,16 +51913,13 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1F:64:6F:1', 'alfamation spa', 'MA-S', 'alfamation', NULL, '2026-07-17', 'via cadore 21 lissone mb IT 20851', 'IEEE+Wireshark', 'alfamation spa', 'current', NULL, NULL),
   ('8C:1F:64:F3:8', 'AKSE srl', 'MA-S', 'AKSE', NULL, '2026-07-22', 'Via Aldo Moro 39 Reggio Emilia  IT 42124', 'IEEE+Wireshark', 'AKSE srl', 'current', NULL, NULL),
   ('8C:1F:64:FD:D', 'Atik Cameras Unipessoal, Lda', 'MA-S', 'AtikCamerasU', 'Camera', '2026-07-24', 'Rua Horta de Bacelos N15 Santa Iria de Azoia Lisbon PT 2690-390', 'IEEE+Wireshark', 'Atik Cameras Unipessoal, Lda', 'current', NULL, NULL),
-  ('8C:1F:64:20:F', 'DAVE SRL', 'MA-S', 'Dave', 'IoT', '2026-07-27', 'Via Talponedo 29a Porcia Pordenone IT 33080', 'IEEE+Wireshark', 'DAVE SRL', 'current', NULL, NULL),
   ('8C:1F:64:21:8', 'Symphony Interactive Inc', 'MA-S', 'SymphonyInte', NULL, '2026-07-28', '33 Parkhill Dr Stouffville ON CA L4A2G1', 'IEEE+Wireshark', 'Symphony Interactive Inc', 'current', NULL, NULL),
-  ('8C:1F:64:D0:1', 'Emerson Rosemount Analytical', 'MA-S', 'EmersonRosem', 'Industrial', '2026-08-14', '8200 Market Blvd. Chanhassen  US 55317-9687', 'IEEE+Wireshark', 'Emerson Rosemount Analytical', 'current', NULL, NULL),
+  ('8C:1F:64:20:F', 'DAVE SRL', 'MA-S', 'Dave', 'IoT', '2026-07-27', 'Via Talponedo 29a Porcia Pordenone IT 33080', 'IEEE+Wireshark', 'DAVE SRL', 'current', NULL, NULL),
   ('8C:1F:64:63:7', 'HwaCom Systems Inc.', 'MA-S', 'HwaCom', NULL, '2026-08-18', '11Fl., No.108, Sec. 1, Hsin-Tai-Wu Rd., Hsi-Chih District New Taipei New Taipei TW 221 ', 'IEEE+Wireshark', 'HwaCom Systems Inc.', 'current', NULL, NULL),
+  ('8C:1F:64:D0:1', 'Emerson Rosemount Analytical', 'MA-S', 'EmersonRosem', 'Industrial', '2026-08-14', '8200 Market Blvd. Chanhassen  US 55317-9687', 'IEEE+Wireshark', 'Emerson Rosemount Analytical', 'current', NULL, NULL),
   ('8C:1F:64:CA:A', 'Energom Electronic Kft.', 'MA-S', 'EnergomElect', NULL, '2026-08-24', 'Tavasz u.6. Nagytarcsa  HU 2142', 'IEEE+Wireshark', 'Energom Electronic Kft.', 'current', NULL, NULL),
-  ('70:B3:D5:94:C', 'Intelligrated System LLC', 'MA-S', 'Intelligrate', 'Industrial', '2020-05-28', '7901 Innovation Way Mason OH US 45040-9498', 'IEEE+Wireshark+Nmap', 'Intelligrated System LLC', 'current', NULL, 'Honeywell/Intelligrated | Intelligrated System LLC');
-
--- Batch 104 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('8C:1F:64:85:0', 'Tokyo Denki Gijutsu Kogyo', 'MA-S', 'TokyoDenkiGi', NULL, '2026-08-28', '2-12-2 Nakane Meguro-ku TOKYO JP 1520031', 'IEEE+Wireshark', 'Tokyo Denki Gijutsu Kogyo', 'current', NULL, NULL),
+  ('70:B3:D5:94:C', 'Intelligrated System LLC', 'MA-S', 'Intelligrate', 'Industrial', '2020-05-28', '7901 Innovation Way Mason OH US 45040-9498', 'IEEE+Wireshark+Nmap', 'Intelligrated System LLC', 'current', NULL, 'Honeywell/Intelligrated | Intelligrated System LLC'),
   ('8C:1F:64:D7:5', 'Falling Edge Technology Ltd', 'MA-S', 'FallingEdgeT', NULL, '2026-09-02', 'Hillcroft, 39 High Riding RICHMOND  GB DL10 4NX ', 'IEEE+Wireshark', 'Falling Edge Technology Ltd', 'current', NULL, NULL),
   ('8C:1F:64:44:C', 'Radi International CO., LTD.', 'MA-S', 'RadiInternat', NULL, '2026-09-08', 'No. 25, Ln. 15, Gongxue 3rd St. South Dist. Taichung City TW 402022 ', 'IEEE+Wireshark', 'Radi International CO., LTD.', 'current', NULL, NULL),
   ('8C:1F:64:90:0', 'AUTA COMUNICACIONES SL', 'MA-S', 'AutaComunica', NULL, '2026-09-08', 'CALLE C, 9 POL IND EL OLIVERAL RIBARROJA DEL TURIA VALENCIA ES 46390 ', 'IEEE+Wireshark', 'AUTA COMUNICACIONES SL', 'current', NULL, NULL),
@@ -51843,8 +51929,8 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1F:64:3B:E', 'Adit Innovation Private Limited', 'MA-S', 'AditInnovati', NULL, '2026-09-15', 'D-405 Abhishek-1 Complex Opp. Haripura Bus Stand, Asarwa, Ahmedabad Ahmedabad Gujarat IN 380016 ', 'IEEE+Wireshark', 'Adit Innovation Private Limited', 'current', NULL, NULL),
   ('8C:1F:64:17:3', 'iPronics', 'MA-S', 'iPronics', NULL, '2026-09-22', 'No. 1, Creation 3rd Rd Hsinchu  TW 30077 ', 'IEEE+Wireshark', 'iPronics', 'current', NULL, NULL),
   ('8C:1F:64:D3:6', 'RF Code', 'MA-S', 'RFCode', 'IoT', '2026-09-24', '9229 Waterford Centre Blvd #500 Austin TX US 78758', 'IEEE+Wireshark', 'RF Code Inc', 'current', NULL, NULL),
-  ('8C:1F:64:70:F', 'SUS Corporation', 'MA-S', 'SUS', NULL, '2026-10-01', '6F, S-patio Bldg. 14-25 Minami-cho, Suruga-ku, Shizuoka city, Shizuoka JP 422-8067 ', 'IEEE+Wireshark', 'SUS Corporation', 'current', NULL, NULL),
   ('8C:1F:64:F4:0', 'DORLET SAU', 'MA-S', 'DorletSau', 'Smart Home', '2026-10-05', 'C/ ALBERT EINSTEIN 34, PARQUE TECNOLOGICO DE ALAVA VITORIA - GASTEIZ ALAVA ES 01510 ', 'IEEE+Wireshark', 'DORLET SAU', 'current', NULL, NULL),
+  ('8C:1F:64:70:F', 'SUS Corporation', 'MA-S', 'SUS', NULL, '2026-10-01', '6F, S-patio Bldg. 14-25 Minami-cho, Suruga-ku, Shizuoka city, Shizuoka JP 422-8067 ', 'IEEE+Wireshark', 'SUS Corporation', 'current', NULL, NULL),
   ('8C:1F:64:E3:9', 'Power Electronics Espana, S.L.', 'MA-S', 'PowerElectro', 'Smart Home', '2026-10-12', 'RONDA DEL CAMP DE AVIACIO, NO. 4 CARRASES INDUSTRIAL ESTATE LLÍRIA  Valencia ES 46160  ', 'IEEE+Wireshark', 'Power Electronics Espana, S.L.', 'current', NULL, NULL),
   ('8C:1F:64:FF:1', 'KODENSHI CORP.', 'MA-S', 'Kodenshi', NULL, '2026-10-12', '161,Jyuichi,Makishima UJI KYOTO JP 6110041 ', 'IEEE+Wireshark', 'KODENSHI CORP.', 'current', NULL, NULL),
   ('8C:1F:64:3E:C', 'SPEKTRA Schwingungstechnik und Akustik GmbH Dresden', 'MA-S', 'SPEKTRASchwi', 'Industrial', '2026-10-08', 'Heidelberger Str. 12 Dresden  DE 01189', 'IEEE+Wireshark', 'SPEKTRA Schwingungstechnik und Akustik GmbH Dresden', 'current', NULL, NULL),
@@ -51854,7 +51940,13 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1F:64:A3:D', 'GPHY inc.', 'MA-S', 'GPHY', NULL, '2026-11-05', '2327 boul Versant-Nord suite 290 Québec Québec CA G1N4C2', 'IEEE+Wireshark', 'GPHY inc.', 'current', NULL, NULL),
   ('8C:1F:64:C1:A', 'ViewSonic Corp.', 'MA-S', 'ViewSonic', 'TV', '2023-10-20', '10 Point Drive Brea LA CA US 92821', 'IEEE+Wireshark+Nmap', 'ViewSonic Corp', 'current', NULL, NULL),
   ('8C:1F:64:08:8', 'JTL Systems Ltd.', 'MA-S', 'JTL', NULL, '2026-11-07', '41 Kingfisher Court Newbury Berks GB RG14 5SJ', 'IEEE+Wireshark', 'JTL Systems Ltd.', 'current', NULL, NULL),
-  ('8C:1F:64:4C:6', 'Shengli Technologies', 'MA-S', NULL, NULL, '2026-11-11', '3766 Nanhuan Road, Binjiang Hangzhou  CN 310051 ', 'IEEE', 'Shengli Technologies', 'current', NULL, NULL),
+  ('8C:1F:64:4C:6', 'Shengli Technologies', 'MA-S', 'ShengliTechn', NULL, '2026-11-11', '3766 Nanhuan Road, Binjiang Hangzhou  CN 310051 ', 'IEEE+Wireshark', 'Shengli Technologies', 'current', NULL, NULL),
+  ('8C:1F:64:B4:B', 'Elsist Srl', 'MA-S', 'Elsist', NULL, '2026-11-13', 'Via G. Brodolini, 15 Casale Monf.to Alessandria IT 15033 ', 'IEEE+Wireshark', 'Elsist Srl', 'current', NULL, NULL),
+  ('8C:1F:64:93:C', 'Konzept Informationssysteme GmbH', 'MA-S', 'KonzeptInfor', NULL, '2026-11-12', 'Am Weiher 13 Meersburg  DE 88709', 'IEEE+Wireshark', 'Konzept Informationssysteme GmbH', 'current', NULL, NULL),
+  ('8C:1F:64:DB:C', 'QHR Mothership LLC', 'MA-S', 'QHRMothershi', NULL, '2026-11-14', '1001 S Main St Kalispell  US 59901', 'IEEE+Wireshark', 'QHR Mothership LLC', 'current', NULL, NULL),
+  ('8C:1F:64:9F:3', 'Vardaan Electronics Industries Pvt. Ltd.', 'MA-S', NULL, NULL, '2026-11-19', 'A-184, Sector-63, Noida, Uttar Pradesh - 201301 Noida Uttar Pradesh IN 201301 ', 'IEEE', 'Vardaan Electronics Industries Pvt. Ltd.', 'current', NULL, NULL),
+  ('8C:1F:64:F0:0', 'GVision Italia S.r.l.', 'MA-S', NULL, NULL, '2026-11-19', 'Via Prealpi 13 Giussano MB IT 20833', 'IEEE', 'GVision Italia S.r.l.', 'current', NULL, NULL),
+  ('8C:1F:64:14:3', 'Chamsys Ltd', 'MA-S', 'ChamSys', 'Industrial', '2026-01-08', 'Unit 5 Adanac Park southampton Hampshire  GB SO16 0BT', 'IEEE+Wireshark+Nmap', 'Chamsys Ltd', 'current', NULL, 'ChamSys | Chamsys Ltd'),
   ('8C:1F:64:82:B', 'Flow Power', 'MA-S', 'FlowPower', NULL, '2023-07-14', 'Suite 2, Level 3, 18 - 20 York St Sydney  AU 2000 ', 'IEEE+Wireshark+Nmap', 'Flow Power', 'current', NULL, NULL),
   ('8C:1F:64:5A:7', 'RCH SPA', 'MA-S', 'Rch', 'IoT', '2023-07-06', 'Via Cendon 39 Silea  IT 31057', 'IEEE+Wireshark+Nmap', 'RCH SPA', 'current', NULL, NULL),
   ('8C:1F:64:04:9', 'NUANCES ORG', 'MA-S', 'NuancesOrg', NULL, '2023-07-08', '92 AVENUE DE WAGRAM PARIS  FR 75017', 'IEEE+Wireshark+Nmap', 'NUANCES ORG', 'current', NULL, NULL),
@@ -52240,7 +52332,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:F0:E', 'TextSpeak Corporation', 'MA-S', 'TextSpeak', 'Medical', '2020-03-14', '55 Greensfarm RD 2nd Flr 200-69 Westport CT US 06880', 'IEEE+Wireshark+Nmap', 'TextSpeak Corporation', 'current', NULL, NULL),
   ('70:B3:D5:AD:3', 'WARECUBE,INC', 'MA-S', 'Warecube', NULL, '2020-03-06', '#A-811, 142-10, Saneop-ro, 156beon-gil, Gwonseon-gu Suwon-si  KR 16648 ', 'IEEE+Wireshark+Nmap', 'WARECUBE,INC', 'current', NULL, NULL),
   ('70:B3:D5:FC:3', 'myUpTech AB', 'MA-S', 'myUpTech', NULL, '2020-03-06', 'Box 14 Markaryd  SE 28532', 'IEEE+Wireshark+Nmap', 'myUpTech AB', 'current', NULL, NULL),
-  ('70:B3:D5:30:A', 'HongSeok Ltd.', 'MA-S', 'HongSeok', NULL, '2020-03-20', '166, Osan-ro, Osan-myeon Iksan-si Jeollabuk-do KR 54670 ', 'IEEE+Wireshark+Nmap', 'HongSeok Ltd.', 'current', NULL, NULL),
+  ('70:B3:D5:30:A', 'HongSeok Ltd.', 'MA-S', 'HongSeok', NULL, '2020-03-20', '166, Osan-ro, Osan-myeon Iksan-si Jeollabuk-do KR 54670 ', 'IEEE+Wireshark+Nmap', 'HongSeok Ltd.', 'current', NULL, NULL);
+
+-- Batch 105 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('70:B3:D5:6D:B', 'Techimp - Altanova group Srl', 'MA-S', 'TechimpAltan', 'Industrial', '2020-03-13', 'via Toscana 11/C Zola Predosa Bologna IT 40069', 'IEEE+Wireshark+Nmap', 'Techimp - Altanova group Srl', 'current', NULL, NULL),
   ('70:B3:D5:C7:2', 'Scharco Elektronik GmbH', 'MA-S', 'ScharcoElekt', NULL, '2020-03-06', 'Tilsiter Strasse 8 Wuppertal NRW DE 42277', 'IEEE+Wireshark+Nmap', 'Scharco Elektronik GmbH', 'current', NULL, NULL),
   ('70:B3:D5:78:D', 'AVL DiTEST GmbH', 'MA-S', 'AVLDiTEST', 'Industrial', '2020-03-06', 'Alte Poststrasse 156 Graz  AT 8020', 'IEEE+Wireshark+Nmap', 'AVL DiTEST GmbH', 'current', NULL, NULL),
@@ -52332,10 +52427,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:10:1', 'Adolf Nissen Elektrobau GmbH + Co. KG', 'MA-S', 'AdolfNissenE', 'Industrial', '2019-06-27', 'Friedrichstädter Chaussee 4 Tönning  DE 25832', 'IEEE+Wireshark+Nmap', 'Adolf Nissen Elektrobau GmbH + Co. KG', 'current', NULL, NULL),
   ('70:B3:D5:6B:C', 'EA Elektroautomatik GmbH & Co. KG', 'MA-S', 'EAElektroaut', 'Industrial', '2019-06-27', 'Helmholtzstraße 31-33 Viersen NRW DE 41747', 'IEEE+Wireshark+Nmap', 'EA Elektroautomatik GmbH & Co. KG', 'current', NULL, NULL),
   ('70:B3:D5:D3:9', 'ASHIDA Electronics Pvt. Ltd', 'MA-S', 'ASHIDAElectr', NULL, '2019-06-11', 'ASHIDA House Plot No A308 Road No. 21 Wagle Ind. Estate Thane Maharashtra IN 400604', 'IEEE+Wireshark+Nmap', 'ASHIDA Electronics Pvt. Ltd', 'current', NULL, NULL),
-  ('70:B3:D5:F0:A', 'Neuronal Innovation Control S.L.', 'MA-S', 'NeuronalInno', NULL, '2019-06-11', 'Anade Real 11 Oleiros A Coruna ES 15179', 'IEEE+Wireshark+Nmap', 'Neuronal Innovation Control S.L.', 'current', NULL, 'Neuyronal Innovation Control S.L. | Neuronal Innovation Control S.L.');
-
--- Batch 105 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('70:B3:D5:F0:A', 'Neuronal Innovation Control S.L.', 'MA-S', 'NeuronalInno', NULL, '2019-06-11', 'Anade Real 11 Oleiros A Coruna ES 15179', 'IEEE+Wireshark+Nmap', 'Neuronal Innovation Control S.L.', 'current', NULL, 'Neuyronal Innovation Control S.L. | Neuronal Innovation Control S.L.'),
   ('70:B3:D5:21:9', 'D-E-K GmbH & Co.KG', 'MA-S', 'DEK', NULL, '2019-06-26', 'Südfeld 9 Ascheberg / Herbern  DE 58387', 'IEEE+Wireshark+Nmap', 'D-E-K GmbH & Co.KG', 'current', NULL, NULL),
   ('70:B3:D5:B4:F', 'AvMap srlu', 'MA-S', 'AvMapsrlu', 'Automotive', '2019-06-20', 'Viale Zaccagna 6 Carrara  IT 54033', 'IEEE+Wireshark+Nmap', 'AvMap srlu', 'current', NULL, NULL),
   ('70:B3:D5:BB:B', 'YUYAMA MFG Co.,Ltd', 'MA-S', 'YUYAMAMFG', 'Medical', '2019-06-22', '3-3-1 TOYONAKASHI OSAKA JP 561-0841', 'IEEE+Wireshark+Nmap', 'YUYAMA MFG Co.,Ltd', 'current', NULL, NULL),
@@ -52743,7 +52835,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:EE:1', 'allora Factory BVBA', 'MA-S', 'alloraFactor', NULL, '2016-02-21', 'Lijsterlaan 11 Bornem  BE 2880', 'IEEE+Wireshark+Nmap', 'allora Factory BVBA', 'current', NULL, NULL),
   ('70:B3:D5:0B:9', 'Easy Digital Concept', 'MA-S', 'EasyDigitalC', NULL, '2016-02-21', '1 avenue Girardot Montmorency  FR 95160', 'IEEE+Wireshark+Nmap', 'Easy Digital Concept', 'current', NULL, NULL),
   ('70:B3:D5:28:B', 'Arnouse Digital Devices Corp', 'MA-S', 'ArnouseDigit', NULL, '2016-02-21', '1983 Marcus Ave., Suite 104 Lake Success null US 11042 ', 'IEEE+Wireshark+Nmap', 'Arnouse Digital Devices, Corp.', 'current', NULL, NULL),
-  ('70:B3:D5:3A:9', 'Vivalnk', 'MA-S', 'Vivalnk', NULL, '2016-02-21', '4655 Old Ironsides Dr, #390 Santa Clara CA US 95054 ', 'IEEE+Wireshark+Nmap', 'Vivalnk', 'current', NULL, NULL),
+  ('70:B3:D5:3A:9', 'Vivalnk', 'MA-S', 'Vivalnk', NULL, '2016-02-21', '4655 Old Ironsides Dr, #390 Santa Clara CA US 95054 ', 'IEEE+Wireshark+Nmap', 'Vivalnk', 'current', NULL, NULL);
+
+-- Batch 106 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('70:B3:D5:2E:7', 'Atos spa', 'MA-S', 'Atos', NULL, '2016-02-21', 'Via alla Piana 57 Sesto Calende Varese IT 21018', 'IEEE+Wireshark+Nmap', 'Atos spa', 'current', NULL, NULL),
   ('70:B3:D5:77:2', 'enModus', 'MA-S', 'enModus', 'Router', '2016-02-21', 'Cas-Gwent Chambers, Welsh Street Chepstow Monmouthshire GB NP165X ', 'IEEE+Wireshark+Nmap', 'enModus', 'current', NULL, NULL),
   ('70:B3:D5:39:2', 'Contec Americas Inc.', 'MA-S', 'ContecAmeric', NULL, '2016-01-10', '3991 Sarno Rd Melbourne FL US 32934', 'IEEE+Wireshark+Nmap', 'Contec Americas Inc.', 'current', NULL, 'Contec DTx | Contec Americas Inc.'),
@@ -52835,10 +52930,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:20:E', 'Amrehn & Partner EDV-Service GmbH', 'MA-S', 'AmrehnPartne', NULL, '2014-11-16', 'Friedrich-König-Straße 11 Waldbüttelbrunn Bayern DE 97297', 'IEEE+Wireshark+Nmap', 'Amrehn & Partner EDV-Service GmbH', 'current', NULL, NULL),
   ('70:B3:D5:79:E', 'CW2. Gmbh & Co. KG', 'MA-S', 'CW2', NULL, '2014-11-16', 'Tübinger Straße 43 Stuttgart Baden-Württemberg DE 70178', 'IEEE+Wireshark+Nmap', 'CW2. Gmbh & Co. KG', 'current', NULL, NULL),
   ('70:B3:D5:34:1', 'Vtron Pty Ltd', 'MA-S', 'Vtron', 'IoT', '2014-11-16', 'Unit 2, 62 Township Drive West West Burleigh Queensland AU 4219 ', 'IEEE+Wireshark+Nmap', 'Vtron Pty Ltd', 'current', NULL, NULL),
-  ('70:B3:D5:F5:A', 'HAMEG GmbH', 'MA-S', 'HAMEG', 'Industrial', '2014-11-16', 'Industriestr. 6 Mainhausen Hessen DE 63533', 'IEEE+Wireshark+Nmap', 'HAMEG GmbH', 'current', NULL, NULL);
-
--- Batch 106 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('70:B3:D5:F5:A', 'HAMEG GmbH', 'MA-S', 'HAMEG', 'Industrial', '2014-11-16', 'Industriestr. 6 Mainhausen Hessen DE 63533', 'IEEE+Wireshark+Nmap', 'HAMEG GmbH', 'current', NULL, NULL),
   ('70:B3:D5:79:9', 'Vitec System Engineering Inc.', 'MA-S', 'VitecSystemE', 'Smart Home', '2014-11-16', '1-2-5 Shinagawa-ku Tokyo JP 140-0002', 'IEEE+Wireshark+Nmap', 'Vitec System Engineering Inc.', 'current', NULL, NULL),
   ('70:B3:D5:91:7', 'KSJ Co.Ltd', 'MA-S', 'KSJ', NULL, '2014-11-02', 'Address 4F Kurosu Bldg. Nakano-ku Tokyo JP 1640012', 'IEEE+Wireshark+Nmap', 'KSJ Co.Ltd', 'current', NULL, NULL),
   ('70:B3:D5:E2:3', 'Smith Meter, Inc.', 'MA-S', 'SmithMeter', NULL, '2014-11-02', '1602 Wagner Ave. Erie PA US 16510', 'IEEE+Wireshark+Nmap', 'Smith Meter, Inc.', 'current', NULL, NULL),
@@ -53246,7 +53338,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1F:64:5A:D', 'Takahata Precision', 'MA-S', 'TAKAHATAPREC', NULL, '2026-04-21', 'Nishi-Shinjuku, Shinjuku-ku, Tokyo 3-9-12  Building 9F Nishi-Shinjuku   JP 160-0023 ', 'IEEE+Wireshark', 'TAKAHATA PRECISION Co., LTD.', 'current', NULL, NULL),
   ('8C:1F:64:3A:5', 'TECHMOVERS SYSTEMS INDIA LIMITED', 'MA-S', 'TechmoversIn', NULL, '2026-04-21', 'Unit no 327, 3rd floor, Bussa Industrial Estate, Behind Century Bazar, Prabhadevi Mumbai Maharashtra IN 400025 ', 'IEEE+Wireshark', 'TECHMOVERS SYSTEMS INDIA LIMITED', 'current', NULL, NULL),
   ('8C:1F:64:2F:6', 'Aether Energy Alliance LLC', 'MA-S', 'AetherEnergy', 'Industrial', '2026-04-30', '353 Orchard Dale Drive  Clear Brook VA US 22624', 'IEEE+Wireshark', 'Aether Energy Alliance LLC', 'current', NULL, NULL),
-  ('8C:1F:64:61:4', 'Instawork', 'MA-S', 'Instawork', NULL, '2026-04-30', '55 Hawthorne Street San Francisco CA US 94105', 'IEEE+Wireshark', 'Instawork', 'current', NULL, NULL),
+  ('8C:1F:64:61:4', 'Instawork', 'MA-S', 'Instawork', NULL, '2026-04-30', '55 Hawthorne Street San Francisco CA US 94105', 'IEEE+Wireshark', 'Instawork', 'current', NULL, NULL);
+
+-- Batch 107 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('8C:1F:64:58:A', 'Wacebo Europe Srl', 'MA-S', 'WaceboEurope', 'TV', '2026-04-30', 'viale Gianluigi Bonelli, 40 Roma Roma IT 00127 ', 'IEEE+Wireshark', 'Wacebo Europe Srl', 'current', NULL, NULL),
   ('8C:1F:64:84:B', 'Unlimited Bandwidth LLC', 'MA-S', 'UnlimitedBan', NULL, '2026-05-05', '1320 W. Northwest Highway Palatine  US 60067', 'IEEE+Wireshark', 'Unlimited Bandwidth LLC', 'current', NULL, NULL),
   ('8C:1F:64:93:0', 'Wuhan HYAIEV (华异) Technology Co., Ltd', 'MA-S', 'HYAIEVTechno', NULL, '2026-05-11', 'Room 102, R&D Unit 1, Floors 1-2, Unit 2, Building C8, Rongke Zhigu Industrial Project(Phase  Ⅲ), Liqiao Village, Hongshan District, Wuhan City Wuhan  CN 430000 ', 'IEEE+Wireshark', 'Wuhan HYAIEV (华异) Technology Co., Ltd', 'current', NULL, 'Wuhan HYAIEV Technology Co., Ltd. | Wuhan HYAIEV (华异) Technology Co., Ltd'),
@@ -53274,28 +53369,28 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1F:64:A5:2', 'TIAMA', 'MA-S', 'Tiama', 'Industrial', '2026-07-16', '215 Chemin du Grand Revoyet Saint-Genis Laval Auvergne Rhone Alpes FR 69230', 'IEEE+Wireshark', 'TIAMA', 'current', NULL, NULL),
   ('8C:1F:64:25:D', 'mpsonic', 'MA-S', 'mpsonic', NULL, '2026-07-20', '301, Bupyeong-daero, Bupyeong-gu, Incheon (Cheongcheon-dong, Namgwang Centrex) , Room 307 mpsonic Bupyeong-gu InCheon KR 21315 ', 'IEEE+Wireshark', 'mpsonic', 'current', NULL, NULL),
   ('8C:1F:64:47:7', 'Syndora Alto Technology Limited', 'MA-S', 'SyndoraAltoT', 'Medical', '2024-08-20', 'Unit 11 Galena Close Tamworth Staffordshire GB B77 4AS', 'IEEE+Wireshark+Nmap', 'Syndora Alto Technology Limited', 'current', NULL, 'Blaucomm Ltd | Syndora Alto Technology Limited'),
-  ('8C:1F:64:EE:C', 'Lumenir Inc.', 'MA-S', 'Lumenir', NULL, '2026-07-21', '710 Lakeway Drive Suite 270 Sunnyvale CA US 94085', 'IEEE+Wireshark', 'Lumenir Inc.', 'current', NULL, NULL),
   ('8C:1F:64:1A:4', 'Beijing Qinghong Chuangzhi Technology Co.,Ltd.', 'MA-S', 'QinghongChua', NULL, '2026-07-24', 'Room 313-5652, Floor 3, Shanshui Building, No. 3 Gulou East Street, Miyun District, Beijing (Cluster Registered) Beijing  CN 101599 ', 'IEEE+Wireshark', 'Beijing Qinghong Chuangzhi Technology Co.,Ltd.', 'current', NULL, NULL),
-  ('8C:1F:64:BD:A', 'Skip Innovations, Inc', 'MA-S', 'SkipInnovati', 'Automotive', '2026-07-28', '1400 Tennessee St, Unit 1 San Francisco CA US 94107 ', 'IEEE+Wireshark', 'Skip Innovations, Inc', 'current', NULL, NULL),
+  ('8C:1F:64:EE:C', 'Lumenir Inc.', 'MA-S', 'Lumenir', NULL, '2026-07-21', '710 Lakeway Drive Suite 270 Sunnyvale CA US 94085', 'IEEE+Wireshark', 'Lumenir Inc.', 'current', NULL, NULL),
   ('8C:1F:64:B0:7', 'AeroVironment', 'MA-S', 'AeroVironmen', 'IoT', '2026-07-28', '900 Innovators Way Simi Valley CA US 93065', 'IEEE+Wireshark', 'AeroVironment', 'current', NULL, NULL),
-  ('8C:1F:64:B2:E', 'Grossenbacher Systeme AG', 'MA-S', 'Grossenbache', NULL, '2026-08-03', 'Spinnereistrasse 10 St. Gallen  CH 9008', 'IEEE+Wireshark', 'Grossenbacher Systeme AG', 'current', NULL, NULL),
+  ('8C:1F:64:BD:A', 'Skip Innovations, Inc', 'MA-S', 'SkipInnovati', 'Automotive', '2026-07-28', '1400 Tennessee St, Unit 1 San Francisco CA US 94107 ', 'IEEE+Wireshark', 'Skip Innovations, Inc', 'current', NULL, NULL),
   ('8C:1F:64:56:2', 'WOLF Advanced Technology', 'MA-S', 'WOLFAdvanced', NULL, '2026-08-06', '175 Mostar Street, Suite 200 Stouffville Ontario CA L4A 0Y2 ', 'IEEE+Wireshark', 'WOLF Advanced Technology', 'current', NULL, NULL),
+  ('8C:1F:64:B2:E', 'Grossenbacher Systeme AG', 'MA-S', 'Grossenbache', NULL, '2026-08-03', 'Spinnereistrasse 10 St. Gallen  CH 9008', 'IEEE+Wireshark', 'Grossenbacher Systeme AG', 'current', NULL, NULL),
   ('8C:1F:64:F0:1', 'OmniBuds Ltd', 'MA-S', 'OmniBuds', 'Audio', '2026-08-10', '184 Cambridge Science Park Rd Cambridge  GB CB4 0GA', 'IEEE+Wireshark', 'OmniBuds Ltd', 'current', NULL, NULL),
   ('8C:1F:64:95:1', 'Mitsubishi Electric India Pvt. Ltd.', 'MA-S', 'MitsubishiEl', NULL, '2026-08-20', 'Plot No B-3, Talegaon Industrial Area, Phase-II, Badhalwadi MIDC, Talegoan,, Pune Maharashtra IN 410507 ', 'IEEE+Wireshark', 'MITSUBISHI ELECTRIC INDIA PVT. LTD.', 'current', NULL, NULL),
+  ('8C:1F:64:F8:9', 'DIGITALWAN', 'MA-S', 'Digitalwan', NULL, '2026-08-19', '2845 Route de Banon Cavaillon  FR 84300', 'IEEE+Wireshark', 'DIGITALWAN', 'current', NULL, NULL),
   ('8C:1F:64:9F:7', 'Wuxi Tongyuan Electrical Technology Co., Ltd.', 'MA-S', 'WuxiTongyuan', NULL, '2026-08-21', '11-6-2002 Hongyi Road,Xinwu District, Wuxi Jiangsu CN 214000 ', 'IEEE+Wireshark', 'Wuxi Tongyuan Electrical Technology Co., Ltd.', 'current', NULL, NULL),
   ('8C:1F:64:A8:8', 'ResIOT UBLSOFTWARE SRL', 'MA-S', 'ResIOTUBLSOF', NULL, '2026-08-21', 'Ripa di Porta Ticinese, 39 Milano Mi IT 20143 ', 'IEEE+Wireshark', 'ResIOT UBLSOFTWARE SRL', 'current', NULL, NULL),
   ('8C:1F:64:7F:F', 'Potter Electric Signal Co. LLC', 'MA-S', 'PotterElectr', 'Smart Home', '2026-08-23', '5757 Phantom Drive Hazelwood MO US 63042', 'IEEE+Wireshark', 'Potter Electric Signal Company', 'current', NULL, NULL),
-  ('8C:1F:64:F8:9', 'DIGITALWAN', 'MA-S', 'Digitalwan', NULL, '2026-08-19', '2845 Route de Banon Cavaillon  FR 84300', 'IEEE+Wireshark', 'DIGITALWAN', 'current', NULL, NULL),
+  ('8C:1F:64:E5:F', 'INVENTIA Sp. z o.o.', 'MA-S', 'INVENTIASp', NULL, '2026-08-25', 'Poleczki 23 Warszawa Mazowieckie PL 02-822', 'IEEE+Wireshark', 'INVENTIA Sp. z o.o.', 'current', NULL, NULL),
   ('8C:1F:64:FA:1', 'M/S MILIND RAMACHANDRA RAJWADE', 'MA-S', 'MSMilindRama', NULL, '2026-08-26', '713, Sinhgad Road, P.cast S. No. 39, Manikbaug Industries Wadagaon Budru Pune Maharashtra IN 411051 ', 'IEEE+Wireshark', 'M/S MILIND RAMACHANDRA RAJWADE', 'current', NULL, NULL),
   ('8C:1F:64:6A:2', 'Exatron Servers Manufacturing Pvt Ltd', 'MA-S', 'ExatronServe', 'Smart Home', '2026-08-26', 'Plot No:11(E), KIADB Industrial area, Bashettyhalli, Doddaballapur Bangalore Rural Bangalore Rural Karnataka IN 561203 ', 'IEEE+Wireshark', 'Exatron Servers Manufacturing Pvt Ltd', 'current', NULL, NULL),
-  ('8C:1F:64:E5:F', 'INVENTIA Sp. z o.o.', 'MA-S', 'INVENTIASp', NULL, '2026-08-25', 'Poleczki 23 Warszawa Mazowieckie PL 02-822', 'IEEE+Wireshark', 'INVENTIA Sp. z o.o.', 'current', NULL, NULL),
   ('8C:1F:64:95:0', 'Breas Medical AB', 'MA-S', 'BreasMedical', 'Medical', '2026-08-27', 'Företagsvägen 1 Mölnlycke  SE SE-435 33', 'IEEE+Wireshark', 'Breas Medical AB', 'current', NULL, NULL),
+  ('8C:1F:64:60:4', 'Leaflabs', 'MA-S', 'LeafLabs', NULL, '2026-09-03', '1280 Cambridge St Cambridge MA US 02139', 'IEEE+Wireshark', 'LeafLabs, LLC', 'current', NULL, NULL),
   ('8C:1F:64:7B:F', 'Drs RADA Technologies', 'MA-S', 'DrsRADATechn', 'Camera', '2026-09-02', '7 Gibory Israel  Netanya   IL 42504', 'IEEE+Wireshark', 'Drs RADA Technologies', 'current', NULL, NULL),
   ('8C:1F:64:22:3', 'Loonson Technology Corporation Limited', 'MA-S', 'LoonsonTechn', NULL, '2026-09-03', 'Building 2, Loongson Industrial Park, Zhongguancun Environmental Protection Science and Technology Demonstration Park, Daoxianghu Road, Haidian District, Beijing Beijing  CN 100142 ', 'IEEE+Wireshark', 'Loonson Technology Corporation Limited', 'current', NULL, NULL),
-  ('8C:1F:64:60:4', 'Leaflabs', 'MA-S', 'LeafLabs', NULL, '2026-09-03', '1280 Cambridge St Cambridge MA US 02139', 'IEEE+Wireshark', 'LeafLabs, LLC', 'current', NULL, NULL),
   ('8C:1F:64:0A:1', 'Televic Rail GmbH', 'MA-S', 'TelevicRail', 'Automotive', '2026-09-02', 'Teltowkanalstr.1 Berlin  DE 12247', 'IEEE+Wireshark', 'Televic Rail GmbH', 'current', NULL, NULL),
-  ('8C:1F:64:37:3', 'Pin Kuan Technology Co., Ltd.', 'MA-S', 'PinKuanTechn', NULL, '2026-09-08', '1F., No. 22, Ln. 399, Fenglin St., Daya Dist.,  Taichung City  TW 428009 ', 'IEEE+Wireshark', 'Pin Kuan Technology Co., Ltd.', 'current', NULL, NULL),
   ('8C:1F:64:FB:8', 'Abbott', 'MA-S', 'AbbottDiagno', 'Medical', '2026-09-10', 'P. O.  Box 6863 Rodeløkka Oslo Oslo NO 0504', 'IEEE+Wireshark', 'Abbott Diagnostics Technologies AS', 'current', NULL, NULL),
+  ('8C:1F:64:37:3', 'Pin Kuan Technology Co., Ltd.', 'MA-S', 'PinKuanTechn', NULL, '2026-09-08', '1F., No. 22, Ln. 399, Fenglin St., Daya Dist.,  Taichung City  TW 428009 ', 'IEEE+Wireshark', 'Pin Kuan Technology Co., Ltd.', 'current', NULL, NULL),
   ('8C:1F:64:5E:0', 'Everest Audio Labs', 'MA-S', 'EverestAudio', 'Automotive', '2026-09-12', 'Naddnieprzańska 31G Warszawa   PL 04-205', 'IEEE+Wireshark', 'Everest Audio Labs', 'current', NULL, 'Audio Video Show Sp. z o.o. | Everest Audio Labs'),
   ('8C:1F:64:F5:8', 'Mega Endustri Kontrol Sis.Tic.San.A.S', 'MA-S', 'MegaEndustri', NULL, '2026-09-17', 'Yaşamkent Mahallesi 3206. Sokak No:3 Çankaya/ANKARA ANKARA  TR 06810', 'IEEE+Wireshark', 'Mega Endustri Kontrol Sis.Tic.San.A.S', 'current', NULL, NULL),
   ('8C:1F:64:F7:E', 'Suzhou Deyi Automotive Electronics Co., Ltd.', 'MA-S', 'SuzhouDeyiAu', NULL, '2026-09-16', 'Room 408, Building 3, Songqiao Advanced Intelligent Manufacturing Industrial Park,    No. 39 Anzhi Street,   Suzhou Industrial Park, Jiangsu Suzhou Jiangsu CN 215200 ', 'IEEE+Wireshark', 'Suzhou Deyi Automotive Electronics Co., Ltd.', 'current', NULL, 'Suzhou Deyi Automotive Electronice Co., Ltd. | Suzhou Deyi Automotive Electronics Co., Ltd.'),
@@ -53309,14 +53404,16 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1F:64:9B:0', 'Karman', 'MA-S', 'Karman', NULL, '2026-10-14', '2350 Green Rd. Suite 100C Ann Arbor MI US 48105', 'IEEE+Wireshark', 'Karman', 'current', NULL, NULL),
   ('8C:1F:64:C4:7', 'Season Electronics Ltd', 'MA-S', 'SeasonElectr', NULL, '2026-10-20', '600 Nest Business Park  Havant Hampshire GB PO9 5TL', 'IEEE+Wireshark', 'Season Electronics Ltd', 'current', NULL, NULL),
   ('8C:1F:64:9E:D', 'Sotech Development Pvt. Ltd.', 'MA-S', 'SotechDevelo', NULL, '2026-10-27', 'Ramky Selenium, Wing B, 3rd Floor, Plot No 31 & 32 Financial District, Nanakramguda Gachibowli Hyderabad Telangana IN 500032 ', 'IEEE+Wireshark', 'Sotech Development Pvt. Ltd.', 'current', NULL, NULL),
+  ('8C:1F:64:62:E', 'ViewSonic Corp.', 'MA-S', 'ViewSonic', 'TV', '2023-12-14', '10 Point Drive Brea LA CA US 92821', 'IEEE+Wireshark+Nmap', 'ViewSonic Corp', 'current', NULL, NULL),
   ('8C:1F:64:E6:C', 'Fuse Energy', 'MA-S', 'FuseEnergy', NULL, '2026-10-28', 'One Bank Street London  GB E14 4SG', 'IEEE+Wireshark', 'Fuse Energy', 'current', NULL, NULL),
   ('8C:1F:64:68:A', 'PCN Co., Ltd.', 'MA-S', 'PCN', NULL, '2026-11-04', 'Cornerone Smart Tower Room 312-313, 131 Dongtan Yeongchen-ro Hwaseong-si Gyeonggi-do KR 18467 ', 'IEEE+Wireshark', 'PCN Co., Ltd.', 'current', NULL, NULL),
   ('8C:1F:64:46:E', 'Optima Engineering INC.', 'MA-S', 'OptimaEngine', 'Smart Home', '2026-11-04', 'Baskent Organize Sanayi Bolgesi 19.Cadde NO:62 Malikoy-Sincan Ankara  TR 06909', 'IEEE+Wireshark', 'Optima Engineering INC.', 'current', NULL, NULL),
   ('8C:1F:64:EF:6', 'UNCOMMON GROUP INC', 'MA-S', 'UncommonGrou', NULL, '2026-11-03', '562-Dongnamro Gangdong-gu Seoul KR 05357', 'IEEE+Wireshark', 'UNCOMMON GROUP INC', 'current', NULL, NULL),
-  ('8C:1F:64:62:E', 'ViewSonic Corp.', 'MA-S', 'ViewSonic', 'TV', '2023-12-14', '10 Point Drive Brea LA CA US 92821', 'IEEE+Wireshark+Nmap', 'ViewSonic Corp', 'current', NULL, NULL),
   ('8C:1F:64:85:D', 'Subsea Data Systems', 'MA-S', 'SubseaData', NULL, '2026-11-03', 'PO Box 2188 Rockville MD US 20847', 'IEEE+Wireshark', 'Subsea Data Systems', 'current', NULL, NULL),
-  ('8C:1F:64:33:E', 'SCANMEG', 'MA-S', NULL, NULL, '2026-11-11', '3517 Boulevard de la Grande-Allee Boisbriand Quebec CA J7H 1H5', 'IEEE', 'SCANMEG', 'current', NULL, NULL),
-  ('8C:1F:64:87:4', 'Gentec', 'MA-S', NULL, NULL, '2026-11-11', '2625 avenue Dalton Quebec QC CA G1P 3S9', 'IEEE', 'Gentec inc.', 'current', NULL, NULL),
+  ('8C:1F:64:33:E', 'SCANMEG', 'MA-S', 'Scanmeg', NULL, '2026-11-11', '3517 Boulevard de la Grande-Allee Boisbriand Quebec CA J7H 1H5', 'IEEE+Wireshark', 'SCANMEG', 'current', NULL, NULL),
+  ('8C:1F:64:87:4', 'Gentec', 'MA-S', 'Gentec', NULL, '2026-11-11', '2625 avenue Dalton Quebec QC CA G1P 3S9', 'IEEE+Wireshark', 'Gentec inc.', 'current', NULL, NULL),
+  ('8C:1F:64:54:5', 'Open Radio Systems GmbH', 'MA-S', 'OpenRadio', NULL, '2026-11-13', 'Hilpertstraße 31 Darmstadt  DE 64295', 'IEEE+Wireshark', 'Open Radio Systems GmbH', 'current', NULL, NULL),
+  ('8C:1F:64:46:3', 'Potter Electric Signal Co. LLC', 'MA-S', NULL, 'Smart Home', '2026-11-16', '5757 Phantom Drive Hazelwood MO US 63042', 'IEEE', 'Potter Electric Signal Company', 'current', NULL, NULL),
   ('8C:1F:64:D6:3', 'Mobileye', 'MA-S', 'Mobileye', NULL, '2023-07-20', '13 Hartom st. Jerusalem  IL 91450', 'IEEE+Wireshark+Nmap', 'Mobileye', 'current', NULL, NULL),
   ('8C:1F:64:3C:8', 'BTG Instruments AB', 'MA-S', 'BTGInstrumen', NULL, '2023-07-06', 'Industrigatan 1-3 Saffle Varmland SE 66132', 'IEEE+Wireshark+Nmap', 'BTG Instruments AB', 'current', NULL, NULL),
   ('70:B3:D5:90:E', 'Maytronics Ltd.', 'MA-S', 'Maytronics', 'Smart Home', '2018-01-14', 'Kibbutz Yizrael Kibbutz Yizrael  IL 1935000', 'IEEE+Wireshark+Nmap', 'Maytronics Ltd.', 'current', NULL, 'Private | Maytronics Ltd.'),
@@ -53338,10 +53435,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1F:64:0C:A', 'CLOUD TELECOM Inc.', 'MA-S', 'CLOUDTELECOM', NULL, '2023-05-17', '6F HAT Building,11-8, Nihonbashiodenma-cho  Chuo-ku Tokyo JP 1030011 ', 'IEEE+Wireshark+Nmap', 'CLOUD TELECOM Inc.', 'current', NULL, NULL),
   ('8C:1F:64:2A:8', 'SHALARM SECURITY Co.,LTD', 'MA-S', 'SHALARMSECUR', NULL, '2023-05-27', '8F., No. 588, Tanmei St., Neihu Dist., Taipei City 114044 , Taiwan (R.O.C.) Taipei City   TW 114044 ', 'IEEE+Wireshark+Nmap', 'SHALARM SECURITY Co.,LTD', 'current', NULL, NULL),
   ('8C:1F:64:F9:1', 'Consonance', 'MA-S', 'Consonance', NULL, '2023-05-31', 'Herut Hameyasdim Tel-Mond IL 40691', 'IEEE+Wireshark+Nmap', 'Consonance', 'current', NULL, NULL),
-  ('70:B3:D5:F8:6', 'NxGen Comm LLC', 'MA-S', 'NxGenComm', NULL, '2018-11-02', '630 Davis Drive Suite 250 Morrisville NC US 27560', 'IEEE+Wireshark+Nmap', 'NxGen Comm LLC', 'current', NULL, 'Wireless Systems Solutions LLC | NxGen Comm LLC');
-
--- Batch 107 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('70:B3:D5:F8:6', 'NxGen Comm LLC', 'MA-S', 'NxGenComm', NULL, '2018-11-02', '630 Davis Drive Suite 250 Morrisville NC US 27560', 'IEEE+Wireshark+Nmap', 'NxGen Comm LLC', 'current', NULL, 'Wireless Systems Solutions LLC | NxGen Comm LLC'),
   ('8C:1F:64:8B:8', 'Wien Energie GmbH', 'MA-S', 'WienEnergie', NULL, '2023-05-10', 'Thomas-Klestil-Platz 14 Vienna  AT 1030', 'IEEE+Wireshark+Nmap', 'Wien Energie GmbH', 'current', NULL, NULL),
   ('8C:1F:64:47:6', 'Clair Global Corporation', 'MA-S', 'ClairGlobal', 'Audio', '2023-05-16', '1 Ellen Avenue Lititz PA US 17543', 'IEEE+Wireshark+Nmap', 'Clair Global Corporation', 'current', NULL, NULL),
   ('8C:1F:64:B6:8', 'All-Systems Electronics Pty Ltd', 'MA-S', 'AllElectroni', NULL, '2023-05-02', '16 Hope Street SEVEN HILLS New South Wales AU 2147', 'IEEE+Wireshark+Nmap', 'All-Systems Electronics Pty Ltd', 'current', NULL, NULL),
@@ -53747,7 +53841,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:92:C', 'DISMUNTEL SAL', 'MA-S', 'DismuntelSal', NULL, '2019-06-27', 'Pol ind cotes Algemesi Valencia ES 46680', 'IEEE+Wireshark+Nmap', 'DISMUNTEL SAL', 'current', NULL, NULL),
   ('70:B3:D5:F4:B', 'Chengdu Lingya Technology Co., Ltd.', 'MA-S', 'LingyaTechno', NULL, '2019-06-27', '8 Floor, Block A, West City International Phase II, 48 Shuxi Road, Jinniu District Chengdu Sichuan CN 610037 ', 'IEEE+Wireshark+Nmap', 'Chengdu Lingya Technology Co., Ltd.', 'current', NULL, NULL),
   ('70:B3:D5:A6:B', 'xmi systems', 'MA-S', 'xmi', NULL, '2019-06-19', 'Sonnenbergstrasse 7 Hergiswil  CH 6052', 'IEEE+Wireshark+Nmap', 'xmi systems', 'current', NULL, NULL),
-  ('70:B3:D5:6E:3', 'SHEN ZHEN QLS ELECTRONIC TECHNOLOGY CO.,LTD.', 'MA-S', 'ShenZhenQlsE', NULL, '2019-07-04', 'Room A1502, NiuLanQian Building, MinZhi Road, LongHua Town ShenZhen GuangDong CN 518109 ', 'IEEE+Wireshark+Nmap', 'SHEN ZHEN QLS ELECTRONIC TECHNOLOGY CO.,LTD.', 'current', NULL, NULL),
+  ('70:B3:D5:6E:3', 'SHEN ZHEN QLS ELECTRONIC TECHNOLOGY CO.,LTD.', 'MA-S', 'ShenZhenQlsE', NULL, '2019-07-04', 'Room A1502, NiuLanQian Building, MinZhi Road, LongHua Town ShenZhen GuangDong CN 518109 ', 'IEEE+Wireshark+Nmap', 'SHEN ZHEN QLS ELECTRONIC TECHNOLOGY CO.,LTD.', 'current', NULL, NULL);
+
+-- Batch 108 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('70:B3:D5:77:A', 'Tecsag Innovation AG', 'MA-S', 'TecsagInnova', NULL, '2019-06-25', 'Verenastrasse 4b Wollerau  CH 8832', 'IEEE+Wireshark+Nmap', 'Tecsag Innovation AG', 'current', NULL, NULL),
   ('70:B3:D5:55:F', 'Deep BV', 'MA-S', 'Deep', 'Automotive', '2019-07-03', 'Johan van Hasseltweg 39d Amsterdam  NL 1021KN', 'IEEE+Wireshark+Nmap', 'Deep BV', 'current', NULL, NULL),
   ('70:B3:D5:1E:B', 'Xavant', 'MA-S', 'Xavant', 'Medical', '2019-07-09', '309 Derdepoort Rylaan, Silverton Pretoria Gauteng ZA 0181 ', 'IEEE+Wireshark+Nmap', 'Xavant', 'current', NULL, NULL),
@@ -53841,10 +53938,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:0B:5', 'Capgemini Netherlands', 'MA-S', 'CapgeminiNet', NULL, '2018-10-04', 'Reykjavikplein 1 Utrecht  NL 3543KA', 'IEEE+Wireshark+Nmap', 'Capgemini Netherlands', 'current', NULL, NULL),
   ('70:B3:D5:43:E', 'Peloton Technology', 'MA-S', 'PelotonTechn', 'Automotive', '2018-10-04', '1060 La Avenida Mountain View CA US 94043', 'IEEE+Wireshark+Nmap', 'Peloton Technology', 'current', NULL, NULL),
   ('70:B3:D5:24:A', 'Unmukti Technology Pvt Ltd', 'MA-S', 'UnmuktiTechn', NULL, '2018-09-23', '2/288, Vishwas Khand, Gomti Nagar Lucknow Uttar Pradesh IN 226010 ', 'IEEE+Wireshark+Nmap', 'Unmukti Technology Pvt Ltd', 'current', NULL, NULL),
-  ('70:B3:D5:1C:9', 'MB connect line GmbH Fernwartungssysteme', 'MA-S', 'MBconnectlin', 'Industrial', '2018-09-07', 'Winnettener Straße 6 Dinkelsbuehl Bavaria DE 91550', 'IEEE+Wireshark+Nmap', 'MB connect line GmbH Fernwartungssysteme', 'current', NULL, NULL);
-
--- Batch 108 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('70:B3:D5:1C:9', 'MB connect line GmbH Fernwartungssysteme', 'MA-S', 'MBconnectlin', 'Industrial', '2018-09-07', 'Winnettener Straße 6 Dinkelsbuehl Bavaria DE 91550', 'IEEE+Wireshark+Nmap', 'MB connect line GmbH Fernwartungssysteme', 'current', NULL, NULL),
   ('70:B3:D5:57:A', 'Rhythm Engineering, LLC.', 'MA-S', 'RhythmEngine', 'Industrial', '2018-09-07', '11228 Thompson Ave. Lenexa KS US 66219', 'IEEE+Wireshark+Nmap', 'Rhythm Engineering, LLC.', 'current', NULL, NULL),
   ('70:B3:D5:63:8', 'Parkalot Denmark ApS', 'MA-S', 'ParkalotDenm', 'Industrial', '2019-07-01', 'Niels Jernes Vej 12 Aalborg East  DK 9220', 'IEEE+Wireshark+Nmap', 'Parkalot Denmark ApS', 'current', NULL, NULL),
   ('70:B3:D5:54:A', 'Digital Instrument Transformers', 'MA-S', 'DigitalInstr', 'Industrial', '2019-07-01', '26 Bolshaya Vorobyovskaya, off 27 Ivanovo  RU 153000 ', 'IEEE+Wireshark+Nmap', 'Digital Instrument Transformers', 'current', NULL, NULL),
@@ -54250,7 +54344,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:47:0', 'KITRON UAB', 'MA-S', 'KitronUab', NULL, '2015-04-05', 'TAIKOS 151 KAUNAS KAUNAS LT LT-52119', 'IEEE+Wireshark+Nmap', 'KITRON UAB', 'current', NULL, NULL),
   ('70:B3:D5:F1:E', 'ATX Networks Corp', 'MA-S', 'AtxNetworks', NULL, '2015-03-15', 'Halapid 12 st Petach tikva Israel IL 4917001', 'IEEE+Wireshark+Nmap', 'ATX NETWORKS LTD', 'current', NULL, NULL),
   ('70:B3:D5:00:E', 'Magosys Systems LTD', 'MA-S', 'Magosys', NULL, '2015-03-29', 'Gad Feinstein 13 Rehovot  IL 7638517', 'IEEE+Wireshark+Nmap', 'Magosys Systems LTD', 'current', NULL, NULL),
-  ('70:B3:D5:2D:6', 'Kvazar LLC', 'MA-S', 'Kvazar', NULL, '2015-03-29', '200-letiya goroda 2 Noginsk Moscow region RU 142400', 'IEEE+Wireshark+Nmap', 'Kvazar LLC', 'current', NULL, NULL),
+  ('70:B3:D5:2D:6', 'Kvazar LLC', 'MA-S', 'Kvazar', NULL, '2015-03-29', '200-letiya goroda 2 Noginsk Moscow region RU 142400', 'IEEE+Wireshark+Nmap', 'Kvazar LLC', 'current', NULL, NULL);
+
+-- Batch 109 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('70:B3:D5:D2:D', 'Evolute Systems Private Limited', 'MA-S', 'EvolutePriva', NULL, '2015-03-22', 'Sri Rama, 15/6, 3rd Floor Bangalore Karnataka IN 560008 ', 'IEEE+Wireshark+Nmap', 'Evolute Systems Private Limited', 'current', NULL, NULL),
   ('70:B3:D5:F9:3', 'Hella Gutmann Solutions GmbH', 'MA-S', 'HellaGutmann', 'Industrial', '2015-03-22', 'Am Krebsbach 2 Ihringen BW DE 79241', 'IEEE+Wireshark+Nmap', 'Hella Gutmann Solutions GmbH', 'current', NULL, NULL),
   ('70:B3:D5:08:F', 'DEUTA-WERKE GmbH', 'MA-S', 'DEUTAWERKE', 'Automotive', '2015-02-15', 'Paffrather Str. 140 Bergisch Gladbach North Rhine-Westphalia DE 51465', 'IEEE+Wireshark+Nmap', 'DEUTA-WERKE GmbH', 'current', NULL, NULL),
@@ -54344,10 +54441,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('70:B3:D5:A0:E', 'Vetaphone A/S', 'MA-S', 'Vetaphone', 'Industrial', '2014-02-21', 'Fabriksvej 11 Kolding Region syddanmark DK 6000', 'IEEE+Wireshark+Nmap', 'Vetaphone A/S', 'current', NULL, NULL),
   ('70:B3:D5:3A:8', 'JamHub Corp.', 'MA-S', 'JamHub', 'Audio', '2014-02-09', 'One Main Street Whitinsville MA US 01588', 'IEEE+Wireshark+Nmap', 'JamHub Corp.', 'current', NULL, NULL),
   ('70:B3:D5:43:3', 'Flexsolution APS', 'MA-S', 'Flexsolution', NULL, '2014-02-23', 'Østervangsvej 39 Esbjerg N Jylland DK 6715', 'IEEE+Wireshark+Nmap', 'Flexsolution APS', 'current', NULL, NULL),
-  ('70:B3:D5:F3:4', 'MacGray Services', 'MA-S', 'MacGrayServi', NULL, '2014-02-23', '404 Wyman St Waltham MA  02451', 'IEEE+Wireshark+Nmap', 'MacGray Services', 'current', NULL, NULL);
-
--- Batch 109 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('70:B3:D5:F3:4', 'MacGray Services', 'MA-S', 'MacGrayServi', NULL, '2014-02-23', '404 Wyman St Waltham MA  02451', 'IEEE+Wireshark+Nmap', 'MacGray Services', 'current', NULL, NULL),
   ('70:B3:D5:ED:C', 'J.D. Koftinoff Software, Ltd.', 'MA-S', 'JDKoftinoffS', NULL, '2014-01-12', '4-3600 Pleasant Valley Rd. Vernon B.C CA V1T4L6', 'IEEE+Wireshark+Nmap', 'J.D. Koftinoff Software, Ltd.', 'current', NULL, NULL),
   ('70:B3:D5:B3:D', 'Inras GmbH', 'MA-S', 'Inras', 'Camera', '2014-01-12', 'Altenberger Straße 69 Linz Oberösterreich AT A-4040', 'IEEE+Wireshark+Nmap', 'Inras GmbH', 'current', NULL, NULL),
   ('70:B3:D5:13:9', 'Tunstall A/S', 'MA-S', 'Tunstall', 'Medical', '2014-01-12', 'Niels Bohrs vej 42 Stilling Skanderborg DK 8660', 'IEEE+Wireshark+Nmap', 'Tunstall A/S', 'current', NULL, NULL),
@@ -54745,32 +54839,42 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('8C:1F:64:68:2', 'MB connect line GmbH', 'MA-S', 'MBconnectlin', 'Industrial', '2026-08-27', 'Winnettener Strasse 6 Dinkelsbuehl Bavaria DE 91550', 'IEEE+Wireshark', 'MB connect line GmbH', 'current', NULL, NULL),
   ('8C:1F:64:40:F', 'Fuzhou Tucsen Photonics Co.,Ltd', 'MA-S', 'FuzhouTucsen', 'Camera', '2026-09-02', '5# Wanwushe Smart Industrial Park , No.2 Yangqi Branch Rd, Gaishan Town, Cangshan Area, Fuzhou, Fujian,PRC fuzhou  CN 350008 ', 'IEEE+Wireshark', 'Fuzhou Tucsen Photonics Co.,Ltd', 'current', NULL, NULL),
   ('8C:1F:64:B1:2', 'Hongtai Intelligent Technology', 'MA-S', 'HongtaiIntel', NULL, '2026-09-04', 'No. 21 Nanquan Nanhu Road  Binhu District Wuxi City CN 000000', 'IEEE+Wireshark', 'Hongtai Intelligent Technology', 'current', NULL, NULL),
-  ('8C:1F:64:FA:F', 'Goodtech Worldwide LTD ,,mobitel''''', 'MA-S', 'GoodtechWorl', NULL, '2026-09-18', '20-22 Wenlock Road LONDON London GB N1 7GU', 'IEEE+Wireshark', 'Goodtech Worldwide LTD ,,mobitel''''', 'current', NULL, NULL),
   ('8C:1F:64:08:7', 'Benchmark Electronics BV', 'MA-S', 'BenchmarkEle', NULL, '2026-09-12', 'Lelyweg 10 Almelo Overijssel NL 7602 EA', 'IEEE+Wireshark', 'Benchmark Electronics BV', 'current', NULL, NULL),
+  ('8C:1F:64:FA:F', 'Goodtech Worldwide LTD ,,mobitel''''', 'MA-S', 'GoodtechWorl', NULL, '2026-09-18', '20-22 Wenlock Road LONDON London GB N1 7GU', 'IEEE+Wireshark', 'Goodtech Worldwide LTD ,,mobitel''''', 'current', NULL, NULL),
   ('8C:1F:64:DA:2', 'Ascon Tecnologic S.r.l.', 'MA-S', 'AsconTecnolo', NULL, '2026-09-16', 'via Indipendenza, 56 Vigevano PV IT 27029 ', 'IEEE+Wireshark', 'Ascon Tecnologic S.r.l.', 'current', NULL, NULL),
-  ('8C:1F:64:0F:8', 'INVENTIS S.r.l.', 'MA-S', 'INVENTIS', 'Medical', '2026-09-25', 'Via Austria, 38 Padova Padua IT 35127 ', 'IEEE+Wireshark', 'INVENTIS S.r.l.', 'current', NULL, NULL),
   ('8C:1F:64:A9:3', 'eSmart Tech Inc', 'MA-S', 'eSmartTech', NULL, '2026-09-24', '16835 W Bernardo Dr., Suite 205 San Diego CA US 92127 ', 'IEEE+Wireshark', 'eSmart Tech Inc', 'current', NULL, NULL),
-  ('8C:1F:64:34:6', 'Sin Yi Integration Co., Ltd.', 'MA-S', 'SinYiIntegra', NULL, '2026-10-05', '1F., No. 13, Ln. 610, Nuannuan St., Nuannuan Dist. Keelung City Taiwan TW 205007 ', 'IEEE+Wireshark', 'Sin Yi Integration Co., Ltd.', 'current', NULL, NULL),
+  ('8C:1F:64:0F:8', 'INVENTIS S.r.l.', 'MA-S', 'INVENTIS', 'Medical', '2026-09-25', 'Via Austria, 38 Padova Padua IT 35127 ', 'IEEE+Wireshark', 'INVENTIS S.r.l.', 'current', NULL, NULL),
   ('8C:1F:64:18:9', 'HERUTU ELECTRONICS CORPORATION', 'MA-S', 'HerutuElectr', NULL, '2026-10-08', '422-1 Higashimikata-cho, Chuo-ku Hamamatsu Shizuoka JP 433-8104 ', 'IEEE+Wireshark', 'HERUTU ELECTRONICS CORPORATION', 'current', NULL, NULL),
+  ('8C:1F:64:34:6', 'Sin Yi Integration Co., Ltd.', 'MA-S', 'SinYiIntegra', NULL, '2026-10-05', '1F., No. 13, Ln. 610, Nuannuan St., Nuannuan Dist. Keelung City Taiwan TW 205007 ', 'IEEE+Wireshark', 'Sin Yi Integration Co., Ltd.', 'current', NULL, NULL),
   ('8C:1F:64:A6:8', 'AvMap srlu', 'MA-S', 'AvMapsrlu', 'Automotive', '2026-10-08', 'Viale Zaccagna 6 Carrara  IT 54033', 'IEEE+Wireshark', 'AvMap srlu', 'current', NULL, NULL),
+  ('8C:1F:64:B4:D', 'OTODO', 'MA-S', 'Otodo', NULL, '2026-10-15', 'OTODO 24 rue du Gouverneur General Eboue Issy les Moulineaux Ile de France FR 92130', 'IEEE+Wireshark', 'OTODO', 'current', NULL, NULL);
+
+-- Batch 110 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('8C:1F:64:3F:0', 'Supracontrol d.o.o.', 'MA-S', 'Supracontrol', NULL, '2026-10-15', 'Savica I. 123 Zagreb  HR 10000', 'IEEE+Wireshark', 'Supracontrol d.o.o.', 'current', NULL, NULL),
-  ('8C:1F:64:B4:D', 'OTODO', 'MA-S', 'Otodo', NULL, '2026-10-15', 'OTODO 24 rue du Gouverneur General Eboue Issy les Moulineaux Ile de France FR 92130', 'IEEE+Wireshark', 'OTODO', 'current', NULL, NULL),
+  ('8C:1F:64:EA:3', 'Newtouch Electronics (Shanghai) Co., LTD.', 'MA-S', 'NewtouchElec', NULL, '2026-10-24', 'No.489 Songtao Road, Building B, Gate C, Pudong New Area Shanghai  CN 200120 ', 'IEEE+Wireshark', 'Newtouch Electronics (Shanghai) Co., LTD.', 'current', NULL, NULL),
   ('8C:1F:64:5B:B', 'Powell Electronics Inc.', 'MA-S', 'PowellElectr', NULL, '2026-10-21', '200 Commodore Dr Swedesboro NJ US 08085', 'IEEE+Wireshark', 'Powell Electronics Inc.', 'current', NULL, NULL),
   ('8C:1F:64:86:0', 'Gogo BA', 'MA-S', 'GogoBA', 'Automotive', '2026-10-18', '105 Edgeview Drive Broomfield CO US 80021', 'IEEE+Wireshark', 'Gogo BA', 'current', NULL, NULL),
   ('8C:1F:64:67:9', 'Guangdong Gospower Electric Technology Co., Ltd.', 'MA-S', 'GospowerElec', NULL, '2026-10-24', 'No.10, Xingda Road, Songshan Lake Zone dongguan guangdong CN 523000 ', 'IEEE+Wireshark', 'Guangdong Gospower Electric Technology Co., Ltd.', 'current', NULL, NULL),
   ('8C:1F:64:95:F', 'INVIXIUM ACCESS INC', 'MA-S', 'InvixiumAcce', 'Smart Home', '2026-10-24', '111 Gordon Baker Road, Suite #300 Toronto Ontario CA M2H 3R1 ', 'IEEE+Wireshark', 'INVIXIUM ACCESS INC', 'current', NULL, NULL),
-  ('8C:1F:64:EA:3', 'Newtouch Electronics (Shanghai) Co., LTD.', 'MA-S', 'NewtouchElec', NULL, '2026-10-24', 'No.489 Songtao Road, Building B, Gate C, Pudong New Area Shanghai  CN 200120 ', 'IEEE+Wireshark', 'Newtouch Electronics (Shanghai) Co., LTD.', 'current', NULL, NULL),
   ('8C:1F:64:AD:D', 'Intermobility', 'MA-S', 'Intermobilit', NULL, '2026-10-27', '#711, Convention Center, 55, Hanyangdaehak-ro, Sangnok-gu Ansan-si Gyeonggi-do KR 15588 ', 'IEEE+Wireshark', 'Intermobility Co., Ltd.', 'current', NULL, NULL),
   ('8C:1F:64:84:F', 'Rouchon Industries Inc.', 'MA-S', 'RouchonIndus', NULL, '2026-10-27', '3407 E. La Palma Ave. Anaheim CA US 92806', 'IEEE+Wireshark', 'Rouchon Industries Inc.', 'current', NULL, NULL),
   ('8C:1F:64:A3:F', 'ViewSonic Corp.', 'MA-S', 'ViewSonic', 'TV', '2023-04-15', '10 Point Drive Brea LA CA US 92821', 'IEEE+Wireshark+Nmap', 'ViewSonic Corp', 'current', NULL, NULL),
-  ('8C:1F:64:36:B', 'ViewSonic Corp.', 'MA-S', 'ViewSonic', 'TV', '2024-01-05', '10 Point Drive Brea LA CA US 92821', 'IEEE+Wireshark+Nmap', 'ViewSonic Corp', 'current', NULL, NULL),
   ('8C:1F:64:C9:C', 'IDNEO TECHNOLOGIES,S.A.U.', 'MA-S', 'IdneoTechnol', NULL, '2026-10-30', 'GRAN VÍA CARLOS III , 98 .PLANTA 5 Barcelona Barcelona ES 08028 ', 'IEEE+Wireshark', 'IDNEO TECHNOLOGIES,S.A.U.', 'current', NULL, NULL),
   ('8C:1F:64:46:F', 'inomatic GmbH', 'MA-S', 'inomatic', NULL, '2026-10-28', 'Karl-Braun-Straße 12-13 Nordhorn Germany DE 48531', 'IEEE+Wireshark', 'inomatic GmbH', 'current', NULL, NULL),
+  ('8C:1F:64:36:B', 'ViewSonic Corp.', 'MA-S', 'ViewSonic', 'TV', '2024-01-05', '10 Point Drive Brea LA CA US 92821', 'IEEE+Wireshark+Nmap', 'ViewSonic Corp', 'current', NULL, NULL),
   ('8C:1F:64:11:C', 'WITCON Co., Ltd.', 'MA-S', 'WITCON', NULL, '2026-10-29', 'Room 1510, Building D, Gwangmyeong SK Technopark, 60, Haan-ro,,  Gwangmyeong-si Gyeonggi-do KR 14322 ', 'IEEE+Wireshark', 'WITCON Co., Ltd.', 'current', NULL, NULL),
   ('8C:1F:64:4C:B', 'Haoyu Intelligent Technonlogy', 'MA-S', 'HaoyuIntelli', NULL, '2026-11-04', 'No. 200, Ln. 468, Wuqing Rd., Dayuan Dist. Taoyuan City  TW 337014 ', 'IEEE+Wireshark', 'Haoyu Intelligent Technonlogy', 'current', NULL, NULL),
   ('8C:1F:64:18:C', 'Cence Power Inc.', 'MA-S', 'CencePower', NULL, '2026-11-03', '2700 John St. Markham ON CA L3R 2W4', 'IEEE+Wireshark', 'Cence Power Inc.', 'current', NULL, NULL),
-  ('8C:1F:64:CE:2', 'Kova, Corp.', 'MA-S', NULL, NULL, '2026-11-09', '102 East Bay Avenue Suite J Manahawkin NJ US 08050', 'IEEE', 'Kova, Corp.', 'current', NULL, NULL),
-  ('8C:1F:64:3B:F', 'KanexPro', 'MA-S', NULL, NULL, '2026-11-11', '3753 Howard Hughes Pkwy, Ste 200-1083 Las Vegas NV US 89169 ', 'IEEE', 'KanexPro', 'current', NULL, NULL),
+  ('8C:1F:64:3B:F', 'KanexPro', 'MA-S', 'KanexPro', NULL, '2026-11-11', '3753 Howard Hughes Pkwy, Ste 200-1083 Las Vegas NV US 89169 ', 'IEEE+Wireshark', 'KanexPro', 'current', NULL, NULL),
+  ('8C:1F:64:CE:2', 'Kova, Corp.', 'MA-S', 'Kova', NULL, '2026-11-09', '102 East Bay Avenue Suite J Manahawkin NJ US 08050', 'IEEE+Wireshark', 'Kova, Corp.', 'current', NULL, NULL),
+  ('8C:1F:64:13:2', 'Shenzhen Enatel Electronics Co,ltd.', 'MA-S', NULL, NULL, '2026-11-19', 'Building B2,Xinjianxing Technology Industrial Park,No.3333 Guangqiao Avenue,Xinhu Subdistrict,Shenzhen,Guangdong Shenzhen Guangdong CN 518107 ', 'IEEE', 'Shenzhen Enatel Electronics Co,ltd.', 'current', NULL, NULL),
+  ('8C:1F:64:35:5', 'FAH TECH CO.,LTD', 'MA-S', NULL, NULL, '2026-11-16', '338-15, UCHIWARIDENHAKAHIGASHI, KISOGAWA-MACHI ICHINOMIYA-CITY AICHI JP 493-0006 ', 'IEEE', 'FAH TECH CO.,LTD', 'current', NULL, NULL),
+  ('8C:1F:64:ED:B', 'ADL Systems', 'MA-S', 'ADL', NULL, '2026-11-14', 'Olgi Berggolts 35A Saint-Petersburg   RU 192148', 'IEEE+Wireshark', 'ADL Systems', 'current', NULL, NULL),
+  ('8C:1F:64:2E:9', 'DataCatcher', 'MA-S', NULL, NULL, '2026-11-19', '380 Hyoryeong-ro, Seocho-gu Seoul  KR 06727 ', 'IEEE', 'DataCatcher', 'current', NULL, NULL),
+  ('8C:1F:64:17:2', 'OPEN Alliance', 'MA-S', 'OPENAlliance', NULL, '2026-11-14', '3855 SW 153rd Drive Beaverton OR US 97003', 'IEEE+Wireshark', 'OPEN Alliance', 'current', NULL, NULL),
+  ('8C:1F:64:D4:B', 'Rax-Tech International', 'MA-S', NULL, NULL, '2026-11-21', '5th floor, 5/391 Kaleeswari towerTambaram-Velachery Main road, Medavakkam Chennai Tamil Nadu IN 600100 ', 'IEEE', 'Rax-Tech International', 'current', NULL, NULL),
+  ('8C:1F:64:48:4', 'Shenzhen Yahboom Technology Co.,Ltd.', 'MA-S', NULL, NULL, '2026-11-21', 'Rooms 701 and 704, Building B, Block 7, Shenzhen International Innovation Valley, Dashi 1st Road, Xili Community, Xili Subdistrict, Nanshan District Shenzhen Guangdong CN 518055 ', 'IEEE', 'Shenzhen Yahboom Technology Co.,Ltd.', 'current', NULL, NULL),
   ('40:D8:55:0D:7', 'Avant Technologies', 'IAB', 'AvantTechnol', NULL, '2013-04-15', 'Road 156 Caguas West Ind. Park Caguas  PR 00726', 'IEEE+Wireshark', 'Avant Technologies', 'current', NULL, NULL),
   ('00:50:C2:F7:1', 'RF Code', 'IAB', 'RFCode', 'IoT', '2012-04-15', '9229 Waterford Centre Blvd #500 Austin TX US 78758', 'IEEE+Wireshark', 'RF Code', 'current', NULL, 'RF Code, Inc | RF Code'),
   ('00:50:C2:9C:C', 'Hirotech inc.', 'IAB', 'Hirotech', NULL, '2008-11-09', 'Shinyokohama I.O Bldg. #602, 1-3-10, Shinyokohama, Kohoku-ku Yokohama City Kanagawa JP 222-0033 ', 'IEEE+Wireshark', 'Hirotech inc.', 'current', NULL, 'Hirotech, Inc | Hirotech inc.'),
@@ -54847,10 +54951,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:50:C2:D4:7', 'Rohde&Schwarz Topex SA', 'IAB', 'Rohde&Schwar', NULL, '2010-10-24', '71th-73th Nicolae Caramfil street, 2nd floor, 1th district Bucuresti Romania RO 014142 ', 'IEEE+Wireshark', 'Rohde&Schwarz Topex SA', 'current', NULL, NULL),
   ('00:50:C2:EA:D', 'Rohde&Schwarz Topex SA', 'IAB', 'Rohde&Schwar', NULL, '2011-10-02', '71th-73th Nicolae Caramfil street, 2nd floor, 1th district Bucuresti Romania RO 014142 ', 'IEEE+Wireshark', 'Rohde&Schwarz Topex SA', 'current', NULL, NULL),
   ('00:50:C2:5A:6', 'Plastic Logic', 'IAB', 'PlasticLogic', NULL, '2008-07-30', '34 Cambridge Science Park Cambridge Cambridgeshire GB CB4 0FX', 'IEEE+Wireshark', 'Plastic Logic', 'current', NULL, NULL),
-  ('00:50:C2:3E:5', 'Vacon Plc', 'IAB', 'Vacon', 'Industrial', '2008-07-30', 'P.O.Box 25 Vaasa  FI 65381', 'IEEE+Wireshark', 'Vacon Plc', 'current', NULL, NULL);
-
--- Batch 110 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:50:C2:3E:5', 'Vacon Plc', 'IAB', 'Vacon', 'Industrial', '2008-07-30', 'P.O.Box 25 Vaasa  FI 65381', 'IEEE+Wireshark', 'Vacon Plc', 'current', NULL, NULL),
   ('00:50:C2:33:A', 'United Telecoms Ltd', 'IAB', 'UnitedTeleco', NULL, '2008-07-30', '18A/19  Doddanagundi Indl area Banagalore Karnataka IN 560048', 'IEEE+Wireshark', 'United Telecoms Ltd', 'current', NULL, NULL),
   ('00:50:C2:55:2', 'Elfiq Inc.', 'IAB', 'Elfiq', 'Router', '2008-07-30', '1125 university Montreal Quebec CA H3B 3A7', 'IEEE+Wireshark', 'Elfiq Inc.', 'current', NULL, NULL),
   ('00:50:C2:C6:1', 'HaiVision Systems Inc', 'IAB', 'HaiVision', 'Audio', '2010-04-11', '4445 Garand Montreal QC CA H4R 2H9', 'IEEE+Wireshark', 'HaiVision Systems Incorporated', 'current', NULL, NULL),
@@ -55249,7 +55350,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:50:C2:94:6', 'MEGWARE Computer GmbH', 'IAB', 'MEGWARECompu', 'Server', '2008-07-30', 'Nordstrasse 19 Chemnitz-Roehrsdorf Sachsen DE 09247', 'IEEE+Wireshark', 'MEGWARE Computer GmbH', 'current', NULL, NULL),
   ('00:50:C2:94:4', 'Wireonair A/S', 'IAB', 'Wireonair', NULL, '2008-07-30', 'Skudehavnsvej 17 Copenhagen  DK 2100', 'IEEE+Wireshark', 'Wireonair A/S', 'current', NULL, NULL),
   ('00:50:C2:93:6', 'Margaritis Engineering', 'IAB', 'MargaritisEn', 'Smart Home', '2008-07-30', '370 Verano Drive Los Altos CA US 94022', 'IEEE+Wireshark', 'Margaritis Engineering', 'current', NULL, NULL),
-  ('00:50:C2:93:1', 'Korea Telecom Internet Solutions (KTIS)', 'IAB', 'KoreaTelecom', NULL, '2008-07-30', 'Room 208, Lotte Gold Rose Tower II, 890-59, Seoul  KR 135-280 ', 'IEEE+Wireshark', 'Korea Telecom Internet Solutions (KTIS)', 'current', NULL, NULL),
+  ('00:50:C2:93:1', 'Korea Telecom Internet Solutions (KTIS)', 'IAB', 'KoreaTelecom', NULL, '2008-07-30', 'Room 208, Lotte Gold Rose Tower II, 890-59, Seoul  KR 135-280 ', 'IEEE+Wireshark', 'Korea Telecom Internet Solutions (KTIS)', 'current', NULL, NULL);
+
+-- Batch 111 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:50:C2:93:4', 'Xilar Corp.', 'IAB', 'Xilar', NULL, '2008-07-30', '2160 South M-15 Hwy. Ortonville MI US 48462', 'IEEE+Wireshark', 'Xilar Corp.', 'current', NULL, NULL),
   ('00:50:C2:93:2', 'SMAVIS Inc.', 'IAB', 'SMAVIS', NULL, '2008-07-30', '914 JEI Platz, 459-11 Gasan-dong, Seoul  KR 153-803 ', 'IEEE+Wireshark', 'SMAVIS Inc.', 'current', NULL, NULL),
   ('00:50:C2:94:A', 'TruMedia Measurement Ltd.', 'IAB', 'TruMediaMeas', 'Camera', '2008-07-30', '7 Leshem St., Kiriat-Matalon Petah-Tikva 4951768  IL  ', 'IEEE+Wireshark', 'TruMedia Measurement Ltd.', 'current', NULL, NULL),
@@ -55350,10 +55454,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:50:C2:6E:4', 'MangoDSP', 'IAB', 'MangoDSP', NULL, '2008-07-30', 'Hartom 8 Jerusalem  IL 45116', 'IEEE+Wireshark', 'MangoDSP', 'current', NULL, NULL),
   ('00:50:C2:6E:D', 'Sechan Electronics, Inc.', 'IAB', 'SechanElectr', NULL, '2008-07-30', '525 Furnace Hills Pike Lititz PA US 17543', 'IEEE+Wireshark', 'Sechan Electronics, Inc.', 'current', NULL, NULL),
   ('00:50:C2:6F:8', 'RV Technology Limited', 'IAB', 'RVTechnology', NULL, '2008-07-30', '12/F, Wilson House   HK  ', 'IEEE+Wireshark', 'RV Technology Limited', 'current', NULL, NULL),
-  ('00:50:C2:6F:1', 'ITS Telecom', 'IAB', 'ITSTelecom', NULL, '2008-07-30', '29 Hametzuda Street Azur  IL 58001', 'IEEE+Wireshark', 'ITS Telecom', 'current', NULL, NULL);
-
--- Batch 111 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:50:C2:6F:1', 'ITS Telecom', 'IAB', 'ITSTelecom', NULL, '2008-07-30', '29 Hametzuda Street Azur  IL 58001', 'IEEE+Wireshark', 'ITS Telecom', 'current', NULL, NULL),
   ('00:50:C2:6C:B', 'Stream Processors', 'IAB', 'StreamProces', NULL, '2008-07-30', '455 DeGuigne Drive Sunnyvale, CA US 94085 ', 'IEEE+Wireshark', 'Stream Processors', 'current', NULL, NULL),
   ('00:50:C2:6A:6', 'Victory Concept Industries Ltd.', 'IAB', 'VictoryConce', 'IoT', '2008-07-30', '4/F., CAC Tower Kwun Tong Kowloon HK  ', 'IEEE+Wireshark', 'Victory Concept Industries Ltd.', 'current', NULL, NULL),
   ('00:50:C2:6A:2', 'Cadi Scientific Pte Ltd', 'IAB', 'CadiScientif', NULL, '2008-07-30', '31 Ubi Road 1 Aztech Building Singapore  SG 408694', 'IEEE+Wireshark', 'Cadi Scientific Pte Ltd', 'current', NULL, NULL),
@@ -55752,7 +55853,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:50:C2:E9:8', 'i3 International Inc.', 'IAB', 'i3Internatio', NULL, '2011-09-11', '780 Birchmount Road Toronto Ontario CA M1K5H4', 'IEEE+Wireshark', 'i3 International Inc.', 'current', NULL, NULL),
   ('00:50:C2:C6:3', 'Potter Electric Signal Co. LLC', 'IAB', 'PotterElectr', 'Smart Home', '2010-04-11', '1609 Park 370 Place Hazelwood MO US 63042', 'IEEE+Wireshark', 'Potter Electric Signal Co. LLC', 'current', NULL, NULL),
   ('00:50:C2:9D:F', 'CODEC Co., Ltd.', 'IAB', 'CODEC', NULL, '2008-11-23', '1-29-18 Tamagawa Choufu-shi Tokyo JP 182-0025', 'IEEE+Wireshark', 'CODEC Co., Ltd.', 'current', NULL, NULL),
-  ('00:50:C2:DE:6', 'Fr. Sauter AG', 'IAB', 'FrSauter', 'Industrial', '2011-03-13', 'Im Surinam 55 Basel BS CH CH 4016', 'IEEE+Wireshark', 'Fr. Sauter AG', 'current', NULL, NULL),
+  ('00:50:C2:DE:6', 'Fr. Sauter AG', 'IAB', 'FrSauter', 'Industrial', '2011-03-13', 'Im Surinam 55 Basel BS CH CH 4016', 'IEEE+Wireshark', 'Fr. Sauter AG', 'current', NULL, NULL);
+
+-- Batch 112 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:50:C2:F1:4', 'VISION SYSTEMS AERONAUTIC', 'IAB', 'VisionAerona', 'Automotive', '2012-01-15', 'ROUTE D''IRIGNY BRIGNAIS  FR 69530', 'IEEE+Wireshark', 'VISION SYSTEMS AERONAUTIC', 'current', NULL, NULL),
   ('00:50:C2:E3:A', 'Vocality International Ltd', 'IAB', 'VocalityInte', NULL, '2014-11-16', 'Lydling Barn Guildford Surrey GB GU86AP', 'IEEE+Wireshark', 'Vocality International Ltd', 'current', NULL, NULL),
   ('00:50:C2:4B:1', 'NSFOCUS Information Technology Co., Ltd.', 'IAB', 'NSFOCUSInfor', 'Router', '2008-07-30', '5F Either Building, No 4 Beiwa Rd Beijing  CN 100089 ', 'IEEE+Wireshark', 'NSFOCUS Information Technology Co., Ltd.', 'current', NULL, NULL),
@@ -55853,10 +55957,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('40:D8:55:03:B', 'Telcomkorea', 'IAB', 'Telcomkorea', NULL, '2012-11-25', '#710-8, Lee-Dong, Sanglok-Gu, Ansan-Si Kyunggi-Do KR 426863 ', 'IEEE+Wireshark', 'Telcomkorea', 'current', NULL, NULL),
   ('40:D8:55:05:8', 'Energy Team S.p.A.', 'IAB', 'EnergyTeam', NULL, '2012-12-02', 'Via della Repubblica, 9 Trezzano sul Naviglio Milano US 20090 ', 'IEEE+Wireshark', 'Energy Team S.p.A.', 'current', NULL, NULL),
   ('40:D8:55:04:C', 'Serveron Corporation', 'IAB', 'Serveron', 'Industrial', '2012-11-25', '13550 SW Karl Braun Drive Beaverton OR US 97077', 'IEEE+Wireshark', 'Serveron Corporation', 'current', NULL, NULL),
-  ('40:D8:55:04:B', 'Vital Tech Industria e Comercio Ltda', 'IAB', 'VitalTechInd', NULL, '2012-11-25', 'Rua Jose Villar Granjel, 22-24 Camipnas - San Paulo  BR 13030680 ', 'IEEE+Wireshark', 'Vital Tech Industria e Comercio Ltda', 'current', NULL, NULL);
-
--- Batch 112 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('40:D8:55:04:B', 'Vital Tech Industria e Comercio Ltda', 'IAB', 'VitalTechInd', NULL, '2012-11-25', 'Rua Jose Villar Granjel, 22-24 Camipnas - San Paulo  BR 13030680 ', 'IEEE+Wireshark', 'Vital Tech Industria e Comercio Ltda', 'current', NULL, NULL),
   ('40:D8:55:01:6', 'Par-Tech, Inc.', 'IAB', 'ParTech', NULL, '2012-10-07', '139 Premier Drive Lake Orion MI US 48359', 'IEEE+Wireshark', 'Par-Tech, Inc.', 'current', NULL, NULL),
   ('00:50:C2:FF:E', 'Sensata Technologies', 'IAB', 'SensataTechn', NULL, '2012-09-09', '4467 White Bear Parkway White Bear Lake MN US 55110', 'IEEE+Wireshark', 'Sensata Technologies', 'current', NULL, NULL),
   ('00:50:C2:FF:8', 'KST technology', 'IAB', 'KSTtechnolog', NULL, '2012-09-09', 'Bangi-dong, songpa-gu  Seoul KR 138-050 ', 'IEEE+Wireshark', 'KST technology', 'current', NULL, NULL),
@@ -56255,7 +56356,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:50:C2:6B:C', 'Paraytec Ltd', 'IAB', 'Paraytec', 'Industrial', '2008-07-30', '1a St George''s Place York N Yorkshire GB YO24 1GN', 'IEEE+Wireshark', 'Paraytec Ltd', 'current', NULL, NULL),
   ('00:50:C2:6B:1', 'Burk Technology', 'IAB', 'BurkTechnolo', NULL, '2008-07-30', '7 Beaver Brook road Littleton MA US 01460', 'IEEE+Wireshark', 'Burk Technology', 'current', NULL, NULL),
   ('00:50:C2:68:8', 'Elk Products', 'IAB', 'ElkProducts', 'Smart Home', '2008-07-30', '3266 Highway 70 West Hildebran NC US 28637', 'IEEE+Wireshark', 'Elk Products', 'current', NULL, NULL),
-  ('00:50:C2:68:E', 'SELCO', 'IAB', 'Selco', NULL, '2008-07-30', 'ZI DU VAL D OMBREE COMBREE  FR 49520', 'IEEE+Wireshark', 'SELCO', 'current', NULL, NULL),
+  ('00:50:C2:68:E', 'SELCO', 'IAB', 'Selco', NULL, '2008-07-30', 'ZI DU VAL D OMBREE COMBREE  FR 49520', 'IEEE+Wireshark', 'SELCO', 'current', NULL, NULL);
+
+-- Batch 113 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:50:C2:6A:0', 'GFP Lab S.r.l.', 'IAB', 'GFPLab', NULL, '2008-07-30', 'via Casalecchio 5 Rimini RN IT 47924', 'IEEE+Wireshark', 'GFP Lab S.r.l.', 'current', NULL, NULL),
   ('00:50:C2:6A:8', 'Delcan Technologies, Inc', 'IAB', 'DelcanTechno', 'Industrial', '2008-07-30', '2055 Sugarloaf Circle, Suite 500 Duluth GA US 30097 ', 'IEEE+Wireshark', 'Delcan Technologies, Inc', 'current', NULL, NULL),
   ('00:50:C2:69:9', 'Bulletendpoints Enterprises Inc', 'IAB', 'Bulletendpoi', NULL, '2008-07-30', '16 finch ave Dollars des ormeaux quebec CA H9a 3g8', 'IEEE+Wireshark', 'Bulletendpoints Enterprises Inc', 'current', NULL, NULL),
@@ -56356,10 +56460,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:50:C2:36:F', 'XIMEA', 'IAB', 'XIMEAsro', 'Camera', '2008-07-30', 'Lesna 52 Marianka SK SK 900 33', 'IEEE+Wireshark', 'XIMEA s.r.o.', 'current', NULL, NULL),
   ('00:50:C2:45:D', 'DIGITAL ENGINEERING LTD.', 'IAB', 'DigitalEngin', 'Smart Home', '2008-07-30', '740 Harold Crescent Thunder Bay Ontario CA P7C 5H7', 'IEEE+Wireshark', 'Digital Engineering, Inc.', 'current', NULL, NULL),
   ('00:50:C2:46:C', 'CAMCO GmbH', 'IAB', 'CAMCO', 'Audio', '2008-07-30', 'Fischpicke 5 Wenden NRW DE 57482', 'IEEE+Wireshark', 'CAMCO GmbH', 'current', NULL, NULL),
-  ('00:50:C2:46:4', 'XYTAC system technologies', 'IAB', 'XYTACsystemt', NULL, '2008-07-30', '3755-1-2-212 Totsukacho Yokohama Kanagawa JP 244-0003', 'IEEE+Wireshark', 'XYTAC system technologies', 'current', NULL, NULL);
-
--- Batch 113 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:50:C2:46:4', 'XYTAC system technologies', 'IAB', 'XYTACsystemt', NULL, '2008-07-30', '3755-1-2-212 Totsukacho Yokohama Kanagawa JP 244-0003', 'IEEE+Wireshark', 'XYTAC system technologies', 'current', NULL, NULL),
   ('00:50:C2:44:0', 'Advanced Modular Computers Ltd.', 'IAB', 'AdvancedModu', 'Computer', '2008-07-30', 'Union House, Unit B1, Deseronto Trading Estate Langley, Slough Berkshire GB SL3 7EW ', 'IEEE+Wireshark', 'Advanced Modular Computers Ltd.', 'current', NULL, NULL),
   ('00:50:C2:43:D', 'Ann Arbor Sensor Systems LLC', 'IAB', 'AnnArborSens', NULL, '2008-07-30', '7300 Huron River Drive Dexter MI US 48130', 'IEEE+Wireshark', 'Ann Arbor Sensor Systems LLC', 'current', NULL, NULL),
   ('00:50:C2:43:C', 'Ducommun LaBarge Technologies, Inc', 'IAB', 'DucommunLaBa', NULL, '2008-07-30', '700 Braddock Avenue East Pittsburgh PA US 15112', 'IEEE+Wireshark', 'Ducommun LaBarge Technologies, Inc', 'current', NULL, NULL),
@@ -56758,7 +56859,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:50:C2:F7:5', 'PumpWell Solutions Ltd.', 'IAB', 'PumpWellSolu', NULL, '2012-04-15', '10, 2150-29th St. NE Calgary AB CA T1Y 7G4 ', 'IEEE+Wireshark', 'PumpWell Solutions Ltd.', 'current', NULL, NULL),
   ('00:50:C2:F9:4', 'Digital Barriers', 'IAB', 'DigitalBarri', 'Camera', '2012-05-20', 'Photon House Leeds West Yorkshire GB LS121EG', 'IEEE+Wireshark', 'Digital Barriers', 'current', NULL, NULL),
   ('00:50:C2:F8:0', 'SYS TEC electronic GmbH', 'IAB', 'SYSTECelectr', NULL, '2012-04-29', 'Am Windrad 2 Heinsdorfergrund   DE D-08468', 'IEEE+Wireshark', 'SYS TEC electronic GmbH', 'current', NULL, NULL),
-  ('00:50:C2:F8:8', 'RTC Manufacturing Inc.', 'IAB', 'RTCManufactu', 'Smart Home', '2012-05-13', '1016 Enterprise Place Arlington TX US 76001', 'IEEE+Wireshark', 'RTC Manufacturing Inc.', 'current', NULL, NULL),
+  ('00:50:C2:F8:8', 'RTC Manufacturing Inc.', 'IAB', 'RTCManufactu', 'Smart Home', '2012-05-13', '1016 Enterprise Place Arlington TX US 76001', 'IEEE+Wireshark', 'RTC Manufacturing Inc.', 'current', NULL, NULL);
+
+-- Batch 114 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:50:C2:F7:A', 'C3 LLC', 'IAB', 'C3', NULL, '2012-04-22', '1305 N Savannah Terrace Mustang OK US 73064', 'IEEE+Wireshark', 'C3 LLC', 'current', NULL, NULL),
   ('00:50:C2:F6:6', 'GWT LLC', 'IAB', 'Gwt', NULL, '2012-04-01', '101 Gibraltar Drive  Morris Plains  NJ  US 07950', 'IEEE+Wireshark', 'GWT LLC', 'current', NULL, NULL),
   ('00:50:C2:F5:4', 'Hella Gutmann Solutions GmbH', 'IAB', 'HellaGutmann', 'Industrial', '2012-03-18', 'Am Krebsbach 2 Ihringen  DE 79241', 'IEEE+Wireshark', 'Hella Gutmann Solutions GmbH', 'current', NULL, NULL),
@@ -56859,10 +56963,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:50:C2:D0:C', 'JVL Industri Elektronik', 'IAB', 'JVLIndustriE', 'Industrial', '2010-09-12', 'Blokken 42 Birkeroed Sjaelland DK DK-3460', 'IEEE+Wireshark', 'JVL Industri Elektronik', 'current', NULL, NULL),
   ('00:50:C2:D0:D', 'DECA Card Engineering GmbH', 'IAB', 'DECACardEngi', 'Smart Home', '2010-09-12', 'Bahnstrasse 29-31 Ratingen NW DE 40878', 'IEEE+Wireshark', 'DECA Card Engineering GmbH', 'current', NULL, NULL),
   ('00:50:C2:D0:7', 'IAF GmbH', 'IAB', 'IAF', 'IoT', '2010-09-05', 'Berliner Str. 52j Braunschweig  DE 38104', 'IEEE+Wireshark', 'IAF GmbH', 'current', NULL, NULL),
-  ('00:50:C2:D2:E', 'RS Gesellschaft fur Informationstechnik mbH & Co KG', 'IAB', 'RSGesellscha', NULL, '2010-10-03', 'Bergische Fachbuchhandlung Remscheid NRW DE 42853', 'IEEE+Wireshark', 'RS Gesellschaft fur Informationstechnik mbH & Co KG', 'current', NULL, NULL);
-
--- Batch 114 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:50:C2:D2:E', 'RS Gesellschaft fur Informationstechnik mbH & Co KG', 'IAB', 'RSGesellscha', NULL, '2010-10-03', 'Bergische Fachbuchhandlung Remscheid NRW DE 42853', 'IEEE+Wireshark', 'RS Gesellschaft fur Informationstechnik mbH & Co KG', 'current', NULL, NULL),
   ('00:50:C2:D1:3', 'GUNMA ELECTRONICS CO LTD', 'IAB', 'GunmaElectro', NULL, '2010-09-12', '760 OOMAMA MIDORI-CITY GUNMA JP 376-0101', 'IEEE+Wireshark', 'GUNMA ELECTRONICS CO LTD', 'current', NULL, NULL),
   ('00:50:C2:D0:4', 'Tehama Wireless', 'IAB', 'TehamaWirele', 'Smart Home', '2010-08-29', '423 Tehama Street San Francisco CA US 94103', 'IEEE+Wireshark', 'Tehama Wireless', 'current', NULL, NULL),
   ('00:50:C2:D1:A', 'GILLAM-FEI S.A.', 'IAB', 'GillamFei', NULL, '2010-09-26', 'Mont St Martin 58 LIEGE  BE B4000', 'IEEE+Wireshark', 'GILLAM-FEI S.A.', 'current', NULL, NULL),
@@ -57261,7 +57362,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:50:C2:52:3', 'AMRDEC Prototype Integration Facility', 'IAB', 'AMRDECProtot', NULL, '2008-07-30', 'SES INC. AMSRD-AMR-SE-PI REDSTONE ARSENAL AL US 35898', 'IEEE+Wireshark', 'AMRDEC Prototype Integration Facility', 'current', NULL, NULL),
   ('00:50:C2:53:6', 'C2 DIAGNOSTICS', 'IAB', 'C2Diagnostic', 'Medical', '2008-07-30', 'Parc Euromedecine II MONTPELLIER Cedex5 Herault FR 34099', 'IEEE+Wireshark', 'C2 DIAGNOSTICS', 'current', NULL, NULL),
   ('00:50:C2:53:9', 'Detection Technology Inc.', 'IAB', 'DetectionTec', 'Medical', '2008-07-30', 'Micropolis Ii  FI 91100', 'IEEE+Wireshark', 'Detection Technology Inc.', 'current', NULL, NULL),
-  ('00:50:C2:53:7', 'DST CONTROL AB', 'IAB', 'DstControl', 'Camera', '2008-07-30', 'Akerbogatan 10 Linköping  SE 58254', 'IEEE+Wireshark', 'DST CONTROL AB', 'current', NULL, NULL),
+  ('00:50:C2:53:7', 'DST CONTROL AB', 'IAB', 'DstControl', 'Camera', '2008-07-30', 'Akerbogatan 10 Linköping  SE 58254', 'IEEE+Wireshark', 'DST CONTROL AB', 'current', NULL, NULL);
+
+-- Batch 115 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:50:C2:53:3', 'NanShanBridge Co.Ltd', 'IAB', 'NanShanBridg', NULL, '2008-07-30', 'C241, National Hi-Tech(westzone) ChengDu SiChuan CN 611731 ', 'IEEE+Wireshark', 'NanShanBridge Co.Ltd', 'current', NULL, NULL),
   ('00:50:C2:53:2', 'NVE Corporation', 'IAB', 'NVE', NULL, '2008-07-30', '11409 Valley View Road Eden Prairie MN US 55344-3617', 'IEEE+Wireshark', 'NVE Corporation', 'current', NULL, NULL),
   ('00:50:C2:53:0', 'Innovation, Institute, Inc', 'IAB', 'InnovationIn', NULL, '2008-07-30', 'P.O. Box 9359 Caguas Puerto Rico PR 00726-9359', 'IEEE+Wireshark', 'Innovation, Institute, Inc', 'current', NULL, NULL),
@@ -57362,10 +57466,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:50:C2:2B:B', 'TA Instruments Ltd', 'IAB', 'TAInstrument', 'Industrial', '2008-07-30', '159 Lukens Drive New Castle Delaware US 19720', 'IEEE+Wireshark', 'TA Instruments Ltd', 'current', NULL, NULL),
   ('00:50:C2:2B:A', 'NORCO INDUSTRIAL TECHNOLOGY INC', 'IAB', 'NorcoIndustr', NULL, '2008-07-30', 'UNIT 211-739 BIRCHMOUNT ROAD TORONTO ON CA M1K 1R6', 'IEEE+Wireshark', 'NORCO INDUSTRIAL TECHNOLOGY INC', 'current', NULL, NULL),
   ('00:50:C2:2A:A', 'DEUTA-WERKE GmbH', 'IAB', 'DEUTAWerke', 'Automotive', '2008-07-30', 'ET Bergisch Gladbach NRW DE 51465', 'IEEE+Wireshark', 'DEUTA Werke GmbH', 'current', NULL, NULL),
-  ('00:50:C2:2A:E', 'Quest Retail Technology Pty Ltd', 'IAB', 'QuestRetailT', NULL, '2008-07-30', '37-39 Walsh Street Thebarton South Australia AU 5031', 'IEEE+Wireshark', 'Quest Retail Technology Pty Ltd', 'current', NULL, NULL);
-
--- Batch 115 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:50:C2:2A:E', 'Quest Retail Technology Pty Ltd', 'IAB', 'QuestRetailT', NULL, '2008-07-30', '37-39 Walsh Street Thebarton South Australia AU 5031', 'IEEE+Wireshark', 'Quest Retail Technology Pty Ltd', 'current', NULL, NULL),
   ('00:50:C2:2C:2', 'Smarteye Corporation', 'IAB', 'Smarteye', 'Industrial', '2008-07-30', '2637 Bond Street Rochester Hills Michigan US 48309', 'IEEE+Wireshark', 'Smarteye Corporation', 'current', NULL, NULL),
   ('00:50:C2:2B:E', 'Lipowsky Industrie-Elektronik GmbH', 'IAB', 'LipowskyIndu', 'Industrial', '2008-07-30', 'Roemerstr. 57 Darmstadt Hessen DE 64291', 'IEEE+Wireshark', 'Lipowsky Industrie-Elektronik GmbH', 'current', NULL, NULL),
   ('00:50:C2:29:8', 'Harvad University', 'IAB', 'HarvadUniver', NULL, '2008-07-30', '17 Oxford St. Cambridge MA US 01238', 'IEEE+Wireshark', 'Harvad University', 'current', NULL, NULL),
@@ -57764,7 +57865,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:50:C2:E4:3', 'Technica Engineering GmbH', 'IAB', 'TechnicaEngi', 'Industrial', '2011-08-07', 'Olschewskibogen 18 Munich  DE 80935', 'IEEE+Wireshark', 'Technica Engineering GmbH', 'current', NULL, NULL),
   ('00:50:C2:E3:F', 'VISITO S.R.L.', 'IAB', 'Visito', NULL, '2011-08-07', 'Corso Duca Degli Abruzzi 2 TORINO  IT', 'IEEE+Wireshark', 'VISITO S.R.L.', 'current', NULL, NULL),
   ('00:50:C2:E3:E', 'Monnit Corporation', 'IAB', 'Monnit', 'IoT', '2011-08-07', '450 South Simmons Way Kaysville UT  US 84037', 'IEEE+Wireshark', 'Monnit Corp.', 'current', NULL, NULL),
-  ('00:50:C2:E4:1', 'Higeco S.r.l.', 'IAB', 'Higeco', 'Smart Home', '2011-08-07', 'Via Cal De Formiga 12 Santa Giustina Veneto IT 32035', 'IEEE+Wireshark', 'Higeco S.r.l.', 'current', NULL, NULL),
+  ('00:50:C2:E4:1', 'Higeco S.r.l.', 'IAB', 'Higeco', 'Smart Home', '2011-08-07', 'Via Cal De Formiga 12 Santa Giustina Veneto IT 32035', 'IEEE+Wireshark', 'Higeco S.r.l.', 'current', NULL, NULL);
+
+-- Batch 116 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:50:C2:E4:F', 'Wine Technology Marlborough', 'IAB', 'WineTechnolo', NULL, '2011-08-07', '28 High Street Renwick Marlborough NZ 7204', 'IEEE+Wireshark', 'Wine Technology Marlborough', 'current', NULL, NULL),
   ('00:50:C2:E5:0', 'TATTILE SRL', 'IAB', 'Tattile', 'Camera', '2011-08-07', 'via gaetano donizetti,1/3/5 capriano del colle brescia IT 25020 ', 'IEEE+Wireshark', 'Tattile srl', 'current', NULL, NULL),
   ('00:50:C2:E2:D', 'Funkwerk IT Karlsfeld GmbH', 'IAB', 'FunkwerkITKa', 'IoT', '2011-08-07', 'Liebigstrasse 1a Karlsfeld Bavaria DE 85757', 'IEEE+Wireshark', 'Funkwerk IT Karlsfeld GmbH', 'current', NULL, NULL),
@@ -57865,10 +57969,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:50:C2:BA:8', 'Peek Traffic Corporation', 'IAB', 'PeekTraffic', 'Industrial', '2009-12-06', '2906 Corporate Way Palmetto Florida US 34221', 'IEEE+Wireshark', 'Peek Traffic Corporation', 'current', NULL, NULL),
   ('00:50:C2:BC:C', 'VVDN Technologies Pvt Ltd', 'IAB', 'VvdnTechnolo', NULL, '2009-12-27', '1241/36,ATUL KATARIA CHOWK GURGAON HARYANA IN 122001 ', 'IEEE+Wireshark', 'VVDN TECHNOLOGIES PVT. LTD.', 'current', NULL, NULL),
   ('00:50:C2:BC:A', 'Aitecsystem Co.,Ltd.', 'IAB', 'Aitecsystem', NULL, '2009-12-27', '1532,Shinohara-Cho, Yokohama Kanagawa JP 222-0026 ', 'IEEE+Wireshark', 'Aitecsystem Co.,Ltd.', 'current', NULL, NULL),
-  ('00:50:C2:BA:6', 'Jomitek', 'IAB', 'Jomitek', 'IoT', '2009-12-06', 'Skovlytoften 22 Holte  DK DK-2840', 'IEEE+Wireshark', 'Jomitek', 'current', NULL, NULL);
-
--- Batch 116 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:50:C2:BA:6', 'Jomitek', 'IAB', 'Jomitek', 'IoT', '2009-12-06', 'Skovlytoften 22 Holte  DK DK-2840', 'IEEE+Wireshark', 'Jomitek', 'current', NULL, NULL),
   ('00:50:C2:BB:A', 'Systemteq Limited', 'IAB', 'Systemteq', NULL, '2009-12-27', 'Unit B, Lynwood House Watford Hertfordshire GB WD24 7UF ', 'IEEE+Wireshark', 'Systemteq Limited', 'current', NULL, NULL),
   ('00:50:C2:BC:6', 'MireroTack', 'IAB', 'MireroTack', NULL, '2009-12-27', 'dodang-dong,wonmi-gu, bucheon-si, gyeonggi-do dodang-dong,wonmi-gu bucheon-si/gyeonggi-do KP 420-806 ', 'IEEE+Wireshark', 'MireroTack', 'current', NULL, NULL),
   ('00:50:C2:B9:A', 'Talo, NV Inc', 'IAB', 'Talo', NULL, '2009-11-22', '1930 Village Center Cir #3 - 454 Las Vegas Nevada US 89134', 'IEEE+Wireshark', 'Talo, NV Inc', 'current', NULL, NULL),
@@ -58267,7 +58368,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:50:C2:2A:1', 'Infinetix Corp', 'IAB', 'Infinetix', NULL, '2008-07-30', '2721  N. Van Marter #3 Spokane WA US 99206', 'IEEE+Wireshark', 'Infinetix Corp', 'current', NULL, NULL),
   ('00:50:C2:29:6', 'OpVista', 'IAB', 'OpVista', NULL, '2008-07-30', '25A Technology Dr. Irvine CA US 92618', 'IEEE+Wireshark', 'OpVista', 'current', NULL, NULL),
   ('00:50:C2:28:6', 'ATEME', 'IAB', 'Ateme', 'Audio', '2008-07-30', '26 Burospace BIEVRES Cedex  FR 91573', 'IEEE+Wireshark', 'ATEME', 'current', NULL, NULL),
-  ('00:50:C2:28:1', 'Cabtronix AG', 'IAB', 'Cabtronix', NULL, '2008-07-30', 'Hohstrass 1 Kloten Zuerich CH 8302', 'IEEE+Wireshark', 'Cabtronix AG', 'current', NULL, 'CabTronix GmbH | Cabtronix AG'),
+  ('00:50:C2:28:1', 'Cabtronix AG', 'IAB', 'Cabtronix', NULL, '2008-07-30', 'Hohstrass 1 Kloten Zuerich CH 8302', 'IEEE+Wireshark', 'Cabtronix AG', 'current', NULL, 'CabTronix GmbH | Cabtronix AG');
+
+-- Batch 117 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:50:C2:28:7', 'TECNEW Electronics Engineering Cr., Ltd.', 'IAB', 'TECNEWElectr', 'Smart Home', '2008-07-30', '16F, No. 75, Shin Tai Wu Rd., Sec. 1, Sh Taipei  TW 221 ', 'IEEE+Wireshark', 'TECNEW Electronics Engineering Cr., Ltd.', 'current', NULL, NULL),
   ('00:50:C2:26:D', 'DSP DESIGN', 'IAB', 'DspDesign', NULL, '2008-07-30', 'TAPTON PK INNOVATION CENTRE CHESTERFIELD DERBYSHIRE GB S41 0TZ', 'IEEE+Wireshark', 'DSP DESIGN', 'current', NULL, NULL),
   ('00:50:C2:26:2', 'Shanghai Gaozhi Science&Technology Development Ltd.', 'IAB', 'GaozhiScienc', NULL, '2008-07-30', 'No.283 QingJiang Rd. Shanghai  CN 200233', 'IEEE+Wireshark', 'Shanghai Gaozhi Science&Technology Development Ltd.', 'current', NULL, NULL),
@@ -58368,10 +58472,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:50:C2:07:4', 'Edge Tech Co., Ltd.', 'IAB', 'EdgeTech', NULL, '2008-07-30', '6th-F. Dae Rewing Techo Town-1, 327-24 Kasan-dong, Kumchon-gu Seoul KR  ', 'IEEE+Wireshark', 'Edge Tech Co., Ltd.', 'current', NULL, NULL),
   ('00:50:C2:05:E', 'DIVA Systems', 'IAB', 'DIVA', NULL, '2008-07-30', '800 Saginaw Drive Redwood City CA US 94063', 'IEEE+Wireshark', 'DIVA Systems', 'current', NULL, NULL),
   ('00:50:C2:05:D', 'Ignitus Communications, LLC', 'IAB', 'IgnitusCommu', NULL, '2008-07-30', '43 Nagog Park Acton MA US 01720', 'IEEE+Wireshark', 'Ignitus Communications, LLC', 'current', NULL, NULL),
-  ('00:50:C2:04:7', 'B. R. Electronics', 'IAB', 'BRElectronic', NULL, '2008-07-30', 'PO Box 717 Pinegowrie 2123  ZA', 'IEEE+Wireshark', 'B. R. Electronics', 'current', NULL, NULL);
-
--- Batch 117 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:50:C2:04:7', 'B. R. Electronics', 'IAB', 'BRElectronic', NULL, '2008-07-30', 'PO Box 717 Pinegowrie 2123  ZA', 'IEEE+Wireshark', 'B. R. Electronics', 'current', NULL, NULL),
   ('00:50:C2:04:C', 'New Standard Engineering NV', 'IAB', 'NewStandardE', 'Smart Home', '2008-07-30', 'Inter Leu Ven Laan 3 3001 Leuven  BE', 'IEEE+Wireshark', 'New Standard Engineering NV', 'current', NULL, NULL),
   ('00:50:C2:05:C', 'Nortel Networks', 'IAB', 'NortelNetwor', NULL, '2008-07-30', 'Harlow Labs Harlow Essex CM179NA GB', 'IEEE+Wireshark', 'Nortel Networks PLC (UK)', 'current', NULL, NULL),
   ('00:50:C2:05:B', 'Radiometer Medical A/S', 'IAB', 'RadiometerMe', 'Medical', '2008-07-30', 'Akandevej 21 DK 2700 Bronshoj  DK', 'IEEE+Wireshark', 'Radiometer Medical A/S', 'current', NULL, NULL),
@@ -58770,7 +58871,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:50:C2:C2:4', 'Qualnetics Corporation', 'IAB', 'Qualnetics', NULL, '2010-03-07', '2183 Alpine Way Bellingham WA US 98226', 'IEEE+Wireshark', 'Qualnetics Corporation', 'current', NULL, NULL),
   ('00:50:C2:C2:1', 'Private (undisclosed IEEE registrant)', 'IAB', 'Private', NULL, '2010-02-28', '', 'IEEE+Wireshark', 'Private', 'current', NULL, NULL),
   ('00:50:C2:C1:5', 'INO - Institut National d''Optique', 'IAB', 'INOInstitutN', NULL, '2010-02-21', '2740, Einstein Street Quebec  CA G1P 4S4 ', 'IEEE+Wireshark', 'INO - Institut National d''Optique', 'current', NULL, NULL),
-  ('00:50:C2:C1:0', 'Keith & Koep GmbH', 'IAB', 'KeithKoep', NULL, '2010-02-14', 'Uellendahler Str. 199 Wuppertal NRW DE 42109', 'IEEE+Wireshark', 'Keith & Koep GmbH', 'current', NULL, NULL),
+  ('00:50:C2:C1:0', 'Keith & Koep GmbH', 'IAB', 'KeithKoep', NULL, '2010-02-14', 'Uellendahler Str. 199 Wuppertal NRW DE 42109', 'IEEE+Wireshark', 'Keith & Koep GmbH', 'current', NULL, NULL);
+
+-- Batch 118 (500 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:50:C2:C3:8', 'Computer Automation Technology Inc', 'IAB', 'ComputerAuto', 'IoT', '2010-03-14', '3397 NW 23 Court Boca Raton Florida US 33431', 'IEEE+Wireshark', 'Computer Automation Technology Inc', 'current', NULL, NULL),
   ('00:50:C2:C3:4', 'Kyuhen', 'IAB', 'Kyuhen', NULL, '2010-03-14', 'hanamigahama2-1-1 fukutsu fukuoka JP 811-3216', 'IEEE+Wireshark', 'Kyuhen', 'current', NULL, NULL),
   ('00:50:C2:C2:F', 'ReFLEX CES', 'IAB', 'ReflexCes', NULL, '2010-03-14', '2 RUE DU GEVAUDAN EVRY  FR 91047', 'IEEE+Wireshark', 'REFLEX CES', 'current', NULL, NULL),
@@ -58871,10 +58975,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:50:C2:A7:7', 'Keith & Koep GmbH', 'IAB', 'KeithKoep', NULL, '2009-03-15', 'Uellendahler Str. 199 Wuppertal NRW DE 42109', 'IEEE+Wireshark', 'Keith & Koep GmbH', 'current', NULL, NULL),
   ('00:50:C2:A4:0', 'Mosberger Consulting LLC', 'IAB', 'MosbergerCon', NULL, '2009-01-25', '1935 Stony Hill Rd Boulder CO US 80305', 'IEEE+Wireshark', 'Mosberger Consulting LLC', 'current', NULL, NULL),
   ('00:50:C2:A3:5', 'Appareo Systems, LLC', 'IAB', 'Appareo', 'Automotive', '2009-01-25', '1854 NDSU Research Circle North Fargo ND US 58102', 'IEEE+Wireshark', 'Appareo Systems, LLC', 'current', NULL, NULL),
-  ('00:50:C2:A3:6', 'Shenzhen Shangji electronic Co.Ltd', 'IAB', 'Shangjielect', NULL, '2009-01-25', 'Room 2017, Tianan Digital Era Building, Futian District, Shenzhen Guangdong CN 518048 ', 'IEEE+Wireshark', 'Shenzhen Shangji electronic Co.Ltd', 'current', NULL, NULL);
-
--- Batch 118 (500 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('00:50:C2:A3:6', 'Shenzhen Shangji electronic Co.Ltd', 'IAB', 'Shangjielect', NULL, '2009-01-25', 'Room 2017, Tianan Digital Era Building, Futian District, Shenzhen Guangdong CN 518048 ', 'IEEE+Wireshark', 'Shenzhen Shangji electronic Co.Ltd', 'current', NULL, NULL),
   ('00:50:C2:A3:4', 'Casabyte Inc.', 'IAB', 'Casabyte', NULL, '2009-01-25', '200 Country Club Drive Blacksburg VA US 24060', 'IEEE+Wireshark', 'Casabyte Inc.', 'current', NULL, NULL),
   ('00:50:C2:A0:D', 'CHARLYROBOT', 'IAB', 'Charlyrobot', 'Industrial', '2008-12-14', '192, route de l''usine CRUSEILLES HAUTE-SAVOIE FR 74350 ', 'IEEE+Wireshark', 'CHARLYROBOT', 'current', NULL, NULL),
   ('00:50:C2:A0:B', 'IDS GeoRadar s.r.l.', 'IAB', 'IDSGeoRadar', 'Camera', '2008-12-14', 'Via E. Calabresi, 24 PISA PI IT 56121 ', 'IEEE+Wireshark', 'IDS GeoRadar s.r.l.', 'current', NULL, NULL),
@@ -59273,7 +59374,10 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('00:50:C2:1D:B', 'Applied Systems Engineering, Inc.', 'IAB', 'AppliedEngin', 'Smart Home', '2008-07-30', '1671 Dell Ave. Campbell CA US 95008', 'IEEE+Wireshark', 'Applied Systems Engineering, Inc.', 'current', NULL, NULL),
   ('00:50:C2:1C:A', 'EVER Sp. z o.o.', 'IAB', 'EVERSp', 'Industrial', '2008-07-30', 'ul. Grudzinskiego 30 Swarzedz wielkopolskie PL 62-020', 'IEEE+Wireshark', 'EVER Sp. z o.o.', 'current', NULL, NULL),
   ('00:50:C2:1E:3', 'Bluesocket, Inc.', 'IAB', 'Bluesocket', 'Access Point', '2008-07-30', '7 New England Executive Park Burlington MA US 01803', 'IEEE+Wireshark', 'Bluesocket, Inc.', 'current', NULL, NULL),
-  ('00:50:C2:1C:F', 'Lifetime Memory Products', 'IAB', 'LifetimeMemo', NULL, '2008-07-30', '2505 DAVINCI STREET IRVINE CA US 92614', 'IEEE+Wireshark', 'LIFETIME MEMORY PRODUCTS, INC.', 'current', NULL, NULL),
+  ('00:50:C2:1C:F', 'Lifetime Memory Products', 'IAB', 'LifetimeMemo', NULL, '2008-07-30', '2505 DAVINCI STREET IRVINE CA US 92614', 'IEEE+Wireshark', 'LIFETIME MEMORY PRODUCTS, INC.', 'current', NULL, NULL);
+
+-- Batch 119 (424 entries)
+INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
   ('00:50:C2:1C:E', 'Datatek Applications, Inc.', 'IAB', 'DatatekAppli', 'Industrial', '2008-07-30', '399 Campus Drive Somerset NJ US 08873', 'IEEE+Wireshark', 'Datatek Applications, Inc.', 'current', NULL, NULL),
   ('00:50:C2:1D:3', 'Synopsys, Inc.', 'IAB', 'Synopsys', NULL, '2008-07-30', 'Le Symphonie Sud Montpellier  FR 34000', 'IEEE+Wireshark', 'Synopsys', 'current', NULL, NULL),
   ('00:50:C2:1A:B', 'Streaming Networks', 'IAB', 'StreamingNet', 'Media Player', '2008-07-30', 'House # 8 St # 31 F-7/1 Islamabad  PK 44000', 'IEEE+Wireshark', 'Streaming Networks', 'current', NULL, NULL),
@@ -59374,10 +59478,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('40:D8:55:1D:C', 'Aplex Technology Inc.', 'IAB', 'AplexTechnol', 'Media Player', '2013-12-22', '15F-1, No.186, Jian Yi Road  Zhonghe District New Taipei City 235 TW  - ', 'IEEE+Wireshark', 'Aplex Technology Inc.', 'current', NULL, NULL),
   ('00:50:C2:72:3', 'Power Electronics Espana, S.L.', 'IAB', 'PowerElectro', 'Smart Home', '2008-07-30', 'RONDA DEL CAMP DE AVIACIO, NO. 4 CARRASES INDUSTRIAL ESTATE LLÍRIA  Valencia ES 46160  ', 'IEEE+Wireshark', 'Power Electronics Espana, S.L.', 'current', NULL, NULL),
   ('EA:27:01', 'ACCE Technology Corp.', 'CID', 'ACCETechnolo', NULL, '2023-07-11', '6F.-2, No. 38, Beida Rd., Hsinchu City  TW 300024 ', 'IEEE+Wireshark', 'ACCE Technology Corp.', 'current', NULL, NULL),
-  ('4A:68:8D', 'Shenzhen TCL New Technology Co., Ltd', 'CID', 'TCLNewTechno', 'TV', '2023-01-12', 'B area,10 Floor, TCL Multimedia Building, TCL International E city, #1001 Zhongshan Park Road, Nanshan District Shenzhen Guangdong CN 518052 ', 'IEEE+Wireshark', 'Shenzhen TCL New Technology Co., Ltd', 'current', NULL, NULL);
-
--- Batch 119 (320 entries)
-INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, device_type, registered_date, address, sources, registrant_raw, status, deregistered_date, registrant_history) VALUES
+  ('4A:68:8D', 'Shenzhen TCL New Technology Co., Ltd', 'CID', 'TCLNewTechno', 'TV', '2023-01-12', 'B area,10 Floor, TCL Multimedia Building, TCL International E city, #1001 Zhongshan Park Road, Nanshan District Shenzhen Guangdong CN 518052 ', 'IEEE+Wireshark', 'Shenzhen TCL New Technology Co., Ltd', 'current', NULL, NULL),
   ('3A:0E:75', 'KEVCOM LLC', 'CID', 'Kevcom', NULL, '2022-11-10', '12 Lark Street Greenwich NY US 12834', 'IEEE+Wireshark', 'KEVCOM LLC', 'current', NULL, NULL),
   ('4A:5A:A9', 'GoCodeIT Inc', 'CID', 'GoCodeIT', NULL, '2022-08-16', '8171 Yonge StreetSuite 255 Thornhill Ontario CA L3T2C6', 'IEEE+Wireshark', 'GoCodeIT Inc', 'current', NULL, NULL),
   ('AA:14:6B', 'IronWiFi', 'CID', 'IronWiFi', NULL, '2022-08-06', '5245 Brosche Rd Orlando FL US 32807', 'IEEE+Wireshark', 'IronWiFi', 'current', NULL, NULL),
@@ -59420,6 +59521,7 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('0A:9E:66', 'Distance Technologies Ltd', 'CID', 'DistanceTech', 'TV', '2026-01-31', 'John Stenbergin ranta 2 Helsinki  FI 00530', 'IEEE+Wireshark', 'Distance Technologies Ltd', 'current', NULL, NULL),
   ('7A:B2:30', 'European Telecommunications Standards Institute', 'CID', 'EuropeanTele', NULL, '2026-08-04', '650 Route des Lucioles Valbonne Alpes-Maritimes FR 06560', 'IEEE+Wireshark', 'European Telecommunications Standards Institute', 'current', NULL, NULL),
   ('CA:30:BF', 'IEEE 802.1 Working Group', 'CID', 'IEEE8021Work', NULL, '2017-05-28', ' IEEE 802.1 Chair, c/o RAC Administrator, IEEE Piscataway NJ US 08554 ', 'IEEE+Wireshark', 'IEEE 802.1 Working Group', 'current', NULL, 'IEEE 802.1 Working Group | IEEE 802.1 Chair | IEEE 802.1 Working Group'),
+  ('3A:2F:B8', 'Supracontrol d.o.o.', 'CID', NULL, NULL, '2026-11-16', 'Savica I. 123 Zagreb  HR 10000', 'IEEE', 'Supracontrol d.o.o.', 'current', NULL, NULL),
   ('CA:C2:76', 'Saab Seaeye Ltd', 'CID', 'SaabSeaeye', 'IoT', '2022-12-10', '20 Brunel Way Fareham Hampshire GB PO15 5SD', 'IEEE+Wireshark', 'Saab Seaeye Ltd', 'current', NULL, NULL),
   ('DA:E6:D7', 'NVM Express, Inc.', 'CID', 'NVMExpress', NULL, '2022-11-05', '3855 SW 153rd Drive Beaverton OR US 97003', 'IEEE+Wireshark', 'NVM Express, Inc.', 'current', NULL, NULL),
   ('4A:ED:1D', 'Astera Labs, Inc.', 'CID', 'AsteraLabs', NULL, '2022-08-13', '2901 Tasman Dr, #204 Santa Clara CA US 95054 ', 'IEEE+Wireshark', 'Astera Labs Inc', 'current', NULL, NULL),
@@ -59514,6 +59616,8 @@ INSERT OR IGNORE INTO oui_registry (oui, manufacturer, registry, short_name, dev
   ('4A:E0:3F', 'Chengdu Superxon Communication Technology Co., Ltd.', 'CID', 'SuperxonComm', NULL, '2020-08-16', 'No.666, Shaojia Street, Shuangliu District Chengdu Sichuan CN 610225 ', 'IEEE+Wireshark', 'Chengdu Superxon Communication Technology Co., Ltd.', 'current', NULL, 'Chengdu Superxon Communicaiton Technology Co., Ltd. | Chengdu Superxon communication Technology Co. Ltd. | Chengdu Superxon Communication Technology Co., Ltd.'),
   ('4A:B4:7B', 'faytech Tech. Co., Ltd.', 'CID', 'faytechTech', 'Industrial', '2026-07-30', 'Bldg. 8, Winlead Intelligent Park, Fl. 2 Shenzhen Guangdong CN 518131 ', 'IEEE+Wireshark', 'faytech Tech. Co., Ltd.', 'current', NULL, NULL),
   ('6A:61:EE', 'Nanjing Etlchips Microelectronics Technology Co., LTD', 'CID', 'NanjingEtlch', NULL, '2026-08-04', '18th Floor, Block E1, Science & Technology Innovation Headquarters Building, No.320 Pubin Road, Jiangpu Subdistrict, Pukou District, Nanjing, Jiangsu Province, P.R.China Nan Jing  CN 211800 ', 'IEEE+Wireshark', 'Nanjing Etlchips Microelectronics Technology Co., LTD', 'current', NULL, NULL),
+  ('7A:8F:27', 'Mirai Speaker Inc.', 'CID', NULL, NULL, '2026-11-19', '2-22-1, Higashi-nihonbashi Chuo-ku Tokyo JP 103-0004 ', 'IEEE', 'Mirai Speaker Inc.', 'current', NULL, NULL),
+  ('4A:52:66', 'LAST LOCK INC.', 'CID', NULL, NULL, '2026-11-19', '25 West Main St STE 500 Madison WI US 53703', 'IEEE', 'Last Lock Inc', 'current', NULL, NULL),
   ('DA:C4:51', 'Takaratomy', 'CID', 'Takaratomy', NULL, '2022-08-27', '7-9-10 Tateishi Katsushika-ku Tokyo JP 124-8511', 'IEEE+Wireshark', 'Takaratomy', 'current', NULL, NULL),
   ('BA:C8:C4', 'Transponder & Reader Engineered Systems, Inc', 'CID', 'TransponderR', 'IoT', '2022-07-15', '9651 Chalma Avenue  Baton Rouge LA US 70814', 'IEEE+Wireshark', 'Transponder & Reader Engineered Systems, Inc', 'current', NULL, NULL),
   ('CA:7D:DD', 'EmOne (Thailand) Co.,Ltd.', 'CID', 'EmOne', NULL, '2022-06-16', '39/1 Soi.Sangkhom Songkhro 12 Lat Phrao Bangkok TH 10230', 'IEEE+Wireshark', 'EmOne (Thailand) Co.,Ltd.', 'current', NULL, NULL),
