@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T02:56:58+00:00",
+ "generated": "2026-11-23T06:31:56+00:00",
  "source": "hardware-devices.db (Types of Hardware Devices)",
  "registries_listed": "2026-11-22",
  "organizations": 39419,
@@ -86558,6 +86558,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "2M Technology": {
+   "type": "Camera",
+   "type_id": "ip-camera",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "2M2B Montadora de Maquinas Bahia Brasil LTDA": {
    "type": "Storage",
    "type_id": "nas",
@@ -86702,6 +86708,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "3PI Tech Solutions": {
+   "type": "Printer",
+   "type_id": "3d-printer",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "3PS Inc": {
    "type": "Industrial",
    "type_id": "industrial-device",
@@ -86719,6 +86731,12 @@
    "type_id": "wireless-sensor-node",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "3T-Components": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "3Way Networks Ltd": {
    "type": "Access Point",
@@ -86971,6 +86989,12 @@
    "type_id": "test-equipment",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "A. Steffen AG": {
+   "type": "Smart Home",
+   "type_id": "smart-plug",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "A.L.S.E.": {
    "type": "Automotive",
@@ -87536,6 +87560,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "ADH Guardian USA": {
+   "type": "Smart Home",
+   "type_id": "garage-door-opener",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "ADHERIUM(NZ) LIMITED": {
    "type": "Medical",
    "type_id": "medical-device",
@@ -87889,6 +87919,12 @@
    "type_id": "industrial-device",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "AIFA TECHNOLOGY CORP.": {
+   "type": "Media Player",
+   "type_id": "remote-control",
+   "confidence": 0.88,
+   "source": "research-2026-11-22-lighting"
   },
   "AIM GmbH": {
    "type": "Industrial",
@@ -88556,6 +88592,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "APP Engineering, Inc.": {
+   "type": "Industrial",
+   "type_id": "grid-equipment",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "APPIAN COMMUNICATIONS, INC.": {
    "type": "Router",
    "type_id": "network-device",
@@ -88627,6 +88669,12 @@
    "type_id": "car-infotainment",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "APYNOV SAS": {
+   "type": "Smart Home",
+   "type_id": "smart-plug",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "AR Modular RF": {
    "type": "IoT",
@@ -88880,6 +88928,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "ASTAK Inc.": {
+   "type": "Camera",
+   "type_id": "ip-camera",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
+  },
   "ASTER PRO-AUDIO INC.": {
    "type": "Audio",
    "type_id": "av-receiver",
@@ -88999,6 +89053,12 @@
    "type_id": "plc",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "ATI": {
+   "type": "Industrial",
+   "type_id": "emergency-alerting",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "ATI Industrial Automation": {
    "type": "Industrial",
@@ -89198,6 +89258,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "AURCORE TECHNOLOGY INC.": {
+   "type": "Switch",
+   "type_id": "switch",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "AUROTECH ultrasound AS.": {
    "type": "Medical",
    "type_id": "clinical-equipment",
@@ -89257,6 +89323,12 @@
    "type_id": "industrial-device",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "AVANU": {
+   "type": "Router",
+   "type_id": "firewall",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "AVAT Automation GmbH": {
    "type": "Industrial",
@@ -89408,6 +89480,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-agents"
   },
+  "AW-SOM Technologies LLC": {
+   "type": "IoT",
+   "type_id": "single-board-computer",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "AWETA G&P": {
    "type": "Industrial",
    "type_id": "agriculture-equipment",
@@ -89426,6 +89504,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
   },
+  "AXENCO": {
+   "type": "Industrial",
+   "type_id": "hvac-equipment",
+   "confidence": 0.86,
+   "source": "research-2026-11-22-lighting"
+  },
   "AXERRA Networks Ltd": {
    "type": "Router",
    "type_id": "network-device",
@@ -89443,6 +89527,12 @@
    "type_id": "computer",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "AXION TECHNOLOGIES": {
+   "type": "Automotive",
+   "type_id": "transit-system",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "AXODE SA": {
    "type": "Industrial",
@@ -90032,6 +90122,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "Adaptrum Inc.": {
+   "type": "Access Point",
+   "type_id": "ptp-radio",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Adasky Ltd.": {
    "type": "Camera",
    "type_id": "camera",
@@ -90265,6 +90361,12 @@
    "type_id": "car-infotainment",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Advanced Electronic Design, Inc.": {
+   "type": "Tablet",
+   "type_id": "tablet",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
   },
   "Advanced Energy": {
    "type": "Industrial",
@@ -90566,6 +90668,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Agami Systems, Inc.": {
+   "type": "Storage",
+   "type_id": "nas",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Agar Corporation Inc.": {
    "type": "Industrial",
    "type_id": "test-equipment",
@@ -90673,6 +90781,12 @@
    "type_id": "wireless-sensor-node",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Aida Corporation": {
+   "type": "Smart Home",
+   "type_id": "smart-switch",
+   "confidence": 0.88,
+   "source": "research-2026-11-22-lighting"
   },
   "Aidon Oy": {
    "type": "Smart Home",
@@ -90949,6 +91063,12 @@
    "type_id": "clinical-equipment",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Akteena Inc": {
+   "type": "Camera",
+   "type_id": "dashcam",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "Aktiebolaget Regin": {
    "type": "Industrial",
@@ -91742,6 +91862,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "American Micro-Fuel Device Corp.": {
+   "type": "Automotive",
+   "type_id": "motorcycle",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "American Power Conversion": {
    "type": "Industrial",
    "type_id": "ups-power",
@@ -92204,6 +92330,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Antlia Systems": {
+   "type": "Camera",
+   "type_id": "security-device",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Anton Paar GmbH": {
    "type": "Industrial",
    "type_id": "test-equipment",
@@ -92329,6 +92461,12 @@
    "type_id": "fleet-telematics",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Apogee Applied Research, Inc.": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Apogee Electronics Corp.": {
    "type": "Audio",
@@ -92461,6 +92599,12 @@
    "type_id": "rfid-reader",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Apporo Union Inc": {
+   "type": "Smart Home",
+   "type_id": "smart-switch",
+   "confidence": 0.88,
+   "source": "research-2026-11-22-lighting"
   },
   "Appostar Technology Co. Ltd": {
    "type": "IoT",
@@ -92780,6 +92924,18 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Aroha Electronics Ltd.": {
+   "type": "Smart Home",
+   "type_id": "smoke-detector",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
+  },
+  "Arpobot Pty Ltd": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
+  },
   "Array Comm, Inc.": {
    "type": "Router",
    "type_id": "cellular-infrastructure",
@@ -92821,6 +92977,12 @@
    "type_id": "alarm-panel",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Ars Products": {
+   "type": "IoT",
+   "type_id": "radio-device",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "Artel Video Systems": {
    "type": "Audio",
@@ -93188,6 +93350,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Athena Tech, Inc.": {
+   "type": "Automotive",
+   "type_id": "avionics",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Athena Wireless Communications Inc": {
    "type": "Access Point",
    "type_id": "ptp-radio",
@@ -93205,6 +93373,12 @@
    "type_id": "digital-camera",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Atios AG": {
+   "type": "Smart Home",
+   "type_id": "smart-hub",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "Atlantek Microsystems Pty Ltd": {
    "type": "Camera",
@@ -93331,6 +93505,12 @@
    "type_id": "av-control",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "AuVerte": {
+   "type": "Thermostat",
+   "type_id": "thermostat",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "Auctus Technologies Co.,Ltd.": {
    "type": "IoT",
@@ -93836,6 +94016,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
   },
+  "Avida, Inc.": {
+   "type": "Camera",
+   "type_id": "ip-camera",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Avidbots Corporation": {
    "type": "Industrial",
    "type_id": "industrial-robot",
@@ -94021,6 +94207,12 @@
    "type_id": "receipt-printer",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Axiom Memory Solutions, Inc.": {
+   "type": "Storage",
+   "type_id": "mass-storage",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Axioma Metering UAB": {
    "type": "Smart Home",
@@ -94514,6 +94706,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "BESTCODE LLC": {
+   "type": "Industrial",
+   "type_id": "industrial-device",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "BEWATEC Kommunikationstechnik GmbH": {
    "type": "Medical",
    "type_id": "clinical-equipment",
@@ -94675,6 +94873,12 @@
    "type_id": "smart-scale",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "BK Technologies.com": {
+   "type": "IoT",
+   "type_id": "two-way-radio",
+   "confidence": 0.95,
+   "source": "research-2026-11-23-us-20y"
   },
   "BKS GmbH": {
    "type": "Smart Home",
@@ -96512,6 +96716,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "Bit Part LLC": {
+   "type": "Access Point",
+   "type_id": "ptp-radio",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Bit4id Srl": {
    "type": "Computer",
    "type_id": "peripheral",
@@ -96704,11 +96914,23 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Blue Clover Devices": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Blue Danube Systems, Inc": {
    "type": "Router",
    "type_id": "cellular-infrastructure",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Blue Iris Labs": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Blue Maestro Limited": {
    "type": "Smart Home",
@@ -96835,6 +97057,12 @@
    "type_id": "nvr",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Bluefin International Inc": {
+   "type": "TV",
+   "type_id": "digital-signage",
+   "confidence": 0.93,
+   "source": "research-2026-11-23-us-20y"
   },
   "Blueprint Lab": {
    "type": "Industrial",
@@ -97310,6 +97538,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "Bravo Tech, Inc.": {
+   "type": "Router",
+   "type_id": "cellular-infrastructure",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Bray International": {
    "type": "Industrial",
    "type_id": "industrial-device",
@@ -97652,6 +97886,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "Bull Creek Technologies": {
+   "type": "Storage",
+   "type_id": "mass-storage",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Bunn-O-Matic Corporation": {
    "type": "Appliance",
    "type_id": "small-kitchen",
@@ -97694,6 +97934,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-agents"
   },
+  "Business Marketers Group, Inc.": {
+   "type": "VoIP",
+   "type_id": "voip-phone",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Buslink": {
    "type": "Computer",
    "type_id": "peripheral",
@@ -97711,6 +97957,12 @@
    "type_id": "clinical-equipment",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Bweetech Electronics Technology (Shanghai) Co.,Ltd": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "Byos": {
    "type": "Router",
@@ -98107,6 +98359,12 @@
    "type_id": "firewall",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "CATCH THE WIND INC": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "CATEYE Co., Ltd.": {
    "type": "Wearable",
@@ -98569,6 +98827,12 @@
    "type_id": "laptop",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "CLIO Co., Ltd.": {
+   "type": "Smart Home",
+   "type_id": "smart-switch",
+   "confidence": 0.86,
+   "source": "research-2026-11-22-lighting"
   },
   "CLUSTRIX CORPORATION": {
    "type": "Server",
@@ -99044,6 +99308,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "CPI": {
+   "type": "IoT",
+   "type_id": "vending-machine",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "CPflight_srl": {
    "type": "Automotive",
    "type_id": "avionics",
@@ -99344,6 +99614,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "CYNC Labs, Inc.": {
+   "type": "Wearable",
+   "type_id": "sports-sensor",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
+  },
   "CYRA TECHNOLOGIES, INC.": {
    "type": "Industrial",
    "type_id": "test-equipment",
@@ -99463,6 +99739,12 @@
    "type_id": "fleet-telematics",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "California Things Inc.": {
+   "type": "Smart Home",
+   "type_id": "smart-lock",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "Calix": {
    "type": "Router",
@@ -99680,6 +99962,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
   },
+  "Cape": {
+   "type": "IoT",
+   "type_id": "wireless-sensor-node",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Capintec, Inc.": {
    "type": "Medical",
    "type_id": "clinical-equipment",
@@ -99697,6 +99985,18 @@
    "type_id": "digital-signage",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Capton": {
+   "type": "IoT",
+   "type_id": "wireless-sensor-node",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
+  "Capwave Technologies Inc": {
+   "type": "Access Point",
+   "type_id": "access-point",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "Carallon Limited": {
    "type": "Industrial",
@@ -99769,6 +100069,12 @@
    "type_id": "helmet-comms",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Care Bloom, LLC": {
+   "type": "Smart Home",
+   "type_id": "home-sensor",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "CarePredict, Inc.": {
    "type": "Wearable",
@@ -100136,6 +100442,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "CenterClick LLC": {
+   "type": "Router",
+   "type_id": "network-device",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Centillium Communications Corp.": {
    "type": "Modem",
    "type_id": "dsl-modem",
@@ -100208,6 +100520,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "CenturyLink": {
+   "type": "Router",
+   "type_id": "isp-gateway",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Cepheid": {
    "type": "Medical",
    "type_id": "clinical-equipment",
@@ -100225,6 +100543,12 @@
    "type_id": "pulse-oximeter",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Cerebras System Inc.": {
+   "type": "Server",
+   "type_id": "server",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "Cerebras Systems Inc": {
    "type": "Server",
@@ -100357,6 +100681,12 @@
    "type_id": "industrial-device",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Changzhou Yooksmart Innovation Co.,Ltd": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.92,
+   "source": "research-2026-11-22-lighting"
   },
   "Channel Master LLC": {
    "type": "Audio",
@@ -101036,6 +101366,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Clear Align LLC": {
+   "type": "Camera",
+   "type_id": "ip-camera",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "ClearCaptions LLC": {
    "type": "VoIP",
    "type_id": "voip-phone",
@@ -101282,6 +101618,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Codepoint Technologies, Inc.": {
+   "type": "IoT",
+   "type_id": "asset-tag",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Codethink Ltd.": {
    "type": "Industrial",
    "type_id": "test-equipment",
@@ -101347,6 +101689,12 @@
    "type_id": "nas",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Coho Data, Inc.,": {
+   "type": "Storage",
+   "type_id": "nas",
+   "confidence": 0.85,
+   "source": "research-2026-11-23-us-20y"
   },
   "Cohu, Inc., Electronics Division": {
    "type": "Camera",
@@ -101563,6 +101911,12 @@
    "type_id": "industrial-device",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Common Networks": {
+   "type": "Access Point",
+   "type_id": "ptp-radio",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Commsignia Ltd.": {
    "type": "Industrial",
@@ -101978,6 +102332,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Consolidated Resource Imaging": {
+   "type": "Camera",
+   "type_id": "camera",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Consolinno Energy GmbH": {
    "type": "Smart Home",
    "type_id": "energy-monitor",
@@ -101989,6 +102349,12 @@
    "type_id": "transit-system",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Contec Americas Inc.": {
+   "type": "Industrial",
+   "type_id": "industrial-device",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "Contec Medical Systems Co., Ltd.": {
    "type": "Medical",
@@ -102242,6 +102608,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-agents"
   },
+  "CoreKinect": {
+   "type": "IoT",
+   "type_id": "gps-tracker",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "CoreStar International Corp": {
    "type": "Industrial",
    "type_id": "test-equipment",
@@ -102278,6 +102650,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Corespan Systems": {
+   "type": "Server",
+   "type_id": "server",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Coretree, Co, Ltd": {
    "type": "VoIP",
    "type_id": "voip-phone",
@@ -102313,6 +102691,12 @@
    "type_id": "powerline-adapter",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Cornami, Inc": {
+   "type": "Server",
+   "type_id": "server",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "Cornice, Inc.": {
    "type": "Computer",
@@ -102500,6 +102884,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Cree, Inc.": {
+   "type": "Industrial",
+   "type_id": "lighting-control",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Crenet Labs Co., Ltd.": {
    "type": "Smart Home",
    "type_id": "intercom",
@@ -102535,6 +102925,12 @@
    "type_id": "peripheral",
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
+  },
+  "Critical Loop": {
+   "type": "Industrial",
+   "type_id": "grid-equipment",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Criticare Systems, Inc": {
    "type": "Medical",
@@ -102925,6 +103321,12 @@
    "type_id": "marine-electronics",
    "confidence": 0.9,
    "source": "research-2026-09-13-agents"
+  },
+  "Cyclops Technology Group": {
+   "type": "Camera",
+   "type_id": "ip-camera",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Cyfrowy Polsat SA": {
    "type": "Media Player",
@@ -105134,6 +105536,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
   },
+  "Delta Surge Inc.": {
+   "type": "Industrial",
+   "type_id": "industrial-switch",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Delta T Corporation": {
    "type": "Appliance",
    "type_id": "room-climate",
@@ -105199,6 +105607,12 @@
    "type_id": "av-control",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Dendo Systems Pty Ltd": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "Dendro Technologies, Inc.": {
    "type": "Medical",
@@ -105524,6 +105938,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-agents"
   },
+  "Digicare Biomedical Technology, Inc.": {
+   "type": "Medical",
+   "type_id": "patient-monitor",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Digidesign": {
    "type": "Audio",
    "type_id": "musical-instrument",
@@ -105782,6 +106202,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Digitize, Inc": {
+   "type": "Smart Home",
+   "type_id": "alarm-panel",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Digitrax Inc.": {
    "type": "Gaming",
    "type_id": "connected-toy",
@@ -105919,6 +106345,12 @@
    "type_id": "set-top-box",
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
+  },
+  "Disign Incorporated": {
+   "type": "Media Player",
+   "type_id": "digital-photo-frame",
+   "confidence": 0.86,
+   "source": "research-2026-11-22-lighting"
   },
   "Disney": {
    "type": "Access Point",
@@ -106118,6 +106550,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Domus Line S.r.l.": {
+   "type": "Smart Home",
+   "type_id": "led-controller",
+   "confidence": 0.92,
+   "source": "research-2026-11-22-lighting"
+  },
   "Don Electronics Ltd": {
    "type": "IoT",
    "type_id": "wireless-sensor-node",
@@ -106213,6 +106651,12 @@
    "type_id": "feature-phone",
    "confidence": 0.9,
    "source": "research-2026-09-13-agents"
+  },
+  "Dorsett Technologies Inc": {
+   "type": "Industrial",
+   "type_id": "plc",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Dosepack India LLP": {
    "type": "Industrial",
@@ -106430,6 +106874,12 @@
    "confidence": 0.88,
    "source": "research-2026-09-22-queue"
   },
+  "Drowsy Digital Inc": {
+   "type": "Audio",
+   "type_id": "earbuds",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Drs RADA Technologies": {
    "type": "Camera",
    "type_id": "security-radar",
@@ -106465,6 +106915,12 @@
    "type_id": "card-reader",
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
+  },
+  "Dtrovision": {
+   "type": "Audio",
+   "type_id": "av-control",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "Duagon AG": {
    "type": "Industrial",
@@ -107186,11 +107642,23 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "ELCOM Innovations Private Limited": {
+   "type": "IoT",
+   "type_id": "two-way-radio",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "ELDES": {
    "type": "Smart Home",
    "type_id": "alarm-panel",
    "confidence": 0.9,
    "source": "research-2026-09-13-agents"
+  },
+  "ELE(GROUP)CO.,LTD": {
+   "type": "Smart Home",
+   "type_id": "smart-plug",
+   "confidence": 0.86,
+   "source": "research-2026-11-22-lighting"
   },
   "ELECOM Co.,LTD Laneed Division": {
    "type": "Computer",
@@ -107522,6 +107990,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "ENERGOUS CORPORATION": {
+   "type": "Industrial",
+   "type_id": "energy-device",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "ENGETRON-ENGENHARIA ELETRONICA IND. e COM. LTDA": {
    "type": "Industrial",
    "type_id": "ups-power",
@@ -107593,6 +108067,12 @@
    "type_id": "energy-monitor",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "EPIImaging": {
+   "type": "Camera",
+   "type_id": "camera",
+   "confidence": 0.85,
+   "source": "research-2026-11-23-us-20y"
   },
   "EPILOG CORPORATION": {
    "type": "Industrial",
@@ -107702,11 +108182,23 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "ESI Ventures, LLC": {
+   "type": "Industrial",
+   "type_id": "lighting-control",
+   "confidence": 0.85,
+   "source": "research-2026-11-23-us-20y"
+  },
   "ESII": {
    "type": "IoT",
    "type_id": "vending-machine",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "ESP SYSTEMS, LLC": {
+   "type": "IoT",
+   "type_id": "office-device",
+   "confidence": 0.85,
+   "source": "research-2026-11-23-us-20y"
   },
   "ESSENCORE limited": {
    "type": "Computer",
@@ -107869,6 +108361,12 @@
    "type_id": "ups-power",
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
+  },
+  "EVERBLESSED TECHNOLOGY INC": {
+   "type": "Wearable",
+   "type_id": "smart-ring",
+   "confidence": 0.95,
+   "source": "research-2026-11-23-us-20y"
   },
   "EVERGREEN Technologies Inc": {
    "type": "Computer",
@@ -108151,6 +108649,12 @@
    "type_id": "security-radar",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Echola Systems": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
   },
   "Echolab LLC": {
    "type": "Audio",
@@ -108524,6 +109028,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "Electro Cirkel Retail B.V.": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.88,
+   "source": "research-2026-11-22-lighting"
+  },
   "Electro Industries/Gauge Tech": {
    "type": "Smart Home",
    "type_id": "energy-monitor",
@@ -108613,6 +109123,12 @@
    "type_id": "marine-electronics",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Electronic Technology Inc.": {
+   "type": "Industrial",
+   "type_id": "grid-equipment",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
   },
   "Electronic Temperature Instruments Ltd": {
    "type": "Industrial",
@@ -108745,6 +109261,12 @@
    "type_id": "cooking-appliance",
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
+  },
+  "Elide Interfaces Inc": {
+   "type": "Wearable",
+   "type_id": "smart-ring",
+   "confidence": 0.95,
+   "source": "research-2026-11-23-us-20y"
   },
   "Elin Ebg Traction Gmbh": {
    "type": "Automotive",
@@ -108986,6 +109508,18 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "Emcom Systems": {
+   "type": "VoIP",
+   "type_id": "voip-phone",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
+  "Emcraft Systems LLC": {
+   "type": "IoT",
+   "type_id": "single-board-computer",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Emdoor Digital Technology Co., Ltd": {
    "type": "Tablet",
    "type_id": "tablet",
@@ -109165,6 +109699,18 @@
    "type_id": "home-sensor",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "EnTek Systems, Inc.": {
+   "type": "Industrial",
+   "type_id": "grid-equipment",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
+  "Enalasys": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "Encell Technology, Inc.": {
    "type": "Smart Home",
@@ -109351,6 +109897,12 @@
    "type_id": "access-control",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Enlight International Ltd.": {
+   "type": "Smart Home",
+   "type_id": "smart-home-device",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "Enlighted Inc": {
    "type": "Industrial",
@@ -109681,6 +110233,12 @@
    "type_id": "smartphone",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Essential Trading Systems Corp": {
+   "type": "VoIP",
+   "type_id": "voip-phone",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Essilor": {
    "type": "Medical",
@@ -110018,6 +110576,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Exascend,INC.": {
+   "type": "Storage",
+   "type_id": "mass-storage",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Exavera Technologies, Inc.": {
    "type": "IoT",
    "type_id": "rfid-reader",
@@ -110293,6 +110857,12 @@
    "type_id": "sports-sensor",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "FDT Technologies": {
+   "type": "Camera",
+   "type_id": "ip-camera",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "FEI Electron Optics": {
    "type": "Industrial",
@@ -111062,6 +111632,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Fenotech Inc.": {
+   "type": "IoT",
+   "type_id": "wireless-sensor-node",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Fenwal Italia S.P.A.": {
    "type": "Smart Home",
    "type_id": "smoke-detector",
@@ -111307,6 +111883,12 @@
    "type_id": "router",
    "confidence": 0.9,
    "source": "research-2026-09-13-agents"
+  },
+  "FireHUD Inc. d.b.a SlateSafety": {
+   "type": "Wearable",
+   "type_id": "heart-rate-monitor",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "Firecom, Inc.": {
    "type": "Smart Home",
@@ -112076,6 +112658,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Fresh Electric": {
+   "type": "Appliance",
+   "type_id": "refrigerator",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
+  },
   "Fresh n Rebel B.V.": {
    "type": "Audio",
    "type_id": "earbuds",
@@ -112568,6 +113156,12 @@
    "confidence": 0.86,
    "source": "product-names"
   },
+  "GD California, Inc.": {
+   "type": "IoT",
+   "type_id": "single-board-computer",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "GE AVIC Civil Avionics Systems Company Limited": {
    "type": "Automotive",
    "type_id": "avionics",
@@ -112940,6 +113534,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "GOEFER, Inc.": {
+   "type": "Smart Home",
+   "type_id": "smart-plug",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "GOGORO TAIWAN LIMITED": {
    "type": "Automotive",
    "type_id": "e-scooter",
@@ -113005,6 +113605,12 @@
    "type_id": "industrial-device",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "GREENBANK Inc.": {
+   "type": "Smart Home",
+   "type_id": "smart-switch",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "GRG Banking Technology Co.,Ltd": {
    "type": "IoT",
@@ -113102,6 +113708,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "GTDevice LLC": {
+   "type": "Audio",
+   "type_id": "microphone",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
+  },
   "GTECH CORPORATION": {
    "type": "IoT",
    "type_id": "pos-terminal",
@@ -113137,6 +113749,12 @@
    "type_id": "appliance",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "GUANGDONG REMAC SMART TECHNOLOGY CO., LTD.": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "GUANGZHOU GUANGRI ELEVATOR INDUSTRY CO.,LTD": {
    "type": "Industrial",
@@ -114518,6 +115136,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Granite River Labs": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Graphics Microsystems Inc": {
    "type": "Industrial",
    "type_id": "test-equipment",
@@ -114854,6 +115478,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Guangdong Langsen M. & E. Co., Ltd.": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
+  },
   "Guangdong Sirivision Communication Technology Co.,LTD.": {
    "type": "Switch",
    "type_id": "switch",
@@ -114895,6 +115525,12 @@
    "type_id": "earbuds",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Guangzhou Babai Information Technology Co., LTD": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "Guangzhou Desam Audio Co.,Ltd": {
    "type": "Audio",
@@ -115592,6 +116228,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-agents"
   },
+  "HNLC Tech (Shenzhen) Co.,Ltd.": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
+  },
   "HOERBIGER Elektronik GmbH": {
    "type": "Industrial",
    "type_id": "industrial-device",
@@ -115621,6 +116263,12 @@
    "type_id": "elevator-system",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "HONG KONG LAUNRAY INDUSTRY LIMITED": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "HOOC AG": {
    "type": "Industrial",
@@ -115789,6 +116437,12 @@
    "type_id": "isp-gateway",
    "confidence": 0.9,
    "source": "curated"
+  },
+  "HUNAN DIANXIAOKU TECHNOLOGY CO., LTD.": {
+   "type": "Smart Home",
+   "type_id": "smart-plug",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "HUNTSVILLE MICROSYSTEMS, INC.": {
    "type": "Industrial",
@@ -116054,6 +116708,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Hangzhou Binthen intelligence technology Co., LTD": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
+  },
   "Hangzhou BroadLink Technology Co.,Ltd": {
    "type": "Media Player",
    "type_id": "remote-control",
@@ -116071,6 +116731,12 @@
    "type_id": "projector",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Hangzhou Dunchong Technology Co.Ltd": {
+   "type": "Access Point",
+   "type_id": "access-point",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Hangzhou Gold Electronic Equipment Co., Ltd": {
    "type": "Industrial",
@@ -116138,11 +116804,23 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Hangzhou Meari Technology Co., Ltd.": {
+   "type": "Camera",
+   "type_id": "ip-camera",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
+  },
   "Hangzhou Puwell OE Tech Ltd.": {
    "type": "Camera",
    "type_id": "ip-camera",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Hangzhou Saishigao Intelligent Technology Co., Ltd": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "Hangzhou Sciener Smart Technology Co., Ltd.": {
    "type": "Smart Home",
@@ -116167,6 +116845,12 @@
    "type_id": "ata",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Hangzhou Tangpushi Home Products Co., LTD": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "Hangzhou ToupTek Photonics Co., Ltd.": {
    "type": "Camera",
@@ -116293,6 +116977,12 @@
    "type_id": "keyboard",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Harborside Technology": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "Hardy Instruments": {
    "type": "Industrial",
@@ -116455,6 +117145,12 @@
    "type_id": "display",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "HavocAI, Inc.": {
+   "type": "Automotive",
+   "type_id": "marine-electronics",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Hawking Technologies": {
    "type": "Computer",
@@ -116713,6 +117409,12 @@
    "type_id": "receipt-printer",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Henrich Electronics Corporation": {
+   "type": "Industrial",
+   "type_id": "industrial-switch",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Henschel-Robotics GmbH": {
    "type": "Industrial",
@@ -117356,6 +118058,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "Homewell Technology Co., Ltd.": {
+   "type": "Smart Home",
+   "type_id": "smart-switch",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
+  },
   "Honda": {
    "type": "Automotive",
    "type_id": "car-infotainment",
@@ -117380,11 +118088,23 @@
    "confidence": 0.9,
    "source": "curated"
   },
+  "HooRii Technology CO., LTD": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
+  },
   "Hoontech Corporation/Samho Multi Tech Ltd.": {
    "type": "Audio",
    "type_id": "audio-video-device",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Horcery LLC": {
+   "type": "Camera",
+   "type_id": "ip-camera",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "Hori Co., Ltd": {
    "type": "Gaming",
@@ -117415,6 +118135,12 @@
    "type_id": "fleet-telematics",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Hot Pepper, Inc.": {
+   "type": "Phone",
+   "type_id": "smartphone",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Hottinger Brüel & Kjaer GmbH": {
    "type": "Industrial",
@@ -117523,6 +118249,12 @@
    "type_id": "display",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Human, Incorporated": {
+   "type": "Audio",
+   "type_id": "headphones",
+   "confidence": 0.93,
+   "source": "research-2026-11-23-us-20y"
   },
   "HumanEyes Technologies Ltd.": {
    "type": "Camera",
@@ -117644,6 +118376,12 @@
    "confidence": 0.91,
    "source": "research-2026-09-22-queue"
   },
+  "Huzhou Doorma Intelligence Technology Co.,Ltd": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
+  },
   "HySecurity": {
    "type": "Smart Home",
    "type_id": "access-control",
@@ -117751,6 +118489,12 @@
    "type_id": "av-receiver",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Hypnotik LLC": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "Hytera": {
    "type": "IoT",
@@ -118010,6 +118754,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "IDA": {
+   "type": "IoT",
+   "type_id": "radio-device",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "IDA North America Inc.": {
    "type": "IoT",
    "type_id": "two-way-radio",
@@ -118027,6 +118777,12 @@
    "type_id": "plc",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "IDEC ALPS Technologies, Co., Ltd.": {
+   "type": "IoT",
+   "type_id": "wireless-sensor-node",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "IDEC IZUMI Corporation": {
    "type": "Industrial",
@@ -118448,6 +119204,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "INNOVATIVE CONCEPTS AND DESIGN LLC": {
+   "type": "Audio",
+   "type_id": "wireless-speaker",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
+  },
   "INO Therapeutics LLC": {
    "type": "Medical",
    "type_id": "medical-device",
@@ -118471,6 +119233,12 @@
    "type_id": "smartphone",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "INSIIDA ELECTRICAL TECHNOLOGY CO.,LTD": {
+   "type": "Smart Home",
+   "type_id": "smart-switch",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "INSTAR Deutschland GmbH": {
    "type": "Camera",
@@ -118501,6 +119269,12 @@
    "type_id": "test-equipment",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "INTEG process group inc": {
+   "type": "Industrial",
+   "type_id": "plc",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
   },
   "INTEGRA Biosciences AG": {
    "type": "Medical",
@@ -118609,6 +119383,18 @@
    "type_id": "barcode-scanner",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "ION INDUSTRIES B.V.": {
+   "type": "Smart Home",
+   "type_id": "smart-switch",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
+  },
+  "IONA Tech": {
+   "type": "Wearable",
+   "type_id": "wearable-device",
+   "confidence": 0.93,
+   "source": "research-2026-11-23-us-20y"
   },
   "IPAS GmbH": {
    "type": "Industrial",
@@ -118946,11 +119732,23 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "ITIUS GmbH": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
+  },
   "ITK Precisioning GmbH": {
    "type": "Industrial",
    "type_id": "industrial-device",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "ITL, LLC": {
+   "type": "Industrial",
+   "type_id": "industrial-device",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "ITOH DENKI CO,LTD.": {
    "type": "Industrial",
@@ -119546,11 +120344,23 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Inex Technologies": {
+   "type": "Camera",
+   "type_id": "alpr-camera",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
+  },
   "InfiNet LLC": {
    "type": "Access Point",
    "type_id": "ptp-radio",
    "confidence": 0.95,
    "source": "research-2026-09-13-agents"
+  },
+  "Infibrite Inc": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "Infilco Degremont Inc.": {
    "type": "Appliance",
@@ -119570,6 +120380,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
   },
+  "InfiniWing, Inc.": {
+   "type": "Computer",
+   "type_id": "docking-station",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Infinidat Ltd.": {
    "type": "Storage",
    "type_id": "nas",
@@ -119587,6 +120403,12 @@
    "type_id": "security-radar",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Infinity System S.L.": {
+   "type": "Laptop",
+   "type_id": "laptop",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Infinix (Transsion)": {
    "type": "Phone",
@@ -119636,6 +120458,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
   },
+  "Inform Electronik": {
+   "type": "Industrial",
+   "type_id": "ups-power",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Infors AG": {
    "type": "Medical",
    "type_id": "clinical-equipment",
@@ -119671,6 +120499,12 @@
    "type_id": "pos-terminal",
    "confidence": 0.95,
    "source": "curated"
+  },
+  "Ingenious Technology LLC": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Ingersoll-Rand": {
    "type": "Industrial",
@@ -119846,6 +120680,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Innovative Advantage": {
+   "type": "Automotive",
+   "type_id": "avionics",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Innovative American Technology": {
    "type": "Camera",
    "type_id": "security-device",
@@ -119869,6 +120709,12 @@
    "type_id": "audio-video-device",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Innovative Neurotroncs": {
+   "type": "Medical",
+   "type_id": "medical-device",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "Innovative Signal Analysis": {
    "type": "IoT",
@@ -119983,6 +120829,12 @@
    "type_id": "mobile-hotspot",
    "confidence": 0.9,
    "source": "curated"
+  },
+  "Insensi": {
+   "type": "VoIP",
+   "type_id": "voip-phone",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "Inside Out Networks [hex]": {
    "type": "Industrial",
@@ -120104,6 +120956,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "InstruVU": {
+   "type": "IoT",
+   "type_id": "wireless-sensor-node",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Instrument Development Group (IDG) at Johns Hopkins University": {
    "type": "Industrial",
    "type_id": "test-equipment",
@@ -120133,6 +120991,12 @@
    "type_id": "3d-printer",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Intecular LLC": {
+   "type": "Smart Home",
+   "type_id": "smart-plug",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "Integer.pl S.A.": {
    "type": "IoT",
@@ -120187,6 +121051,18 @@
    "type_id": "lighting-control",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Integri-Sys.Com LLC": {
+   "type": "Industrial",
+   "type_id": "transit-fare",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
+  "Integritech": {
+   "type": "Audio",
+   "type_id": "headphones",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Intel": {
    "type": "Laptop",
@@ -120331,6 +121207,12 @@
    "type_id": "peripheral",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Intent Solutions Inc": {
+   "type": "Medical",
+   "type_id": "medical-device",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "Inter-Coastal Electronics": {
    "type": "Industrial",
@@ -120656,6 +121538,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "IoTSecure, LLC": {
+   "type": "Camera",
+   "type_id": "security-device",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "IoTecha Corp": {
    "type": "Smart Home",
    "type_id": "ev-charger",
@@ -120860,6 +121748,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "J-Systems Inc.": {
+   "type": "Camera",
+   "type_id": "security-device",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "J-Tech Digital, Inc": {
    "type": "Audio",
    "type_id": "audio-video-device",
@@ -120913,6 +121807,12 @@
    "type_id": "industrial-robot",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "JAM-Labs Corp": {
+   "type": "Medical",
+   "type_id": "clinical-equipment",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "JANOME Corporation": {
    "type": "Industrial",
@@ -121057,6 +121957,18 @@
    "type_id": "building-automation",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "JMR Electronics, Inc": {
+   "type": "Storage",
+   "type_id": "nas",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
+  "JNL Technologies Inc": {
+   "type": "Medical",
+   "type_id": "clinical-equipment",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "JOHN FLUKE MANUFACTURING CO.": {
    "type": "Industrial",
@@ -121406,6 +122318,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Jiangmen Zhiji Technology Co., Ltd.": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
+  },
   "Jiangsu AIDriving Co.,Ltd.": {
    "type": "Automotive",
    "type_id": "vehicle-device",
@@ -121448,6 +122366,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Jiangsu Jingchuang Electronics Co., Ltd.": {
+   "type": "Industrial",
+   "type_id": "hvac-equipment",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
+  },
   "Jiangsu Lemote Technology Corporation Limited": {
    "type": "Computer",
    "type_id": "computer",
@@ -121465,6 +122389,12 @@
    "type_id": "mobile-computer",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Jiangsu Shushi Technology Co., Ltd.": {
+   "type": "Smart Home",
+   "type_id": "smart-plug",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "Jiangsu Vedkang Medicl Sclence and Technology Co.,Ltd": {
    "type": "Medical",
@@ -121916,6 +122846,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "KEGU Intelligent Technology Co., LTD": {
+   "type": "Smart Home",
+   "type_id": "led-controller",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
+  },
   "KELLER Druckmesstechnik AG": {
    "type": "Industrial",
    "type_id": "industrial-device",
@@ -122041,6 +122977,12 @@
    "type_id": "voip-phone",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "KIWEE BROADBAND": {
+   "type": "Router",
+   "type_id": "powerline-adapter",
+   "confidence": 0.95,
+   "source": "research-2026-11-23-us-20y"
   },
   "KIWI.KI GmbH": {
    "type": "Smart Home",
@@ -122432,6 +123374,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "KanexPro": {
+   "type": "Audio",
+   "type_id": "av-control",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Kanguru Solutions": {
    "type": "Computer",
    "type_id": "peripheral",
@@ -122492,6 +123440,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "Katun Corporation": {
+   "type": "Printer",
+   "type_id": "printer",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Katusha": {
    "type": "Printer",
    "type_id": "printer",
@@ -122533,6 +123487,12 @@
    "type_id": "thermometer",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Kee Tat Manufactory Holdings Limited": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "Keene Electronics Ltd.": {
    "type": "Audio",
@@ -122948,6 +123908,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "KingTing Tech.": {
+   "type": "Smart Home",
+   "type_id": "home-sensor",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Kingmax Digital Inc.": {
    "type": "Computer",
    "type_id": "peripheral",
@@ -123043,6 +124009,12 @@
    "type_id": "personal-care",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Kiwibit Inc.": {
+   "type": "Smart Home",
+   "type_id": "pet-device",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "Klaric GmbH & Co. KG": {
    "type": "Industrial",
@@ -123445,6 +124417,12 @@
    "type_id": "home-sensor",
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
+  },
+  "Kova, Corp.": {
+   "type": "Industrial",
+   "type_id": "emergency-alerting",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "Kowa Company, Ltd.": {
    "type": "Medical",
@@ -124178,6 +125156,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "LINK Group Inc.": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "LINOTYPE-HELL AG": {
    "type": "Printer",
    "type_id": "printer",
@@ -124261,6 +125245,12 @@
    "type_id": "smart-glasses",
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
+  },
+  "LLW Enterprise, LLC": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "LM-Instruments Oy": {
    "type": "Medical",
@@ -124460,6 +125450,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "LVT": {
+   "type": "Camera",
+   "type_id": "ip-camera",
+   "confidence": 0.93,
+   "source": "research-2026-11-23-us-20y"
+  },
   "LXE": {
    "type": "Computer",
    "type_id": "mobile-computer",
@@ -124477,6 +125473,12 @@
    "type_id": "audio-video-device",
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
+  },
+  "LYSORA TECHNOLOGY INC.": {
+   "type": "Access Point",
+   "type_id": "access-point",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "LYT inc.": {
    "type": "Smart Home",
@@ -124616,6 +125618,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Lance Design LLC": {
+   "type": "Audio",
+   "type_id": "musical-instrument",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Lancier Monitoring GmbH": {
    "type": "Industrial",
    "type_id": "test-equipment",
@@ -124657,6 +125665,12 @@
    "type_id": "switch",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Lanpoe": {
+   "type": "Switch",
+   "type_id": "switch",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "Lansen Systems AB": {
    "type": "IoT",
@@ -125162,6 +126176,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Level Up Holding Co., Inc.": {
+   "type": "Smart Home",
+   "type_id": "intercom",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Leviosa Motor Shades": {
    "type": "Smart Home",
    "type_id": "smart-blinds",
@@ -125360,6 +126380,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Lifud Technology Co., Ltd.": {
+   "type": "Smart Home",
+   "type_id": "led-controller",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
+  },
   "LighTuning Technology Inc.": {
    "type": "IoT",
    "type_id": "card-reader",
@@ -125516,6 +126542,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "Linear Logic LLC": {
+   "type": "Automotive",
+   "type_id": "obd-dongle",
+   "confidence": 0.93,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Lingban Technology (Hangzhou) Co., Ltd": {
    "type": "Wearable",
    "type_id": "smart-glasses",
@@ -125563,6 +126595,12 @@
    "type_id": "industrial-device",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Linkplay": {
+   "type": "Audio",
+   "type_id": "av-receiver",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "Linksys": {
    "type": "Router",
@@ -126074,6 +127112,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Lucint Systems, Inc.": {
+   "type": "Camera",
+   "type_id": "camera",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Lucy Electric Manufacturing and Technologies India Pvt Ltd": {
    "type": "Industrial",
    "type_id": "grid-equipment",
@@ -126248,6 +127292,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Luxedo": {
+   "type": "TV",
+   "type_id": "projector",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Luxer Corporation": {
    "type": "IoT",
    "type_id": "vending-machine",
@@ -126313,6 +127363,12 @@
    "type_id": "network-device",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Lynx Systems": {
+   "type": "Smart Home",
+   "type_id": "alarm-panel",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "Lynxspring, Incl.": {
    "type": "Industrial",
@@ -126523,6 +127579,12 @@
    "type_id": "computer",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "MATELEX": {
+   "type": "IoT",
+   "type_id": "wireless-sensor-node",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "MATICA TECHNOLOGIES AG": {
    "type": "Printer",
@@ -126865,6 +127927,12 @@
    "type_id": "industrial-device",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "MESA TECHNOLOGIES LLC": {
+   "type": "Camera",
+   "type_id": "ip-camera",
+   "confidence": 0.85,
+   "source": "research-2026-11-23-us-20y"
   },
   "MESIT asd, s.r.o.": {
    "type": "IoT",
@@ -127478,6 +128546,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "MULTIVOICE LLC": {
+   "type": "IoT",
+   "type_id": "two-way-radio",
+   "confidence": 0.85,
+   "source": "research-2026-11-23-us-20y"
+  },
   "MURATA MACHINERY, LTD.": {
    "type": "Industrial",
    "type_id": "industrial-robot",
@@ -127519,6 +128593,12 @@
    "type_id": "industrial-device",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Mach": {
+   "type": "Industrial",
+   "type_id": "agriculture-equipment",
+   "confidence": 0.85,
+   "source": "research-2026-11-23-us-20y"
   },
   "Macherey-Nagel GmbH & Co. KG": {
    "type": "Industrial",
@@ -127604,6 +128684,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
   },
+  "Maestro Food Co.": {
+   "type": "Appliance",
+   "type_id": "cooking-appliance",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Maestronic": {
    "type": "Automotive",
    "type_id": "transit-system",
@@ -127615,6 +128701,12 @@
    "type_id": "card-reader",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "MagTarget LLC": {
+   "type": "Computer",
+   "type_id": "docking-station",
+   "confidence": 0.85,
+   "source": "research-2026-11-23-us-20y"
   },
   "MagTek": {
    "type": "IoT",
@@ -128432,6 +129524,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "McDowell Signal Processing, LLC (dba McDSP)": {
+   "type": "Audio",
+   "type_id": "musical-instrument",
+   "confidence": 0.85,
+   "source": "research-2026-11-23-us-20y"
+  },
   "McIntosh Group Inc": {
    "type": "Audio",
    "type_id": "av-receiver",
@@ -128888,6 +129986,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Mesh Motion Inc": {
+   "type": "Smart Home",
+   "type_id": "smart-lock",
+   "confidence": 0.85,
+   "source": "research-2026-11-23-us-20y"
+  },
   "MeshPlusPlus, Inc.": {
    "type": "IoT",
    "type_id": "mesh-radio",
@@ -129314,6 +130418,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Micron": {
+   "type": "Storage",
+   "type_id": "mass-storage",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Micron Electronics": {
    "type": "Computer",
    "type_id": "desktop",
@@ -129548,6 +130658,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Millennium Group, Inc.": {
+   "type": "Smart Home",
+   "type_id": "access-control",
+   "confidence": 0.85,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Miller Electric Mfg. Co.": {
    "type": "Industrial",
    "type_id": "industrial-device",
@@ -129710,6 +130826,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Minno LLC": {
+   "type": "Tablet",
+   "type_id": "tablet",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Minolta Co., Ltd": {
    "type": "Printer",
    "type_id": "printer",
@@ -129757,6 +130879,18 @@
    "type_id": "traffic-controller",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Miravue": {
+   "type": "Audio",
+   "type_id": "av-control",
+   "confidence": 0.85,
+   "source": "research-2026-11-23-us-20y"
+  },
+  "Miri Technologies, Inc": {
+   "type": "Router",
+   "type_id": "cellular-router",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "Mirion Technologies Dosimetry Services Division": {
    "type": "Medical",
@@ -130052,6 +131186,18 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
   },
+  "ModuSystems, Inc": {
+   "type": "Industrial",
+   "type_id": "plc",
+   "confidence": 0.85,
+   "source": "research-2026-11-23-us-20y"
+  },
+  "Moduel AB": {
+   "type": "Smart Home",
+   "type_id": "smart-plug",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
+  },
   "Moen": {
    "type": "Appliance",
    "type_id": "water-system",
@@ -130111,6 +131257,12 @@
    "type_id": "alarm-panel",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Monaghan Engineering, Inc.": {
+   "type": "Industrial",
+   "type_id": "industrial-device",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "Monarch Instrument": {
    "type": "Industrial",
@@ -130934,6 +132086,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "NDSL, Inc.": {
+   "type": "Industrial",
+   "type_id": "industrial-device",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "NDW Rollers B.V.": {
    "type": "Industrial",
    "type_id": "industrial-device",
@@ -131282,6 +132440,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "NIE-TECH Co., Ltd.": {
+   "type": "Smart Home",
+   "type_id": "smart-switch",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
+  },
   "NIHON KOHDEN AMERICA": {
    "type": "Medical",
    "type_id": "patient-monitor",
@@ -131305,6 +132469,12 @@
    "type_id": "cooking-appliance",
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
+  },
+  "NINGBO GERWIN MECHANIC&ELECTRONICS TECHNOLOGY CO.,LTD.": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "NINGBO SUNVOT TECHNOLOGY CO.,LTD": {
    "type": "Router",
@@ -131473,6 +132643,12 @@
    "type_id": "transit-system",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "NOVO (GUANGDONG) HIGH-TECH CO., LTD.": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "NOX Systems AG": {
    "type": "Smart Home",
@@ -131659,6 +132835,12 @@
    "type_id": "energy-device",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "NYBSYS Inc": {
+   "type": "Access Point",
+   "type_id": "small-cell",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "NZXT": {
    "type": "Computer",
@@ -131876,6 +133058,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "National Resource Management, Inc.": {
+   "type": "Industrial",
+   "type_id": "building-automation",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "National Time & Signal Corp.": {
    "type": "IoT",
    "type_id": "office-device",
@@ -132085,6 +133273,12 @@
    "type_id": "office-device",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Neo Materials and Consulting Inc.": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "Neo Photonics": {
    "type": "Router",
@@ -132301,6 +133495,12 @@
    "type_id": "switch",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Netool LLC": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.95,
+   "source": "research-2026-11-23-us-20y"
   },
   "Netopia, Inc.": {
    "type": "Router",
@@ -132908,11 +134108,23 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "Nine Fives LLC": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.95,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Ningbo Dooya Mechanic & Electronic Technology Co., Ltd": {
    "type": "Smart Home",
    "type_id": "smart-blinds",
    "confidence": 0.95,
    "source": "research-2026-09-13-agents"
+  },
+  "Ningbo Feierge Mechanic & Electronic Technology Co., Ltd.": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "Ningbo Joynext Technology Corporation": {
    "type": "Automotive",
@@ -132943,6 +134155,18 @@
    "type_id": "smart-meter",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Ningbo Yinzhou Sixin Import & Export Co., Ltd.": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
+  },
+  "Ningbo Zhengxin Intelligent Technology Co., Ltd.": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "Ningbo bird sales co.,LTD": {
    "type": "Phone",
@@ -133087,6 +134311,12 @@
    "type_id": "smart-switch",
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
+  },
+  "NodeUDesign": {
+   "type": "Industrial",
+   "type_id": "plc",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "Nofence AS": {
    "type": "Industrial",
@@ -133352,6 +134582,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "North American Blue Tiger Company, LLC": {
+   "type": "Audio",
+   "type_id": "headphones",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "North Atlantic Industries": {
    "type": "Automotive",
    "type_id": "avionics",
@@ -133435,6 +134671,12 @@
    "type_id": "smartphone",
    "confidence": 0.9,
    "source": "curated"
+  },
+  "NovTech, Inc.": {
+   "type": "IoT",
+   "type_id": "single-board-computer",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "Nova Engineering Inc.": {
    "type": "IoT",
@@ -133568,6 +134810,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "NuWatt, Inc.": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
+  },
   "Nuance Hearing Ltd.": {
    "type": "Medical",
    "type_id": "hearing-aid",
@@ -133693,6 +134941,12 @@
    "type_id": "set-top-box",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "NxGen Comm LLC": {
+   "type": "Access Point",
+   "type_id": "small-cell",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "NxtPhase T&D, Corp.": {
    "type": "Industrial",
@@ -134047,6 +135301,12 @@
    "type_id": "sports-sensor",
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
+  },
+  "ORBIS TECNOLOGIA ELECTRICA S.A.": {
+   "type": "Smart Home",
+   "type_id": "smart-meter",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "ORBIT AVIONIC & COMMUNICATION": {
    "type": "Automotive",
@@ -134690,6 +135950,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-agents"
   },
+  "Ontic Engineering & Manufacturing": {
+   "type": "Automotive",
+   "type_id": "avionics",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Onto Innovation": {
    "type": "Industrial",
    "type_id": "test-equipment",
@@ -135206,6 +136472,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Oriux": {
+   "type": "Industrial",
+   "type_id": "traffic-controller",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Ormazabal": {
    "type": "Industrial",
    "type_id": "grid-equipment",
@@ -135422,6 +136694,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
   },
+  "Owl Home Inc.": {
+   "type": "Smart Home",
+   "type_id": "smoke-detector",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
+  },
   "Owl Labs": {
    "type": "VoIP",
    "type_id": "conference-system",
@@ -135518,6 +136796,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "P.I.E. Inel Sp. z o.o.": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
+  },
   "PABLO AIR Co., LTD": {
    "type": "IoT",
    "type_id": "drone",
@@ -135535,6 +136819,12 @@
    "type_id": "fleet-telematics",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "PACIFIC HOGAR, S.L.": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "PACIFIC INDUSTRIAL CO., LTD.": {
    "type": "Automotive",
@@ -135709,6 +136999,12 @@
    "type_id": "ups-power",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "PDW": {
+   "type": "IoT",
+   "type_id": "drone",
+   "confidence": 0.93,
+   "source": "research-2026-11-23-us-20y"
   },
   "PEAG, LLC dba JLab Audio": {
    "type": "Audio",
@@ -136034,6 +137330,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "PNI sensor corporation": {
+   "type": "Industrial",
+   "type_id": "parking-system",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "PNY": {
    "type": "Computer",
    "type_id": "peripheral",
@@ -136184,6 +137486,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "PRICOM Design": {
+   "type": "Industrial",
+   "type_id": "lighting-control",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "PRIME COMPUTER INC.": {
    "type": "Server",
    "type_id": "server",
@@ -136279,6 +137587,12 @@
    "type_id": "industrial-device",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "PROVCOM LTD": {
+   "type": "Audio",
+   "type_id": "wireless-speaker",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "PS Audio International": {
    "type": "Audio",
@@ -136484,6 +137798,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "PacketFlux Technologies, Inc.": {
+   "type": "Industrial",
+   "type_id": "ups-power",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "PacketFront Network Products AB": {
    "type": "Switch",
    "type_id": "switch",
@@ -136495,6 +137815,12 @@
    "type_id": "network-device",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Packetalk LLC": {
+   "type": "Camera",
+   "type_id": "alpr-camera",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "Pacom Systems Ltd.": {
    "type": "Smart Home",
@@ -136525,6 +137851,12 @@
    "type_id": "security-radar",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Palltronics, Inc.": {
+   "type": "IoT",
+   "type_id": "gps-tracker",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Palm, Inc.": {
    "type": "Phone",
@@ -137300,6 +138632,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Pharsighted LLC": {
+   "type": "Camera",
+   "type_id": "digital-camera",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Phase IV Engineering Inc.": {
    "type": "IoT",
    "type_id": "wireless-sensor-node",
@@ -137906,6 +139244,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Plasmability, LLC": {
+   "type": "Industrial",
+   "type_id": "industrial-device",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Plasmapp Co.,Ltd.": {
    "type": "Medical",
    "type_id": "clinical-equipment",
@@ -137977,6 +139321,12 @@
    "type_id": "agriculture-equipment",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Plexstar Inc.": {
+   "type": "Router",
+   "type_id": "network-device",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Plextor Corp.": {
    "type": "Computer",
@@ -138242,6 +139592,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
   },
+  "Poplight LLC": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
+  },
   "Porsche AG": {
    "type": "Automotive",
    "type_id": "car-infotainment",
@@ -138331,6 +139687,12 @@
    "type_id": "printer",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Potomac Electric Corporation": {
+   "type": "Industrial",
+   "type_id": "industrial-device",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Potter Electric Signal Co. LLC": {
    "type": "Smart Home",
@@ -138541,6 +139903,12 @@
    "type_id": "asset-tag",
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
+  },
+  "Prado Family BV": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "Prama India Private Limited": {
    "type": "Camera",
@@ -138782,6 +140150,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Privacy Labs": {
+   "type": "Server",
+   "type_id": "server",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Private Enterprise Scientific and Production Private EnterpriseSparing-Vist Center": {
    "type": "Industrial",
    "type_id": "test-equipment",
@@ -138859,6 +140233,12 @@
    "type_id": "router",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Procode Technology Limited": {
+   "type": "Smart Home",
+   "type_id": "smart-hub",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "Procon Engineering Limited": {
    "type": "Industrial",
@@ -139076,6 +140456,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "Protempis, LLC": {
+   "type": "Router",
+   "type_id": "network-device",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Proteus Digital Health": {
    "type": "Medical",
    "type_id": "medical-device",
@@ -139220,6 +140606,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Psync Labs, Inc.": {
+   "type": "Camera",
+   "type_id": "ip-camera",
+   "confidence": 0.94,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Publix": {
    "type": "Access Point",
    "type_id": "venue-hotspot",
@@ -139327,6 +140719,12 @@
    "type_id": "water-system",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Purple Communications, Inc": {
+   "type": "VoIP",
+   "type_id": "voip-phone",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Purup Prepress A/S": {
    "type": "Printer",
@@ -139568,6 +140966,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "QUARTECH CORPORATION": {
+   "type": "Industrial",
+   "type_id": "hmi",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "QUERCUS TECHNOLOGIES, S.L.": {
    "type": "Industrial",
    "type_id": "parking-system",
@@ -139711,6 +141115,12 @@
    "type_id": "smartphone",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Qingdao Ronco Mechanic Electronic Technology Co., Ltd.": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "Qingdao Vzense Technology Co., Ltd.": {
    "type": "Camera",
@@ -139940,6 +141350,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "Quarion Technology Inc": {
+   "type": "IoT",
+   "type_id": "asset-tag",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Quasonix": {
    "type": "IoT",
    "type_id": "radio-device",
@@ -140059,6 +141475,12 @@
    "type_id": "asset-tag",
    "confidence": 0.9,
    "source": "research-2026-09-13-agents"
+  },
+  "R Cubed Engineering, LLC": {
+   "type": "Automotive",
+   "type_id": "avionics",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "R&D International NV": {
    "type": "Industrial",
@@ -140852,6 +142274,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "RPM Systems Corp.": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "RPS S.p.A.": {
    "type": "Industrial",
    "type_id": "ups-power",
@@ -140893,6 +142321,12 @@
    "type_id": "plc",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "RTC Manufacturing Inc.": {
+   "type": "Industrial",
+   "type_id": "traffic-controller",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "RTDS Technologies Inc.": {
    "type": "Industrial",
@@ -141254,6 +142688,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "RapidWave Inc.": {
+   "type": "Access Point",
+   "type_id": "ptp-radio",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Rapiscan Systems": {
    "type": "Camera",
    "type_id": "security-device",
@@ -141307,6 +142747,12 @@
    "type_id": "agriculture-equipment",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Raven Resonance Inc.": {
+   "type": "Wearable",
+   "type_id": "smart-glasses",
+   "confidence": 0.91,
+   "source": "research-2026-11-23-us-20y"
   },
   "Ravensburger": {
    "type": "Gaming",
@@ -141464,6 +142910,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-agents"
   },
+  "Rebel Systems": {
+   "type": "Router",
+   "type_id": "cellular-router",
+   "confidence": 0.85,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Reciprocal Labs Corp": {
    "type": "Medical",
    "type_id": "medical-device",
@@ -141511,6 +142963,12 @@
    "type_id": "asset-tag",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Red Technologies, LLC.": {
+   "type": "Phone",
+   "type_id": "smartphone",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "RedOctane": {
    "type": "Gaming",
@@ -141878,6 +143336,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "Rev-A-Shelf LLC": {
+   "type": "Smart Home",
+   "type_id": "led-controller",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
+  },
   "Revert Technologies": {
    "type": "Smart Home",
    "type_id": "smart-plug",
@@ -142225,6 +143689,12 @@
    "type_id": "traffic-controller",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Roboteq": {
+   "type": "Industrial",
+   "type_id": "industrial-device",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "Robotic Assistance Devices Residential Inc": {
    "type": "Industrial",
@@ -142603,6 +144073,12 @@
    "type_id": "av-receiver",
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
+  },
+  "S & A Systems": {
+   "type": "Automotive",
+   "type_id": "fleet-telematics",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "S Life": {
    "type": "VoIP",
@@ -143089,6 +144565,12 @@
    "type_id": "wifi-router",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "SDevices LLC": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "SE Controls Asia Pacific Ltd": {
    "type": "Industrial",
@@ -144116,6 +145598,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "SMART High Reliability Solutions, Inc.": {
+   "type": "Storage",
+   "type_id": "mass-storage",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "SMART Storage Systems": {
    "type": "Computer",
    "type_id": "computer",
@@ -144986,6 +146474,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "SafeOwl, Inc.": {
+   "type": "Wearable",
+   "type_id": "kids-watch",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
+  },
   "SafeView, Inc.": {
    "type": "Camera",
    "type_id": "security-device",
@@ -145160,6 +146654,18 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-agents"
   },
+  "SambaNova Systems, Inc": {
+   "type": "Server",
+   "type_id": "server",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
+  "Samraj Technologies Limited": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
+  },
   "SamrtWings Home LLC": {
    "type": "Smart Home",
    "type_id": "smart-blinds",
@@ -145255,6 +146761,18 @@
    "type_id": "security-device",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Sanstreak Corp.": {
+   "type": "Camera",
+   "type_id": "digital-camera",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
+  "Santa Barbara Imaging Systems": {
+   "type": "Medical",
+   "type_id": "clinical-equipment",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "Santa Barbara Infrared, Inc.": {
    "type": "Industrial",
@@ -145651,6 +147169,12 @@
    "type_id": "two-way-radio",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Schoenberger Group GmbH": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "Schomaecker GmbH": {
    "type": "IoT",
@@ -146756,6 +148280,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Shanghai KEEY Group Co., Ltd": {
+   "type": "Industrial",
+   "type_id": "lighting-control",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
+  },
   "Shanghai KuanYu Industrial Network Equipment Co.,Ltd": {
    "type": "Industrial",
    "type_id": "industrial-switch",
@@ -147176,6 +148706,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
   },
+  "Shenzhen CoreAPT Technology Co., Ltd.": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
+  },
   "Shenzhen Coship Electronics Co., Ltd.": {
    "type": "Media Player",
    "type_id": "set-top-box",
@@ -147223,6 +148759,12 @@
    "type_id": "access-point",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Shenzhen Deasino Technology Co.,Ltd": {
+   "type": "Smart Home",
+   "type_id": "smart-lock",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "Shenzhen DreamSource Technology Co., Ltd.": {
    "type": "IoT",
@@ -147301,6 +148843,12 @@
    "type_id": "switch",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Shenzhen Fine Offset Electronics Co., Ltd.": {
+   "type": "Smart Home",
+   "type_id": "weather-station",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "Shenzhen First Mile Communications Ltd": {
    "type": "Modem",
@@ -147392,6 +148940,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Shenzhen Haojai Lianchuang Technology Co., Ltd": {
+   "type": "Smart Home",
+   "type_id": "smart-switch",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
+  },
   "Shenzhen Heiman Technology Co., Ltd.": {
    "type": "Smart Home",
    "type_id": "smoke-detector",
@@ -147481,6 +149035,12 @@
    "type_id": "ip-camera",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Shenzhen JISIM Technology Co.,Ltd.": {
+   "type": "Smart Home",
+   "type_id": "led-controller",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "Shenzhen Jimi loT Co.,Ltd": {
    "type": "IoT",
@@ -147662,6 +149222,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Shenzhen Qianyan Technology LTD": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.95,
+   "source": "research-2026-11-22-lighting"
+  },
   "Shenzhen Qihoo Intelligent Technology Co.,Ltd": {
    "type": "Wearable",
    "type_id": "kids-watch",
@@ -147686,6 +149252,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Shenzhen Realwe Innovation Technology Co., Ltd.": {
+   "type": "Smart Home",
+   "type_id": "smart-plug",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
+  },
   "Shenzhen Riitek Technology Co., Ltd": {
    "type": "Computer",
    "type_id": "keyboard",
@@ -147697,6 +149269,12 @@
    "type_id": "desktop",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Shenzhen Rundian Innovation Technology Co., Ltd.": {
+   "type": "Smart Home",
+   "type_id": "smart-lock",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
   },
   "Shenzhen SEI Robotics Co.,Ltd": {
    "type": "Media Player",
@@ -148664,6 +150242,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "Simon-Kaloi Engineering": {
+   "type": "Audio",
+   "type_id": "av-control",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Simpact Associates, Inc.": {
    "type": "Industrial",
    "type_id": "industrial-gateway",
@@ -148675,6 +150259,12 @@
    "type_id": "wireless-speaker",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "SimpleComTools": {
+   "type": "Industrial",
+   "type_id": "industrial-gateway",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "SimpleTech": {
    "type": "Computer",
@@ -148729,6 +150319,12 @@
    "type_id": "docking-station",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Sincair Systems International": {
+   "type": "Industrial",
+   "type_id": "industrial-device",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Sinclair Technologies": {
    "type": "IoT",
@@ -148850,6 +150446,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-agents"
   },
+  "Siteworx Software USA LLC": {
+   "type": "Industrial",
+   "type_id": "lighting-control",
+   "confidence": 0.85,
+   "source": "research-2026-11-22-lighting"
+  },
   "Sitronix": {
    "type": "Media Player",
    "type_id": "digital-photo-frame",
@@ -148970,6 +150572,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Skylux N.V.": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
+  },
   "Skymira": {
    "type": "IoT",
    "type_id": "two-way-radio",
@@ -149071,6 +150679,12 @@
    "type_id": "card-reader",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Smart DCC Ltd": {
+   "type": "Smart Home",
+   "type_id": "smart-meter",
+   "confidence": 0.92,
+   "source": "research-2026-11-22-lighting"
   },
   "Smart Systems LLC": {
    "type": "Smart Home",
@@ -149174,6 +150788,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "SmartSetup Systems PTY LTD": {
+   "type": "Smart Home",
+   "type_id": "smart-switch",
+   "confidence": 0.88,
+   "source": "research-2026-11-22-lighting"
+  },
   "SmartShare Systems": {
    "type": "Router",
    "type_id": "network-device",
@@ -149197,6 +150817,12 @@
    "type_id": "smart-hub",
    "confidence": 0.9,
    "source": "research-2026-09-13-agents"
+  },
+  "SmartWave Inc.": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "SmarteBuilding": {
    "type": "Industrial",
@@ -149564,6 +151190,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "Solidigm Technology": {
+   "type": "Storage",
+   "type_id": "mass-storage",
+   "confidence": 0.93,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Solidscape Inc": {
    "type": "Printer",
    "type_id": "3d-printer",
@@ -149810,6 +151442,12 @@
    "confidence": 0.85,
    "source": "curated"
   },
+  "Soraa Inc.": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Sorama BV": {
    "type": "Industrial",
    "type_id": "test-equipment",
@@ -149936,6 +151574,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Southern Tier Technologies": {
+   "type": "Industrial",
+   "type_id": "industrial-device",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Southern Vision Systems, Inc.": {
    "type": "Camera",
    "type_id": "camera",
@@ -150025,6 +151669,12 @@
    "type_id": "marine-electronics",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Spatial Hover Inc": {
+   "type": "IoT",
+   "type_id": "drone",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "Speaker Electronic(Jiashan) Co.,Ltd": {
    "type": "Audio",
@@ -150944,11 +152594,23 @@
    "confidence": 0.85,
    "source": "curated"
   },
+  "Subinitial LLC": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Subsea Systems, Inc.": {
    "type": "Camera",
    "type_id": "camera",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Sukces Technology Group – Dziemiańczuk sp.j.": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "Sullair Corporation": {
    "type": "Industrial",
@@ -151016,6 +152678,18 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "SunReports, Inc.": {
+   "type": "Smart Home",
+   "type_id": "energy-monitor",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
+  "SunSonic LLC": {
+   "type": "Smart Home",
+   "type_id": "smart-meter",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "SunTech Medical, Inc.": {
    "type": "Medical",
    "type_id": "blood-pressure-monitor",
@@ -151081,6 +152755,18 @@
    "type_id": "keyboard",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Sunrise Systems Electronics Co. Inc.": {
+   "type": "TV",
+   "type_id": "digital-signage",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
+  "Sunrise Technologies": {
+   "type": "Industrial",
+   "type_id": "street-lighting",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
   },
   "Sunsa, Inc": {
    "type": "Smart Home",
@@ -151460,6 +153146,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "Synapse": {
+   "type": "Industrial",
+   "type_id": "lighting-control",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Synaptec": {
    "type": "Industrial",
    "type_id": "grid-equipment",
@@ -151471,6 +153163,12 @@
    "type_id": "industrial-robot",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Syncopated Engineering Inc": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "Syndora Alto Technology Limited": {
    "type": "Medical",
@@ -151627,6 +153325,18 @@
    "type_id": "printer",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Systems Technologies": {
+   "type": "Medical",
+   "type_id": "clinical-equipment",
+   "confidence": 0.85,
+   "source": "research-2026-11-23-us-20y"
+  },
+  "Syswan Technologies Inc.": {
+   "type": "Router",
+   "type_id": "router",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Sütron Electronic GmbH": {
    "type": "Industrial",
@@ -152059,6 +153769,12 @@
    "type_id": "game-console",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "TECZZ LLC": {
+   "type": "Smart Home",
+   "type_id": "intercom",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "TEDIA spol. s r. o.": {
    "type": "Industrial",
@@ -152498,6 +154214,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "TMSI LLC": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "TMT&D Corporation": {
    "type": "Industrial",
    "type_id": "grid-equipment",
@@ -152726,6 +154448,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "TRANSLITE GLOBAL LLC": {
+   "type": "Media Player",
+   "type_id": "set-top-box",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "TRANSMITTON LTD.": {
    "type": "Industrial",
    "type_id": "industrial-device",
@@ -152785,6 +154513,12 @@
    "type_id": "radio-device",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "TRIMM, INC.": {
+   "type": "Industrial",
+   "type_id": "ups-power",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "TRINNOV AUDIO": {
    "type": "Audio",
@@ -153098,6 +154832,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "TX Technology Corp": {
+   "type": "Industrial",
+   "type_id": "industrial-device",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "TXMission Ltd.": {
    "type": "Modem",
    "type_id": "satellite-terminal",
@@ -153193,6 +154933,12 @@
    "type_id": "voip-phone",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Taelek Oy": {
+   "type": "Thermostat",
+   "type_id": "thermostat",
+   "confidence": 0.92,
+   "source": "research-2026-11-22-lighting"
   },
   "TagMaster AB": {
    "type": "IoT",
@@ -153482,6 +155228,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "TaskUnite Inc. (dba AMPAworks)": {
+   "type": "Camera",
+   "type_id": "camera",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Tata Power Company, Strategic Electronics Division": {
    "type": "IoT",
    "type_id": "radio-device",
@@ -153769,6 +155521,12 @@
    "type_id": "media-player",
    "confidence": 0.86,
    "source": "product-names"
+  },
+  "Techology, LLC": {
+   "type": "Router",
+   "type_id": "router",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Techsan Electronics Co Ltd": {
    "type": "Audio",
@@ -154712,6 +156470,12 @@
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
   },
+  "The Navvo Group": {
+   "type": "Audio",
+   "type_id": "wireless-speaker",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "The Nielsen Company": {
    "type": "Wearable",
    "type_id": "wearable-device",
@@ -154741,6 +156505,12 @@
    "type_id": "office-device",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "The Shadery, Inc.": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.86,
+   "source": "research-2026-11-22-lighting"
   },
   "The Signalling Company": {
    "type": "Automotive",
@@ -154979,8 +156749,8 @@
   "Third Reality, Inc": {
    "type": "Smart Home",
    "type_id": "home-sensor",
-   "confidence": 0.85,
-   "source": "research-2026-09-13-agents"
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "ThirdReality, Inc": {
    "type": "Smart Home",
@@ -154993,6 +156763,12 @@
    "type_id": "keyboard",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Thomas & Darden, Inc": {
+   "type": "Audio",
+   "type_id": "wireless-speaker",
+   "confidence": 0.93,
+   "source": "research-2026-11-23-us-20y"
   },
   "Thomas-Krenn.AG": {
    "type": "Server",
@@ -155348,6 +157124,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Token": {
+   "type": "Computer",
+   "type_id": "peripheral",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Tokimec Inc": {
    "type": "Automotive",
    "type_id": "marine-electronics",
@@ -155389,6 +157171,12 @@
    "type_id": "industrial-device",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Tolt Technologies LLC": {
+   "type": "Medical",
+   "type_id": "mobility-aid",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "TomTom": {
    "type": "Automotive",
@@ -156008,6 +157796,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Tresent Technologies": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Trevil srl": {
    "type": "Industrial",
    "type_id": "industrial-device",
@@ -156025,6 +157819,12 @@
    "type_id": "plc",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Tri-Tech Manufacturing, Inc.": {
+   "type": "TV",
+   "type_id": "display",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "Triacta Power Technologies Inc.": {
    "type": "Smart Home",
@@ -156181,6 +157981,12 @@
    "type_id": "motorcycle",
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
+  },
+  "Triumph SEC": {
+   "type": "Automotive",
+   "type_id": "avionics",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Trividia Health, Inc.": {
    "type": "Medical",
@@ -157286,6 +159092,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Unlimited Bandwidth LLC": {
+   "type": "Industrial",
+   "type_id": "industrial-gateway",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Unlimiterhear co.,ltd. taiwan branch": {
    "type": "Medical",
    "type_id": "hearing-aid",
@@ -157297,6 +159109,12 @@
    "type_id": "smartphone",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Unseen Reality Inc.": {
+   "type": "Wearable",
+   "type_id": "smart-glasses",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "Untangle, Inc.": {
    "type": "Router",
@@ -157315,6 +159133,12 @@
    "type_id": "wearable-device",
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
+  },
+  "Update Systems Inc.": {
+   "type": "Industrial",
+   "type_id": "industrial-device",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "Uplevel Systems Inc": {
    "type": "Router",
@@ -157748,6 +159572,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "VIZO Technology Corp.": {
+   "type": "Smart Home",
+   "type_id": "smart-hub",
+   "confidence": 0.88,
+   "source": "research-2026-11-22-lighting"
+  },
   "VIZPIN INC.": {
    "type": "Smart Home",
    "type_id": "access-control",
@@ -157795,6 +159625,12 @@
    "type_id": "voip-phone",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "VOCAL Technologies Ltd.": {
+   "type": "VoIP",
+   "type_id": "ata",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "VOLAMP, LTD.": {
    "type": "Audio",
@@ -157921,6 +159757,12 @@
    "type_id": "baby-monitor",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "VURO LLC": {
+   "type": "Camera",
+   "type_id": "dashcam",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "VUV Analytics, Inc.": {
    "type": "Industrial",
@@ -158138,6 +159980,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
   },
+  "Vector Atomic": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Vector Informatik GmbH": {
    "type": "Industrial",
    "type_id": "test-equipment",
@@ -158281,6 +160129,12 @@
    "type_id": "action-camera",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "VerLuce, Inc.": {
+   "type": "Smart Home",
+   "type_id": "smart-bulb",
+   "confidence": 0.92,
+   "source": "research-2026-11-22-lighting"
   },
   "Verathon": {
    "type": "Medical",
@@ -158479,6 +160333,12 @@
    "type_id": "test-equipment",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Vesperix Corporation": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Vestel Elektronik San ve Tic. A.S.": {
    "type": "TV",
@@ -158840,6 +160700,18 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Violin Technologies": {
+   "type": "Storage",
+   "type_id": "nas",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
+  "Viotec USA": {
+   "type": "Camera",
+   "type_id": "ip-camera",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Viper Innovations Ltd": {
    "type": "Industrial",
    "type_id": "industrial-device",
@@ -158881,6 +160753,12 @@
    "type_id": "test-equipment",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Virtium": {
+   "type": "Storage",
+   "type_id": "mass-storage",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "Virtual Ink": {
    "type": "Computer",
@@ -159344,6 +161222,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "VoxAura GmbH": {
+   "type": "Smart Home",
+   "type_id": "led-controller",
+   "confidence": 0.86,
+   "source": "research-2026-11-22-lighting"
+  },
   "Voyage Audio LLC": {
    "type": "Audio",
    "type_id": "microphone",
@@ -159494,6 +161378,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "WATTER": {
+   "type": "Appliance",
+   "type_id": "water-system",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
   "WAVECOM ELEKTRONIK AG": {
    "type": "IoT",
    "type_id": "radio-device",
@@ -159571,6 +161461,12 @@
    "type_id": "lighting-control",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "WHOI-AComms": {
+   "type": "Automotive",
+   "type_id": "marine-electronics",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "WHOOP": {
    "type": "Wearable",
@@ -159931,6 +161827,18 @@
    "type_id": "thermostat",
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
+  },
+  "Warner Technology Corp": {
+   "type": "Laptop",
+   "type_id": "laptop",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
+  "Warp9 Tech Design, Inc.": {
+   "type": "Industrial",
+   "type_id": "industrial-device",
+   "confidence": 0.93,
+   "source": "research-2026-11-23-us-20y"
   },
   "Wartsila Finland Oy": {
    "type": "Automotive",
@@ -160364,6 +162272,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "Welkin Sciences, LLC": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
+  },
   "WellSense Technologies": {
    "type": "Medical",
    "type_id": "medical-device",
@@ -160411,6 +162325,18 @@
    "type_id": "test-equipment",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Wenzhou Liwo Electric Limited": {
+   "type": "Smart Home",
+   "type_id": "smart-switch",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
+  },
+  "Wenzhou Morning Electronics Co., Ltd.": {
+   "type": "Smart Home",
+   "type_id": "smart-switch",
+   "confidence": 0.88,
+   "source": "research-2026-11-22-lighting"
   },
   "Wep Peripherals": {
    "type": "Printer",
@@ -160538,6 +162464,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
   },
+  "Wezlo Times Limited": {
+   "type": "Smart Home",
+   "type_id": "led-controller",
+   "confidence": 0.86,
+   "source": "research-2026-11-22-lighting"
+  },
   "Whaley Technology Co.Ltd": {
    "type": "TV",
    "type_id": "smart-tv",
@@ -160664,6 +162596,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "WiSuite USA": {
+   "type": "Thermostat",
+   "type_id": "thermostat",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
+  },
   "WiTricity Corporation": {
    "type": "Smart Home",
    "type_id": "ev-charger",
@@ -160687,6 +162625,12 @@
    "type_id": "audio-video-device",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "Wideband Labs LLC": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "Wideband Systems, Inc.": {
    "type": "Industrial",
@@ -160885,6 +162829,12 @@
    "type_id": "audio-video-device",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "WiredIQ, LLC": {
+   "type": "Router",
+   "type_id": "firewall",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "Wireless CCTV Ltd": {
    "type": "Camera",
@@ -161792,6 +163742,18 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-agents"
   },
+  "Xthings Industry LLC": {
+   "type": "Smart Home",
+   "type_id": "smart-lock",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
+  },
+  "Xtra Technology LLC": {
+   "type": "Camera",
+   "type_id": "action-camera",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "Xtramus Technologies": {
    "type": "Industrial",
    "type_id": "test-equipment",
@@ -162061,6 +164023,12 @@
    "type_id": "weapon-sensor",
    "confidence": 0.95,
    "source": "research-2026-09-13-agents"
+  },
+  "Yardi Systems Inc.": {
+   "type": "Smart Home",
+   "type_id": "smart-hub",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
   },
   "Yardney Technical Products Inc.": {
    "type": "Industrial",
@@ -162908,6 +164876,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
   },
+  "Zhejiang General Light Curtain Co.,Ltd.": {
+   "type": "Smart Home",
+   "type_id": "smart-blinds",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
+  },
   "Zhejiang Haikang Science And Technology Co.,Ltd": {
    "type": "Camera",
    "type_id": "ip-camera",
@@ -163082,6 +165056,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "Zhuhai Shengchang Electronics Co., Ltd.": {
+   "type": "Smart Home",
+   "type_id": "led-controller",
+   "confidence": 0.9,
+   "source": "research-2026-11-22-lighting"
+  },
   "Zhuhai Unitech Power Technology Co., Ltd.": {
    "type": "Industrial",
    "type_id": "grid-equipment",
@@ -163117,6 +165097,12 @@
    "type_id": "av-control",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "Zigencorp, Inc": {
+   "type": "Audio",
+   "type_id": "av-control",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
   },
   "Zilica Limited": {
    "type": "Audio",
@@ -163321,6 +165307,12 @@
    "type_id": "test-equipment",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "Zymbit": {
+   "type": "Computer",
+   "type_id": "computer",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "Zynex Monitoring Solutions": {
    "type": "Medical",
@@ -163567,6 +165559,12 @@
    "type_id": "intercom",
    "confidence": 0.95,
    "source": "research-2026-09-13-wave3"
+  },
+  "comtime GmbH": {
+   "type": "Router",
+   "type_id": "cellular-router",
+   "confidence": 0.9,
+   "source": "research-2026-11-23-us-20y"
   },
   "congatec GmbH": {
    "type": "Computer",
@@ -164144,6 +166142,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-agents"
   },
+  "hanshow America Inc.": {
+   "type": "IoT",
+   "type_id": "electronic-shelf-label",
+   "confidence": 0.92,
+   "source": "research-2026-11-23-us-20y"
+  },
   "happybrush GmbH": {
    "type": "Appliance",
    "type_id": "personal-care",
@@ -164221,6 +166225,12 @@
    "type_id": "ip-camera",
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
+  },
+  "i-mate Development, Inc.": {
+   "type": "Phone",
+   "type_id": "smartphone",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "i-rocks": {
    "type": "VoIP",
@@ -164606,6 +166616,12 @@
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
   },
+  "iolo AG": {
+   "type": "Smart Home",
+   "type_id": "smart-switch",
+   "confidence": 0.92,
+   "source": "research-2026-11-22-lighting"
+  },
   "ionSign Oy": {
    "type": "Smart Home",
    "type_id": "energy-monitor",
@@ -164773,6 +166789,12 @@
    "type_id": "industrial-device",
    "confidence": 0.85,
    "source": "research-2026-09-13-wave3"
+  },
+  "midBit Technologies, LLC": {
+   "type": "Industrial",
+   "type_id": "test-equipment",
+   "confidence": 0.93,
+   "source": "research-2026-11-23-us-20y"
   },
   "million hunters GmbH": {
    "type": "IoT",
@@ -165242,6 +167264,12 @@
    "confidence": 0.9,
    "source": "research-2026-09-13-wave3"
   },
+  "tickIoT Inc.": {
+   "type": "Router",
+   "type_id": "cellular-router",
+   "confidence": 0.88,
+   "source": "research-2026-11-23-us-20y"
+  },
   "tinnos": {
    "type": "Automotive",
    "type_id": "car-infotainment",
@@ -165319,6 +167347,12 @@
    "type_id": "e-scooter",
    "confidence": 0.9,
    "source": "research-2026-09-13-agents"
+  },
+  "upscale ai": {
+   "type": "Switch",
+   "type_id": "switch",
+   "confidence": 0.86,
+   "source": "research-2026-11-23-us-20y"
   },
   "viZaar industrial imaging AG": {
    "type": "Industrial",
